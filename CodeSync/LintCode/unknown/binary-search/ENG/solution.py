@@ -3,10 +3,10 @@
 # URL: https://www.lintcode.com/problem/159/
 # Language: Python
 # Difficulty: Unknown
-# Topics: Binary Search, Test Data Test Output
+# Topics: Binary Search, Test Data Commit Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-05-29T15:42:57.326Z
+# Synced: 2026-05-29T15:43:04.268Z
 
 public·class·Solution·{
 ····public·int·findMin(int[]·nums)·{
