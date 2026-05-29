@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/
-- Synced: 2026-05-29T20:14:41.094Z
+- Problem URL: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+- Synced: 2026-05-29T20:14:57.104Z
 
 ## Problem Description
 
