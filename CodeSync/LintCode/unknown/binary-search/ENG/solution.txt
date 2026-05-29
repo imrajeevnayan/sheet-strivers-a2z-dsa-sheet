@@ -4,10 +4,10 @@
  * URL: https://www.lintcode.com/problem/62/
  * Language: k
  * Difficulty: Unknown
- * Topics: Binary Search, Test Data Test Output
+ * Topics: Binary Search, Test Data Test Output, Quick SelectSort Medium, Quick SelectSort, Quick Select, Sort, Stack Medium, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T18:12:36.602Z
+ * Synced: 2026-05-29T18:12:39.754Z
  */
 
 public·class·Solution·{
