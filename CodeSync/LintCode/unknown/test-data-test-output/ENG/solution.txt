@@ -2,12 +2,12 @@
  * Platform: LintCode
  * Problem: ENG
  * URL: https://www.lintcode.com/problem/62/
- * Language: Kth mi
+ * Language: Kth Missing Positive Number
  * Difficulty: Unknown
- * Topics: Binary Search, Test Data Test Output, Binary Search Hard
+ * Topics: Binary Search, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T18:13:35.597Z
+ * Synced: 2026-05-29T18:15:01.665Z
  */
 
 public·class·Solution·{
