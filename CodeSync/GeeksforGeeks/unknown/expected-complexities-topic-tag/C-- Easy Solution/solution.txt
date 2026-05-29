@@ -7,7 +7,7 @@
  * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Java, Queue, STL, Java-Collections, Data Structures
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T20:32:45.873Z
+ * Synced: 2026-05-29T20:32:48.057Z
  */
 
 class Solution {
