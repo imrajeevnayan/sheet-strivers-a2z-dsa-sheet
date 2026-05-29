@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/rotated-array_1093219
-- Synced: 2026-05-29T16:20:03.504Z
+- Synced: 2026-05-29T16:20:08.225Z
 
 ## Problem Description
 
