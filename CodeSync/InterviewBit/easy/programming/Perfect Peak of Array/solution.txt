@@ -4,10 +4,10 @@
  * URL: https://www.interviewbit.com/problems/perfect-peak-of-array/
  * Language: Text
  * Difficulty: Easy
- * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Noble Integer 43 Minutes Easy Asked in:, 51.4%
+ * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Noble Integer 43 Minutes Easy Asked in:, Pick from both sides! Very Easy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T20:18:44.579Z
+ * Synced: 2026-05-29T20:18:49.055Z
  */
 
 int[] leftMax = new int[n];
