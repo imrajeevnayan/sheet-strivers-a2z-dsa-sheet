@@ -1,0 +1,23 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: C++ Easy Solution::
+ * URL: https://www.geeksforgeeks.org/problems/insertion-in-deque/1
+ * Language: class Solution { public: // Function to insert all elements of the array in deque. deque<int> deque_Init(int a[], int n) { return {a, a+n}; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Java, Queue, STL, Java-Collections, Data Structures
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-29T20:32:45.873Z
+ */
+
+class Solution {
+    public Deque<Integer> dqInsertion(List<Integer> arr) {
+        Deque<Integer> dq = new ArrayDeque<>();
+
+        for (int x : arr) {
+            dq.addLast(x);
+        }
+
+        return dq;
+    }
+}
