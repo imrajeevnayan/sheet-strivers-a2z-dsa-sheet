@@ -7,10 +7,7 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Noble Integer 43 Minutes Easy Asked in:, 51.4%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T20:18:32.010Z
+ * Synced: 2026-05-29T20:18:34.591Z
  */
 
-public class Solution {
-    public int perfectPeak(int[] A) {
-    }
-}
+A = [5, 1, 4, 3, 6, 8, 10, 7, 9]
