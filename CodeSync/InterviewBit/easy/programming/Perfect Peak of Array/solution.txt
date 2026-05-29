@@ -1,0 +1,16 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Perfect Peak of Array
+ * URL: https://www.interviewbit.com/problems/perfect-peak-of-array/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Noble Integer 43 Minutes Easy Asked in:, 51.4%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-29T20:18:15.601Z
+ */
+
+public class Solution {
+    public int perfectPeak(int[] A) {
+    }
+}
