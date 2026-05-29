@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.interviewbit.com/problems/array-sum/
-- Synced: 2026-05-29T20:20:43.632Z
+- Synced: 2026-05-29T20:20:47.340Z
 
 ## Problem Description
 
