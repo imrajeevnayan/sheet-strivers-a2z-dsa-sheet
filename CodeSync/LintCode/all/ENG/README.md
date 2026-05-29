@@ -1,13 +1,13 @@
 # ENG
 
 - Platform: LintCode
-- Language: k
+- Language: Kth
 - Difficulty: Unknown
-- Topics: Binary Search, Test Data Test Output
+- Topics: Binary Search, Test Data Test Output, Quick SelectSort Medium, Quick SelectSort, Quick Select, Sort, HeapQuick SelectSort Medium, HeapQuick SelectSort
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/62/
-- Synced: 2026-05-29T18:12:36.602Z
+- Synced: 2026-05-29T18:13:32.340Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Suppose a sorted array is rotated at some pivot unknown to you befor
 
 ## Explanation
 
-This solution was accepted on LintCode using k. The detected topics are Binary Search, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Kth. The detected topics are Binary Search, Test Data Test Output, Quick SelectSort Medium, Quick SelectSort, Quick Select, Sort, HeapQuick SelectSort Medium, HeapQuick SelectSort. Review the synced source file for the implementation details.
