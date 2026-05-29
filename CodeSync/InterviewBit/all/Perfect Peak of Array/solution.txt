@@ -7,7 +7,7 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Noble Integer 43 Minutes Easy Asked in:, Pick from both sides! Very Easy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T20:18:49.055Z
+ * Synced: 2026-05-29T20:20:16.873Z
  */
 
 int[] leftMax = new int[n];
@@ -28,10 +28,11 @@ int[] leftMax = new int[n];
         // Check for perfect peak
         for (int i = 1; i < n - 1; i++) {
             if (A[i] > leftMax[i - 1] && A[i] < rightMin[i + 1]) {
-                return 1;
-            }
         }
+        if (n < 3) {
+            return 0;
+        // A peak cannot exist if size < 3
+        int n = A.length;
 
-        return 0;
-    }
-}
+    public int perfectPeak(int[] A) {
+public class Solution {
