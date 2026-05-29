@@ -1,0 +1,20 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Print Binary Tree levels in sorted order
+ * URL: https://www.geeksforgeeks.org/problems/print-binary-tree-levels-in-sorted-order3241/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Topic Tags Related Articles, Topic Tags, Sorting, Queue, Tree, priority-queue, Data Structures, Algorithms
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-29T20:33:52.441Z
+ */
+
+// User function Template for Java
+
+class Solution {
+    public static ArrayList<ArrayList<Integer>> binTreeSortedLevels(int arr[], int n) {
+        // your code here
+        
+    }
+}
