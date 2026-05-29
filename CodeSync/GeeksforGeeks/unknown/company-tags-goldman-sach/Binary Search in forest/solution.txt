@@ -1,0 +1,15 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Binary Search in forest
+ * URL: https://www.geeksforgeeks.org/problems/binary-search-in-forest--141631/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Arrays, Binary Search, Data Structures, Algorithms
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-29T19:04:40.393Z
+ */
+
+class Solution {
+    static int find_height(int tree[], int n, int k) {}
+}
