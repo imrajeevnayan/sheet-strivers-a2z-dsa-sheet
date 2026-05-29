@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Amazon, OYO Rooms, Walmart, Google
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T20:11:33.742Z
+ * Synced: 2026-05-29T20:11:45.759Z
  */
 
 class Solution {
