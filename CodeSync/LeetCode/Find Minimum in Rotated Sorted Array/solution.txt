@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T15:20:45.793Z
+ * Synced: 2026-05-29T15:20:50.646Z
  */
 
 class Solution {
@@ -18,7 +18,8 @@ class Solution {
             if(nums[mid]> nums[0])start=mid+1;
             else{
         }
-                ans=
+                ans=nums[mid];
             }
     }
+                
 }
