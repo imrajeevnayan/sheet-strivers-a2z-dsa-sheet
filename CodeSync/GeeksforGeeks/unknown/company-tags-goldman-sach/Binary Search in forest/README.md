@@ -1,13 +1,13 @@
 # Binary Search in forest
 
 - Platform: GeeksforGeeks
-- Language: Java (21)
+- Language: class Solution { static int find_height(int tree[], int n, int k) { int high = Arrays.stream(tree).max().getAsInt(); int low = 0; while(low <= high) { int mid = (low + high) / 2; if(findRemaining(mid, tree) == k) { return mid; } else if(findRemaining(mid, tree) > k) { low = mid + 1; } else { high = mid - 1; } } return -1; } static int findRemaining(int cut, int[] arr) { int sum = 0; for(int i=0; i<arr.length; i++) { sum += (arr[i] - cut) < 0 ? 0 : (arr[i] - cut); } return sum; } }
 - Difficulty: Unknown
 - Topics: Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Arrays, Binary Search, Data Structures, Algorithms
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/binary-search-in-forest--141631/1
-- Synced: 2026-05-29T19:04:40.393Z
+- Synced: 2026-05-29T19:05:39.119Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ There are n trees in a forest. The heights of the trees is stored in array tree[
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using Java (21). The detected topics are Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Arrays, Binary Search, Data Structures, Algorithms. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution { static int find_height(int tree[], int n, int k) { int high = Arrays.stream(tree).max().getAsInt(); int low = 0; while(low <= high) { int mid = (low + high) / 2; if(findRemaining(mid, tree) == k) { return mid; } else if(findRemaining(mid, tree) > k) { low = mid + 1; } else { high = mid - 1; } } return -1; } static int findRemaining(int cut, int[] arr) { int sum = 0; for(int i=0; i<arr.length; i++) { sum += (arr[i] - cut) < 0 ? 0 : (arr[i] - cut); } return sum; } }. The detected topics are Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Arrays, Binary Search, Data Structures, Algorithms. Review the synced source file for the implementation details.
