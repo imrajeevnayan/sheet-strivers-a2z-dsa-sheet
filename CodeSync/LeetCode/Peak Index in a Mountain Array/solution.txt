@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Peak Index in a Mountain Array
- * URL: https://leetcode.com/problems/peak-index-in-a-mountain-array/description/
+ * URL: https://leetcode.com/problems/peak-index-in-a-mountain-array/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T10:42:05.986Z
+ * Synced: 2026-05-29T10:42:07.555Z
  */
 
 class Solution {
