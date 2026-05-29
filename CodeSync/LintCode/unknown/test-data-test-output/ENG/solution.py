@@ -1,0 +1,35 @@
+# Platform: LintCode
+# Problem: ENG
+# URL: https://www.lintcode.com/problem/62/
+# Language: Python
+# Difficulty: Unknown
+# Topics: Binary Search, Test Data Test Output
+# Runtime: N/A
+# Memory: N/A
+# Synced: 2026-05-29T16:23:49.903Z
+
+public·class·Solution·{
+····public·int·search(int[]·a,·int·target)·{
+········int·left·=·0,right·=·a.length·-·1;
+········while·(left·<=·right)·{
+············int·mid·=·left·+·(right·-·left)·/·2;
+············if·(a[mid]·==·target)·return·mid;
+············//·Left·half·is·sorted
+············if·(a[left]·<=·a[mid])·{
+················//·Target·lies·in·left·half
+················if·(target·>=·a[left]·&&·target·<·a[mid])·right·=·mid·-·1;
+················else·left·=·mid·+·1;
+············}·
+············//·Right·half·is·sorted
+············else·{
+················//·Target·lies·in·right·half
+················if·(target·>·a[mid]·&&·target·<=·a[right])·{
+····················left·=·mid·+·1;
+················}·else·{
+····················right·=·mid·-·1;
+················}
+············}
+········}
+········return·-1;
+····}
+}
