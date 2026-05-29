@@ -7,7 +7,7 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Noble Integer 43 Minutes Easy Asked in:, 51.4%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T20:18:36.588Z
+ * Synced: 2026-05-29T20:18:39.593Z
  */
 
 int[] leftMax = new int[n];
