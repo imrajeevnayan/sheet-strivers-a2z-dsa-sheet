@@ -7,7 +7,7 @@
  * Topics: Medium Topics Company Tags Hints, Topics, Company Tags, Hints, Array Binary Search, Array, Binary Search
  * Runtime: 92ms
  * Memory: 63 MB
- * Synced: 2026-05-29T17:53:15.019Z
+ * Synced: 2026-05-29T17:54:58.317Z
  */
 
 if (nums[left] <= nums[mid]) {
