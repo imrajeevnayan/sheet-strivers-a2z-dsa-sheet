@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-05-29T20:32:45.873Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities Topic Tags",
+    "Expected Complexities",
+    "Topic Tags",
+    "Java",
+    "Queue",
+    "STL",
+    "Java-Collections",
+    "Data Structures"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: // Function to insert all elements of the array in deque. deque<int> deque_Init(int a[], int n) { return {a, a+n}; } };",
+  "problemTitle": "C++ Easy Solution::",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/insertion-in-deque/1",
+  "submissionId": "kgxia1"
+}
