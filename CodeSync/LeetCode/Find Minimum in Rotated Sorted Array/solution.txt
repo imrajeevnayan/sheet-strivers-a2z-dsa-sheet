@@ -7,11 +7,11 @@
  * Topics: Array, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T15:16:56.644Z
+ * Synced: 2026-05-29T15:17:09.651Z
  */
 
 class Solution {
     public int findMin(int[] nums) {
-        int st
+        int start=0,end=nums.length-1;
     }
 }
