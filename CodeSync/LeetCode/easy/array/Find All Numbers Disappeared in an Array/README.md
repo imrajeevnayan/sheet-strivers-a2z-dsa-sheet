@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Hash Table
-- Runtime: 22 ms
-- Memory: 74.57 MB
-- Problem URL: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/submissions/1900117968/
-- Synced: 2026-05-29T20:14:49.850Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
+- Synced: 2026-05-29T20:14:57.104Z
 
 ## Problem Description
 
