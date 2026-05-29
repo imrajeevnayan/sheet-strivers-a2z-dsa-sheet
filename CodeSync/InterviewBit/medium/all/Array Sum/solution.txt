@@ -7,10 +7,33 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Noble Integer 43 Minutes Easy Asked in:, 69.9%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T20:20:47.340Z
+ * Synced: 2026-05-29T20:21:18.623Z
  */
 
-public class Solution {
-    public int[] addArrays(int[] A, int[] B) {
-    }
-}
+if (i >= 0) {
+                sum += A[i];
+                i--;
+            }
+
+            if (j >= 0) {
+                sum += B[j];
+                j--;
+            }
+
+            list.add(sum % 10);
+            carry = sum / 10;
+            int sum = carry;
+
+
+        while (i >= 0 || j >= 0 || carry > 0) {
+
+        }
+
+        // Reverse result
+        Collections.reverse(list);
+
+        int[] ans = new int[list.size()];
+
+        for (int k = 0; k < list.size(); k++) {
+            ans[k] = list.get(k);
+        }
