@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/binary-search-in-forest--141631/1
-- Synced: 2026-05-29T19:05:39.119Z
+- Synced: 2026-05-29T19:06:59.210Z
 
 ## Problem Description
 
