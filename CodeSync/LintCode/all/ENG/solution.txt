@@ -2,12 +2,12 @@
  * Platform: LintCode
  * Problem: ENG
  * URL: https://www.lintcode.com/problem/62/
- * Language: k
+ * Language: Kth
  * Difficulty: Unknown
- * Topics: Binary Search, Test Data Test Output
+ * Topics: Binary Search, Test Data Test Output, Quick SelectSort Medium, Quick SelectSort, Quick Select, Sort, HeapQuick SelectSort Medium, HeapQuick SelectSort
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T18:12:36.602Z
+ * Synced: 2026-05-29T18:13:32.340Z
  */
 
 public·class·Solution·{
