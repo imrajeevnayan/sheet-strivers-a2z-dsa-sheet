@@ -3,11 +3,11 @@
 - Platform: LintCode
 - Language: Python
 - Difficulty: Unknown
-- Topics: Binary Search, Test Data Test Output
+- Topics: Binary Search, Test Data Commit Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/159/
-- Synced: 2026-05-29T15:42:57.326Z
+- Synced: 2026-05-29T15:43:04.268Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Suppose a sorted array in ascending order is rotated at some pivot u
 
 ## Explanation
 
-This solution was accepted on LintCode using Python. The detected topics are Binary Search, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Python. The detected topics are Binary Search, Test Data Commit Output. Review the synced source file for the implementation details.
