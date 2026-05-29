@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-05-29T20:28:11.366Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities Topic Tags",
+    "Expected Complexities",
+    "Topic Tags",
+    "Stack",
+    "Data Structures"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "import java.util.Stack; class Solution { // Function to push an element into the stack. void insert(Stack<Integer> s, int x) { s.push(x); } // Function to remove top element from stack. void remove(Stack<Integer> s) { if (!s.isEmpty()) { s.pop(); } } // Function to print the top element of stack. void headOf_Stack(Stack<Integer> s) { if (!s.isEmpty()) { System.out.println(s.peek()); } else { System.out.println(-1); } } // Function to search an element in the stack. boolean find(Stack<Integer> s, int val) { return s.contains(val); // KEY FIX } }",
+  "problemTitle": "Operations on Stack",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/operations-on-stack/1",
+  "submissionId": "fwz2oz"
+}
