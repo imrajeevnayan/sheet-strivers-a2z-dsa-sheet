@@ -1,0 +1,37 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Perfect Peak of Array
+ * URL: https://www.interviewbit.com/problems/perfect-peak-of-array/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Noble Integer 43 Minutes Easy Asked in:, Pick from both sides! Very Easy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-29T20:18:49.055Z
+ */
+
+int[] leftMax = new int[n];
+        int[] rightMin = new int[n];
+
+        // Build leftMax array
+        leftMax[0] = A[0];
+        for (int i = 1; i < n; i++) {
+            leftMax[i] = Math.max(leftMax[i - 1], A[i]);
+        }
+
+        // Build rightMin array
+        rightMin[n - 1] = A[n - 1];
+        for (int i = n - 2; i >= 0; i--) {
+            rightMin[i] = Math.min(rightMin[i + 1], A[i]);
+        }
+
+        // Check for perfect peak
+        for (int i = 1; i < n - 1; i++) {
+            if (A[i] > leftMax[i - 1] && A[i] < rightMin[i + 1]) {
+                return 1;
+            }
+        }
+
+        return 0;
+    }
+}
