@@ -1,0 +1,43 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: 1D DP - Optimal Approach - O(n) Space
+ * URL: https://www.geeksforgeeks.org/problems/stickler-theif-1587115621/1
+ * Language: class Solution: def findMaxSum(self, arr): # code here prev2 = 0 prev = arr[0] for i in range(1, len(arr)): take = arr[i] + prev2 not_take = prev prev2 = prev prev = max(take, not_take) return prev
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Amazon, OYO Rooms, Walmart, Google
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-29T20:11:33.742Z
+ */
+
+class Solution {
+    public int findMaxSum(int arr[]) {
+        int n = arr.length;
+        int[] dp = new int[n];
+
+        Arrays.fill(dp, -1);
+
+        return solve(arr, 0, dp);
+    }
+
+    private int solve(int[] arr, int idx, int[] dp) {
+        // Base case
+        if (idx >= arr.length) {
+            return 0;
+        }
+
+        // Already computed
+        if (dp[idx] != -1) {
+            return dp[idx];
+        }
+
+        // Take current element
+        int take = arr[idx] + solve(arr, idx + 2, dp);
+
+        // Skip current element
+        int skip = solve(arr, idx + 1, dp);
+
+        // Store and return answer
+        return dp[idx] = Math.max(take, skip);
+    }
+}
