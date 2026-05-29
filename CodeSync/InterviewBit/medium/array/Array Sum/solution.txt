@@ -7,7 +7,7 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Noble Integer 43 Minutes Easy Asked in:, 69.9%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T20:21:07.339Z
+ * Synced: 2026-05-29T20:21:11.381Z
  */
 
 if (i >= 0) {
@@ -34,7 +34,7 @@ if (i >= 0) {
 
         int i = n - 1;
         int m = B.length;
-
         int n = A.length;
     public int[] addArrays(int[] A, int[] B) {
 public class Solution {
+        }
