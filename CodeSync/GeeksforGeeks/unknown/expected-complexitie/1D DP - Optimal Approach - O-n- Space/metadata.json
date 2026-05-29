@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-05-29T20:11:33.742Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Paytm",
+    "Flipkart",
+    "Amazon",
+    "OYO Rooms",
+    "Walmart",
+    "Google"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def findMaxSum(self, arr): # code here prev2 = 0 prev = arr[0] for i in range(1, len(arr)): take = arr[i] + prev2 not_take = prev prev2 = prev prev = max(take, not_take) return prev",
+  "problemTitle": "1D DP - Optimal Approach - O(n) Space",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/stickler-theif-1587115621/1",
+  "submissionId": "z35f5n"
+}
