@@ -1,0 +1,112 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: House Robber
+ * URL: https://www.geeksforgeeks.org/dsa/find-maximum-possible-stolen-value-houses/
+ * Language: {...} //Driver Code Starts #include <iostream> #include <vector> using namespace std; //Driver Code Ends // Calculate the maximum stolen value recursively int findMaxSumRec(vector<int> &arr, int n) { // If no houses are left, return 0. if (n <= 0) return 0; // If only 1 house is left, rob it. if (n == 1) return arr[0]; // Two Choices: Rob the nth house and do not rob the nth house int pick = arr[n - 1] + findMaxSumRec(arr, n - 2); int notPick = findMaxSumRec(arr, n - 1); // Return the max of two choices return max(pick, notPick); } // Function to calculate the maximum stolen value int findMaxSum(vector<int>&arr) { int n = arr.size(); // Call the recursive function for n houses return findMaxSumRec(arr, n); } {...} //Driver Code Starts int main() { vector<int> arr = {6, 7, 1, 3, 8, 2, 4}; cout << findMaxSum(arr); return 0; } //Driver Code Ends
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-29T20:10:40.220Z
+ */
+
+↔​
+​
+// Calculate the maximum stolen value recursively
+int findMaxSumRec(vector<int> &arr, int n) {
+    
+    // If no houses are left, return 0.
+    if (n <= 0)  return 0;
+  
+    // If only 1 house is left, rob it. 
+    if (n == 1)  return arr[0];
+​
+    // Two Choices: Rob the nth house and do not rob the nth house 
+    int pick = arr[n - 1] + findMaxSumRec(arr, n - 2);
+    int notPick = findMaxSumRec(arr, n - 1);
+​
+    // Return the max of two choices
+    return max(pick, notPick);
+}
+​
+// Function to calculate the maximum stolen value
+int findMaxSum(vector<int>&arr) {
+    int n = arr.size();
+    
+    // Call the recursive function for n houses
+    return findMaxSumRec(arr, n);
+}
+​
+↔​
+↔​
+​
+int findMaxSumRec( vector<int>& arr, int n, vector<int>& memo) {
+  
+    if (n <= 0) return 0;
+    if (n == 1) return arr[0];
+​
+    // Check if the result is already computed
+    if (memo[n] != -1) return memo[n];
+​
+    int pick = arr[n - 1] + findMaxSumRec(arr, n - 2, memo);
+    int notPick = findMaxSumRec(arr, n - 1, memo);
+​
+    // Store the max of two choices in the memo array and return it
+    memo[n] = max(pick, notPick);
+    return memo[n];
+}
+​
+int findMaxSum(vector<int>& arr) {
+    int n = arr.size();
+  
+    // Initialize memo array with -1
+    vector<int> memo(n + 1, -1); 
+    return findMaxSumRec(arr, n, memo);
+}
+​
+↔​
+↔​
+​
+int findMaxSum(vector<int>& arr) {
+    int n = arr.size();
+  
+    // Create a dp array to store the maximum loot at each house
+    vector<int> dp(n+1, 0);
+​
+    // Base cases
+    dp[0] = 0;
+    dp[1] = arr[0];
+​
+    // Fill the dp array using the bottom-up approach
+    for (int i = 2; i <= n; i++) 
+        dp[i] = max(arr[i - 1] + dp[i - 2], dp[i - 1]);
+​
+    return dp[n];
+}
+​
+↔​
+↔​
+​
+int findMaxSum(vector<int> &arr) {
+    int n = arr.size();
+​
+    if (n == 0)
+        return 0;
+    if (n == 1)
+        return arr[0];
+​
+    // Set previous 2 values
+    int secondLast = 0, last = arr[0];
+​
+    // Compute current value using previous two values
+    // The final current value would be our result
+    int res;
+    for (int i = 1; i < n; i++) {
+        res = max(arr[i] + secondLast, last);
+        secondLast = last;
+        last = res;
+    }
+    return res;
+}
+​
+↔​
