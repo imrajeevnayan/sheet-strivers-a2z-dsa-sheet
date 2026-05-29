@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-05-29T20:15:25.487Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-05-29T20:16:01.283Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find All Numbers Disappeared in an Array",
-  "problemUrl": "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/",
+  "problemUrl": "https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/submissions/2016754187/",
   "submissionId": "ngluw"
 }
