@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.interviewbit.com/problems/perfect-peak-of-array/
-- Synced: 2026-05-29T20:18:34.591Z
+- Synced: 2026-05-29T20:18:36.588Z
 
 ## Problem Description
 
