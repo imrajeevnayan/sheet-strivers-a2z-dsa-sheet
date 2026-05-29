@@ -4,10 +4,10 @@
 - Language: n
 - Difficulty: Medium
 - Topics: Medium Topics Company Tags Hints, Topics, Company Tags, Hints, Array Binary Search, Array, Binary Search
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://neetcode.io/problems/find-target-in-rotated-sorted-array/question?list=neetcode150
-- Synced: 2026-05-29T17:53:08.417Z
+- Runtime: 92ms
+- Memory: 63 MB
+- Problem URL: https://neetcode.io/problems/find-target-in-rotated-sorted-array/history?list=neetcode150&submissionIndex=0
+- Synced: 2026-05-29T17:54:58.317Z
 
 ## Problem Description
 
