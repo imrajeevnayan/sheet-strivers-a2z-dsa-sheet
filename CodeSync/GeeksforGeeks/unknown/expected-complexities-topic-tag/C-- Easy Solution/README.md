@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/insertion-in-deque/1
-- Synced: 2026-05-29T20:32:45.873Z
+- Synced: 2026-05-29T20:32:48.057Z
 
 ## Problem Description
 
