@@ -1,15 +1,21 @@
 {
-  "submissionTimestamp": "2026-05-29T15:42:49.202Z",
+  "submissionTimestamp": "2026-05-29T16:18:25.247Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Algorithms Medium",
-    "View Problem"
+    "Highlight",
+    "More",
+    "Python 3 Java C++",
+    "Python 3",
+    "Java",
+    "C++",
+    "JavaScript",
+    "@param"
   ],
   "platform": "LintCode",
-  "language": "Java",
+  "language": "ALL(83) Python 3(41) Java(29) C++(12) Csharp(2) JavaScript(2) Go(1)",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/submission/34586558/?action_type=1",
-  "submissionId": "c5tck"
+  "problemUrl": "https://www.lintcode.com/problem/62/solution/93735",
+  "submissionId": "x005fo"
 }
