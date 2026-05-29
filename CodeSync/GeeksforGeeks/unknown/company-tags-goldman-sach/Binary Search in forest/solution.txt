@@ -7,15 +7,37 @@
  * Topics: Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Arrays, Binary Search, Data Structures, Algorithms
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T19:06:59.210Z
+ * Synced: 2026-05-29T19:07:04.867Z
  */
 
-Input:
-n = 5, k = 4
-tree[] = {2, 3, 6, 2, 4}
-Output: 3
-Explanation: Wood collected by cutting trees
-at height 3 = 0 + 0 + (6-3) + 0 + (4-3) = 4
-hence 3 is to be subtracted from all numbers.
-Since 2 is lesser than 3, nothing gets
-subtracted from it.
+class Solution {
+    static int find_height(int tree[], int n, int k) {
+        int maxHeight = 0;
+        for (int h : tree) {
+            maxHeight = Math.max(maxHeight, h);
+        }
+        
+        int low = 0, high = maxHeight;
+        int ans = -1;
+        
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            long wood = 0;  // use long to avoid overflow
+            
+            for (int h : tree) {
+                if (h > mid) {
+                    wood += (h - mid);
+                }
+            }
+            
+            if (wood >= k) {
+                ans = mid;      // valid height, try higher cut
+                low = mid + 1;
+            } else {
+                high = mid - 1; // need more wood, lower the cut
+            }
+        }
+        
+        return ans;
+    }
+}
