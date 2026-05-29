@@ -1,15 +1,21 @@
 {
-  "submissionTimestamp": "2026-05-29T18:12:36.602Z",
+  "submissionTimestamp": "2026-05-29T18:13:32.340Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Binary Search",
-    "Test Data Test Output"
+    "Test Data Test Output",
+    "Quick SelectSort Medium",
+    "Quick SelectSort",
+    "Quick Select",
+    "Sort",
+    "HeapQuick SelectSort Medium",
+    "HeapQuick SelectSort"
   ],
   "platform": "LintCode",
-  "language": "k",
+  "language": "Kth",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/62/",
-  "submissionId": "i6ruj9"
+  "submissionId": "3afrpz"
 }
