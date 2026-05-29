@@ -1,0 +1,26 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Find Minimum in Rotated Sorted Array
+ * URL: https://www.naukri.com/code360/problems/rotated-array_1093219
+ * Language: Java (SE 1.8)
+ * Difficulty: Medium
+ * Topics: Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-29T16:20:08.225Z
+ */
+
+public class Solution {
+    public static int findMin(int []arr) {
+       int start=0,end=arr.length-1,ans=arr[0];
+       while(start<=end){
+           int mid=start+(end-start)/2;
+           if(arr[mid]>= arr[0])start=mid+1;
+           else{
+               ans=arr[mid];
+               end=mid-1;
+           }
+       }
+       return ans;
+    }
+}
