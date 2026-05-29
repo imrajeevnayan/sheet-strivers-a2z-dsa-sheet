@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-05-29T20:33:52.441Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Topic Tags Related Articles",
+    "Topic Tags",
+    "Sorting",
+    "Queue",
+    "Tree",
+    "priority-queue",
+    "Data Structures",
+    "Algorithms"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Print Binary Tree levels in sorted order",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/print-binary-tree-levels-in-sorted-order3241/1",
+  "submissionId": "pmkndb"
+}
