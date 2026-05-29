@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-05-29T19:20:09.670Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Array"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "def kthMissing(self, arr, k): # code here missing_count = 0 ind = -1 n = len(arr) low = 0 high = n - 1 if k < (arr[low] - (low + 1)): return k if k > (arr[high] - (high + 1)): return n + k while(low<=high): mid = low + (high - low)//2 missing_count = arr[mid] - (mid+1) if missing_count >= k: ind = mid high = mid - 1 else: low = mid + 1 if ind == 0: return k count1 = arr[ind - 1] - ind count2 = arr[ind] - (ind + 1) ans = arr[ind - 1] + (k - count1) return ans",
+  "problemTitle": "Kth Missing Positive Number in a Sorted Array",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/kth-missing-positive-number-in-a-sorted-array/1",
+  "submissionId": "kwsa73"
+}
