@@ -7,7 +7,7 @@
  * Topics: Array
  * Runtime: 3177 ms
  * Memory: N/A
- * Synced: 2026-05-29T16:21:55.404Z
+ * Synced: 2026-05-29T16:21:57.002Z
  */
 
 if (arr.get(mid) == k) return mid;
