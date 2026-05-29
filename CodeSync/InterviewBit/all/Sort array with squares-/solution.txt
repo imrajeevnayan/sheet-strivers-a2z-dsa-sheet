@@ -1,0 +1,16 @@
+/*
+ * Platform: InterviewBit
+ * Problem: Sort array with squares!
+ * URL: https://www.interviewbit.com/problems/sort-array-with-squares/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Noble Integer 43 Minutes Easy Asked in:, 72.1%
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-29T20:17:27.899Z
+ */
+
+public class Solution {
+    public int[] solve(int[] A) {
+    }
+}
