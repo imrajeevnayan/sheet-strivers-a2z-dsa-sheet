@@ -1,13 +1,13 @@
 # Course
 
 - Platform: LintCode
-- Language: Java
-- Difficulty: Medium
-- Topics: Algorithms Medium, View Problem
+- Language: ALL(83) Python 3(41) Java(29) C++(12) Csharp(2) JavaScript(2) Go(1)
+- Difficulty: Unknown
+- Topics: Highlight, More, Python 3 Java C++, Python 3, Java, C++, JavaScript, @param
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/submission/34586558/?action_type=1
-- Synced: 2026-05-29T15:42:49.202Z
+- Problem URL: https://www.lintcode.com/problem/62/solution/93735
+- Synced: 2026-05-29T16:18:25.247Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Course Problem Referral VIP CAT Contest Note More... Problems,tags,collection Sc
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are Algorithms Medium, View Problem. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using ALL(83) Python 3(41) Java(29) C++(12) Csharp(2) JavaScript(2) Go(1). The detected topics are Highlight, More, Python 3 Java C++, Python 3, Java, C++, JavaScript, @param. Review the synced source file for the implementation details.
