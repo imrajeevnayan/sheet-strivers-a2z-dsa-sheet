@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find All Numbers Disappeared in an Array
- * URL: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/description/
+ * URL: https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T20:14:41.094Z
+ * Synced: 2026-05-29T20:14:57.104Z
  */
 
 class Solution {
