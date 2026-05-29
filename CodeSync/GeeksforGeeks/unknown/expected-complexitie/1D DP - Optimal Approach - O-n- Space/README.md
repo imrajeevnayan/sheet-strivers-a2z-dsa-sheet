@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/stickler-theif-1587115621/1
-- Synced: 2026-05-29T20:11:33.742Z
+- Synced: 2026-05-29T20:11:45.759Z
 
 ## Problem Description
 
