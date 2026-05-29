@@ -7,17 +7,10 @@
  * Topics: Array
  * Runtime: 3177 ms
  * Memory: N/A
- * Synced: 2026-05-29T16:21:43.236Z
+ * Synced: 2026-05-29T16:21:48.456Z
  */
 
-import java.util.ArrayList;
- 
-public class Solution {
-    public static int search(ArrayList<Integer> arr, int n, int k) {
-        int left = 0,right = n - 1;
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            if (arr.get(mid) == k) return mid;
+if (arr.get(mid) == k) return mid;
             
  
             // Left half is sorted
@@ -39,3 +32,10 @@ public class Solution {
                     left = mid + 1;
                 } else {
                     right = mid - 1;
+            int mid = left + (right - left) / 2;
+        while (left <= right) {
+    public static int search(ArrayList<Integer> arr, int n, int k) {
+        int left = 0,right = n - 1;
+import java.util.ArrayList;
+ 
+public class Solution {
