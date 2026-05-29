@@ -1,21 +1,15 @@
 {
-  "submissionTimestamp": "2026-05-29T18:13:32.340Z",
+  "submissionTimestamp": "2026-05-29T18:15:01.665Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Binary Search",
-    "Test Data Test Output",
-    "Quick SelectSort Medium",
-    "Quick SelectSort",
-    "Quick Select",
-    "Sort",
-    "HeapQuick SelectSort Medium",
-    "HeapQuick SelectSort"
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Kth",
+  "language": "Kth Missing Positive Number",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/62/",
-  "submissionId": "3afrpz"
+  "submissionId": "ac9l33"
 }
