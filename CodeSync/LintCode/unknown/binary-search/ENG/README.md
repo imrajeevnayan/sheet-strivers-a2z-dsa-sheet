@@ -1,13 +1,13 @@
 # ENG
 
 - Platform: LintCode
-- Language: Kth mi
+- Language: Kth
 - Difficulty: Unknown
-- Topics: Binary Search, Test Data Test Output, Binary Search Hard
+- Topics: Binary Search, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/62/
-- Synced: 2026-05-29T18:13:35.597Z
+- Synced: 2026-05-29T18:13:44.559Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Suppose a sorted array is rotated at some pivot unknown to you befor
 
 ## Explanation
 
-This solution was accepted on LintCode using Kth mi. The detected topics are Binary Search, Test Data Test Output, Binary Search Hard. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Kth. The detected topics are Binary Search, Test Data Test Output. Review the synced source file for the implementation details.
