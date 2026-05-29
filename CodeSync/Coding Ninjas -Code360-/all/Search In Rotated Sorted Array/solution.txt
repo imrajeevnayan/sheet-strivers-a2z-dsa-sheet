@@ -1,0 +1,41 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Search In Rotated Sorted Array
+ * URL: https://www.naukri.com/code360/problems/search-in-rotated-sorted-array_1082554
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
+ * Topics: Array
+ * Runtime: 3177 ms
+ * Memory: N/A
+ * Synced: 2026-05-29T16:21:55.404Z
+ */
+
+if (arr.get(mid) == k) return mid;
+            
+ 
+            // Left half is sorted
+            if (arr.get(left) <= arr.get(mid)) {
+ 
+                // Target lies in left half
+                if (k >= arr.get(left) && k < arr.get(mid)) {
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
+                }
+ 
+            } 
+            // Right half is sorted
+            else {
+ 
+                // Target lies in right half
+                if (k > arr.get(mid) && k <= arr.get(right)) {
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
+            int mid = left + (right - left) / 2;
+        while (left <= right) {
+    public static int search(ArrayList<Integer> arr, int n, int k) {
+        int left = 0,right = n - 1;
+import java.util.ArrayList;
+ 
+public class Solution {
