@@ -7,7 +7,7 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Noble Integer 43 Minutes Easy Asked in:, 69.9%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T20:21:11.381Z
+ * Synced: 2026-05-29T20:21:14.415Z
  */
 
 if (i >= 0) {
@@ -27,14 +27,13 @@ if (i >= 0) {
 
         while (i >= 0 || j >= 0 || carry > 0) {
 
+        }
 
-        ArrayList<Integer> list = new ArrayList<>();
-        int j = m - 1;
-        int carry = 0;
+        // Reverse result
+        Collections.reverse(list);
 
-        int i = n - 1;
-        int m = B.length;
-        int n = A.length;
-    public int[] addArrays(int[] A, int[] B) {
-public class Solution {
+        int[] ans = new int[list.size()];
+
+        for (int k = 0; k < list.size(); k++) {
+            ans[k] = list.get(k);
         }
