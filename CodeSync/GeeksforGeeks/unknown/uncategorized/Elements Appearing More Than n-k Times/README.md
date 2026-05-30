@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/given-an-array-of-of-size-n-finds-all-the-elements-that-appear-more-than-nk-times/
-- Synced: 2026-05-30T17:12:04.608Z
+- Synced: 2026-05-30T17:12:08.354Z
 
 ## Problem Description
 
