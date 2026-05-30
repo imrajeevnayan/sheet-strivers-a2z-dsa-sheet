@@ -6,8 +6,8 @@
 - Topics: Math
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/
-- Synced: 2026-05-30T17:08:19.361Z
+- Problem URL: https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/description/
+- Synced: 2026-05-30T17:08:36.702Z
 
 ## Problem Description
 
