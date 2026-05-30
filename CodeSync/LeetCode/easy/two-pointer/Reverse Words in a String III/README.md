@@ -6,8 +6,8 @@
 - Topics: Two Pointers, String
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-words-in-a-string-iii/description/
-- Synced: 2026-05-30T17:09:28.097Z
+- Problem URL: https://leetcode.com/problems/reverse-words-in-a-string-iii/
+- Synced: 2026-05-30T17:09:38.948Z
 
 ## Problem Description
 
