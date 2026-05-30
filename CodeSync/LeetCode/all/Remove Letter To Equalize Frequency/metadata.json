@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-05-30T19:50:40.485Z",
+  "submissionTimestamp": "2026-05-30T20:02:06.046Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Remove Letter To Equalize Frequency",
-  "problemUrl": "https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/",
-  "submissionId": "4ul7dp"
+  "problemUrl": "https://leetcode.com/problems/remove-letter-to-equalize-frequency/",
+  "submissionId": "d7ddnv"
 }
