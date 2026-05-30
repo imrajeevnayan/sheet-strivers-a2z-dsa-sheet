@@ -1,17 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Count the Digits That Divide a Number
- * URL: https://leetcode.com/problems/count-the-digits-that-divide-a-number/description/
+ * URL: https://leetcode.com/problems/count-the-digits-that-divide-a-number/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T20:02:38.880Z
+ * Synced: 2026-05-30T20:02:54.945Z
  */
 
-class Solution {
-    public int countDigits(int num) {
-        
-    }
-}
+Input: num = 7
+Output: 1
+Explanation: 7 divides itself, hence the answer is 1.
