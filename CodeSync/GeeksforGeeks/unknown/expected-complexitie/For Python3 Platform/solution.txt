@@ -1,18 +1,19 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/power-using-recursion/1
- * Language: class Solution: def RecursivePower(self, n, p): if(p == 0): return 1 else: return n * self.RecursivePower(n, p-1)
+ * URL: https://www.geeksforgeeks.org/problems/sum-of-digits-of-a-number/1
+ * Language: class Solution: def sumOfDigits(self, n): result = 0 while(n > 0): result = result + n % 10 n = n//10 return result
  * Difficulty: Unknown
  * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Recursion, Algorithms
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T19:17:45.988Z
+ * Synced: 2026-05-30T19:20:08.668Z
  */
 
 class Solution {
-    static int RecursivePower(int n, int p) {
-       if(p==0)return 1;
-       return n *RecursivePower(n,p-1);
+    public static int sumOfDigits(int n) {
+       if(n<10)return n;
+       return (n %10)+sumOfDigits(n/10);
+        
     }
 }
