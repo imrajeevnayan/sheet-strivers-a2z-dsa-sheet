@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: JAVA EASY SOLUTION
+ * URL: https://www.geeksforgeeks.org/problems/digital-root/1
+ * Language: class Solution { public static int digitalRoot(int n) { // code here if(n<10){ return n; } int sum=s(n); return digitalRoot(sum); } public static int s(int n){ if(n==0){ return 0; } return (n%10) + s(n/10); } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Accolite, Facebook, FiberLink, Adobe, FactSet, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T19:26:06.013Z
+ */
+
+class Solution {
+    public int digitalRoot(int n) {
+        if (n < 10) return n;
+        // Calculate sum of digits
+        int sum = 0;
+        int temp = n;
+        while (temp > 0) {
+            sum += temp % 10;
+            temp /= 10;
+        }
+        return digitalRoot(sum);
+    }
+}
