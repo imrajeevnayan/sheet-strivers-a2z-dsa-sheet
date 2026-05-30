@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: class Solution: def RecursivePower(self, n, p): if(p == 0): return 1 else: return n * self.RecursivePower(n, p-1)
+- Language: class Solution: def sumOfDigits(self, n): result = 0 while(n > 0): result = result + n % 10 n = n//10 return result
 - Difficulty: Unknown
 - Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Recursion, Algorithms
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/power-using-recursion/1
-- Synced: 2026-05-30T19:17:45.988Z
+- Problem URL: https://www.geeksforgeeks.org/problems/sum-of-digits-of-a-number/1
+- Synced: 2026-05-30T19:20:08.668Z
 
 ## Problem Description
 
-You are given two numbers n and p. You need to find np. Examples: Input: n = 9, p = 9 Output: 387420489 Explanation: 387420489 is the value obtained when 9 is raised to the power of 9. Input: n = 2, p = 9 Output: 512 Explanation: 512 is the value obtained when 2 is raised to the power of 9. Constraints: 1 ≤ n ≤ 10 0 ≤ p ≤ 9
+You are given a number n. You need to find the sum of digits of n. Examples : Input: n = 1 Output: 1 Explanation: Sum of digit of 1 is 1. Input: n = 99999 Output: 45 Explanation: Sum of digit of 99999 is 45. Constraints: 1 ≤ n ≤ 107
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution: def RecursivePower(self, n, p): if(p == 0): return 1 else: return n * self.RecursivePower(n, p-1). The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Recursion, Algorithms. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution: def sumOfDigits(self, n): result = 0 while(n > 0): result = result + n % 10 n = n//10 return result. The detected topics are Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Recursion, Algorithms. Review the synced source file for the implementation details.
