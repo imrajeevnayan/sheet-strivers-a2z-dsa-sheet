@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/
-- Synced: 2026-05-30T17:08:45.301Z
+- Synced: 2026-05-30T17:08:47.952Z
 
 ## Problem Description
 
