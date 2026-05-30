@@ -7,15 +7,24 @@
  * Topics: Math
  * Runtime: 0 ms
  * Memory: 41.82 MB
- * Synced: 2026-05-30T17:04:34.445Z
+ * Synced: 2026-05-30T17:05:40.240Z
  */
 
-class Solution {
-    public boolean checkPerfectNumber(int num) {
-        int sum=0;
-        for(int i=1;i<=num/2;i++){
-            if(num % i==0)sum+=i;
+if (num <= 1) return false;
+
+        int sum = 1; // 1 is always a divisor
+
+        for (int i = 2; i * i <= num; i++) {
+            if (num % i == 0) {
+                sum += i;
+
+                if (i != num / i) { // avoid double counting square root
+                    sum += num / i;
+                }
+            }
         }
+
+        return sum == num;
     }
-        return sum==num;
-}
+    public boolean checkPerfectNumber(int num) {
+class Solution {
