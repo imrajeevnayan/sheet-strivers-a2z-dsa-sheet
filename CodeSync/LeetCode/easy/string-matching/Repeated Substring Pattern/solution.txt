@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Repeated Substring Pattern
+ * URL: https://leetcode.com/problems/repeated-substring-pattern/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String, String Matching
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T20:04:13.145Z
+ */
+
+class Solution {
+    public boolean repeatedSubstringPattern(String s) {
+        
+    }
+}
