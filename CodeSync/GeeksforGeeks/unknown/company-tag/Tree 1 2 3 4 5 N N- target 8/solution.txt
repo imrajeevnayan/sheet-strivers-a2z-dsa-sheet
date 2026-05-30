@@ -7,13 +7,24 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Microsoft, Samsung, FactSet, Housing.com
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T19:02:24.684Z
+ * Synced: 2026-05-30T19:03:42.049Z
  */
 
 class Solution {
     /*you are required to complete this function */
     boolean hasPathSum(Node root, int target) {
-        // Your code here
-        
+        // Base case: empty tree
+        if (root == null) {
+            return false;
+        }
+
+        // Check if it's a leaf node
+        if (root.left == null && root.right == null) {
+            return root.data == target;
+        }
+
+        // Recurse for left and right subtrees with reduced target
+        int remainingSum = target - root.data;
+        return hasPathSum(root.left, remainingSum) || hasPathSum(root.right, remainingSum);
     }
 }
