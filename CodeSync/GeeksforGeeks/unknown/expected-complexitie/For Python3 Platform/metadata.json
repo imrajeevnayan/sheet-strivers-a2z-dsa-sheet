@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-05-30T18:56:29.489Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags FactSet",
+    "Company Tags",
+    "FactSet",
+    "Topic Tags",
+    "Tree",
+    "Data Structures",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "''' class Node: def __init__(self, val): self.right = None self.data = val self.left = None ''' class Solution: def sumBT(self, root): if(root == None): return 0 return root.data + self.sumBT(root.left) + self.sumBT(root.right)",
+  "problemTitle": "For Python3 Platform",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-of-binary-tree/1",
+  "submissionId": "9w1q5d"
+}
