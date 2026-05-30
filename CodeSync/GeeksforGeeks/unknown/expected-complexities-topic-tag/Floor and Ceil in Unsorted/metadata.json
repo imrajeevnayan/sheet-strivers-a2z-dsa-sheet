@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-05-30T16:45:56.044Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities Topic Tags",
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Data Structures"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: vector<int> getFloorAndCeil(int x, vector<int> &arr) { int flr = -1; int ciel = -1; for(int i = 0; i < arr.size(); i++) { if(arr[i] <= x) { if(flr == -1 || arr[i] > flr) { flr = arr[i]; } } if(arr[i] >= x) { if(ciel == -1 || arr[i] < ciel) { ciel = arr[i]; } } } return {flr, ciel}; } };",
+  "problemTitle": "Floor and Ceil in Unsorted",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/ceil-the-floor2802/1",
+  "submissionId": "5ghjxf"
+}
