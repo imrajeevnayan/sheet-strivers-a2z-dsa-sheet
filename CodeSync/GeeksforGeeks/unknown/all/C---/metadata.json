@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-05-30T19:00:07.602Z",
+  "submissionTimestamp": "2026-05-30T19:01:24.466Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "Node *nextRight(Node *root, int key) { //code here queue<Node*> q; q.push(root); while(!q.empty()) { int s=q.size(); for(int i=0;i<s;i++) { Node*curr=q.front(); q.pop(); // NO NODE ON RIGHT SIDE if(curr->data==key && i==s-1) { Node*newnode=new Node(-1); return newnode; } // THERE IS A NODE ON RIGHT SIDE // THE NEXT ELEMENT IN THE QUEUE if(curr->data==key) { Node*curr2=q.front(); q.pop(); return curr2; } if(curr->left){ q.push(curr->left); } if(curr->right) { q.push(curr->right); } } } }",
   "problemTitle": "C++✅",
   "problemUrl": "https://www.geeksforgeeks.org/problems/next-right-node/1",
-  "submissionId": "ugl1bz"
+  "submissionId": "kiwtjt"
 }
