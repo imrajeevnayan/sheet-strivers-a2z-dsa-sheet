@@ -7,7 +7,7 @@
  * Topics: Topic Tags Related Articles, Topic Tags, Traversal, Queue, Tree, Data Structures, Algorithms, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T19:01:15.271Z
+ * Synced: 2026-05-30T19:01:16.771Z
  */
 
 class Solution {
