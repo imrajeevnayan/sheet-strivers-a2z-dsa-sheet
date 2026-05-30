@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-05-30T19:17:45.988Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities Topic Tags",
+    "Expected Complexities",
+    "Topic Tags",
+    "Recursion",
+    "Algorithms"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def RecursivePower(self, n, p): if(p == 0): return 1 else: return n * self.RecursivePower(n, p-1)",
+  "problemTitle": "For Python3 Platform",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/power-using-recursion/1",
+  "submissionId": "19eckf"
+}
