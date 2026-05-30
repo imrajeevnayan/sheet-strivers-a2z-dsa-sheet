@@ -7,11 +7,24 @@
  * Topics: Hash Table, String, Counting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T20:01:51.057Z
+ * Synced: 2026-05-30T20:02:06.046Z
  */
 
-class Solution {
-    public boolean equalFrequency(String word) {
+if (allEqual(freq)) {
+            // Simulate removal
+            freq[i]--;
+            
+            // Check if all remaining non-zero frequencies are equal
+        for (int i = 0; i < 26; i++) {
+            if (freq[i] == 0) continue;
+            
+        }
         
-    }
-}
+        for (char c : word.toCharArray()) {
+            freq[c - 'a']++;
+        
+        int[] freq = new int[26];
+    public boolean equalFrequency(String word) {
+class Solution {
+                return true;
+            }
