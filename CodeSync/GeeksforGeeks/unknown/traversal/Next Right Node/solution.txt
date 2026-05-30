@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Next Right Node
+ * URL: https://www.geeksforgeeks.org/problems/next-right-node/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Topic Tags Related Articles, Topic Tags, Traversal, Queue, Tree, Data Structures, Algorithms, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T18:59:43.669Z
+ */
+
+class Solution {
+    Node nextRight(Node root, int key) {
+        // Write your code here
+        
+    }
+}
