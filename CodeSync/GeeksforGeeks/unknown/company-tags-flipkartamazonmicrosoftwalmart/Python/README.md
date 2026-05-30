@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/preorder-traversal/1
-- Synced: 2026-05-30T16:55:00.211Z
+- Synced: 2026-05-30T16:55:01.958Z
 
 ## Problem Description
 
