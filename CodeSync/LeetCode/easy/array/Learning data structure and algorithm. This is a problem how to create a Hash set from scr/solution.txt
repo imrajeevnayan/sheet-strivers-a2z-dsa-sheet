@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Array, Hash Table, Linked List, Design, Hash Function
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-05-30T17:06:59.282Z
+ * Memory: 52.07 MB
+ * Synced: 2026-05-30T17:07:03.158Z
  */
 
 }
@@ -22,5 +22,8 @@
 
     public boolean contains(int key) {
         return set[key];
-    }
-}
+    public MyHashSet() {
+        set = new boolean[1000001];
+
+    private boolean[] set;
+class MyHashSet {
