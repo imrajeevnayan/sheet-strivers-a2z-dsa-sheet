@@ -1,0 +1,39 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Reverse a Stack
+ * URL: https://www.geeksforgeeks.org/problems/reverse-a-stack/1
+ * Language: class Solution{ public: queue<int>ans; void Reverse(stack<int> &St){ if (!St.empty()){ ans.push(St.top()); St.pop(); } else{ return; } Reverse(St); while (!ans.empty()){ St.push(ans.front()); ans.pop(); } } };
+ * Difficulty: Unknown
+ * Topics: Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T19:29:53.194Z
+ */
+
+class Solution {
+
+    public static void reverseStack(Stack<Integer> st) {
+        if (st.isEmpty()) {
+            return;
+        }
+
+        int top = st.pop();
+
+        reverseStack(st);
+
+        insertAtBottom(st, top);
+    }
+
+    private static void insertAtBottom(Stack<Integer> st, int x) {
+        if (st.isEmpty()) {
+            st.push(x);
+            return;
+        }
+
+        int top = st.pop();
+
+        insertAtBottom(st, x);
+
+        st.push(top);
+    }
+}
