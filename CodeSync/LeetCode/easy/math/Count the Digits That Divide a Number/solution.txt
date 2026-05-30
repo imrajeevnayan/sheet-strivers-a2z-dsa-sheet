@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Count the Digits That Divide a Number
- * URL: https://leetcode.com/problems/count-the-digits-that-divide-a-number/
+ * URL: https://leetcode.com/problems/count-the-digits-that-divide-a-number/submissions/2017555221/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-05-30T20:03:04.882Z
+ * Synced: 2026-05-30T20:03:17.811Z
  */
 
 class Solution {
