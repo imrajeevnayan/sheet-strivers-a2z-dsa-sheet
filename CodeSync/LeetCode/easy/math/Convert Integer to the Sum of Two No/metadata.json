@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-05-30T17:08:45.301Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-05-30T17:08:53.969Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,5 +10,5 @@
   "language": "Problem List",
   "problemTitle": "Convert Integer to the Sum of Two No",
   "problemUrl": "https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/",
-  "submissionId": "4k1y0p"
+  "submissionId": "wypzpl"
 }
