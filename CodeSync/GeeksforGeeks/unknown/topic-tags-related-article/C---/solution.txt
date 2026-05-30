@@ -7,12 +7,11 @@
  * Topics: Topic Tags Related Articles, Topic Tags, Traversal, Queue, Tree, Data Structures, Algorithms, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T19:00:21.442Z
+ * Synced: 2026-05-30T19:01:09.569Z
  */
 
-class Solution {
-    Node nextRight(Node root, int key) {
-        // Write your code here
-        
-    }
-}
+Input: root = [10 2 6 8 4 N 5] and key = 2
+
+Output: 6
+Explanation: We can see in the above tree
+that the next right node of 2 is 6.
