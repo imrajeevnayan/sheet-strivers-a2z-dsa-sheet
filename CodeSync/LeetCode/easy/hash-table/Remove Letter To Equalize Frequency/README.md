@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/remove-letter-to-equalize-frequency/
-- Synced: 2026-05-30T20:02:02.058Z
+- Synced: 2026-05-30T20:02:06.046Z
 
 ## Problem Description
 
