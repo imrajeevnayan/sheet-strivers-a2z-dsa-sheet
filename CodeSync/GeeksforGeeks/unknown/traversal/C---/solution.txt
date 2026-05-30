@@ -7,12 +7,39 @@
  * Topics: Topic Tags Related Articles, Topic Tags, Traversal, Queue, Tree, Data Structures, Algorithms, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T19:00:07.602Z
+ * Synced: 2026-05-30T19:01:16.771Z
  */
 
 class Solution {
     Node nextRight(Node root, int key) {
-        // Write your code here
-        
+        if (root == null) return null;
+
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+
+        while (!q.isEmpty()) {
+            int size = q.size();
+            
+            // Process all nodes at the current level
+            for (int i = 0; i < size; i++) {
+                Node curr = q.poll();
+
+                // If we found the key
+                if (curr.data == key) {
+                    // If it's not the last node in this level, return the next one
+                    if (i != size - 1) {
+                        return q.peek();
+                    } else {
+                        return null; // It's the rightmost node
+                    }
+                }
+
+                // Add children for the next level
+                if (curr.left != null) q.add(curr.left);
+                if (curr.right != null) q.add(curr.right);
+            }
+        }
+
+        return null; // Key not found
     }
 }
