@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Convert Integer to the Sum of Two No
+ * URL: https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Math
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T17:08:09.345Z
+ */
+
+class Solution {
+    public int[] getNoZeroIntegers(int n) {
+        
+    }
+}
