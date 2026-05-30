@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Hash Table, Linked List, Design, Hash Function
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/design-hashset/
-- Synced: 2026-05-30T17:06:49.378Z
+- Synced: 2026-05-30T17:06:56.142Z
 
 ## Problem Description
 
