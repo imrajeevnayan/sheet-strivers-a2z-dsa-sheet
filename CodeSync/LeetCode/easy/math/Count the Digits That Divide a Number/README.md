@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/count-the-digits-that-divide-a-number/
-- Synced: 2026-05-30T20:03:00.878Z
+- Synced: 2026-05-30T20:03:04.882Z
 
 ## Problem Description
 
