@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 41.82 MB
 - Problem URL: https://leetcode.com/problems/perfect-number/
-- Synced: 2026-05-30T17:05:40.240Z
+- Synced: 2026-05-30T17:05:44.453Z
 
 ## Problem Description
 
