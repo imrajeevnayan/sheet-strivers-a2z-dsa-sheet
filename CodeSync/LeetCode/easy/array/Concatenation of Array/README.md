@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Simulation
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/concatenation-of-array/
-- Synced: 2026-05-30T17:00:19.199Z
+- Runtime: 0 ms
+- Memory: 0.00 MB
+- Problem URL: https://leetcode.com/problems/concatenation-of-array/submissions/2017426827/
+- Synced: 2026-05-30T17:00:30.849Z
 
 ## Problem Description
 
