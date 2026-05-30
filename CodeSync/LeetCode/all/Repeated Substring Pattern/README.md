@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: String, String Matching
-- Runtime: 75 ms
-- Memory: 46.78 MB
-- Problem URL: https://leetcode.com/problems/repeated-substring-pattern/submissions/1947360876/
-- Synced: 2026-05-30T20:04:30.128Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/repeated-substring-pattern/
+- Synced: 2026-05-30T20:04:43.911Z
 
 ## Problem Description
 
