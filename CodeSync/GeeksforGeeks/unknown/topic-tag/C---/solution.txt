@@ -7,11 +7,39 @@
  * Topics: Topic Tags Related Articles, Topic Tags, Traversal, Queue, Tree, Data Structures, Algorithms, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T19:01:09.569Z
+ * Synced: 2026-05-30T19:01:15.271Z
  */
 
-Input: root = [10 2 6 8 4 N 5] and key = 2
+class Solution {
+    Node nextRight(Node root, int key) {
+        if (root == null) return null;
 
-Output: 6
-Explanation: We can see in the above tree
-that the next right node of 2 is 6.
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+
+        while (!q.isEmpty()) {
+            int size = q.size();
+            
+            // Process all nodes at the current level
+            for (int i = 0; i < size; i++) {
+                Node curr = q.poll();
+
+                // If we found the key
+                if (curr.data == key) {
+                    // If it's not the last node in this level, return the next one
+                    if (i != size - 1) {
+                        return q.peek();
+                    } else {
+                        return null; // It's the rightmost node
+                    }
+                }
+
+                // Add children for the next level
+                if (curr.left != null) q.add(curr.left);
+                if (curr.right != null) q.add(curr.right);
+            }
+        }
+
+        return null; // Key not found
+    }
+}
