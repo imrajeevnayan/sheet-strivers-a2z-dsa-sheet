@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-05-30T17:08:47.952Z
+ * Synced: 2026-05-30T17:08:53.969Z
  */
 
 return new int[0];
@@ -23,3 +23,6 @@ return new int[0];
         return false;
     }
 }
+        }
+            }
+                return new int[]{a, b};
