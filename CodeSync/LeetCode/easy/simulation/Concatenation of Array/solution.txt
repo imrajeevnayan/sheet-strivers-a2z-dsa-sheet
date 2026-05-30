@@ -7,16 +7,14 @@
  * Topics: Array, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T17:00:03.572Z
+ * Synced: 2026-05-30T17:00:09.346Z
  */
 
 class Solution {
     public int[] getConcatenation(int[] nums) {
         int ans[]=new int[nums.length+nums.length];
         int i=0;
-        for(int n :nums){
-            ans[i++]=n;
-    
+        for(int n :nums)ans[i++]=n;
         for(int n :nums){
             ans[i++]=n;
         }
