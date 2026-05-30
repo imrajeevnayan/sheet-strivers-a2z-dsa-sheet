@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-05-30T18:57:52.247Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Graph"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Count Leaves in Binary Tree",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-leaves-in-binary-tree/1",
+  "submissionId": "4n8e14"
+}
