@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Array, Simulation
  * Runtime: 0 ms
- * Memory: 0.00 MB
- * Synced: 2026-05-30T17:00:30.849Z
+ * Memory: 47.21 MB
+ * Synced: 2026-05-30T17:00:32.963Z
  */
 
 class Solution {
