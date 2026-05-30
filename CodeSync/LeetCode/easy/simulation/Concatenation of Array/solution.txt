@@ -1,0 +1,26 @@
+/*
+ * Platform: LeetCode
+ * Problem: Concatenation of Array
+ * URL: https://leetcode.com/problems/concatenation-of-array/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T17:00:03.572Z
+ */
+
+class Solution {
+    public int[] getConcatenation(int[] nums) {
+        int ans[]=new int[nums.length+nums.length];
+        int i=0;
+        for(int n :nums){
+            ans[i++]=n;
+    
+        for(int n :nums){
+            ans[i++]=n;
+        }
+        return ans;
+        
+    }
+}
