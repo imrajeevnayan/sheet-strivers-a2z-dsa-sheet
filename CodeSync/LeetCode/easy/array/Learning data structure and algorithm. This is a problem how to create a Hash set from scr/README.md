@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Linked List, Design, Hash Function
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/design-hashset/
-- Synced: 2026-05-30T17:06:56.142Z
+- Problem URL: https://leetcode.com/problems/design-hashset/submissions/2017432444/
+- Synced: 2026-05-30T17:06:59.282Z
 
 ## Problem Description
 
