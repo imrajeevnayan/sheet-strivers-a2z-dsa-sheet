@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-05-30T19:37:53.192Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Linked List",
+    "Data Structures",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "\"\"\" class Node: def __init__(self, data): self.data = data self.next = None \"\"\" class Solution: def count(self, head, key): cnt = 0 while(head is not None): if(key == head.data): cnt += 1 head = head.next return cnt",
+  "problemTitle": "For Python3 Platform",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-list/1",
+  "submissionId": "yizun9"
+}
