@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-05-30T17:11:11.292Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Concurrency"
+  ],
+  "platform": "LeetCode",
+  "language": "Concurrency",
+  "problemTitle": "Print Zero Even Odd",
+  "problemUrl": "https://leetcode.com/problems/print-zero-even-odd/description/",
+  "submissionId": "wvawt7"
+}
