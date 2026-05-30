@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-05-30T19:03:42.049Z",
+  "submissionTimestamp": "2026-05-30T19:04:45.483Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "public: bool solver(Node* root, int t, int sum){ if(!root) return false; sum+=root->data; if(!root->left and !root->right and sum==t) return true; bool left=solver(root->left,t,sum); bool right=solver(root->right,t,sum); return (left or right); } bool hasPathSum(Node *root, int target) { // Your code here return solver(root,target,0); }",
   "problemTitle": "Tree: 1 2 3 4 5 N N, target: 8",
   "problemUrl": "https://www.geeksforgeeks.org/problems/root-to-leaf-path-sum/1",
-  "submissionId": "ae26a0"
+  "submissionId": "3w6v86"
 }
