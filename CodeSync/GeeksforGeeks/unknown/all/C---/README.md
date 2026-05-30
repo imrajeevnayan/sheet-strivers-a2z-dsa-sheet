@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/next-right-node/1
-- Synced: 2026-05-30T18:59:53.381Z
+- Synced: 2026-05-30T19:00:07.602Z
 
 ## Problem Description
 
