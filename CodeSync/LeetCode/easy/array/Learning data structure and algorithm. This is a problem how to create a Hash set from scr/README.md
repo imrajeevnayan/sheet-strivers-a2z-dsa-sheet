@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Hash Table, Linked List, Design, Hash Function
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 52.07 MB
 - Problem URL: https://leetcode.com/problems/design-hashset/submissions/2017432444/
-- Synced: 2026-05-30T17:06:59.282Z
+- Synced: 2026-05-30T17:07:03.158Z
 
 ## Problem Description
 
