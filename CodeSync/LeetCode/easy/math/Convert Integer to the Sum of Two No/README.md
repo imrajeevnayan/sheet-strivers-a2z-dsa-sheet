@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Math
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/
-- Synced: 2026-05-30T17:08:47.952Z
+- Synced: 2026-05-30T17:08:53.969Z
 
 ## Problem Description
 
