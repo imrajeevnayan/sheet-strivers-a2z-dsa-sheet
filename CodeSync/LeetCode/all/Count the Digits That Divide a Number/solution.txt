@@ -1,17 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Count the Digits That Divide a Number
- * URL: https://leetcode.com/problems/count-the-digits-that-divide-a-number/description/
+ * URL: https://leetcode.com/problems/count-the-digits-that-divide-a-number/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T20:02:38.880Z
+ * Synced: 2026-05-30T20:03:04.882Z
  */
 
 class Solution {
     public int countDigits(int num) {
+        int n=num;int count=0;
+        while( n> 0){
+            int d=n %10;
+            if(d !=0  &&  num % d==0)count++;
+            n=n /10;
+        }
+        return count;
         
     }
 }
