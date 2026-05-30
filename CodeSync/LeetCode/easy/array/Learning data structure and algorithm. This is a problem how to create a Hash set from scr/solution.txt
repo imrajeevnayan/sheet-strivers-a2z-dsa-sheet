@@ -1,18 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Learning data structure and algorithm. This is a problem how to create a Hash set from scratch! A standard method to implement is definitive not easy. But the constraint " 0 <= key <= 10^6" makes it much easier!!
- * URL: https://leetcode.com/problems/design-hashset/
+ * URL: https://leetcode.com/problems/design-hashset/submissions/2017432444/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Linked List, Design, Hash Function
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-05-30T17:06:56.142Z
+ * Synced: 2026-05-30T17:06:59.282Z
  */
 
-public MyHashSet() {
-        set = new boolean[1000001];
-    }
+}
 
     public void add(int key) {
         set[key] = true;
@@ -24,6 +22,5 @@ public MyHashSet() {
 
     public boolean contains(int key) {
         return set[key];
-    private boolean[] set;
-
-class MyHashSet {
+    }
+}
