@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/root-to-leaf-path-sum/1
-- Synced: 2026-05-30T19:02:24.684Z
+- Synced: 2026-05-30T19:03:42.049Z
 
 ## Problem Description
 
