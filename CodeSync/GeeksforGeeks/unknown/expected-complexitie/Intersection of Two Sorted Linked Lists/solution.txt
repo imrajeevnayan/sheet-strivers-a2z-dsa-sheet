@@ -7,14 +7,12 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftD-E-ShawZopper, Company Tags, Amazon, Microsoft, D-E-Shaw, Zopper, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T19:35:55.472Z
+ * Synced: 2026-05-30T19:36:00.396Z
  */
 
 class Solution {
     public static Node findIntersection(Node head1, Node head2) {
-        
         if (head1 == null || head2 == null) return null;
-        
         Node p1 = head1;
         Node p2 = head2;
         
