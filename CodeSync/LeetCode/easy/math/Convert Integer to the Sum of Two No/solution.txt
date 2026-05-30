@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Convert Integer to the Sum of Two No
- * URL: https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/
+ * URL: https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/submissions/2017434089/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-05-30T17:08:53.969Z
+ * Synced: 2026-05-30T17:08:57.399Z
  */
 
 return new int[0];
@@ -23,6 +23,3 @@ return new int[0];
         return false;
     }
 }
-        }
-            }
-                return new int[]{a, b};
