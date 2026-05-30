@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/design-hashset/
-- Synced: 2026-05-30T17:06:43.172Z
+- Synced: 2026-05-30T17:06:49.378Z
 
 ## Problem Description
 
