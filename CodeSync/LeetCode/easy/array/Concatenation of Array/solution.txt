@@ -7,7 +7,7 @@
  * Topics: Array, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T17:00:01.660Z
+ * Synced: 2026-05-30T17:00:03.572Z
  */
 
 class Solution {
@@ -16,7 +16,7 @@ class Solution {
         int i=0;
         for(int n :nums){
             ans[i++]=n;
-        }
+    
         for(int n :nums){
             ans[i++]=n;
         }
