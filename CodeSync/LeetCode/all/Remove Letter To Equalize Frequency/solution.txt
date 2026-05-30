@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Remove Letter To Equalize Frequency
+ * URL: https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Hash Table, String, Counting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T19:50:40.485Z
+ */
+
+class Solution {
+    public boolean equalFrequency(String word) {
+        
+    }
+}
