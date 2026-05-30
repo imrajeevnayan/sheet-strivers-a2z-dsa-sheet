@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-05-30T19:29:53.194Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Stack"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution{ public: queue<int>ans; void Reverse(stack<int> &St){ if (!St.empty()){ ans.push(St.top()); St.pop(); } else{ return; } Reverse(St); while (!ans.empty()){ St.push(ans.front()); ans.pop(); } } };",
+  "problemTitle": "Reverse a Stack",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/reverse-a-stack/1",
+  "submissionId": "p2pv2q"
+}
