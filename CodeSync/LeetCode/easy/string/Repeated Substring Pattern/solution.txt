@@ -7,7 +7,7 @@
  * Topics: String, String Matching
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T20:04:40.140Z
+ * Synced: 2026-05-30T20:04:43.911Z
  */
 
 class Solution {
