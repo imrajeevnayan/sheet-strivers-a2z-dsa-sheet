@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags FlipkartAmazonMicrosoftWalmart, Company Tags, Flipkart, Amazon, Microsoft, Walmart, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T16:55:01.958Z
+ * Synced: 2026-05-30T16:55:05.766Z
  */
 
 /*
@@ -25,8 +25,15 @@ class Node {
 */
 
 class Solution {
+    static void helper(Node node, ArrayList<Integer> result) {
+        if (node == null) return;
+        result.add(node.data);
+        helper(node.left, result);
+        helper(node.right, result);
+    }
     public ArrayList<Integer> preOrder(Node root) {
-        //  code here
-        
+        ArrayList<Integer> result = new ArrayList<>();
+        helper(root, result);
+        return result;
     }
 }
