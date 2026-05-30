@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Math
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 42.55 MB
 - Problem URL: https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/submissions/2017434089/
-- Synced: 2026-05-30T17:08:58.909Z
+- Synced: 2026-05-30T17:09:03.548Z
 
 ## Problem Description
 
