@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftD-E-ShawZopper, Company Tags, Amazon, Microsoft, D-E-Shaw, Zopper, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T19:35:36.091Z
+ * Synced: 2026-05-30T19:35:52.178Z
  */
 
 class Solution {
