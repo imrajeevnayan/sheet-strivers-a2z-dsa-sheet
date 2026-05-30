@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Math
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-the-digits-that-divide-a-number/
-- Synced: 2026-05-30T20:03:04.882Z
+- Problem URL: https://leetcode.com/problems/count-the-digits-that-divide-a-number/submissions/2017555221/
+- Synced: 2026-05-30T20:03:17.811Z
 
 ## Problem Description
 
