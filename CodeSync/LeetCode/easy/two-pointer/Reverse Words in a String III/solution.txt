@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Words in a String III
- * URL: https://leetcode.com/problems/reverse-words-in-a-string-iii/
+ * URL: https://leetcode.com/problems/reverse-words-in-a-string-iii/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Two Pointers, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T17:09:26.463Z
+ * Synced: 2026-05-30T17:09:28.097Z
  */
 
 class Solution {
