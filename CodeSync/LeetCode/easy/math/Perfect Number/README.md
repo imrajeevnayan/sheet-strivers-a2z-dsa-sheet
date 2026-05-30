@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/perfect-number/submissions/2017430236/
-- Synced: 2026-05-30T17:04:19.531Z
+- Synced: 2026-05-30T17:04:21.744Z
 
 ## Problem Description
 
