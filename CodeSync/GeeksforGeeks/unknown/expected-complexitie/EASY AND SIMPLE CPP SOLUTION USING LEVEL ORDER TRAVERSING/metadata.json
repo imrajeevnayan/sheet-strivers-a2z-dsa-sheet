@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-05-30T19:06:01.639Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Traversal",
+    "Tree",
+    "Data Structures",
+    "Algorithms",
+    "Related Articles",
+    "Find Sum Right Leaves Given Binary Tree"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution{ public: int sum=0; void traversal(Node* root){ if(!root) return; if((root->right) && (root->right->left==NULL) && (root->right->right==NULL)){ sum+=root->right->data; } traversal(root->left); traversal(root->right); } int rightLeafSum(Node* root) { traversal(root); return sum; } };",
+  "problemTitle": "EASY AND SIMPLE CPP SOLUTION USING LEVEL ORDER TRAVERSING",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-of-right-leaf-nodes/1",
+  "submissionId": "tfwjdv"
+}
