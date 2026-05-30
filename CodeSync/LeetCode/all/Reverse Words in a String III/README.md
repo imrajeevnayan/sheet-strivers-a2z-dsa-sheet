@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Two Pointers, String
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-words-in-a-string-iii/
-- Synced: 2026-05-30T17:09:45.615Z
+- Runtime: 0 ms
+- Memory: 46.80 MB
+- Problem URL: https://leetcode.com/problems/reverse-words-in-a-string-iii/submissions/2017435227/
+- Synced: 2026-05-30T17:10:24.049Z
 
 ## Problem Description
 
