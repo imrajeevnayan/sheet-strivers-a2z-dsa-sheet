@@ -1,17 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Words in a String III
- * URL: https://leetcode.com/problems/reverse-words-in-a-string-iii/
+ * URL: https://leetcode.com/problems/reverse-words-in-a-string-iii/submissions/2017435227/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Two Pointers, String
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-05-30T17:09:45.615Z
+ * Runtime: 0 ms
+ * Memory: 46.80 MB
+ * Synced: 2026-05-30T17:10:24.049Z
  */
 
 class Solution {
     public String reverseWords(String s) {
-        
+        String[] words = s.split(" ");
+        StringBuilder ans = new StringBuilder();
+
+        for (String word : words) {
+            ans.append(new StringBuilder(word).reverse()).append(" ");
+        }
+
+        return ans.toString().trim();
     }
 }
