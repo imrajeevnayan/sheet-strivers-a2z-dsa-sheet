@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Math
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-05-30T17:06:01.583Z
+ * Memory: 41.85 MB
+ * Synced: 2026-05-30T17:06:08.135Z
  */
 
 if (num <= 1) return false;
