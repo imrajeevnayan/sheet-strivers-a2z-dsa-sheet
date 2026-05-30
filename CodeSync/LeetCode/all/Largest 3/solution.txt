@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Largest 3
+ * URL: https://leetcode.com/problems/largest-3-same-digit-number-in-string/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T17:11:27.324Z
+ */
+
+class Solution {
+    public String largestGoodInteger(String num) {
+        
+    }
+}
