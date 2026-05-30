@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/ceil-the-floor2802/1
-- Synced: 2026-05-30T16:45:56.044Z
+- Synced: 2026-05-30T16:46:02.367Z
 
 ## Problem Description
 
