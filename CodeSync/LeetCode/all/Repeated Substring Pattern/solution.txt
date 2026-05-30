@@ -1,15 +1,19 @@
 /*
  * Platform: LeetCode
  * Problem: Repeated Substring Pattern
- * URL: https://leetcode.com/problems/repeated-substring-pattern/submissions/1947360876/
+ * URL: https://leetcode.com/problems/repeated-substring-pattern/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, String Matching
- * Runtime: 75 ms
- * Memory: 46.78 MB
- * Synced: 2026-05-30T20:04:30.128Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T20:04:43.911Z
  */
 
-Input: s = "abab"
-Output: true
-Explanation: It is the substring "ab" twice.
+class Solution {
+    public boolean repeatedSubstringPattern(String s) {
+        String s1 = s + s;
+        if (s1.substring(1, s1.length() - 1).contains(s)) return true;
+        return false;
+    }
+}
