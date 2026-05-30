@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-05-30T16:57:29.776Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Uncategorized"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { int countNonLeafNodes(Node root) { // code here if(root == null){ return 0; } if(root.left == null && root.right == null){ return 0; } return 1 + countNonLeafNodes(root.left) + countNonLeafNodes(root.right); } }",
+  "problemTitle": "Best C++ Solution",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-non-leaf-nodes-in-tree/1",
+  "submissionId": "gr57ot"
+}
