@@ -7,7 +7,7 @@
  * Topics: Graph
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T18:57:49.234Z
+ * Synced: 2026-05-30T18:57:52.247Z
  */
 
 class Solution {
