@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-05-30T17:10:09.761Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-05-30T17:10:24.049Z",
+  "runtime": "0 ms",
+  "memoryUsage": "46.80 MB",
   "difficulty": "Easy",
   "tags": [
     "Two Pointers",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Reverse Words in a String III",
-  "problemUrl": "https://leetcode.com/problems/reverse-words-in-a-string-iii/",
+  "problemUrl": "https://leetcode.com/problems/reverse-words-in-a-string-iii/submissions/2017435227/",
   "submissionId": "ib9ckr"
 }
