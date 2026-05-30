@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: For Python3 Platform
+ * URL: https://www.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-list/1
+ * Language: """ class Node: def __init__(self, data): self.data = data self.next = None """ class Solution: def count(self, head, key): cnt = 0 while(head is not None): if(key == head.data): cnt += 1 head = head.next return cnt
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Linked List, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T19:37:53.192Z
+ */
+
+class Solution {
+    public int count(Node head, int key) {
+        int cnt = 0;
+        Node curr = head;
+    
+        while (curr != null) {
+            if (curr.data == key) cnt++;
+            curr = curr.next;
+        }
+        return cnt;
+    }
+}
