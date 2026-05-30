@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Concatenation of Array
- * URL: https://leetcode.com/problems/concatenation-of-array/
+ * URL: https://leetcode.com/problems/concatenation-of-array/submissions/2017426827/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Simulation
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-05-30T17:00:19.199Z
+ * Runtime: 0 ms
+ * Memory: 47.21 MB
+ * Synced: 2026-05-30T17:00:32.963Z
  */
 
 class Solution {
