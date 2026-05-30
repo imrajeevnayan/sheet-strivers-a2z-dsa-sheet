@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: For Python3 Platform
+ * URL: https://www.geeksforgeeks.org/problems/sum-of-binary-tree/1
+ * Language: ''' class Node: def __init__(self, val): self.right = None self.data = val self.left = None ''' class Solution: def sumBT(self, root): if(root == None): return 0 return root.data + self.sumBT(root.left) + self.sumBT(root.right)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags FactSet, Company Tags, FactSet, Topic Tags, Tree, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T18:56:29.489Z
+ */
+
+class Solution {
+    static int sumBT(Node root) {
+     if(root==null)return 0;
+     return root.data +sumBT(root.left)+sumBT(root.right);
+    }
+}
