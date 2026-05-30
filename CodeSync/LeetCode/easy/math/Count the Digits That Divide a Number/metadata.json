@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-05-30T20:02:38.880Z",
+  "submissionTimestamp": "2026-05-30T20:02:54.945Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count the Digits That Divide a Number",
-  "problemUrl": "https://leetcode.com/problems/count-the-digits-that-divide-a-number/description/",
-  "submissionId": "3t38h6"
+  "problemUrl": "https://leetcode.com/problems/count-the-digits-that-divide-a-number/",
+  "submissionId": "ad8nzk"
 }
