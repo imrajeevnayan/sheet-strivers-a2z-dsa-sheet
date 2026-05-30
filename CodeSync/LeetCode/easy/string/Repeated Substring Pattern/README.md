@@ -6,8 +6,8 @@
 - Topics: String, String Matching
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/repeated-substring-pattern/
-- Synced: 2026-05-30T20:04:13.145Z
+- Problem URL: https://leetcode.com/problems/repeated-substring-pattern/submissions/
+- Synced: 2026-05-30T20:04:27.914Z
 
 ## Problem Description
 
