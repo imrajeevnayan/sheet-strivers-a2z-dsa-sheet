@@ -1,0 +1,33 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Root to leaf path sum
+ * URL: https://www.geeksforgeeks.org/problems/root-to-leaf-path-sum/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T19:02:14.133Z
+ */
+
+/*
+// A Binary Tree node
+class Node{
+    int data;
+    Node left;
+    Node right;
+    Node(int data){
+        this.data = data;
+        left=null;
+        right=null;
+    }
+}
+*/
+
+class Solution {
+    /*you are required to complete this function */
+    boolean hasPathSum(Node root, int target) {
+        // Your code here
+        
+    }
+}
