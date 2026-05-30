@@ -1,0 +1,29 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Floor and Ceil in Unsorted
+ * URL: https://www.geeksforgeeks.org/problems/ceil-the-floor2802/1
+ * Language: class Solution { public: vector<int> getFloorAndCeil(int x, vector<int> &arr) { int flr = -1; int ciel = -1; for(int i = 0; i < arr.size(); i++) { if(arr[i] <= x) { if(flr == -1 || arr[i] > flr) { flr = arr[i]; } } if(arr[i] >= x) { if(ciel == -1 || arr[i] < ciel) { ciel = arr[i]; } } } return {flr, ciel}; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Arrays, Data Structures
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T16:45:56.044Z
+ */
+
+class Solution {
+    public int[] getFloorAndCeil(int x, int[] arr) {
+        int floor = -1,ceil = -1;
+        for (int num : arr) {
+            // Floor: Largest number <= x
+            if (num <= x) {
+                if (floor == -1 || num > floor) floor = num;
+            }
+            // Check for Ceil: Smallest number >= x
+            if (num >= x) {
+                if (ceil == -1 || num < ceil)  ceil = num;
+                
+            }
+        }
+        return new int[]{floor, ceil};
+    }
+}
