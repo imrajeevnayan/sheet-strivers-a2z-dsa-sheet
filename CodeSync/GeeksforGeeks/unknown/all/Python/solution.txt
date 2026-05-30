@@ -1,0 +1,39 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Python
+ * URL: https://www.geeksforgeeks.org/problems/preorder-traversal/1
+ * Language: class Solution { void helper(Node root, ArrayList<Integer> ans){ if(root == null) return; ans.add(root.data); helper(root.left, ans); helper(root.right, ans); } public ArrayList<Integer> preOrder(Node root) { // code here // preorder - Root Left Right ArrayList<Integer>ans = new ArrayList<>(); helper(root,ans); return ans; } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags FlipkartAmazonMicrosoftWalmart, Company Tags, Flipkart, Amazon, Microsoft, Walmart, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T16:55:05.766Z
+ */
+
+/*
+class Node {
+    int data;
+    Node left;
+    Node right;
+
+    Node(int data) {
+        this.data = data;
+        left = null;
+        right = null;
+    }
+}
+*/
+
+class Solution {
+    static void helper(Node node, ArrayList<Integer> result) {
+        if (node == null) return;
+        result.add(node.data);
+        helper(node.left, result);
+        helper(node.right, result);
+    }
+    public ArrayList<Integer> preOrder(Node root) {
+        ArrayList<Integer> result = new ArrayList<>();
+        helper(root, result);
+        return result;
+    }
+}
