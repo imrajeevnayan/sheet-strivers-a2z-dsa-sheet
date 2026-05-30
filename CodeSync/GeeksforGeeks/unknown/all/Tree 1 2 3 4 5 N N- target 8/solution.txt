@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Tree: 1 2 3 4 5 N N, target: 8
+ * URL: https://www.geeksforgeeks.org/problems/root-to-leaf-path-sum/1
+ * Language: public: bool solver(Node* root, int t, int sum){ if(!root) return false; sum+=root->data; if(!root->left and !root->right and sum==t) return true; bool left=solver(root->left,t,sum); bool right=solver(root->right,t,sum); return (left or right); } bool hasPathSum(Node *root, int target) { // Your code here return solver(root,target,0); }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Microsoft, Samsung, FactSet, Housing.com
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T19:02:24.684Z
+ */
+
+class Solution {
+    /*you are required to complete this function */
+    boolean hasPathSum(Node root, int target) {
+        // Your code here
+        
+    }
+}
