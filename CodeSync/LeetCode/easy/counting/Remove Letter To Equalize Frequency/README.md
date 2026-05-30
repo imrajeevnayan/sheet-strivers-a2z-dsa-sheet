@@ -6,8 +6,8 @@
 - Topics: Hash Table, String, Counting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-letter-to-equalize-frequency/description/
-- Synced: 2026-05-30T19:50:40.485Z
+- Problem URL: https://leetcode.com/problems/remove-letter-to-equalize-frequency/
+- Synced: 2026-05-30T20:01:47.173Z
 
 ## Problem Description
 
