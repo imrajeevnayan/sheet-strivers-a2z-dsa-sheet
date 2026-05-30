@@ -7,7 +7,7 @@
  * Topics: Array, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T17:00:09.346Z
+ * Synced: 2026-05-30T17:00:13.543Z
  */
 
 class Solution {
@@ -15,8 +15,7 @@ class Solution {
         int ans[]=new int[nums.length+nums.length];
         int i=0;
         for(int n :nums)ans[i++]=n;
-        for(int n :nums){
-            ans[i++]=n;
+        for(int n :nums)ans[i++]=n;
         }
         return ans;
         
