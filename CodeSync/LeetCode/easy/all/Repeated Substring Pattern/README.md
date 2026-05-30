@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/repeated-substring-pattern/
-- Synced: 2026-05-30T20:04:40.140Z
+- Synced: 2026-05-30T20:04:43.911Z
 
 ## Problem Description
 
