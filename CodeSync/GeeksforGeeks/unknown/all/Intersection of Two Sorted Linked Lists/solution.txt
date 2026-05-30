@@ -1,0 +1,41 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Intersection of Two Sorted Linked Lists
+ * URL: https://www.geeksforgeeks.org/problems/intersection-of-two-sorted-linked-lists/1
+ * Language: class Solution: def findIntersection(self, head1, head2): intersection = linkedList() while head1 and head2: if head1.data == head2.data: intersection.insert(head1.data) head1, head2 = head1.next, head2.next elif head1.data < head2.data: head1 = head1.next else: head2 = head2.next return intersection.head
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoftD-E-ShawZopper, Company Tags, Amazon, Microsoft, D-E-Shaw, Zopper, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-30T19:35:36.091Z
+ */
+
+class Solution {
+    public static Node findIntersection(Node head1, Node head2) {
+        
+        Node dummy = new Node(0);
+        Node tail = dummy;
+        
+        Node p1 = head1;
+        Node p2 = head2;
+        
+        while (p1 != null && p2 != null) {
+            
+            if (p1.data == p2.data) {
+                tail.next = new Node(p1.data);
+                tail = tail.next;
+                
+                p1 = p1.next;
+                p2 = p2.next;
+            }
+            else if (p1.data < p2.data) {
+                p1 = p1.next;
+            }
+            else {
+                p2 = p2.next;
+            }
+        }
+        
+        return dummy.next;
+    }
+}
