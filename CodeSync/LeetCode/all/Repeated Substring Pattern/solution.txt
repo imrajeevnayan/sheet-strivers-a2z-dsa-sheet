@@ -1,17 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Repeated Substring Pattern
- * URL: https://leetcode.com/problems/repeated-substring-pattern/
+ * URL: https://leetcode.com/problems/repeated-substring-pattern/submissions/1947360876/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, String Matching
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-05-30T20:04:13.145Z
+ * Runtime: 75 ms
+ * Memory: 46.78 MB
+ * Synced: 2026-05-30T20:04:30.128Z
  */
 
-class Solution {
-    public boolean repeatedSubstringPattern(String s) {
-        
-    }
-}
+Input: s = "abab"
+Output: true
+Explanation: It is the substring "ab" twice.
