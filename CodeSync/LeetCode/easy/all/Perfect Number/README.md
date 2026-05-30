@@ -6,8 +6,8 @@
 - Topics: Math
 - Runtime: 0 ms
 - Memory: 41.82 MB
-- Problem URL: https://leetcode.com/problems/perfect-number/submissions/2017430236/
-- Synced: 2026-05-30T17:04:25.198Z
+- Problem URL: https://leetcode.com/problems/perfect-number/
+- Synced: 2026-05-30T17:04:34.445Z
 
 ## Problem Description
 
