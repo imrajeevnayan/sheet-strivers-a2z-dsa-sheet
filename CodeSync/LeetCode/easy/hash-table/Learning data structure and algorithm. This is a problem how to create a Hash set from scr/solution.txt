@@ -5,26 +5,25 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Linked List, Design, Hash Function
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-05-30T17:06:49.378Z
+ * Synced: 2026-05-30T17:06:56.142Z
  */
 
-class MyHashSet {
+public MyHashSet() {
+        set = new boolean[1000001];
+    }
 
-    public MyHashSet() {
-        
-    }
-    
     public void add(int key) {
-        
+        set[key] = true;
     }
-    
+
     public void remove(int key) {
-        
+        set[key] = false;
     }
-    
+
     public boolean contains(int key) {
-        
-    }
-}
+        return set[key];
+    private boolean[] set;
+
+class MyHashSet {
