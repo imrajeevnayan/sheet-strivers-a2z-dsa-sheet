@@ -1,24 +1,19 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-list/1
- * Language: """ class Node: def __init__(self, data): self.data = data self.next = None """ class Solution: def count(self, head, key): cnt = 0 while(head is not None): if(key == head.data): cnt += 1 head = head.next return cnt
+ * URL: https://www.geeksforgeeks.org/problems/delete-head-of-linked-list/1
+ * Language: ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def deleteHead(self, head): temp = head head = head.next temp.next = None return head
  * Difficulty: Unknown
- * Topics: Expected Complexities, Topic Tags, Linked List, Data Structures, Related Articles
+ * Topics: Expected Complexities, Topic Tags, Linked List, Data Structures, Related Articles, Remove First Node Of The Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-30T19:37:53.192Z
+ * Synced: 2026-05-30T19:40:45.816Z
  */
 
 class Solution {
-    public int count(Node head, int key) {
-        int cnt = 0;
-        Node curr = head;
-    
-        while (curr != null) {
-            if (curr.data == key) cnt++;
-            curr = curr.next;
-        }
-        return cnt;
+    public Node deleteHead(Node head) {
+        if (head == null) return null;
+        head = head.next;
+        return head;
     }
 }
