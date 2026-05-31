@@ -1,0 +1,14 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find the Town Judge
+ * URL: https://leetcode.com/problems/find-the-town-judge/description/?envType=problem-list-v2&envId=graph
+ * Language: Graph Theory
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Graph Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-31T12:11:24.212Z
+ */
+
+Input: n = 2, trust = [[1,2]]
+Output: 2
