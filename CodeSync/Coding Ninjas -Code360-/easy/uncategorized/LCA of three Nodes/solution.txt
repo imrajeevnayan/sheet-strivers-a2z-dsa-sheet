@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 2994 ms
  * Memory: N/A
- * Synced: 2026-05-31T18:42:40.102Z
+ * Synced: 2026-05-31T18:42:42.098Z
  */
 
 import java.util.Stack;
@@ -23,5 +23,5 @@ public class Solution {
         } 
         return result;
     }
-        Arrays.fill(resu, -1);
+        Arrays.fill(result, -1);
 }
