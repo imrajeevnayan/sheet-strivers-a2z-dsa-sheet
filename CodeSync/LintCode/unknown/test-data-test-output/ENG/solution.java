@@ -1,27 +1,44 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/1206/
+ * URL: https://www.lintcode.com/problem/1174/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Stack, Test Data Test Output
+ * Topics: Simulation, Bloomberg, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-31T19:09:27.722Z
+ * Synced: 2026-05-31T19:09:51.753Z
  */
 
-class·Solution·{
-····public·int[]·nextGreaterElement(int[]·nums1,·int[]·nums2)·{
-········HashMap<Integer,·Integer>·map·=·new·HashMap<>();
-········Stack<Integer>·st·=·new·Stack<>();
-········for·(int·num·:·nums2)·{
-············while·(!st.isEmpty()·&&·num·>·st.peek())·map.put(st.pop(),·num);
-············st.push(num);
+········char[]·arr·=·String.valueOf(n).toCharArray();
+
+········int·i·=·arr.length·-·2;
+········while·(i·>=·0·&&·arr[i]·>=·arr[i·+·1])·{
+············i--;
 ········}
-········while·(!st.isEmpty())map.put(st.pop(),·-1);
-········int[]·res·=·new·int[nums1.length];
-········for·(int·i·=·0;·i·<·nums1.length;·i++)·res[i]·=·map.get(nums1[i]);
-········
-········return·res;
+········if·(i·<·0)·return·-1;
+
+········int·j·=·arr.length·-·1;
+········while·(arr[j]·<=·arr[i])·{
+············j--;
+········}
+········swap(arr,·i,·j);
+········reverse(arr,·i·+·1,·arr.length·-·1);
+
+········long·ans·=·Long.parseLong(new·String(arr));
+
+········return·(ans·>·Integer.MAX_VALUE)·?·-1·:·(int)·ans;
+····}
+
+····private·void·swap(char[]·arr,·int·i,·int·j)·{
+········char·temp·=·arr[i];
+········arr[i]·=·arr[j];
+········arr[j]·=·temp;
+····}
+
+····private·void·reverse(char[]·arr,·int·l,·int·r)·{
+········while·(l·<·r)·{
+············swap(arr,·l++,·r--);
+········}
 ····}
 }
