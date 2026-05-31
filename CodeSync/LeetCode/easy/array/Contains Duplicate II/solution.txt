@@ -7,20 +7,18 @@
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-31T17:47:14.682Z
+ * Synced: 2026-05-31T17:47:25.868Z
  */
 
 class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         Set<Integer> s=new HashSet<>();
         for(int i=0;i <nums.length;i++){
-            if(s.contains(nums[i])){
-                return true;
-            }
+            if(s.contains(nums[i])) return true;
             s.add(nums[i]);
             if(s.size() > k ){
                 s.remove(nums[i-k]);
-            }
+            
         }
         return false;
         
