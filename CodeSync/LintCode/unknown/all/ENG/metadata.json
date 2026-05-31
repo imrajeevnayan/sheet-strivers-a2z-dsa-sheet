@@ -1,15 +1,18 @@
 {
-  "submissionTimestamp": "2026-05-29T18:15:01.665Z",
+  "submissionTimestamp": "2026-05-31T19:06:30.189Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Binary Search",
+    "StackMonotonic Stack",
+    "Stack",
+    "Monotonic Stack",
+    "Google",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Kth Missing Positive Number",
+  "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/62/",
-  "submissionId": "ac9l33"
+  "problemUrl": "https://www.lintcode.com/problem/1201/",
+  "submissionId": "i8nfyy"
 }
