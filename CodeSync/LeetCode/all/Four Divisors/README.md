@@ -7,7 +7,7 @@
 - Runtime: 36 ms
 - Memory: 46.98 MB
 - Problem URL: https://leetcode.com/problems/four-divisors/submissions/2017875882/
-- Synced: 2026-05-31T06:14:42.158Z
+- Synced: 2026-05-31T06:25:58.571Z
 
 ## Problem Description
 
