@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-05-31T19:16:46.986Z",
-  "runtime": "4835 ms",
+  "submissionTimestamp": "2026-05-31T19:29:45.873Z",
+  "runtime": "4337 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/next-greater-element_670312",
-  "submissionId": "pbrhr0"
+  "problemUrl": "https://www.naukri.com/code360/problems/next-greater-element_799354",
+  "submissionId": "3f30vq"
 }
