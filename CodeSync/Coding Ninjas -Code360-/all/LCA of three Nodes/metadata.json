@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-05-31T18:44:49.400Z",
-  "runtime": "2994 ms",
+  "submissionTimestamp": "2026-05-31T18:45:53.398Z",
+  "runtime": "3918 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,5 +10,5 @@
   "language": "All languages",
   "problemTitle": "LCA of three Nodes",
   "problemUrl": "https://www.naukri.com/code360/problems/next-greater-element_10297924",
-  "submissionId": "enc18q"
+  "submissionId": "2ohchp"
 }
