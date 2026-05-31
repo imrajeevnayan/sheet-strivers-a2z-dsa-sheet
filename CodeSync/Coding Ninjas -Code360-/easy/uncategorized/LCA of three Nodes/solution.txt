@@ -2,32 +2,25 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
  * URL: https://www.naukri.com/code360/problems/next-greater-element_10297924
- * Language: Java (SE 1.8)
+ * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 2954 ms
+ * Runtime: 2994 ms
  * Memory: N/A
- * Synced: 2026-05-31T18:01:40.153Z
+ * Synced: 2026-05-31T18:38:59.598Z
  */
 
 import java.util.Stack;
 public class Solution {
     public static int[] nextGreaterElement(int[] arr, int n) {
         int[] result = new int[n];
-        Stack<Integer> stack = new Stack<>();
-        
+        Stack<Integer> st = new Stack<>();
         for (int i = n - 1; i >= 0; i--) {
-         while (!stack.isEmpty() && stack.peek() <= arr[i]) stack.pop();
-            
-            if (stack.isEmpty()) {
-                result[i] = -1;
-            } else {
-                result[i] = stack.peek();
-            }
-            
-            stack.push(arr[i]);
-        }
-        
+         while (!st.isEmpty() && st.peek() <= arr[i]) st.pop();
+            if (st.isEmpty()) result[i] = -1;
+            else result[i] = st.peek();
+            st.push(arr[i]);
+        } 
         return result;
     }
 }
