@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-05-31T12:05:46.823Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags JUSPAY",
+    "Company Tags",
+    "JUSPAY",
+    "Topic Tags",
+    "Arrays",
+    "Graph",
+    "Data Structures"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "// User function Template for C++ class Solution { public: int maxWeightCell(vector<int> &exits) { int n = exits.size(); vector<int> res(n, 0); for(int i = 0;i<n;i++){ if(exits[i] == -1)continue; res[exits[i]]+=i; } int maxnum = -1; int idx = -1; for(int i = 0;i<n;i++){ if(res[i]>=maxnum){ maxnum = res[i]; idx = i; } } return idx; } };",
+  "problemTitle": "Maximum Weight Node",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/maximum-weight-node--170645/1",
+  "submissionId": "x4xpng"
+}
