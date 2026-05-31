@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-05-31T19:09:51.753Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Simulation",
+    "Bloomberg",
+    "Test Data Test Output"
+  ],
+  "platform": "LintCode",
+  "language": "Java",
+  "problemTitle": "ENG",
+  "problemUrl": "https://www.lintcode.com/problem/1174/",
+  "submissionId": "gac6uv"
+}
