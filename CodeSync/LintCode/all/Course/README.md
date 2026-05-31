@@ -1,18 +1,18 @@
 # Course
 
 - Platform: LintCode
-- Language: ALL(83) Python 3(41) Java(29) C++(12) Csharp(2) JavaScript(2) Go(1)
+- Language: Java
 - Difficulty: Unknown
-- Topics: Highlight, More, Python 3 Java C++, Python 3, Java, C++, JavaScript, @param
+- Topics: Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/62/solution/93735
-- Synced: 2026-05-29T16:18:25.247Z
+- Problem URL: https://www.lintcode.com/problem/365/record?showListFe=false&page=1&problemTypeId=4&pageSize=50
+- Synced: 2026-05-31T19:07:22.683Z
 
 ## Problem Description
 
-Course Problem Referral VIP CAT Contest Note More... Problems,tags,collection School Institution Enterprise Service Gift ENG
+暂无记录
 
 ## Explanation
 
-This solution was accepted on LintCode using ALL(83) Python 3(41) Java(29) C++(12) Csharp(2) JavaScript(2) Go(1). The detected topics are Highlight, More, Python 3 Java C++, Python 3, Java, C++, JavaScript, @param. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are Test Data Test Output. Review the synced source file for the implementation details.
