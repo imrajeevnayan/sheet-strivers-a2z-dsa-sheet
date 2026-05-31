@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/maximum-weight-node--170645/1
-- Synced: 2026-05-31T12:05:46.823Z
+- Synced: 2026-05-31T12:05:58.802Z
 
 ## Problem Description
 
