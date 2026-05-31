@@ -1,0 +1,30 @@
+/*
+ * Platform: LeetCode
+ * Problem: Valid Palindrome
+ * URL: https://leetcode.com/problems/valid-palindrome/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Two Pointers, String
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-05-31T06:58:21.100Z
+ */
+
+char right = s.charAt(end);
+
+        if (!Character.isLetterOrDigit(left)) {
+            return check(s, start + 1, end);
+        }
+
+        if (!Character.isLetterOrDigit(right)) {
+        char left = s.charAt(start);
+
+            return true;
+        }
+        if (start >= end) {
+    private boolean check(String s, int start, int end) {
+
+        return check(s, 0, s.length() - 1);
+    }
+    public boolean isPalindrome(String s) {
+class Solution {
