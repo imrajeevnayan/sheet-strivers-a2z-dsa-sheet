@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-05-31T18:03:53.579Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Stack",
+    "Monotonic Stack"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Next Greater Element II",
+  "problemUrl": "https://leetcode.com/problems/next-greater-element-ii/description/",
+  "submissionId": "ajcwxs"
+}
