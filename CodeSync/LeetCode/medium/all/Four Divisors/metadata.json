@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-05-31T06:13:45.688Z",
+  "submissionTimestamp": "2026-05-31T06:13:57.723Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "46.98 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Four Divisors",
-  "problemUrl": "https://leetcode.com/problems/four-divisors/description/",
+  "problemUrl": "https://leetcode.com/problems/four-divisors/submissions/2017875882/",
   "submissionId": "7fwirg"
 }
