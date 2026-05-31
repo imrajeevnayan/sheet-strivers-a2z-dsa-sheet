@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 4835 ms
+- Runtime: 4337 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/next-greater-element_670312
-- Synced: 2026-05-31T19:16:46.986Z
+- Problem URL: https://www.naukri.com/code360/problems/next-greater-element_799354
+- Synced: 2026-05-31T19:29:45.873Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
