@@ -1,14 +1,23 @@
 /*
  * Platform: LeetCode
  * Problem: Contains Duplicate II
- * URL: https://leetcode.com/problems/contains-duplicate-ii/submissions/1892978334/?envType=problem-list-v2&envId=sliding-window
+ * URL: https://leetcode.com/problems/contains-duplicate-ii/?envType=problem-list-v2&envId=sliding-window
  * Language: Sliding Window
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sliding Window
- * Runtime: 25 ms
- * Memory: 76.21 MB
- * Synced: 2026-05-31T17:46:59.405Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-31T17:47:33.314Z
  */
 
-Input: nums = [1,2,3,1], k = 3
-Output: true
+class Solution {
+    public boolean containsNearbyDuplicate(int[] nums, int k) {
+        Set<Integer> s=new HashSet<>();
+        for(int i=0;i <nums.length;i++){
+            if(s.contains(nums[i])) return true;
+            s.add(nums[i]);
+            if(s.size() > k )s.remove(nums[i-k]);
+        }
+        return false;
+    }
+}
