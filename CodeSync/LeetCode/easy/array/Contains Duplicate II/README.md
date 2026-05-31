@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Sliding Window
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/contains-duplicate-ii/description/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-05-31T17:48:00.164Z
+- Problem URL: https://leetcode.com/problems/contains-duplicate-ii/?envType=problem-list-v2&envId=sliding-window
+- Synced: 2026-05-31T17:55:19.756Z
 
 ## Problem Description
 
