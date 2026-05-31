@@ -1,14 +1,16 @@
 {
-  "submissionTimestamp": "2026-05-31T19:07:22.683Z",
+  "submissionTimestamp": "2026-05-31T19:07:35.401Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
+    "Binary",
+    "Microsoft",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Java",
+  "language": "Python",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/problem/365/record?showListFe=false&page=1&problemTypeId=4&pageSize=50",
-  "submissionId": "2ollb5"
+  "problemUrl": "https://www.lintcode.com/problem/365/description?showListFe=false&page=1&problemTypeId=4&pageSize=50",
+  "submissionId": "ctm7bt"
 }
