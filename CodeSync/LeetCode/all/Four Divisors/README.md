@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Math
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/four-divisors/description/
-- Synced: 2026-05-31T06:13:45.688Z
+- Memory: 46.98 MB
+- Problem URL: https://leetcode.com/problems/four-divisors/submissions/2017875882/
+- Synced: 2026-05-31T06:13:57.723Z
 
 ## Problem Description
 
