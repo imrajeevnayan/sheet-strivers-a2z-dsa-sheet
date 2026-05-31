@@ -1,0 +1,41 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Next Greater Element
+ * URL: https://www.naukri.com/code360/problems/next-greater-element_920451
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 1082 ms
+ * Memory: N/A
+ * Synced: 2026-05-31T19:44:04.878Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+ 
+public class Solution 
+{
+    public static ArrayList<Integer> nextGreaterElement(ArrayList<Integer> arr, int n)
+    {
+        ArrayList<Integer> res = new ArrayList<>();
+        Stack<Integer> st = new Stack<>();
+ 
+        // initialize result with -1
+        for (int i = 0; i < n; i++) {
+            res.add(-1);
+        }
+ 
+        for (int i = n - 1; i >= 0; i--) {
+ 
+            while (!st.isEmpty() && st.peek() <= arr.get(i)) {
+                st.pop();
+            }
+ 
+            if (!st.isEmpty()) {
+                res.set(i, st.peek());
+            }
+ 
+            st.push(arr.get(i));
+        }
+ 
+        return res;
