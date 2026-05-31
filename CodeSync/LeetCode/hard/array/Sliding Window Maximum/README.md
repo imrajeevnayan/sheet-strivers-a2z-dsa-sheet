@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Hard
 - Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/sliding-window-maximum/submissions/
-- Synced: 2026-05-31T17:43:12.680Z
+- Runtime: 82 ms
+- Memory: 158.32 MB
+- Problem URL: https://leetcode.com/problems/sliding-window-maximum/submissions/1908286515/
+- Synced: 2026-05-31T17:43:15.032Z
 
 ## Problem Description
 
