@@ -7,7 +7,7 @@
  * Topics: Array, Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-31T06:13:12.523Z
+ * Synced: 2026-05-31T06:13:21.514Z
  */
 
 if(i !=n/i){
@@ -22,8 +22,8 @@ if(i !=n/i){
             {
                 if(n % i==0){
             List<Integer>div=new ArrayList<>();
-            for(int i=1;i*i <=n;i++)
-        for(int n:nums)
+             for(int i=1;i*i <=n;i++)
+        for(int n:nums){
     public int sumFourDivisors(int[] nums) {
         int totalSum =0;
 class Solution {
