@@ -6,8 +6,8 @@
 - Topics: Array, Math
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/four-divisors/
-- Synced: 2026-05-31T06:13:39.907Z
+- Problem URL: https://leetcode.com/problems/four-divisors/description/
+- Synced: 2026-05-31T06:13:44.184Z
 
 ## Problem Description
 
