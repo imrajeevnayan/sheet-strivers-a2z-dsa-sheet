@@ -1,31 +1,27 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/1201/
+ * URL: https://www.lintcode.com/problem/1206/
  * Language: Java
  * Difficulty: Unknown
- * Topics: StackMonotonic Stack, Stack, Monotonic Stack, Google, Test Data Test Output
+ * Topics: Stack, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-31T19:06:47.916Z
+ * Synced: 2026-05-31T19:09:27.722Z
  */
 
-public·class·Solution·{
-····public·int[]·nextGreaterElements(int[]·nums)·{
-········int·n·=·nums.length;
+class·Solution·{
+····public·int[]·nextGreaterElement(int[]·nums1,·int[]·nums2)·{
+········HashMap<Integer,·Integer>·map·=·new·HashMap<>();
 ········Stack<Integer>·st·=·new·Stack<>();
-········int[]·res·=·new·int[n];
-········Arrays.fill(res,·-1);
-········for·(int·i·=·0;·i·<·2·*·n;·i++)·{
-············int·num·=·nums[i·%·n];
-············while·(!st.isEmpty()·&&·nums[st.peek()]·<·num)·{
-················res[st.pop()]·=·num;
-············}
-············if·(i·<·n)·{
-················st.push(i);
-············}
+········for·(int·num·:·nums2)·{
+············while·(!st.isEmpty()·&&·num·>·st.peek())·map.put(st.pop(),·num);
+············st.push(num);
 ········}
-
+········while·(!st.isEmpty())map.put(st.pop(),·-1);
+········int[]·res·=·new·int[nums1.length];
+········for·(int·i·=·0;·i·<·nums1.length;·i++)·res[i]·=·map.get(nums1[i]);
+········
 ········return·res;
 ····}
 }
