@@ -1,0 +1,46 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: TIP yeh GFG wale maderch*d hai , java mai i/p mai matrix hi mil rhi hai in the form of adjacency list betich*d ham to list ko adjancency list hi smje ge na hamko thodi pata hai isme matrix likhi padi hai -> ek or list banao or given list(matrix) ko adjacency list mai convert karo fir solve karo chu*iye sale
+ * URL: https://www.geeksforgeeks.org/problems/number-of-provinces/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoftGoogle, Company Tags, Amazon, Microsoft, Google, Topic Tags, DFS
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-31T12:02:57.453Z
+ */
+
+adj.add(new ArrayList<>());
+        }
+
+        for (ArrayList<Integer> e : edges) {
+            int u = e.get(0);
+            int v = e.get(1);
+
+            adj.get(u).add(v);
+            adj.get(v).add(u);
+        }
+
+        boolean[] vis = new boolean[V];
+        int components = 0;
+
+        for (int i = 0; i < V; i++) {
+            if (!vis[i]) {
+                components++;
+                dfs(i, adj, vis);
+            }
+        }
+
+        return components;
+    }
+
+    void dfs(int node, ArrayList<ArrayList<Integer>> adj, boolean[] vis) {
+        vis[node] = true;
+
+        for (int nei : adj.get(node)) {
+            if (!vis[nei]) {
+                dfs(nei, adj, vis);
+            }
+        }
+    }
+}
