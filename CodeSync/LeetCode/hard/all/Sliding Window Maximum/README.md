@@ -1,0 +1,18 @@
+# Sliding Window Maximum
+
+- Platform: LeetCode
+- Language: Problem List
+- Difficulty: Hard
+- Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue
+- Runtime: 82 ms
+- Memory: 158.32 MB
+- Problem URL: https://leetcode.com/problems/sliding-window-maximum/submissions/1908286515/
+- Synced: 2026-05-31T17:43:17.847Z
+
+## Problem Description
+
+You are given an array of integers nums, there is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position. Return the max sliding window. Example 1: Input: nums = [1,3,-1,-3,5,3,6,7], k = 3 Output: [3,3,5,5,6,7] Explanation: Window position Max --------------- ----- [1 3 -1] -3 5 3 6 7 3 1 [3 -1 -3] 5 3 6 7 3 1 3 [-1 -3 5] 3 6 7 5 1 3 -1 [-3 5 3] 6 7 5 1 3 -1 -3 [5 3 6] 7 6 1 3 -1 -3 5 [3 6 7] 7 Example 2: Input: nums = [1], k = 1 Output: [1] Constraints: 1 <= nums.length <= 105 -104 <= nums[i] <= 104 1 <= k <= nums.length
+
+## Explanation
+
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue. Review the synced source file for the implementation details.
