@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/four-divisors/description/
-- Synced: 2026-05-31T06:11:55.270Z
+- Synced: 2026-05-31T06:12:27.160Z
 
 ## Problem Description
 
