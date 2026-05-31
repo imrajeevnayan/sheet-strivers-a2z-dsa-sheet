@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Linked List
- * URL: https://leetcode.com/problems/reverse-linked-list/description/
+ * URL: https://leetcode.com/problems/reverse-linked-list/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Linked List, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-31T12:10:01.201Z
+ * Synced: 2026-05-31T12:10:02.703Z
  */
 
 class Solution {
