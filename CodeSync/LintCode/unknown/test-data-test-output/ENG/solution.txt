@@ -1,38 +1,27 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/62/
- * Language: Kth Missing Positive Number
+ * URL: https://www.lintcode.com/problem/1206/
+ * Language: Next Greater
  * Difficulty: Unknown
- * Topics: Binary Search, Test Data Test Output
+ * Topics: Stack, Test Data Test Output, StackMonotonic Stack Medium, StackMonotonic Stack, Monotonic Stack, Stack Easy, Simulation Medium, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T18:15:01.665Z
+ * Synced: 2026-05-31T19:09:41.785Z
  */
 
-public·class·Solution·{
-····public·int·search(int[]·a,·int·target)·{
-········int·left·=·0,right·=·a.length·-·1;
-········while·(left·<=·right)·{
-············int·mid·=·left·+·(right·-·left)·/·2;
-············if·(a[mid]·==·target)·return·mid;
-············//·Left·half·is·sorted
-············if·(a[left]·<=·a[mid])·{
-················//·Target·lies·in·left·half
-················if·(target·>=·a[left]·&&·target·<·a[mid])·right·=·mid·-·1;
-················else·left·=·mid·+·1;
-············}·
-············//·Right·half·is·sorted
-············else·{
-················//·Target·lies·in·right·half
-················if·(target·>·a[mid]·&&·target·<=·a[right])·{
-····················left·=·mid·+·1;
-················}·else·{
-····················right·=·mid·-·1;
-················}
-············}
+class·Solution·{
+····public·int[]·nextGreaterElement(int[]·nums1,·int[]·nums2)·{
+········HashMap<Integer,·Integer>·map·=·new·HashMap<>();
+········Stack<Integer>·st·=·new·Stack<>();
+········for·(int·num·:·nums2)·{
+············while·(!st.isEmpty()·&&·num·>·st.peek())·map.put(st.pop(),·num);
+············st.push(num);
 ········}
-········return·-1;
+········while·(!st.isEmpty())map.put(st.pop(),·-1);
+········int[]·res·=·new·int[nums1.length];
+········for·(int·i·=·0;·i·<·nums1.length;·i++)·res[i]·=·map.get(nums1[i]);
+········
+········return·res;
 ····}
-················
 }
