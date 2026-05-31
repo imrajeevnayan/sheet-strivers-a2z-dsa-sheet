@@ -7,7 +7,7 @@
  * Topics: Two Pointers, String
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-05-31T06:58:38.706Z
+ * Synced: 2026-05-31T06:58:40.221Z
  */
 
 return check(s, start + 1, end);
