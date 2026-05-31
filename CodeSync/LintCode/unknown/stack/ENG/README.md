@@ -3,16 +3,16 @@
 - Platform: LintCode
 - Language: Java
 - Difficulty: Unknown
-- Topics: StackMonotonic Stack, Stack, Monotonic Stack, Google, Test Data Test Output
+- Topics: Stack, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/1201/
-- Synced: 2026-05-31T19:06:47.916Z
+- Problem URL: https://www.lintcode.com/problem/1206/
+- Synced: 2026-05-31T19:09:27.722Z
 
 ## Problem Description
 
-Description Given a circular array (the next element of the last element is the first element of the array), print the Next Greater Number for every element. The Next Greater Number of a number x is the first greater number to its traversing-order next in the array, which means you could search circularly to find its next greater number. If it doesn't exist, output -1 for this number. The length of given array won't exceed 10000. Example Example 1: Input: [1,2,1] Output: [2,-1,2] Explanation: The first 1's next greater number is 2; The number 2 can't find next greater number; The second 1's next greater number needs to search circularly, which is also 2. Example 2: Input: [1] Output: [-1] Explanation: The number 1 can't find next greater number. Related Knowledge 学习《算法——双指针思想》课程中的3.10单调堆栈练习1相关内容 ，了解更多相关知识！ Tags Company Google Related Problems 1174 Next Greater Element III Medium 1206 Next Greater Element I Easy Recommend Courses 系统设计 System Design 2024版 数据库、API、GFS、视频流等16大系统设计详解，实战练习拿下面试/晋升“拦路虎”
+Description You are given two arrays (without duplicates) nums1 and nums2 where nums1’s elements are subset of nums2. Find all the next greater numbers for nums1's elements in the corresponding places of nums2. The Next Greater Number of a number x in nums1 is the first greater number to its right in nums2. If it does not exist, output -1 for this number. 1.All elements in nums1 and nums2 are unique. 2.The length of both nums1 and nums2 would not exceed 1000. Example Example 1: Input: nums1 = [4,1,2], nums2 = [1,3,4,2]. Output: [-1,3,-1] Explanation: For number 4 in the first array, you cannot find the next greater number for it in the second array, so output -1. For number 1 in the first array, the next greater number for it in the second array is 3. For number 2 in the first array, there is no next greater number for it in the second array, so output -1. Example 2: Input: nums1 = [2,4], nums2 = [1,2,3,4]. Output: [3,-1] Explanation: For number 2 in the first array, the next greater number for it in the second array is 3. For number 4 in the first array, there is no next greater number for it in the second array, so output -1. Tags Related Problems 1174 Next Greater Element III Medium 1201 Next Greater Element II Medium Recommend Courses ACM金牌逐行带刷班 最适合懒人的刷题课--躺平看算法大神在线coding，讲解思路+现场debug，手撕面试高频题
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are StackMonotonic Stack, Stack, Monotonic Stack, Google, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are Stack, Test Data Test Output. Review the synced source file for the implementation details.
