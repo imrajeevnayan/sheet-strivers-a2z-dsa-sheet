@@ -1,19 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Four Divisors
- * URL: https://leetcode.com/problems/four-divisors/submissions/1875336352/
+ * URL: https://leetcode.com/problems/four-divisors/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Math
- * Runtime: 37 ms
- * Memory: 47.09 MB
- * Synced: 2026-05-31T06:12:54.087Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-31T06:13:05.339Z
  */
 
-Input: nums = [21,4,7]
-Output: 32
-Explanation: 
-21 has 4 divisors: 1, 3, 7, 21
-4 has 3 divisors: 1, 2, 4
-7 has 2 divisors: 1, 7
-The answer is the sum of divisors of 21 only.
+class Solution {
+    public int sumFourDivisors(int[] nums) {
+        
+    }
+}
