@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/contains-duplicate-ii/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-05-31T17:55:26.624Z
+- Synced: 2026-05-31T17:55:31.241Z
 
 ## Problem Description
 
