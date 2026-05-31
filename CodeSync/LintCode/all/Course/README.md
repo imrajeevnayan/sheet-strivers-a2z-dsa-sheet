@@ -3,11 +3,11 @@
 - Platform: LintCode
 - Language: Python
 - Difficulty: Unknown
-- Topics: Binary, Microsoft, Test Data Test Output
+- Topics: Binary, Microsoft, Test Data Commit Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/365/description?showListFe=false&page=1&problemTypeId=4&pageSize=50
-- Synced: 2026-05-31T19:07:35.401Z
+- Synced: 2026-05-31T19:35:34.354Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Count how many 1 in binary representation of a 32-bit integer. Examp
 
 ## Explanation
 
-This solution was accepted on LintCode using Python. The detected topics are Binary, Microsoft, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Python. The detected topics are Binary, Microsoft, Test Data Commit Output. Review the synced source file for the implementation details.
