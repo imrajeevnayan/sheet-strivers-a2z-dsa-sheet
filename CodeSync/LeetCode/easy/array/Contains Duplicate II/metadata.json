@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-05-31T17:47:14.682Z",
+  "submissionTimestamp": "2026-05-31T17:47:25.868Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -12,5 +12,5 @@
   "language": "Sliding Window",
   "problemTitle": "Contains Duplicate II",
   "problemUrl": "https://leetcode.com/problems/contains-duplicate-ii/?envType=problem-list-v2&envId=sliding-window",
-  "submissionId": "l3ldmy"
+  "submissionId": "bq24lf"
 }
