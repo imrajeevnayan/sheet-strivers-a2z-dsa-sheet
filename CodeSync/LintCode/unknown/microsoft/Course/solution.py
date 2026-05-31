@@ -6,7 +6,7 @@
 # Topics: Binary, Microsoft, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-05-31T19:35:25.458Z
+# Synced: 2026-05-31T19:35:31.836Z
 
 public·class·Solution·{
 ····public·int·countOnes(int·num)·{
