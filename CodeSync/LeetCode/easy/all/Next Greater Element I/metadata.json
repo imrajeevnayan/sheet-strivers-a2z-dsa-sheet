@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-05-31T18:03:25.464Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Stack",
+    "Monotonic Stack"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Next Greater Element I",
+  "problemUrl": "https://leetcode.com/problems/next-greater-element-i/description/",
+  "submissionId": "n7s9wu"
+}
