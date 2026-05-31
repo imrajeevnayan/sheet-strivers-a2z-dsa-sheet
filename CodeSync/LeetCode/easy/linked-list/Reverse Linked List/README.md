@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Linked List, Recursion
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 44.15 MB
 - Problem URL: https://leetcode.com/problems/reverse-linked-list/submissions/2018140873/
-- Synced: 2026-05-31T12:10:12.881Z
+- Synced: 2026-05-31T12:10:17.348Z
 
 ## Problem Description
 
