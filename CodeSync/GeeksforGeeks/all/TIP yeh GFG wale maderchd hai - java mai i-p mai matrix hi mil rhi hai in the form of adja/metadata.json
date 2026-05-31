@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-05-31T12:02:57.453Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonMicrosoftGoogle",
+    "Company Tags",
+    "Amazon",
+    "Microsoft",
+    "Google",
+    "Topic Tags",
+    "DFS"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "TIP yeh GFG wale maderch*d hai , java mai i/p mai matrix hi mil rhi hai in the form of adjacency list betich*d ham to list ko adjancency list hi smje ge na hamko thodi pata hai isme matrix likhi padi hai -> ek or list banao or given list(matrix) ko adjacency list mai convert karo fir solve karo chu*iye sale",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/number-of-provinces/1",
+  "submissionId": "4q9rkf"
+}
