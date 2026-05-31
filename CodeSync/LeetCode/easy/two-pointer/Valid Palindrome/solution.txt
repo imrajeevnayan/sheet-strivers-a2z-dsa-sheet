@@ -7,24 +7,20 @@
  * Topics: Two Pointers, String
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-05-31T06:58:32.895Z
+ * Synced: 2026-05-31T06:58:35.811Z
  */
 
-char right = s.charAt(end);
-        if (!Character.isLetterOrDigit(left)) {
-            return check(s, start + 1, end);
+return check(s, start + 1, end);
         }
 
         if (!Character.isLetterOrDigit(right)) {
-        char left = s.charAt(start);
-        if (start >= end) return true;
-    private boolean check(String s, int start, int end) {
-
-        return check(s, 0, s.length() - 1);
-    }
-    public boolean isPalindrome(String s) {
-class Solution {
             return check(s, start, end - 1);
         }
 
         if (Character.toLowerCase(left) != Character.toLowerCase(right)) {
+            return false;
+        }
+
+        return check(s, start + 1, end - 1);
+    }
+}
