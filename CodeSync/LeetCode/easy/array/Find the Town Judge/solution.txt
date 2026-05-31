@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Graph Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-31T12:11:37.687Z
+ * Synced: 2026-05-31T12:11:39.194Z
  */
 
 class Solution {
