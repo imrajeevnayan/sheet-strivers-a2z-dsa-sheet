@@ -7,21 +7,20 @@
  * Topics: Uncategorized
  * Runtime: 2994 ms
  * Memory: N/A
- * Synced: 2026-05-31T18:42:42.098Z
+ * Synced: 2026-05-31T18:42:53.097Z
  */
 
 import java.util.Stack;
 public class Solution {
     public static int[] nextGreaterElement(int[] arr, int n) {
         int[] result = new int[n];
+        Arrays.fill(result, -1);
         Stack<Integer> st = new Stack<>();
         for (int i = n - 1; i >= 0; i--) {
          while (!st.isEmpty() && st.peek() <= arr[i]) st.pop();
-            if (st.isEmpty()) result[i] = -1;
             else result[i] = st.peek();
             st.push(arr[i]);
         } 
         return result;
     }
-        Arrays.fill(result, -1);
 }
