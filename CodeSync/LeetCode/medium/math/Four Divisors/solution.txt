@@ -7,24 +7,25 @@
  * Topics: Array, Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-31T06:13:28.563Z
+ * Synced: 2026-05-31T06:13:39.907Z
  */
 
-if(i !=n/i){
-                    div.add(n/i);
-                }
-             }
+}
            }
             if(div.size()==4){
             int sum=0;
             for(int n1:div){
-                    div.add(i);
-                if(n % i==0){
-            List<Integer>div=new ArrayList<>();
-             for(int i=1;i*i <=n;i++) {
-        for(int n:nums){
-    public int sumFourDivisors(int[] nums) {
-        int totalSum =0;
-class Solution {
                 sum+=n1;
             }
+            totalSum +=sum;
+           }
+        }     
+                }
+                    div.add(n/i);
+                     div.add(i);
+                if(i !=n/i){
+                if(n % i==0){
+             for(int i=1;i*i <=n;i++) {
+            List<Integer>div=new ArrayList<>();
+        for(int n:nums){
+        int totalSum =0;
