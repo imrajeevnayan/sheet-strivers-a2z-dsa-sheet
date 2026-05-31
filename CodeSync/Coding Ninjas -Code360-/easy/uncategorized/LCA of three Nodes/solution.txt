@@ -5,9 +5,9 @@
  * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 3861 ms
+ * Runtime: 3901 ms
  * Memory: N/A
- * Synced: 2026-05-31T19:14:21.682Z
+ * Synced: 2026-05-31T19:14:43.089Z
  */
 
 import java.util.*;
@@ -20,7 +20,7 @@ public class Solution {
          while (!st.isEmpty() && arr[i] > arr[st.peek()]) {
             res[st.pop()] = arr[i];
         }
-        stack.push(i);
+        st.push(i);
     }
     return res;
     }
