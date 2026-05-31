@@ -1,0 +1,36 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Maximum Weight Node
+ * URL: https://www.geeksforgeeks.org/problems/maximum-weight-node--170645/1
+ * Language: // User function Template for C++ class Solution { public: int maxWeightCell(vector<int> &exits) { int n = exits.size(); vector<int> res(n, 0); for(int i = 0;i<n;i++){ if(exits[i] == -1)continue; res[exits[i]]+=i; } int maxnum = -1; int idx = -1; for(int i = 0;i<n;i++){ if(res[i]>=maxnum){ maxnum = res[i]; idx = i; } } return idx; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags JUSPAY, Company Tags, JUSPAY, Topic Tags, Arrays, Graph, Data Structures
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-31T12:05:46.823Z
+ */
+
+class Solution {
+    public int maxWeightCell(int[] exits) {
+        int n = exits.length;
+        long[] weight = new long[n];
+
+        for (int i = 0; i < n; i++) {
+            if (exits[i] != -1) {
+                weight[exits[i]] += i;
+            }
+        }
+
+        long maxWeight = -1;
+        int ans = -1;
+
+        for (int i = 0; i < n; i++) {
+            if (weight[i] >= maxWeight) { 
+                maxWeight = weight[i];
+                ans = i;
+            }
+        }
+
+        return ans;
+    }
+}
