@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-05-31T06:25:58.571Z",
-  "runtime": "36 ms",
-  "memoryUsage": "46.98 MB",
-  "difficulty": "Easy",
+  "submissionTimestamp": "2026-05-31T06:26:30.167Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
   "tags": [
-    "Uncategorized"
+    "Array",
+    "Math"
   ],
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Four Divisors",
-  "problemUrl": "https://leetcode.com/problems/four-divisors/submissions/2017875882/",
+  "problemUrl": "https://leetcode.com/problems/four-divisors/description/",
   "submissionId": "wjvpdf"
 }
