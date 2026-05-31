@@ -1,18 +1,18 @@
 # ENG
 
 - Platform: LintCode
-- Language: Kth Missing Positive Number
+- Language: Java
 - Difficulty: Unknown
-- Topics: Binary Search, Test Data Test Output
+- Topics: StackMonotonic Stack, Stack, Monotonic Stack, Google, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/62/
-- Synced: 2026-05-29T18:15:01.665Z
+- Problem URL: https://www.lintcode.com/problem/1201/
+- Synced: 2026-05-31T19:06:30.189Z
 
 ## Problem Description
 
-Description Suppose a sorted array is rotated at some pivot unknown to you beforehand. (i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2). You are given a target value to search. If found in the array return its index, otherwise return -1. You may assume no duplicate exists in the array. Example Example 1: Input: array = [4, 5, 1, 2, 3] target = 1 Output: 2 Explanation: 1 is indexed at 2 in the array. Example 2: Input: array = [4, 5, 1, 2, 3] target = 0 Output: -1 Explanation: 0 is not in the array. Returns -1. Challenge O(logN) time Related Knowledge 学习《2024年8月北美大厂最新面试真题精讲》课程中的4.1Bytedance：最新面试精选001相关内容 ，了解更多相关知识！ Tags Related Problems 28 Search a 2D Matrix Easy 63 Search in Rotated Sorted Array II Medium Recommend Courses 0基础入门数据分析 进阶大厂刚需高薪人才，熟练掌握SQL、Python、Tableau、A/Btest等实用技能工具，配套100+数据题夯实基础
+Description Given a circular array (the next element of the last element is the first element of the array), print the Next Greater Number for every element. The Next Greater Number of a number x is the first greater number to its traversing-order next in the array, which means you could search circularly to find its next greater number. If it doesn't exist, output -1 for this number. The length of given array won't exceed 10000. Example Example 1: Input: [1,2,1] Output: [2,-1,2] Explanation: The first 1's next greater number is 2; The number 2 can't find next greater number; The second 1's next greater number needs to search circularly, which is also 2. Example 2: Input: [1] Output: [-1] Explanation: The number 1 can't find next greater number. Related Knowledge 学习《算法——双指针思想》课程中的3.10单调堆栈练习1相关内容 ，了解更多相关知识！ Tags Company Google Related Problems 1174 Next Greater Element III Medium 1206 Next Greater Element I Easy Recommend Courses 系统设计 System Design 2024版 数据库、API、GFS、视频流等16大系统设计详解，实战练习拿下面试/晋升“拦路虎”
 
 ## Explanation
 
-This solution was accepted on LintCode using Kth Missing Positive Number. The detected topics are Binary Search, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are StackMonotonic Stack, Stack, Monotonic Stack, Google, Test Data Test Output. Review the synced source file for the implementation details.
