@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-05-31T17:56:13.109Z",
+  "submissionTimestamp": "2026-05-31T17:56:30.161Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "46.38 MB",
   "difficulty": "Medium",
   "tags": [
     "Hash Table",
