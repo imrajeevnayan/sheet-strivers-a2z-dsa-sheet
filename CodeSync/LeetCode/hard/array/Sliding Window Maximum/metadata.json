@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-05-31T17:43:15.032Z",
+  "runtime": "82 ms",
+  "memoryUsage": "158.32 MB",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Queue",
+    "Sliding Window",
+    "Heap (Priority Queue)",
+    "Monotonic Queue"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Sliding Window Maximum",
+  "problemUrl": "https://leetcode.com/problems/sliding-window-maximum/submissions/1908286515/",
+  "submissionId": "cvw6k5"
+}
