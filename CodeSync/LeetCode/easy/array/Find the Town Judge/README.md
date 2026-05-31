@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-the-town-judge/?envType=problem-list-v2&envId=graph
-- Synced: 2026-05-31T12:11:37.687Z
+- Synced: 2026-05-31T12:11:39.194Z
 
 ## Problem Description
 
