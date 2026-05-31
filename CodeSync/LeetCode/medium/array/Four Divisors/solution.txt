@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Math
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-05-31T06:13:44.184Z
+ * Synced: 2026-05-31T06:13:45.688Z
  */
 
 }
