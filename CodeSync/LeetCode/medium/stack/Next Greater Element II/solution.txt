@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Next Greater Element II
- * URL: https://leetcode.com/problems/next-greater-element-ii/description/
+ * URL: https://leetcode.com/problems/next-greater-element-ii/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-31T18:03:53.579Z
+ * Synced: 2026-05-31T18:42:16.263Z
  */
 
 class Solution {
