@@ -7,31 +7,24 @@
  * Topics: Uncategorized
  * Runtime: 36 ms
  * Memory: 46.98 MB
- * Synced: 2026-05-31T06:14:42.158Z
+ * Synced: 2026-05-31T06:25:58.571Z
  */
 
-1class Solution {
-2    public int sumFourDivisors(int[] nums) {
-3        int totalSum =0;
-4        for(int n:nums){
-5            List<Integer>div=new ArrayList<>();
-6             for(int i=1;i*i <=n;i++) {
-7                if(n % i==0){
-8                     div.add(i);
-9                if(i !=n/i){
-10                    div.add(n/i);
-11                }
-12             }
-13           }
-14            if(div.size()==4){
-15            int sum=0;
-16            for(int n1:div){
-17                sum+=n1;
-18            }
-19            totalSum +=sum;
-20           }
-21        }     
-22        return totalSum;
-23        
-24    }
-25}
+class Solution {
+    public int sumFourDivisors(int[] nums) {
+        int totalSum =0;
+        for(int n:nums){
+            List<Integer>div=new ArrayList<>();
+             for(int i=1;i*i <=n;i++) {
+                if(n % i==0){
+                     div.add(i);
+                if(i !=n/i){
+                    div.add(n/i);
+                }
+             }
+           }
+            if(div.size()==4){
+            int sum=0;
+            for(int n1:div){
+                sum+=n1;
+            }
