@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Sliding Window Maximum
+ * URL: https://leetcode.com/problems/sliding-window-maximum/submissions/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-31T17:43:12.680Z
+ */
+
+class Solution {
+    public int[] maxSlidingWindow(int[] nums, int k) {
+        
+    }
+}
