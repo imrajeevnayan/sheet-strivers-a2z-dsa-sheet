@@ -7,7 +7,7 @@
  * Topics: Array, Math
  * Runtime: 37 ms
  * Memory: 47.09 MB
- * Synced: 2026-05-31T06:12:39.259Z
+ * Synced: 2026-05-31T06:12:42.018Z
  */
 
 Input: nums = [21,4,7]
