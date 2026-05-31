@@ -4,10 +4,10 @@
 - Language: All languages
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 3861 ms
+- Runtime: 3901 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/next-greater-element_10297924
-- Synced: 2026-05-31T19:14:21.682Z
+- Synced: 2026-05-31T19:14:43.089Z
 
 ## Problem Description
 
