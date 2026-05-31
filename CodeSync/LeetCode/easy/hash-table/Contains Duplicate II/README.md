@@ -4,10 +4,10 @@
 - Language: Sliding Window
 - Difficulty: Easy
 - Topics: Array, Hash Table, Sliding Window
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/contains-duplicate-ii/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-05-31T17:47:33.314Z
+- Runtime: 0 ms
+- Memory: 76.37 MB
+- Problem URL: https://leetcode.com/problems/contains-duplicate-ii/submissions/2018392367/?envType=problem-list-v2&envId=sliding-window
+- Synced: 2026-05-31T17:47:46.757Z
 
 ## Problem Description
 
