@@ -1,18 +1,15 @@
 {
-  "submissionTimestamp": "2026-05-31T19:06:47.916Z",
+  "submissionTimestamp": "2026-05-31T19:09:27.722Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "StackMonotonic Stack",
     "Stack",
-    "Monotonic Stack",
-    "Google",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/1201/",
-  "submissionId": "i8nfyy"
+  "problemUrl": "https://www.lintcode.com/problem/1206/",
+  "submissionId": "f9of59"
 }
