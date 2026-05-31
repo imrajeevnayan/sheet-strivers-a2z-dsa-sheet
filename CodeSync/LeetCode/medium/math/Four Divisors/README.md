@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Math
-- Runtime: 37 ms
-- Memory: 47.09 MB
-- Problem URL: https://leetcode.com/problems/four-divisors/submissions/1875336352/
-- Synced: 2026-05-31T06:12:54.087Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/four-divisors/
+- Synced: 2026-05-31T06:13:08.710Z
 
 ## Problem Description
 
