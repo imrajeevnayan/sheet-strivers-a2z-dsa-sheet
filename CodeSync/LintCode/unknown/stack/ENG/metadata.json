@@ -1,15 +1,21 @@
 {
-  "submissionTimestamp": "2026-05-31T19:09:27.722Z",
+  "submissionTimestamp": "2026-05-31T19:09:41.785Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Stack",
-    "Test Data Test Output"
+    "Test Data Test Output",
+    "StackMonotonic Stack Medium",
+    "StackMonotonic Stack",
+    "Monotonic Stack",
+    "Stack Easy",
+    "Simulation Medium",
+    "Simulation"
   ],
   "platform": "LintCode",
-  "language": "Java",
+  "language": "Next Greater",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/1206/",
-  "submissionId": "f9of59"
+  "submissionId": "ysvt36"
 }
