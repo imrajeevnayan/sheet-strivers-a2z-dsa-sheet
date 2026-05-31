@@ -7,7 +7,7 @@
  * Topics: StackMonotonic Stack, Stack, Monotonic Stack, Google, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-31T19:06:30.189Z
+ * Synced: 2026-05-31T19:06:47.916Z
  */
 
 public·class·Solution·{
