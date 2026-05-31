@@ -1,13 +1,13 @@
 # ENG
 
 - Platform: LintCode
-- Language: Java
+- Language: Next Greater
 - Difficulty: Unknown
-- Topics: Stack, Test Data Test Output
+- Topics: Stack, Test Data Test Output, StackMonotonic Stack Medium, StackMonotonic Stack, Monotonic Stack, Stack Easy, Simulation Medium, Simulation
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/1206/
-- Synced: 2026-05-31T19:09:27.722Z
+- Synced: 2026-05-31T19:09:41.785Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description You are given two arrays (without duplicates) nums1 and nums2 where 
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are Stack, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Next Greater. The detected topics are Stack, Test Data Test Output, StackMonotonic Stack Medium, StackMonotonic Stack, Monotonic Stack, Stack Easy, Simulation Medium, Simulation. Review the synced source file for the implementation details.
