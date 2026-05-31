@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Contains Duplicate II
+ * URL: https://leetcode.com/problems/contains-duplicate-ii/description/?envType=problem-list-v2&envId=sliding-window
+ * Language: Sliding Window
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-31T17:46:02.899Z
+ */
+
+class Solution {
+    public boolean containsNearbyDuplicate(int[] nums, int k) {
+        
+    }
+}
