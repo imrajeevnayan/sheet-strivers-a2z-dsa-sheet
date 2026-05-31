@@ -6,14 +6,14 @@
 # Topics: Binary, Microsoft, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-05-31T19:35:20.654Z
+# Synced: 2026-05-31T19:35:25.458Z
 
 public·class·Solution·{
 ····public·int·countOnes(int·num)·{
 ········int·count·=·0;
 
 ········while·(num·!=·0)·{
-············num·=·num·&·(num·-·1);·//·removes·the·lowest·set·bit
+············num·=·num·&·(num·-·1);
 ············count++;
 ········}
 
