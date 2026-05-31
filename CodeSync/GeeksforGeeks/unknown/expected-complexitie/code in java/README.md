@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
-- Synced: 2026-05-31T12:13:33.203Z
+- Synced: 2026-05-31T12:13:37.973Z
 
 ## Problem Description
 
