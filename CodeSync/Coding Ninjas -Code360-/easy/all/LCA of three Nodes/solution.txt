@@ -1,26 +1,33 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/rotated-array_1093219
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/next-greater-element_10297924
+ * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 3526 ms
+ * Runtime: 2954 ms
  * Memory: N/A
- * Synced: 2026-05-29T15:41:59.584Z
+ * Synced: 2026-05-31T18:01:23.180Z
  */
 
+import java.util.Stack;
 public class Solution {
-    public static int findMin(int []arr) {
-       int start=0,end=arr.length-1,ans=arr[0];
-       while(start<=end){
-           int mid=start+(end-start)/2;
-           if(arr[mid]>= arr[0])start=mid+1;
-           else{
-               ans=arr[mid];
-               end=mid-1;
-           }
-       }
-       return ans;
+    public static int[] nextGreaterElement(int[] arr, int n) {
+        int[] result = new int[n];
+        Stack<Integer> stack = new Stack<>();
+        
+        for (int i = n - 1; i >= 0; i--) {
+         while (!stack.isEmpty() && stack.peek() <= arr[i]) stack.pop();
+            
+            if (stack.isEmpty()) {
+                result[i] = -1;
+            } else {
+                result[i] = stack.peek();
+            }
+            
+            stack.push(arr[i]);
+        }
+        
+        return result;
     }
 }
