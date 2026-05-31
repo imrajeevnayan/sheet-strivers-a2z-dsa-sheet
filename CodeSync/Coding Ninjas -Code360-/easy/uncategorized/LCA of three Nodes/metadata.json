@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-05-29T15:41:59.584Z",
-  "runtime": "3526 ms",
+  "submissionTimestamp": "2026-05-31T18:01:23.180Z",
+  "runtime": "2954 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/rotated-array_1093219",
-  "submissionId": "nbbwi0"
+  "problemUrl": "https://www.naukri.com/code360/problems/next-greater-element_10297924",
+  "submissionId": "7s9abu"
 }
