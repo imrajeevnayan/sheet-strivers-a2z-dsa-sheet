@@ -6,8 +6,8 @@
 - Topics: Array, Queue, Sliding Window, Heap (Priority Queue), Monotonic Queue
 - Runtime: 82 ms
 - Memory: 158.32 MB
-- Problem URL: https://leetcode.com/problems/sliding-window-maximum/submissions/1908286515/
-- Synced: 2026-05-31T17:43:17.847Z
+- Problem URL: https://leetcode.com/problems/sliding-window-maximum/description/
+- Synced: 2026-05-31T17:43:41.318Z
 
 ## Problem Description
 
