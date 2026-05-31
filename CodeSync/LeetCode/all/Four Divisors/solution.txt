@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Four Divisors
- * URL: https://leetcode.com/problems/four-divisors/submissions/2017875882/
+ * URL: https://leetcode.com/problems/four-divisors/description/
  * Language: Problem List
- * Difficulty: Easy
- * Topics: Uncategorized
- * Runtime: 36 ms
- * Memory: 46.98 MB
- * Synced: 2026-05-31T06:25:58.571Z
+ * Difficulty: Medium
+ * Topics: Array, Math
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-31T06:26:30.167Z
  */
 
 class Solution {
