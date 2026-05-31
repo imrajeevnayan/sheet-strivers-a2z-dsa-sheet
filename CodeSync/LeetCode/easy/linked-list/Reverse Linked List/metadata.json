@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-05-31T12:10:12.881Z",
+  "submissionTimestamp": "2026-05-31T12:10:17.348Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "44.15 MB",
   "difficulty": "Easy",
   "tags": [
     "Linked List",
