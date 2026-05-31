@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-05-31T17:48:00.164Z",
+  "submissionTimestamp": "2026-05-31T17:55:19.756Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Sliding Window",
   "problemTitle": "Contains Duplicate II",
-  "problemUrl": "https://leetcode.com/problems/contains-duplicate-ii/description/?envType=problem-list-v2&envId=sliding-window",
+  "problemUrl": "https://leetcode.com/problems/contains-duplicate-ii/?envType=problem-list-v2&envId=sliding-window",
   "submissionId": "625amu"
 }
