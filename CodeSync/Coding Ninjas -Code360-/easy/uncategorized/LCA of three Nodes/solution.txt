@@ -7,10 +7,10 @@
  * Topics: Uncategorized
  * Runtime: 2994 ms
  * Memory: N/A
- * Synced: 2026-05-31T18:44:10.588Z
+ * Synced: 2026-05-31T18:44:12.434Z
  */
 
-import java.util.Stack
+import java.util.
 public class Solution {
     public static int[] nextGreaterElement(int[] arr, int n) {
         int[] result = new int[n];
