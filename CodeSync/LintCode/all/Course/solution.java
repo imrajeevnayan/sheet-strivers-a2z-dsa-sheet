@@ -1,26 +1,21 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/submission/34586558/?action_type=1
+ * URL: https://www.lintcode.com/problem/365/record?showListFe=false&page=1&problemTypeId=4&pageSize=50
  * Language: Java
- * Difficulty: Medium
- * Topics: Algorithms Medium, View Problem
+ * Difficulty: Unknown
+ * Topics: Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T15:42:49.202Z
+ * Synced: 2026-05-31T19:07:22.683Z
  */
 
-public class Solution {
-    public int findMin(int[] nums) {
-        int start=0,end=nums.length-1,ans=nums[0];
-        while(start<=end){
-            int mid=start+(end-start)/2;
-            if(nums[mid]>=nums[0])start=mid+1;
-            else{
-                ans=nums[mid];
-                end=mid-1;
-            }
-        }
-        return ans;
-    }
+public·class·Solution·{
+····/**
+·····*·@param·num:·An·integer
+·····*·@return:·An·integer,·the·number·of·ones·in·num
+·····*/
+····public·int·countOnes(int·num)·{
+········//·write·your·code·here
+····}
 }
