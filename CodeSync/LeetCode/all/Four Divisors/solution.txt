@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Four Divisors
+ * URL: https://leetcode.com/problems/four-divisors/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Math
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-05-31T06:11:43.975Z
+ */
+
+class Solution {
+    public int sumFourDivisors(int[] nums) {
+        
+    }
+}
