@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-05-31T12:11:39.194Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Graph Theory"
+  ],
+  "platform": "LeetCode",
+  "language": "Graph Theory",
+  "problemTitle": "Find the Town Judge",
+  "problemUrl": "https://leetcode.com/problems/find-the-town-judge/?envType=problem-list-v2&envId=graph",
+  "submissionId": "ymrunp"
+}
