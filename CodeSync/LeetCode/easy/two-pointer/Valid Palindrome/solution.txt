@@ -7,7 +7,7 @@
  * Topics: Two Pointers, String
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-05-31T06:58:21.100Z
+ * Synced: 2026-05-31T06:58:28.502Z
  */
 
 char right = s.charAt(end);
@@ -19,12 +19,12 @@ char right = s.charAt(end);
         if (!Character.isLetterOrDigit(right)) {
         char left = s.charAt(start);
 
-            return true;
-        }
-        if (start >= end) {
+        
+        if (start >= end) return true;
     private boolean check(String s, int start, int end) {
 
         return check(s, 0, s.length() - 1);
     }
     public boolean isPalindrome(String s) {
 class Solution {
+            return check(s, start, end - 1);
