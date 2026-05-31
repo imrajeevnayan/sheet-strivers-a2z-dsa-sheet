@@ -7,11 +7,11 @@
 - Runtime: 3918 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/next-greater-element_10297924
-- Synced: 2026-05-31T18:45:49.396Z
+- Synced: 2026-05-31T18:45:53.398Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+AutocompleteEXCLUSIVE Get key word suggestions of your code
 
 ## Explanation
 
