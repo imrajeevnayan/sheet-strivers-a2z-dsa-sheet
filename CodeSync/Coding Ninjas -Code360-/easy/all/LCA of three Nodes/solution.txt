@@ -4,10 +4,10 @@
  * URL: https://www.naukri.com/code360/problems/next-greater-element_670312
  * Language: Java (SE 1.8)
  * Difficulty: Easy
- * Topics: in Binary Search
+ * Topics: Uncategorized
  * Runtime: 4835 ms
  * Memory: N/A
- * Synced: 2026-05-31T19:16:38.562Z
+ * Synced: 2026-05-31T19:16:43.150Z
  */
 
 import java.util.*;
