@@ -6,8 +6,8 @@
 - Topics: Linked List, Recursion
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-linked-list/
-- Synced: 2026-05-31T12:10:10.648Z
+- Problem URL: https://leetcode.com/problems/reverse-linked-list/submissions/2018140873/
+- Synced: 2026-05-31T12:10:12.881Z
 
 ## Problem Description
 
