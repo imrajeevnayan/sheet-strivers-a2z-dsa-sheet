@@ -7,24 +7,24 @@
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-01T06:08:07.287Z
+ * Synced: 2026-06-01T06:08:15.288Z
  */
 
-public class Solution {
-    public int trap(int[] height) {
-        if (height == null || height.length == 0) return 0;
+}
+                left++;
+                    totalWater += leftMax - height[left];
+                } else {
+                    leftMax = height[left];
+                if (height[left] >= leftMax) {
+            if (height[left] < height[right]) {
+        while (left < right) {
         
-        int left = 0;
-        int right = height.length - 1;
-        int leftMax = 0;
         int rightMax = 0;
         int totalWater = 0;
+        int right = height.length - 1;
+        int leftMax = 0;
         
-        while (left < right) {
-            if (height[left] < height[right]) {
-                if (height[left] >= leftMax) {
-                    leftMax = height[left];
-                } else {
-                    totalWater += leftMax - height[left];
-                }
-                left++;
+        int left = 0;
+    public int trap(int[] height) {
+        if (height == null || height.length == 0) return 0;
+public class Solution {
