@@ -6,8 +6,8 @@
 - Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
 - Runtime: 0 ms
 - Memory: 47.46 MB
-- Problem URL: https://leetcode.com/problems/trapping-rain-water/submissions/2018778452/
-- Synced: 2026-06-01T06:17:32.111Z
+- Problem URL: https://leetcode.com/problems/trapping-rain-water/
+- Synced: 2026-06-01T06:21:54.257Z
 
 ## Problem Description
 
