@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-06-01T06:08:15.288Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Dynamic Programming",
+    "Stack",
+    "Monotonic Stack"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Trapping Rain Water",
+  "problemUrl": "https://leetcode.com/problems/trapping-rain-water/description/",
+  "submissionId": "6znxfz"
+}
