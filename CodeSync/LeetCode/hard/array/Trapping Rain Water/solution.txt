@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-01T06:11:39.289Z
+ * Synced: 2026-06-01T06:15:34.412Z
  */
 
 }
@@ -28,3 +28,4 @@
         if (height == null || height.length == 0) return 0;
     public int trap(int[] height) {
 public class Solution {
+                }
