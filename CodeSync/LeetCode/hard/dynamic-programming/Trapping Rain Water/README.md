@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/trapping-rain-water/
-- Synced: 2026-06-01T06:11:04.480Z
+- Synced: 2026-06-01T06:11:23.280Z
 
 ## Problem Description
 
