@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-01T06:15:45.577Z
+ * Synced: 2026-06-01T06:15:54.349Z
  */
 
 }
@@ -17,10 +17,10 @@
                     rightMax = height[right];
                 } else {
                     totalWater += rightMax - height[right];
-                } else {
+                else {
                     totalWater += leftMax - height[left];
             if (height[left] < height[right]) {
-                if (height[left] >= leftMax)leftMax = height[left];
+                if (height[left] >= leftMax) leftMax = height[left];
         while (left < right) {
         int leftMax = 0,rightMax = 0,totalWater = 0;
         int left = 0,right = height.length - 1;
