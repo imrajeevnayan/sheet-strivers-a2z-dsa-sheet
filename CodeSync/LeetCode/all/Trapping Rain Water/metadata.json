@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-01T06:17:32.111Z",
+  "submissionTimestamp": "2026-06-01T06:22:09.712Z",
   "runtime": "0 ms",
   "memoryUsage": "47.46 MB",
   "difficulty": "Hard",
@@ -13,6 +13,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Trapping Rain Water",
-  "problemUrl": "https://leetcode.com/problems/trapping-rain-water/submissions/2018778452/",
-  "submissionId": "wd53ij"
+  "problemUrl": "https://leetcode.com/problems/trapping-rain-water/",
+  "submissionId": "t0pssy"
 }
