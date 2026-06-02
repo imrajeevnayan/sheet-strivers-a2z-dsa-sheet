@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Easy C++ Solution
+ * URL: https://www.geeksforgeeks.org/problems/remove-all-occurrences-of-a-character-in-a-string/1
+ * Language: let l= s.length let str='' for(let i=0; i<l; i++){ if(s[i]!=c){ str=str+s[i] } } return str }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Strings, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-02T11:24:39.884Z
+ */
+
+class Solution {
+    public void removeCharacter(StringBuilder s, char c) {
+        int j= 0;
+        
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) != c) {
+                s.setCharAt(j, s.charAt(i));
+                j++;
+            }
+        }
+         s.setLength(j);
+    }
+}
