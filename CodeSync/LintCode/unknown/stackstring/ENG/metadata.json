@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-02T11:03:08.023Z",
+  "submissionTimestamp": "2026-06-02T11:17:33.445Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,15 +7,11 @@
     "StackString",
     "Stack",
     "String",
-    "Test Data Commit Output",
-    "Binary TreeDivide and ConquerBinary Search Tree",
-    "Binary Tree",
-    "Divide and Conquer",
-    "Binary Search Tree"
+    "Test Data Commit Output"
   ],
   "platform": "LintCode",
-  "language": "remove",
+  "language": "r",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/3820/",
-  "submissionId": "29ijy2"
+  "submissionId": "8jlil0"
 }
