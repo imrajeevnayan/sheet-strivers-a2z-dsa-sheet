@@ -7,12 +7,15 @@
  * Topics: Divide and Conquer, Google, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T18:14:53.515Z
+ * Synced: 2026-06-02T18:15:09.230Z
  */
 
 public·class·Solution·{
+·····*·@param·n:·an·integer
+····/**
+·····*·@return:·return·any·beautiful·array·A
+·····*/
 ····public·int[]·beautifulArray(int·n)·{
-······Stack<Integer>st=new·Stack<>();
+········//·write·your·code·here.
 ····}
-······for(int·i=0;i<)
 }
