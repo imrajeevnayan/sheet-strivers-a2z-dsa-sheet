@@ -7,10 +7,11 @@
  * Topics: Expected Complexities, Company Tags, FactSet, Visa, Goldman Sachs, Qualcomm, Kritikal Solutions, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T12:20:12.520Z
+ * Synced: 2026-06-02T12:20:16.033Z
  */
 
-int[] arr;
+class myStack {
+    int[] arr;
     int top;
 
     public myStack(int n) {
@@ -28,7 +29,6 @@ int[] arr;
 
     public void push(int x) {
         if (!isFull()) arr[++top] = x;
-    
     }
 
     public void pop() {
