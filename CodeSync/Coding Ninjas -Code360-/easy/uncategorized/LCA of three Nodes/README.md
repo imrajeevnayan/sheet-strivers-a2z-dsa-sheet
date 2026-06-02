@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 5850 ms
+- Runtime: 982 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/stock-span_5243295
-- Synced: 2026-06-02T16:33:57.758Z
+- Problem URL: https://www.naukri.com/code360/problems/reverse-of-a-number_893271
+- Synced: 2026-06-02T16:40:29.961Z
 
 ## Problem Description
 
