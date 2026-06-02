@@ -7,14 +7,11 @@
  * Topics: Stack, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T18:16:59.577Z
+ * Synced: 2026-06-02T18:17:06.425Z
  */
 
 public·class·Stack·{
-····/*
-·····*·@param·x:·An·integer
-·····*·@return:·nothing
-·····*/
+····
 ····public·void·push(int·x)·{
 ········//·write·your·code·here
 ····}
