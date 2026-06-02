@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-02T07:03:19.213Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Opposite Direction Two Pointers",
+    "Stack",
+    "Two Pointers",
+    "Monotonic Stack",
+    "Apple",
+    "Twitter",
+    "Airbnb",
+    "Amazon"
+  ],
+  "platform": "LintCode",
+  "language": "Java",
+  "problemTitle": "ENG",
+  "problemUrl": "https://www.lintcode.com/problem/363/",
+  "submissionId": "ti0hjg"
+}
