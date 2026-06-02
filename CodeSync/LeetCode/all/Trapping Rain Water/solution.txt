@@ -1,26 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: Trapping Rain Water
- * URL: https://leetcode.com/problems/trapping-rain-water/
+ * URL: https://leetcode.com/problems/trapping-rain-water/submissions/2019855284/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-02T06:33:06.433Z
+ * Runtime: 0 ms
+ * Memory: 47.59 MB
+ * Synced: 2026-06-02T06:37:06.171Z
  */
 
 }
                 left++;
-            } else {
-                if (height[right] >= rightMax) {
-                    rightMax = height[right];
-                } else {
-                    totalWater += rightMax - height[right];
-                }
-                right--;
             }
-        }
-        return totalWater;
-    }
-}
+                if (height[right] >= rightMax) rightMax = height[right];
+                 else {
+                    totalWater += rightMax - height[right];
+             else {
+                 else {
+                    totalWater += leftMax - height[left];
+            if (height[left] < height[right]) {
+                if (height[left] >= leftMax) leftMax = height[left];
+        int totalWater = 0;
+        while (left < right) {
+        int left = 0,right = height.length - 1;
+        int leftMax = 0,rightMax = 0;
+        if (height == null || height.length == 0) return 0;
+    public int trap(int[] height) {
+public class Solution {
