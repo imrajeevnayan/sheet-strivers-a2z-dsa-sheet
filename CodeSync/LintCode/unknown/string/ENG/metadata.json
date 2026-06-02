@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-02T11:18:20.562Z",
+  "submissionTimestamp": "2026-06-02T11:18:41.492Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,11 +7,15 @@
     "StackString",
     "Stack",
     "String",
-    "Test Data Test Output"
+    "Test Data Test Output",
+    "Binary TreeDivide and ConquerBinary Search Tree",
+    "Binary Tree",
+    "Divide and Conquer",
+    "Binary Search Tree"
   ],
   "platform": "LintCode",
-  "language": "remove recursive",
+  "language": "remove con",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/3820/",
-  "submissionId": "1irdqk"
+  "submissionId": "ql242k"
 }
