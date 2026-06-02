@@ -6,10 +6,10 @@
 # Topics: StackString, Stack, String, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-02T10:05:18.142Z
+# Synced: 2026-06-02T10:05:28.440Z
 
 public·class·Solution·{
 ····public·String·removeDuplicates(String·s)·{
-········//·write·your·code·here
+····Stack<Character>s
 ····}
 }
