@@ -7,7 +7,7 @@
 - Runtime: 1196 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/set-matrix-zeros_3846774
-- Synced: 2026-06-02T17:56:43.053Z
+- Synced: 2026-06-02T17:56:46.050Z
 
 ## Problem Description
 
