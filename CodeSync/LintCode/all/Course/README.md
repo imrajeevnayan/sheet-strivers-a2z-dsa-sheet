@@ -2,12 +2,12 @@
 
 - Platform: LintCode
 - Language: Python
-- Difficulty: Unknown
+- Difficulty: Hard
 - Topics: Opposite Direction Two Pointers, Stack, Two Pointers, Monotonic Stack, Apple, Twitter, Airbnb, Amazon
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/363/description
-- Synced: 2026-06-02T07:14:26.985Z
+- Synced: 2026-06-02T07:57:13.816Z
 
 ## Problem Description
 
