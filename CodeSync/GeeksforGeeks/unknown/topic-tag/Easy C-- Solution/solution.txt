@@ -7,10 +7,23 @@
  * Topics: Topic Tags Related Articles, Topic Tags, Recursion, Stack, implementation, Data Structures, Algorithms, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T18:39:40.176Z
+ * Synced: 2026-06-02T18:39:48.244Z
  */
 
-// User function Template for Java
+import java.util.*;
+
 class Solution {
-    public Stack<Integer> insertAtBottom(Stack<Integer> st, int x) {}
+    public Stack<Integer> insertAtBottom(Stack<Integer> st, int x) {
+
+        if (st.isEmpty()) {
+            st.push(x);
+            return st;
+        }
+
+        int top = st.pop();
+        insertAtBottom(st, x);
+        st.push(top);
+
+        return st;
+    }
 }
