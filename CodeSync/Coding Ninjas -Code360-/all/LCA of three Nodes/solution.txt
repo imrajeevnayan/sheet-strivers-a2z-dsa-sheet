@@ -1,32 +1,39 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/next-greater-element_799354
+ * URL: https://www.naukri.com/code360/problems/trapping-rainwater_630519
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 4337 ms
+ * Runtime: 3444 ms
  * Memory: N/A
- * Synced: 2026-05-31T19:29:45.873Z
+ * Synced: 2026-06-02T08:47:10.494Z
  */
 
-import java.util.* ;
-import java.io.*; 
- 
 public class Solution {
-    
-    public static int[] nextGreater(int[] arr, int n) { 
-      int res[]=new int[n];
-      Arrays.fill(res,-1);
-      Stack<Integer>st=new Stack<>();
-      for(int i=0;i<n;i++){
-          while(!st.isEmpty() && arr[i]> arr[st.peek()]){
-              res[st.pop()]=arr[i];
-          }
-          st.push(i);
-      }
-      return res;
-        
-    }
+    public static long getTrappedWater(long[] arr, int n) {
+        int left = 0, right = n - 1;
+        long leftMax = 0, rightMax = 0;
+        long water = 0;
  
+        while (left <= right) {
+            if (arr[left] <= arr[right]) {
+                if (arr[left] >= leftMax) {
+                    leftMax = arr[left];
+                } else {
+                    water += leftMax - arr[left];
+                }
+                left++;
+            } else {
+                if (arr[right] >= rightMax) {
+                    rightMax = arr[right];
+                } else {
+                    water += rightMax - arr[right];
+                }
+                right--;
+            }
+        }
+ 
+        return water;
+    }
 }
