@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find Minimum Cost to Remove Array Elements
+ * URL: https://leetcode.com/problems/find-minimum-cost-to-remove-array-elements/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-02T11:49:36.039Z
+ */
+
+class Solution {
+    public int minCost(int[] nums) {
+        
+    }
+}
