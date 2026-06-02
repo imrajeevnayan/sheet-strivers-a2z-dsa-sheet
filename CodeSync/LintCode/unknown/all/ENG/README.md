@@ -1,18 +1,18 @@
 # ENG
 
 - Platform: LintCode
-- Language: Java
+- Language: Python
 - Difficulty: Unknown
-- Topics: Stack, Test Data Test Output
+- Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/495/?showListFe=true&page=1&problemTypeId=4&tagIds=361&ordering=level&pageSize=50
-- Synced: 2026-06-02T18:19:02.208Z
+- Problem URL: https://www.lintcode.com/problem/2506/?showListFe=true&page=1&problemTypeId=4&tagIds=361&ordering=level&pageSize=50
+- Synced: 2026-06-02T18:20:18.307Z
 
 ## Problem Description
 
-Description Implement a stack. You can use any data structure inside a stack except stack itself to implement it. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information Example Example 1: Input: push(1) pop() push(2) top() // return 2 pop() isEmpty() // return true push(3) isEmpty() // return false Example 2: Input: isEmpty() Related Knowledge 学习《九章算法班随课教程》课程中的7.1如何实现一个栈相关内容 ，了解更多相关知识！ Tags Related Problems 224 Implement Three Stacks by Single Array Medium 494 Implement Stack by Two Queues Easy 955 Implement Queue by Circular Array Medium Recommend Courses 春招算法高频题冲刺班 精准押题，抱佛脚突击算法面试，最近6个月新题/难题/高频题全覆盖！ Problem List Prev 8/88 Next
+This topic is a pre-release topic. If you encounter any problems, please contact us via "Problem Correction", and we will upgrade your account to VIP as a thank you. Description You will get a string s which consisting of lowercase letters a-z, left parentheses '(' and right parentheses ')'. Your task is to remove as few parentheses as you can so that the parentheses in s is valid. You need to return a valid string.If the answer is correct it will prompt It is a correct answer. Because of the answer may be more than one, so you can return any of them. "()", "(())", "()()", "(())()" are valid parentheses strings, and ")(", "(()", "()()(", "()())" are not valid parentheses strings. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information A string without parentheses(such as：abcd) or a empty string "" is also a valid string. 0 ≤ 0≤ the length of s ≤ 1 0 5 ≤10 5 You can only remove parentheses, other operations will not be allowed. Example Example 1: Input: s = "a(b(c(de)fgh)" Output: "a(b(cde)fgh)" Explanation: There are 3 corrcect answers: "ab(c(de)fgh)"，"a(bc(de)fgh)"，"a(b(cde)fgh)"。 You can return any of them. Example 2: Input: s = "(((" Output: "" Explanation: A empty string "" is also a valid string. Tags Related Problems 263 Matching of parentheses Easy 1089 Valid Parenthesis String Medium 1721 Minimum Add to Make Parentheses Valid Medium Recommend Courses 0基础入门数据分析 进阶大厂刚需高薪人才，熟练掌握SQL、Python、Tableau、A/Btest等实用技能工具，配套100+数据题夯实基础 Problem Contributors contribute Thank the following users for their constructive comments on this problem ninechapter-kaga Problem List Prev 7/88 Next
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are Stack, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Python. The detected topics are PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Test Output. Review the synced source file for the implementation details.
