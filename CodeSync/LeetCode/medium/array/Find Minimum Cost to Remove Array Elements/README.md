@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-minimum-cost-to-remove-array-elements/
-- Synced: 2026-06-02T11:50:51.040Z
+- Synced: 2026-06-02T11:50:53.032Z
 
 ## Problem Description
 
