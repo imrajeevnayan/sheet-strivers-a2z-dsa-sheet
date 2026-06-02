@@ -7,26 +7,21 @@
  * Topics: Stack, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T18:17:26.154Z
+ * Synced: 2026-06-02T18:18:52.098Z
  */
 
 public·class·Stack·{
-····
+
+····int[]·arr;
+····int·top;
+····int·capacity;
+
+····public·Stack(int·size)·{
+········capacity·=·size;
+········arr·=·new·int[size];
+········top·=·-1;
+····}
+
 ····public·void·push(int·x)·{
-········
-····}
-
-···
-····public·void·pop()·{
-········//·write·your·code·here
-····}
-
-···
-····public·int·top()·{
-········//·write·your·code·here
-····}
-
-····public·boolean·isEmpty()·{
-········//·write·your·code·here
-····}
-}
+········if·(top·==·capacity·-·1)·return;
+········arr[++top]·=·x;
