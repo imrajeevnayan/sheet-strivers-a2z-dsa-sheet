@@ -6,13 +6,11 @@
  * Difficulty: Hard
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
  * Runtime: 0 ms
- * Memory: 0.00 MB
- * Synced: 2026-06-02T06:39:53.044Z
+ * Memory: 47.95 MB
+ * Synced: 2026-06-02T06:40:00.161Z
  */
 
-Deque<Integer> stack = new ArrayDeque<>();
-    
-    for (int i = 0; i < height.length; i++) {
+for (int i = 0; i < height.length; i++) {
         while (!stack.isEmpty() && height[i] > height[stack.peek()]) {
             int top = stack.pop();
             if (stack.isEmpty()) break;
@@ -25,4 +23,8 @@ Deque<Integer> stack = new ArrayDeque<>();
     }
     return ans;
     }
-}
+    int ans = 0;
+    Deque<Integer> stack = new ArrayDeque<>();
+    
+public class Solution {
+    public int trap(int[] height) {
