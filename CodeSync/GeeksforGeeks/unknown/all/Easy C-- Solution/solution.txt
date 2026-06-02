@@ -1,42 +1,29 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Easy C++ Solution
- * URL: https://www.geeksforgeeks.org/problems/implement-stack-using-array/1
- * Language: class myStack: def __init__(self, n): # Define Data Structures self.stack=[] self.n=n def isEmpty(self): # Check if stack is empty return len(self.stack)==0 def isFull(self): # Check if stack is full return len(self.stack)==self.n def push(self, x): # Insert x at the top of the stack if self.n > len(self.stack): self.stack.append(x) def pop(self): # Removes an element from the top of the stack if not self.isEmpty(): return self.stack.pop() return -1 def peek(self): # Returns the top element of the stack if self.isEmpty(): return -1 return self.stack[-1]
+ * URL: https://www.geeksforgeeks.org/problems/insert-an-element-at-the-bottom-of-a-stack/1
+ * Language: class Solution { public: stack<int> insertAtBottom(stack<int> st, int x) { aadarsh(st,x); return st; } void aadarsh(stack<int> &st, int x) { if(st.empty()){ st.push(x); return; } int ans=st.top(); st.pop(); aadarsh(st,x); st.push(ans); } };
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags, FactSet, Visa, Goldman Sachs, Qualcomm, Kritikal Solutions, Topic Tags
+ * Topics: Topic Tags Related Articles, Topic Tags, Recursion, Stack, implementation, Data Structures, Algorithms, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T12:20:35.584Z
+ * Synced: 2026-06-02T18:40:15.983Z
  */
 
-class myStack {
-    int[] arr;
-    int top;
+import java.util.*;
 
-    public myStack(int n) {
-        arr = new int[n];
-        top = -1;
-    }
+class Solution {
+    public Stack<Integer> insertAtBottom(Stack<Integer> st, int x) {
 
-    public boolean isEmpty() {
-        return top == -1;
-    }
+        if (st.isEmpty()) {
+            st.push(x);
+            return st;
+        }
 
-    public boolean isFull() {
-        return top == arr.length - 1;
-    }
+        int top = st.pop();
+        insertAtBottom(st, x);
+        st.push(top);
 
-    public void push(int x) {
-        if (!isFull()) arr[++top] = x;
-    }
-
-    public void pop() {
-        if (!isEmpty()) top--;
-    }
-
-    public int peek() {
-        if (!isEmpty())  return arr[top];
-        return -1;
+        return st;
     }
 }
