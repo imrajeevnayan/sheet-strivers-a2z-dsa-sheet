@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-02T16:40:42.726Z",
-  "runtime": "982 ms",
+  "submissionTimestamp": "2026-06-02T17:56:46.050Z",
+  "runtime": "1196 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Programming Fundamentals Clear all",
-    "Programming Fundamentals"
+    "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/reverse-of-a-number_893271",
-  "submissionId": "m8w0kg"
+  "problemUrl": "https://www.naukri.com/code360/problems/set-matrix-zeros_3846774",
+  "submissionId": "bhn6e4"
 }
