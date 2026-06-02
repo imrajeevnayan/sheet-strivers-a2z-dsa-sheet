@@ -1,37 +1,30 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/problem/62/solution/93735
- * Language: ALL(83) Python 3(41) Java(29) C++(12) Csharp(2) JavaScript(2) Go(1)
+ * URL: https://www.lintcode.com/problem/363/solution/93750
+ * Language: ALL(59) Java(31) Python 3(24) C++(9) Csharp(1)
  * Difficulty: Unknown
- * Topics: Highlight, More, Python 3 Java C++, Python 3, Java, C++, JavaScript, @param
+ * Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, @param, @return
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T16:18:25.247Z
+ * Synced: 2026-06-02T07:11:23.909Z
  */
 
 public·class·Solution·{
-····public·int·search(int[]·a,·int·target)·{
-········int·left·=·0,right·=·a.length·-·1;
-········while·(left·<=·right)·{
-············int·mid·=·left·+·(right·-·left)·/·2;
-············if·(a[mid]·==·target)·return·mid;
-············//·Left·half·is·sorted
-············if·(a[left]·<=·a[mid])·{
-················//·Target·lies·in·left·half
-················if·(target·>=·a[left]·&&·target·<·a[mid])·right·=·mid·-·1;
-················else·left·=·mid·+·1;
-············}·
-············//·Right·half·is·sorted
-············else·{
-················//·Target·lies·in·right·half
-················if·(target·>·a[mid]·&&·target·<=·a[right])·{
-····················left·=·mid·+·1;
-················}·else·{
-····················right·=·mid·-·1;
-················}
+····public·int·trapRainWater(int[]·heights)·{
+········int·ans=0;
+········Deque<Integer>st=new·ArrayDeque<>();
+········for(int·i=0;i<heights.length;i++){
+············while(!st.isEmpty()&&·heights[i]>heights[st.peek()]){
+················int·top=st.pop();
+················if(st.isEmpty())break;
+
+················int·dist=i-st.peek()-1;
+················int·boundHeight=Math.min(heights[i],heights[st.peek()])-heights[top];
+················ans+=dist·*·boundHeight;
 ············}
+··········st.push(i);············
 ········}
-········return·-1;
+········return·ans;
 ····}
 }
