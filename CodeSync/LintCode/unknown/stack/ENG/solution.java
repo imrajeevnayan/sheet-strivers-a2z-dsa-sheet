@@ -7,7 +7,7 @@
  * Topics: Stack, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T18:17:22.384Z
+ * Synced: 2026-06-02T18:17:24.031Z
  */
 
 public·class·Stack·{
@@ -26,9 +26,6 @@ public·class·Stack·{
 ········//·write·your·code·here
 ····}
 
-····/*
-·····*·@return:·True·if·the·stack·is·empty
-·····*/
 ····public·boolean·isEmpty()·{
 ········//·write·your·code·here
 ····}
