@@ -1,0 +1,26 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: LCA of three Nodes
+ * URL: https://www.naukri.com/code360/problems/reverse-of-a-number_893271
+ * Language: Java (SE 1.8)
+ * Difficulty: Easy
+ * Topics: Programming Fundamentals Clear all, Programming Fundamentals
+ * Runtime: 982 ms
+ * Memory: N/A
+ * Synced: 2026-06-02T16:40:42.726Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+ 
+public class Solution {
+    public static long reverseNumber(long n) {
+        long rev=0;
+         while(n>0){
+          rev=rev*10+(n%10);
+          n/=10;
+         }
+         return rev;
+    }
+ 
+}
