@@ -1,0 +1,22 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: String Duplicates Removal
+ * URL: https://www.geeksforgeeks.org/problems/remove-all-duplicates-from-a-given-string4321/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoftAdobe, Company Tags, Amazon, Microsoft, Adobe, Topic Tags, Arrays
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-02T11:43:50.917Z
+ */
+
+class Solution {
+    String removeDuplicates(String s) {
+        StringBuilder sb=new StringBuilder();
+        Set<Character>set=new HashSet<>();
+        for(char c:s.toCharArray()){
+            if(set.add(c))sb.append(c);
+        }
+        return sb.toString();
+    }
+}
