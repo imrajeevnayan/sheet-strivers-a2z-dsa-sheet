@@ -1,21 +1,16 @@
 {
-  "submissionTimestamp": "2026-06-02T11:18:41.492Z",
+  "submissionTimestamp": "2026-06-02T18:14:48.464Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "StackString",
-    "Stack",
-    "String",
-    "Test Data Test Output",
-    "Binary TreeDivide and ConquerBinary Search Tree",
-    "Binary Tree",
     "Divide and Conquer",
-    "Binary Search Tree"
+    "Google",
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "remove con",
+  "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/3820/",
-  "submissionId": "ql242k"
+  "problemUrl": "https://www.lintcode.com/problem/1710/",
+  "submissionId": "o6f6w2"
 }
