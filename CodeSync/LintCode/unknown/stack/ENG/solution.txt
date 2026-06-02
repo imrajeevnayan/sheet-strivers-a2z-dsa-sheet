@@ -4,10 +4,10 @@
  * URL: https://www.lintcode.com/problem/3820/
  * Language: remove
  * Difficulty: Unknown
- * Topics: StackString, Stack, String, Test Data Commit Output
+ * Topics: StackString, Stack, String, Test Data Commit Output, Binary TreeDivide and ConquerBinary Search Tree, Binary Tree, Divide and Conquer, Binary Search Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T11:02:50.741Z
+ * Synced: 2026-06-02T11:02:54.419Z
  */
 
 public·class·Solution·{
