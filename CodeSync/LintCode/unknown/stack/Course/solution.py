@@ -6,23 +6,33 @@
 # Topics: Opposite Direction Two Pointers, Stack, Two Pointers, Monotonic Stack, Apple, Twitter, Airbnb, Amazon
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-02T07:13:54.580Z
+# Synced: 2026-06-02T07:14:16.067Z
 
 public·class·Solution·{
 ····public·int·trapRainWater(int[]·heights)·{
-········int·ans=0;
-········Deque<Integer>st=new·ArrayDeque<>();
-········for(int·i=0;i<heights.length;i++){
-············while(!st.isEmpty()&&·heights[i]>heights[st.peek()]){
-················int·top=st.pop();
-················if(st.isEmpty())break;
-
-················int·dist=i-st.peek()-1;
-················int·boundHeight=Math.min(heights[i],heights[st.peek()])-heights[top];
-················ans+=dist·*·boundHeight;
+········if·(height·==·null·||·height.length·==·0)·return·0;
+····
+····int·left·=·0,·right·=·height.length·-·1;
+····int·leftMax·=·0,·rightMax·=·0;
+····int·water·=·0;
+····
+····while·(left·<·right)·{
+········if·(height[left]·<·height[right])·{
+············if·(height[left]·>=·leftMax)·{
+················leftMax·=·height[left];
+············}·else·{
+················water·+=·leftMax·-·height[left];
 ············}
-··········st.push(i);············
+············left++;
+········}·else·{
+············if·(height[right]·>=·rightMax)·{
+················rightMax·=·height[right];
+············}·else·{
+················water·+=·rightMax·-·height[right];
+············}
+············right--;
 ········}
-········return·ans;
+····}
+····return·water;
 ····}
 }
