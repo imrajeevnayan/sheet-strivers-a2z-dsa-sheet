@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Trapping Rain Water
- * URL: https://leetcode.com/problems/trapping-rain-water/submissions/2019858756/
+ * URL: https://leetcode.com/problems/trapping-rain-water/description/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
  * Runtime: 0 ms
- * Memory: 47.95 MB
- * Synced: 2026-06-02T06:40:43.164Z
+ * Memory: N/A
+ * Synced: 2026-06-02T08:12:40.269Z
  */
 
 for (int i = 0; i < height.length; i++) {
