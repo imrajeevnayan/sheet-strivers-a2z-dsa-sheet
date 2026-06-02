@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-05-31T19:09:41.785Z",
+  "submissionTimestamp": "2026-06-02T07:03:19.213Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
+    "Opposite Direction Two Pointers",
     "Stack",
-    "Test Data Test Output",
-    "StackMonotonic Stack Medium",
-    "StackMonotonic Stack",
+    "Two Pointers",
     "Monotonic Stack",
-    "Stack Easy",
-    "Simulation Medium",
-    "Simulation"
+    "Apple",
+    "Twitter",
+    "Airbnb",
+    "Amazon"
   ],
   "platform": "LintCode",
-  "language": "Next Greater",
+  "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/1206/",
-  "submissionId": "ysvt36"
+  "problemUrl": "https://www.lintcode.com/problem/363/",
+  "submissionId": "ti0hjg"
 }
