@@ -1,38 +1,24 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/62/
- * Language: Kth Missing Positive Number
+ * URL: https://www.lintcode.com/problem/3820/
+ * Language: remove
  * Difficulty: Unknown
- * Topics: Binary Search, Test Data Test Output
+ * Topics: StackString, Stack, String, Test Data Commit Output, Binary TreeDivide and ConquerBinary Search Tree, Binary Tree, Divide and Conquer, Binary Search Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T18:15:01.665Z
+ * Synced: 2026-06-02T11:03:08.023Z
  */
 
 public·class·Solution·{
-····public·int·search(int[]·a,·int·target)·{
-········int·left·=·0,right·=·a.length·-·1;
-········while·(left·<=·right)·{
-············int·mid·=·left·+·(right·-·left)·/·2;
-············if·(a[mid]·==·target)·return·mid;
-············//·Left·half·is·sorted
-············if·(a[left]·<=·a[mid])·{
-················//·Target·lies·in·left·half
-················if·(target·>=·a[left]·&&·target·<·a[mid])·right·=·mid·-·1;
-················else·left·=·mid·+·1;
-············}·
-············//·Right·half·is·sorted
-············else·{
-················//·Target·lies·in·right·half
-················if·(target·>·a[mid]·&&·target·<=·a[right])·{
-····················left·=·mid·+·1;
-················}·else·{
-····················right·=·mid·-·1;
-················}
-············}
-········}
-········return·-1;
+····public·String·removeDuplicates(String·s)·{
+····Stack<Character>st=new·Stack<>();
+····for(char·c:s.toCharArray()){
+········if(!st.isEmpty()&&·st.peek()==c)st.pop();
 ····}
-················
+····}
+········else·st.push(c);
+····StringBuilder·sb=new·StringBuilder();
+····for(char·c:st)sb.append(c);
+····return·sb.toString();
 }
