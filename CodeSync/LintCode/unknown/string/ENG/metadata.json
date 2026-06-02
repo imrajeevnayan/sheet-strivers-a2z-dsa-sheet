@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-02T10:07:40.046Z",
+  "submissionTimestamp": "2026-06-02T11:02:50.741Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -10,8 +10,8 @@
     "Test Data Commit Output"
   ],
   "platform": "LintCode",
-  "language": "Python",
+  "language": "remove",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/3820/",
-  "submissionId": "icn3le"
+  "submissionId": "29ijy2"
 }
