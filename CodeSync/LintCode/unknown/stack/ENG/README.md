@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/495/?showListFe=true&page=1&problemTypeId=4&tagIds=361&ordering=level&pageSize=50
-- Synced: 2026-06-02T18:17:26.154Z
+- Synced: 2026-06-02T18:18:48.372Z
 
 ## Problem Description
 
