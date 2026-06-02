@@ -6,7 +6,7 @@
 # Topics: StackString, Stack, String, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-02T10:07:24.323Z
+# Synced: 2026-06-02T10:07:30.631Z
 
 public·class·Solution·{
 ····public·String·removeDuplicates(String·s)·{
@@ -18,5 +18,5 @@ public·class·Solution·{
 ········else·st.push(c);
 ····StringBuilder·sb=new·StringBuilder();
 ····for(char·c:st)sb.append(c);
-····return·s
+····return·sb.toString();
 }
