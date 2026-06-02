@@ -7,12 +7,12 @@
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T06:36:22.043Z
+ * Synced: 2026-06-02T06:36:24.163Z
  */
 
 }
                 left++;
-            } else {
+            }
                 if (height[right] >= rightMax) rightMax = height[right];
                  else {
                  else {
@@ -27,4 +27,5 @@
         }
         return totalWater;
     }
+             else {
 }
