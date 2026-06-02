@@ -1,0 +1,24 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Smallest Window
+ * URL: https://www.naukri.com/code360/problems/smallest-window-in-string-containing-all-the-characters-of-another-string_981175
+ * Language: Java (SE 1.8)
+ * Difficulty: Medium
+ * Topics: Programming Fundamentals Clear all, Programming Fundamentals
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-02T16:41:00.756Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+ 
+public class Solution {
+    
+    public static String smallestWindow(String s, String x) {
+        
+    // Write you code here.
+ 
+    }
+ 
+}
