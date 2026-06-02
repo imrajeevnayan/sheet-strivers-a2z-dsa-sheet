@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-02T12:30:00.784Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Stack",
+    "Design",
+    "Monotonic Stack",
+    "Data Stream"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Online Stock Span",
+  "problemUrl": "https://leetcode.com/problems/online-stock-span/description/",
+  "submissionId": "u3u194"
+}
