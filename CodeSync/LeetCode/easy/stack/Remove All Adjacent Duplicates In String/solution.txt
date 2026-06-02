@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T10:03:34.878Z
+ * Synced: 2026-06-02T10:03:44.896Z
  */
 
 class Solution {
@@ -20,5 +20,5 @@ class Solution {
         
     }
         StringBuilder sb=new StringBuilder();
-        for(char c:st)
+        for(char c:st) sb.append(c)
 }
