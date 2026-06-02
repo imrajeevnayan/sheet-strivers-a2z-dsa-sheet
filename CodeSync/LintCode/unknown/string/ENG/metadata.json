@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-02T10:04:52.326Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "StackString",
+    "Stack",
+    "String",
+    "Test Data Test Output"
+  ],
+  "platform": "LintCode",
+  "language": "Python",
+  "problemTitle": "ENG",
+  "problemUrl": "https://www.lintcode.com/problem/3820/",
+  "submissionId": "lymvi8"
+}
