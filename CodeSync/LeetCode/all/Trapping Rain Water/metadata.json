@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-02T06:33:06.433Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-02T06:37:31.168Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
@@ -13,6 +13,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Trapping Rain Water",
-  "problemUrl": "https://leetcode.com/problems/trapping-rain-water/",
-  "submissionId": "2re1z"
+  "problemUrl": "https://leetcode.com/problems/trapping-rain-water/description/",
+  "submissionId": "m9gy85"
 }
