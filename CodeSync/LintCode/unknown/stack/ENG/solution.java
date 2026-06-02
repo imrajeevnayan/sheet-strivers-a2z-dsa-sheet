@@ -7,7 +7,7 @@
  * Topics: Stack, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T18:18:48.372Z
+ * Synced: 2026-06-02T18:18:52.098Z
  */
 
 public·class·Stack·{
@@ -25,19 +25,3 @@ public·class·Stack·{
 ····public·void·push(int·x)·{
 ········if·(top·==·capacity·-·1)·return;
 ········arr[++top]·=·x;
-····}
-
-····public·void·pop()·{
-········if·(top·==·-1)·return;
-········top--;
-····}
-
-····public·int·top()·{
-········if·(top·==·-1)·return·-1;
-········return·arr[top];
-····}
-
-····public·boolean·isEmpty()·{
-········return·top·==·-1;
-····}
-}
