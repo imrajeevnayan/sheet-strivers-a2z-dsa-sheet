@@ -7,7 +7,7 @@
 - Runtime: 982 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/reverse-of-a-number_893271
-- Synced: 2026-06-02T16:40:29.961Z
+- Synced: 2026-06-02T16:40:40.737Z
 
 ## Problem Description
 
