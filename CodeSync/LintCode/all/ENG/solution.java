@@ -1,44 +1,43 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/1174/
+ * URL: https://www.lintcode.com/problem/363/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Simulation, Bloomberg, Test Data Test Output
+ * Topics: Opposite Direction Two Pointers, Stack, Two Pointers, Monotonic Stack, Apple, Twitter, Airbnb, Amazon
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-31T19:09:51.753Z
+ * Synced: 2026-06-02T07:03:19.213Z
  */
 
-········char[]·arr·=·String.valueOf(n).toCharArray();
-
-········int·i·=·arr.length·-·2;
-········while·(i·>=·0·&&·arr[i]·>=·arr[i·+·1])·{
-············i--;
+public·class·Solution·{
+····public·int·trap(int[]·height)·{
+········if·(height·==·null·||·height.length·==·0)·return·0;
+········
+········int·left·=·0;
+········int·right·=·height.length·-·1;
+········int·leftMax·=·0;
+········int·rightMax·=·0;
+········int·totalWater·=·0;
+········
+········while·(left·<·right)·{
+············//·Update·max·heights·seen·so·far·from·both·ends
+············if·(height[left]·<·height[right])·{
+················if·(height[left]·>=·leftMax)·{
+····················leftMax·=·height[left];
+················}·else·{
+····················totalWater·+=·leftMax·-·height[left];
+················}
+················left++;
+············}·else·{
+················if·(height[right]·>=·rightMax)·{
+····················rightMax·=·height[right];
+················}·else·{
+····················totalWater·+=·rightMax·-·height[right];
+················}
+················right--;
+············}
 ········}
-········if·(i·<·0)·return·-1;
-
-········int·j·=·arr.length·-·1;
-········while·(arr[j]·<=·arr[i])·{
-············j--;
-········}
-········swap(arr,·i,·j);
-········reverse(arr,·i·+·1,·arr.length·-·1);
-
-········long·ans·=·Long.parseLong(new·String(arr));
-
-········return·(ans·>·Integer.MAX_VALUE)·?·-1·:·(int)·ans;
-····}
-
-····private·void·swap(char[]·arr,·int·i,·int·j)·{
-········char·temp·=·arr[i];
-········arr[i]·=·arr[j];
-········arr[j]·=·temp;
-····}
-
-····private·void·reverse(char[]·arr,·int·l,·int·r)·{
-········while·(l·<·r)·{
-············swap(arr,·l++,·r--);
-········}
+········return·totalWater;
 ····}
 }
