@@ -7,7 +7,7 @@
  * Topics: Topic Tags Related Articles, Topic Tags, Recursion, Stack, implementation, Data Structures, Algorithms, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T18:40:15.983Z
+ * Synced: 2026-06-02T18:40:27.979Z
  */
 
 import java.util.*;
