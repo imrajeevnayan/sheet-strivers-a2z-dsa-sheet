@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T10:03:16.891Z
+ * Synced: 2026-06-02T10:03:19.879Z
  */
 
 class Solution {
@@ -19,5 +19,5 @@ class Solution {
         }
         
     }
-        StringBuilder sb=new StringBuilder()
+        StringBuilder sb=new StringBuilder();
 }
