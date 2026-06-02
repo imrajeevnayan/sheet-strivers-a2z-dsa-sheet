@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-02T11:18:06.880Z",
+  "submissionTimestamp": "2026-06-02T11:18:20.562Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -10,8 +10,8 @@
     "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "remo",
+  "language": "remove recursive",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/3820/",
-  "submissionId": "1ltpnv"
+  "submissionId": "1irdqk"
 }
