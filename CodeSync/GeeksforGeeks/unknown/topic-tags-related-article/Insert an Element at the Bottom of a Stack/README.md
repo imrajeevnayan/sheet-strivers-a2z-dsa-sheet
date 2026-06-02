@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/insert-an-element-at-the-bottom-of-a-stack/1
-- Synced: 2026-06-02T18:39:00.972Z
+- Synced: 2026-06-02T18:40:06.419Z
 
 ## Problem Description
 
