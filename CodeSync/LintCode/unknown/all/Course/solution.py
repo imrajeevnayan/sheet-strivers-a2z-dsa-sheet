@@ -1,22 +1,28 @@
 # Platform: LintCode
 # Problem: Course
-# URL: https://www.lintcode.com/problem/365/description?showListFe=false&page=1&problemTypeId=4&pageSize=50
+# URL: https://www.lintcode.com/problem/363/description
 # Language: Python
 # Difficulty: Unknown
-# Topics: Binary, Microsoft, Test Data Commit Output
+# Topics: Opposite Direction Two Pointers, Stack, Two Pointers, Monotonic Stack, Apple, Twitter, Airbnb, Amazon
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-05-31T19:35:34.354Z
+# Synced: 2026-06-02T07:13:54.580Z
 
 public·class·Solution·{
-····public·int·countOnes(int·num)·{
-········int·count·=·0;
+····public·int·trapRainWater(int[]·heights)·{
+········int·ans=0;
+········Deque<Integer>st=new·ArrayDeque<>();
+········for(int·i=0;i<heights.length;i++){
+············while(!st.isEmpty()&&·heights[i]>heights[st.peek()]){
+················int·top=st.pop();
+················if(st.isEmpty())break;
 
-········while·(num·!=·0)·{
-············num·=·num·&·(num·-·1);
-············count++;
+················int·dist=i-st.peek()-1;
+················int·boundHeight=Math.min(heights[i],heights[st.peek()])-heights[top];
+················ans+=dist·*·boundHeight;
+············}
+··········st.push(i);············
 ········}
-
-········return·count;
+········return·ans;
 ····}
 }
