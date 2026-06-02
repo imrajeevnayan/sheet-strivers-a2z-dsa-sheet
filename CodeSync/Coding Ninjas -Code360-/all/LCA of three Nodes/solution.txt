@@ -4,10 +4,10 @@
  * URL: https://www.naukri.com/code360/problems/reverse-of-a-number_893271
  * Language: Java (SE 1.8)
  * Difficulty: Easy
- * Topics: Uncategorized
+ * Topics: Programming Fundamentals Clear all, Programming Fundamentals
  * Runtime: 982 ms
  * Memory: N/A
- * Synced: 2026-06-02T16:40:29.961Z
+ * Synced: 2026-06-02T16:40:42.726Z
  */
 
 import java.util.* ;
