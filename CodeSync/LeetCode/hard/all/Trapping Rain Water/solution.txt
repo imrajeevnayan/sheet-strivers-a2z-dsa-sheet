@@ -1,30 +1,30 @@
 /*
  * Platform: LeetCode
  * Problem: Trapping Rain Water
- * URL: https://leetcode.com/problems/trapping-rain-water/description/
+ * URL: https://leetcode.com/problems/trapping-rain-water/submissions/2019858756/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-02T06:37:31.168Z
+ * Memory: 47.95 MB
+ * Synced: 2026-06-02T06:40:12.156Z
  */
 
-}
-                left++;
-            }
-                if (height[right] >= rightMax) rightMax = height[right];
-                 else {
-                    totalWater += rightMax - height[right];
-             else {
-                 else {
-                    totalWater += leftMax - height[left];
-            if (height[left] < height[right]) {
-                if (height[left] >= leftMax) leftMax = height[left];
-        int totalWater = 0;
-        while (left < right) {
-        int left = 0,right = height.length - 1;
-        int leftMax = 0,rightMax = 0;
-        if (height == null || height.length == 0) return 0;
-    public int trap(int[] height) {
+for (int i = 0; i < height.length; i++) {
+        while (!stack.isEmpty() && height[i] > height[stack.peek()]) {
+            int top = stack.pop();
+            if (stack.isEmpty()) break;
+            
+            int distance = i - stack.peek() - 1;
+            int boundedHeight = Math.min(height[i], height[stack.peek()]) - height[top];
+            ans += distance * boundedHeight;
+        }
+        stack.push(i);
+    }
+    return ans;
+    }
+    int ans = 0;
+    Deque<Integer> stack = new ArrayDeque<>();
+    
 public class Solution {
+    public int trap(int[] height) {
