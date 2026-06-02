@@ -3,11 +3,11 @@
 - Platform: LintCode
 - Language: remove
 - Difficulty: Unknown
-- Topics: StackString, Stack, String, Test Data Commit Output
+- Topics: StackString, Stack, String, Test Data Commit Output, Binary TreeDivide and ConquerBinary Search Tree, Binary Tree, Divide and Conquer, Binary Search Tree
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/3820/
-- Synced: 2026-06-02T11:02:50.741Z
+- Synced: 2026-06-02T11:03:08.023Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Given a string of lowercase letters s, the duplicate item removal op
 
 ## Explanation
 
-This solution was accepted on LintCode using remove. The detected topics are StackString, Stack, String, Test Data Commit Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using remove. The detected topics are StackString, Stack, String, Test Data Commit Output, Binary TreeDivide and ConquerBinary Search Tree, Binary Tree, Divide and Conquer, Binary Search Tree. Review the synced source file for the implementation details.
