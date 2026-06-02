@@ -2,12 +2,12 @@
  * Platform: LintCode
  * Problem: ENG
  * URL: https://www.lintcode.com/problem/3820/
- * Language: remove recursive
+ * Language: remove con
  * Difficulty: Unknown
- * Topics: StackString, Stack, String, Test Data Test Output
+ * Topics: StackString, Stack, String, Test Data Test Output, Binary TreeDivide and ConquerBinary Search Tree, Binary Tree, Divide and Conquer, Binary Search Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T11:18:20.562Z
+ * Synced: 2026-06-02T11:18:41.492Z
  */
 
 public·class·Solution·{
