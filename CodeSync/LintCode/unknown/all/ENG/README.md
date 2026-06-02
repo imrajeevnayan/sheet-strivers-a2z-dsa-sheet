@@ -1,13 +1,13 @@
 # ENG
 
 - Platform: LintCode
-- Language: Python
+- Language: remove
 - Difficulty: Unknown
 - Topics: StackString, Stack, String, Test Data Commit Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/3820/
-- Synced: 2026-06-02T10:07:40.046Z
+- Synced: 2026-06-02T11:02:50.741Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Given a string of lowercase letters s, the duplicate item removal op
 
 ## Explanation
 
-This solution was accepted on LintCode using Python. The detected topics are StackString, Stack, String, Test Data Commit Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using remove. The detected topics are StackString, Stack, String, Test Data Commit Output. Review the synced source file for the implementation details.
