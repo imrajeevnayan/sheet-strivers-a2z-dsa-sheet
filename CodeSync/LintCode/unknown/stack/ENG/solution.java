@@ -1,27 +1,43 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/1206/
+ * URL: https://www.lintcode.com/problem/363/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Stack, Test Data Test Output
+ * Topics: Opposite Direction Two Pointers, Stack, Two Pointers, Monotonic Stack, Apple, Twitter, Airbnb, Amazon
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-31T19:09:27.722Z
+ * Synced: 2026-06-02T07:03:19.213Z
  */
 
-class·Solution·{
-····public·int[]·nextGreaterElement(int[]·nums1,·int[]·nums2)·{
-········HashMap<Integer,·Integer>·map·=·new·HashMap<>();
-········Stack<Integer>·st·=·new·Stack<>();
-········for·(int·num·:·nums2)·{
-············while·(!st.isEmpty()·&&·num·>·st.peek())·map.put(st.pop(),·num);
-············st.push(num);
-········}
-········while·(!st.isEmpty())map.put(st.pop(),·-1);
-········int[]·res·=·new·int[nums1.length];
-········for·(int·i·=·0;·i·<·nums1.length;·i++)·res[i]·=·map.get(nums1[i]);
+public·class·Solution·{
+····public·int·trap(int[]·height)·{
+········if·(height·==·null·||·height.length·==·0)·return·0;
 ········
-········return·res;
+········int·left·=·0;
+········int·right·=·height.length·-·1;
+········int·leftMax·=·0;
+········int·rightMax·=·0;
+········int·totalWater·=·0;
+········
+········while·(left·<·right)·{
+············//·Update·max·heights·seen·so·far·from·both·ends
+············if·(height[left]·<·height[right])·{
+················if·(height[left]·>=·leftMax)·{
+····················leftMax·=·height[left];
+················}·else·{
+····················totalWater·+=·leftMax·-·height[left];
+················}
+················left++;
+············}·else·{
+················if·(height[right]·>=·rightMax)·{
+····················rightMax·=·height[right];
+················}·else·{
+····················totalWater·+=·rightMax·-·height[right];
+················}
+················right--;
+············}
+········}
+········return·totalWater;
 ····}
 }
