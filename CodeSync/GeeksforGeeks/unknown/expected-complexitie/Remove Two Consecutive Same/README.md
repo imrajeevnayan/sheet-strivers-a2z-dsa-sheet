@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/string-manipulation3706/1
-- Synced: 2026-06-02T18:22:09.755Z
+- Synced: 2026-06-02T18:24:41.405Z
 
 ## Problem Description
 
