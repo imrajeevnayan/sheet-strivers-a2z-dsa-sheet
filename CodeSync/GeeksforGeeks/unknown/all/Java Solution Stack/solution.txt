@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Stack, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T12:14:50.593Z
+ * Synced: 2026-06-02T12:15:15.437Z
  */
 
 class Solution {
@@ -20,10 +20,7 @@ class Solution {
        else sb.append(c);
         }
         String result = sb.toString();
-        
         if (result.isEmpty()) return "-1";
-    
-        
         return result;
     }
 }
