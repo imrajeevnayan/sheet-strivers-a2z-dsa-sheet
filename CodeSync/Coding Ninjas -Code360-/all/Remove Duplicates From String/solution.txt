@@ -3,11 +3,11 @@
  * Problem: Remove Duplicates From String
  * URL: https://www.naukri.com/code360/problems/remove-duplicates-from-string_630470
  * Language: Java (SE 1.8)
- * Difficulty: Hard
+ * Difficulty: Unknown
  * Topics: String
  * Runtime: 1555 ms
  * Memory: N/A
- * Synced: 2026-06-02T10:27:42.217Z
+ * Synced: 2026-06-02T10:28:12.347Z
  */
 
 import java.util.*;
