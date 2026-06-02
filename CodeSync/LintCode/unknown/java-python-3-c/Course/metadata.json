@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-02T07:11:23.909Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Highlight",
+    "More",
+    "Java Python 3 C++",
+    "Java",
+    "Python 3",
+    "C++",
+    "@param",
+    "@return"
+  ],
+  "platform": "LintCode",
+  "language": "ALL(59) Java(31) Python 3(24) C++(9) Csharp(1)",
+  "problemTitle": "Course",
+  "problemUrl": "https://www.lintcode.com/problem/363/solution/93750",
+  "submissionId": "36fkma"
+}
