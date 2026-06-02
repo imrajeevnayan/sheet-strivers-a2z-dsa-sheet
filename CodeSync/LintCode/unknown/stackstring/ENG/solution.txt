@@ -7,7 +7,7 @@
  * Topics: StackString, Stack, String, Test Data Test Output, Binary TreeDivide and ConquerBinary Search Tree, Binary Tree, Divide and Conquer, Binary Search Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T11:18:37.596Z
+ * Synced: 2026-06-02T11:18:39.666Z
  */
 
 public·class·Solution·{
