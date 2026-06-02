@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-02T18:37:55.821Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Paytm",
+    "Zoho",
+    "Flipkart",
+    "Amazon",
+    "Microsoft",
+    "Payu"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def reverseWords(self, s: str) -> str: return \" \".join(list(map(lambda x : x[::-1], s.strip(' ').split())))",
+  "problemTitle": "Easy Comprehensive way to understand this concept even for fresher with comments.",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/reverse-each-word-in-a-given-string1001/1",
+  "submissionId": "n9zu9l"
+}
