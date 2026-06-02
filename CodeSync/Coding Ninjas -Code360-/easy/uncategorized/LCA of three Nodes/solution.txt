@@ -1,26 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/reverse-of-a-number_893271
+ * URL: https://www.naukri.com/code360/problems/set-matrix-zeros_3846774
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 982 ms
+ * Runtime: 1196 ms
  * Memory: N/A
- * Synced: 2026-06-02T16:40:40.737Z
+ * Synced: 2026-06-02T17:56:28.524Z
  */
 
-import java.util.* ;
-import java.io.*; 
+import java.io.*;
+import java.util.*;
  
 public class Solution {
-    public static long reverseNumber(long n) {
-        long rev=0;
-         while(n>0){
-          rev=rev*10+(n%10);
-          n/=10;
-         }
-         return rev;
-    }
+    public static void setZeros(int matrix[][]) {
+        int n = matrix.length;
+        int m = matrix[0].length;
  
-}
+        boolean col0 = false;
+ 
+        for (int i = 0; i < n; i++) {
+            if (matrix[i][0] == 0) col0 = true;
+ 
+            for (int j = 1; j < m; j++) {
+                if (matrix[i][j] == 0) {
+                    matrix[i][0] = 0;
+                    matrix[0][j] = 0;
+                }
+            }
+        }
+ 
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = m - 1; j >= 1; j--) {
+                if (matrix[i][0] == 0 || matrix[0][j] == 0) {
+                    matrix[i][j] = 0;
+                }
+            }
+            if (col0) {
+                matrix[i][0] = 0;
