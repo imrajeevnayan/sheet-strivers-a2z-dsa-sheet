@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
  * Runtime: 0 ms
  * Memory: 47.95 MB
- * Synced: 2026-06-02T06:39:57.759Z
+ * Synced: 2026-06-02T06:40:00.161Z
  */
 
 for (int i = 0; i < height.length; i++) {
@@ -23,4 +23,8 @@ for (int i = 0; i < height.length; i++) {
     }
     return ans;
     }
-}
+    int ans = 0;
+    Deque<Integer> stack = new ArrayDeque<>();
+    
+public class Solution {
+    public int trap(int[] height) {
