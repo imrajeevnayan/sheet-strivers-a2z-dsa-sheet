@@ -2,12 +2,12 @@
  * Platform: LintCode
  * Problem: ENG
  * URL: https://www.lintcode.com/problem/3820/
- * Language: r
+ * Language: re
  * Difficulty: Unknown
- * Topics: StackString, Stack, String, Test Data Commit Output
+ * Topics: StackString, Stack, String, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T11:17:33.445Z
+ * Synced: 2026-06-02T11:18:04.849Z
  */
 
 public·class·Solution·{
