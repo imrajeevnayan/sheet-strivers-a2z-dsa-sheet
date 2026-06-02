@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-02T18:39:40.176Z",
+  "submissionTimestamp": "2026-06-02T18:39:48.244Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "class Solution { public: stack<int> insertAtBottom(stack<int> st, int x) { aadarsh(st,x); return st; } void aadarsh(stack<int> &st, int x) { if(st.empty()){ st.push(x); return; } int ans=st.top(); st.pop(); aadarsh(st,x); st.push(ans); } };",
   "problemTitle": "Easy C++ Solution",
   "problemUrl": "https://www.geeksforgeeks.org/problems/insert-an-element-at-the-bottom-of-a-stack/1",
-  "submissionId": "ftqdtw"
+  "submissionId": "pgiw5b"
 }
