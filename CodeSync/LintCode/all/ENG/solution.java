@@ -7,26 +7,21 @@
  * Topics: Stack, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T18:17:26.154Z
+ * Synced: 2026-06-02T18:19:02.208Z
  */
 
 public·class·Stack·{
-····
+····/*
+·····*·@param·x:·An·integer
+·····*·@return:·nothing
+·····*/
 ····public·void·push(int·x)·{
-········
+········//·write·your·code·here
 ····}
 
-···
+····/*
+·····*·@return:·nothing
+·····*/
 ····public·void·pop()·{
 ········//·write·your·code·here
 ····}
-
-···
-····public·int·top()·{
-········//·write·your·code·here
-····}
-
-····public·boolean·isEmpty()·{
-········//·write·your·code·here
-····}
-}
