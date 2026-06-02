@@ -1,18 +1,18 @@
 # ENG
 
 - Platform: LintCode
-- Language: remove con
+- Language: Java
 - Difficulty: Unknown
-- Topics: StackString, Stack, String, Test Data Test Output, Binary TreeDivide and ConquerBinary Search Tree, Binary Tree, Divide and Conquer, Binary Search Tree
+- Topics: Divide and Conquer, Google, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/3820/
-- Synced: 2026-06-02T11:18:41.492Z
+- Problem URL: https://www.lintcode.com/problem/1710/
+- Synced: 2026-06-02T18:14:48.464Z
 
 ## Problem Description
 
-Description Given a string of lowercase letters s, the duplicate item removal operation selects two adjacent and identical letters and removes them. The duplicate item deletion operation is performed on s repeatedly until no further deletions can be made. Returns the final string after all duplicate deletion operations have been completed. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information 1 ≤ 𝑠 . 𝑙 𝑒 𝑛 𝑔 𝑡 ℎ ≤ 20000 1≤s.length≤20000 s contains only lowercase letters Example Example 1: Input: s = "abbaca" Output: "ca" Explanation: First delete two adjacent letters b, then delete two adjacent letters a "abbaca" -> "aaca" -> "ca" Example 2: Input: s = "abbbaca" Output: "abaca" Explanation: Only two neighbouring letters b will be deleted, you can't continue deleting letters after deleting them "abbbaca" -> "abaca" Tags Recommend Courses 0基础入门数据分析 进阶大厂刚需高薪人才，熟练掌握SQL、Python、Tableau、A/Btest等实用技能工具，配套100+数据题夯实基础
+Description For some fixed N, an array A is beautiful if it is a permutation of the integers 1, 2, ..., N, such that: For every i < j, there is no k with i < k < j such that A[k] * 2 = A[i] + A[j]. Given N, return any beautiful array A. (It is guaranteed that one exists.) LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information 1 <= N <= 1000 Example Example 1: Input: N = 4 Output: [1,3,2,4] Example 2: Input: N = 5 Output: [1,5,3,2,4] Tags Company Google Recommend Courses 简历/BQ/项目 面试软技能指导 FLAG高级工程师深度BQ辅导，简历打造+1V1模拟面试，反面试套路、高效上岸！
 
 ## Explanation
 
-This solution was accepted on LintCode using remove con. The detected topics are StackString, Stack, String, Test Data Test Output, Binary TreeDivide and ConquerBinary Search Tree, Binary Tree, Divide and Conquer, Binary Search Tree. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are Divide and Conquer, Google, Test Data Test Output. Review the synced source file for the implementation details.
