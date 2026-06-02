@@ -1,0 +1,26 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Remove Duplicates From String
+ * URL: https://www.naukri.com/code360/problems/remove-duplicates-from-string_630470
+ * Language: Java (SE 1.8)
+ * Difficulty: Hard
+ * Topics: String
+ * Runtime: 1555 ms
+ * Memory: N/A
+ * Synced: 2026-06-02T10:27:42.217Z
+ */
+
+import java.util.*;
+public class Solution 
+{
+    public static String removeDuplicates(String str) 
+    {
+        Set<Character>s=new HashSet<>();
+        StringBuilder sb=new StringBuilder();
+        for(char c:str.toCharArray()){
+          if(s.add(c))
+          sb.append(c);
+        }
+        return sb.toString();
+    }
+}
