@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 982 ms
+- Runtime: 1196 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/reverse-of-a-number_893271
-- Synced: 2026-06-02T16:40:40.737Z
+- Problem URL: https://www.naukri.com/code360/problems/set-matrix-zeros_3846774
+- Synced: 2026-06-02T17:56:28.524Z
 
 ## Problem Description
 
