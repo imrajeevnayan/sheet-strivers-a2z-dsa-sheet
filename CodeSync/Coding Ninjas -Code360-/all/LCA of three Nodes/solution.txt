@@ -7,11 +7,9 @@
  * Topics: Uncategorized
  * Runtime: 942 ms
  * Memory: N/A
- * Synced: 2026-06-02T16:25:10.875Z
+ * Synced: 2026-06-02T16:29:52.115Z
  */
 
-import java.util.*;
- 
 public class Solution {
     public static ArrayList<Integer> findSpans(ArrayList<Integer> price) {
  
@@ -24,8 +22,6 @@ public class Solution {
         span.set(0, 1);
  
         for (int i = 1; i < n; i++) {
- 
-            // Pop while current price is greater or equal
             while (!stack.isEmpty() && price.get(i) >= price.get(stack.peek())) {
                 stack.pop();
             }
@@ -35,6 +31,11 @@ public class Solution {
             } else {
                 span.set(i, i - stack.peek());
             }
- 
             stack.push(i);
         }
+ 
+        return span;
+    }
+}
+ 
+import java.util.*;
