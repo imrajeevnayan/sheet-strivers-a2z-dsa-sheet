@@ -1,16 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: Remove All Adjacent Duplicates In String
- * URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/submissions/1917257067/?utm=codolio
+ * URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/?utm=codolio
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack
- * Runtime: 24 ms
- * Memory: 47.26 MB
- * Synced: 2026-06-02T10:00:42.893Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-02T10:00:48.994Z
  */
 
-Input: s = "abbaca"
-Output: "ca"
-Explanation: 
-For example, in "abbaca" we could remove "bb" since the letters are adjacent and equal, and this is the only possible move.  The result of this move is that the string is "aaca", of which only "aa" is possible, so the final string is "ca".
+class Solution {
+    public String removeDuplicates(String s) {
+        Stack<Character>st=new Stack<>();
+        for(char c:s.toCharArray()){
+            while(!st.isEmpty() &&  )
+        }
+        
+    }
+}
