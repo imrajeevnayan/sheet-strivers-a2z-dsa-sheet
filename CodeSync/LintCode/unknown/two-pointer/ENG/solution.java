@@ -7,7 +7,7 @@
  * Topics: Opposite Direction Two Pointers, Stack, Two Pointers, Monotonic Stack, Apple, Twitter, Airbnb, Amazon
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T07:10:59.341Z
+ * Synced: 2026-06-02T07:11:00.846Z
  */
 
 public·class·Solution·{
@@ -26,5 +26,5 @@ public·class·Solution·{
 
 ················int·dist=i-st.peek()-1;
 ················int·boundHeight=Math.min(heights[i],heights[st.peek()])-heights[top];
-················ans+=dist·*·boundHeight
+················ans+=dist·*·boundHeight;
 }
