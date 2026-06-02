@@ -7,16 +7,15 @@
  * Topics: Expected Complexities, Topic Tags, Arrays, Stack, Data Structures, Related Articles, Delete Consecutive Words Sequence
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T18:22:09.755Z
+ * Synced: 2026-06-02T18:24:43.448Z
  */
 
 class Solution {
     static int removeConsecutiveSame(String[] arr) {
         Stack<String> s = new Stack<>();
         for (int i = 0; i < arr.length; i++) {
-            if (s.isEmpty())  s.push(arr[i]);
-            else if (s.peek().equals(arr[i])) s.pop();
-            else s.push(arr[i]);
+           if (!s.isEmpty() && s.peek().equals(arr[i])) s.pop();
+           else s.push(arr[i]);
         }
         return s.size();
     }
