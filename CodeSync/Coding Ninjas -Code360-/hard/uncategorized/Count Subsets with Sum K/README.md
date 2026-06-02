@@ -7,7 +7,7 @@
 - Runtime: 3709 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/number-of-subsets_3952532
-- Synced: 2026-06-02T17:57:58.196Z
+- Synced: 2026-06-02T17:58:05.199Z
 
 ## Problem Description
 
