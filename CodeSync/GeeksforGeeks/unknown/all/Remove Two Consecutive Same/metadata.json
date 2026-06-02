@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-06-02T18:22:09.755Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Arrays",
+    "Stack",
+    "Data Structures",
+    "Related Articles",
+    "Delete Consecutive Words Sequence"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Remove Two Consecutive Same",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/string-manipulation3706/1",
+  "submissionId": "va7687"
+}
