@@ -6,16 +6,14 @@
 # Topics: StackString, Stack, String, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-02T10:05:11.177Z
+# Synced: 2026-06-02T10:05:16.640Z
 
 public·class·Solution·{
+····/**
+·····*·@param·s:·A·string·contains·only·lowercase·letters
+·····*·@return:·A·string
+·····*/
 ····public·String·removeDuplicates(String·s)·{
-········StringBuilder·sb=new·StringBuilder();
-········for(char·c:s.toCharArray()){
-············int·len=sb.length();
-············if(len·>0·&&·sb.charAt(len-1)==c)sb.deleteCharAt(len-1);
-············else·sb.append(c);
-········}
-········return·sb.toString();
+········//·write·your·code·here
 ····}
 }
