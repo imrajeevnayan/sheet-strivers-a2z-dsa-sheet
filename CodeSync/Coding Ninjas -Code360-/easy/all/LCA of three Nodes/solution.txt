@@ -1,39 +1,40 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/trapping-rainwater_630519
+ * URL: https://www.naukri.com/code360/problems/span-of-ninja-coin_1475049
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 3444 ms
+ * Runtime: 942 ms
  * Memory: N/A
- * Synced: 2026-06-02T08:47:10.494Z
+ * Synced: 2026-06-02T16:25:02.733Z
  */
 
+import java.util.*;
+ 
 public class Solution {
-    public static long getTrappedWater(long[] arr, int n) {
-        int left = 0, right = n - 1;
-        long leftMax = 0, rightMax = 0;
-        long water = 0;
+    public static ArrayList<Integer> findSpans(ArrayList<Integer> price) {
  
-        while (left <= right) {
-            if (arr[left] <= arr[right]) {
-                if (arr[left] >= leftMax) {
-                    leftMax = arr[left];
-                } else {
-                    water += leftMax - arr[left];
-                }
-                left++;
-            } else {
-                if (arr[right] >= rightMax) {
-                    rightMax = arr[right];
-                } else {
-                    water += rightMax - arr[right];
-                }
-                right--;
+        int n = price.size();
+        ArrayList<Integer> span = new ArrayList<>(Collections.nCopies(n, 0));
+ 
+        Stack<Integer> stack = new Stack<>(); // stores indices
+ 
+        stack.push(0);
+        span.set(0, 1);
+ 
+        for (int i = 1; i < n; i++) {
+ 
+            // Pop while current price is greater or equal
+            while (!stack.isEmpty() && price.get(i) >= price.get(stack.peek())) {
+                stack.pop();
             }
-        }
  
-        return water;
-    }
-}
+            if (stack.isEmpty()) {
+                span.set(i, i + 1);
+            } else {
+                span.set(i, i - stack.peek());
+            }
+ 
+            stack.push(i);
+        }
