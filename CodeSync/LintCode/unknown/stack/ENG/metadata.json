@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-02T11:17:33.445Z",
+  "submissionTimestamp": "2026-06-02T11:18:06.880Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,11 +7,11 @@
     "StackString",
     "Stack",
     "String",
-    "Test Data Commit Output"
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "r",
+  "language": "remo",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/3820/",
-  "submissionId": "8jlil0"
+  "submissionId": "1ltpnv"
 }
