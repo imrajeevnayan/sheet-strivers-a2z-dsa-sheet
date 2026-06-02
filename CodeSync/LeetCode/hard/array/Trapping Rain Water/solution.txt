@@ -7,20 +7,11 @@
  * Topics: Array, Two Pointers, Dynamic Programming, Stack, Monotonic Stack
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-02T06:39:29.692Z
+ * Synced: 2026-06-02T06:39:32.030Z
  */
 
-}
-                left++;
-            }
-                if (height[right] >= rightMax) rightMax = height[right];
-                 else {
-                    totalWater += rightMax - height[right];
-             else {
-                }
-                right--;
-            }
-        }
-        return totalWater;
+public class Solution {
+    public int trap(int[] height) {
+        
     }
 }
