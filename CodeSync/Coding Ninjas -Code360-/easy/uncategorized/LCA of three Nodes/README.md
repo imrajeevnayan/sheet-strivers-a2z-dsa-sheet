@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 4337 ms
+- Runtime: 3444 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/next-greater-element_799354
-- Synced: 2026-05-31T19:29:45.873Z
+- Problem URL: https://www.naukri.com/code360/problems/trapping-rainwater_630519
+- Synced: 2026-06-02T08:47:10.494Z
 
 ## Problem Description
 
