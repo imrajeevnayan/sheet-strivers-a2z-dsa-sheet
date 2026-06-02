@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/implement-stack-using-array/1
-- Synced: 2026-06-02T12:19:50.479Z
+- Synced: 2026-06-02T12:20:35.584Z
 
 ## Problem Description
 
