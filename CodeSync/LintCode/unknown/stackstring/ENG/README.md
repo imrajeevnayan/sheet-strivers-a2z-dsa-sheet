@@ -1,18 +1,18 @@
 # ENG
 
 - Platform: LintCode
-- Language: remove con
+- Language: Python
 - Difficulty: Unknown
-- Topics: StackString, Stack, String, Test Data Test Output, Binary TreeDivide and ConquerBinary Search Tree, Binary Tree, Divide and Conquer, Binary Search Tree
+- Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/3820/
-- Synced: 2026-06-02T11:18:41.492Z
+- Problem URL: https://www.lintcode.com/problem/2506/?showListFe=true&page=1&problemTypeId=4&tagIds=361&ordering=level&pageSize=50
+- Synced: 2026-06-02T18:20:18.307Z
 
 ## Problem Description
 
-Description Given a string of lowercase letters s, the duplicate item removal operation selects two adjacent and identical letters and removes them. The duplicate item deletion operation is performed on s repeatedly until no further deletions can be made. Returns the final string after all duplicate deletion operations have been completed. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information 1 ≤ 𝑠 . 𝑙 𝑒 𝑛 𝑔 𝑡 ℎ ≤ 20000 1≤s.length≤20000 s contains only lowercase letters Example Example 1: Input: s = "abbaca" Output: "ca" Explanation: First delete two adjacent letters b, then delete two adjacent letters a "abbaca" -> "aaca" -> "ca" Example 2: Input: s = "abbbaca" Output: "abaca" Explanation: Only two neighbouring letters b will be deleted, you can't continue deleting letters after deleting them "abbbaca" -> "abaca" Tags Recommend Courses 0基础入门数据分析 进阶大厂刚需高薪人才，熟练掌握SQL、Python、Tableau、A/Btest等实用技能工具，配套100+数据题夯实基础
+This topic is a pre-release topic. If you encounter any problems, please contact us via "Problem Correction", and we will upgrade your account to VIP as a thank you. Description You will get a string s which consisting of lowercase letters a-z, left parentheses '(' and right parentheses ')'. Your task is to remove as few parentheses as you can so that the parentheses in s is valid. You need to return a valid string.If the answer is correct it will prompt It is a correct answer. Because of the answer may be more than one, so you can return any of them. "()", "(())", "()()", "(())()" are valid parentheses strings, and ")(", "(()", "()()(", "()())" are not valid parentheses strings. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information A string without parentheses(such as：abcd) or a empty string "" is also a valid string. 0 ≤ 0≤ the length of s ≤ 1 0 5 ≤10 5 You can only remove parentheses, other operations will not be allowed. Example Example 1: Input: s = "a(b(c(de)fgh)" Output: "a(b(cde)fgh)" Explanation: There are 3 corrcect answers: "ab(c(de)fgh)"，"a(bc(de)fgh)"，"a(b(cde)fgh)"。 You can return any of them. Example 2: Input: s = "(((" Output: "" Explanation: A empty string "" is also a valid string. Tags Related Problems 263 Matching of parentheses Easy 1089 Valid Parenthesis String Medium 1721 Minimum Add to Make Parentheses Valid Medium Recommend Courses 0基础入门数据分析 进阶大厂刚需高薪人才，熟练掌握SQL、Python、Tableau、A/Btest等实用技能工具，配套100+数据题夯实基础 Problem Contributors contribute Thank the following users for their constructive comments on this problem ninechapter-kaga Problem List Prev 7/88 Next
 
 ## Explanation
 
-This solution was accepted on LintCode using remove con. The detected topics are StackString, Stack, String, Test Data Test Output, Binary TreeDivide and ConquerBinary Search Tree, Binary Tree, Divide and Conquer, Binary Search Tree. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Python. The detected topics are PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Test Output. Review the synced source file for the implementation details.
