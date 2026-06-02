@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-02T10:04:19.823Z",
+  "submissionTimestamp": "2026-06-02T10:04:34.562Z",
   "runtime": "0 ms",
-  "memoryUsage": "46.84 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "String",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Remove All Adjacent Duplicates In String",
-  "problemUrl": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/submissions/2020045577/?utm=codolio",
+  "problemUrl": "https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/?utm=codolio",
   "submissionId": "spt8at"
 }
