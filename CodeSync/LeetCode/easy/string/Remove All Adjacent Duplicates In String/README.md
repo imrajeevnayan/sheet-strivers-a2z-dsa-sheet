@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/?utm=codolio
-- Synced: 2026-06-02T10:01:18.882Z
+- Synced: 2026-06-02T10:01:20.894Z
 
 ## Problem Description
 
