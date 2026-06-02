@@ -1,18 +1,18 @@
 # ENG
 
 - Platform: LintCode
-- Language: Next Greater
+- Language: Java
 - Difficulty: Unknown
-- Topics: Stack, Test Data Test Output, StackMonotonic Stack Medium, StackMonotonic Stack, Monotonic Stack, Stack Easy, Simulation Medium, Simulation
+- Topics: Opposite Direction Two Pointers, Stack, Two Pointers, Monotonic Stack, Apple, Twitter, Airbnb, Amazon
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/1206/
-- Synced: 2026-05-31T19:09:41.785Z
+- Problem URL: https://www.lintcode.com/problem/363/
+- Synced: 2026-06-02T07:03:19.213Z
 
 ## Problem Description
 
-Description You are given two arrays (without duplicates) nums1 and nums2 where nums1’s elements are subset of nums2. Find all the next greater numbers for nums1's elements in the corresponding places of nums2. The Next Greater Number of a number x in nums1 is the first greater number to its right in nums2. If it does not exist, output -1 for this number. 1.All elements in nums1 and nums2 are unique. 2.The length of both nums1 and nums2 would not exceed 1000. Example Example 1: Input: nums1 = [4,1,2], nums2 = [1,3,4,2]. Output: [-1,3,-1] Explanation: For number 4 in the first array, you cannot find the next greater number for it in the second array, so output -1. For number 1 in the first array, the next greater number for it in the second array is 3. For number 2 in the first array, there is no next greater number for it in the second array, so output -1. Example 2: Input: nums1 = [2,4], nums2 = [1,2,3,4]. Output: [3,-1] Explanation: For number 2 in the first array, the next greater number for it in the second array is 3. For number 4 in the first array, there is no next greater number for it in the second array, so output -1. Tags Related Problems 1174 Next Greater Element III Medium 1201 Next Greater Element II Medium Recommend Courses ACM金牌逐行带刷班 最适合懒人的刷题课--躺平看算法大神在线coding，讲解思路+现场debug，手撕面试高频题
+Description Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information Example Example 1: Input: [0,1,0] Output: 0 Example 2: Input: [0,1,0,2,1,0,1,3,2,1,2,1] Output: 6 Challenge O(n) time and O(1) memory O(n) time and O(n) memory is also acceptable. Related Knowledge 学习《2025年夏季北美大厂最新面试真题精讲》课程中的1.2Amazon：最新面试精选001相关内容 ，了解更多相关知识！ Tags Company Apple Twitter Airbnb Amazon Zenefits Bloomberg Google Related Problems 364 Trapping Rain Water II Hard 383 Container With Most Water Medium 1310 Product of Array Except Self Medium Recommend Courses ACM金牌逐行带刷班 最适合懒人的刷题课--躺平看算法大神在线coding，讲解思路+现场debug，手撕面试高频题
 
 ## Explanation
 
-This solution was accepted on LintCode using Next Greater. The detected topics are Stack, Test Data Test Output, StackMonotonic Stack Medium, StackMonotonic Stack, Monotonic Stack, Stack Easy, Simulation Medium, Simulation. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are Opposite Direction Two Pointers, Stack, Two Pointers, Monotonic Stack, Apple, Twitter, Airbnb, Amazon. Review the synced source file for the implementation details.
