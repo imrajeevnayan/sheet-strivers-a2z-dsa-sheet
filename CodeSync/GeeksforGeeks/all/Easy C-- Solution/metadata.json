@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-02T11:24:39.884Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Strings",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "let l= s.length let str='' for(let i=0; i<l; i++){ if(s[i]!=c){ str=str+s[i] } } return str }",
+  "problemTitle": "Easy C++ Solution",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/remove-all-occurrences-of-a-character-in-a-string/1",
+  "submissionId": "5rmpas"
+}
