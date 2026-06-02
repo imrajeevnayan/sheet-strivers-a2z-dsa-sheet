@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 3444 ms
+- Runtime: 942 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/trapping-rainwater_630519
-- Synced: 2026-06-02T08:47:10.494Z
+- Problem URL: https://www.naukri.com/code360/problems/span-of-ninja-coin_1475049
+- Synced: 2026-06-02T16:25:02.733Z
 
 ## Problem Description
 
