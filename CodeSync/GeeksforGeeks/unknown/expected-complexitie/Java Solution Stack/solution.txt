@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Stack, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T12:14:31.179Z
+ * Synced: 2026-06-02T12:14:37.888Z
  */
 
 class Solution {
@@ -16,8 +16,8 @@ class Solution {
         
     for (char c : s.toCharArray()) {
         int len = sb.length();
-    if (len > 0 && sb.charAt(len - 1) == c) sb.deleteCharAt(len - 1);
-     else sb.append(c);
+       if (len > 0 && sb.charAt(len - 1) == c) sb.deleteCharAt(len - 1);
+       else sb.append(c);
         }
         
         String result = sb.toString();
