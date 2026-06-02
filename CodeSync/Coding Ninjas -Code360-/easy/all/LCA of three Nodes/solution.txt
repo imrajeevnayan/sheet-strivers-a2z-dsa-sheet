@@ -7,11 +7,9 @@
  * Topics: Uncategorized
  * Runtime: 942 ms
  * Memory: N/A
- * Synced: 2026-06-02T16:25:10.875Z
+ * Synced: 2026-06-02T16:29:40.405Z
  */
 
-import java.util.*;
- 
 public class Solution {
     public static ArrayList<Integer> findSpans(ArrayList<Integer> price) {
  
@@ -38,3 +36,7 @@ public class Solution {
  
             stack.push(i);
         }
+ 
+        return span;
+    }
+}
