@@ -7,12 +7,12 @@
  * Topics: Opposite Direction Two Pointers, Stack, Two Pointers, Monotonic Stack, Apple, Twitter, Airbnb, Amazon
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T07:04:08.009Z
+ * Synced: 2026-06-02T07:04:10.744Z
  */
 
 public·class·Solution·{
 ····public·int·trapRainWater(int[]·heights)·{
 ····}
 ········int·ans=0;
-········Deque
+········Deque<Integer
 }
