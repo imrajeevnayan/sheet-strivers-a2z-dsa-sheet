@@ -1,0 +1,16 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Insert an Element at the Bottom of a Stack
+ * URL: https://www.geeksforgeeks.org/problems/insert-an-element-at-the-bottom-of-a-stack/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Topic Tags Related Articles, Topic Tags, Recursion, Stack, implementation, Data Structures, Algorithms, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-02T18:39:00.972Z
+ */
+
+// User function Template for Java
+class Solution {
+    public Stack<Integer> insertAtBottom(Stack<Integer> st, int x) {}
+}
