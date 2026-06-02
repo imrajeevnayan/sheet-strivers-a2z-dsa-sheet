@@ -1,0 +1,38 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Count Subsets with Sum K
+ * URL: https://www.naukri.com/code360/problems/number-of-subsets_3952532
+ * Language: Java (SE 1.8)
+ * Difficulty: Hard
+ * Topics: Uncategorized
+ * Runtime: 3709 ms
+ * Memory: N/A
+ * Synced: 2026-06-02T17:57:55.170Z
+ */
+
+import java.util.*;
+import java.io.*;
+ 
+public class Solution {
+    public static int findWays(int num[], int tar) {
+        int n = num.length;
+        int MOD = (int)1e9 + 7;
+ 
+        int[][] dp = new int[n + 1][tar + 1];
+ 
+        dp[0][0] = 1;
+ 
+        for (int i = 1; i <= n; i++) {
+            for (int j = 0; j <= tar; j++) {
+ 
+                dp[i][j] = dp[i - 1][j];
+ 
+                if (num[i - 1] <= j) {
+                    dp[i][j] = (dp[i][j] + dp[i - 1][j - num[i - 1]]) % MOD;
+                }
+            }
+        }
+ 
+        return dp[n][tar];
+    }
+}
