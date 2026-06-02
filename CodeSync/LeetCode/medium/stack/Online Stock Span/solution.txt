@@ -7,7 +7,7 @@
  * Topics: Stack, Design, Monotonic Stack, Data Stream
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T12:29:52.706Z
+ * Synced: 2026-06-02T12:29:57.190Z
  */
 
 class StockSpanner {
