@@ -1,40 +1,38 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/span-of-ninja-coin_1475049
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/stock-span_5243295
+ * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 1232 ms
+ * Runtime: 5850 ms
  * Memory: N/A
- * Synced: 2026-06-02T16:30:04.865Z
+ * Synced: 2026-06-02T16:33:49.892Z
  */
 
+import java.util.*;
+ 
 public class Solution {
-    public static ArrayList<Integer> findSpans(ArrayList<Integer> price) {
+    public static int[] findStockSpans(int[] prices) {
+        int n = prices.length;
+        int[] span = new int[n];
+        Stack<Integer> stack = new Stack<>();
  
-        int n = price.size();
-        ArrayList<Integer> span = new ArrayList<>(Collections.nCopies(n, 0));
+        for (int i = 0; i < n; i++) {
  
-        Stack<Integer> stack = new Stack<>(); // stores indices
- 
-        stack.push(0);
-        span.set(0, 1);
- 
-        for (int i = 1; i < n; i++) {
-            while (!stack.isEmpty() && price.get(i) >= price.get(stack.peek())) {
+            while (!stack.isEmpty() && prices[stack.peek()] < prices[i]) {
                 stack.pop();
             }
  
             if (stack.isEmpty()) {
-                span.set(i, i + 1);
+                span[i] = i + 1;
             } else {
-                span.set(i, i - stack.peek());
+                span[i] = i - stack.peek();
             }
+ 
             stack.push(i);
         }
+ 
         return span;
     }
 }
- 
-import java.util.*;
