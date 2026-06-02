@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-06-02T11:50:35.036Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Find Minimum Cost to Remove Array Elements",
+  "problemUrl": "https://leetcode.com/problems/find-minimum-cost-to-remove-array-elements/",
+  "submissionId": "3zo6te"
+}
