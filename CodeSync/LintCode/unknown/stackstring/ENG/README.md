@@ -1,13 +1,13 @@
 # ENG
 
 - Platform: LintCode
-- Language: remo
+- Language: remove recursi
 - Difficulty: Unknown
 - Topics: StackString, Stack, String, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/3820/
-- Synced: 2026-06-02T11:18:06.880Z
+- Synced: 2026-06-02T11:18:18.813Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Given a string of lowercase letters s, the duplicate item removal op
 
 ## Explanation
 
-This solution was accepted on LintCode using remo. The detected topics are StackString, Stack, String, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using remove recursi. The detected topics are StackString, Stack, String, Test Data Test Output. Review the synced source file for the implementation details.
