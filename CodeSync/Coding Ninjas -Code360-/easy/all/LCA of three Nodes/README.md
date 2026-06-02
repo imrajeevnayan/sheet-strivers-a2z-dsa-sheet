@@ -7,11 +7,11 @@
 - Runtime: 942 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/span-of-ninja-coin_1475049
-- Synced: 2026-06-02T16:25:10.875Z
+- Synced: 2026-06-02T16:29:44.752Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVE Get key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
