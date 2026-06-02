@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-06-02T07:11:23.909Z",
+  "submissionTimestamp": "2026-06-02T07:14:26.985Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Highlight",
-    "More",
-    "Java Python 3 C++",
-    "Java",
-    "Python 3",
-    "C++",
-    "@param",
-    "@return"
+    "Opposite Direction Two Pointers",
+    "Stack",
+    "Two Pointers",
+    "Monotonic Stack",
+    "Apple",
+    "Twitter",
+    "Airbnb",
+    "Amazon"
   ],
   "platform": "LintCode",
-  "language": "ALL(59) Java(31) Python 3(24) C++(9) Csharp(1)",
+  "language": "Python",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/problem/363/solution/93750",
-  "submissionId": "36fkma"
+  "problemUrl": "https://www.lintcode.com/problem/363/description",
+  "submissionId": "jlj9ga"
 }
