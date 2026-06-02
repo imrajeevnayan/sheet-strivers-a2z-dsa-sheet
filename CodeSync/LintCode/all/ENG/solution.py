@@ -1,22 +1,19 @@
 # Platform: LintCode
 # Problem: ENG
-# URL: https://www.lintcode.com/problem/3820/
+# URL: https://www.lintcode.com/problem/2506/?showListFe=true&page=1&problemTypeId=4&tagIds=361&ordering=level&pageSize=50
 # Language: Python
 # Difficulty: Unknown
-# Topics: StackString, Stack, String, Test Data Commit Output
+# Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-02T10:07:40.046Z
+# Synced: 2026-06-02T18:20:18.307Z
 
 public·class·Solution·{
-····public·String·removeDuplicates(String·s)·{
-····Stack<Character>st=new·Stack<>();
-····for(char·c:s.toCharArray()){
-········if(!st.isEmpty()&&·st.peek()==c)st.pop();
+····/**
+·····*·@param·s:·A·string·with·lowercase·letters·and·parentheses
+·····*·@return:·A·string·which·has·been·removed·invalid·parentheses
+·····*/
+····public·String·removeParentheses(String·s)·{
+········//·write·your·code·here.
 ····}
-····}
-········else·st.push(c);
-····StringBuilder·sb=new·StringBuilder();
-····for(char·c:st)sb.append(c);
-····return·sb.toString();
 }
