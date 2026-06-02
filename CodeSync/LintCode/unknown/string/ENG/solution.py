@@ -3,10 +3,10 @@
 # URL: https://www.lintcode.com/problem/3820/
 # Language: Python
 # Difficulty: Unknown
-# Topics: StackString, Stack, String, Test Data Test Output
+# Topics: StackString, Stack, String, Test Data Commit Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-02T10:07:05.709Z
+# Synced: 2026-06-02T10:07:40.046Z
 
 public·class·Solution·{
 ····public·String·removeDuplicates(String·s)·{
@@ -17,5 +17,6 @@ public·class·Solution·{
 ····}
 ········else·st.push(c);
 ····StringBuilder·sb=new·StringBuilder();
-····for(char·c:st)s
+····for(char·c:st)sb.append(c);
+····return·sb.toString();
 }
