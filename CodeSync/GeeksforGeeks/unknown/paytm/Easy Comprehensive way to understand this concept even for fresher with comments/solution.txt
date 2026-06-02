@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Easy Comprehensive way to understand this concept even for fresher with comments.
+ * URL: https://www.geeksforgeeks.org/problems/reverse-each-word-in-a-given-string1001/1
+ * Language: class Solution: def reverseWords(self, s: str) -> str: return " ".join(list(map(lambda x : x[::-1], s.strip(' ').split())))
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Paytm, Zoho, Flipkart, Amazon, Microsoft, Payu
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-02T18:37:55.821Z
+ */
+
+class Solution {
+    public String reverseWords(String s) {
+    StringBuilder sb=new StringBuilder();
+     String w[]=s.trim().split("\\s+");
+     for(int i=0;i< w.length;i++){
+         sb.append(new StringBuilder(w[i]).reverse());
+         if(i!=w.length-1)sb.append(" ");
+     }
+     return sb.toString();
+        
+    }
+}
