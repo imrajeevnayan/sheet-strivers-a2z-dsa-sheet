@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 47.59 MB
 - Problem URL: https://leetcode.com/problems/trapping-rain-water/submissions/2019855284/
-- Synced: 2026-06-02T06:36:54.611Z
+- Synced: 2026-06-02T06:37:06.171Z
 
 ## Problem Description
 
