@@ -1,27 +1,17 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/363/
+ * URL: https://www.lintcode.com/problem/1710/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Opposite Direction Two Pointers, Stack, Two Pointers, Monotonic Stack, Apple, Twitter, Airbnb, Amazon
+ * Topics: Divide and Conquer, Google, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T07:11:07.981Z
+ * Synced: 2026-06-02T18:14:29.982Z
  */
 
 public·class·Solution·{
-····public·int·trapRainWater(int[]·heights)·{
-········int·ans=0;
-········Deque<Integer>st=new·ArrayDeque<>();
-········for(int·i=0;i<heights.length;i++){
-············while(!st.isEmpty()&&·heights[i]>heights[st.peek()]){
-········}
-················int·top=st.pop();
-············}
-················if(st.isEmpty())break;
-··········st.push(i);············
-
-················int·dist=i-st.peek()-1;
-················int·boundHeight=Math.min(heights[i],heights[st.peek()])-heights[top];
-················ans+=dist·*·boundHeight;
+····public·int[]·beautifulArray(int·n)·{
+······
+····}
+}
