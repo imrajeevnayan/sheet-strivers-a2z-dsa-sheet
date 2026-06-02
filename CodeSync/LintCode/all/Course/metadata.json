@@ -1,8 +1,8 @@
 {
-  "submissionTimestamp": "2026-06-02T07:14:26.985Z",
+  "submissionTimestamp": "2026-06-02T07:57:13.816Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Hard",
   "tags": [
     "Opposite Direction Two Pointers",
     "Stack",
@@ -17,5 +17,5 @@
   "language": "Python",
   "problemTitle": "Course",
   "problemUrl": "https://www.lintcode.com/problem/363/description",
-  "submissionId": "jlj9ga"
+  "submissionId": "js6mtf"
 }
