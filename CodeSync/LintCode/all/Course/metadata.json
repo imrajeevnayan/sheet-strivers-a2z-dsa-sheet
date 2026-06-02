@@ -1,16 +1,21 @@
 {
-  "submissionTimestamp": "2026-05-31T19:35:34.354Z",
+  "submissionTimestamp": "2026-06-02T07:11:23.909Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Binary",
-    "Microsoft",
-    "Test Data Commit Output"
+    "Highlight",
+    "More",
+    "Java Python 3 C++",
+    "Java",
+    "Python 3",
+    "C++",
+    "@param",
+    "@return"
   ],
   "platform": "LintCode",
-  "language": "Python",
+  "language": "ALL(59) Java(31) Python 3(24) C++(9) Csharp(1)",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/problem/365/description?showListFe=false&page=1&problemTypeId=4&pageSize=50",
-  "submissionId": "pin5e1"
+  "problemUrl": "https://www.lintcode.com/problem/363/solution/93750",
+  "submissionId": "36fkma"
 }
