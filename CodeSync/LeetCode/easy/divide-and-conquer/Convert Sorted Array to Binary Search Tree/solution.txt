@@ -7,7 +7,7 @@
  * Topics: Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T20:09:41.198Z
+ * Synced: 2026-06-03T20:09:54.375Z
  */
 
 if (nums == null || nums.length == 0) return null;
@@ -20,11 +20,7 @@ class Solution {
         if (left > right) return null;
         
         int mid = left + (right - left) / 2;
-        
-        // Create node with middle value
         TreeNode node = new TreeNode(nums[mid]);
-        
-        // Recursively build left and right subtrees
         node.left = buildBST(nums, left, mid - 1);
         node.right = buildBST(nums, mid + 1, right);
         
