@@ -1,0 +1,36 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: LCA of three Nodes
+ * URL: https://www.naukri.com/code360/problems/remove-duplicates-from-unsorted-linked-list_1069331
+ * Language: Java (SE 1.8)
+ * Difficulty: Easy
+ * Topics: in Hash Table
+ * Runtime: 4699 ms
+ * Memory: N/A
+ * Synced: 2026-06-03T11:54:45.412Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    
+    public static LinkedListNode<Integer> removeDuplicates(LinkedListNode<Integer> head) {
+        if (head == null) return head;
+        
+        HashSet<Integer> set = new HashSet<>();
+        LinkedListNode<Integer> curr = head;
+        LinkedListNode<Integer> prev = null;
+        
+        while (curr != null) {
+            if (set.contains(curr.data)) {
+                prev.next = curr.next;
+            } else {
+                set.add(curr.data);
+                prev = curr;
+            }
+            curr = curr.next;
+        }
+        
+        return head;
+    }
+}
