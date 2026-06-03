@@ -7,27 +7,22 @@
  * Topics: Stack, Design
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T19:59:58.632Z
+ * Synced: 2026-06-03T20:00:02.170Z
  */
 
-return minStack.peek();
-    }
-}
-```
+Input
+["MinStack","push","push","push","getMin","pop","top","getMin"]
+[[],[-2],[0],[-3],[],[],[],[]]
 
-### ✅ **Option 2: Single Stack with Encoding** (Advanced)
-Store both value and min in a single stack using mathematical encoding (works but complex).
+Output
+[null,null,null,null,-3,null,0,-2]
 
----
-
-## Bottom Line:
-
-| Approach | Space | getMin() Time | Pop() Time |
-|----------|-------|---------------|------------|
-| Simple variable + scan | O(1) extra | **O(n)** ❌ | O(1) |
-| Two stacks | O(n) extra | **O(1)** ✅ | O(1) |
-| Encoded single stack | O(n) | **O(1)** ✅ | O(1) |
-
-**For interviews and production code, use the two-stack approach.** It's clean, efficient, and easy to understand.
-
-Would you like me to explain the encoded single-stack approach, or shall we move on to another topic?
+Explanation
+MinStack minStack = new MinStack();
+minStack.push(-2);
+minStack.push(0);
+minStack.push(-3);
+minStack.getMin(); // return -3
+minStack.pop();
+minStack.top();    // return 0
+minStack.getMin(); // return -2
