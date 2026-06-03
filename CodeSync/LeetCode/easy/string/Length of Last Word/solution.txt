@@ -7,7 +7,7 @@
  * Topics: String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T10:24:26.355Z
+ * Synced: 2026-06-03T10:24:30.689Z
  */
 
 class Solution {
@@ -15,8 +15,7 @@ class Solution {
         int count=0;
         for(int i=s.length()-1;i>=0;i--){
             if(s.charAt(i)!=' ')count++;
-            else if (count > 0)
-                 break;
+            else if (count > 0) break;
             }
         return count;
     }
