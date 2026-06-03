@@ -3,11 +3,11 @@
 - Platform: LintCode
 - Language: Java
 - Difficulty: Unknown
-- Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Test Output
+- Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Commit Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/2506
-- Synced: 2026-06-03T08:37:05.050Z
+- Synced: 2026-06-03T08:37:58.440Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ This topic is a pre-release topic. If you encounter any problems, please contact
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Commit Output. Review the synced source file for the implementation details.
