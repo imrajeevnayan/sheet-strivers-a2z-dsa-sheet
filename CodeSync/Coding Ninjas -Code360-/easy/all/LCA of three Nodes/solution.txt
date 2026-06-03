@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 1379 ms
  * Memory: N/A
- * Synced: 2026-06-03T12:39:39.949Z
+ * Synced: 2026-06-03T12:39:45.880Z
  */
 
 public class Solution {
@@ -20,15 +20,12 @@ public class Solution {
         Node<Integer> rightHead = mid.next;
         mid.next = null; // Split the list into two halves
         
-        // Recursively sort both halves
         Node<Integer> leftSorted = mergeSort(head);
         Node<Integer> rightSorted = mergeSort(rightHead);
         
-        // Merge the two sorted halves
         return merge(leftSorted, rightSorted);
     }
     
-    // Helper method to find the middle node using slow-fast pointer technique
     private static Node<Integer> findMiddle(Node<Integer> head) {
         if (head == null) {
             return head;
@@ -39,3 +36,6 @@ public class Solution {
         
         // Move fast pointer twice as fast as slow pointer
         // When fast reaches the end, slow will be at the middle
+        while (fast.next != null && fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
