@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/geeks-and-the-string--170645/1
-- Synced: 2026-06-03T06:47:36.075Z
+- Synced: 2026-06-03T06:47:47.207Z
 
 ## Problem Description
 
