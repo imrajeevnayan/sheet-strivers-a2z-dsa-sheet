@@ -1,37 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/move-all-negative-numbers-to-beginning-and-positive-to-end_1112620
+ * URL: https://www.naukri.com/code360/problems/kth-smallest-and-largest-element-of-array_1115488
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 929 ms
+ * Runtime: 2131 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:43:57.946Z
+ * Synced: 2026-06-03T11:44:55.634Z
  */
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.PriorityQueue;
+ 
 public class Solution {
-    public static int[] separateNegativeAndPositive(int a[]) {
-        int n = a.length;
-        if (n == 0 || n == 1) return a;
+    public static ArrayList<Integer> kthSmallLarge(ArrayList<Integer> arr, int n, int k) {
+        ArrayList<Integer> result = new ArrayList<>();
         
-        int left = 0;
-        int right = n - 1;
-        
-        while (left <= right) {
-            if (a[left] < 0) {
-                left++;
-            } else if (a[right] >= 0) {
-                right--;
-            } else {
-                int temp = a[left];
-                a[left] = a[right];
-                a[right] = temp;
-                left++;
-                right--;
+        // For kth smallest, use Max Heap of size k
+        PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a, b) -> b - a);
+        for (int i = 0; i < n; i++) {
+            maxHeap.add(arr.get(i));
+            if (maxHeap.size() > k) {
+                maxHeap.poll();
             }
         }
+        int kthSmallest = maxHeap.peek();
         
-        return a;
-    }
-}
+        // For kth largest, use Min Heap of size k
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+        for (int i = 0; i < n; i++) {
+            minHeap.add(arr.get(i));
+            if (minHeap.size() > k) {
+                minHeap.poll();
+            }
+        }
+        int kthLargest = minHeap.peek();
+        
+        result.add(kthSmallest);
