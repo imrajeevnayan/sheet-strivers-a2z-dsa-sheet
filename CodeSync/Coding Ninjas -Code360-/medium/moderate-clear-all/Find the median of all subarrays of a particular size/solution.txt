@@ -1,0 +1,22 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Find the median of all subarrays of a particular size.
+ * URL: https://www.naukri.com/code360/problems/find-the-median-of-all-subarrays-of-a-particular-size_1229069
+ * Language: Java (SE 1.8)
+ * Difficulty: Medium
+ * Topics: Moderate Clear all, Moderate
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T12:40:16.370Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+import java.util.ArrayList;
+ 
+public class Solution {
+ 
+  public static ArrayList < Double > findMedian(ArrayList < Integer > arr, int n, int m) {
+    // Write your code here.
+  }
+}
