@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T11:06:29.552Z
+ * Synced: 2026-06-03T11:07:08.021Z
  */
 
 class Solution {
@@ -15,5 +15,6 @@ class Solution {
         
     }
         int sum=0;
-        for(int )
+        for(int i=0;i<nums.length;i++)sum+=i;
+        totalsum=n*(n+1)
 }
