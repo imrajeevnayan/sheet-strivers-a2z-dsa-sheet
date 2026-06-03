@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Bit Manipulation
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/single-number/
-- Synced: 2026-06-03T11:03:53.907Z
+- Synced: 2026-06-03T11:04:33.672Z
 
 ## Problem Description
 
