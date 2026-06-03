@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Binary Search, Interactive
  * Runtime: 2 ms
- * Memory: N/A
- * Synced: 2026-06-03T20:04:58.984Z
+ * Memory: 41.99 MB
+ * Synced: 2026-06-03T20:05:01.227Z
  */
 
 public int firstBadVersion(int n) {
