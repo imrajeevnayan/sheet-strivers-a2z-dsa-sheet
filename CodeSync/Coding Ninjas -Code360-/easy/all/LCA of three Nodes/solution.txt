@@ -4,10 +4,10 @@
  * URL: https://www.naukri.com/code360/problems/reverse-a-ll_2271431
  * Language: All languages
  * Difficulty: Easy
- * Topics: Uncategorized
+ * Topics: Moderate Clear all, Moderate
  * Runtime: 952 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:53:45.374Z
+ * Synced: 2026-06-03T11:53:56.453Z
  */
 
 public static Node reverseLL(Node head, int low, int high) {
