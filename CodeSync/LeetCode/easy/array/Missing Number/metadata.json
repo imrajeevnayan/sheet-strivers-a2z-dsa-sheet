@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-03T11:06:09.349Z",
+  "submissionTimestamp": "2026-06-03T11:06:15.307Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -14,6 +14,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Missing Number",
-  "problemUrl": "https://leetcode.com/problems/missing-number/description/",
-  "submissionId": "ycjf14"
+  "problemUrl": "https://leetcode.com/problems/missing-number/",
+  "submissionId": "t5rz3a"
 }
