@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T10:26:29.857Z
+ * Synced: 2026-06-03T10:26:31.440Z
  */
 
 for (int i = 1; i <= rowIndex; i++) {
@@ -17,6 +17,7 @@ for (int i = 1; i <= rowIndex; i++) {
             row.add(1);
         }
 
-        return row;
-    }
-}
+        row.add(1);
+        List<Integer> row = new ArrayList<>();
+class Solution {
+    public List<Integer> getRow(int rowIndex) {
