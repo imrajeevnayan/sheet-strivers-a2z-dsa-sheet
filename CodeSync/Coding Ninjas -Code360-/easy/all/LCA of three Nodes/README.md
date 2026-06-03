@@ -7,7 +7,7 @@
 - Runtime: 1379 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/mergesort-linked-list_630514
-- Synced: 2026-06-03T12:39:45.880Z
+- Synced: 2026-06-03T12:39:57.603Z
 
 ## Problem Description
 
