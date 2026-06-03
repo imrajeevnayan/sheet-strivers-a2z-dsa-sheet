@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags WiproSAP Labs, Company Tags, Wipro, SAP Labs, Topic Tags, Mathematical, Algorithms
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T16:41:54.465Z
+ * Synced: 2026-06-03T16:42:08.113Z
  */
 
 class Solution {
@@ -21,7 +21,7 @@ class Solution {
         return result;
     }
 
-    private int findGCD(int a, int b) {
+    statc int findGCD(int a, int b) {
         while (b != 0) {
             int temp = b;
             b = a % b;
