@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-06-03T16:40:17.514Z",
+  "submissionTimestamp": "2026-06-03T16:42:08.113Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags Zoho",
+    "Company Tags WiproSAP Labs",
     "Company Tags",
-    "Zoho",
+    "Wipro",
+    "SAP Labs",
     "Topic Tags",
     "Mathematical",
-    "palindrome",
     "Algorithms"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def isSumPalindrome(self, n): count = 0 while(str(n) != str(n)[::-1]): n += int(str(n)[::-1]) count += 1 if(count > 5): return -1 break return n",
+  "language": "from math import gcd from functools import reduce class Solution: def gcd(self, n, arr): return reduce(gcd, arr)",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-palindrome3857/1",
-  "submissionId": "yds53r"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/gcd-of-array0614/1",
+  "submissionId": "9t3gb8"
 }
