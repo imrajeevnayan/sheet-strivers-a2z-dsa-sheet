@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Linked List, Two Pointers, Stack, Recursion
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/palindrome-linked-list/submissions/2021231242/?utm=codolio
-- Synced: 2026-06-03T12:27:34.866Z
+- Memory: 101.70 MB
+- Problem URL: https://leetcode.com/problems/palindrome-linked-list/?utm=codolio
+- Synced: 2026-06-03T12:27:40.030Z
 
 ## Problem Description
 
