@@ -1,0 +1,18 @@
+# LCA of three Nodes
+
+- Platform: Coding Ninjas (Code360)
+- Language: All languages
+- Difficulty: Easy
+- Topics: Moderate Clear all, Moderate
+- Runtime: 952 ms
+- Memory: N/A
+- Problem URL: https://www.naukri.com/code360/problems/reverse-a-ll_2271431
+- Synced: 2026-06-03T11:53:50.792Z
+
+## Problem Description
+
+Total problems solved
+
+## Explanation
+
+This solution was accepted on Coding Ninjas (Code360) using All languages. The detected topics are Moderate Clear all, Moderate. Review the synced source file for the implementation details.
