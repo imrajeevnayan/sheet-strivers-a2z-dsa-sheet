@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/first-bad-version/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-03T20:04:15.181Z
+- Synced: 2026-06-03T20:04:25.595Z
 
 ## Problem Description
 
