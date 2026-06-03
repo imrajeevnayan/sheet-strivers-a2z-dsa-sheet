@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T19:54:24.175Z
+ * Synced: 2026-06-03T19:54:26.171Z
  */
 
 class Solution {
