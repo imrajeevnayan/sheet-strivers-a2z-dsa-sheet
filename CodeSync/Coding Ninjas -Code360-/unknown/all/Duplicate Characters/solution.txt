@@ -1,0 +1,35 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Duplicate Characters
+ * URL: https://www.naukri.com/code360/problems/duplicate-characters_3189116
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 840 ms
+ * Memory: N/A
+ * Synced: 2026-06-03T11:48:45.572Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+import java.util.*;
+ 
+public class Solution {
+ 
+    public static ArrayList<Pair> duplicate_char(String s, int n) {
+        ArrayList<Pair> result = new ArrayList<>();
+        int[] freq = new int[256];
+        
+        for (int i = 0; i < n; i++) {
+            freq[s.charAt(i)]++;
+        }
+        
+        for (int i = 0; i < 256; i++) {
+            if (freq[i] > 1) {
+                result.add(new Pair((char)i, freq[i]));
+            }
+        }
+        
+        return result;
+    }
+}
