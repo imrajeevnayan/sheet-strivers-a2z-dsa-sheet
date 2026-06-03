@@ -7,23 +7,27 @@
  * Topics: Stack, Design
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T19:59:36.160Z
+ * Synced: 2026-06-03T19:59:58.632Z
  */
 
-public int top() {
-        
-    }
-    
-    public int getMin() {
-        
+return minStack.peek();
     }
 }
+```
 
-/**
- * Your MinStack object will be instantiated and called as such:
- * MinStack obj = new MinStack();
- * obj.push(val);
- * obj.pop();
- * int param_3 = obj.top();
- * int param_4 = obj.getMin();
- */
+### ✅ **Option 2: Single Stack with Encoding** (Advanced)
+Store both value and min in a single stack using mathematical encoding (works but complex).
+
+---
+
+## Bottom Line:
+
+| Approach | Space | getMin() Time | Pop() Time |
+|----------|-------|---------------|------------|
+| Simple variable + scan | O(1) extra | **O(n)** ❌ | O(1) |
+| Two stacks | O(n) extra | **O(1)** ✅ | O(1) |
+| Encoded single stack | O(n) | **O(1)** ✅ | O(1) |
+
+**For interviews and production code, use the two-stack approach.** It's clean, efficient, and easy to understand.
+
+Would you like me to explain the encoded single-stack approach, or shall we move on to another topic?
