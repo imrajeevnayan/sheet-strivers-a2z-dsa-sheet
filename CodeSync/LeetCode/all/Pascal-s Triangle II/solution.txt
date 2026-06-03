@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Pascal's Triangle II
- * URL: https://leetcode.com/problems/pascals-triangle-ii/
+ * URL: https://leetcode.com/problems/pascals-triangle-ii/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T10:26:43.024Z
+ * Synced: 2026-06-03T10:37:24.903Z
  */
 
 for (int i = 1; i <= rowIndex; i++) {
