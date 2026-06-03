@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-03T16:00:27.875Z",
+  "submissionTimestamp": "2026-06-03T19:43:50.610Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -13,6 +13,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Sort List",
-  "problemUrl": "https://leetcode.com/problems/sort-list/",
+  "problemUrl": "https://leetcode.com/problems/sort-list/description/",
   "submissionId": "7iqvrx"
 }
