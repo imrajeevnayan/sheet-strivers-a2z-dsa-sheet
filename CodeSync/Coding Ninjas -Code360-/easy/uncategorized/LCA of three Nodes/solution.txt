@@ -1,41 +1,37 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/duplicate-parenthesis_2663296
+ * URL: https://www.naukri.com/code360/problems/move-all-negative-numbers-to-beginning-and-positive-to-end_1112620
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 749 ms
+ * Runtime: 929 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:31:25.917Z
+ * Synced: 2026-06-03T11:43:40.308Z
  */
 
 public class Solution {
-    public static boolean duplicateParanthesis(String expr) {
-        Stack<Character> stack = new Stack<>();
-        for (int i = 0; i < expr.length(); i++) {
-            char ch = expr.charAt(i);
-            
-            if (ch == ')') {
-                int count = 0;
-                
-                while (stack.peek() != '(') {
-                    stack.pop();
-                    count++;
-                }
-                
-                stack.pop();
-                
-                if (count == 0) {
-                    return true;
-                }
+    public static int[] separateNegativeAndPositive(int a[]) {
+        int n = a.length;
+        if (n == 0 || n == 1) return a;
+        
+        int left = 0;
+        int right = n - 1;
+        
+        while (left <= right) {
+            if (a[left] < 0) {
+                left++;
+            } else if (a[right] >= 0) {
+                right--;
             } else {
-                stack.push(ch);
+                int temp = a[left];
+                a[left] = a[right];
+                a[right] = temp;
+                left++;
+                right--;
             }
         }
         
-import java.io.*;
-import java.util.*;
-        return false;
+        return a;
     }
 }
