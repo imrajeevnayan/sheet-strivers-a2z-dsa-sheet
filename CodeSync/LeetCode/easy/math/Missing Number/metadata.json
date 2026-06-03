@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-03T11:07:19.493Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-03T11:11:15.309Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -15,5 +15,5 @@
   "language": "Problem List",
   "problemTitle": "Missing Number",
   "problemUrl": "https://leetcode.com/problems/missing-number/",
-  "submissionId": "lsqjlh"
+  "submissionId": "49o5yg"
 }
