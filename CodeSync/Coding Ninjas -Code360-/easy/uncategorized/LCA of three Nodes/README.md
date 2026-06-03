@@ -7,11 +7,11 @@
 - Runtime: 2131 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/kth-smallest-and-largest-element-of-array_1115488
-- Synced: 2026-06-03T11:44:55.634Z
+- Synced: 2026-06-03T11:45:04.561Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
