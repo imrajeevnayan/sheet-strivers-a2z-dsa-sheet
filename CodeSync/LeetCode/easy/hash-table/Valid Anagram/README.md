@@ -6,8 +6,8 @@
 - Topics: Hash Table, String, Sorting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/valid-anagram/description/
-- Synced: 2026-06-03T10:58:49.277Z
+- Problem URL: https://leetcode.com/problems/valid-anagram/
+- Synced: 2026-06-03T10:58:58.982Z
 
 ## Problem Description
 
