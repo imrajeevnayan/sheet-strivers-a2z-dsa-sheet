@@ -1,27 +1,21 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/495/?showListFe=true&page=1&problemTypeId=4&tagIds=361&ordering=level&pageSize=50
+ * URL: https://www.lintcode.com/problem/263
  * Language: Java
  * Difficulty: Unknown
- * Topics: Stack, Test Data Test Output
+ * Topics: Stack, 2506 Remove the Invalid Parentheses Easy, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T18:19:02.208Z
+ * Synced: 2026-06-03T07:29:18.344Z
  */
 
-public·class·Stack·{
-····/*
-·····*·@param·x:·An·integer
-·····*·@return:·nothing
+public·class·Solution·{
+····/**
+·····*·@param·string:·A·string
+·····*·@return:·whether·the·string·is·valid·
 ·····*/
-····public·void·push(int·x)·{
+····public·boolean·matchParentheses(String·string)·{
 ········//·write·your·code·here
 ····}
-
-····/*
-·····*·@return:·nothing
-·····*/
-····public·void·pop()·{
-········//·write·your·code·here
-····}
+}
