@@ -1,0 +1,30 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Ninja And The Pizzas
+ * URL: https://www.naukri.com/code360/problem-of-the-day/easy
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 825 ms
+ * Memory: N/A
+ * Synced: 2026-06-03T11:41:13.328Z
+ */
+
+import java.util.*;
+import java.io.*;
+ 
+public class Solution {
+    public static int maxExtraCheese(int n, int k, int[] l, int[] b) {
+                if (k == 0) return 0;
+        int[] gains = new int[n];
+        for (int i = 0; i < n; i++) {
+   gains[i] = Math.max(2 * l[i], 2 * b[i]);
+     }                                                                                       Arrays.sort(gains);                                                                                                        // Sum the top k gains
+                                                                                                                        int totalExtraCheese = 0;
+                                                                                                                                for (int i = n - 1; i >= Math.max(0, n - k); i--) {
+                                                                                                                                            totalExtraCheese += gains[i];
+                                                                                                                                                    }
+                                                                                                                                                            
+                                                                                                                                                                    return totalExtraCheese;
+                                                                                                                                                                        }
+                                                                                                                                                                        }
