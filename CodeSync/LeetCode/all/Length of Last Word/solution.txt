@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Length of Last Word
- * URL: https://leetcode.com/problems/length-of-last-word/
+ * URL: https://leetcode.com/problems/length-of-last-word/submissions/2021132099/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T10:24:42.025Z
+ * Synced: 2026-06-03T10:25:01.007Z
  */
 
 class Solution {
