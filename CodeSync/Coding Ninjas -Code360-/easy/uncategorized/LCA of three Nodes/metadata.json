@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-03T11:45:06.443Z",
-  "runtime": "2131 ms",
+  "submissionTimestamp": "2026-06-03T11:46:35.651Z",
+  "runtime": "839 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/kth-smallest-and-largest-element-of-array_1115488",
-  "submissionId": "8zo5wo"
+  "problemUrl": "https://www.naukri.com/code360/problems/factorial-of-a-large-number_1115471",
+  "submissionId": "s9f9ba"
 }
