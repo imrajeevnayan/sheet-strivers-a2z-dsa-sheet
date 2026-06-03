@@ -1,30 +1,44 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/problem/263/solution/93752
- * Language: ALL(92) Python 3(32) C++(25) Java(20) JavaScript(7) C(6) Go(2) Python 2(1) Csharp(1)
+ * URL: https://www.lintcode.com/problem/2506/solution/93753
+ * Language: ALL(102) Java(34) Python 3(33) C++(23) JavaScript(12)
  * Difficulty: Unknown
- * Topics: More, Java, Python 3, C++, @param, @return, Test Data Test Output
+ * Topics: PRE, More, C++, @param, @return, Java, Python 3, Java Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T07:32:39.433Z
+ * Synced: 2026-06-03T08:38:17.195Z
  */
 
 public·class·Solution·{
-····public·boolean·matchParentheses(String·string)·{
-········Stack<Character>·st·=·new·Stack<>();
-········for·(char·ch·:·string.toCharArray())·{
-············if·(ch·==·'('·||·ch·==·'{'·||·ch·==·'[')·st.push(ch);
-············else·{
-················if·(st.isEmpty())·return·false;
-················char·top·=·st.pop();
-················if·((ch·==·')'·&&·top·!=·'(')·||
-····················(ch·==·'}'·&&·top·!=·'{')·||
-····················(ch·==·']'·&&·top·!=·'['))·{
-····················return·false;
+····public·String·removeParentheses(String·s)·{
+········int·n·=·s.length();
+········boolean[]·remove·=·new·boolean[n];
+········Deque<Integer>·stack·=·new·ArrayDeque<>();
+········for·(int·i·=·0;·i·<·n;·i++)·{
+············char·c·=·s.charAt(i);
+············if·(c·==·'(')·{
+················stack.push(i);
+············}·else·if·(c·==·')')·{
+················if·(!stack.isEmpty())·{
+····················stack.pop();·//·matched
+················}·else·{
+····················remove[i]·=·true;·//·invalid·')'
 ················}
 ············}
 ········}
-········return·st.isEmpty();
+
+········//·leftover·'('·are·invalid
+········while·(!stack.isEmpty())·{
+············remove[stack.pop()]·=·true;
+········}
+
+········StringBuilder·sb·=·new·StringBuilder();
+········for·(int·i·=·0;·i·<·n;·i++)·{
+············if·(!remove[i])·{
+················sb.append(s.charAt(i));
+············}
+········}
+
+········return·sb.toString();
 ····}
-}
