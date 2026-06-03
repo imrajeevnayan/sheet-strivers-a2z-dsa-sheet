@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-03T11:53:56.453Z",
-  "runtime": "952 ms",
+  "submissionTimestamp": "2026-06-03T11:54:45.412Z",
+  "runtime": "4699 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Moderate Clear all",
-    "Moderate"
+    "in Hash Table"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/reverse-a-ll_2271431",
-  "submissionId": "8lmbdt"
+  "problemUrl": "https://www.naukri.com/code360/problems/remove-duplicates-from-unsorted-linked-list_1069331",
+  "submissionId": "u8gr09"
 }
