@@ -7,20 +7,20 @@
  * Topics: Expected Complexities, Topic Tags, Stack, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T12:15:15.437Z
+ * Synced: 2026-06-03T06:47:19.568Z
  */
 
 class Solution {
     public String removePair(String s) {
-        StringBuilder sb = new StringBuilder();
-        
-    for (char c : s.toCharArray()) {
-        int len = sb.length();
-       if (len > 0 && sb.charAt(len - 1) == c) sb.deleteCharAt(len - 1);
-       else sb.append(c);
+       Stack<Character> stack = new Stack<>();
+        for (char ch : s.toCharArray()) {
+            if (!stack.isEmpty() && stack.peek() == ch)  stack.pop(); 
+            else stack.push(ch);
         }
-        String result = sb.toString();
-        if (result.isEmpty()) return "-1";
-        return result;
+        if (stack.isEmpty()) return "-1";
+        
+        StringBuilder res= new StringBuilder();
+        for (char ch : stack)res.append(ch);
+        return res.toString();
     }
 }
