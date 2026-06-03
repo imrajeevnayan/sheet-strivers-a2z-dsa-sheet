@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Greedy
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T12:08:41.361Z
+ * Synced: 2026-06-03T12:08:46.159Z
  */
 
 class Solution {
