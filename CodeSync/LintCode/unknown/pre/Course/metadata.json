@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-03T08:38:17.195Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "PRE",
+    "More",
+    "C++",
+    "@param",
+    "@return",
+    "Java",
+    "Python 3",
+    "Java Stack"
+  ],
+  "platform": "LintCode",
+  "language": "ALL(102) Java(34) Python 3(33) C++(23) JavaScript(12)",
+  "problemTitle": "Course",
+  "problemUrl": "https://www.lintcode.com/problem/2506/solution/93753",
+  "submissionId": "xvt28p"
+}
