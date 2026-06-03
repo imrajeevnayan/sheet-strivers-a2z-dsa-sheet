@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Dynamic Programming
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 43.68 MB
 - Problem URL: https://leetcode.com/problems/pascals-triangle/submissions/2021164625/
-- Synced: 2026-06-03T11:02:59.360Z
+- Synced: 2026-06-03T11:03:01.593Z
 
 ## Problem Description
 
