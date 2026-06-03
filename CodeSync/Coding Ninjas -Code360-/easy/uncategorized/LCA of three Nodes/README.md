@@ -7,11 +7,11 @@
 - Runtime: 929 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/move-all-negative-numbers-to-beginning-and-positive-to-end_1112620
-- Synced: 2026-06-03T11:43:56.443Z
+- Synced: 2026-06-03T11:43:57.946Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Total problems solved
 
 ## Explanation
 
