@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-03T11:31:25.917Z",
-  "runtime": "749 ms",
+  "submissionTimestamp": "2026-06-03T11:43:40.308Z",
+  "runtime": "929 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/duplicate-parenthesis_2663296",
-  "submissionId": "jvu96w"
+  "problemUrl": "https://www.naukri.com/code360/problems/move-all-negative-numbers-to-beginning-and-positive-to-end_1112620",
+  "submissionId": "gvm455"
 }
