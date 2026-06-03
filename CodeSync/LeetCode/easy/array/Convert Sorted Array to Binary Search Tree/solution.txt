@@ -7,7 +7,7 @@
  * Topics: Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T20:09:46.046Z
+ * Synced: 2026-06-03T20:09:48.522Z
  */
 
 if (nums == null || nums.length == 0) return null;
@@ -21,9 +21,7 @@ class Solution {
         
         int mid = left + (right - left) / 2;
         TreeNode node = new TreeNode(nums[mid]);
-        
-        // Recursively build left and right subtrees
-        node.left = buildBST(nums, left, mid - 1);
+                node.left = buildBST(nums, left, mid - 1);
         node.right = buildBST(nums, mid + 1, right);
         
         return node;
