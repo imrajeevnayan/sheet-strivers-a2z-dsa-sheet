@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: GfG Weekly
+ * URL: https://practice.geeksforgeeks.org/contest/gfg-weekly-208-rated-contest/problems
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T06:58:25.523Z
+ */
+
+class Solution {
+    public int ValueX(int a, int b, int c) {
+
+        int ab = a & b;
+
+        // check impossible condition
+        if ((ab | c) != c) return -1;
+
+        // required x
+        return c & (~ab);
+    }
+}
