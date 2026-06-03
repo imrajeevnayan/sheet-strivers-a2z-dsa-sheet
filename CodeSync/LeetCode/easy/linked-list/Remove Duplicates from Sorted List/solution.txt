@@ -7,7 +7,7 @@
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T10:20:28.475Z
+ * Synced: 2026-06-03T10:20:36.485Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
         ListNode curr = head;
         while (curr != null && curr.next != null) {
             if (curr.val == curr.next.val) {
-                curr.next = curr.next.next; // remove duplicate
+                curr.next = curr.next.next; 
             } else {
                 curr = curr.next;
             }
