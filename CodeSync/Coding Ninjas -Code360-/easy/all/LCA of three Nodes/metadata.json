@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-03T11:48:11.831Z",
-  "runtime": "851 ms",
+  "submissionTimestamp": "2026-06-03T11:53:29.619Z",
+  "runtime": "952 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "All languages",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/minimum-swaps-to-bring-all-elements-less-than-or-equal-to-k-together_1112657",
-  "submissionId": "ebeqs3"
+  "problemUrl": "https://www.naukri.com/code360/problems/reverse-a-ll_2271431",
+  "submissionId": "rj96eb"
 }
