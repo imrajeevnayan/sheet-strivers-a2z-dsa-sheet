@@ -5,9 +5,9 @@
  * Language: All languages
  * Difficulty: Hard
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 2109 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:42:57.985Z
+ * Synced: 2026-06-03T11:43:03.475Z
  */
 
 import java.util.* ;
