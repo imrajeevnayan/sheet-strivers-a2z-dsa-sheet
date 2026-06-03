@@ -7,7 +7,7 @@
 - Runtime: 839 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/factorial-of-a-large-number_1115471
-- Synced: 2026-06-03T11:46:50.671Z
+- Synced: 2026-06-03T11:46:52.553Z
 
 ## Problem Description
 
