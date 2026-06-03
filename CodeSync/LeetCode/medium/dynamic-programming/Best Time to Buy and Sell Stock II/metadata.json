@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-03T11:12:18.926Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-03T12:08:46.159Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Best Time to Buy and Sell Stock II",
-  "problemUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/",
+  "problemUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/",
   "submissionId": "vqyma0"
 }
