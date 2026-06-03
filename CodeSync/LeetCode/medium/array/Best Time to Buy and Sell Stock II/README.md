@@ -6,8 +6,8 @@
 - Topics: Array, Dynamic Programming, Greedy
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/
-- Synced: 2026-06-03T11:12:18.926Z
+- Problem URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+- Synced: 2026-06-03T12:08:41.361Z
 
 ## Problem Description
 
