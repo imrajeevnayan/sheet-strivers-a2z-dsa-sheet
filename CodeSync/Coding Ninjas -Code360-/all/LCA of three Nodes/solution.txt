@@ -1,41 +1,26 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/kth-smallest-and-largest-element-of-array_1115488
+ * URL: https://www.naukri.com/code360/problems/factorial-of-a-large-number_1115471
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 2131 ms
+ * Runtime: 839 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:45:06.443Z
+ * Synced: 2026-06-03T11:46:58.444Z
  */
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.PriorityQueue;
+import java.util.* ;
+import java.io.*; 
  
 public class Solution {
-    public static ArrayList<Integer> kthSmallLarge(ArrayList<Integer> arr, int n, int k) {
-        ArrayList<Integer> result = new ArrayList<>();
+    public static String calculateFactorial(int n) {
+        if (n == 0 || n == 1) return "1";
         
-        // For kth smallest, use Max Heap of size k
-        PriorityQueue<Integer> maxHeap = new PriorityQueue<>((a, b) -> b - a);
-        for (int i = 0; i < n; i++) {
-            maxHeap.add(arr.get(i));
-            if (maxHeap.size() > k) {
-                maxHeap.poll();
-            }
+        java.math.BigInteger result = java.math.BigInteger.ONE;
+        for (int i = 2; i <= n; i++) {
+            result = result.multiply(java.math.BigInteger.valueOf(i));
         }
-        int kthSmallest = maxHeap.peek();
-        
-        // For kth largest, use Min Heap of size k
-        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
-        for (int i = 0; i < n; i++) {
-            minHeap.add(arr.get(i));
-            if (minHeap.size() > k) {
-                minHeap.poll();
-            }
-        }
-        int kthLargest = minHeap.peek();
-        
-        result.add(kthSmallest);
+        return result.toString();
+    }
+}
