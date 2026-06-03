@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-03T11:43:03.475Z",
-  "runtime": "2109 ms",
+  "submissionTimestamp": "2026-06-03T11:49:02.371Z",
+  "runtime": "840 ms",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
-    "Uncategorized"
+    "Moderate Clear all",
+    "Moderate"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (SE 1.8)",
   "problemTitle": "Problem list",
-  "problemUrl": "https://www.naukri.com/code360/problems/sum-of-max-and-min_1081476",
-  "submissionId": "qw8zgq"
+  "problemUrl": "https://www.naukri.com/code360/problems/duplicate-characters_3189116",
+  "submissionId": "3s69d"
 }
