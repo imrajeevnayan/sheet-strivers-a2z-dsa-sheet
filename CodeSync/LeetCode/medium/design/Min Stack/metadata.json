@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-06-03T19:59:10.528Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Stack",
+    "Design"
+  ],
+  "platform": "LeetCode",
+  "language": "Stack",
+  "problemTitle": "Min Stack",
+  "problemUrl": "https://leetcode.com/problems/min-stack/?envType=problem-list-v2&envId=stack",
+  "submissionId": "j8yw9e"
+}
