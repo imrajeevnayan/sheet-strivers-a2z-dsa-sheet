@@ -1,41 +1,40 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/smallest-divisor-with-the-given-limit_1755882
+ * URL: https://www.naukri.com/code360/problems/duplicate-parenthesis_2663296
  * Language: Java (SE 1.8)
  * Difficulty: Easy
- * Topics: Uncategorized
- * Runtime: 720 ms
+ * Topics: in Stacks & Queues
+ * Runtime: 749 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:23:35.460Z
+ * Synced: 2026-06-03T11:31:10.958Z
  */
 
+import java.util.*;
+import java.io.*;
+ 
 public class Solution {
  
-    public static int smallestDivisor(int arr[], int limit) {
- 
-        int low = 1;
-        int high = 0;
- 
-        // find max element
-        for (int num : arr) {
-            high = Math.max(high, num);
-        }
- 
-        int ans = high;
- 
-        while (low <= high) {
-            int mid = low + (high - low) / 2;
- 
-            if (isValid(arr, mid, limit)) {
-                ans = mid;
-                high = mid - 1;
+    public static boolean duplicateParanthesis(String expr) {
+        Stack<Character> stack = new Stack<>();
+        
+        for (int i = 0; i < expr.length(); i++) {
+            char ch = expr.charAt(i);
+            
+            if (ch == ')') {
+                int count = 0;
+                
+                while (stack.peek() != '(') {
+                    stack.pop();
+                    count++;
+                }
+                
+                stack.pop();
+                
+                if (count == 0) {
+                    return true;
+                }
             } else {
-                low = mid + 1;
+                stack.push(ch);
             }
         }
- 
-        return ans;
-    }
- 
-    private static boolean isValid(int[] arr, int divisor, int limit) {
