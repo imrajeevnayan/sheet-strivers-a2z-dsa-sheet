@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-03T20:08:31.643Z",
+  "submissionTimestamp": "2026-06-03T20:09:32.046Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -13,6 +13,6 @@
   "platform": "LeetCode",
   "language": "Grind 169 (Copy-rabvlt31)",
   "problemTitle": "Convert Sorted Array to Binary Search Tree",
-  "problemUrl": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/?envType=problem-list-v2&envId=dxlqdj5j",
-  "submissionId": "hed18c"
+  "problemUrl": "https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/?envType=problem-list-v2&envId=dxlqdj5j",
+  "submissionId": "p3oy83"
 }
