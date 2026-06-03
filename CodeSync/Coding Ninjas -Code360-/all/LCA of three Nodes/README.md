@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 749 ms
+- Runtime: 929 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/duplicate-parenthesis_2663296
-- Synced: 2026-06-03T11:31:25.917Z
+- Problem URL: https://www.naukri.com/code360/problems/move-all-negative-numbers-to-beginning-and-positive-to-end_1112620
+- Synced: 2026-06-03T11:43:46.416Z
 
 ## Problem Description
 
