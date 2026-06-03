@@ -1,18 +1,18 @@
 # ENG
 
 - Platform: LintCode
-- Language: Python
+- Language: Java
 - Difficulty: Unknown
-- Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Test Output
+- Topics: Simulation, ByteDance, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/2506/?showListFe=true&page=1&problemTypeId=4&tagIds=361&ordering=level&pageSize=50
-- Synced: 2026-06-02T18:20:18.307Z
+- Problem URL: https://www.lintcode.com/problem/1527/
+- Synced: 2026-06-03T06:48:21.359Z
 
 ## Problem Description
 
-This topic is a pre-release topic. If you encounter any problems, please contact us via "Problem Correction", and we will upgrade your account to VIP as a thank you. Description You will get a string s which consisting of lowercase letters a-z, left parentheses '(' and right parentheses ')'. Your task is to remove as few parentheses as you can so that the parentheses in s is valid. You need to return a valid string.If the answer is correct it will prompt It is a correct answer. Because of the answer may be more than one, so you can return any of them. "()", "(())", "()()", "(())()" are valid parentheses strings, and ")(", "(()", "()()(", "()())" are not valid parentheses strings. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information A string without parentheses(such as：abcd) or a empty string "" is also a valid string. 0 ≤ 0≤ the length of s ≤ 1 0 5 ≤10 5 You can only remove parentheses, other operations will not be allowed. Example Example 1: Input: s = "a(b(c(de)fgh)" Output: "a(b(cde)fgh)" Explanation: There are 3 corrcect answers: "ab(c(de)fgh)"，"a(bc(de)fgh)"，"a(b(cde)fgh)"。 You can return any of them. Example 2: Input: s = "(((" Output: "" Explanation: A empty string "" is also a valid string. Tags Related Problems 263 Matching of parentheses Easy 1089 Valid Parenthesis String Medium 1721 Minimum Add to Make Parentheses Valid Medium Recommend Courses 0基础入门数据分析 进阶大厂刚需高薪人才，熟练掌握SQL、Python、Tableau、A/Btest等实用技能工具，配套100+数据题夯实基础 Problem Contributors contribute Thank the following users for their constructive comments on this problem ninechapter-kaga Problem List Prev 7/88 Next
+Description According to a mahjong game called bird soul, simplified the rules of the game, as follows: There are 36 cards in total, and each card is 1-9.And each number has four cards. If 14 cards are taken out and the following conditions are satisfied, that is to win in mahjong: Two of the 14 cards have the same number of cards, known as the Sparrow head. Remove the above 2 cards, the remaining 12 cards can form 4 shunzi or kezi. Note: shunzi means an increasing number of three consecutive characters (e.g. 234,567), and an kezi means three characters of the same number (e.g. 111,777). You draw 13 cards out of 36 cards, and then you take another card out of the remaining 23 cards, and what kind of number cards can you draw with? LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information If there are multiple cards that satisfied the conditions, please return them in the order from smallest to largest. If no card satisfied return 0. Example Example 1: Input: [1, 1, 1, 2, 2, 2, 5, 5, 5, 6, 6, 6, 9] Output: [9] Explanation： It can be made up of four kezi of 1,2,5,6 and a head of a sparrow of 9. Example 2: Input: [1, 1, 1, 1, 2, 2, 3, 3, 5, 6, 7, 8, 9] Output: [4, 7] Explanation： It can be made up of (123), (123), (567) and (456) or (789), and a head of a sparrow of 1. Tags Company ByteDance Recommend Courses 简历/BQ/项目 面试软技能指导 FLAG高级工程师深度BQ辅导，简历打造+1V1模拟面试，反面试套路、高效上岸！
 
 ## Explanation
 
-This solution was accepted on LintCode using Python. The detected topics are PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are Simulation, ByteDance, Test Data Test Output. Review the synced source file for the implementation details.
