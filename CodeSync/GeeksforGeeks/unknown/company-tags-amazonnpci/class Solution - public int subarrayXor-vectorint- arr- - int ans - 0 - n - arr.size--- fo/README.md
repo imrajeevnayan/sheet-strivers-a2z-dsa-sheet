@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/game-of-xor1541/1
-- Synced: 2026-06-03T16:41:00.124Z
+- Synced: 2026-06-03T16:41:07.131Z
 
 ## Problem Description
 
