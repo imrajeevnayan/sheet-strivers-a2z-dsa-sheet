@@ -1,0 +1,38 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Next Greater Element in Circular Array
+ * URL: https://www.geeksforgeeks.org/problems/next-greater-element/1
+ * Language: public static long[] nextLargerElement(long[] arr, int n) { // Your code here long[] ans = new long[n]; Stack<Long> stack = new Stack<>(); for(int i=n-1;i>=0;i--) { while(stack.size()>0 && stack.peek()<=arr[i]) { stack.pop(); } if(stack.size()==0) { ans[i]=-1; } else { ans[i]=stack.peek(); } stack.push(arr[i]); } return ans; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags FlipkartAmazonMicrosoft, Company Tags, Flipkart, Amazon, Microsoft, Topic Tags, Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T07:10:55.978Z
+ */
+
+class Solution {
+    public ArrayList<Integer> nextGreater(int[] arr) {
+
+        int n = arr.length;
+        ArrayList<Integer> res = new ArrayList<>(Collections.nCopies(n, -1));
+
+        Stack<Integer> st = new Stack<>(); // stores elements
+
+        for (int i = 2 * n - 1; i >= 0; i--) {
+
+            int idx = i % n;
+
+            while (!st.isEmpty() && st.peek() <= arr[idx]) {
+                st.pop();
+            }
+
+            if (i < n) {
+                res.set(idx, st.isEmpty() ? -1 : st.peek());
+            }
+
+            st.push(arr[idx]);
+        }
+
+        return res;
+    }
+}
