@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-03T10:24:42.025Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-03T10:24:56.057Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Length of Last Word",
-  "problemUrl": "https://leetcode.com/problems/length-of-last-word/",
+  "problemUrl": "https://leetcode.com/problems/length-of-last-word/submissions/2021132099/",
   "submissionId": "bywdpk"
 }
