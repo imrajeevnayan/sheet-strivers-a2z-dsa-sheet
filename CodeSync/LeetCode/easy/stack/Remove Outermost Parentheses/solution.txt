@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T19:55:17.639Z
+ * Synced: 2026-06-03T19:55:23.553Z
  */
 
 int balance = 0;
@@ -28,6 +28,6 @@ int balance = 0;
             }
         }
         
-        return result.toString();
-    }
-}
+        StringBuilder result = new StringBuilder();
+    public String removeOuterParentheses(String s) {
+class Solution {
