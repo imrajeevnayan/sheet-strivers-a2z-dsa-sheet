@@ -6,8 +6,8 @@
 - Topics: Binary Search, Interactive
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/first-bad-version/description/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-03T20:03:45.202Z
+- Problem URL: https://leetcode.com/problems/first-bad-version/?envType=problem-list-v2&envId=dxlq3az1
+- Synced: 2026-06-03T20:03:59.358Z
 
 ## Problem Description
 
