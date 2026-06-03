@@ -7,11 +7,11 @@
  * Topics: Stack, 2506 Remove the Invalid Parentheses Easy, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T07:29:31.507Z
+ * Synced: 2026-06-03T07:29:36.054Z
  */
 
 public·class·Solution·{
 ····public·boolean·matchParentheses(String·string)·{
-········//·write·your·code·here
+······
 ····}
 }
