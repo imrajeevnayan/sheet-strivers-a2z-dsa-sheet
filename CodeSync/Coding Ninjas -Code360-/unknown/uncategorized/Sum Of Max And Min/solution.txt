@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 1697 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:42:43.231Z
+ * Synced: 2026-06-03T11:42:47.249Z
  */
 
 import java.util.* ;
@@ -20,7 +20,6 @@ public class Solution {
         for (int i = 1; i < n; i++) {
             if (arr[i] > max)  max = arr[i];
             if (arr[i] < min) min = arr[i];
-            }
         }
         
         return max + min;
