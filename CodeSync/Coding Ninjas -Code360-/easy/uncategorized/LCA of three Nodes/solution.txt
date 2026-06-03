@@ -1,41 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/set-matrix-zeros_3846774
+ * URL: https://www.naukri.com/code360/problems/smallest-divisor-with-the-given-limit_1755882
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 1196 ms
+ * Runtime: 720 ms
  * Memory: N/A
- * Synced: 2026-06-02T17:56:46.050Z
+ * Synced: 2026-06-03T11:23:29.295Z
  */
 
-import java.io.*;
-import java.util.*;
- 
 public class Solution {
-    public static void setZeros(int matrix[][]) {
-        int n = matrix.length;
-        int m = matrix[0].length;
  
-        boolean col0 = false;
+    public static int smallestDivisor(int arr[], int limit) {
  
-        for (int i = 0; i < n; i++) {
-            if (matrix[i][0] == 0) col0 = true;
+        int low = 1;
+        int high = 0;
  
-            for (int j = 1; j < m; j++) {
-                if (matrix[i][j] == 0) {
-                    matrix[i][0] = 0;
-                    matrix[0][j] = 0;
-                }
+        // find max element
+        for (int num : arr) {
+            high = Math.max(high, num);
+        }
+ 
+        int ans = high;
+ 
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+ 
+            if (isValid(arr, mid, limit)) {
+                ans = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
             }
         }
  
-        for (int i = n - 1; i >= 0; i--) {
-            for (int j = m - 1; j >= 1; j--) {
-                if (matrix[i][0] == 0 || matrix[0][j] == 0) {
-                    matrix[i][j] = 0;
-                }
-            }
-            if (col0) {
-                matrix[i][0] = 0;
+        return ans;
+    }
+ 
+    private static boolean isValid(int[] arr, int divisor, int limit) {
