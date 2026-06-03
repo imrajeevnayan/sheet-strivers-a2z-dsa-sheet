@@ -7,7 +7,7 @@
  * Topics: Linked List
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T10:21:06.490Z
+ * Synced: 2026-06-03T10:21:10.485Z
  */
 
 class Solution {
