@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Single Number
- * URL: https://leetcode.com/problems/single-number/
+ * URL: https://leetcode.com/problems/single-number/submissions/2021165883/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Bit Manipulation
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:04:33.672Z
+ * Synced: 2026-06-03T11:04:37.308Z
  */
 
 class Solution {
