@@ -7,7 +7,7 @@
  * Topics: Binary Search, Interactive
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T20:04:28.183Z
+ * Synced: 2026-06-03T20:04:30.175Z
  */
 
 public int firstBadVersion(int n) {
