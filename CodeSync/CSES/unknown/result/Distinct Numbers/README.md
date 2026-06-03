@@ -1,0 +1,18 @@
+# Distinct Numbers
+
+- Platform: CSES
+- Language: Java
+- Difficulty: Unknown
+- Topics: TASK, RESULTS, ANALYSIS, STATISTICS, TESTS, QUEUE, SHARE CODE TO OTHERS, Distinct Numbers
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://cses.fi/problemset/result/17410054/
+- Synced: 2026-06-03T09:16:42.450Z
+
+## Problem Description
+
+Submission details Task: Distinct Numbers Sender: imrajeevnayan Submission time: 2026-06-03 12:16:36 +0300 Language: Java Status: READY Result: ACCEPTED Test results test verdict time #1 ACCEPTED 0.05 s details #2 ACCEPTED 0.05 s details #3 ACCEPTED 0.05 s details #4 ACCEPTED 0.22 s details #5 ACCEPTED 0.36 s details #6 ACCEPTED 0.40 s details #7 ACCEPTED 0.41 s details #8 ACCEPTED 0.38 s details #9 ACCEPTED 0.05 s details #10 ACCEPTED 0.41 s details #11 ACCEPTED 0.32 s details #12 ACCEPTED 0.30 s details #13 ACCEPTED 0.21 s details #14 ACCEPTED 0.20 s details #15 ACCEPTED 0.40 s details Code import java.io.*; import java.util.*; public class DistinctNumbers { public static void main(String[] args) throws Exception { BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); int n = Integer.parseInt(br.readLine()); StringTokenizer st = new StringTokenizer(br.readLine()); HashSet<Integer> set = new HashSet<>(); for (int i = 0; i < n; i++) { set.add(Integer.parseInt(st.nextToken())); } System.out.println(set.size()); } } SHARE CODE TO OTHERS Test details Test 1 Verdict: ACCEPTED input 10 1 1 1 1 1 1 1 1 1 1 view save correct output 1 view save user output 1 view save Test 2 Verdict: ACCEPTED input 10 7 4 10 9 6 1 8 2 5 3 view save correct output 10 view save user output 10 view save Test 3 Verdict: ACCEPTED input 10 5 9 5 5 10 9 3 1 8 8 view save correct output 6 view save user output 6 view save Test 4 Verdict: ACCEPTED input 200000 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ... view save correct output 1 view save user output 1 view save Test 5 Verdict: ACCEPTED input 200000 150502 195680 66111 105526 183... view save correct output 200000 view save user output 200000 view save Test 6 Verdict: ACCEPTED input 200000 265840313 559159566 749760055 ... view save correct output 199973 view save user output 199973 view save Test 7 Verdict: ACCEPTED input 200000 1 107898 215795 323692 431589 ... view save correct output 200000 view save user output 200000 view save Test 8 Verdict: ACCEPTED input 200000 1 300001 600001 900001 1200001... view save correct output 200000 view save user output 200000 view save Test 9 Verdict: ACCEPTED input 4 1 2 8 9 view save correct output 4 view save user output 4 view save Test 10 Verdict: ACCEPTED input 200000 199999999 107898 215795 323969... view save correct output 200000 view save user output 200000 view save Test 11 Verdict: ACCEPTED input 199999 199996 199997 149999 117797 19... view save correct output 199999 view save user output 199999 view save Test 12 Verdict: ACCEPTED input 107896 107897 215794 323691 431588 53... view save correct output 107896 view save user output 107896 view save Test 13 Verdict: ACCEPTED input 100000 65537 6 31 156 781 3906 19531 ... view save correct output 32770 view save user output 32770 view save Test 14 Verdict: ACCEPTED input 100000 65537 2 3 4 5 6 7 8 9 10 6 7 8... view save correct output 19012 view save user output 19012 view save Test 15 Verdict: ACCEPTED input 200000 1 172934 345867 518800 691733 ... view save correct output 200000 view save user output 200000 view save
+
+## Explanation
+
+This solution was accepted on CSES using Java. The detected topics are TASK, RESULTS, ANALYSIS, STATISTICS, TESTS, QUEUE, SHARE CODE TO OTHERS, Distinct Numbers. Review the synced source file for the implementation details.
