@@ -1,13 +1,13 @@
 # Course
 
 - Platform: LintCode
-- Language: ALL(92) Python 3(32) C++(25) Java(20) JavaScript(7) C(6) Go(2) Python 2(1) Csharp(1)
+- Language: ALL(102) Java(34) Python 3(33) C++(23) JavaScript(12)
 - Difficulty: Unknown
-- Topics: More, Java, Python 3, C++, @param, @return, Test Data Test Output
+- Topics: PRE, More, C++, @param, @return, Java, Python 3, Java Stack
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/263/solution/93752
-- Synced: 2026-06-03T07:32:39.433Z
+- Problem URL: https://www.lintcode.com/problem/2506/solution/93753
+- Synced: 2026-06-03T08:38:17.195Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Course Problem Referral VIP CAT Contest Note More... Problems,tags,collection Sc
 
 ## Explanation
 
-This solution was accepted on LintCode using ALL(92) Python 3(32) C++(25) Java(20) JavaScript(7) C(6) Go(2) Python 2(1) Csharp(1). The detected topics are More, Java, Python 3, C++, @param, @return, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using ALL(102) Java(34) Python 3(33) C++(23) JavaScript(12). The detected topics are PRE, More, C++, @param, @return, Java, Python 3, Java Stack. Review the synced source file for the implementation details.
