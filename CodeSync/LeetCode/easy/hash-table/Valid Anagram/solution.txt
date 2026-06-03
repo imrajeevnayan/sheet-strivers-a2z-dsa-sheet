@@ -7,15 +7,16 @@
  * Topics: Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T11:00:33.567Z
+ * Synced: 2026-06-03T11:00:42.635Z
  */
 
 class Solution {
     public boolean isAnagram(String s, String t) {
+        if(s.length()!=t.length())return false;
+        int freq[]=new int[26];
+        for(char c:s.toCharArray())freq[c-'a']++;
+        for(char c:t.toCharArray())freq[c-'a']--;
+        for(cha)
         
     }
-        if(s.length()!=t.length())return false;
-        for(char c:s.toCharArray())freq[c-'a']++;
-        int freq[]=new int[26];
-        for(char c:t.toCharArray())freq[c-'a']
 }
