@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T12:51:53.901Z
+ * Synced: 2026-06-03T12:52:12.847Z
  */
 
 class Solution {
