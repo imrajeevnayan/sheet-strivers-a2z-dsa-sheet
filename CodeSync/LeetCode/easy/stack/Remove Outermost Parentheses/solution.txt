@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Outermost Parentheses
- * URL: https://leetcode.com/problems/remove-outermost-parentheses/?envType=problem-list-v2&envId=stack
+ * URL: https://leetcode.com/problems/remove-outermost-parentheses/submissions/2021639694/?envType=problem-list-v2&envId=stack
  * Language: Stack
  * Difficulty: Easy
  * Topics: String, Stack
- * Runtime: 2 ms
- * Memory: 43.44 MB
- * Synced: 2026-06-03T19:56:38.036Z
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-06-03T19:56:44.833Z
  */
 
 Stack<Character> stack = new Stack<>();
