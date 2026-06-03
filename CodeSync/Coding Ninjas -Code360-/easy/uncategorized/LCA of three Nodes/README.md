@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 2131 ms
+- Runtime: 839 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/kth-smallest-and-largest-element-of-array_1115488
-- Synced: 2026-06-03T11:45:06.443Z
+- Problem URL: https://www.naukri.com/code360/problems/factorial-of-a-large-number_1115471
+- Synced: 2026-06-03T11:46:35.651Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
