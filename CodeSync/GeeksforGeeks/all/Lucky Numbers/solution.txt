@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Microsoft, Company Tags, Microsoft, Topic Tags, Mathematical, Recursion, Algorithms
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T20:15:17.085Z
+ * Synced: 2026-06-03T20:15:41.076Z
  */
 
 class Solution {
