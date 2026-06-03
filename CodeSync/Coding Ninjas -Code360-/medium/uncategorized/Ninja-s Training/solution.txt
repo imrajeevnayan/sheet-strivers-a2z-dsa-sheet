@@ -7,11 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T12:41:01.593Z
+ * Synced: 2026-06-03T12:41:07.367Z
  */
 
-// Expand around center for each possible center
-        for (int i = 0; i < str.length(); i++) {
+for (int i = 0; i < str.length(); i++) {
             // Case 1: Odd length palindrome (center at i)
             int len1 = expandAroundCenter(str, i, i);
             // Case 2: Even length palindrome (center between i and i+1)
@@ -36,6 +35,7 @@
         }
             return "";
         if (str == null || str.length() == 0) {
-        // Handle edge cases
     public static String longestPalinSubstring(String str) {
-public class Solution {
+        
+        return str.substring(start, start + maxLength);
+    }
