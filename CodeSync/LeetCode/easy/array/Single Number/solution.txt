@@ -5,15 +5,15 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Bit Manipulation
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:03:53.907Z
+ * Synced: 2026-06-03T11:04:33.672Z
  */
 
 class Solution {
     public int singleNumber(int[] nums) {
         int res=0;
     }
-        for(int n:nums)res^n;
+        for(int n:nums)res^=n;
         return res;
 }
