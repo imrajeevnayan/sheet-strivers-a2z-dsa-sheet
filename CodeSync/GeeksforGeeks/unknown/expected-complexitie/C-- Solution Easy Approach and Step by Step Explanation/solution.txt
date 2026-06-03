@@ -7,10 +7,8 @@
  * Topics: Expected Complexities, Topic Tags, Binary Search, Map, Data Structures, Algorithms, Related Articles, Count Frequency Of An Element In A Given Range
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T06:51:08.745Z
+ * Synced: 2026-06-03T06:51:11.706Z
  */
-
-import java.util.*;
 
 class Solution {
     public ArrayList<Integer> freqInRange(int[] arr, int[][] queries) {
