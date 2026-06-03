@@ -7,7 +7,7 @@
  * Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T08:36:35.511Z
+ * Synced: 2026-06-03T08:36:37.775Z
  */
 
 public·class·Solution·{
@@ -15,7 +15,6 @@ public·class·Solution·{
 ········StringBuilder·sb·=·new·StringBuilder();
 ········for·(char·c·:·s.toCharArray())·{
 ············if·(c·!=·'('·&&·c·!=·')')··sb.append(c);
-············
 ········}
 
 ········return·sb.toString();
