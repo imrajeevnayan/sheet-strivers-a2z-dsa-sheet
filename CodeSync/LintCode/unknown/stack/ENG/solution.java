@@ -7,10 +7,8 @@
  * Topics: Stack, 2506 Remove the Invalid Parentheses Easy, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T07:31:41.744Z
+ * Synced: 2026-06-03T07:31:46.807Z
  */
-
-import·java.util.*;
 
 public·class·Solution·{
 ····public·boolean·matchParentheses(String·string)·{
