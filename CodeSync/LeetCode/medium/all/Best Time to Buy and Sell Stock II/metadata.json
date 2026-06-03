@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-03T11:11:59.928Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Greedy"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Best Time to Buy and Sell Stock II",
+  "problemUrl": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/",
+  "submissionId": "vqyma0"
+}
