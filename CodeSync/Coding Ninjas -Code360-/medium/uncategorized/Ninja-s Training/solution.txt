@@ -7,24 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T12:40:47.365Z
+ * Synced: 2026-06-03T12:40:50.502Z
  */
 
-public class Solution { 
-    public static String longestPalinSubstring(String str) {
-        // Handle edge cases
-        if (str == null || str.length() == 0) {
-            return "";
-        }
-        
-        if (str.length() == 1) {
-            return str;
-        }
-        
-        int start = 0;
-        int maxLength = 1;
-        
-        // Expand around center for each possible center
+// Expand around center for each possible center
         for (int i = 0; i < str.length(); i++) {
             // Case 1: Odd length palindrome (center at i)
             int len1 = expandAroundCenter(str, i, i);
@@ -39,3 +25,17 @@ public class Solution {
                 start = i - (currentMaxLength - 1) / 2;
             }
         }
+        
+        return str.substring(start, start + maxLength);
+    }
+    
+    // Helper method to expand around center and return palindrome length
+    private static int expandAroundCenter(String str, int left, int right) {
+        while (left >= 0 && right < str.length() && str.charAt(left) == str.charAt(right)) {
+            left--;
+            right++;
+        }
+        // Return the length of the palindrome
+        return right - left - 1;
+    }
+}
