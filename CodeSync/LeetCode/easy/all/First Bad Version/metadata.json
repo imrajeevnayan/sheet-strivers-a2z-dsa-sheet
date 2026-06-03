@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-06-03T20:03:45.202Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Binary Search",
+    "Interactive"
+  ],
+  "platform": "LeetCode",
+  "language": "Grind 75 (Copy-rab78cw1)",
+  "problemTitle": "First Bad Version",
+  "problemUrl": "https://leetcode.com/problems/first-bad-version/description/?envType=problem-list-v2&envId=dxlq3az1",
+  "submissionId": "b3aa19"
+}
