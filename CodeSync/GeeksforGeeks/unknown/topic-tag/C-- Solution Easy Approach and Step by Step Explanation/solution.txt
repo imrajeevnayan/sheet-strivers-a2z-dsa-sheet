@@ -7,14 +7,12 @@
  * Topics: Expected Complexities, Topic Tags, Binary Search, Map, Data Structures, Algorithms, Related Articles, Count Frequency Of An Element In A Given Range
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T06:51:04.163Z
+ * Synced: 2026-06-03T06:51:11.706Z
  */
-
-import java.util.*;
 
 class Solution {
     public ArrayList<Integer> freqInRange(int[] arr, int[][] queries) {
-        HashMap<Integer, ArrayList<Integer>> map = new HashMap<>();
+        Map<Integer, ArrayList<Integer>> map = new HashMap<>();
 
         for (int i = 0; i < arr.length; i++) {
             map.computeIfAbsent(arr[i], k -> new ArrayList<>()).add(i);
@@ -23,33 +21,19 @@ class Solution {
         ArrayList<Integer> ans = new ArrayList<>();
 
         for (int[] q : queries) {
-            int l = q[0];
-            int r = q[1];
-            int x = q[2];
+            int l = q[0], r = q[1], x = q[2];
 
-            if (!map.containsKey(x)) {
-                ans.add(0);
-                continue;
-            }
+            ArrayList<Integer> pos = map.getOrDefault(x, new ArrayList<>());
 
-            ArrayList<Integer> pos = map.get(x);
+            int left = Collections.binarySearch(pos, l);
+            if (left < 0) left = -left - 1;
 
-            int left = lowerBound(pos, l);
-            int right = upperBound(pos, r);
+            int right = Collections.binarySearch(pos, r + 1);
+            if (right < 0) right = -right - 1;
 
             ans.add(right - left);
         }
 
         return ans;
     }
-
-    private int lowerBound(ArrayList<Integer> list, int target) {
-        int low = 0, high = list.size();
-
-        while (low < high) {
-            int mid = low + (high - low) / 2;
-
-            if (list.get(mid) >= target)
-                high = mid;
-            else
-                low = mid + 1;
+}
