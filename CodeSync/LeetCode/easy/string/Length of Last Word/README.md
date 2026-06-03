@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: String
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/length-of-last-word/
-- Synced: 2026-06-03T10:24:42.025Z
+- Problem URL: https://leetcode.com/problems/length-of-last-word/submissions/2021132099/
+- Synced: 2026-06-03T10:24:56.057Z
 
 ## Problem Description
 
