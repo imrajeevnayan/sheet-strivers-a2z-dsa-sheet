@@ -7,21 +7,21 @@
  * Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T08:37:40.709Z
+ * Synced: 2026-06-03T08:37:47.075Z
  */
 
-········//·leftover·'('·are·invalid
-········while·(!stack.isEmpty())·{
-············remove[stack.pop()]·=·true;
-········}
+············}·else·if·(c·==·')')·{
+················stack.push(i);
+············if·(c·==·'(')·{
 
-········StringBuilder·sb·=·new·StringBuilder();
+············char·c·=·s.charAt(i);
 ········for·(int·i·=·0;·i·<·n;·i++)·{
-············if·(!remove[i])·{
-················sb.append(s.charAt(i));
-············}
-········}
 
-········return·sb.toString();
-····}
-}
+········Deque<Integer>·stack·=·new·ArrayDeque<>();
+········boolean[]·remove·=·new·boolean[n];
+····public·String·removeParentheses(String·s)·{
+········int·n·=·s.length();
+
+public·class·Solution·{
+················if·(!stack.isEmpty())·{
+····················stack.pop();·//·matched
