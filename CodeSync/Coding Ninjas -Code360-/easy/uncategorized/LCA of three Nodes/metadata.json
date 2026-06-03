@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-03T11:23:35.460Z",
-  "runtime": "720 ms",
+  "submissionTimestamp": "2026-06-03T11:31:25.917Z",
+  "runtime": "749 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/smallest-divisor-with-the-given-limit_1755882",
-  "submissionId": "olg3x1"
+  "problemUrl": "https://www.naukri.com/code360/problems/duplicate-parenthesis_2663296",
+  "submissionId": "jvu96w"
 }
