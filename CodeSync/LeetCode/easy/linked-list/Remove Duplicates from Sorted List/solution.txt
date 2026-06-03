@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Remove Duplicates from Sorted List
+ * URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T09:54:00.560Z
+ */
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode deleteDuplicates(ListNode head) {
+        
+    }
+}
