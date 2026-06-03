@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Stack, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T06:47:19.568Z
+ * Synced: 2026-06-03T06:47:55.762Z
  */
 
 class Solution {
@@ -18,7 +18,6 @@ class Solution {
             else stack.push(ch);
         }
         if (stack.isEmpty()) return "-1";
-        
         StringBuilder res= new StringBuilder();
         for (char ch : stack)res.append(ch);
         return res.toString();
