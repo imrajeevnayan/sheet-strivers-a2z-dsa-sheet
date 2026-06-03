@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: 0 ms
  * Memory: 43.44 MB
- * Synced: 2026-06-03T19:56:31.805Z
+ * Synced: 2026-06-03T19:56:34.413Z
  */
 
 Stack<Character> stack = new Stack<>();
@@ -25,9 +25,9 @@ Stack<Character> stack = new Stack<>();
                 }
             }
         }
-        
     public String removeOuterParentheses(String s) {
         StringBuilder result = new StringBuilder();
 class Solution {
         return result.toString();
     }
+}
