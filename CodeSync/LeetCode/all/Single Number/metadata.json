@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-03T11:03:47.744Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-03T11:05:02.923Z",
+  "runtime": "0 ms",
+  "memoryUsage": "47.04 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Single Number",
-  "problemUrl": "https://leetcode.com/problems/single-number/",
-  "submissionId": "cgip5"
+  "problemUrl": "https://leetcode.com/problems/single-number/submissions/2021165883/",
+  "submissionId": "1prpui"
 }
