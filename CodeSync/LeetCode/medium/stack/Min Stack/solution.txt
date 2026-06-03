@@ -5,9 +5,9 @@
  * Language: Stack
  * Difficulty: Medium
  * Topics: Stack, Design
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T20:00:09.667Z
+ * Synced: 2026-06-03T20:00:16.821Z
  */
 
 public void push(int val) {
