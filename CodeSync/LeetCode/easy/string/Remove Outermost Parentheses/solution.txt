@@ -7,11 +7,27 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T19:55:15.655Z
+ * Synced: 2026-06-03T19:55:17.639Z
  */
 
-Input: s = "(()())(())"
-Output: "()()()"
-Explanation: 
-The input string is "(()())(())", with primitive decomposition "(()())" + "(())".
-After removing outer parentheses of each part, this is "()()" + "()" = "()()()".
+int balance = 0;
+        
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+                // Only append if this is not an outer opening parenthesis
+                if (balance > 0) {
+                    result.append(c);
+                }
+                balance++;
+            } else { // c == ')'
+                balance--;
+                // Only append if this is not an outer closing parenthesis
+                if (balance > 0) {
+                    result.append(c);
+                }
+            }
+        }
+        
+        return result.toString();
+    }
+}
