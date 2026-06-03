@@ -7,14 +7,13 @@
  * Topics: String, Stack
  * Runtime: 0 ms
  * Memory: 43.44 MB
- * Synced: 2026-06-03T19:56:20.881Z
+ * Synced: 2026-06-03T19:56:23.285Z
  */
 
 Stack<Character> stack = new Stack<>();
         
         for (char c : s.toCharArray()) {
             if (c == '(') {
-                // If stack is not empty, this is not an outer parenthesis
                 if (!stack.isEmpty()) {
                     result.append(c);
                 }
@@ -31,3 +30,4 @@ Stack<Character> stack = new Stack<>();
     public String removeOuterParentheses(String s) {
         StringBuilder result = new StringBuilder();
 class Solution {
+        return result.toString();
