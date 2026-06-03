@@ -6,8 +6,8 @@
 - Topics: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/sort-list/
-- Synced: 2026-06-03T16:00:27.875Z
+- Problem URL: https://leetcode.com/problems/sort-list/description/
+- Synced: 2026-06-03T19:43:50.610Z
 
 ## Problem Description
 
