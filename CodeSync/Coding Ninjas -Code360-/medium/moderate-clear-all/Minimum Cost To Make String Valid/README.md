@@ -1,0 +1,18 @@
+# Minimum Cost To Make String Valid
+
+- Platform: Coding Ninjas (Code360)
+- Language: Java (SE 1.8)
+- Difficulty: Medium
+- Topics: Moderate Clear all, Moderate
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://www.naukri.com/code360/problems/minimum-cost-to-make-string-valid_1115770
+- Synced: 2026-06-03T11:55:34.488Z
+
+## Problem Description
+
+Problem statement Send feedback
+
+## Explanation
+
+This solution was accepted on Coding Ninjas (Code360) using Java (SE 1.8). The detected topics are Moderate Clear all, Moderate. Review the synced source file for the implementation details.
