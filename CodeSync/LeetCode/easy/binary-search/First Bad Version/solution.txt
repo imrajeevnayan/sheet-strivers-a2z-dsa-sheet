@@ -7,7 +7,7 @@
  * Topics: Binary Search, Interactive
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T20:04:47.512Z
+ * Synced: 2026-06-03T20:04:49.957Z
  */
 
 public int firstBadVersion(int n) {
@@ -23,7 +23,7 @@ public int firstBadVersion(int n) {
                 left = mid + 1;
             }
         }
-                return left;
+    return left;
 public class Solution extends VersionControl {
     }
 }
