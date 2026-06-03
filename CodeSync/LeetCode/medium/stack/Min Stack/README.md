@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Stack, Design
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/min-stack/?envType=problem-list-v2&envId=stack
-- Synced: 2026-06-03T20:00:18.733Z
+- Memory: 47.26 MB
+- Problem URL: https://leetcode.com/problems/min-stack/submissions/2021641608/?envType=problem-list-v2&envId=stack
+- Synced: 2026-06-03T20:00:23.010Z
 
 ## Problem Description
 
