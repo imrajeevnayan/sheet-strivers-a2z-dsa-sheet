@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T06:58:25.523Z
+ * Synced: 2026-06-03T06:58:29.724Z
  */
 
 class Solution {
@@ -15,7 +15,6 @@ class Solution {
 
         int ab = a & b;
 
-        // check impossible condition
         if ((ab | c) != c) return -1;
 
         // required x
