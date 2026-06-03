@@ -7,11 +7,11 @@
 - Runtime: 704 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/maximum-product-subarray_1115474
-- Synced: 2026-06-03T11:20:10.949Z
+- Synced: 2026-06-03T11:20:15.958Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
