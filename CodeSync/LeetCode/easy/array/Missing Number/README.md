@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/missing-number/
-- Synced: 2026-06-03T11:06:46.724Z
+- Synced: 2026-06-03T11:06:49.195Z
 
 ## Problem Description
 
