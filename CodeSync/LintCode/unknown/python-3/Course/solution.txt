@@ -1,0 +1,30 @@
+/*
+ * Platform: LintCode
+ * Problem: Course
+ * URL: https://www.lintcode.com/problem/263/solution/93752
+ * Language: ALL(92) Python 3(32) C++(25) Java(20) JavaScript(7) C(6) Go(2) Python 2(1) Csharp(1)
+ * Difficulty: Unknown
+ * Topics: More, Java, Python 3, C++, @param, @return, Test Data Test Output
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T07:32:39.433Z
+ */
+
+public·class·Solution·{
+····public·boolean·matchParentheses(String·string)·{
+········Stack<Character>·st·=·new·Stack<>();
+········for·(char·ch·:·string.toCharArray())·{
+············if·(ch·==·'('·||·ch·==·'{'·||·ch·==·'[')·st.push(ch);
+············else·{
+················if·(st.isEmpty())·return·false;
+················char·top·=·st.pop();
+················if·((ch·==·')'·&&·top·!=·'(')·||
+····················(ch·==·'}'·&&·top·!=·'{')·||
+····················(ch·==·']'·&&·top·!=·'['))·{
+····················return·false;
+················}
+············}
+········}
+········return·st.isEmpty();
+····}
+}
