@@ -7,7 +7,7 @@
 - Runtime: 952 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/reverse-a-ll_2271431
-- Synced: 2026-06-03T11:53:50.792Z
+- Synced: 2026-06-03T11:53:56.453Z
 
 ## Problem Description
 
