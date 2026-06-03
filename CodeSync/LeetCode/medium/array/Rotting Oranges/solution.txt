@@ -5,9 +5,9 @@
  * Language: Grind 75 (Copy-rab78cw1)
  * Difficulty: Medium
  * Topics: Array, Breadth-First Search, Matrix
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T20:01:59.387Z
+ * Synced: 2026-06-03T20:02:05.457Z
  */
 
 newCol >= 0 && newCol < cols && 
