@@ -1,17 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: Rotting Oranges
- * URL: https://leetcode.com/problems/rotting-oranges/description/?envType=problem-list-v2&envId=dxlq3az1
+ * URL: https://leetcode.com/problems/rotting-oranges/?envType=problem-list-v2&envId=dxlq3az1
  * Language: Grind 75 (Copy-rab78cw1)
  * Difficulty: Medium
  * Topics: Array, Breadth-First Search, Matrix
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T20:01:44.190Z
+ * Synced: 2026-06-03T20:02:05.457Z
  */
 
-class Solution {
-    public int orangesRotting(int[][] grid) {
+newCol >= 0 && newCol < cols && 
+                        grid[newRow][newCol] == 1) {
+                        
+                        grid[newRow][newCol] = 2; // Mark as rotten
+                        queue.offer(new int[]{newRow, newCol});
+                        freshCount--;
+                        rotted = true;
+                    }
+                }
+            }
+            
+            // If any oranges rotted in this minute, increment time
+            if (rotted) {
+                minutes++;
+            }
+        }
         
+        // If there are still fresh oranges, return -1
+        return freshCount == 0 ? minutes : -1;
     }
 }
