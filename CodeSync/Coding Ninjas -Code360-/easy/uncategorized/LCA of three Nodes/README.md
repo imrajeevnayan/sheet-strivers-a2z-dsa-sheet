@@ -7,11 +7,11 @@
 - Runtime: 720 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/smallest-divisor-with-the-given-limit_1755882
-- Synced: 2026-06-03T11:23:29.295Z
+- Synced: 2026-06-03T11:23:33.320Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVE Get key word suggestions of your code
 
 ## Explanation
 
