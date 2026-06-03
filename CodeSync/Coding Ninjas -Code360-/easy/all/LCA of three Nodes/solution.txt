@@ -1,41 +1,36 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/reverse-a-ll_2271431
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/remove-duplicates-from-unsorted-linked-list_1069331
+ * Language: Java (SE 1.8)
  * Difficulty: Easy
- * Topics: Moderate Clear all, Moderate
- * Runtime: 952 ms
+ * Topics: in Hash Table
+ * Runtime: 4699 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:53:56.453Z
+ * Synced: 2026-06-03T11:54:45.412Z
  */
 
-public static Node reverseLL(Node head, int low, int high) {
-        if (head == null || low == high) return head;
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    
+    public static LinkedListNode<Integer> removeDuplicates(LinkedListNode<Integer> head) {
+        if (head == null) return head;
         
-        Node dummy = new Node(0);
-        dummy.next = head;
-        Node prev = dummy;
+        HashSet<Integer> set = new HashSet<>();
+        LinkedListNode<Integer> curr = head;
+        LinkedListNode<Integer> prev = null;
         
-        for (int i = 1; i < low; i++) {
-            prev = prev.next;
+        while (curr != null) {
+            if (set.contains(curr.data)) {
+                prev.next = curr.next;
+            } else {
+                set.add(curr.data);
+                prev = curr;
+            }
+            curr = curr.next;
         }
         
-        Node curr = prev.next;
-        Node next = null;
-        Node prevRev = null;
-        Node tail = curr;
-        
-        for (int i = low; i <= high && curr != null; i++) {
-            next = curr.next;
-            curr.next = prevRev;
-            prevRev = curr;
-            curr = next;
-        }
-        
-        tail.next = curr;
-        prev.next = prevRev;
-        
-        return dummy.next;
+        return head;
     }
 }
