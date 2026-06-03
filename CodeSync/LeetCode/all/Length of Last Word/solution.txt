@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: Length of Last Word
+ * URL: https://leetcode.com/problems/length-of-last-word/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T10:24:32.622Z
+ */
+
+class Solution {
+    public int lengthOfLastWord(String s) {
+        int count=0;
+        for(int i=s.length()-1;i>=0;i--){
+            if(s.charAt(i)!=' ')count++;
+            else if (count > 0) break;
+            }
+        return count;
+    }
+}
