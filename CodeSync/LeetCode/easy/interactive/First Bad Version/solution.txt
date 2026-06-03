@@ -7,7 +7,7 @@
  * Topics: Binary Search, Interactive
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T20:04:39.030Z
+ * Synced: 2026-06-03T20:04:49.957Z
  */
 
 public int firstBadVersion(int n) {
@@ -18,16 +18,12 @@ public int firstBadVersion(int n) {
             int mid = left + (right - left) / 2;
             
             if (isBadVersion(mid)) {
-                // Mid is bad, so first bad version is at mid or before
                 right = mid;
             } else {
-                // Mid is good, so first bad version is after mid
                 left = mid + 1;
             }
         }
-        
+    return left;
 public class Solution extends VersionControl {
-        // When left == right, we found the first bad version
-        return left;
     }
 }
