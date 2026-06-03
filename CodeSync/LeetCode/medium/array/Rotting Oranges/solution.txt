@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Array, Breadth-First Search, Matrix
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-03T20:02:11.293Z
+ * Memory: 44.38 MB
+ * Synced: 2026-06-03T20:02:14.608Z
  */
 
 // If no fresh oranges, return 0
