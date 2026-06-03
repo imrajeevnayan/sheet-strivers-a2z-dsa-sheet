@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-03T11:46:58.444Z",
-  "runtime": "839 ms",
+  "submissionTimestamp": "2026-06-03T11:48:04.442Z",
+  "runtime": "851 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/factorial-of-a-large-number_1115471",
-  "submissionId": "s9f9ba"
+  "problemUrl": "https://www.naukri.com/code360/problems/minimum-swaps-to-bring-all-elements-less-than-or-equal-to-k-together_1112657",
+  "submissionId": "ebeqs3"
 }
