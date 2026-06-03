@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-03T20:10:17.929Z
+ * Memory: 44.61 MB
+ * Synced: 2026-06-03T20:10:22.327Z
  */
 
 if (nums == null || nums.length == 0) return null;
