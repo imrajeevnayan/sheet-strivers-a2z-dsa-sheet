@@ -5,9 +5,9 @@
  * Language: Stack
  * Difficulty: Easy
  * Topics: String, Stack
- * Runtime: 0 ms
+ * Runtime: 2 ms
  * Memory: 43.44 MB
- * Synced: 2026-06-03T19:56:34.413Z
+ * Synced: 2026-06-03T19:56:38.036Z
  */
 
 Stack<Character> stack = new Stack<>();
