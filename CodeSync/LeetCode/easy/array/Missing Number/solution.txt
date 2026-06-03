@@ -7,12 +7,13 @@
  * Topics: Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T11:06:21.741Z
+ * Synced: 2026-06-03T11:06:23.921Z
  */
 
 class Solution {
     public int missingNumber(int[] nums) {
         
     }
-        int sum
+        int sum=0;
+        
 }
