@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/break-and-merge_2684591
-- Synced: 2026-06-03T11:20:55.153Z
+- Synced: 2026-06-03T11:20:59.152Z
 
 ## Problem Description
 
