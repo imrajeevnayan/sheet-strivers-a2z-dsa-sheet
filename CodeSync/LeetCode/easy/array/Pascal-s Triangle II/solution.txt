@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Dynamic Programming
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T10:26:35.116Z
+ * Synced: 2026-06-03T10:26:43.024Z
  */
 
 for (int i = 1; i <= rowIndex; i++) {
@@ -16,8 +16,10 @@ for (int i = 1; i <= rowIndex; i++) {
             }
             row.add(1);
         }
-
         row.add(1);
         return row;
     }
+    public List<Integer> getRow(int rowIndex) {
+        List<Integer> row = new ArrayList<>();
+class Solution {
 }
