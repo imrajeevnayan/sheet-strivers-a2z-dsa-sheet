@@ -7,16 +7,13 @@
  * Topics: Stack, 2506 Remove the Invalid Parentheses Easy, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T07:31:46.807Z
+ * Synced: 2026-06-03T07:31:52.824Z
  */
 
 public·class·Solution·{
 ····public·boolean·matchParentheses(String·string)·{
-
 ········Stack<Character>·st·=·new·Stack<>();
-
 ········for·(char·ch·:·string.toCharArray())·{
-
 ············if·(ch·==·'('·||·ch·==·'{'·||·ch·==·'[')·{
 ················st.push(ch);
 ············}·
