@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T11:00:42.635Z
+ * Synced: 2026-06-03T11:00:45.155Z
  */
 
 class Solution {
@@ -16,7 +16,7 @@ class Solution {
         int freq[]=new int[26];
         for(char c:s.toCharArray())freq[c-'a']++;
         for(char c:t.toCharArray())freq[c-'a']--;
-        for(cha)
+        for(int )
         
     }
 }
