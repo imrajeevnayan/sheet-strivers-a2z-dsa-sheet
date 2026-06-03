@@ -1,26 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/factorial-of-a-large-number_1115471
+ * URL: https://www.naukri.com/code360/problems/minimum-swaps-to-bring-all-elements-less-than-or-equal-to-k-together_1112657
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 839 ms
+ * Runtime: 851 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:46:58.444Z
+ * Synced: 2026-06-03T11:48:04.442Z
  */
 
 import java.util.* ;
 import java.io.*; 
+import java.util.ArrayList;
  
-public class Solution {
-    public static String calculateFactorial(int n) {
-        if (n == 0 || n == 1) return "1";
-        
-        java.math.BigInteger result = java.math.BigInteger.ONE;
-        for (int i = 2; i <= n; i++) {
-            result = result.multiply(java.math.BigInteger.valueOf(i));
+public class Solution 
+{
+    public static int minimumSwaps(ArrayList<Integer> arr, int n, int k) 
+    {
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            if (arr.get(i) <= k) {
+                count++;
+            }
         }
-        return result.toString();
-    }
-}
+        
+        int bad = 0;
+        for (int i = 0; i < count; i++) {
+            if (arr.get(i) > k) {
+                bad++;
+            }
+        }
+        
+        int minSwaps = bad;
+        for (int i = 0, j = count; j < n; i++, j++) {
+            if (arr.get(i) > k) {
+                bad--;
+            }
+            if (arr.get(j) > k) {
+                bad++;
