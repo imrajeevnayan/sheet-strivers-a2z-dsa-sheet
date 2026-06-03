@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Pascal's Triangle
+ * URL: https://leetcode.com/problems/pascals-triangle/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T11:02:17.444Z
+ */
+
+class Solution {
+    public List<List<Integer>> generate(int numRows) {
+        
+    }
+}
