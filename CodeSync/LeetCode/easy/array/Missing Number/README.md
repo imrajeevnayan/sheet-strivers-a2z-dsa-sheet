@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/missing-number/submissions/
-- Synced: 2026-06-03T11:10:36.004Z
+- Memory: 47.66 MB
+- Problem URL: https://leetcode.com/problems/missing-number/submissions/2012522070/
+- Synced: 2026-06-03T11:10:44.763Z
 
 ## Problem Description
 
