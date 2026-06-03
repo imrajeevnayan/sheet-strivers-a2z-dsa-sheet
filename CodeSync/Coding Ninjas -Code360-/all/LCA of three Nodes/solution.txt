@@ -1,36 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/remove-duplicates-from-unsorted-linked-list_1069331
+ * URL: https://www.naukri.com/code360/problems/mergesort-linked-list_630514
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 4699 ms
+ * Runtime: 1379 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:55:02.442Z
+ * Synced: 2026-06-03T12:39:57.603Z
  */
 
-import java.util.* ;
-import java.io.*; 
-public class Solution {
-    
-    public static LinkedListNode<Integer> removeDuplicates(LinkedListNode<Integer> head) {
-        if (head == null) return head;
-        
-        HashSet<Integer> set = new HashSet<>();
-        LinkedListNode<Integer> curr = head;
-        LinkedListNode<Integer> prev = null;
-        
-        while (curr != null) {
-            if (set.contains(curr.data)) {
-                prev.next = curr.next;
-            } else {
-                set.add(curr.data);
-                prev = curr;
-            }
-            curr = curr.next;
+private static Node<Integer> findMiddle(Node<Integer> head) {
+        if (head == null) {
+            return head;
         }
         
-        return head;
+        Node<Integer> slow = head;
+        Node<Integer> fast = head;
+        
+        while (fast.next != null && fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        
+        return slow;
     }
-}
+    
+    private static Node<Integer> merge(Node<Integer> head1, Node<Integer> head2) {
+        Node<Integer> dummy = new Node<>(-1);
+        Node<Integer> tail = dummy;
+        
+        // Compare nodes from both lists and add the smaller one to the result
+        while (head1 != null && head2 != null) {
+            if (head1.data <= head2.data) {
+                tail.next = head1;
+                head1 = head1.next;
+            } else {
+                tail.next = head2;
+                head2 = head2.next;
+            }
