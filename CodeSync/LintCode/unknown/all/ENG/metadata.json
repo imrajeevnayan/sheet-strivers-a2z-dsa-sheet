@@ -1,16 +1,19 @@
 {
-  "submissionTimestamp": "2026-06-03T07:34:24.193Z",
+  "submissionTimestamp": "2026-06-03T08:35:48.728Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
+    "PRE",
+    "please contact us via \"Problem Correction\"",
+    "StackString",
     "Stack",
-    "2506 Remove the Invalid Parentheses Easy",
+    "String",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/263",
-  "submissionId": "gd4xbh"
+  "problemUrl": "https://www.lintcode.com/problem/2506",
+  "submissionId": "30r2fv"
 }
