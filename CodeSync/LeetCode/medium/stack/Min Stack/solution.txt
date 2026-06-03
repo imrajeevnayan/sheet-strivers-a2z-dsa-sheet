@@ -7,7 +7,7 @@
  * Topics: Stack, Design
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T19:59:24.186Z
+ * Synced: 2026-06-03T19:59:31.166Z
  */
 
 public int top() {
