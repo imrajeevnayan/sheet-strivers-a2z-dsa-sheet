@@ -1,0 +1,33 @@
+/*
+ * Platform: LeetCode
+ * Problem: Min Stack
+ * URL: https://leetcode.com/problems/min-stack/?envType=problem-list-v2&envId=stack
+ * Language: Stack
+ * Difficulty: Medium
+ * Topics: Stack, Design
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T19:59:10.528Z
+ */
+
+class MinStack {
+
+    public MinStack() {
+        
+    }
+    
+    public void push(int val) {
+        
+    }
+    
+    public void pop() {
+        
+    }
+    
+    public int top() {
+        
+    }
+    
+    public int getMin() {
+        
+    }
