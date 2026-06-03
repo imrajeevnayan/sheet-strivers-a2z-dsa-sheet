@@ -1,0 +1,36 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sum of all prime numbers between 1 and n
+ * URL: https://www.geeksforgeeks.org/problems/sum-of-all-prime-numbers-between-1-and-n4404/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags SamsungAdobe, Company Tags, Samsung, Adobe, Topic Tags, Mathematical, Algorithms
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T16:26:53.794Z
+ */
+
+class Solution {
+    public int prime_Sum(int n) {
+        if (n < 2) return 0;
+        
+        boolean[] isPrime = new boolean[n + 1];
+        Arrays.fill(isPrime, true);
+        isPrime[0] = isPrime[1] = false;
+        
+        for (int i = 2; i * i <= n; i++) {
+            if (isPrime[i]) {
+                for (int j = i * i; j <= n; j += i) {
+                    isPrime[j] = false;
+                }
+            }
+        }
+        
+        int sum = 0;
+        for (int i = 2; i <= n; i++) {
+            if (isPrime[i]) sum += i;
+        }
+        
+        return sum;
+    }
+}
