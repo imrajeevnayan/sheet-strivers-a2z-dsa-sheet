@@ -7,7 +7,7 @@
  * Topics: Stack, 2506 Remove the Invalid Parentheses Easy, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T07:32:10.821Z
+ * Synced: 2026-06-03T07:34:24.193Z
  */
 
 public·class·Solution·{
