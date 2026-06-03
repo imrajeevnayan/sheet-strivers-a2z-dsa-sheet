@@ -1,0 +1,38 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Majority Element lll
+ * URL: https://www.naukri.com/code360/problems/elements-occur-more-than-n-k-times_1113146
+ * Language: Java (SE 1.8)
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T11:19:10.523Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+ 
+    public static ArrayList<Integer> countTheNumber(ArrayList<Integer> arr, int n, int k) {
+ 
+        HashMap<Integer, Integer> map = new HashMap<>();
+        ArrayList<Integer> result = new ArrayList<>();
+ 
+        // step 1: count frequencies
+        for (int i = 0; i < n; i++) {
+            map.put(arr.get(i), map.getOrDefault(arr.get(i), 0) + 1);
+        }
+ 
+        int threshold = n / k;
+ 
+        // step 2: collect elements > n/k
+        for (int key : map.keySet()) {
+            if (map.get(key) > threshold) {
+                result.add(key);
+            }
+        }
+ 
+        return result;
+    }
+}
