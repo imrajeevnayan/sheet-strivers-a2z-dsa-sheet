@@ -7,11 +7,16 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T10:26:28.354Z
+ * Synced: 2026-06-03T10:26:29.857Z
  */
 
-class Solution {
-    public List<Integer> getRow(int rowIndex) {
-        
+for (int i = 1; i <= rowIndex; i++) {
+            for (int j = row.size() - 1; j > 0; j--) {
+                row.set(j, row.get(j) + row.get(j - 1));
+            }
+            row.add(1);
+        }
+
+        return row;
     }
 }
