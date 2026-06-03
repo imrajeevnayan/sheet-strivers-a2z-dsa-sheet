@@ -7,27 +7,27 @@
  * Topics: Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T20:09:32.046Z
+ * Synced: 2026-06-03T20:09:36.650Z
  */
 
 if (nums == null || nums.length == 0) return null;
         return buildBST(nums, 0, nums.length - 1);
     }
     
-class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {
- */
- *     }
- * }
- *         this.left = left;
- *         this.right = right;
- *         this.val = val;
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode() {}
- *     TreeNode right;
- *     TreeNode left;
- *     int val;
- * public class TreeNode {
- * Definition for a binary tree node.
-/**
+class Solution {
+    private TreeNode buildBST(int[] nums, int left, int right) {
+        // Base case: no elements to process
+        if (left > right) return null;
+        
+        // Find middle index (avoid overflow)
+        int mid = left + (right - left) / 2;
+        
+        // Create node with middle value
+        TreeNode node = new TreeNode(nums[mid]);
+        
+        // Recursively build left and right subtrees
+        node.left = buildBST(nums, left, mid - 1);
+        node.right = buildBST(nums, mid + 1, right);
+        
+        return node;
