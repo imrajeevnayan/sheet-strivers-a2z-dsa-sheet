@@ -7,11 +7,10 @@
  * Topics: Uncategorized
  * Runtime: 952 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:53:41.444Z
+ * Synced: 2026-06-03T11:53:45.374Z
  */
 
-public class Solution {
-    public static Node reverseLL(Node head, int low, int high) {
+public static Node reverseLL(Node head, int low, int high) {
         if (head == null || low == high) return head;
         
         Node dummy = new Node(0);
@@ -39,3 +38,4 @@ public class Solution {
         
         return dummy.next;
     }
+}
