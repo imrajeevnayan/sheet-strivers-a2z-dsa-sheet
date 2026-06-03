@@ -1,29 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: Min Stack
- * URL: https://leetcode.com/problems/min-stack/?envType=problem-list-v2&envId=stack
+ * URL: https://leetcode.com/problems/min-stack/submissions/2021641608/?envType=problem-list-v2&envId=stack
  * Language: Stack
  * Difficulty: Medium
  * Topics: Stack, Design
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-03T19:59:36.160Z
+ * Runtime: 0 ms
+ * Memory: 47.26 MB
+ * Synced: 2026-06-03T20:00:23.010Z
  */
 
-public int top() {
-        
+public void push(int val) {
+        stack.push(val);
+        if (minStack.isEmpty() || val <= minStack.peek()) {
+            minStack.push(val);
+        }
     }
     
-    public int getMin() {
-        
+    public void pop() {
+        if (stack.pop().equals(minStack.peek())) {
+            minStack.pop();
+        }
     }
-}
-
-/**
- * Your MinStack object will be instantiated and called as such:
- * MinStack obj = new MinStack();
- * obj.push(val);
- * obj.pop();
- * int param_3 = obj.top();
- * int param_4 = obj.getMin();
- */
+    
+        minStack = new Stack<>();
+    }
+    public MinStack() {
+        stack = new Stack<>();
+    private Stack<Integer> minStack;
+    
+class MinStack {
+    private Stack<Integer> stack;
