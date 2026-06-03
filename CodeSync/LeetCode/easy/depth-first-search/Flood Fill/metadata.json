@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-03T20:05:40.971Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Matrix"
+  ],
+  "platform": "LeetCode",
+  "language": "Grind 75 (Copy-rab78cw1)",
+  "problemTitle": "Flood Fill",
+  "problemUrl": "https://leetcode.com/problems/flood-fill/description/?envType=problem-list-v2&envId=dxlq3az1",
+  "submissionId": "lilzm"
+}
