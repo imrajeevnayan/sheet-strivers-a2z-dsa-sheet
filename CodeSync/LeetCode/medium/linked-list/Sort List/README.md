@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/sort-list/description/
-- Synced: 2026-06-03T19:46:17.603Z
+- Synced: 2026-06-03T19:46:19.600Z
 
 ## Problem Description
 
