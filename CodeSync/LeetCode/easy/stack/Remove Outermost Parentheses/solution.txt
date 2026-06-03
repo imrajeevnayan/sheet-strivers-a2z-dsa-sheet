@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: 0 ms
  * Memory: 43.44 MB
- * Synced: 2026-06-03T19:56:23.285Z
+ * Synced: 2026-06-03T19:56:31.805Z
  */
 
 Stack<Character> stack = new Stack<>();
@@ -20,7 +20,6 @@ Stack<Character> stack = new Stack<>();
                 stack.push(c);
             } else { // c == ')'
                 stack.pop();
-                // If stack is not empty after popping, this is not an outer parenthesis
                 if (!stack.isEmpty()) {
                     result.append(c);
                 }
@@ -31,3 +30,4 @@ Stack<Character> stack = new Stack<>();
         StringBuilder result = new StringBuilder();
 class Solution {
         return result.toString();
+    }
