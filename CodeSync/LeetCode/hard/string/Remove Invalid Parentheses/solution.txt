@@ -1,17 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Invalid Parentheses
- * URL: https://leetcode.com/problems/remove-invalid-parentheses/?utm=codolio
+ * URL: https://leetcode.com/problems/remove-invalid-parentheses/description/?utm=codolio
  * Language: Problem List
  * Difficulty: Hard
  * Topics: String, Backtracking, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T08:40:17.162Z
+ * Synced: 2026-06-03T09:04:01.175Z
  */
 
-class Solution {
-    public List<String> removeInvalidParentheses(String s) {
-        
-    }
-}
+Input: s = "()())()"
+Output: ["(())()","()()()"]
