@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: Valid Anagram
+ * URL: https://leetcode.com/problems/valid-anagram/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Hash Table, String, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T10:59:21.801Z
+ */
+
+class Solution {
+    public boolean isAnagram(String s, String t) {
+        
+    }
+        if(s.length()!=t.length)
+}
