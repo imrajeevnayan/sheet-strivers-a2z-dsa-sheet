@@ -7,26 +7,10 @@
  * Topics: Uncategorized
  * Runtime: 1379 ms
  * Memory: N/A
- * Synced: 2026-06-03T12:39:45.880Z
+ * Synced: 2026-06-03T12:39:57.603Z
  */
 
-public class Solution {
-    public static Node<Integer> mergeSort(Node<Integer> head) {
-        if (head == null || head.next == null) {
-            return head;
-        }
-        
-        Node<Integer> mid = findMiddle(head);
-        Node<Integer> rightHead = mid.next;
-        mid.next = null; // Split the list into two halves
-        
-        Node<Integer> leftSorted = mergeSort(head);
-        Node<Integer> rightSorted = mergeSort(rightHead);
-        
-        return merge(leftSorted, rightSorted);
-    }
-    
-    private static Node<Integer> findMiddle(Node<Integer> head) {
+private static Node<Integer> findMiddle(Node<Integer> head) {
         if (head == null) {
             return head;
         }
@@ -34,8 +18,24 @@ public class Solution {
         Node<Integer> slow = head;
         Node<Integer> fast = head;
         
-        // Move fast pointer twice as fast as slow pointer
-        // When fast reaches the end, slow will be at the middle
         while (fast.next != null && fast.next.next != null) {
             slow = slow.next;
             fast = fast.next.next;
+        }
+        
+        return slow;
+    }
+    
+    private static Node<Integer> merge(Node<Integer> head1, Node<Integer> head2) {
+        Node<Integer> dummy = new Node<>(-1);
+        Node<Integer> tail = dummy;
+        
+        // Compare nodes from both lists and add the smaller one to the result
+        while (head1 != null && head2 != null) {
+            if (head1.data <= head2.data) {
+                tail.next = head1;
+                head1 = head1.next;
+            } else {
+                tail.next = head2;
+                head2 = head2.next;
+            }
