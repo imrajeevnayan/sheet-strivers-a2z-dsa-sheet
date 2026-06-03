@@ -1,21 +1,20 @@
 {
-  "submissionTimestamp": "2026-06-02T07:14:26.985Z",
+  "submissionTimestamp": "2026-06-03T07:32:39.433Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Opposite Direction Two Pointers",
-    "Stack",
-    "Two Pointers",
-    "Monotonic Stack",
-    "Apple",
-    "Twitter",
-    "Airbnb",
-    "Amazon"
+    "More",
+    "Java",
+    "Python 3",
+    "C++",
+    "@param",
+    "@return",
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Python",
+  "language": "ALL(92) Python 3(32) C++(25) Java(20) JavaScript(7) C(6) Go(2) Python 2(1) Csharp(1)",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/problem/363/description",
-  "submissionId": "jlj9ga"
+  "problemUrl": "https://www.lintcode.com/problem/263/solution/93752",
+  "submissionId": "qkposn"
 }
