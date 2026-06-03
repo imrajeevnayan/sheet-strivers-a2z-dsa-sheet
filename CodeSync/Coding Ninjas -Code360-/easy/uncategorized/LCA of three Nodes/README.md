@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 929 ms
+- Runtime: 2131 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/move-all-negative-numbers-to-beginning-and-positive-to-end_1112620
-- Synced: 2026-06-03T11:43:57.946Z
+- Problem URL: https://www.naukri.com/code360/problems/kth-smallest-and-largest-element-of-array_1115488
+- Synced: 2026-06-03T11:44:55.634Z
 
 ## Problem Description
 
-Total problems solved
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
