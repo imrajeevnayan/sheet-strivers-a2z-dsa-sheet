@@ -1,33 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: Rotting Oranges
- * URL: https://leetcode.com/problems/rotting-oranges/?envType=problem-list-v2&envId=dxlq3az1
+ * URL: https://leetcode.com/problems/rotting-oranges/submissions/2021642594/?envType=problem-list-v2&envId=dxlq3az1
  * Language: Grind 75 (Copy-rab78cw1)
  * Difficulty: Medium
  * Topics: Array, Breadth-First Search, Matrix
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T20:02:05.457Z
+ * Synced: 2026-06-03T20:02:11.293Z
  */
 
-newCol >= 0 && newCol < cols && 
-                        grid[newRow][newCol] == 1) {
-                        
-                        grid[newRow][newCol] = 2; // Mark as rotten
-                        queue.offer(new int[]{newRow, newCol});
-                        freshCount--;
-                        rotted = true;
-                    }
-                }
-            }
-            
-            // If any oranges rotted in this minute, increment time
-            if (rotted) {
-                minutes++;
-            }
-        }
+// If no fresh oranges, return 0
         
-        // If there are still fresh oranges, return -1
-        return freshCount == 0 ? minutes : -1;
-    }
-}
+        }
+            }
+                }
+                    freshCount++;
+                } else if (grid[i][j] == 1) {
+                    queue.offer(new int[]{i, j});
+                if (grid[i][j] == 2) {
+            for (int j = 0; j < cols; j++) {
+        for (int i = 0; i < rows; i++) {
+        // Find all rotten oranges and count fresh oranges
+        
+        int freshCount = 0;
+        Queue<int[]> queue = new LinkedList<>();
+        int cols = grid[0].length;
+        if (grid == null || grid.length == 0) return 0;
+        
+        int rows = grid.length;
+class Solution {
+    public int orangesRotting(int[][] grid) {
