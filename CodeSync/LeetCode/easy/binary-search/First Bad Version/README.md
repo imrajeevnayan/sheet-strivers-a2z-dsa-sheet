@@ -4,10 +4,10 @@
 - Language: Grind 75 (Copy-rab78cw1)
 - Difficulty: Easy
 - Topics: Binary Search, Interactive
-- Runtime: N/A
+- Runtime: 2 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/first-bad-version/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-03T20:04:49.957Z
+- Problem URL: https://leetcode.com/problems/first-bad-version/submissions/2021644102/?envType=problem-list-v2&envId=dxlq3az1
+- Synced: 2026-06-03T20:04:58.984Z
 
 ## Problem Description
 
