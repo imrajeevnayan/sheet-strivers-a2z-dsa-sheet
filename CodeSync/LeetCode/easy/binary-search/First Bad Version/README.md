@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Binary Search, Interactive
 - Runtime: 2 ms
-- Memory: N/A
+- Memory: 41.99 MB
 - Problem URL: https://leetcode.com/problems/first-bad-version/submissions/2021644102/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-03T20:04:58.984Z
+- Synced: 2026-06-03T20:05:01.227Z
 
 ## Problem Description
 
