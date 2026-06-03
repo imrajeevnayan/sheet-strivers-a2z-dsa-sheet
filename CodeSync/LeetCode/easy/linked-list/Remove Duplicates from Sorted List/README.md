@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
-- Synced: 2026-06-03T10:21:27.474Z
+- Synced: 2026-06-03T10:21:29.475Z
 
 ## Problem Description
 
