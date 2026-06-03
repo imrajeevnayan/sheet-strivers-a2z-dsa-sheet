@@ -4,10 +4,10 @@
 - Language: Grind 169 (Copy-rabvlt31)
 - Difficulty: Easy
 - Topics: Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/?envType=problem-list-v2&envId=dxlqdj5j
-- Synced: 2026-06-03T20:08:31.643Z
+- Problem URL: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/?envType=problem-list-v2&envId=dxlqdj5j
+- Synced: 2026-06-03T20:10:00.159Z
 
 ## Problem Description
 
