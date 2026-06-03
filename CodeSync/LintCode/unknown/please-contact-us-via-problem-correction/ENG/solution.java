@@ -7,15 +7,20 @@
  * Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T08:35:55.650Z
+ * Synced: 2026-06-03T08:36:20.723Z
  */
 
 public·class·Solution·{
-····/**
-·····*·@param·s:·A·string·with·lowercase·letters·and·parentheses
-·····*·@return:·A·string·which·has·been·removed·invalid·parentheses
-·····*/
+
 ····public·String·removeParentheses(String·s)·{
-········//·write·your·code·here.
+········StringBuilder·sb·=·new·StringBuilder();
+
+········for·(char·c·:·s.toCharArray())·{
+············if·(c·!=·'('·&&·c·!=·')')·{
+················sb.append(c);
+············}
+········}
+
+········return·sb.toString();
 ····}
 }
