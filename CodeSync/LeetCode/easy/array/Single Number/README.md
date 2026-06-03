@@ -6,8 +6,8 @@
 - Topics: Array, Bit Manipulation
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/single-number/
-- Synced: 2026-06-03T11:04:33.672Z
+- Problem URL: https://leetcode.com/problems/single-number/submissions/2021165883/
+- Synced: 2026-06-03T11:04:37.308Z
 
 ## Problem Description
 
