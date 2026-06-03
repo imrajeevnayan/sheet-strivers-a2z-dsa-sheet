@@ -7,7 +7,7 @@
 - Runtime: 1006 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/common-elements-in-three-sorted-arrays_1113130
-- Synced: 2026-06-03T11:45:47.640Z
+- Synced: 2026-06-03T11:45:49.442Z
 
 ## Problem Description
 
