@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/count-frequency-of-an-element-in-a-given-range/1
-- Synced: 2026-06-03T06:50:52.157Z
+- Synced: 2026-06-03T06:51:04.163Z
 
 ## Problem Description
 
