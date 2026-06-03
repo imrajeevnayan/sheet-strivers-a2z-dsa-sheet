@@ -4,10 +4,10 @@
 - Language: Grind 75 (Copy-rab78cw1)
 - Difficulty: Medium
 - Topics: Array, Breadth-First Search, Matrix
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/rotting-oranges/description/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-03T20:01:44.190Z
+- Problem URL: https://leetcode.com/problems/rotting-oranges/submissions/2021642594/?envType=problem-list-v2&envId=dxlq3az1
+- Synced: 2026-06-03T20:02:11.293Z
 
 ## Problem Description
 
