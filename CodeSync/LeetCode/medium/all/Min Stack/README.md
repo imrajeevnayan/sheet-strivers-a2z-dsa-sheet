@@ -4,10 +4,10 @@
 - Language: Stack
 - Difficulty: Medium
 - Topics: Stack, Design
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/min-stack/?envType=problem-list-v2&envId=stack
-- Synced: 2026-06-03T20:00:04.897Z
+- Runtime: 0 ms
+- Memory: 47.26 MB
+- Problem URL: https://leetcode.com/problems/min-stack/submissions/2021641608/?envType=problem-list-v2&envId=stack
+- Synced: 2026-06-03T20:00:23.010Z
 
 ## Problem Description
 
