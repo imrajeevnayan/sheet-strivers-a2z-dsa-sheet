@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Pascal's Triangle II
+ * URL: https://leetcode.com/problems/pascals-triangle-ii/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Dynamic Programming
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-06-03T10:26:43.024Z
+ */
+
+for (int i = 1; i <= rowIndex; i++) {
+            for (int j = row.size() - 1; j > 0; j--) {
+                row.set(j, row.get(j) + row.get(j - 1));
+            }
+            row.add(1);
+        }
+        row.add(1);
+        return row;
+    }
+    public List<Integer> getRow(int rowIndex) {
+        List<Integer> row = new ArrayList<>();
+class Solution {
+}
