@@ -1,0 +1,20 @@
+/*
+ * Platform: LeetCode
+ * Problem: First Bad Version
+ * URL: https://leetcode.com/problems/first-bad-version/?envType=problem-list-v2&envId=dxlq3az1
+ * Language: Grind 75 (Copy-rab78cw1)
+ * Difficulty: Easy
+ * Topics: Binary Search, Interactive
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T20:03:59.358Z
+ */
+
+/* The isBadVersion API is defined in the parent class VersionControl.
+      boolean isBadVersion(int version); */
+
+public class Solution extends VersionControl {
+    public int firstBadVersion(int n) {
+        
+    }
+}
