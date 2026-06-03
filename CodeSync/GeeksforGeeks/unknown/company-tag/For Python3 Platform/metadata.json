@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-05-30T18:56:29.489Z",
+  "submissionTimestamp": "2026-06-03T16:40:17.514Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
-    "Company Tags FactSet",
+    "Company Tags Zoho",
     "Company Tags",
-    "FactSet",
+    "Zoho",
     "Topic Tags",
-    "Tree",
-    "Data Structures",
-    "Related Articles"
+    "Mathematical",
+    "palindrome",
+    "Algorithms"
   ],
   "platform": "GeeksforGeeks",
-  "language": "''' class Node: def __init__(self, val): self.right = None self.data = val self.left = None ''' class Solution: def sumBT(self, root): if(root == None): return 0 return root.data + self.sumBT(root.left) + self.sumBT(root.right)",
+  "language": "class Solution: def isSumPalindrome(self, n): count = 0 while(str(n) != str(n)[::-1]): n += int(str(n)[::-1]) count += 1 if(count > 5): return -1 break return n",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-of-binary-tree/1",
-  "submissionId": "9w1q5d"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-palindrome3857/1",
+  "submissionId": "yds53r"
 }
