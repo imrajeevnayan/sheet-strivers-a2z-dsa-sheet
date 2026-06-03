@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: ''' class Node: def __init__(self, val): self.right = None self.data = val self.left = None ''' class Solution: def sumBT(self, root): if(root == None): return 0 return root.data + self.sumBT(root.left) + self.sumBT(root.right)
+- Language: class Solution: def isSumPalindrome(self, n): count = 0 while(str(n) != str(n)[::-1]): n += int(str(n)[::-1]) count += 1 if(count > 5): return -1 break return n
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags FactSet, Company Tags, FactSet, Topic Tags, Tree, Data Structures, Related Articles
+- Topics: Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Mathematical, palindrome, Algorithms
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/sum-of-binary-tree/1
-- Synced: 2026-05-30T18:56:29.489Z
+- Problem URL: https://www.geeksforgeeks.org/problems/sum-palindrome3857/1
+- Synced: 2026-06-03T16:40:17.514Z
 
 ## Problem Description
 
-Given a binary tree, find the sum of values of all the nodes. Examples: Input: root = [15, 10, 20, 8, 12, 16, 25] Output: 106 Explanation: The sum of all the nodes is 15 + 10 + 20 + 8 + 12 + 16 + 25 = 106 . Input: root = [1, 3, 2] Output: 6 Explanation: The sum of all the nodes is 1 + 2 + 3 = 6. Input: root = [1, 2, N, 4, N] Output: 7 Explanation: The sum of all the nodes is 1 + 2 + 4 = 7. Constraints: 1 ≤ number of nodes ≤ 104 -105 ≤ Node data ≤ 105
+Given a number, reverse it and add it to itself unless it becomes a palindrome or return -1 if the number of iterations becomes more than 5. Return that palindrome number if it becomes a palindrome else, it returns -1. Examples: Input: n = 23 Output: 55 Explanation: reverse(23) = 32, then 32+23 = 55 which is a palindrome. Input: n = 73 Output: 121 Explanation: reverse(73) = 37, then 37+73 = 110 which is not a palindrome, again reverse(110)= 011, then 110+11 = 121 which is a palindrome. Constraints: 1 <= n <= 104
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using ''' class Node: def __init__(self, val): self.right = None self.data = val self.left = None ''' class Solution: def sumBT(self, root): if(root == None): return 0 return root.data + self.sumBT(root.left) + self.sumBT(root.right). The detected topics are Expected Complexities, Company Tags FactSet, Company Tags, FactSet, Topic Tags, Tree, Data Structures, Related Articles. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution: def isSumPalindrome(self, n): count = 0 while(str(n) != str(n)[::-1]): n += int(str(n)[::-1]) count += 1 if(count > 5): return -1 break return n. The detected topics are Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Mathematical, palindrome, Algorithms. Review the synced source file for the implementation details.
