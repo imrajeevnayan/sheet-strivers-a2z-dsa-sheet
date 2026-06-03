@@ -1,18 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: Pascal's Triangle
- * URL: https://leetcode.com/problems/pascals-triangle/
+ * URL: https://leetcode.com/problems/pascals-triangle/submissions/2021164625/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Dynamic Programming
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:02:45.919Z
+ * Synced: 2026-06-03T11:02:59.360Z
  */
 
-class Solution {
-    public List<List<Integer>> generate(int numRows) {
-        
+public List<List<Integer>> generate(int numRows) {
+        List<List<Integer>> result = new ArrayList<>();
+
+        for (int i = 0; i < numRows; i++) {
+            List<Integer> row = new ArrayList<>();
+
+            for (int j = 0; j <= i; j++) {
+                if (j == 0 || j == i) {
+                    row.add(1);
+                } else {
+                    List<Integer> prev = result.get(i - 1);
+                    row.add(prev.get(j - 1) + prev.get(j));
+                }
+            }
+
+            result.add(row);
+        }
+
+        return result;
     }
-        
-}
+class Solution {
