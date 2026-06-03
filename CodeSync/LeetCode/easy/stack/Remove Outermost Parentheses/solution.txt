@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Remove Outermost Parentheses
+ * URL: https://leetcode.com/problems/remove-outermost-parentheses/?envType=problem-list-v2&envId=stack
+ * Language: Stack
+ * Difficulty: Easy
+ * Topics: String, Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T19:53:51.620Z
+ */
+
+class Solution {
+    public String removeOuterParentheses(String s) {
+        
+    }
+}
