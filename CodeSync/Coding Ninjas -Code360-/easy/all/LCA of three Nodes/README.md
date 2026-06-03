@@ -1,18 +1,18 @@
 # LCA of three Nodes
 
 - Platform: Coding Ninjas (Code360)
-- Language: All languages
+- Language: Java (SE 1.8)
 - Difficulty: Easy
-- Topics: Moderate Clear all, Moderate
-- Runtime: 952 ms
+- Topics: in Hash Table
+- Runtime: 4699 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/reverse-a-ll_2271431
-- Synced: 2026-06-03T11:53:56.453Z
+- Problem URL: https://www.naukri.com/code360/problems/remove-duplicates-from-unsorted-linked-list_1069331
+- Synced: 2026-06-03T11:54:45.412Z
 
 ## Problem Description
 
-Total problems solved
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on Coding Ninjas (Code360) using All languages. The detected topics are Moderate Clear all, Moderate. Review the synced source file for the implementation details.
+This solution was accepted on Coding Ninjas (Code360) using Java (SE 1.8). The detected topics are in Hash Table. Review the synced source file for the implementation details.
