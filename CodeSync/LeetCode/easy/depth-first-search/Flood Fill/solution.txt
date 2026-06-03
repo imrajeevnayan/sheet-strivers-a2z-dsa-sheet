@@ -7,7 +7,7 @@
  * Topics: Array, Depth-First Search, Breadth-First Search, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T20:06:51.912Z
+ * Synced: 2026-06-03T20:06:57.762Z
  */
 
 return image;
@@ -24,9 +24,10 @@ return image;
         // Change color
         image[row][col] = newColor;
         dfs(image, sr, sc, originalColor, color);
-        
         if (originalColor == color) return image;
-        
         int originalColor = image[sr][sc];
 class Solution {
     public int[][] floodFill(int[][] image, int sr, int sc, int color) {
+        
+        // Recurse in 4 directions
+        dfs(image, row + 1, col, originalColor, newColor); // Down
