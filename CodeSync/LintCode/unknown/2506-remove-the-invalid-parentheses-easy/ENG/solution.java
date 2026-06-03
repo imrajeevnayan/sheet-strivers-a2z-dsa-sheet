@@ -7,7 +7,7 @@
  * Topics: Stack, 2506 Remove the Invalid Parentheses Easy, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T07:32:06.349Z
+ * Synced: 2026-06-03T07:32:10.821Z
  */
 
 public·class·Solution·{
@@ -18,7 +18,6 @@ public·class·Solution·{
 ············else·{
 ················if·(st.isEmpty())·return·false;
 ················char·top·=·st.pop();
-
 ················if·((ch·==·')'·&&·top·!=·'(')·||
 ····················(ch·==·'}'·&&·top·!=·'{')·||
 ····················(ch·==·']'·&&·top·!=·'['))·{
@@ -26,7 +25,6 @@ public·class·Solution·{
 ················}
 ············}
 ········}
-
 ········return·st.isEmpty();
 ····}
 }
