@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-03T16:40:17.514Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Zoho",
+    "Company Tags",
+    "Zoho",
+    "Topic Tags",
+    "Mathematical",
+    "palindrome",
+    "Algorithms"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def isSumPalindrome(self, n): count = 0 while(str(n) != str(n)[::-1]): n += int(str(n)[::-1]) count += 1 if(count > 5): return -1 break return n",
+  "problemTitle": "For Python3 Platform",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sum-palindrome3857/1",
+  "submissionId": "yds53r"
+}
