@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-03T16:41:54.465Z",
+  "submissionTimestamp": "2026-06-03T16:42:08.113Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "from math import gcd from functools import reduce class Solution: def gcd(self, n, arr): return reduce(gcd, arr)",
   "problemTitle": "For Python3 Platform",
   "problemUrl": "https://www.geeksforgeeks.org/problems/gcd-of-array0614/1",
-  "submissionId": "csb40w"
+  "submissionId": "9t3gb8"
 }
