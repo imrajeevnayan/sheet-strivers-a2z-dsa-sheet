@@ -7,8 +7,12 @@
  * Topics: String, Backtracking, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T09:06:08.384Z
+ * Synced: 2026-06-03T11:55:50.925Z
  */
 
-Input: s = "()())()"
-Output: ["(())()","()()()"]
+class Solution {
+    public List<String> removeInvalidParentheses(String 
+    s) {
+        
+    }
+}
