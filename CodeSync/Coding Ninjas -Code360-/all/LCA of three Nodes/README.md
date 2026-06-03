@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 1196 ms
+- Runtime: 720 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/set-matrix-zeros_3846774
-- Synced: 2026-06-02T17:56:46.050Z
+- Problem URL: https://www.naukri.com/code360/problems/smallest-divisor-with-the-given-limit_1755882
+- Synced: 2026-06-03T11:23:35.460Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
