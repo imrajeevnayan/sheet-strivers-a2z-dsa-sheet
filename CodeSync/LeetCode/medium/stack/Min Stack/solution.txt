@@ -7,16 +7,10 @@
  * Topics: Stack, Design
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T19:59:22.339Z
+ * Synced: 2026-06-03T19:59:24.186Z
  */
 
-}
-    
-    public void pop() {
-        
-    }
-    
-    public int top() {
+public int top() {
         
     }
     
@@ -32,3 +26,4 @@
  * obj.pop();
  * int param_3 = obj.top();
  * int param_4 = obj.getMin();
+ */
