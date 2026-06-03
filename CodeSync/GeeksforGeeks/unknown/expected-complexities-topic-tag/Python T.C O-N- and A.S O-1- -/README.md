@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/middle-of-stack/1
-- Synced: 2026-06-03T16:16:15.532Z
+- Synced: 2026-06-03T16:16:23.905Z
 
 ## Problem Description
 
