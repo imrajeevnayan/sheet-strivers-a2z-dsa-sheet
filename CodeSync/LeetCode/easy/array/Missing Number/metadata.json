@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-03T11:10:44.763Z",
+  "submissionTimestamp": "2026-06-03T11:10:49.758Z",
   "runtime": "0 ms",
-  "memoryUsage": "47.66 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -14,6 +14,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Missing Number",
-  "problemUrl": "https://leetcode.com/problems/missing-number/submissions/2012522070/",
-  "submissionId": "ghohj7"
+  "problemUrl": "https://leetcode.com/problems/missing-number/",
+  "submissionId": "yik5c3"
 }
