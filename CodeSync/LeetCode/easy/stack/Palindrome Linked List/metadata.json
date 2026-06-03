@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-03T12:27:51.838Z",
+  "runtime": "0 ms",
+  "memoryUsage": "101.70 MB",
+  "difficulty": "Easy",
+  "tags": [
+    "Linked List",
+    "Two Pointers",
+    "Stack",
+    "Recursion"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Palindrome Linked List",
+  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/?utm=codolio",
+  "submissionId": "go7c3z"
+}
