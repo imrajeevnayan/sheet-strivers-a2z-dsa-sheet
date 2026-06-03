@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/flood-fill/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-03T20:06:44.967Z
+- Synced: 2026-06-03T20:06:51.912Z
 
 ## Problem Description
 
