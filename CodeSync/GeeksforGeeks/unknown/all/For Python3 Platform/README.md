@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/gcd-of-array0614/1
-- Synced: 2026-06-03T16:42:08.113Z
+- Synced: 2026-06-03T16:43:21.077Z
 
 ## Problem Description
 
