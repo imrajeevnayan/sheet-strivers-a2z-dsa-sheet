@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Latest Time You Can Obtain After Replacing Characters
+ * URL: https://leetcode.com/problems/latest-time-you-can-obtain-after-replacing-characters/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: String, Enumeration
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T10:44:41.181Z
+ */
+
+class Solution {
+    public String findLatestTime(String s) {
+        
+    }
+}
