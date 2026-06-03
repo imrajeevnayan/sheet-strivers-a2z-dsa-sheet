@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 839 ms
+- Runtime: 851 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/factorial-of-a-large-number_1115471
-- Synced: 2026-06-03T11:46:58.444Z
+- Problem URL: https://www.naukri.com/code360/problems/minimum-swaps-to-bring-all-elements-less-than-or-equal-to-k-together_1112657
+- Synced: 2026-06-03T11:48:04.442Z
 
 ## Problem Description
 
-Total problems solved
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
