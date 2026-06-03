@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: class Solution: def isSumPalindrome(self, n): count = 0 while(str(n) != str(n)[::-1]): n += int(str(n)[::-1]) count += 1 if(count > 5): return -1 break return n
+- Language: from math import gcd from functools import reduce class Solution: def gcd(self, n, arr): return reduce(gcd, arr)
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Mathematical, palindrome, Algorithms
+- Topics: Expected Complexities, Company Tags WiproSAP Labs, Company Tags, Wipro, SAP Labs, Topic Tags, Mathematical, Algorithms
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/sum-palindrome3857/1
-- Synced: 2026-06-03T16:40:17.514Z
+- Problem URL: https://www.geeksforgeeks.org/problems/gcd-of-array0614/1
+- Synced: 2026-06-03T16:42:08.113Z
 
 ## Problem Description
 
-Given a number, reverse it and add it to itself unless it becomes a palindrome or return -1 if the number of iterations becomes more than 5. Return that palindrome number if it becomes a palindrome else, it returns -1. Examples: Input: n = 23 Output: 55 Explanation: reverse(23) = 32, then 32+23 = 55 which is a palindrome. Input: n = 73 Output: 121 Explanation: reverse(73) = 37, then 37+73 = 110 which is not a palindrome, again reverse(110)= 011, then 110+11 = 121 which is a palindrome. Constraints: 1 <= n <= 104
+Given an array of n positive integers, find the GCD of all the array elements. Example : Input: n = 3, arr = [1, 2, 3] Output: 1 Explanation: GCD of 1,2,3 is 1. Input: n = 4, arr = [2, 4, 6, 8] Output: 2 Explanation: Greatest common divisor of all the numbers is 2. Constraints: 1 ≤ N, arr[i] ≤ 105
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using class Solution: def isSumPalindrome(self, n): count = 0 while(str(n) != str(n)[::-1]): n += int(str(n)[::-1]) count += 1 if(count > 5): return -1 break return n. The detected topics are Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Mathematical, palindrome, Algorithms. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using from math import gcd from functools import reduce class Solution: def gcd(self, n, arr): return reduce(gcd, arr). The detected topics are Expected Complexities, Company Tags WiproSAP Labs, Company Tags, Wipro, SAP Labs, Topic Tags, Mathematical, Algorithms. Review the synced source file for the implementation details.
