@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 4699 ms
+- Runtime: 1379 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/remove-duplicates-from-unsorted-linked-list_1069331
-- Synced: 2026-06-03T11:55:02.442Z
+- Problem URL: https://www.naukri.com/code360/problems/mergesort-linked-list_630514
+- Synced: 2026-06-03T12:39:45.880Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
