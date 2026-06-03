@@ -7,14 +7,13 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T19:55:23.553Z
+ * Synced: 2026-06-03T19:55:28.555Z
  */
 
 int balance = 0;
         
         for (char c : s.toCharArray()) {
             if (c == '(') {
-                // Only append if this is not an outer opening parenthesis
                 if (balance > 0) {
                     result.append(c);
                 }
@@ -28,6 +27,6 @@ int balance = 0;
             }
         }
         
-        StringBuilder result = new StringBuilder();
-    public String removeOuterParentheses(String s) {
-class Solution {
+        return result.toString();
+    }
+}
