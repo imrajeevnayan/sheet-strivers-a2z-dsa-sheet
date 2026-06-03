@@ -1,37 +1,32 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/sum-palindrome3857/1
- * Language: class Solution: def isSumPalindrome(self, n): count = 0 while(str(n) != str(n)[::-1]): n += int(str(n)[::-1]) count += 1 if(count > 5): return -1 break return n
+ * URL: https://www.geeksforgeeks.org/problems/gcd-of-array0614/1
+ * Language: from math import gcd from functools import reduce class Solution: def gcd(self, n, arr): return reduce(gcd, arr)
  * Difficulty: Unknown
- * Topics: Expected Complexities, Company Tags Zoho, Company Tags, Zoho, Topic Tags, Mathematical, palindrome, Algorithms
+ * Topics: Expected Complexities, Company Tags WiproSAP Labs, Company Tags, Wipro, SAP Labs, Topic Tags, Mathematical, Algorithms
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T16:40:17.514Z
+ * Synced: 2026-06-03T16:42:08.113Z
  */
 
 class Solution {
-    static int isSumPalindrome(int n) {
-        for (int i = 0; i < 5; i++) {
-            if (isPalindrome(n)) {
-                return n;
-            }
-            n = n + reverse(n);
+    public int gcd(int n, int arr[]) {
+        int result = arr[0];
+
+        for (int i = 1; i < n; i++) {
+            result = findGCD(result, arr[i]);
         }
 
-        return isPalindrome(n) ? n : -1;
+        return result;
     }
 
-    static int reverse(int n) {
-        int rev = 0;
-        while (n > 0) {
-            rev = rev * 10 + n % 10;
-            n /= 10;
+    statc int findGCD(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
         }
-        return rev;
-    }
-
-    static boolean isPalindrome(int n) {
-        return n == reverse(n);
+        return a;
     }
 }
