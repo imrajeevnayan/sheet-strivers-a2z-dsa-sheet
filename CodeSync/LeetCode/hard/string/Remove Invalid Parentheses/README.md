@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/remove-invalid-parentheses/description/?utm=codolio
-- Synced: 2026-06-03T09:05:18.142Z
+- Synced: 2026-06-03T09:05:44.171Z
 
 ## Problem Description
 
