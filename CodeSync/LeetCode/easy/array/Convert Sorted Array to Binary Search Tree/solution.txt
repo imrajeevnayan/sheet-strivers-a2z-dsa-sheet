@@ -7,7 +7,7 @@
  * Topics: Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T20:09:36.650Z
+ * Synced: 2026-06-03T20:09:41.198Z
  */
 
 if (nums == null || nums.length == 0) return null;
@@ -17,10 +17,8 @@ if (nums == null || nums.length == 0) return null;
     public TreeNode sortedArrayToBST(int[] nums) {
 class Solution {
     private TreeNode buildBST(int[] nums, int left, int right) {
-        // Base case: no elements to process
         if (left > right) return null;
         
-        // Find middle index (avoid overflow)
         int mid = left + (right - left) / 2;
         
         // Create node with middle value
@@ -31,3 +29,5 @@ class Solution {
         node.right = buildBST(nums, mid + 1, right);
         
         return node;
+    }
+}
