@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-06-03T09:54:00.560Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Linked List"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Remove Duplicates from Sorted List",
+  "problemUrl": "https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/",
+  "submissionId": "drc97"
+}
