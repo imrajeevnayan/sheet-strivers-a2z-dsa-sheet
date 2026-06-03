@@ -1,22 +1,21 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/1527/
+ * URL: https://www.lintcode.com/problem/263
  * Language: Java
  * Difficulty: Unknown
- * Topics: Simulation, ByteDance, Test Data Test Output
+ * Topics: Stack, 2506 Remove the Invalid Parentheses Easy, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T06:48:21.359Z
+ * Synced: 2026-06-03T07:29:18.344Z
  */
 
 public·class·Solution·{
 ····/**
-·····*·@param·cards:·A·list·of·cards.
-·····*·@return:·A·list·of·feasible·solution.
-·····*··········we·will·sort·your·return·value·in·output
+·····*·@param·string:·A·string
+·····*·@return:·whether·the·string·is·valid·
 ·····*/
-····public·List<Integer>·getTheNumber(int[]·cards)·{
+····public·boolean·matchParentheses(String·string)·{
 ········//·write·your·code·here
 ····}
 }
