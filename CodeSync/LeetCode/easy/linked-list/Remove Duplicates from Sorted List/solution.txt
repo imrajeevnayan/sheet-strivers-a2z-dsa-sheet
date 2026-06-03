@@ -7,7 +7,7 @@
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T10:20:58.755Z
+ * Synced: 2026-06-03T10:21:00.743Z
  */
 
 class Solution {
@@ -17,7 +17,6 @@ class Solution {
             if (curr.val == curr.next.val) curr.next = curr.next.next; 
             else  curr = curr.next;
         }
-
         return head;
     }
 }
