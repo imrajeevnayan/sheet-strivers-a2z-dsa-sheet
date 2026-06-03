@@ -1,19 +1,19 @@
 /*
  * Platform: LeetCode
  * Problem: Single Number
- * URL: https://leetcode.com/problems/single-number/
+ * URL: https://leetcode.com/problems/single-number/submissions/2021165883/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Bit Manipulation
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-03T11:03:53.907Z
+ * Runtime: 0 ms
+ * Memory: 47.04 MB
+ * Synced: 2026-06-03T11:04:39.023Z
  */
 
 class Solution {
     public int singleNumber(int[] nums) {
         int res=0;
     }
-        for(int n:nums)res^n;
+        for(int n:nums)res^=n;
         return res;
 }
