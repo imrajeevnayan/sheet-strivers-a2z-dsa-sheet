@@ -7,11 +7,12 @@
  * Topics: Array, Stack, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T12:11:38.846Z
+ * Synced: 2026-06-03T12:16:19.944Z
  */
 
 class Solution {
     public int calPoints(String[] operations) {
         
     }
+        
 }
