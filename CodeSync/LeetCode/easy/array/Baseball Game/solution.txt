@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Baseball Game
+ * URL: https://leetcode.com/problems/baseball-game/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Stack, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T12:09:48.148Z
+ */
+
+class Solution {
+    public int calPoints(String[] operations) {
+        
+    }
+}
