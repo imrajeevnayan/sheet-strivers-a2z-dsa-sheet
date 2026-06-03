@@ -4,24 +4,24 @@
  * URL: https://www.lintcode.com/problem/2506
  * Language: Java
  * Difficulty: Unknown
- * Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Test Output
+ * Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Commit Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T08:37:47.075Z
+ * Synced: 2026-06-03T08:37:58.440Z
  */
 
-············}·else·if·(c·==·')')·{
-················stack.push(i);
-············if·(c·==·'(')·{
+········//·leftover·'('·are·invalid
+········while·(!stack.isEmpty())·{
+············remove[stack.pop()]·=·true;
+········}
 
-············char·c·=·s.charAt(i);
+········StringBuilder·sb·=·new·StringBuilder();
 ········for·(int·i·=·0;·i·<·n;·i++)·{
+············if·(!remove[i])·{
+················sb.append(s.charAt(i));
+············}
+········}
 
-········Deque<Integer>·stack·=·new·ArrayDeque<>();
-········boolean[]·remove·=·new·boolean[n];
-····public·String·removeParentheses(String·s)·{
-········int·n·=·s.length();
-
-public·class·Solution·{
-················if·(!stack.isEmpty())·{
-····················stack.pop();·//·matched
+········return·sb.toString();
+····}
+}
