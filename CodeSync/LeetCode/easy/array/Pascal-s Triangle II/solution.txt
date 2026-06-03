@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T10:37:11.594Z
+ * Synced: 2026-06-03T10:37:24.903Z
  */
 
 for (int i = 1; i <= rowIndex; i++) {
