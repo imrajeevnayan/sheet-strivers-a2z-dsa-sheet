@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Array, Bit Manipulation
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-03T11:04:37.308Z
+ * Memory: 47.04 MB
+ * Synced: 2026-06-03T11:04:39.023Z
  */
 
 class Solution {
