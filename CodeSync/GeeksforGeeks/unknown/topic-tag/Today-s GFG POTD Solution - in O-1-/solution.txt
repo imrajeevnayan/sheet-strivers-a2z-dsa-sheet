@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Today's GFG POTD Solution ✅ in O(1)
+ * URL: https://www.geeksforgeeks.org/problems/reverse-coding2452/1
+ * Language: #define mod (int)(1e9 + 7) int sumOfNaturals(int n) { return ((n*1LL*(n+1))/2)%mod; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Mathematical, Algorithms, Related Articles, Find Sum Modulo K First N Natural Number, Sum Of First N Natural Numbers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T16:25:18.668Z
+ */
+
+class Solution {
+    static int sumOfNaturals(int n) {
+        int sum=0;
+        for(int i=1;i<=n;i++) sum+=i;
+        return sum;
+    }
+};
