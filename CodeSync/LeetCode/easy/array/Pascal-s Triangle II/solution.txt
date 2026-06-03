@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Pascal's Triangle II
- * URL: https://leetcode.com/problems/pascals-triangle-ii/description/
+ * URL: https://leetcode.com/problems/pascals-triangle-ii/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T10:26:11.428Z
+ * Synced: 2026-06-03T10:26:14.626Z
  */
 
 class Solution {
