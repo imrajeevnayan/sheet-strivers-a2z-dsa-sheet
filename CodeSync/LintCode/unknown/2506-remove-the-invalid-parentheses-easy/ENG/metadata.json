@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-03T07:29:18.344Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Stack",
+    "2506 Remove the Invalid Parentheses Easy",
+    "Test Data Test Output"
+  ],
+  "platform": "LintCode",
+  "language": "Java",
+  "problemTitle": "ENG",
+  "problemUrl": "https://www.lintcode.com/problem/263",
+  "submissionId": "gmfzxu"
+}
