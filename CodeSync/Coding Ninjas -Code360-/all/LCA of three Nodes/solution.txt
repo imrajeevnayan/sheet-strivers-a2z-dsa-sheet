@@ -1,41 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/minimum-swaps-to-bring-all-elements-less-than-or-equal-to-k-together_1112657
- * Language: Java (SE 1.8)
+ * URL: https://www.naukri.com/code360/problems/reverse-a-ll_2271431
+ * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 851 ms
+ * Runtime: 952 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:48:11.831Z
+ * Synced: 2026-06-03T11:53:29.619Z
  */
 
-import java.util.* ;
-import java.io.*; 
-import java.util.ArrayList;
- 
-public class Solution 
-{
-    public static int minimumSwaps(ArrayList<Integer> arr, int n, int k) 
-    {
-        int count = 0;
-        for (int i = 0; i < n; i++) {
-            if (arr.get(i) <= k) {
-                count++;
-            }
+public class Solution {
+    public static Node reverseLL(Node head, int low, int high) {
+        if (head == null || low == high) return head;
+        
+        Node dummy = new Node(0);
+        dummy.next = head;
+        Node prev = dummy;
+        
+        for (int i = 1; i < low; i++) {
+            prev = prev.next;
         }
         
-        int bad = 0;
-        for (int i = 0; i < count; i++) {
-            if (arr.get(i) > k) {
-                bad++;
-            }
+        Node curr = prev.next;
+        Node next = null;
+        Node prevRev = null;
+        Node tail = curr;
+        
+        for (int i = low; i <= high && curr != null; i++) {
+            next = curr.next;
+            curr.next = prevRev;
+            prevRev = curr;
+            curr = next;
         }
         
-        int minSwaps = bad;
-        for (int i = 0, j = count; j < n; i++, j++) {
-            if (arr.get(i) > k) {
-                bad--;
-            }
-            if (arr.get(j) > k) {
-                bad++;
+        tail.next = curr;
+        prev.next = prevRev;
+        
+        return dummy.next;
+    }
