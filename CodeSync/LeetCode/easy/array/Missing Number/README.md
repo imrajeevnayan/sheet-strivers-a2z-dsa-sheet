@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/missing-number/
-- Synced: 2026-06-03T11:10:57.628Z
+- Problem URL: https://leetcode.com/problems/missing-number/submissions/2021171133/
+- Synced: 2026-06-03T11:11:06.253Z
 
 ## Problem Description
 
