@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T12:40:55.365Z
+ * Synced: 2026-06-03T12:40:59.366Z
  */
 
 // Expand around center for each possible center
@@ -26,16 +26,16 @@
             }
         }
         
-        return str.substring(start, start + maxLength);
-    }
-    
-    // Helper method to expand around center and return palindrome length
-    private static int expandAroundCenter(String str, int left, int right) {
-        while (left >= 0 && right < str.length() && str.charAt(left) == str.charAt(right)) {
-            left--;
-            right++;
+        int maxLength = 1;
+        int start = 0;
+        
         }
-        // Return the length of the palindrome
-        return right - left - 1;
-    }
-}
+            return str;
+        if (str.length() == 1) {
+        
+        }
+            return "";
+        if (str == null || str.length() == 0) {
+        // Handle edge cases
+    public static String longestPalinSubstring(String str) {
+public class Solution {
