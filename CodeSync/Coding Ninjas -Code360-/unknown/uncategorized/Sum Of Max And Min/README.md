@@ -7,7 +7,7 @@
 - Runtime: 1697 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/sum-of-max-and-min_1081476
-- Synced: 2026-06-03T11:42:31.119Z
+- Synced: 2026-06-03T11:42:35.258Z
 
 ## Problem Description
 
