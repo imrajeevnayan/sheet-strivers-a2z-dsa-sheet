@@ -1,0 +1,37 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Numbers containing 1, 2 and 3
+ * URL: https://www.geeksforgeeks.org/problems/numbers-containing-1-2-and-32555/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Goldman Sachs, Company Tags, Goldman Sachs, Topic Tags, Arrays, Hash, Mathematical
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T16:35:58.350Z
+ */
+
+class Solution {
+      boolean isValid(int num) {
+        String s = String.valueOf(num);
+        for (char ch : s.toCharArray()) {
+            if (ch != '1' && ch != '2' && ch != '3') {
+                return false;
+            }
+        }
+        return true;
+    }
+    public ArrayList<Integer> filterByDigits(int[] arr) {
+     ArrayList<Integer> result = new ArrayList<>();
+        for (int num : arr) {
+            if (isValid(num)) {
+                result.add(num);
+            }
+        }
+        if (result.size() == 0) {
+            result.add(-1);
+        }
+        return result;
+    
+        
+    }
+}
