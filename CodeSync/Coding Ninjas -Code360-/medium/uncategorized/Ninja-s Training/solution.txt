@@ -1,41 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Ninja’s Training
- * URL: https://www.naukri.com/code360/problems/maximum-product-subarray_1115474
+ * URL: https://www.naukri.com/code360/problems/longest-palindromic-substring_758900
  * Language: Java (SE 1.8)
  * Difficulty: Medium
  * Topics: Uncategorized
- * Runtime: 704 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T11:20:25.031Z
+ * Synced: 2026-06-03T12:40:47.365Z
  */
 
-import java.util.*;
-import java.io.*;
- 
-public class Solution {
-    public static int maximumProduct(ArrayList<Integer> arr, int n) {
- 
-        int maxSoFar = arr.get(0);
-        int maxEndingHere = arr.get(0);
-        int minEndingHere = arr.get(0);
- 
-        for (int i = 1; i < n; i++) {
- 
-            int num = arr.get(i);
- 
-            // if negative, swap max and min
-            if (num < 0) {
-                int temp = maxEndingHere;
-                maxEndingHere = minEndingHere;
-                minEndingHere = temp;
-            }
- 
-            maxEndingHere = Math.max(num, maxEndingHere * num);
-            minEndingHere = Math.min(num, minEndingHere * num);
- 
-            maxSoFar = Math.max(maxSoFar, maxEndingHere);
+public class Solution { 
+    public static String longestPalinSubstring(String str) {
+        // Handle edge cases
+        if (str == null || str.length() == 0) {
+            return "";
         }
- 
-        return maxSoFar;
-    }
+        
+        if (str.length() == 1) {
+            return str;
+        }
+        
+        int start = 0;
+        int maxLength = 1;
+        
+        // Expand around center for each possible center
+        for (int i = 0; i < str.length(); i++) {
+            // Case 1: Odd length palindrome (center at i)
+            int len1 = expandAroundCenter(str, i, i);
+            // Case 2: Even length palindrome (center between i and i+1)
+            int len2 = expandAroundCenter(str, i, i + 1);
+            
+            int currentMaxLength = Math.max(len1, len2);
+            
+            if (currentMaxLength > maxLength) {
+                maxLength = currentMaxLength;
+                // Calculate the starting index based on the palindrome length
+                start = i - (currentMaxLength - 1) / 2;
+            }
+        }
