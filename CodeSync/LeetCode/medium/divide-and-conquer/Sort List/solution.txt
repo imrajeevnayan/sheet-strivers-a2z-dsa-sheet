@@ -7,19 +7,9 @@
  * Topics: Linked List, Two Pointers, Divide and Conquer, Sorting, Merge Sort
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T12:51:18.906Z
+ * Synced: 2026-06-03T12:51:53.901Z
  */
 
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode() {}
- *     ListNode(int val) { this.val = val; }
- *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
- * }
- */
 class Solution {
     public ListNode sortList(ListNode head) {
         
