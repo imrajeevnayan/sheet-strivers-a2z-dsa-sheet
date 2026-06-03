@@ -7,7 +7,7 @@
 - Runtime: 851 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/minimum-swaps-to-bring-all-elements-less-than-or-equal-to-k-together_1112657
-- Synced: 2026-06-03T11:47:58.443Z
+- Synced: 2026-06-03T11:48:02.442Z
 
 ## Problem Description
 
