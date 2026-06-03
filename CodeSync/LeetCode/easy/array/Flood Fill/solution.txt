@@ -7,7 +7,7 @@
  * Topics: Array, Depth-First Search, Breadth-First Search, Matrix
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T20:07:05.576Z
+ * Synced: 2026-06-03T20:07:07.385Z
  */
 
 return image;
@@ -24,7 +24,6 @@ return image;
         if (originalColor == color) return image;
         int originalColor = image[sr][sc];
         
-        // Recurse in 4 directions
         dfs(image, row + 1, col, originalColor, newColor); // Down
         dfs(image, row - 1, col, originalColor, newColor); // Up
         dfs(image, row, col + 1, originalColor, newColor); // Right
