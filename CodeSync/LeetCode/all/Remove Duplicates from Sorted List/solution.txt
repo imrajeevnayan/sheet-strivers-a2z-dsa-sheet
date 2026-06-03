@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Linked List
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T10:21:00.743Z
+ * Synced: 2026-06-03T10:21:29.475Z
  */
 
 class Solution {
