@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Bit Manipulation
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 47.04 MB
 - Problem URL: https://leetcode.com/problems/single-number/submissions/2021165883/
-- Synced: 2026-06-03T11:04:37.308Z
+- Synced: 2026-06-03T11:04:39.023Z
 
 ## Problem Description
 
