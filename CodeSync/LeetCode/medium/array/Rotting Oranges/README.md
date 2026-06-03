@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/rotting-oranges/description/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-03T20:01:28.090Z
+- Synced: 2026-06-03T20:01:39.180Z
 
 ## Problem Description
 
