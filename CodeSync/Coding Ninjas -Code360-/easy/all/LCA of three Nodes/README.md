@@ -3,16 +3,16 @@
 - Platform: Coding Ninjas (Code360)
 - Language: All languages
 - Difficulty: Easy
-- Topics: Uncategorized
+- Topics: Moderate Clear all, Moderate
 - Runtime: 952 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/reverse-a-ll_2271431
-- Synced: 2026-06-03T11:53:45.374Z
+- Synced: 2026-06-03T11:53:56.453Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+Total problems solved
 
 ## Explanation
 
-This solution was accepted on Coding Ninjas (Code360) using All languages. Review the synced source file for the implementation details.
+This solution was accepted on Coding Ninjas (Code360) using All languages. The detected topics are Moderate Clear all, Moderate. Review the synced source file for the implementation details.
