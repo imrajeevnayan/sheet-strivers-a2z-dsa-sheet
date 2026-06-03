@@ -6,8 +6,8 @@
 - Topics: String, Stack
 - Runtime: 0 ms
 - Memory: 43.44 MB
-- Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/submissions/2021639137/?envType=problem-list-v2&envId=stack
-- Synced: 2026-06-03T19:55:49.703Z
+- Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/?envType=problem-list-v2&envId=stack
+- Synced: 2026-06-03T19:56:13.342Z
 
 ## Problem Description
 
