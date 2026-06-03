@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/min-stack/?envType=problem-list-v2&envId=stack
-- Synced: 2026-06-03T19:59:58.632Z
+- Synced: 2026-06-03T20:00:02.170Z
 
 ## Problem Description
 
