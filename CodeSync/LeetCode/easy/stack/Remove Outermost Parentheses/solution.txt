@@ -5,9 +5,9 @@
  * Language: Stack
  * Difficulty: Easy
  * Topics: String, Stack
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T19:55:28.555Z
+ * Synced: 2026-06-03T19:55:40.800Z
  */
 
 int balance = 0;
@@ -20,13 +20,14 @@ int balance = 0;
                 balance++;
             } else { // c == ')'
                 balance--;
-                // Only append if this is not an outer closing parenthesis
                 if (balance > 0) {
                     result.append(c);
                 }
             }
         }
-        
         return result.toString();
     }
 }
+    public String removeOuterParentheses(String s) {
+        StringBuilder result = new StringBuilder();
+class Solution {
