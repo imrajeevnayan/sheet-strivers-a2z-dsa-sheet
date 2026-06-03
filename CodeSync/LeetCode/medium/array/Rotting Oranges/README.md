@@ -6,8 +6,8 @@
 - Topics: Array, Breadth-First Search, Matrix
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/rotting-oranges/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-03T20:02:05.457Z
+- Problem URL: https://leetcode.com/problems/rotting-oranges/submissions/2021642594/?envType=problem-list-v2&envId=dxlq3az1
+- Synced: 2026-06-03T20:02:11.293Z
 
 ## Problem Description
 
