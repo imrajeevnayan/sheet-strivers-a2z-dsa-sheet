@@ -1,0 +1,41 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Common Elements In Three Sorted Arrays
+ * URL: https://www.naukri.com/code360/problems/common-elements-in-three-sorted-arrays_1113130
+ * Language: Java (SE 1.8)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: 1006 ms
+ * Memory: N/A
+ * Synced: 2026-06-03T11:45:49.442Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+public class Solution 
+{
+    public static ArrayList<Integer> findCommonElements(ArrayList<Integer> a, ArrayList<Integer> b, ArrayList<Integer> c) 
+    {
+        ArrayList<Integer> result = new ArrayList<>();
+        int i = 0, j = 0, k = 0;
+        int n1 = a.size(), n2 = b.size(), n3 = c.size();
+        
+        while (i < n1 && j < n2 && k < n3) {
+            if (a.get(i).equals(b.get(j)) && b.get(j).equals(c.get(k))) {
+                if (result.isEmpty() || !result.get(result.size() - 1).equals(a.get(i))) {
+                    result.add(a.get(i));
+                }
+                i++;
+                j++;
+                k++;
+            }
+            else if (a.get(i) <= b.get(j) && a.get(i) <= c.get(k)) {
+                i++;
+            }
+            else if (b.get(j) <= a.get(i) && b.get(j) <= c.get(k)) {
+                j++;
+            }
+            else {
+                k++;
+            }
+        }
