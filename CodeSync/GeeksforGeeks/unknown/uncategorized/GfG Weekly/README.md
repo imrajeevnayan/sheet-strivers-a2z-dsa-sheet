@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://practice.geeksforgeeks.org/contest/gfg-weekly-208-rated-contest/problems
-- Synced: 2026-06-03T06:58:29.724Z
+- Synced: 2026-06-03T06:58:34.104Z
 
 ## Problem Description
 
