@@ -6,8 +6,8 @@
 - Topics: Array, Depth-First Search, Breadth-First Search, Matrix
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/flood-fill/description/?envType=problem-list-v2&envId=dxlq3az1
-- Synced: 2026-06-03T20:06:11.182Z
+- Problem URL: https://leetcode.com/problems/flood-fill/?envType=problem-list-v2&envId=dxlq3az1
+- Synced: 2026-06-03T20:06:44.967Z
 
 ## Problem Description
 
