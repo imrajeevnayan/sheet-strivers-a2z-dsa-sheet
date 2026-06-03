@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-03T19:59:36.160Z",
+  "submissionTimestamp": "2026-06-03T19:59:58.632Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,5 +11,5 @@
   "language": "Stack",
   "problemTitle": "Min Stack",
   "problemUrl": "https://leetcode.com/problems/min-stack/?envType=problem-list-v2&envId=stack",
-  "submissionId": "5ckjnn"
+  "submissionId": "ybv7hg"
 }
