@@ -4,20 +4,15 @@
  * URL: https://www.naukri.com/code360/problems/duplicate-parenthesis_2663296
  * Language: Java (SE 1.8)
  * Difficulty: Easy
- * Topics: in Stacks & Queues
+ * Topics: Uncategorized
  * Runtime: 749 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:31:10.958Z
+ * Synced: 2026-06-03T11:31:25.917Z
  */
 
-import java.util.*;
-import java.io.*;
- 
 public class Solution {
- 
     public static boolean duplicateParanthesis(String expr) {
         Stack<Character> stack = new Stack<>();
-        
         for (int i = 0; i < expr.length(); i++) {
             char ch = expr.charAt(i);
             
@@ -38,3 +33,9 @@ public class Solution {
                 stack.push(ch);
             }
         }
+        
+import java.io.*;
+import java.util.*;
+        return false;
+    }
+}
