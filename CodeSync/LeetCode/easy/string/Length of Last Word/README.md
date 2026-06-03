@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/length-of-last-word/submissions/2021132099/
-- Synced: 2026-06-03T10:24:56.057Z
+- Synced: 2026-06-03T10:25:01.007Z
 
 ## Problem Description
 
