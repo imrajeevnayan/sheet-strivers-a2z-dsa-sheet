@@ -7,7 +7,7 @@
  * Topics: String, Backtracking, Breadth-First Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T08:39:35.598Z
+ * Synced: 2026-06-03T08:39:57.162Z
  */
 
 class Solution {
