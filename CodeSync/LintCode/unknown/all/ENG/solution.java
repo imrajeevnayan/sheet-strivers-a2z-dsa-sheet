@@ -4,18 +4,24 @@
  * URL: https://www.lintcode.com/problem/2506
  * Language: Java
  * Difficulty: Unknown
- * Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Test Output
+ * Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Commit Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T08:37:05.050Z
+ * Synced: 2026-06-03T08:37:58.440Z
  */
 
-public·class·Solution·{
-····public·String·removeParentheses(String·s)·{
-········StringBuilder·sb·=·new·StringBuilder();
-········for·(char·c·:·s.toCharArray())·{
-············if·(c·!=·'('·&&·c·!=·')')··sb.append(c);
+········//·leftover·'('·are·invalid
+········while·(!stack.isEmpty())·{
+············remove[stack.pop()]·=·true;
 ········}
+
+········StringBuilder·sb·=·new·StringBuilder();
+········for·(int·i·=·0;·i·<·n;·i++)·{
+············if·(!remove[i])·{
+················sb.append(s.charAt(i));
+············}
+········}
+
 ········return·sb.toString();
 ····}
 }
