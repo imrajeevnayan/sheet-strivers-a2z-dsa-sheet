@@ -1,0 +1,21 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Break and Merge
+ * URL: https://www.naukri.com/code360/problems/break-and-merge_2684591
+ * Language: Java (SE 1.8)
+ * Difficulty: Medium
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T11:21:07.153Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+ 
+    public static int countMaxSubarray(int[] A) {
+        
+        // Write your code Here
+    }
+}
