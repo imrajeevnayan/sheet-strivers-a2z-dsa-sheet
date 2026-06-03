@@ -7,7 +7,7 @@
  * Topics: Array, Stack, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T12:10:15.345Z
+ * Synced: 2026-06-03T12:10:31.444Z
  */
 
 class Solution {
