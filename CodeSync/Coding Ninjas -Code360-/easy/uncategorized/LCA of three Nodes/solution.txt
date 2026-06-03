@@ -7,15 +7,10 @@
  * Topics: Uncategorized
  * Runtime: 1379 ms
  * Memory: N/A
- * Synced: 2026-06-03T12:39:54.184Z
+ * Synced: 2026-06-03T12:39:57.603Z
  */
 
-Node<Integer> rightSorted = mergeSort(rightHead);
-        
-        return merge(leftSorted, rightSorted);
-    }
-    
-    private static Node<Integer> findMiddle(Node<Integer> head) {
+private static Node<Integer> findMiddle(Node<Integer> head) {
         if (head == null) {
             return head;
         }
@@ -32,7 +27,6 @@ Node<Integer> rightSorted = mergeSort(rightHead);
     }
     
     private static Node<Integer> merge(Node<Integer> head1, Node<Integer> head2) {
-        // Create a dummy node to simplify the merging process
         Node<Integer> dummy = new Node<>(-1);
         Node<Integer> tail = dummy;
         
@@ -40,3 +34,8 @@ Node<Integer> rightSorted = mergeSort(rightHead);
         while (head1 != null && head2 != null) {
             if (head1.data <= head2.data) {
                 tail.next = head1;
+                head1 = head1.next;
+            } else {
+                tail.next = head2;
+                head2 = head2.next;
+            }
