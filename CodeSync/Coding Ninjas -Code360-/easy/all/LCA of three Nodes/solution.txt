@@ -1,36 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/remove-duplicates-from-unsorted-linked-list_1069331
+ * URL: https://www.naukri.com/code360/problems/mergesort-linked-list_630514
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 4699 ms
+ * Runtime: 1379 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:55:02.442Z
+ * Synced: 2026-06-03T12:39:39.949Z
  */
 
-import java.util.* ;
-import java.io.*; 
 public class Solution {
-    
-    public static LinkedListNode<Integer> removeDuplicates(LinkedListNode<Integer> head) {
-        if (head == null) return head;
-        
-        HashSet<Integer> set = new HashSet<>();
-        LinkedListNode<Integer> curr = head;
-        LinkedListNode<Integer> prev = null;
-        
-        while (curr != null) {
-            if (set.contains(curr.data)) {
-                prev.next = curr.next;
-            } else {
-                set.add(curr.data);
-                prev = curr;
-            }
-            curr = curr.next;
+    public static Node<Integer> mergeSort(Node<Integer> head) {
+        if (head == null || head.next == null) {
+            return head;
         }
         
-        return head;
+        Node<Integer> mid = findMiddle(head);
+        Node<Integer> rightHead = mid.next;
+        mid.next = null; // Split the list into two halves
+        
+        // Recursively sort both halves
+        Node<Integer> leftSorted = mergeSort(head);
+        Node<Integer> rightSorted = mergeSort(rightHead);
+        
+        // Merge the two sorted halves
+        return merge(leftSorted, rightSorted);
     }
-}
+    
+    // Helper method to find the middle node using slow-fast pointer technique
+    private static Node<Integer> findMiddle(Node<Integer> head) {
+        if (head == null) {
+            return head;
+        }
+        
+        Node<Integer> slow = head;
+        Node<Integer> fast = head;
+        
+        // Move fast pointer twice as fast as slow pointer
+        // When fast reaches the end, slow will be at the middle
