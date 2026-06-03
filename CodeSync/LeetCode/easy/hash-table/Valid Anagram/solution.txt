@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T10:59:49.520Z
+ * Synced: 2026-06-03T10:59:53.716Z
  */
 
 class Solution {
@@ -16,4 +16,5 @@ class Solution {
     }
         if(s.length()!=t.length())return false;
         for(char c:s.toCharArray())
+        
 }
