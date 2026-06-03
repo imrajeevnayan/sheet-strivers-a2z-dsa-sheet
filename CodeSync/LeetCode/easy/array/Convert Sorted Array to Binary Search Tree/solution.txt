@@ -1,32 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: Convert Sorted Array to Binary Search Tree
- * URL: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/?envType=problem-list-v2&envId=dxlqdj5j
+ * URL: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/?envType=problem-list-v2&envId=dxlqdj5j
  * Language: Grind 169 (Copy-rabvlt31)
  * Difficulty: Easy
  * Topics: Array, Divide and Conquer, Tree, Binary Search Tree, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T20:08:31.643Z
+ * Synced: 2026-06-03T20:09:32.046Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
+if (nums == null || nums.length == 0) return null;
+        return buildBST(nums, 0, nums.length - 1);
+    }
+    
 class Solution {
     public TreeNode sortedArrayToBST(int[] nums) {
-        
-    }
-}
+ */
+ *     }
+ * }
+ *         this.left = left;
+ *         this.right = right;
+ *         this.val = val;
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode() {}
+ *     TreeNode right;
+ *     TreeNode left;
+ *     int val;
+ * public class TreeNode {
+ * Definition for a binary tree node.
+/**
