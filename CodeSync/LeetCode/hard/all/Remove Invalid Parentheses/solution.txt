@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Remove Invalid Parentheses
+ * URL: https://leetcode.com/problems/remove-invalid-parentheses/?utm=codolio
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: String, Backtracking, Breadth-First Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-03T08:39:35.598Z
+ */
+
+class Solution {
+    public List<String> removeInvalidParentheses(String s) {
+        
+    }
+}
