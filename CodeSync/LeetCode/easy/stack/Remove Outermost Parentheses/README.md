@@ -4,10 +4,10 @@
 - Language: Stack
 - Difficulty: Easy
 - Topics: String, Stack
-- Runtime: 0 ms
+- Runtime: 2 ms
 - Memory: 43.44 MB
 - Problem URL: https://leetcode.com/problems/remove-outermost-parentheses/?envType=problem-list-v2&envId=stack
-- Synced: 2026-06-03T19:56:31.805Z
+- Synced: 2026-06-03T19:56:38.036Z
 
 ## Problem Description
 
