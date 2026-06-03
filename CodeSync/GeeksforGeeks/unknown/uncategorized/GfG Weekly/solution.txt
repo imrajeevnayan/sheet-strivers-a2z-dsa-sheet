@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T06:58:29.724Z
+ * Synced: 2026-06-03T06:58:34.104Z
  */
 
 class Solution {
@@ -17,7 +17,6 @@ class Solution {
 
         if ((ab | c) != c) return -1;
 
-        // required x
         return c & (~ab);
     }
 }
