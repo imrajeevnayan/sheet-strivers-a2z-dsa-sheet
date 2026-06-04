@@ -7,7 +7,7 @@
  * Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T09:54:51.609Z
+ * Synced: 2026-06-04T09:54:55.397Z
  */
 
 public·class·Solution·{
@@ -16,5 +16,5 @@ public·class·Solution·{
 ····}
 ·····Stack<Character>st=new·Stack<>();
 ·····int·freq[]=new·int[26];
-·····for(char·c:s.)
+·····for(char·c:s.toChar)
 }
