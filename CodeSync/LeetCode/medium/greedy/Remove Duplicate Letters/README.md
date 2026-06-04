@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: String, Stack, Greedy, Monotonic Stack
-- Runtime: 2 ms
-- Memory: 43.72 MB
-- Problem URL: https://leetcode.com/problems/remove-duplicate-letters/
-- Synced: 2026-06-04T09:45:09.672Z
+- Runtime: 0 ms
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/remove-duplicate-letters/submissions/2022143991/
+- Synced: 2026-06-04T09:45:16.660Z
 
 ## Problem Description
 
