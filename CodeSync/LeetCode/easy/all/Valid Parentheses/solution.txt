@@ -7,14 +7,14 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:28:01.180Z
+ * Synced: 2026-06-04T16:28:05.439Z
  */
 
 class Solution {
     public boolean isValid(String s) {
         Stack<Character>st=new Stack<>();
         for(char ch:s.toCharArray()){
-          if(ch=='('|| ch=='{'|| ch=='[') st.push(ch)
+          if(ch=='('|| ch=='{'|| ch=='[') st.push(ch);
         }
         
     }
