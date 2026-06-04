@@ -1,18 +1,19 @@
 {
-  "submissionTimestamp": "2026-06-04T11:33:27.156Z",
+  "submissionTimestamp": "2026-06-04T16:49:02.570Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "StackMonotonic Stack",
-    "Stack",
+    "GreedyMonotonic StackStackString",
+    "Greedy",
     "Monotonic Stack",
-    "Microsoft",
+    "Stack",
+    "String",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Python",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/1740/",
-  "submissionId": "kvhpcg"
+  "problemUrl": "https://www.lintcode.com/problem/3599/?showListFe=true&page=1&problemTypeId=4&tagIds=361&pageSize=50",
+  "submissionId": "ullnef"
 }
