@@ -7,12 +7,12 @@
  * Topics: String, Stack, Greedy, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T08:29:42.579Z
+ * Synced: 2026-06-04T08:30:02.128Z
  */
 
 class Solution {
     public String removeDuplicateLetters(String s) {
         
     }
-        
+        Stack<Character>st=new Stack<>();
 }
