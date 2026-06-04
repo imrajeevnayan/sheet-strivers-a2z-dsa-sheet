@@ -7,7 +7,7 @@
  * Topics: Topic Tags, Strings, Data Structures
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T17:04:00.633Z
+ * Synced: 2026-06-04T17:04:02.138Z
  */
 
 class Solution {
