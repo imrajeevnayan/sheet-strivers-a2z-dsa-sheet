@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-04T08:37:17.849Z",
-  "runtime": "14 ms",
-  "memoryUsage": "47.33 MB",
+  "submissionTimestamp": "2026-06-04T09:43:17.858Z",
+  "runtime": "0 ms",
+  "memoryUsage": "43.72 MB",
   "difficulty": "Medium",
   "tags": [
     "String",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Remove Duplicate Letters",
-  "problemUrl": "https://leetcode.com/problems/remove-duplicate-letters/submissions/1906575900/",
-  "submissionId": "lqiui0"
+  "problemUrl": "https://leetcode.com/problems/remove-duplicate-letters/submissions/2022141898/",
+  "submissionId": "75n07x"
 }
