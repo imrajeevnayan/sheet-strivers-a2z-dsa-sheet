@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-04T16:34:18.782Z
+ * Synced: 2026-06-04T16:35:07.170Z
  */
 
 class Solution {
@@ -21,8 +21,8 @@ class Solution {
             if( (c==')' && c!='(') ||
                 (c=='}'&& c!='{')  ||
                 (c==']'&& c!='[') ) return false;
-          }
+             }
         }
-        return st.isem
+        return st.isEmpty();
     }
 }
