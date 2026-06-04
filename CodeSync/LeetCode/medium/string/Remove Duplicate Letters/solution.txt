@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Duplicate Letters
- * URL: https://leetcode.com/problems/remove-duplicate-letters/submissions/1917288379/
+ * URL: https://leetcode.com/problems/remove-duplicate-letters/submissions/1906575900/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack, Greedy, Monotonic Stack
- * Runtime: 3 ms
- * Memory: 44.04 MB
- * Synced: 2026-06-04T08:37:07.667Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-04T08:37:16.341Z
  */
 
 Input: s = "bcabc"
