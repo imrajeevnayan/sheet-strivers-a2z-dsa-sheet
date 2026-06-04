@@ -1,33 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: Pascal's Triangle
- * URL: https://leetcode.com/problems/pascals-triangle/description/
+ * URL: https://leetcode.com/problems/pascals-triangle/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T07:11:10.160Z
+ * Synced: 2026-06-04T07:11:21.684Z
  */
 
-class Solution {
-    public List<List<Integer>> generate(int numRows) {
-        List<List<Integer>> result = new ArrayList<>();
+public List<List<Integer>> generate(int numRows) {
+        List<List<Integer>> triangle = new ArrayList<>();
 
         for (int i = 0; i < numRows; i++) {
             List<Integer> row = new ArrayList<>();
+            long ans = 1; // Use long to prevent overflow during calculation
 
             for (int j = 0; j <= i; j++) {
-                if (j == 0 || j == i) {
-                    row.add(1);
-                } else {
-                    List<Integer> prev = result.get(i - 1);
-                    row.add(prev.get(j - 1) + prev.get(j));
-                }
+                // Add the current calculated value
+                row.add((int) ans);
+                
+                // Calculate next value in the same row
+                // Formula: C(i, j+1) = C(i, j) * (i - j) / (j + 1)
+                ans = ans * (i - j) / (j + 1);
             }
-
-            result.add(row);
+            
+            triangle.add(row);
         }
-
-        return result;
+        return triangle;
     }
+class Solution {
