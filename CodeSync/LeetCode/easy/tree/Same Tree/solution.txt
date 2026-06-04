@@ -7,7 +7,7 @@
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: 42.79 MB
- * Synced: 2026-06-04T06:58:21.738Z
+ * Synced: 2026-06-04T06:58:24.740Z
  */
 
 Input: p = [1,2,3], q = [1,2,3]
