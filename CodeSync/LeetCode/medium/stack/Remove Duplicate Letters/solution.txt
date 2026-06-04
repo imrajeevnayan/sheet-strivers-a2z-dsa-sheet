@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack, Greedy, Monotonic Stack
- * Runtime: 0 ms
+ * Runtime: 2 ms
  * Memory: 43.72 MB
- * Synced: 2026-06-04T09:45:04.857Z
+ * Synced: 2026-06-04T09:45:09.672Z
  */
 
 for (char c : s.toCharArray()) {
@@ -16,7 +16,6 @@ for (char c : s.toCharArray()) {
             while (!st.isEmpty() && st.peek() > c && freq[st.peek() - 'a'] > 0) {
                 map.remove(st.pop());
             }
-
             st.push(c);
             map.add(c);
         for (char c : s.toCharArray()) freq[c - 'a']++;
