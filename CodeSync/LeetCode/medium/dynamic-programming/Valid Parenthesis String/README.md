@@ -6,8 +6,8 @@
 - Topics: String, Dynamic Programming, Stack, Greedy
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/valid-parenthesis-string/description/
-- Synced: 2026-06-04T17:13:40.183Z
+- Problem URL: https://leetcode.com/problems/valid-parenthesis-string/
+- Synced: 2026-06-04T17:47:41.483Z
 
 ## Problem Description
 
