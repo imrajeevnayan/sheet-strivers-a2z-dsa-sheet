@@ -6,8 +6,8 @@
 - Topics: String, Stack
 - Runtime: 0 ms
 - Memory: 44.94 MB
-- Problem URL: https://leetcode.com/problems/simplify-path/submissions/2022074522/
-- Synced: 2026-06-04T08:27:13.156Z
+- Problem URL: https://leetcode.com/problems/simplify-path/
+- Synced: 2026-06-04T08:28:41.763Z
 
 ## Problem Description
 
