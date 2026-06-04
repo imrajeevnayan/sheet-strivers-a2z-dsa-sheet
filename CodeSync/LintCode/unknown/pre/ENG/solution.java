@@ -7,7 +7,7 @@
  * Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T09:56:15.837Z
+ * Synced: 2026-06-04T09:56:26.707Z
  */
 
 public·class·Solution·{
@@ -20,4 +20,5 @@ public·class·Solution·{
 ·········freq[c-'a']--;
 ·····}
 ····}
+·········if(map.contains)
 }
