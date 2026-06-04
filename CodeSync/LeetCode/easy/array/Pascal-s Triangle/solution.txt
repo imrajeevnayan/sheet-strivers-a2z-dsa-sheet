@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T07:11:51.990Z
+ * Synced: 2026-06-04T07:11:53.841Z
  */
 
 public List<List<Integer>> generate(int numRows) {
@@ -20,7 +20,6 @@ public List<List<Integer>> generate(int numRows) {
             for (int j = 0; j <= i; j++) {
                 row.add((int) ans);
                 
-                // Formula: C(i, j+1) = C(i, j) * (i - j) / (j + 1)
                 ans = ans * (i - j) / (j + 1);
             }
             
