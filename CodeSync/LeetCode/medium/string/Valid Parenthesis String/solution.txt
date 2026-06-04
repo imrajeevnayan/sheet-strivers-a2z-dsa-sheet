@@ -1,33 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: Valid Parenthesis String
- * URL: https://leetcode.com/problems/valid-parenthesis-string/description/
+ * URL: https://leetcode.com/problems/valid-parenthesis-string/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Dynamic Programming, Stack, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T17:13:40.183Z
+ * Synced: 2026-06-04T17:47:36.785Z
  */
 
-low++;
-                high++;
-            }
-            else if (ch == ')') {
-                low--;
-                high--;
-            }
-            else { // '*'
+else { // '*'
                 low--;     // if '*' acts as ')'
                 high++;    // if '*' acts as '('
             }
 
             // too many ')'
             if (high < 0) {
-            if (ch == '(') {
-        for (char ch : s.toCharArray()) {
+                return false;
+            }
 
-        int low = 0;
-        int high = 0;
-    public boolean checkValidString(String s) {
-class Solution {
+            // low should never be negative
+            low = Math.max(low, 0);
+        }
+
+        return low == 0;
+    }
+}
