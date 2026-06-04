@@ -1,22 +1,19 @@
 # Platform: LintCode
 # Problem: ENG
-# URL: https://www.lintcode.com/problem/1740/
+# URL: https://www.lintcode.com/problem/3599/?showListFe=true&page=1&problemTypeId=4&tagIds=361&pageSize=50
 # Language: Python
 # Difficulty: Unknown
-# Topics: StackMonotonic Stack, Stack, Monotonic Stack, Microsoft, Test Data Test Output
+# Topics: GreedyMonotonic StackStackString, Greedy, Monotonic Stack, Stack, String, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-04T11:33:27.156Z
+# Synced: 2026-06-04T16:49:02.570Z
 
-public·class·StockSpanner·{
-····public·StockSpanner()·{
-········
-····}
+public·class·Solution·{
 ····/**
-·····*·@param·price:·
-·····*·@return:·int
+·····*·@param·s:·String·consisting·of·lowercase·letters
+·····*·@return:·Returns·a·string·with·no·repeated·letters
 ·····*/
-····public·int·next(int·price)·{
-········//·Write·your·code·here.
+····public·String·removeDuplicateLetters(String·s)·{
+········//·write·your·code·here
 ····}
 }
