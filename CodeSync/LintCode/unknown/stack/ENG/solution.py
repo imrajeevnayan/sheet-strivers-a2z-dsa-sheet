@@ -1,22 +1,19 @@
 # Platform: LintCode
 # Problem: ENG
-# URL: https://www.lintcode.com/problem/1740/
+# URL: https://www.lintcode.com/problem/1721/
 # Language: Python
 # Difficulty: Unknown
-# Topics: StackMonotonic Stack, Stack, Monotonic Stack, Microsoft, Test Data Test Output
+# Topics: StackGreedy, Stack, Greedy, Facebook, 2506 Remove the Invalid Parentheses Easy, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-04T11:33:27.156Z
+# Synced: 2026-06-04T17:13:53.886Z
 
-public·class·StockSpanner·{
-····public·StockSpanner()·{
-········
-····}
+public·class·Solution·{
 ····/**
-·····*·@param·price:·
-·····*·@return:·int
+·····*·@param·s:·the·given·string
+·····*·@return:·the·minimum·number·of·parentheses·we·must·add
 ·····*/
-····public·int·next(int·price)·{
-········//·Write·your·code·here.
+····public·int·minAddToMakeValid(String·s)·{
+········//·Write·your·code·here
 ····}
 }
