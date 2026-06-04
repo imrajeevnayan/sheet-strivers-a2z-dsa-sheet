@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/same-tree/
-- Synced: 2026-06-04T06:58:39.740Z
+- Synced: 2026-06-04T06:58:43.741Z
 
 ## Problem Description
 
