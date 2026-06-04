@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Add to Make Parentheses Valid
+ * URL: https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: String, Stack, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-04T17:13:53.158Z
+ */
+
+class Solution {
+    public int minAddToMakeValid(String s) {
+        
+    }
+}
