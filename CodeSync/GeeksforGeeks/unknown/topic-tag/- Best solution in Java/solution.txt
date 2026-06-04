@@ -7,14 +7,13 @@
  * Topics: Topic Tags, Strings, Data Structures
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T17:05:53.410Z
+ * Synced: 2026-06-04T17:05:55.498Z
  */
 
 class Solution {
     String isGoodString(String s) {
         for (int i = 0; i < s.length(); i++) {
             for (int j = i + 1; j < s.length(); j++) {
-
                 if (s.charAt(i) == s.charAt(j)) {
                     if (j - i - 1 != 1) {
                         return "NO";
