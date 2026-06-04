@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-04T16:44:07.696Z",
+  "submissionTimestamp": "2026-06-04T16:47:23.337Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Make The String Great",
-  "problemUrl": "https://leetcode.com/problems/make-the-string-great/",
+  "problemUrl": "https://leetcode.com/problems/make-the-string-great/description/",
   "submissionId": "swuln1"
 }
