@@ -7,12 +7,12 @@
  * Topics: Topic Tags, Strings, Data Structures
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T17:03:03.662Z
+ * Synced: 2026-06-04T17:03:06.169Z
  */
 
 class Solution {
     String isGoodString(String s) {
-     for(char c:s.toCharArrat)
+     for(char c:s.toCharArray())
         
     }
 }
