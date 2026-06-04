@@ -6,14 +6,18 @@
 # Topics: StackGreedy, Stack, Greedy, Facebook, 2506 Remove the Invalid Parentheses Easy, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-04T17:24:12.723Z
+# Synced: 2026-06-04T17:24:23.620Z
 
 public·class·Solution·{
-····/**
-·····*·@param·s:·the·given·string
-·····*·@return:·the·minimum·number·of·parentheses·we·must·add
-·····*/
 ····public·int·minAddToMakeValid(String·s)·{
-········//·Write·your·code·here
+·········int·left=0,right=0;
+········for(char·c:s.toCharArray()){
+············if(c=='(')·left++;
+············else{
+················if(left·>0)·left--;
+················else·right++;
+············}
+········}
+········return·left+right;
 ····}
 }
