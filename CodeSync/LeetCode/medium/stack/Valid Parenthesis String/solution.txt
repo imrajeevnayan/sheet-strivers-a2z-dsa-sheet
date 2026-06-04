@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Dynamic Programming, Stack, Greedy
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-04T17:47:41.483Z
+ * Synced: 2026-06-04T17:47:48.548Z
  */
 
 else { // '*'
