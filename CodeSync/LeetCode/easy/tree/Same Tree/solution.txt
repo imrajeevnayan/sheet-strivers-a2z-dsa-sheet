@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Same Tree
- * URL: https://leetcode.com/problems/same-tree/
+ * URL: https://leetcode.com/problems/same-tree/submissions/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T06:58:15.921Z
+ * Synced: 2026-06-04T06:58:18.736Z
  */
 
 class Solution {
