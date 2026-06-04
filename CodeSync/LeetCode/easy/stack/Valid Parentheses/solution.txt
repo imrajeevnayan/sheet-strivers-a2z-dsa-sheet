@@ -1,30 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: Valid Parentheses
- * URL: https://leetcode.com/problems/valid-parentheses/submissions/2011770555/
+ * URL: https://leetcode.com/problems/valid-parentheses/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack
- * Runtime: 2 ms
- * Memory: 43.21 MB
- * Synced: 2026-06-04T16:31:16.768Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-04T16:31:24.433Z
  */
 
-1class Solution {
-2    public boolean isValid(String s) {
-3        Deque<Character> stack = new ArrayDeque<>();
-4        for (char c : s.toCharArray()) {
-5            if (c == '(' || c == '{' || c == '[') stack.push(c);
-6            else {
-7                if (stack.isEmpty()) return false; 
-8                char top = stack.pop();
-9                if ((c == ')' && top != '(') ||
-10                    (c == '}' && top != '{') ||
-11                    (c == ']' && top != '[')) {
-12                    return false;
-13                }
-14            }
-15        }
-16        return stack.isEmpty();
-17    }
-18}
+class Solution {
+    public boolean isValid(String s) {
+        Stack<Character>st=new Stack<>();
+        for(char ch:s.toCharArray()){
+          if(ch=='('|| ch=='{'|| ch=='[') st.push(ch);
+          else {
+            if(st.isEmpty())return false;
+            char c=st.pop();
+            if(c)
+          }
+        }
+        
+    }
+}
