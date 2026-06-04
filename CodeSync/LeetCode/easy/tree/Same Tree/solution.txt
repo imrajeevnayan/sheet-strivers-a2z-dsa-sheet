@@ -7,11 +7,10 @@
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T06:58:32.734Z
+ * Synced: 2026-06-04T06:58:39.740Z
  */
 
 class Solution {
-
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) return true;
         if (p == null || q == null) return false;
