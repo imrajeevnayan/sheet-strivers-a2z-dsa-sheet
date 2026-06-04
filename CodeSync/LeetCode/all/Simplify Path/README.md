@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: String, Stack
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/simplify-path/
-- Synced: 2026-06-04T08:26:05.085Z
+- Runtime: 0 ms
+- Memory: 44.94 MB
+- Problem URL: https://leetcode.com/problems/simplify-path/submissions/2022074522/
+- Synced: 2026-06-04T08:26:59.250Z
 
 ## Problem Description
 
