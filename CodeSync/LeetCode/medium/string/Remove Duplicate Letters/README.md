@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 43.72 MB
 - Problem URL: https://leetcode.com/problems/remove-duplicate-letters/
-- Synced: 2026-06-04T09:45:00.823Z
+- Synced: 2026-06-04T09:45:02.725Z
 
 ## Problem Description
 
