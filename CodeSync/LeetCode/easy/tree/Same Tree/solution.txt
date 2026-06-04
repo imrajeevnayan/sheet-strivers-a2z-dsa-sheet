@@ -1,30 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Same Tree
- * URL: https://leetcode.com/problems/same-tree/description/
+ * URL: https://leetcode.com/problems/same-tree/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T06:58:09.752Z
+ * Synced: 2026-06-04T06:58:15.921Z
  */
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
 class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q) {
         
