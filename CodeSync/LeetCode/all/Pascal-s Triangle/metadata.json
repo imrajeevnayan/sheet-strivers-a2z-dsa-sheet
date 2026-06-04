@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-03T11:03:01.593Z",
-  "runtime": "0 ms",
-  "memoryUsage": "43.68 MB",
+  "submissionTimestamp": "2026-06-04T07:09:41.357Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Pascal's Triangle",
-  "problemUrl": "https://leetcode.com/problems/pascals-triangle/submissions/2021164625/",
-  "submissionId": "exzq8i"
+  "problemUrl": "https://leetcode.com/problems/pascals-triangle/",
+  "submissionId": "ngx6ii"
 }
