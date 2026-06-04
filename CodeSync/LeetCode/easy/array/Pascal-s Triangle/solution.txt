@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: 43.56 MB
- * Synced: 2026-06-04T07:17:54.244Z
+ * Synced: 2026-06-04T07:17:58.082Z
  */
 
 public List<List<Integer>> generate(int numRows) {
