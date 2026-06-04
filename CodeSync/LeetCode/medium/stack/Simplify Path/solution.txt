@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: 0 ms
  * Memory: 44.94 MB
- * Synced: 2026-06-04T08:26:56.343Z
+ * Synced: 2026-06-04T08:26:59.250Z
  */
 
 public String simplifyPath(String path) {
