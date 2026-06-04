@@ -7,7 +7,7 @@
 - Runtime: 3 ms
 - Memory: 44.04 MB
 - Problem URL: https://leetcode.com/problems/remove-duplicate-letters/submissions/1917288379/
-- Synced: 2026-06-04T08:37:05.349Z
+- Synced: 2026-06-04T08:37:07.667Z
 
 ## Problem Description
 
