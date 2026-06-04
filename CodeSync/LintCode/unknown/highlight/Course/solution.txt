@@ -1,30 +1,34 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/problem/363/solution/93750
- * Language: ALL(59) Java(31) Python 3(24) C++(9) Csharp(1)
+ * URL: https://www.lintcode.com/problem/392/solution/93757?showListFe=false&page=1&problemTypeId=4&pageSize=50
+ * Language: ALL(46) Python 3(21) Java(20) C++(9)
  * Difficulty: Unknown
- * Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, @param, @return
+ * Topics: Highlight, @param, @return, More, Python 3 C++ Java, Python 3, C++, Java
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T07:11:23.909Z
+ * Synced: 2026-06-04T06:49:24.565Z
  */
 
 public·class·Solution·{
-····public·int·trapRainWater(int[]·heights)·{
-········int·ans=0;
-········Deque<Integer>st=new·ArrayDeque<>();
-········for(int·i=0;i<heights.length;i++){
-············while(!st.isEmpty()&&·heights[i]>heights[st.peek()]){
-················int·top=st.pop();
-················if(st.isEmpty())break;
-
-················int·dist=i-st.peek()-1;
-················int·boundHeight=Math.min(heights[i],heights[st.peek()])-heights[top];
-················ans+=dist·*·boundHeight;
-············}
-··········st.push(i);············
+····public·long·houseRobber(int[]·a)·{
+········if·(a·==·null·||·a.length·==·0)·return·0;
+········if·(a.length·==·1)·return·a[0];
+········
+········int·n·=·a.length;
+········
+········long·prev2·=·0;
+········long·prev1·=·0;
+········
+········for·(int·i·=·0;·i·<·n;·i++)·{
+············//·Either·skip·current·house·(prev1)·or·rob·it·(prev2·+·a[i])
+············long·curr·=·Math.max(prev1,·prev2·+·a[i]);
+············
+············//·Shift·variables·forward
+············prev2·=·prev1;
+············prev1·=·curr;
 ········}
-········return·ans;
+········
+········return·prev1;
 ····}
 }
