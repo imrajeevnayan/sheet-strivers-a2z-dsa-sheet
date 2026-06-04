@@ -6,8 +6,8 @@
 - Topics: Array, Stack, Monotonic Stack
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/next-greater-element-ii/
-- Synced: 2026-05-31T18:42:16.263Z
+- Problem URL: https://leetcode.com/problems/next-greater-element-ii/?utm=codolio
+- Synced: 2026-06-04T18:00:23.067Z
 
 ## Problem Description
 
