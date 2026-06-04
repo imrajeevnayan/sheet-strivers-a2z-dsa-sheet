@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-04T17:20:05.828Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AmazonMicrosoftTCSAdobeIBM",
+    "Company Tags",
+    "Amazon",
+    "Microsoft",
+    "TCS",
+    "Adobe",
+    "IBM"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: int minParentheses(string& s) { int open = 0; int need = 0; for(int i = 0;i<s.size();i++){ if(s[i] == '(')open++; if(s[i] == ')')open--; if(open<0){ need++; open = 0; } } return need+open; } };",
+  "problemTitle": "Easy Java Solution in O(n) :",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/min-add-to-make-parentheses-valid/1",
+  "submissionId": "gb6vts"
+}
