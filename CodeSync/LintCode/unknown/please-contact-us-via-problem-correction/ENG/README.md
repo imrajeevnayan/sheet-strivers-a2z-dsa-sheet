@@ -3,11 +3,11 @@
 - Platform: LintCode
 - Language: Java
 - Difficulty: Unknown
-- Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Test Output
+- Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Commit Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/834/
-- Synced: 2026-06-04T09:57:15.852Z
+- Synced: 2026-06-04T09:57:56.440Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ This topic is a pre-release topic. If you encounter any problems, please contact
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are PRE, please contact us via "Problem Correction", Stack, Google, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are PRE, please contact us via "Problem Correction", Stack, Google, Test Data Commit Output. Review the synced source file for the implementation details.
