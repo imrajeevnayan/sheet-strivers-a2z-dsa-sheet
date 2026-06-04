@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:34:10.667Z
+ * Synced: 2026-06-04T16:34:18.782Z
  */
 
 class Solution {
@@ -23,6 +23,6 @@ class Solution {
                 (c==']'&& c!='[') ) return false;
           }
         }
-        
+        return st.isem
     }
 }
