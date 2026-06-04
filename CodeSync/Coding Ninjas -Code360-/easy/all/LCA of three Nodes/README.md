@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 671 ms
+- Runtime: 3522 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/beautiful-string_1115625
-- Synced: 2026-06-04T16:11:55.171Z
+- Problem URL: https://www.naukri.com/code360/problems/triplets-with-given-sum_893028
+- Synced: 2026-06-04T16:21:40.054Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVE Get key word suggestions of your code
 
 ## Explanation
 
