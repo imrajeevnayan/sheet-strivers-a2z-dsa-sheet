@@ -7,7 +7,7 @@
  * Topics: String, Stack, Greedy, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T09:42:32.396Z
+ * Synced: 2026-06-04T09:42:37.431Z
  */
 
 for (char c : s.toCharArray()) {
@@ -26,8 +26,9 @@ for (char c : s.toCharArray()) {
 
         boolean[] visited = new boolean[26];
         int[] freq = new int[26];
-class Solution {
-    public String removeDuplicateLetters(String s) {
         }
 
         StringBuilder sb = new StringBuilder();
+        for (char c : st) {
+            sb.append(c);
+        }
