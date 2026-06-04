@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Duplicate Letters
- * URL: https://leetcode.com/problems/remove-duplicate-letters/
+ * URL: https://leetcode.com/problems/remove-duplicate-letters/submissions/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack, Greedy, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T08:31:06.920Z
+ * Synced: 2026-06-04T08:37:02.769Z
  */
 
 class Solution {
