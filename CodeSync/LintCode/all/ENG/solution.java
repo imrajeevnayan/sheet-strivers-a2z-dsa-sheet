@@ -1,27 +1,17 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/2506
+ * URL: https://www.lintcode.com/problem/392/?showListFe=false&page=1&problemTypeId=4&pageSize=50
  * Language: Java
  * Difficulty: Unknown
- * Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Commit Output
+ * Topics: Dynamic Programming, DPCoordinate DP, DP, Coordinate DP, LinkedIn Airbnb, LinkedIn, Airbnb, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T08:37:58.440Z
+ * Synced: 2026-06-04T06:48:08.694Z
  */
 
-········//·leftover·'('·are·invalid
-········while·(!stack.isEmpty())·{
-············remove[stack.pop()]·=·true;
-········}
-
-········StringBuilder·sb·=·new·StringBuilder();
-········for·(int·i·=·0;·i·<·n;·i++)·{
-············if·(!remove[i])·{
-················sb.append(s.charAt(i));
-············}
-········}
-
-········return·sb.toString();
+public·class·Solution·{
+····public·long·houseRobber(int[]·a)·{
+········
 ····}
 }
