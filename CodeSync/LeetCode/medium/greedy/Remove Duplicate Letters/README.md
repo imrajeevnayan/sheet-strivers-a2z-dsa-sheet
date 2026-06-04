@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/remove-duplicate-letters/description/
-- Synced: 2026-06-04T09:45:47.008Z
+- Synced: 2026-06-04T09:46:04.020Z
 
 ## Problem Description
 
