@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-04T17:14:03.160Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "String",
+    "Stack",
+    "Greedy"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Minimum Add to Make Parentheses Valid",
+  "problemUrl": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/description/",
+  "submissionId": "ty99i8"
+}
