@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: String, Stack
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/make-the-string-great/
-- Synced: 2026-06-04T16:42:18.167Z
+- Problem URL: https://leetcode.com/problems/make-the-string-great/submissions/2022493479/
+- Synced: 2026-06-04T16:42:26.555Z
 
 ## Problem Description
 
