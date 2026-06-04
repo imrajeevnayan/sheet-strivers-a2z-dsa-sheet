@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-04T16:35:41.932Z
+ * Synced: 2026-06-04T16:35:44.155Z
  */
 
 class Solution {
@@ -18,7 +18,7 @@ class Solution {
           else {
             if(st.isEmpty())return false;
             char top =st.pop();
-            if( (c==')' && top!='(') ||
+            if( (c==')' && top !='(') ||
                 (c=='}'&& top !='{')  ||
                 (c==']'&& c!='[') ) return false;
              }
