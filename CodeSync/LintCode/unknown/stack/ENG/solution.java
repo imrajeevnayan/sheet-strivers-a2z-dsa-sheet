@@ -1,30 +1,21 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/263
+ * URL: https://www.lintcode.com/problem/834/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Stack, 2506 Remove the Invalid Parentheses Easy, Test Data Test Output
+ * Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T07:34:24.193Z
+ * Synced: 2026-06-04T09:45:48.817Z
  */
 
 public·class·Solution·{
-····public·boolean·matchParentheses(String·string)·{
-········Stack<Character>·st·=·new·Stack<>();
-········for·(char·ch·:·string.toCharArray())·{
-············if·(ch·==·'('·||·ch·==·'{'·||·ch·==·'[')·st.push(ch);
-············else·{
-················if·(st.isEmpty())·return·false;
-················char·top·=·st.pop();
-················if·((ch·==·')'·&&·top·!=·'(')·||
-····················(ch·==·'}'·&&·top·!=·'{')·||
-····················(ch·==·']'·&&·top·!=·'['))·{
-····················return·false;
-················}
-············}
-········}
-········return·st.isEmpty();
+····/**
+·····*·@param·s:·a·string
+·····*·@return:·return·a·string
+·····*/
+····public·String·removeDuplicateLetters(String·s)·{
+········//·write·your·code·here
 ····}
 }
