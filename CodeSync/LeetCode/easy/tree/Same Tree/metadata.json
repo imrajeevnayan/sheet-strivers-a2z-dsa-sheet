@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-04T06:58:55.737Z",
+  "submissionTimestamp": "2026-06-04T06:59:04.865Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "42.69 MB",
   "difficulty": "Easy",
   "tags": [
     "Tree",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Same Tree",
-  "problemUrl": "https://leetcode.com/problems/same-tree/",
+  "problemUrl": "https://leetcode.com/problems/same-tree/submissions/2021999021/",
   "submissionId": "uxz6gh"
 }
