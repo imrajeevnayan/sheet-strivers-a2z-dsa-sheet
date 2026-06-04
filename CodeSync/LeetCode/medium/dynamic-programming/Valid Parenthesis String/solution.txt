@@ -7,17 +7,10 @@
  * Topics: String, Dynamic Programming, Stack, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T17:12:06.555Z
+ * Synced: 2026-06-04T17:12:20.566Z
  */
 
-class Solution {
-    public boolean checkValidString(String s) {
-        int low = 0;
-        int high = 0;
-
-        for (char ch : s.toCharArray()) {
-            if (ch == '(') {
-                low++;
+low++;
                 high++;
             }
             else if (ch == ')') {
@@ -31,3 +24,10 @@ class Solution {
 
             // too many ')'
             if (high < 0) {
+            if (ch == '(') {
+        for (char ch : s.toCharArray()) {
+
+        int low = 0;
+        int high = 0;
+    public boolean checkValidString(String s) {
+class Solution {
