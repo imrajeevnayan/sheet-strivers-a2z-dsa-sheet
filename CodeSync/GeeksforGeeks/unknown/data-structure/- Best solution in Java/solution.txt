@@ -7,7 +7,7 @@
  * Topics: Topic Tags, Strings, Data Structures
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T17:05:55.498Z
+ * Synced: 2026-06-04T17:06:26.616Z
  */
 
 class Solution {
@@ -21,6 +21,6 @@ class Solution {
                 }
             }
         }
-
         return "YES";
     }
+}
