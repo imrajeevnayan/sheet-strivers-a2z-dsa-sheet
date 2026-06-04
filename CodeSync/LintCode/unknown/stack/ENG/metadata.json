@@ -1,18 +1,19 @@
 {
-  "submissionTimestamp": "2026-06-04T11:33:27.156Z",
+  "submissionTimestamp": "2026-06-04T17:13:53.886Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "StackMonotonic Stack",
+    "StackGreedy",
     "Stack",
-    "Monotonic Stack",
-    "Microsoft",
+    "Greedy",
+    "Facebook",
+    "2506 Remove the Invalid Parentheses Easy",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Python",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/1740/",
-  "submissionId": "kvhpcg"
+  "problemUrl": "https://www.lintcode.com/problem/1721/",
+  "submissionId": "3d8616"
 }
