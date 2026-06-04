@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-04T17:12:06.555Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "Stack",
+    "Greedy"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Valid Parenthesis String",
+  "problemUrl": "https://leetcode.com/problems/valid-parenthesis-string/description/",
+  "submissionId": "d9xjiq"
+}
