@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Pascal's Triangle
- * URL: https://leetcode.com/problems/pascals-triangle/submissions/2022012029/
+ * URL: https://leetcode.com/problems/pascals-triangle/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: 43.56 MB
- * Synced: 2026-06-04T07:12:49.319Z
+ * Synced: 2026-06-04T07:17:54.244Z
  */
 
 public List<List<Integer>> generate(int numRows) {
