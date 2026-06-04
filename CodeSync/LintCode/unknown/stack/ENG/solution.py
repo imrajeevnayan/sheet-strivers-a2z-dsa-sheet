@@ -1,22 +1,22 @@
 # Platform: LintCode
 # Problem: ENG
-# URL: https://www.lintcode.com/problem/3820/
+# URL: https://www.lintcode.com/problem/1740/
 # Language: Python
 # Difficulty: Unknown
-# Topics: StackString, Stack, String, Test Data Commit Output
+# Topics: StackMonotonic Stack, Stack, Monotonic Stack, Microsoft, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-02T10:07:40.046Z
+# Synced: 2026-06-04T11:33:27.156Z
 
-public·class·Solution·{
-····public·String·removeDuplicates(String·s)·{
-····Stack<Character>st=new·Stack<>();
-····for(char·c:s.toCharArray()){
-········if(!st.isEmpty()&&·st.peek()==c)st.pop();
+public·class·StockSpanner·{
+····public·StockSpanner()·{
+········
 ····}
+····/**
+·····*·@param·price:·
+·····*·@return:·int
+·····*/
+····public·int·next(int·price)·{
+········//·Write·your·code·here.
 ····}
-········else·st.push(c);
-····StringBuilder·sb=new·StringBuilder();
-····for(char·c:st)sb.append(c);
-····return·sb.toString();
 }
