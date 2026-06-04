@@ -1,24 +1,27 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/3820/
- * Language: remove con
+ * URL: https://www.lintcode.com/problem/834/
+ * Language: 1public class Solution { 2 public String removeDuplicateLetters(String s) { 3 int[] freq = new int[26]; 4 HashSet<Character> map = new HashSet<>(); 5 Stack<Character> st = new Stack<>(); 6 for (char c : s.toCharArray()) freq[c - 'a']++; 7 for (char c : s.toCharArray()) { 8 freq[c - 'a']--; 9 if (map.contains(c)) continue; 10 while (!st.isEmpty() && st.peek() > c && freq[st.peek() - 'a'] > 0) { 11 map.remove(st.pop()); 12 } 13 st.push(c); 14 map.add(c); 15 } 16 StringBuilder sb = new StringBuilder(); 17 for (char c : st) sb.append(c); 18 return sb.toString(); 19 20 } 21}
  * Difficulty: Unknown
- * Topics: StackString, Stack, String, Test Data Test Output, Binary TreeDivide and ConquerBinary Search Tree, Binary Tree, Divide and Conquer, Binary Search Tree
+ * Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Commit Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T11:18:41.492Z
+ * Synced: 2026-06-04T10:01:27.106Z
  */
 
-public·class·Solution·{
-····public·String·removeDuplicates(String·s)·{
-····Stack<Character>st=new·Stack<>();
-····for(char·c:s.toCharArray()){
-········if(!st.isEmpty()&&·st.peek()==c)st.pop();
+········for·(char·c·:·s.toCharArray())·{
+············freq[c·-·'a']--;
+············if·(map.contains(c))·continue;
+············while·(!st.isEmpty()·&&·st.peek()·>·c·&&·freq[st.peek()·-·'a']·>·0)·{
+················map.remove(st.pop());
+············}
+············st.push(c);
+············map.add(c);
+········}
+········StringBuilder·sb·=·new·StringBuilder();
+········for·(char·c·:·st)·sb.append(c);
+········return·sb.toString();
+·····
 ····}
-····}
-········else·st.push(c);
-····StringBuilder·sb=new·StringBuilder();
-····for(char·c:st)sb.append(c);
-····return·sb.toString();
 }
