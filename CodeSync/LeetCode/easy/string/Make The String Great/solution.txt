@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:42:15.076Z
+ * Synced: 2026-06-04T16:42:18.167Z
  */
 
 public String makeGood(String s) {
@@ -20,7 +20,6 @@ public String makeGood(String s) {
         }
         StringBuilder sb = new StringBuilder();
         for (char c : st) sb.append(c);
-        
         return sb.toString();
     }
 class Solution {
