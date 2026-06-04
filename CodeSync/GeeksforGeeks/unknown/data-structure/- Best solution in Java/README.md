@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/good-string5712/1
-- Synced: 2026-06-04T17:05:09.371Z
+- Synced: 2026-06-04T17:05:55.498Z
 
 ## Problem Description
 
