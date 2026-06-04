@@ -7,11 +7,27 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T08:26:05.085Z
+ * Synced: 2026-06-04T08:26:41.103Z
  */
 
-class Solution {
-    public String simplifyPath(String path) {
-        
+public String simplifyPath(String path) {
+        String[] parts = path.split("/");
+        LinkedList<String> stack = new LinkedList<>();
+
+        for (String part : parts) {
+            if (part.equals("..")) {
+                if (!stack.isEmpty()) stack.removeLast();
+            } else if (!part.equals("") && !part.equals(".")) {
+                stack.addLast(part);
+            }
+        }
+
+        if (stack.isEmpty()) return "/";
+
+        StringBuilder sb = new StringBuilder();
+        for (String dir : stack) {
+            sb.append("/").append(dir);
+        }
+        return sb.toString();
     }
-}
+class Solution {
