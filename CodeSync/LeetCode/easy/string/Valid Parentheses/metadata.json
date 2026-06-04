@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-04T16:30:33.818Z",
+  "submissionTimestamp": "2026-06-04T16:30:37.349Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Valid Parentheses",
-  "problemUrl": "https://leetcode.com/problems/valid-parentheses/",
+  "problemUrl": "https://leetcode.com/problems/valid-parentheses/description/",
   "submissionId": "wjhy64"
 }
