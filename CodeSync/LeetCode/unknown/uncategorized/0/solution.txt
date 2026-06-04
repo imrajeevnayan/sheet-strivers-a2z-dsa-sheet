@@ -1,24 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/submissions/detail/2022491289/
+ * URL: https://leetcode.com/submissions/detail/2022493479/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 24 ms
- * Memory: 47.04 MB
- * Synced: 2026-06-04T16:44:50.117Z
+ * Runtime: 3 ms
+ * Memory: 43.54 MB
+ * Synced: 2026-06-04T16:45:16.166Z
  */
 
 1class Solution {
-2    public String removeDuplicates(String s) {
-3        Stack<Character>st=new Stack<>();
-4        for(char c:s.toCharArray()){
-5            if(!st.isEmpty() &&  st.peek()==c) st.pop();
-6            else st.push(c);
-7        }
-8        StringBuilder sb=new StringBuilder();
-9        for(char c:st) sb.append(c);
-10        return sb.toString();
-11    }
-12}
+2    public String makeGood(String s) {
+3        Stack<Character> st = new Stack<>();
+4        
+5        for (char c : s.toCharArray()) {
+6            if (!st.isEmpty() && Math.abs(st.peek() - c) == 32) st.pop();
+7            else st.push(c);    
+8        }
+9        StringBuilder sb = new StringBuilder();
+10        for (char c : st) sb.append(c);
+11        return sb.toString();
+12    }
+13}
