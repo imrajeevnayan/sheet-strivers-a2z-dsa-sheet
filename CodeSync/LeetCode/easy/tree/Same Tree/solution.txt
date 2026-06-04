@@ -1,17 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: Same Tree
- * URL: https://leetcode.com/problems/same-tree/submissions/
+ * URL: https://leetcode.com/problems/same-tree/submissions/1913810860/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-04T06:58:18.736Z
+ * Runtime: 0 ms
+ * Memory: 42.79 MB
+ * Synced: 2026-06-04T06:58:21.738Z
  */
 
-class Solution {
-    public boolean isSameTree(TreeNode p, TreeNode q) {
-        
-    }
-}
+Input: p = [1,2,3], q = [1,2,3]
+Output: true
