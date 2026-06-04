@@ -7,7 +7,7 @@
  * Topics: String, Stack, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T17:23:30.158Z
+ * Synced: 2026-06-04T17:23:47.292Z
  */
 
 class Solution {
@@ -18,7 +18,8 @@ class Solution {
             else{
         }
         
-                
+                if(left >0) left--;
             }
     }
+                else right
 }
