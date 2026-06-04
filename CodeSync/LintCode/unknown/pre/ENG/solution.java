@@ -7,7 +7,7 @@
  * Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T09:55:54.328Z
+ * Synced: 2026-06-04T09:55:58.147Z
  */
 
 public·class·Solution·{
