@@ -7,14 +7,14 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:37:47.049Z
+ * Synced: 2026-06-04T16:37:52.915Z
  */
 
 class Solution {
     public boolean isValid(String s) {
-        Deque<Character> stack = new ArrayDeque<>();
+        Deque<Character> st = new ArrayDeque<>();
         for (char c : s.toCharArray()) {
-            if (c == '(' || c == '{' || c == '[') stack.push(c);
+            if (c == '(' || c == '{' || c == '[') st.push(c);
             else {
                 if (stack.isEmpty()) return false; 
                 char top = stack.pop();
