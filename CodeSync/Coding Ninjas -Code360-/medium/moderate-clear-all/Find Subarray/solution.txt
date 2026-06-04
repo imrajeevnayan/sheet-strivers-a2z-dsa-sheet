@@ -1,0 +1,22 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Find Subarray
+ * URL: https://www.naukri.com/code360/problems/find-subarray_2656181
+ * Language: Java (SE 1.8)
+ * Difficulty: Medium
+ * Topics: Moderate Clear all, Moderate
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-04T16:17:45.787Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+ 
+public class Solution {
+ 
+    public static int[] findSubarray(int[] arr) {
+        // Write your code here
+    }
+ 
+}
