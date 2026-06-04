@@ -1,35 +1,40 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/duplicate-characters_3189116
- * Language: Java (SE 1.8)
+ * URL: https://www.naukri.com/code360/problems/find-prime-numbers_839723
+ * Language: All languages
  * Difficulty: Hard
- * Topics: Moderate Clear all, Moderate
- * Runtime: 840 ms
+ * Topics: Easy Clear all
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T11:49:02.371Z
+ * Synced: 2026-06-04T16:18:54.725Z
  */
 
-import java.util.* ;
-import java.io.*; 
-import java.util.*;
+import java.util.ArrayList;
  
 public class Solution {
  
-    public static ArrayList<Pair> duplicate_char(String s, int n) {
-        ArrayList<Pair> result = new ArrayList<>();
-        int[] freq = new int[256];
-        
-        for (int i = 0; i < n; i++) {
-            freq[s.charAt(i)]++;
-        }
-        
-        for (int i = 0; i < 256; i++) {
-            if (freq[i] > 1) {
-                result.add(new Pair((char)i, freq[i]));
+    public static ArrayList<Integer> primeNumbersTillN(int N) 
+    { 
+        ArrayList<Integer> primes = new ArrayList<>();
+        if (N < 2) return primes;
+ 
+        boolean[] isComposite = new boolean[N + 1];
+ 
+        for (int i = 2; i * i <= N; i++) {
+            if (!isComposite[i]) {
+                for (int j = i * i; j <= N; j += i) {
+                    isComposite[j] = true;
+                }
             }
         }
-        
-        return result;
+ 
+        for (int i = 2; i <= N; i++) {
+            if (!isComposite[i]) {
+                primes.add(i);
+            }
+        }
+ 
+        return primes;
     }
 }
