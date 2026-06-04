@@ -7,7 +7,7 @@
  * Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T09:57:24.821Z
+ * Synced: 2026-06-04T09:57:29.186Z
  */
 
 ·····for(char·c:s.toCharArray){
@@ -23,5 +23,5 @@
 ·····for(char·c:s.toCharArray())·freq[c-'a']++;
 ·····HashMap<Character,Integer>map=new·HashMap<>();
 ·····int·freq[]=new·int[26];
-public·class·Solution·{
 ····public·String·removeDuplicateLetters(String·s)·{
+public·class·Solution·{
