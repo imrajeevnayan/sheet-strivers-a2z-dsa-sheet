@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-04T06:58:09.752Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Same Tree",
+  "problemUrl": "https://leetcode.com/problems/same-tree/description/",
+  "submissionId": "dk9pib"
+}
