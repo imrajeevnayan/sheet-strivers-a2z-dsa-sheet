@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Remove All Adjacent Duplicates In String
- * URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/submissions/2022491289/
+ * URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack
  * Runtime: 0 ms
  * Memory: 47.04 MB
- * Synced: 2026-06-04T16:41:18.170Z
+ * Synced: 2026-06-04T16:45:01.668Z
  */
 
 class Solution {
