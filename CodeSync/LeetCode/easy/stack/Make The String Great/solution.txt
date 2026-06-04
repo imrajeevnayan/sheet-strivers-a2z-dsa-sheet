@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: String, Stack
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-04T16:42:26.555Z
+ * Memory: 43.54 MB
+ * Synced: 2026-06-04T16:42:34.985Z
  */
 
 public String makeGood(String s) {
