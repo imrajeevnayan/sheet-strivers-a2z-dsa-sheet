@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:32:56.914Z
+ * Synced: 2026-06-04T16:33:02.697Z
  */
 
 class Solution {
@@ -25,4 +25,5 @@ class Solution {
     }
                 (c=='}'&& c!='{')  ||
 
+                (c=='')
 }
