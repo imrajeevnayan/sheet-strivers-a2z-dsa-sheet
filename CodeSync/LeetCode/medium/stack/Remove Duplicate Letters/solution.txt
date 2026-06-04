@@ -7,7 +7,7 @@
  * Topics: String, Stack, Greedy, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T08:30:03.629Z
+ * Synced: 2026-06-04T08:30:17.459Z
  */
 
 class Solution {
@@ -15,4 +15,5 @@ class Solution {
         
     }
         Stack<Character>st=new Stack<>();
+        for(char c)
 }
