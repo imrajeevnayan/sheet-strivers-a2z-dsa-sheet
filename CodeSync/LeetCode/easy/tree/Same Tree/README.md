@@ -6,8 +6,8 @@
 - Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/same-tree/description/
-- Synced: 2026-06-04T06:58:09.752Z
+- Problem URL: https://leetcode.com/problems/same-tree/
+- Synced: 2026-06-04T06:58:15.921Z
 
 ## Problem Description
 
