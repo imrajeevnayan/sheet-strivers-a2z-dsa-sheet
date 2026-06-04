@@ -7,7 +7,7 @@
  * Topics: String, Stack, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T17:23:00.159Z
+ * Synced: 2026-06-04T17:23:02.154Z
  */
 
 class Solution {
