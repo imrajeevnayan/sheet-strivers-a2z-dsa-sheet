@@ -1,0 +1,40 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Remove Invalid Parentheses
+ * URL: https://www.naukri.com/code360/problems/remove-invalid-parentheses_1263697
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-04T16:10:40.549Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+import java.util.ArrayList;
+ 
+public class Solution {
+    public static ArrayList<String> removeInvalidParentheses(String str) {
+        ArrayList<String> result = new ArrayList<>();
+        if (str == null) return result;
+        
+        Set<String> visited = new HashSet<>();
+        Queue<String> queue = new LinkedList<>();
+        
+        queue.add(str);
+        visited.add(str);
+        boolean found = false;
+        
+        while (!queue.isEmpty()) {
+            String current = queue.poll();
+            
+            if (isValid(current)) {
+                result.add(current);
+                found = true;
+            }
+            
+            if (found) continue;
+            
+            for (int i = 0; i < current.length(); i++) {
+                if (current.charAt(i) != '(' && current.charAt(i) != ')') continue;
