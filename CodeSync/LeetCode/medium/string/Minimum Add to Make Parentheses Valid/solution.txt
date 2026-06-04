@@ -7,12 +7,15 @@
  * Topics: String, Stack, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T17:22:44.453Z
+ * Synced: 2026-06-04T17:23:00.159Z
  */
 
 class Solution {
     public int minAddToMakeValid(String s) {
         
+        int left=0,right=0;
+        for(char c:s.toCharArray()){
+            
+        }
     }
-        int left=0,right=0
 }
