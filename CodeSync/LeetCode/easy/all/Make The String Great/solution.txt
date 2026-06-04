@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Make The String Great
- * URL: https://leetcode.com/problems/make-the-string-great/
+ * URL: https://leetcode.com/problems/make-the-string-great/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:44:07.696Z
+ * Synced: 2026-06-04T16:47:07.088Z
  */
 
 class Solution {
