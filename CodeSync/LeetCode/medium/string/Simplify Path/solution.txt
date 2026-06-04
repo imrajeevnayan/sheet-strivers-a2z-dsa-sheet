@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T08:26:37.103Z
+ * Synced: 2026-06-04T08:26:41.103Z
  */
 
 public String simplifyPath(String path) {
