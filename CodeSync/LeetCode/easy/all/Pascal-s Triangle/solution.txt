@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T07:11:43.091Z
+ * Synced: 2026-06-04T07:11:51.990Z
  */
 
 public List<List<Integer>> generate(int numRows) {
@@ -18,10 +18,8 @@ public List<List<Integer>> generate(int numRows) {
             long ans = 1; 
 
             for (int j = 0; j <= i; j++) {
-                // Add the current calculated value
                 row.add((int) ans);
                 
-                // Calculate next value in the same row
                 // Formula: C(i, j+1) = C(i, j) * (i - j) / (j + 1)
                 ans = ans * (i - j) / (j + 1);
             }
@@ -31,3 +29,4 @@ public List<List<Integer>> generate(int numRows) {
         return triangle;
     }
 class Solution {
+}
