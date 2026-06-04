@@ -7,7 +7,7 @@
  * Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T09:53:39.956Z
+ * Synced: 2026-06-04T09:55:12.939Z
  */
 
 public·class·Solution·{
@@ -15,4 +15,7 @@ public·class·Solution·{
 ·····HashMap<Character,Integer>map=new·HashMap<>();
 ····}
 ·····Stack<Character>st=new·Stack<>();
+·····int·freq[]=new·int[26];
+·····for(char·c:s.toCharArray())·freq[c-'a']++;
+·····
 }
