@@ -7,15 +7,18 @@
  * Topics: String, Stack, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T17:23:17.103Z
+ * Synced: 2026-06-04T17:23:30.158Z
  */
 
 class Solution {
     public int minAddToMakeValid(String s) {
-        
         int left=0,right=0;
         for(char c:s.toCharArray()){
-            if(c=='()')
+            if(c=='(') left++;
+            else{
         }
+        
+                
+            }
     }
 }
