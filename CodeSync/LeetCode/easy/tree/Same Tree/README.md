@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/same-tree/
-- Synced: 2026-06-04T06:58:55.737Z
+- Memory: 42.69 MB
+- Problem URL: https://leetcode.com/problems/same-tree/submissions/2021999021/
+- Synced: 2026-06-04T06:59:04.865Z
 
 ## Problem Description
 
