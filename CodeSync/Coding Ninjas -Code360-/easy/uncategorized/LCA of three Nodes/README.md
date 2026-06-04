@@ -7,7 +7,7 @@
 - Runtime: 3522 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/triplets-with-given-sum_893028
-- Synced: 2026-06-04T16:21:48.053Z
+- Synced: 2026-06-04T16:21:52.052Z
 
 ## Problem Description
 
