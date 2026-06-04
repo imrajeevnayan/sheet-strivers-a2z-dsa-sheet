@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: 2 ms
  * Memory: 43.21 MB
- * Synced: 2026-06-04T16:23:19.494Z
+ * Synced: 2026-06-04T16:23:23.114Z
  */
 
 1class Solution {
