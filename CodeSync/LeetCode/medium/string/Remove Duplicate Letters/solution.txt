@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: String, Stack, Greedy, Monotonic Stack
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-04T09:42:55.406Z
+ * Memory: 43.72 MB
+ * Synced: 2026-06-04T09:43:00.437Z
  */
 
 if (visited[c - 'a']) continue;
