@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Simplify Path
+ * URL: https://leetcode.com/problems/simplify-path/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: String, Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-04T07:01:25.721Z
+ */
+
+class Solution {
+    public String simplifyPath(String path) {
+        
+    }
+}
