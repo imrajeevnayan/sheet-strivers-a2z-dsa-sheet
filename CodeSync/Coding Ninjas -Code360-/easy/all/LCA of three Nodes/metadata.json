@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-04T16:06:13.466Z",
-  "runtime": "976 ms",
+  "submissionTimestamp": "2026-06-04T16:11:55.171Z",
+  "runtime": "671 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/next-smaller-element_1112581",
-  "submissionId": "296b92"
+  "problemUrl": "https://www.naukri.com/code360/problems/beautiful-string_1115625",
+  "submissionId": "op32xx"
 }
