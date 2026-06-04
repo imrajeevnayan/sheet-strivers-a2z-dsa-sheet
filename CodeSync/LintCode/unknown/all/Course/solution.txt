@@ -1,44 +1,34 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/problem/2506/solution/93753
- * Language: ALL(102) Java(34) Python 3(33) C++(23) JavaScript(12)
+ * URL: https://www.lintcode.com/problem/392/solution/93757?showListFe=false&page=1&problemTypeId=4&pageSize=50
+ * Language: ALL(46) Python 3(21) Java(20) C++(9)
  * Difficulty: Unknown
- * Topics: PRE, More, C++, @param, @return, Java, Python 3, Java Stack
+ * Topics: Highlight, @param, @return, More, Python 3 C++ Java, Python 3, C++, Java
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T08:38:17.195Z
+ * Synced: 2026-06-04T06:49:24.565Z
  */
 
 public·class·Solution·{
-····public·String·removeParentheses(String·s)·{
-········int·n·=·s.length();
-········boolean[]·remove·=·new·boolean[n];
-········Deque<Integer>·stack·=·new·ArrayDeque<>();
+····public·long·houseRobber(int[]·a)·{
+········if·(a·==·null·||·a.length·==·0)·return·0;
+········if·(a.length·==·1)·return·a[0];
+········
+········int·n·=·a.length;
+········
+········long·prev2·=·0;
+········long·prev1·=·0;
+········
 ········for·(int·i·=·0;·i·<·n;·i++)·{
-············char·c·=·s.charAt(i);
-············if·(c·==·'(')·{
-················stack.push(i);
-············}·else·if·(c·==·')')·{
-················if·(!stack.isEmpty())·{
-····················stack.pop();·//·matched
-················}·else·{
-····················remove[i]·=·true;·//·invalid·')'
-················}
-············}
+············//·Either·skip·current·house·(prev1)·or·rob·it·(prev2·+·a[i])
+············long·curr·=·Math.max(prev1,·prev2·+·a[i]);
+············
+············//·Shift·variables·forward
+············prev2·=·prev1;
+············prev1·=·curr;
 ········}
-
-········//·leftover·'('·are·invalid
-········while·(!stack.isEmpty())·{
-············remove[stack.pop()]·=·true;
-········}
-
-········StringBuilder·sb·=·new·StringBuilder();
-········for·(int·i·=·0;·i·<·n;·i++)·{
-············if·(!remove[i])·{
-················sb.append(s.charAt(i));
-············}
-········}
-
-········return·sb.toString();
+········
+········return·prev1;
 ····}
+}
