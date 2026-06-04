@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-04T16:42:18.167Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-04T16:42:34.985Z",
+  "runtime": "0 ms",
+  "memoryUsage": "43.54 MB",
   "difficulty": "Easy",
   "tags": [
     "String",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Make The String Great",
-  "problemUrl": "https://leetcode.com/problems/make-the-string-great/",
-  "submissionId": "39q2jl"
+  "problemUrl": "https://leetcode.com/problems/make-the-string-great/submissions/2022493479/",
+  "submissionId": "5671i3"
 }
