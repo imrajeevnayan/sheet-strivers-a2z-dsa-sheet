@@ -1,17 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Duplicate Letters
- * URL: https://leetcode.com/problems/remove-duplicate-letters/description/
+ * URL: https://leetcode.com/problems/remove-duplicate-letters/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack, Greedy, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T08:29:13.178Z
+ * Synced: 2026-06-04T08:29:42.579Z
  */
 
 class Solution {
     public String removeDuplicateLetters(String s) {
         
     }
+        
 }
