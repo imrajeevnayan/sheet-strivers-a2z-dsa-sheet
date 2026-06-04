@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 1379 ms
+- Runtime: 976 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/mergesort-linked-list_630514
-- Synced: 2026-06-03T12:39:57.603Z
+- Problem URL: https://www.naukri.com/code360/problems/next-smaller-element_1112581
+- Synced: 2026-06-04T16:06:13.466Z
 
 ## Problem Description
 
