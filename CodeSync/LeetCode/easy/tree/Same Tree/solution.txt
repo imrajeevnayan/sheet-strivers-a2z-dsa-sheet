@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-04T06:58:52.752Z
+ * Synced: 2026-06-04T06:58:55.737Z
  */
 
 class Solution {
