@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Linked List, Two Pointers, Stack, Recursion
-- Runtime: 0 ms
-- Memory: 101.70 MB
-- Problem URL: https://leetcode.com/problems/palindrome-linked-list/?utm=codolio
-- Synced: 2026-06-03T12:27:51.838Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/palindrome-linked-list/description/?utm=codolio
+- Synced: 2026-06-04T06:54:29.177Z
 
 ## Problem Description
 
