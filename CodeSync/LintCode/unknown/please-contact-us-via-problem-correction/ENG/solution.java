@@ -7,7 +7,7 @@
  * Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T09:57:15.852Z
+ * Synced: 2026-06-04T09:57:24.821Z
  */
 
 ·····for(char·c:s.toCharArray){
@@ -19,9 +19,9 @@
 ············st.push(c);
 ············map.add(c);
 ········}
-········StringBuilder·sb·=·new·StringBuilder();
-········for·(char·c·:·st)·sb.append(c);
-········return·sb.toString();
-·····}
-····}
-}
+·····Stack<Character>st=new·Stack<>();
+·····for(char·c:s.toCharArray())·freq[c-'a']++;
+·····HashMap<Character,Integer>map=new·HashMap<>();
+·····int·freq[]=new·int[26];
+public·class·Solution·{
+····public·String·removeDuplicateLetters(String·s)·{
