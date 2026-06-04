@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: # Best solution in Java.
+ * URL: https://www.geeksforgeeks.org/problems/good-string5712/1
+ * Language: // User function Template for Java class Solution { String isGoodString(String s) { // code here char[] c = s.toCharArray(); for ( int i = 0 ; i < c.length-1 ; i++ ) { int check = Math.abs(c[i] - c[i+1]); if ( check == 1 || check == 25 ) { continue; } else { return "NO"; } } return "YES"; } }
+ * Difficulty: Unknown
+ * Topics: Topic Tags, Strings, Data Structures
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-04T17:02:40.845Z
+ */
+
+class Solution {
+    String isGoodString(String s) {
+     
+        
+    }
+}
