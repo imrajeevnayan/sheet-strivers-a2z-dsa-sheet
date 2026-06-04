@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T07:11:53.841Z
+ * Synced: 2026-06-04T07:12:03.572Z
  */
 
 public List<List<Integer>> generate(int numRows) {
@@ -23,9 +23,9 @@ public List<List<Integer>> generate(int numRows) {
                 ans = ans * (i - j) / (j + 1);
             }
             
-            triangle.add(row);
+            res.add(row);
         }
-        return triangle;
+        return res;
     }
 class Solution {
 }
