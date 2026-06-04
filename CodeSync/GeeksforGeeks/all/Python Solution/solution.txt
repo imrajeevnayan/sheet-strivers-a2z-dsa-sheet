@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Python Solution:
+ * URL: https://www.geeksforgeeks.org/problems/floyds-triangle1222/1
+ * Language: class Solution: def printFloydTriangle(self, N): #code here c = 0 for i in range(1, N+1): for j in range(1, i+1): c+=1 print(c, end=" ") print()
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Mathematical, Algorithms, Related Articles, Program To Print Floyds Triangle
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-04T07:16:54.938Z
+ */
+
+import java.util.Scanner;
+class GFG {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int ans=1;
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=i;j++){
+                System.out.print(ans+" ");
+                ans++;
+            }
+            System.out.println();
+        }
+    }
+}
