@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-04T09:44:40.670Z",
+  "submissionTimestamp": "2026-06-04T09:45:24.760Z",
   "runtime": "0 ms",
-  "memoryUsage": "43.72 MB",
+  "memoryUsage": "44.03 MB",
   "difficulty": "Medium",
   "tags": [
     "String",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Remove Duplicate Letters",
-  "problemUrl": "https://leetcode.com/problems/remove-duplicate-letters/",
-  "submissionId": "ohiadn"
+  "problemUrl": "https://leetcode.com/problems/remove-duplicate-letters/submissions/2022143991/",
+  "submissionId": "11qh2k"
 }
