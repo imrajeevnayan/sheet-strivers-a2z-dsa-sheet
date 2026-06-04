@@ -6,7 +6,7 @@
 # Topics: StackGreedy, Stack, Greedy, Facebook, 2506 Remove the Invalid Parentheses Easy, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-04T17:24:31.903Z
+# Synced: 2026-06-04T17:24:33.404Z
 
 public·class·Solution·{
 ····public·int·minAddToMakeValid(String·s)·{
