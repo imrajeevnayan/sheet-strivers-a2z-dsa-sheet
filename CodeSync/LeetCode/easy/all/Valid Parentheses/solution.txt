@@ -7,22 +7,24 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:36:10.800Z
+ * Synced: 2026-06-04T16:37:52.915Z
  */
 
 class Solution {
     public boolean isValid(String s) {
-        Stack<Character>st=new Stack<>();
-        for(char ch:s.toCharArray()){
-          if(ch=='('|| ch=='{'|| ch=='[') st.push(ch);
-          else {
-            if(st.isEmpty())return false;
-            char top =st.pop();
-            if( (c==')' && top !='(') ||
-                (c=='}'&& top !='{')  ||
-                (c==']'&& top !='[') ) return false;
-             }
+        Deque<Character> st = new ArrayDeque<>();
+        for (char c : s.toCharArray()) {
+            if (c == '(' || c == '{' || c == '[') st.push(c);
+            else {
+                if (stack.isEmpty()) return false; 
+                char top = stack.pop();
+                if ((c == ')' && top != '(') ||
+                    (c == '}' && top != '{') ||
+                    (c == ']' && top != '[')) {
+                    return false;
+                }
+            }
         }
-        return st.isEmpty();
+        return stack.isEmpty();
     }
 }
