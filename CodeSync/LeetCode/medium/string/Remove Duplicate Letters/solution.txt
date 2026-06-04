@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack, Greedy, Monotonic Stack
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-04T08:37:16.341Z
+ * Runtime: 14 ms
+ * Memory: 47.33 MB
+ * Synced: 2026-06-04T08:37:17.849Z
  */
 
 Input: s = "bcabc"
