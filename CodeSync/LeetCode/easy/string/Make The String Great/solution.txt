@@ -7,15 +7,13 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:41:41.416Z
+ * Synced: 2026-06-04T16:41:47.213Z
  */
 
 public String makeGood(String s) {
         Stack<Character> st = new Stack<>();
         
         for (char c : s.toCharArray()) {
-            // Check if stack is not empty and the top char is the "bad" pair of current char
-            // The difference between 'a' and 'A' is 32 in ASCII
             if (!st.isEmpty() && Math.abs(st.peek() - c) == 32) {
                 st.pop();
             } else {
@@ -31,3 +29,4 @@ public String makeGood(String s) {
         return sb.toString();
     }
 class Solution {
+}
