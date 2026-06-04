@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-04T08:26:49.388Z",
+  "submissionTimestamp": "2026-06-04T08:26:56.343Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "44.94 MB",
   "difficulty": "Medium",
   "tags": [
     "String",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Simplify Path",
-  "problemUrl": "https://leetcode.com/problems/simplify-path/",
+  "problemUrl": "https://leetcode.com/problems/simplify-path/submissions/2022074522/",
   "submissionId": "4ku4oh"
 }
