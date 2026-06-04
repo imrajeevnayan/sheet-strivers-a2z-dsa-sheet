@@ -1,16 +1,18 @@
 {
-  "submissionTimestamp": "2026-06-03T07:34:24.193Z",
+  "submissionTimestamp": "2026-06-04T09:46:59.660Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
+    "PRE",
+    "please contact us via \"Problem Correction\"",
     "Stack",
-    "2506 Remove the Invalid Parentheses Easy",
+    "Google",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/263",
-  "submissionId": "gd4xbh"
+  "problemUrl": "https://www.lintcode.com/problem/834/",
+  "submissionId": "q8mrna"
 }
