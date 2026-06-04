@@ -1,20 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Simplify Path
- * URL: https://leetcode.com/problems/simplify-path/submissions/2022074522/
+ * URL: https://leetcode.com/problems/simplify-path/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack
  * Runtime: 0 ms
  * Memory: 44.94 MB
- * Synced: 2026-06-04T08:27:13.156Z
+ * Synced: 2026-06-04T08:28:41.763Z
  */
 
-public String simplifyPath(String path) {
-        String[] parts = path.split("/");
-        LinkedList<String> stack = new LinkedList<>();
-
-        for (String part : parts) {
+for (String part : parts) {
             if (part.equals("..")) {
                 if (!stack.isEmpty()) stack.removeLast();
             } else if (!part.equals("") && !part.equals(".")) {
@@ -30,4 +26,8 @@ public String simplifyPath(String path) {
         }
         return sb.toString();
     }
+        LinkedList<String> stack = new LinkedList<>();
+
+        String[] parts = path.split("/");
 class Solution {
+    public String simplifyPath(String path) {
