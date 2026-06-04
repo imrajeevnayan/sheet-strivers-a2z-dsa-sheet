@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: String, Stack
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
-- Synced: 2026-06-04T06:59:09.664Z
+- Problem URL: https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/submissions/2022491289/
+- Synced: 2026-06-04T16:40:14.159Z
 
 ## Problem Description
 
