@@ -7,7 +7,7 @@
  * Topics: Dynamic Programming, DPCoordinate DP, DP, Coordinate DP, LinkedIn Airbnb, LinkedIn, Airbnb, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T06:48:50.825Z
+ * Synced: 2026-06-04T06:49:04.592Z
  */
 
 public·class·Solution·{
@@ -17,8 +17,6 @@ public·class·Solution·{
 ········
 ········int·n·=·a.length;
 ········
-········//·prev2:·max·amount·robbing·up·to·house·i-2
-········//·prev1:·max·amount·robbing·up·to·house·i-1
 ········long·prev2·=·0;
 ········long·prev1·=·0;
 ········
@@ -27,10 +25,3 @@ public·class·Solution·{
 ············long·curr·=·Math.max(prev1,·prev2·+·a[i]);
 ············
 ············//·Shift·variables·forward
-············prev2·=·prev1;
-············prev1·=·curr;
-········}
-········
-········return·prev1;
-····}
-}
