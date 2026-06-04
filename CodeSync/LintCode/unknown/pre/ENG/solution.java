@@ -1,27 +1,21 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/2506
+ * URL: https://www.lintcode.com/problem/834/
  * Language: Java
  * Difficulty: Unknown
- * Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Commit Output
+ * Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T08:37:58.440Z
+ * Synced: 2026-06-04T09:45:48.817Z
  */
 
-········//·leftover·'('·are·invalid
-········while·(!stack.isEmpty())·{
-············remove[stack.pop()]·=·true;
-········}
-
-········StringBuilder·sb·=·new·StringBuilder();
-········for·(int·i·=·0;·i·<·n;·i++)·{
-············if·(!remove[i])·{
-················sb.append(s.charAt(i));
-············}
-········}
-
-········return·sb.toString();
+public·class·Solution·{
+····/**
+·····*·@param·s:·a·string
+·····*·@return:·return·a·string
+·····*/
+····public·String·removeDuplicateLetters(String·s)·{
+········//·write·your·code·here
 ····}
 }
