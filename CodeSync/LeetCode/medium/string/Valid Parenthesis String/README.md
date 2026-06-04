@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: String, Dynamic Programming, Stack, Greedy
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/valid-parenthesis-string/
-- Synced: 2026-06-04T17:47:48.548Z
+- Memory: 42.67 MB
+- Problem URL: https://leetcode.com/problems/valid-parenthesis-string/submissions/2022562262/
+- Synced: 2026-06-04T17:47:54.530Z
 
 ## Problem Description
 
