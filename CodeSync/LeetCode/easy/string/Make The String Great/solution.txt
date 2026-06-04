@@ -1,15 +1,25 @@
 /*
  * Platform: LeetCode
  * Problem: Make The String Great
- * URL: https://leetcode.com/problems/make-the-string-great/submissions/2022493479/
+ * URL: https://leetcode.com/problems/make-the-string-great/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack
- * Runtime: 3 ms
- * Memory: 43.54 MB
- * Synced: 2026-06-04T16:43:22.171Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-04T16:44:07.696Z
  */
 
-Input: s = "leEeetcode"
-Output: "leetcode"
-Explanation: In the first step, either you choose i = 1 or i = 2, both will result "leEeetcode" to be reduced to "leetcode".
+class Solution {
+    public String makeGood(String s) {
+        Stack<Character> st = new Stack<>();
+        
+        for (char c : s.toCharArray()) {
+            if (!st.isEmpty() && Math.abs(st.peek() - c) == 32) st.pop();
+            else st.push(c);    
+        }
+        StringBuilder sb = new StringBuilder();
+        for (char c : st) sb.append(c);
+        return sb.toString();
+    }
+}
