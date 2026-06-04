@@ -4,10 +4,10 @@
  * URL: https://www.lintcode.com/problem/834/
  * Language: Java
  * Difficulty: Unknown
- * Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Test Output
+ * Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Commit Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T09:57:50.433Z
+ * Synced: 2026-06-04T09:57:52.425Z
  */
 
 ········for·(char·c·:·s.toCharArray())·{
