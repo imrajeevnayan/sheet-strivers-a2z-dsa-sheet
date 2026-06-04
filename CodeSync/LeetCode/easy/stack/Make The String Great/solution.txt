@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:41:54.715Z
+ * Synced: 2026-06-04T16:42:02.316Z
  */
 
 public String makeGood(String s) {
@@ -15,9 +15,8 @@ public String makeGood(String s) {
         
         for (char c : s.toCharArray()) {
             if (!st.isEmpty() && Math.abs(st.peek() - c) == 32) st.pop();
-            else {
-                st.push(c);
-            }
+            else st.push(c);
+            
         }
         
         // Build result from stack
