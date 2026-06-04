@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Valid Parentheses
- * URL: https://leetcode.com/problems/valid-parentheses/
+ * URL: https://leetcode.com/problems/valid-parentheses/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:30:33.818Z
+ * Synced: 2026-06-04T16:30:37.349Z
  */
 
 class Solution {
