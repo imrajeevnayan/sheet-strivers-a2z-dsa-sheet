@@ -6,8 +6,8 @@
 - Topics: String, Stack
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/make-the-string-great/description/
-- Synced: 2026-06-04T16:47:23.337Z
+- Problem URL: https://leetcode.com/problems/make-the-string-great/
+- Synced: 2026-06-04T16:47:43.159Z
 
 ## Problem Description
 
