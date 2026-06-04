@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: 0 ms
  * Memory: 43.56 MB
- * Synced: 2026-06-04T07:17:58.082Z
+ * Synced: 2026-06-04T07:18:07.082Z
  */
 
 public List<List<Integer>> generate(int numRows) {
@@ -19,7 +19,6 @@ public List<List<Integer>> generate(int numRows) {
 
             for (int j = 0; j <= i; j++) {
                 row.add((int) ans);
-                
                 ans = ans * (i - j) / (j + 1);
             }
             res.add(row);
