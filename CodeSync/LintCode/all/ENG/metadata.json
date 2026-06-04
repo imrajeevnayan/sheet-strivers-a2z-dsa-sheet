@@ -1,18 +1,18 @@
 {
-  "submissionTimestamp": "2026-06-04T10:01:27.106Z",
+  "submissionTimestamp": "2026-06-04T11:33:27.156Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "PRE",
-    "please contact us via \"Problem Correction\"",
+    "StackMonotonic Stack",
     "Stack",
-    "Google",
-    "Test Data Commit Output"
+    "Monotonic Stack",
+    "Microsoft",
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "1public class Solution { 2 public String removeDuplicateLetters(String s) { 3 int[] freq = new int[26]; 4 HashSet<Character> map = new HashSet<>(); 5 Stack<Character> st = new Stack<>(); 6 for (char c : s.toCharArray()) freq[c - 'a']++; 7 for (char c : s.toCharArray()) { 8 freq[c - 'a']--; 9 if (map.contains(c)) continue; 10 while (!st.isEmpty() && st.peek() > c && freq[st.peek() - 'a'] > 0) { 11 map.remove(st.pop()); 12 } 13 st.push(c); 14 map.add(c); 15 } 16 StringBuilder sb = new StringBuilder(); 17 for (char c : st) sb.append(c); 18 return sb.toString(); 19 20 } 21}",
+  "language": "Python",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/834/",
-  "submissionId": "hnb12s"
+  "problemUrl": "https://www.lintcode.com/problem/1740/",
+  "submissionId": "kvhpcg"
 }
