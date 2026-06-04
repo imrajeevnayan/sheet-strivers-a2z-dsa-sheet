@@ -1,19 +1,22 @@
 # Platform: LintCode
 # Problem: ENG
-# URL: https://www.lintcode.com/problem/2506/?showListFe=true&page=1&problemTypeId=4&tagIds=361&ordering=level&pageSize=50
+# URL: https://www.lintcode.com/problem/1740/
 # Language: Python
 # Difficulty: Unknown
-# Topics: PRE, please contact us via "Problem Correction", StackString, Stack, String, Test Data Test Output
+# Topics: StackMonotonic Stack, Stack, Monotonic Stack, Microsoft, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-03T07:28:55.367Z
+# Synced: 2026-06-04T11:33:27.156Z
 
-public·class·Solution·{
+public·class·StockSpanner·{
+····public·StockSpanner()·{
+········
+····}
 ····/**
-·····*·@param·s:·A·string·with·lowercase·letters·and·parentheses
-·····*·@return:·A·string·which·has·been·removed·invalid·parentheses
+·····*·@param·price:·
+·····*·@return:·int
 ·····*/
-····public·String·removeParentheses(String·s)·{
-········//·write·your·code·here.
+····public·int·next(int·price)·{
+········//·Write·your·code·here.
 ····}
 }
