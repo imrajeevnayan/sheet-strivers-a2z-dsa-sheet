@@ -7,15 +7,15 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T07:11:33.974Z
+ * Synced: 2026-06-04T07:11:43.091Z
  */
 
 public List<List<Integer>> generate(int numRows) {
-        List<List<Integer>> triangle = new ArrayList<>();
+        List<List<Integer>> res = new ArrayList<>();
 
         for (int i = 0; i < numRows; i++) {
             List<Integer> row = new ArrayList<>();
-            long ans = 1; // Use long to prevent overflow during calculation
+            long ans = 1; 
 
             for (int j = 0; j <= i; j++) {
                 // Add the current calculated value
