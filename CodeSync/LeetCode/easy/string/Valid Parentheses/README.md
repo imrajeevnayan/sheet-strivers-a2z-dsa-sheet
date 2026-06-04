@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/valid-parentheses/
-- Synced: 2026-06-04T16:31:31.065Z
+- Synced: 2026-06-04T16:31:32.939Z
 
 ## Problem Description
 
