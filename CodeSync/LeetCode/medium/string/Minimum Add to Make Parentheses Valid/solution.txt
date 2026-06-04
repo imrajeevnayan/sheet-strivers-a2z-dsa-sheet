@@ -7,7 +7,7 @@
  * Topics: String, Stack, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T17:23:07.157Z
+ * Synced: 2026-06-04T17:23:12.320Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
         
         int left=0,right=0;
         for(char c:s.toCharArray()){
-            if( c)
+            if(c==)
         }
     }
 }
