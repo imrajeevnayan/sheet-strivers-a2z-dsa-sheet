@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-02T15:54:25.588Z",
+  "submissionTimestamp": "2026-06-04T17:57:46.207Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "nextSmallerEle(arr) { // code here let stk=[] let ans=[]; let lastIndex=arr.length-1; for(let k=arr.length-1;k>=0;k--){ while(stk.length>0 && stk[stk.length-1]>=arr[k]){ stk.pop() } if(stk.length>0){ ans[lastIndex--]=stk[stk.length-1] } stk.push(arr[k]) } return ans }",
   "problemTitle": "Easy",
   "problemUrl": "https://www.geeksforgeeks.org/problems/immediate-smaller-element1142/1",
-  "submissionId": "m3ro5j"
+  "submissionId": "ax9i5g"
 }
