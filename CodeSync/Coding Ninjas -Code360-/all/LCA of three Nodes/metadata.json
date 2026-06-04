@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-03T12:39:57.603Z",
-  "runtime": "1379 ms",
+  "submissionTimestamp": "2026-06-04T16:06:13.466Z",
+  "runtime": "976 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/mergesort-linked-list_630514",
-  "submissionId": "n83x9z"
+  "problemUrl": "https://www.naukri.com/code360/problems/next-smaller-element_1112581",
+  "submissionId": "296b92"
 }
