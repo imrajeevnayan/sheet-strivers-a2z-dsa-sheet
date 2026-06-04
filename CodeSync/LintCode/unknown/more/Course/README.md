@@ -1,13 +1,13 @@
 # Course
 
 - Platform: LintCode
-- Language: ALL(102) Java(34) Python 3(33) C++(23) JavaScript(12)
+- Language: ALL(17) Java(7) Python 3(6) C++(3) TypeScript(1)
 - Difficulty: Unknown
-- Topics: PRE, More, C++, @param, @return, Java, Python 3, Java Stack
+- Topics: PRE, Highlight, More, Python 3, Java, C++, @param, @return
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/2506/solution/93753
-- Synced: 2026-06-03T08:38:17.195Z
+- Problem URL: https://www.lintcode.com/problem/834/solution/93759
+- Synced: 2026-06-04T10:01:46.603Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Course Problem Referral VIP CAT Contest Note More... Problems,tags,collection Sc
 
 ## Explanation
 
-This solution was accepted on LintCode using ALL(102) Java(34) Python 3(33) C++(23) JavaScript(12). The detected topics are PRE, More, C++, @param, @return, Java, Python 3, Java Stack. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using ALL(17) Java(7) Python 3(6) C++(3) TypeScript(1). The detected topics are PRE, Highlight, More, Python 3, Java, C++, @param, @return. Review the synced source file for the implementation details.
