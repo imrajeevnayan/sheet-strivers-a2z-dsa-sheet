@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Valid Parentheses
- * URL: https://leetcode.com/problems/valid-parentheses/
+ * URL: https://leetcode.com/problems/valid-parentheses/submissions/2022490165/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-04T16:38:21.484Z
+ * Synced: 2026-06-04T16:39:08.877Z
  */
 
 class Solution {
@@ -16,13 +16,13 @@ class Solution {
         for (char c : s.toCharArray()) {
             if (c == '(' || c == '{' || c == '[') st.push(c);
             else {
-                if (stack.isEmpty()) return false; 
-                char top = stack.pop();
+                if (st.isEmpty()) return false; 
+                char top = st.pop();
                 if ((c == ')' && top != '(') ||
                     (c == '}' && top != '{') ||
                     (c == ']' && top != '[')) return false;
             }
         }
-        return stack.isEmpty();
+        return st.isEmpty();
     }
 }
