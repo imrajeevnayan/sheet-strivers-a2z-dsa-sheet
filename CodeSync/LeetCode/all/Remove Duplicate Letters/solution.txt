@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Duplicate Letters
- * URL: https://leetcode.com/problems/remove-duplicate-letters/description/
+ * URL: https://leetcode.com/problems/remove-duplicate-letters/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack, Greedy, Monotonic Stack
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-04T09:46:04.020Z
+ * Synced: 2026-06-04T09:57:33.503Z
  */
 
 for (char c : s.toCharArray()) {
@@ -19,14 +19,14 @@ for (char c : s.toCharArray()) {
             st.push(c);
             map.add(c);
         for (char c : s.toCharArray()) freq[c - 'a']++;
-
         }
         StringBuilder sb = new StringBuilder();
         for (char c : st) sb.append(c);
         return sb.toString();
     }
         Stack<Character> st = new Stack<>();
-        int[] freq = new int[26];
         HashSet<Character> map = new HashSet<>();
-class Solution {
+}
+        int[] freq = new int[26];
     public String removeDuplicateLetters(String s) {
+class Solution {
