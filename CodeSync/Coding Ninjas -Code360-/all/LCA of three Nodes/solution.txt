@@ -1,33 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/beautiful-string_1115625
+ * URL: https://www.naukri.com/code360/problems/triplets-with-given-sum_893028
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 671 ms
+ * Runtime: 3522 ms
  * Memory: N/A
- * Synced: 2026-06-04T16:11:55.171Z
+ * Synced: 2026-06-04T16:21:40.054Z
  */
 
+import java.util.* ;
+import java.io.*; 
 public class Solution {
-    public static int makeBeautiful(String str) {
-        int n = str.length();
-        int count1 = 0; 
-        int count2 = 0;
- 
-        for (int i = 0; i < n; i++) {
-            char c = str.charAt(i);
+    public static ArrayList<ArrayList<Integer>> findTriplets(int[] arr, int n, int K)  {
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();       
+        Arrays.sort(arr);    
+        for (int i = 0; i < n - 2; i++) {
+            // Skip duplicate elements for the first number
+            if (i > 0 && arr[i] == arr[i - 1]) continue;
             
-            if (i % 2 == 0) {
-                if (c != '0') count1++;
-                if (c != '1') count2++;
-            } else {
-                if (c != '1') count1++;
-                if (c != '0') count2++;
-            }
-        }
- 
-        return Math.min(count1, count2);
-    }
-}
+            int left = i + 1;
+            int right = n - 1;
+            
+            while (left < right) {
+                int sum = arr[i] + arr[left] + arr[right];
+                
+                if (sum == K) {
+                    ArrayList<Integer> triplet = new ArrayList<>();
+                    triplet.add(arr[i]);
+                    triplet.add(arr[left]);
+                    triplet.add(arr[right]);
+                    result.add(triplet);
+                    
+                    // Skip duplicates for the second number
+                    while (left < right && arr[left] == arr[left + 1]) left++;
+                    // Skip duplicates for the third number
+                    while (left < right && arr[right] == arr[right - 1]) right--;
+                    
+                    left++;
