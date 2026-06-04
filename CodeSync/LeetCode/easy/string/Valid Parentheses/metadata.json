@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-04T16:39:02.218Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-04T16:39:08.877Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Valid Parentheses",
-  "problemUrl": "https://leetcode.com/problems/valid-parentheses/",
+  "problemUrl": "https://leetcode.com/problems/valid-parentheses/submissions/2022490165/",
   "submissionId": "uznnkz"
 }
