@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/make-the-string-great/
-- Synced: 2026-06-04T17:00:44.555Z
+- Synced: 2026-06-04T17:00:50.562Z
 
 ## Problem Description
 
