@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-06-03T08:38:17.195Z",
+  "submissionTimestamp": "2026-06-04T10:01:46.603Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "PRE",
+    "Highlight",
     "More",
+    "Python 3",
+    "Java",
     "C++",
     "@param",
-    "@return",
-    "Java",
-    "Python 3",
-    "Java Stack"
+    "@return"
   ],
   "platform": "LintCode",
-  "language": "ALL(102) Java(34) Python 3(33) C++(23) JavaScript(12)",
+  "language": "ALL(17) Java(7) Python 3(6) C++(3) TypeScript(1)",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/problem/2506/solution/93753",
-  "submissionId": "xvt28p"
+  "problemUrl": "https://www.lintcode.com/problem/834/solution/93759",
+  "submissionId": "qqprld"
 }
