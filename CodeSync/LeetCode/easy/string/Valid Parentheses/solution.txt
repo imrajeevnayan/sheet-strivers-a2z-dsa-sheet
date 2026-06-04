@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:30:20.095Z
+ * Synced: 2026-06-04T16:30:22.347Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
         Stack<Character>st=new Stack<>();
         for(char ch:s.toCharArray()){
           if(ch=='('|| ch=='{'|| ch=='[') st.push(ch);
-          
+          else 
         }
         
     }
