@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-04T17:47:48.548Z",
+  "submissionTimestamp": "2026-06-04T17:47:54.530Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "42.67 MB",
   "difficulty": "Medium",
   "tags": [
     "String",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Valid Parenthesis String",
-  "problemUrl": "https://leetcode.com/problems/valid-parenthesis-string/",
+  "problemUrl": "https://leetcode.com/problems/valid-parenthesis-string/submissions/2022562262/",
   "submissionId": "7szl7k"
 }
