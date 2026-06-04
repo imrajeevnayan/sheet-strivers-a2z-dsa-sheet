@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T07:11:21.684Z
+ * Synced: 2026-06-04T07:11:31.024Z
  */
 
 public List<List<Integer>> generate(int numRows) {
