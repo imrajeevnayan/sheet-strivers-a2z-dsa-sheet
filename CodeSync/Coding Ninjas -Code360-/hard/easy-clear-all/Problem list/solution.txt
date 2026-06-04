@@ -1,0 +1,40 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Problem list
+ * URL: https://www.naukri.com/code360/problems/find-prime-numbers_839723
+ * Language: All languages
+ * Difficulty: Hard
+ * Topics: Easy Clear all
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-04T16:18:54.725Z
+ */
+
+import java.util.ArrayList;
+ 
+public class Solution {
+ 
+    public static ArrayList<Integer> primeNumbersTillN(int N) 
+    { 
+        ArrayList<Integer> primes = new ArrayList<>();
+        if (N < 2) return primes;
+ 
+        boolean[] isComposite = new boolean[N + 1];
+ 
+        for (int i = 2; i * i <= N; i++) {
+            if (!isComposite[i]) {
+                for (int j = i * i; j <= N; j += i) {
+                    isComposite[j] = true;
+                }
+            }
+        }
+ 
+        for (int i = 2; i <= N; i++) {
+            if (!isComposite[i]) {
+                primes.add(i);
+            }
+        }
+ 
+        return primes;
+    }
+}
