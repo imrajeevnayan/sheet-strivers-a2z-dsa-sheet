@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 976 ms
+- Runtime: 671 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/next-smaller-element_1112581
-- Synced: 2026-06-04T16:06:13.466Z
+- Problem URL: https://www.naukri.com/code360/problems/beautiful-string_1115625
+- Synced: 2026-06-04T16:11:55.171Z
 
 ## Problem Description
 
