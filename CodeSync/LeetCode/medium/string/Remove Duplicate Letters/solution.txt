@@ -7,7 +7,7 @@
  * Topics: String, Stack, Greedy, Monotonic Stack
  * Runtime: 3 ms
  * Memory: 44.04 MB
- * Synced: 2026-06-04T08:37:05.349Z
+ * Synced: 2026-06-04T08:37:07.667Z
  */
 
 Input: s = "bcabc"
