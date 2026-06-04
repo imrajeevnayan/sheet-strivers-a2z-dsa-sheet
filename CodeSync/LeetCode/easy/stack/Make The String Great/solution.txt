@@ -7,13 +7,12 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:47:43.159Z
+ * Synced: 2026-06-04T17:00:44.555Z
  */
 
 class Solution {
     public String makeGood(String s) {
         Stack<Character> st = new Stack<>();
-        
         for (char c : s.toCharArray()) {
             if (!st.isEmpty() && Math.abs(st.peek() - c) == 32) st.pop();
             else st.push(c);    
