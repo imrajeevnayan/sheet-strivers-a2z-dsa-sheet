@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-05-31T19:06:47.916Z",
+  "submissionTimestamp": "2026-06-04T11:33:27.156Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -7,12 +7,12 @@
     "StackMonotonic Stack",
     "Stack",
     "Monotonic Stack",
-    "Google",
+    "Microsoft",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Java",
+  "language": "Python",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/1201/",
-  "submissionId": "i8nfyy"
+  "problemUrl": "https://www.lintcode.com/problem/1740/",
+  "submissionId": "kvhpcg"
 }
