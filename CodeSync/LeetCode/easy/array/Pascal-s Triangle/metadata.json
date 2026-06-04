@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-04T07:11:10.160Z",
+  "submissionTimestamp": "2026-06-04T07:11:21.684Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Pascal's Triangle",
-  "problemUrl": "https://leetcode.com/problems/pascals-triangle/description/",
-  "submissionId": "ngx6ii"
+  "problemUrl": "https://leetcode.com/problems/pascals-triangle/",
+  "submissionId": "id3o02"
 }
