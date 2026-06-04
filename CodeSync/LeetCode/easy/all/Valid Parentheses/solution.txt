@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-04T16:34:35.439Z
+ * Synced: 2026-06-04T16:34:45.439Z
  */
 
 class Solution {
@@ -21,7 +21,7 @@ class Solution {
             if( (c==')' && c!='(') ||
                 (c=='}'&& c!='{')  ||
                 (c==']'&& c!='[') ) return false;
-          }
+             }
         }
         return st.isEmpty();
     }
