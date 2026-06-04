@@ -7,7 +7,7 @@
  * Topics: String, Stack, Greedy, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T08:30:30.527Z
+ * Synced: 2026-06-04T08:30:32.028Z
  */
 
 class Solution {
