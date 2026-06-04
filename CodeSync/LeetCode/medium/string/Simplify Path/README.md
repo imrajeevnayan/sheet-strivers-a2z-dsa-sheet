@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 44.94 MB
 - Problem URL: https://leetcode.com/problems/simplify-path/
-- Synced: 2026-06-04T08:28:41.763Z
+- Synced: 2026-06-04T08:28:52.173Z
 
 ## Problem Description
 
