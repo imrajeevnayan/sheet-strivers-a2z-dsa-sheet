@@ -7,29 +7,20 @@
  * Topics: Topic Tags, Strings, Data Structures
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T17:05:09.371Z
+ * Synced: 2026-06-04T17:05:55.498Z
  */
 
 class Solution {
     String isGoodString(String s) {
-        int[] freq = new int[26];
-
-        for (char c : s.toCharArray()) {
-            freq[c - 'a']++;
-        }
-
-        int count = 0;
-
-        for (int f : freq) {
-            if (f > 0) {
-                if (count == 0) {
-                    count = f;
-                } else if (count != f) {
-                    return "NO";
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = i + 1; j < s.length(); j++) {
+                if (s.charAt(i) == s.charAt(j)) {
+                    if (j - i - 1 != 1) {
+                        return "NO";
+                    }
                 }
             }
         }
 
         return "YES";
     }
-}
