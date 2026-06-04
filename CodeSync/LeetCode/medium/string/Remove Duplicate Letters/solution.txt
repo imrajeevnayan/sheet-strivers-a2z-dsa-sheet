@@ -1,14 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: Remove Duplicate Letters
- * URL: https://leetcode.com/problems/remove-duplicate-letters/submissions/1906575900/
+ * URL: https://leetcode.com/problems/remove-duplicate-letters/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack, Greedy, Monotonic Stack
- * Runtime: 14 ms
- * Memory: 47.33 MB
- * Synced: 2026-06-04T08:37:17.849Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-04T09:42:24.436Z
  */
 
-Input: s = "bcabc"
-Output: "abc"
+for (char c : s.toCharArray()) {
+            freq[c - 'a']--;
+
+            if (visited[c - 'a']) continue;
+
+            while (!st.isEmpty() && st.peek() > c && freq[st.peek() - 'a'] > 0) {
+                visited[st.pop() - 'a'] = false;
+            }
+
+            st.push(c);
+            visited[c - 'a'] = true;
+        }
+        for (char c : s.toCharArray()) {
+            freq[c - 'a']++;
+        Stack<Character> st = new Stack<>();
+
+        boolean[] visited = new boolean[26];
+        int[] freq = new int[26];
+class Solution {
+    public String removeDuplicateLetters(String s) {
