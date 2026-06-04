@@ -6,8 +6,8 @@
 - Topics: String, Stack, Greedy, Monotonic Stack
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-duplicate-letters/
-- Synced: 2026-06-04T08:31:06.920Z
+- Problem URL: https://leetcode.com/problems/remove-duplicate-letters/submissions/
+- Synced: 2026-06-04T08:37:02.769Z
 
 ## Problem Description
 
