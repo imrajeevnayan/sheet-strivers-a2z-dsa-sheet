@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-04T09:42:39.402Z",
+  "submissionTimestamp": "2026-06-04T09:42:50.422Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -13,5 +13,5 @@
   "language": "Problem List",
   "problemTitle": "Remove Duplicate Letters",
   "problemUrl": "https://leetcode.com/problems/remove-duplicate-letters/",
-  "submissionId": "7kzuyl"
+  "submissionId": "75n07x"
 }
