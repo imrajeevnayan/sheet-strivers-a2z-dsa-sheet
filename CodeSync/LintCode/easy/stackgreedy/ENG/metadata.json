@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-06-04T17:24:43.932Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "StackGreedy",
+    "Stack",
+    "Greedy",
+    "Facebook",
+    "2506 Remove the Invalid Parentheses Easy",
+    "Test Data Commit Output"
+  ],
+  "platform": "LintCode",
+  "language": "1public class Solution { 2 public int minAddToMakeValid(String s) { 3 int left=0,right=0; 4 for(char c:s.toCharArray()){ 5 if(c=='(') left++; 6 else{ 7 if(left >0) left--; 8 else right++; 9 } 10 } 11 return left+right; 12 } 13}",
+  "problemTitle": "ENG",
+  "problemUrl": "https://www.lintcode.com/problem/1721/",
+  "submissionId": "nf12ha"
+}
