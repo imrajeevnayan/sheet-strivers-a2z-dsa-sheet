@@ -7,13 +7,15 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:25:39.166Z
+ * Synced: 2026-06-04T16:26:44.979Z
  */
 
 class Solution {
     public boolean isValid(String s) {
         Stack<Character>st=new Stack<>();
-        for(char ch:s.toCharArray())
+        for(char ch:s.toCharArray()){
+          if(c)
+        }
         
     }
 }
