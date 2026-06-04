@@ -7,7 +7,7 @@
  * Topics: String, Stack, Greedy, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T09:42:37.431Z
+ * Synced: 2026-06-04T09:42:39.402Z
  */
 
 for (char c : s.toCharArray()) {
@@ -25,10 +25,10 @@ for (char c : s.toCharArray()) {
         Stack<Character> st = new Stack<>();
 
         boolean[] visited = new boolean[26];
-        int[] freq = new int[26];
         }
 
         StringBuilder sb = new StringBuilder();
         for (char c : st) {
             sb.append(c);
         }
+        return sb.toString();
