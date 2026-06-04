@@ -1,15 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-03T11:49:02.371Z",
-  "runtime": "840 ms",
+  "submissionTimestamp": "2026-06-04T16:18:54.725Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
-    "Moderate Clear all",
-    "Moderate"
+    "Easy Clear all"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "All languages",
   "problemTitle": "Problem list",
-  "problemUrl": "https://www.naukri.com/code360/problems/duplicate-characters_3189116",
-  "submissionId": "3s69d"
+  "problemUrl": "https://www.naukri.com/code360/problems/find-prime-numbers_839723",
+  "submissionId": "pi7j8l"
 }
