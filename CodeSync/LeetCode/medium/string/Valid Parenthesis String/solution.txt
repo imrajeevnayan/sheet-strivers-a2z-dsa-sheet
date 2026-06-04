@@ -7,7 +7,7 @@
  * Topics: String, Dynamic Programming, Stack, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T17:47:36.785Z
+ * Synced: 2026-06-04T17:47:41.483Z
  */
 
 else { // '*'
@@ -17,13 +17,17 @@ else { // '*'
 
             // too many ')'
             if (high < 0) {
-                return false;
             }
+                low--;
+                high--;
+            }
+            else if (ch == ')') {
+                low++;
+                high++;
+        for (char ch : s.toCharArray()) {
+            if (ch == '(') {
 
-            // low should never be negative
-            low = Math.max(low, 0);
-        }
-
-        return low == 0;
-    }
-}
+        int high = 0;
+        int low = 0;
+    public boolean checkValidString(String s) {
+class Solution {
