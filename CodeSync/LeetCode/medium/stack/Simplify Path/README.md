@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/simplify-path/description/
-- Synced: 2026-06-04T07:01:18.006Z
+- Synced: 2026-06-04T07:01:25.721Z
 
 ## Problem Description
 
