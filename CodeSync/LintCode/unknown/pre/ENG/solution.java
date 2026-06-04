@@ -7,11 +7,11 @@
  * Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T09:52:51.428Z
+ * Synced: 2026-06-04T09:52:57.491Z
  */
 
 public·class·Solution·{
 ····public·String·removeDuplicateLetters(String·s)·{
-·····HashMap<Character
+·····HashMap<Character,Integer
 ····}
 }
