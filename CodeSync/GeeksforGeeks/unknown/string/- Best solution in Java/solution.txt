@@ -7,13 +7,12 @@
  * Topics: Topic Tags, Strings, Data Structures
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T17:02:22.445Z
+ * Synced: 2026-06-04T17:02:32.429Z
  */
 
-// User function Template for Java
 class Solution {
     String isGoodString(String s) {
-        // code here
+    
         
     }
 }
