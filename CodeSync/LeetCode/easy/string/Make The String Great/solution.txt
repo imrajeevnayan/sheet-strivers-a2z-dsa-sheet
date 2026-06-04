@@ -7,7 +7,7 @@
  * Topics: String, Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:42:02.316Z
+ * Synced: 2026-06-04T16:42:09.067Z
  */
 
 public String makeGood(String s) {
@@ -18,9 +18,7 @@ public String makeGood(String s) {
             else st.push(c);
             
         }
-        
-        // Build result from stack
-        StringBuilder sb = new StringBuilder();
+                StringBuilder sb = new StringBuilder();
         for (char c : st) {
             sb.append(c);
         }
