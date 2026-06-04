@@ -7,14 +7,12 @@
  * Topics: String, Stack, Greedy, Monotonic Stack
  * Runtime: 0 ms
  * Memory: 43.72 MB
- * Synced: 2026-06-04T09:44:11.671Z
+ * Synced: 2026-06-04T09:44:40.670Z
  */
 
 for (char c : s.toCharArray()) {
             freq[c - 'a']--;
-
-            if (seen.contains(c)) continue;
-
+            if (map.contains(c)) continue;
             while (!st.isEmpty() && st.peek() > c && freq[st.peek() - 'a'] > 0) {
                 seen.remove(st.pop());
             }
@@ -29,3 +27,6 @@ for (char c : s.toCharArray()) {
     public String removeDuplicateLetters(String s) {
 class Solution {
         }
+
+        StringBuilder sb = new StringBuilder();
+        for (char c : st) {
