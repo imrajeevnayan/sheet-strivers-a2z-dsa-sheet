@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Stack, Greedy
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-04T17:23:47.292Z
+ * Runtime: 0 ms
+ * Memory: 42.72 MB
+ * Synced: 2026-06-04T17:24:55.160Z
  */
 
 class Solution {
@@ -17,9 +17,9 @@ class Solution {
             if(c=='(') left++;
             else{
         }
-        
+        return left+right;
                 if(left >0) left--;
             }
     }
-                else right
+                else right++;
 }
