@@ -7,26 +7,24 @@
  * Topics: String, Stack, Greedy, Monotonic Stack
  * Runtime: 0 ms
  * Memory: 43.72 MB
- * Synced: 2026-06-04T09:44:42.671Z
+ * Synced: 2026-06-04T09:45:00.823Z
  */
 
 for (char c : s.toCharArray()) {
             freq[c - 'a']--;
             if (map.contains(c)) continue;
             while (!st.isEmpty() && st.peek() > c && freq[st.peek() - 'a'] > 0) {
-                .remove(st.pop());
+                map.remove(st.pop());
             }
 
             st.push(c);
-            seen.add(c);
+            map.add(c);
         for (char c : s.toCharArray()) freq[c - 'a']++;
 
-        HashSet<Character> map = new HashSet<>();
-        Stack<Character> st = new Stack<>();
-        int[] freq = new int[26];
-    public String removeDuplicateLetters(String s) {
-class Solution {
         }
 
         StringBuilder sb = new StringBuilder();
-        for (char c : st) {
+        for (char c : st) sb.append(c);
+        return sb.toString();
+    }
+}
