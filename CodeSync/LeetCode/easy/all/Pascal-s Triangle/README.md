@@ -6,8 +6,8 @@
 - Topics: Array, Dynamic Programming
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/pascals-triangle/description/
-- Synced: 2026-06-04T07:11:10.160Z
+- Problem URL: https://leetcode.com/problems/pascals-triangle/
+- Synced: 2026-06-04T07:11:21.684Z
 
 ## Problem Description
 
