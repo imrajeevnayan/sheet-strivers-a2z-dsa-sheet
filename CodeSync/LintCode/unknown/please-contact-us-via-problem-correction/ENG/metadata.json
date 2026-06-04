@@ -1,19 +1,18 @@
 {
-  "submissionTimestamp": "2026-06-03T08:37:58.440Z",
+  "submissionTimestamp": "2026-06-04T09:45:48.817Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "PRE",
     "please contact us via \"Problem Correction\"",
-    "StackString",
     "Stack",
-    "String",
-    "Test Data Commit Output"
+    "Google",
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/2506",
-  "submissionId": "qfqv0w"
+  "problemUrl": "https://www.lintcode.com/problem/834/",
+  "submissionId": "cr3gcy"
 }
