@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: String, Stack
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/simplify-path/
-- Synced: 2026-06-04T08:26:49.388Z
+- Memory: 44.94 MB
+- Problem URL: https://leetcode.com/problems/simplify-path/submissions/2022074522/
+- Synced: 2026-06-04T08:26:56.343Z
 
 ## Problem Description
 
