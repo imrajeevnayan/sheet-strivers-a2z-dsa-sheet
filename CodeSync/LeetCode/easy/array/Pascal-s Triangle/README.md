@@ -6,8 +6,8 @@
 - Topics: Array, Dynamic Programming
 - Runtime: 0 ms
 - Memory: 43.56 MB
-- Problem URL: https://leetcode.com/problems/pascals-triangle/submissions/2022012029/
-- Synced: 2026-06-04T07:12:49.319Z
+- Problem URL: https://leetcode.com/problems/pascals-triangle/
+- Synced: 2026-06-04T07:17:54.244Z
 
 ## Problem Description
 
