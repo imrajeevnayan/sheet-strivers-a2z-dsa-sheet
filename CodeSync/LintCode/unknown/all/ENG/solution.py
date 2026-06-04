@@ -6,13 +6,9 @@
 # Topics: GreedyMonotonic StackStackString, Greedy, Monotonic Stack, Stack, String, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-04T16:49:02.570Z
+# Synced: 2026-06-04T16:55:18.062Z
 
 public·class·Solution·{
-····/**
-·····*·@param·s:·String·consisting·of·lowercase·letters
-·····*·@return:·Returns·a·string·with·no·repeated·letters
-·····*/
 ····public·String·removeDuplicateLetters(String·s)·{
 ········//·write·your·code·here
 ····}
