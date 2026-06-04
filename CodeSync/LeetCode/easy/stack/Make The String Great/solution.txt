@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Make The String Great
- * URL: https://leetcode.com/problems/make-the-string-great/
+ * URL: https://leetcode.com/problems/make-the-string-great/submissions/2022493479/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: String, Stack
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-04T16:42:18.167Z
+ * Synced: 2026-06-04T16:42:26.555Z
  */
 
 public String makeGood(String s) {
@@ -15,8 +15,7 @@ public String makeGood(String s) {
         
         for (char c : s.toCharArray()) {
             if (!st.isEmpty() && Math.abs(st.peek() - c) == 32) st.pop();
-            else st.push(c);
-            
+            else st.push(c);    
         }
         StringBuilder sb = new StringBuilder();
         for (char c : st) sb.append(c);
