@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Stack, Arrays, Data Structures, Related Articles, Previous Greater Element
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T05:11:19.209Z
+ * Synced: 2026-06-05T07:59:07.653Z
  */
 
 class Solution {
@@ -20,7 +20,7 @@ class Solution {
             while (!st.isEmpty() && arr[i] > arr[st.peek()]) {
                 ans.set(st.pop(), arr[i]);
             }
-            st.push(i);
+         st.push(i);
         }
         return ans;
     }
