@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find the Highest Altitude
- * URL: https://leetcode.com/problems/find-the-highest-altitude/description/?envType=study-plan-v2&envId=leetcode-75
+ * URL: https://leetcode.com/problems/find-the-highest-altitude/submissions/2023527368/?envType=study-plan-v2&envId=leetcode-75
  * Language: LeetCode 75
  * Difficulty: Easy
  * Topics: Array, Prefix Sum
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-05T17:34:33.262Z
+ * Runtime: 0 ms
+ * Memory: 43.12 MB
+ * Synced: 2026-06-05T17:34:54.189Z
  */
 
 class Solution {
