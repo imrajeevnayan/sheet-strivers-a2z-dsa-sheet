@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Two Pointers
 - Runtime: 0 ms
-- Memory: 46.64 MB
-- Problem URL: https://leetcode.com/problems/limit-occurrences-in-sorted-array/
-- Synced: 2026-06-05T17:40:46.592Z
+- Memory: 46.91 MB
+- Problem URL: https://leetcode.com/problems/limit-occurrences-in-sorted-array/submissions/2023533739/
+- Synced: 2026-06-05T17:41:52.932Z
 
 ## Problem Description
 
