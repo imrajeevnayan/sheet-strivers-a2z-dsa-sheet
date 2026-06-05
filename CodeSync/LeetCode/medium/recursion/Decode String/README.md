@@ -4,10 +4,10 @@
 - Language: Grind 169 (Copy-rabvlt31)
 - Difficulty: Medium
 - Topics: String, Stack, Recursion
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/decode-string/description/?envType=problem-list-v2&envId=dxlqdj5j
-- Synced: 2026-06-05T18:27:42.887Z
+- Problem URL: https://leetcode.com/problems/decode-string/?envType=problem-list-v2&envId=dxlqdj5j
+- Synced: 2026-06-05T18:29:27.876Z
 
 ## Problem Description
 
