@@ -6,8 +6,8 @@
 - Topics: Array
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-504/problems/maximum-number-of-items-from-sale-ii/description/
-- Synced: 2026-06-05T09:36:43.661Z
+- Problem URL: https://leetcode.com/contest/weekly-contest-504/problems/maximum-number-of-items-from-sale-ii/
+- Synced: 2026-06-05T09:42:05.465Z
 
 ## Problem Description
 
