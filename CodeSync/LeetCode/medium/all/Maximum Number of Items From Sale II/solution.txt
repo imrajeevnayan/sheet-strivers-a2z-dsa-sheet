@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Number of Items From Sale II
- * URL: https://leetcode.com/contest/weekly-contest-504/problems/maximum-number-of-items-from-sale-ii/
+ * URL: https://leetcode.com/contest/weekly-contest-504/problems/maximum-number-of-items-from-sale-ii/description/
  * Language: Weekly Contest 504
  * Difficulty: Medium
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T09:42:05.465Z
+ * Synced: 2026-06-05T09:42:17.484Z
  */
 
 class Solution {
