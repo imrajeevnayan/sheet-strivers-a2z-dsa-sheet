@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-05T09:37:39.725Z",
+  "submissionTimestamp": "2026-06-05T09:46:10.734Z",
   "runtime": "0 ms",
   "memoryUsage": "42.37 MB",
   "difficulty": "Easy",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 504",
   "problemTitle": "Digit Frequency Score",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-504/problems/digit-frequency-score/submissions/2023130211/",
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-504/problems/digit-frequency-score/",
   "submissionId": "yn39zq"
 }
