@@ -7,11 +7,47 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T18:00:35.785Z
+ * Synced: 2026-06-05T18:02:40.782Z
  */
 
-class Solution {
-    public int[] numberOfPairs(int[] nums1, int[] nums2, int[][] queries) {
-        
+private void rebuildBlock(long[] block, long lazyVal) {
+        for (int i = 0; i < block.length; i++) {
+            block[i] += lazyVal;
+        }
+        java.util.Arrays.sort(block);
+    }
+    
+    private long binarySearchCount(long[] block, long lazyVal, long target) {
+        long realTarget = target - lazyVal;
+        // Find rightmost insertion point for realTarget
+        int right = upperBound(block, realTarget);
+        // Find leftmost insertion point
+        int left = lowerBound(block, realTarget);
+        return right - left;
+    }
+    
+    private int lowerBound(long[] arr, long key) {
+        int low = 0, high = arr.length;
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+            if (arr[mid] < key) low = mid + 1;
+            else high = mid;
+        }
+        return low;
+    }
+    
+    private int upperBound(long[] arr, long key) {
+        int low = 0, high = arr.length;
+        while (low < high) {
+            int mid = low + (high - low) / 2;
+            if (arr[mid] <= key) low = mid + 1;
+            else high = mid;
+        }
+        return low;
+    }
+    
+    private void updateSingleBlock(long[] block, long lazyVal, int globalL, int globalR, int val) {
+        // This is placeholder - for simplicity in single block we rebuild later
+        // Actual range update on unsorted would be complex, so we add lazy and rebuild
     }
 }
