@@ -7,18 +7,17 @@
  * Topics: Programming, Stacks And Queues, Description, Discussion, Submissions, Hints, MAXSPPROD 88 Minutes Medium Asked in:, Hotel Service 51 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T04:03:42.186Z
+ * Synced: 2026-06-05T04:03:50.097Z
  */
 
 public class Solution {
             else if (c == ')') {
     public int solve(String A) {
         Stack<Character> st = new Stack<>();
-                if (st.isEmpty()) {
+                if (st.isEmpty()) return 0;
         for (char c : A.toCharArray()) {
             if (c == '(') st.push(c);
-                    return 0;
-                }
+                
                 st.pop(); // Match found, remove the opening bracket
             }
         }
