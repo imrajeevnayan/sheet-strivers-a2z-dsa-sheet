@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Linked List, Math, Recursion
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-05T18:23:44.181Z
+ * Memory: 46.43 MB
+ * Synced: 2026-06-05T18:23:52.267Z
  */
 
 ListNode curr = dummy;
