@@ -5,9 +5,9 @@
 - Difficulty: Hard
 - Topics: Array
 - Runtime: 9 ms
-- Memory: N/A
+- Memory: 0.00 MB
 - Problem URL: https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/submissions/2023560590/
-- Synced: 2026-06-05T18:07:20.903Z
+- Synced: 2026-06-05T18:07:28.096Z
 
 ## Problem Description
 
