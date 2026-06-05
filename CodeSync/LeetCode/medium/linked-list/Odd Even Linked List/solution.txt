@@ -7,7 +7,7 @@
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T18:15:13.747Z
+ * Synced: 2026-06-05T18:15:16.987Z
  */
 
 public ListNode oddEvenList(ListNode head) {
@@ -28,4 +28,3 @@ public ListNode oddEvenList(ListNode head) {
         return head;
     }
 }
-class Solution {
