@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Digit Frequency Score
+ * URL: https://leetcode.com/contest/weekly-contest-504/problems/digit-frequency-score/description/
+ * Language: Weekly Contest 504
+ * Difficulty: Easy
+ * Topics: Hash Table
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-05T09:34:24.720Z
+ */
+
+class Solution {
+    public int digitFrequencyScore(int n) {
+        
+    }
+}
