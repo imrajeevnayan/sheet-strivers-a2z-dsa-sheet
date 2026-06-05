@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.interviewbit.com/problems/balanced-parantheses/
-- Synced: 2026-06-05T03:59:30.087Z
+- Synced: 2026-06-05T03:59:34.086Z
 
 ## Problem Description
 
