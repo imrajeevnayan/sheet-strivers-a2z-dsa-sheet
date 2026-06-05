@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Password Strength
- * URL: https://leetcode.com/problems/password-strength/
+ * URL: https://leetcode.com/problems/password-strength/submissions/2023534808/
  * Language: Weekly Contest 503
  * Difficulty: Medium
  * Topics: Hash Table, String
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-05T17:41:52.407Z
+ * Memory: 47.36 MB
+ * Synced: 2026-06-05T17:42:06.962Z
  */
 
 Set<Character> upper = new HashSet<>();
