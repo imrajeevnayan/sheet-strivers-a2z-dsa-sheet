@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/
-- Synced: 2026-06-05T18:02:40.782Z
+- Synced: 2026-06-05T18:07:02.403Z
 
 ## Problem Description
 
