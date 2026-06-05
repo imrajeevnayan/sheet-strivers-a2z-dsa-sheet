@@ -1,0 +1,53 @@
+/*
+ * Platform: LeetCode
+ * Problem: Lexicographically Maximum MEX Array
+ * URL: https://leetcode.com/contest/weekly-contest-504/problems/lexicographically-maximum-mex-array/
+ * Language: Weekly Contest 504
+ * Difficulty: Hard
+ * Topics: Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-05T09:37:12.723Z
+ */
+
+class Solution {
+    public int[] lexicographicallyMaximumMEXArray(int[] nums) {
+        int n = nums.length;
+        List<Integer> result = new ArrayList<>();
+        List<Integer> current = new ArrayList<>();
+        for (int num : nums) current.add(num);
+        
+        while (!current.isEmpty()) {
+            int bestMex = -1;
+            int bestK = -1;
+            
+            for (int k = 1; k <= current.size(); k++) {
+                int mex = findMEX(current, k);
+                if (mex > bestMex) {
+                    bestMex = mex;
+                    bestK = k;
+                }
+            }
+            
+            result.add(bestMex);
+            // Remove first bestK elements
+            current = current.subList(bestK, current.size());
+        }
+        
+        int[] ans = new int[result.size()];
+        for (int i = 0; i < ans.length; i++) {
+            ans[i] = result.get(i);
+        }
+        return ans;
+    }
+    
+    private int findMEX(List<Integer> arr, int k) {
+        Set<Integer> set = new HashSet<>();
+        for (int i = 0; i < k; i++) {
+            set.add(arr.get(i));
+        }
+        int mex = 0;
+        while (set.contains(mex)) mex++;
+        return mex;
+    }
+}
