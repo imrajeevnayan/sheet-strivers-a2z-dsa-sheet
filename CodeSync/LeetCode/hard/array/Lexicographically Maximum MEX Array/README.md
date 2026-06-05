@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-504/problems/lexicographically-maximum-mex-array/description/
-- Synced: 2026-06-05T09:44:42.459Z
+- Synced: 2026-06-05T09:44:44.492Z
 
 ## Problem Description
 
