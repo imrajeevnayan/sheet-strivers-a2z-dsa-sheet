@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: String, Hash Table
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-503/problems/password-strength/
-- Synced: 2026-06-05T17:58:07.712Z
+- Memory: 47.23 MB
+- Problem URL: https://leetcode.com/contest/weekly-contest-503/problems/password-strength/submissions/2023551370/
+- Synced: 2026-06-05T17:58:12.710Z
 
 ## Problem Description
 
