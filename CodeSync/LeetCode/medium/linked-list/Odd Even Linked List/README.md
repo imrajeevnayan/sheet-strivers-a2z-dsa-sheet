@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 46.29 MB
 - Problem URL: https://leetcode.com/problems/odd-even-linked-list/submissions/1958829025/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-05T18:14:55.220Z
+- Synced: 2026-06-05T18:14:58.234Z
 
 ## Problem Description
 
