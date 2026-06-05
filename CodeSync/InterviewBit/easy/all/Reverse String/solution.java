@@ -7,7 +7,7 @@
  * Topics: Programming, Stacks And Queues, Description, Discussion, Submissions, Hints, MAXSPPROD 88 Minutes Medium Asked in:, Balanced Parantheses! 15 Minutes Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T03:56:38.919Z
+ * Synced: 2026-06-05T03:56:59.921Z
  */
 
 public class Solution {
@@ -16,3 +16,5 @@ public class Solution {
         Stack<Character>st=new Stack<>();
         for(char c:A.toCharArray())st.push(c);
 }
+        StringBuilder sb=new StringBuilder();
+        while(!)
