@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-05T09:50:07.580Z",
+  "submissionTimestamp": "2026-06-05T09:54:51.605Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Digit Frequency Score",
-  "problemUrl": "https://leetcode.com/problems/digit-frequency-score/",
+  "problemUrl": "https://leetcode.com/problems/digit-frequency-score/description/",
   "submissionId": "le56pl"
 }
