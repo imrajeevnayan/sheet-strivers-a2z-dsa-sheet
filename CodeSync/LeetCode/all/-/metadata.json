@@ -1,18 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-02T06:31:55.189Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
-  "difficulty": "Hard",
+  "submissionTimestamp": "2026-06-05T17:14:01.069Z",
+  "runtime": "3 ms",
+  "memoryUsage": "11.25 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Array",
-    "Two Pointers",
-    "Dynamic Programming",
-    "Stack",
-    "Monotonic Stack"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
-  "language": "Problem List",
+  "language": "Online Interview",
   "problemTitle": "-",
-  "problemUrl": "https://leetcode.com/problems/trapping-rain-water/description/",
-  "submissionId": "f02qp3"
+  "problemUrl": "https://leetcode.com/submissions/detail/2009852956/",
+  "submissionId": "2muuhc"
 }
