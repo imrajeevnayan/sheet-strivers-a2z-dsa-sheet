@@ -1,55 +1,75 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Number of Items From Sale II
- * URL: https://leetcode.com/contest/weekly-contest-504/problems/maximum-number-of-items-from-sale-ii/
+ * URL: https://leetcode.com/contest/weekly-contest-504/problems/maximum-number-of-items-from-sale-ii/submissions/2023138033/
  * Language: Weekly Contest 504
  * Difficulty: Medium
  * Topics: Array
- * Runtime: 45 ms
- * Memory: N/A
- * Synced: 2026-06-05T09:43:20.460Z
+ * Runtime: 0 ms
+ * Memory: 0.00 MB
+ * Synced: 2026-06-05T09:44:28.460Z
  */
 
 class Solution {
     public int maximumSaleItems(int[][] items, int budget) {
         int n = items.length;
-        Arrays.sort(items, (a, b) -> Integer.compare(a[1], b[1]));
-        int minPrice = items[0][1];
         
-        Map<Integer, Integer> factorCount = new HashMap<>();
+        int cheapest = Integer.MAX_VALUE;
+        int maxFactor = Integer.MIN_VALUE;
+        
         for (int[] item : items) {
-            factorCount.put(item[0], factorCount.getOrDefault(item[0], 0) + 1);
+            cheapest = Math.min(cheapest, item[1]);
+            maxFactor = Math.max(maxFactor, item[0]);
         }
         
-        int[] freeCount = new int[n];
-        for (int i = 0; i < n; i++) {
-            int factor = items[i][0];
-            for (int mul = factor; mul <= 1000000; mul += factor) {
-                if (factorCount.containsKey(mul)) {
-                    freeCount[i] += factorCount.get(mul);
+        int[] freq = new int[maxFactor + 1];
+        
+        for (int[] item : items) {
+            freq[item[0]]++;
+        }
+        
+        for (int i = 1; i <= maxFactor; i++) {
+            if (freq[i] > 0) {
+                for (int multiple = 2 * i; multiple <= maxFactor; multiple += i) {
+                    freq[i] += freq[multiple];
                 }
             }
-            freeCount[i]--;
         }
         
-        long maxItems = budget / minPrice;
-        long spent = 0;
-        long unlocked = 0;
+        TreeMap<Long, Long> costCount = new TreeMap<>();
         
-        for (int i = 0; i < n; i++) {
-            int price = items[i][1];
-            if (spent + price > budget) break;
-            spent += price;
-            unlocked += freeCount[i] + 1;
-            maxItems = Math.max(maxItems, unlocked + (budget - spent) / minPrice);
+        for (int[] item : items) {
+            int cost = item[1];
+            int count = freq[item[0]] - 1;
+            
+            if (count > 0 && cost <= 2L * cheapest) {
+                costCount.put(
+                    (long) cost,
+                    costCount.getOrDefault((long) cost, 0L) + count
+                );
+            }
         }
         
-        return (int) maxItems;
+        int total = 0;
+        
+        for (Map.Entry<Long, Long> entry : costCount.entrySet()) {
+            long cost = entry.getKey();
+            long count = entry.getValue();
+            
+            long include = Math.min(count, budget / cost);
+            
+            total += (int) (2 * include);
+            budget -= (int) (include * cost);
+        }
+        
+        total += budget / cheapest;
+        
+        return total;
     }
 }
 [[1,6],[2,4],[3,5]]
 19
 [[2,8],[1,10],[6,6],[4,12],[5,20],[5,17]]
 35
-6
-11
+5
+7
