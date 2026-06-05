@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Average Subarray I
- * URL: https://leetcode.com/problems/maximum-average-subarray-i/?envType=study-plan-v2&envId=leetcode-75
+ * URL: https://leetcode.com/problems/maximum-average-subarray-i/submissions/2023502632/?envType=study-plan-v2&envId=leetcode-75
  * Language: LeetCode 75
  * Difficulty: Easy
  * Topics: Array, Sliding Window
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-05T17:10:19.634Z
+ * Memory: 69.89 MB
+ * Synced: 2026-06-05T17:10:26.990Z
  */
 
 class Solution {
