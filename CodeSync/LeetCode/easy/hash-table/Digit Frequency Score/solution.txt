@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Digit Frequency Score
- * URL: https://leetcode.com/contest/weekly-contest-504/problems/digit-frequency-score/submissions/2023130211/
+ * URL: https://leetcode.com/contest/weekly-contest-504/problems/digit-frequency-score/
  * Language: Weekly Contest 504
  * Difficulty: Easy
  * Topics: Hash Table
  * Runtime: 0 ms
  * Memory: 42.37 MB
- * Synced: 2026-06-05T09:37:39.725Z
+ * Synced: 2026-06-05T09:46:04.729Z
  */
 
 class Solution {
