@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.interviewbit.com/problems/maxspprod/
-- Synced: 2026-06-05T03:58:40.056Z
+- Synced: 2026-06-05T03:58:44.058Z
 
 ## Problem Description
 
