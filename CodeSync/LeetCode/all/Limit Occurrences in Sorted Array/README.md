@@ -6,8 +6,8 @@
 - Topics: Array
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-503/problems/limit-occurrences-in-sorted-array/description/
-- Synced: 2026-06-05T18:08:19.267Z
+- Problem URL: https://leetcode.com/contest/weekly-contest-503/problems/limit-occurrences-in-sorted-array/
+- Synced: 2026-06-05T18:09:17.398Z
 
 ## Problem Description
 
