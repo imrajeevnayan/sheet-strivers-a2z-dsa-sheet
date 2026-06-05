@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/digit-frequency-score/description/
-- Synced: 2026-06-05T09:55:43.999Z
+- Synced: 2026-06-05T09:55:47.994Z
 
 ## Problem Description
 
