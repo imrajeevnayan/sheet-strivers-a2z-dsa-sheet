@@ -1,29 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: Odd Even Linked List
- * URL: https://leetcode.com/problems/odd-even-linked-list/description/?envType=study-plan-v2&envId=leetcode-75
+ * URL: https://leetcode.com/problems/odd-even-linked-list/?envType=study-plan-v2&envId=leetcode-75
  * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Linked List
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-05T18:15:39.263Z
+ * Synced: 2026-06-05T18:16:07.341Z
  */
 
 public ListNode oddEvenList(ListNode head) {
         if (head == null || head.next == null) return head;
+        
         ListNode odd = head;
         ListNode even = head.next;
         ListNode evenHead = even;
-
+        
         while (even != null && even.next != null) {
             odd.next = even.next;
             odd = odd.next;
-
             even.next = odd.next;
             even = even.next;
         }
-
+        
         odd.next = evenHead;
         return head;
     }
