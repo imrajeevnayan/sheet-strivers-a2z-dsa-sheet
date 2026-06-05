@@ -6,8 +6,8 @@
 - Topics: Array
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/description/
-- Synced: 2026-06-05T18:00:06.771Z
+- Problem URL: https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/
+- Synced: 2026-06-05T18:00:35.785Z
 
 ## Problem Description
 
