@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-06-05T17:40:40.218Z",
+  "runtime": "0 ms",
+  "memoryUsage": "46.64 MB",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Two Pointers"
+  ],
+  "platform": "LeetCode",
+  "language": "Weekly Contest 503",
+  "problemTitle": "Limit Occurrences in Sorted Array",
+  "problemUrl": "https://leetcode.com/problems/limit-occurrences-in-sorted-array/",
+  "submissionId": "7o4s6g"
+}
