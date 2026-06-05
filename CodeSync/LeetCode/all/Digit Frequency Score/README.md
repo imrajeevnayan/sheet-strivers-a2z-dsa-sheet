@@ -4,10 +4,10 @@
 - Language: Weekly Contest 504
 - Difficulty: Easy
 - Topics: Hash Table
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-504/problems/digit-frequency-score/
-- Synced: 2026-06-05T09:35:15.719Z
+- Runtime: 0 ms
+- Memory: 42.37 MB
+- Problem URL: https://leetcode.com/contest/weekly-contest-504/problems/digit-frequency-score/submissions/2023130211/
+- Synced: 2026-06-05T09:36:21.748Z
 
 ## Problem Description
 
