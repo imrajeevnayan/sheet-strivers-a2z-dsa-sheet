@@ -1,13 +1,13 @@
 # Balanced Parantheses!
 
 - Platform: InterviewBit
-- Language: Text
+- Language: C
 - Difficulty: Easy
 - Topics: Programming, Stacks And Queues, Description, Discussion, Submissions, Hints, MAXSPPROD 88 Minutes Medium Asked in:, Hotel Service 51 Minutes Medium Asked in:
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.interviewbit.com/problems/balanced-parantheses/
-- Synced: 2026-06-05T03:59:57.138Z
+- Synced: 2026-06-05T04:00:44.092Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Upcoming Masterclass: Forward Deployed Engineer
 
 ## Explanation
 
-This solution was accepted on InterviewBit using Text. The detected topics are Programming, Stacks And Queues, Description, Discussion, Submissions, Hints, MAXSPPROD 88 Minutes Medium Asked in:, Hotel Service 51 Minutes Medium Asked in:. Review the synced source file for the implementation details.
+This solution was accepted on InterviewBit using C. The detected topics are Programming, Stacks And Queues, Description, Discussion, Submissions, Hints, MAXSPPROD 88 Minutes Medium Asked in:, Hotel Service 51 Minutes Medium Asked in:. Review the synced source file for the implementation details.
