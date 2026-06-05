@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/implement-stack-using-linked-list/1
-- Synced: 2026-06-05T04:31:35.243Z
+- Synced: 2026-06-05T04:31:42.445Z
 
 ## Problem Description
 
