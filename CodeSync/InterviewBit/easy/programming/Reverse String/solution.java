@@ -7,11 +7,12 @@
  * Topics: Programming, Stacks And Queues, Description, Discussion, Submissions, Hints, MAXSPPROD 88 Minutes Medium Asked in:, Balanced Parantheses! 15 Minutes Easy Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T03:55:36.917Z
+ * Synced: 2026-06-05T03:56:04.170Z
  */
 
 public class Solution {
     public String reverseString(String A) {
     }
 }
-        Stack<Character>
+        Stack<Character>st=new Stack<>();
+        for(char c:A.toCharArray())
