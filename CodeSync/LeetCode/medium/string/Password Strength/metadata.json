@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-06-05T17:41:10.567Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "platform": "LeetCode",
+  "language": "Weekly Contest 503",
+  "problemTitle": "Password Strength",
+  "problemUrl": "https://leetcode.com/problems/password-strength/description/",
+  "submissionId": "f9ckui"
+}
