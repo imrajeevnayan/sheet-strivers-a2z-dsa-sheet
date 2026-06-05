@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/previous-smaller-element/1
-- Synced: 2026-06-05T08:00:44.898Z
+- Synced: 2026-06-05T08:00:50.717Z
 
 ## Problem Description
 
