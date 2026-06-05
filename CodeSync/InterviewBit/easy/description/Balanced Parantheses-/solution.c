@@ -7,7 +7,7 @@
  * Topics: Programming, Stacks And Queues, Description, Discussion, Submissions, Hints, MAXSPPROD 88 Minutes Medium Asked in:, Hotel Service 51 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T04:03:50.097Z
+ * Synced: 2026-06-05T04:04:11.086Z
  */
 
 public class Solution {
@@ -17,8 +17,7 @@ public class Solution {
                 if (st.isEmpty()) return 0;
         for (char c : A.toCharArray()) {
             if (c == '(') st.push(c);
-                
-                st.pop(); // Match found, remove the opening bracket
+                st.pop();
             }
         }
      return st.isEmpty() ? 1 : 0;
