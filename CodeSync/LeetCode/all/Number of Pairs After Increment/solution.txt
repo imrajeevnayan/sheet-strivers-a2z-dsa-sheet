@@ -3,11 +3,11 @@
  * Problem: Number of Pairs After Increment
  * URL: https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/submissions/2023563350/
  * Language: Weekly Contest 503
- * Difficulty: Hard
- * Topics: Array
- * Runtime: 8 ms
- * Memory: 0.00 MB
- * Synced: 2026-06-05T18:10:32.401Z
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 1389 ms
+ * Memory: 106.01 MB
+ * Synced: 2026-06-05T18:11:41.027Z
  */
 
 class Solution {
@@ -110,15 +110,3 @@ class Solution {
         
     }
 }
-[1,2]
-[3,4]
-[[2,5],[1,0,0,2],[2,5]]
-[1,1]
-[2,2,3]
-[[2,4],[1,0,1,1],[2,4]]
-[2,5,8,4]
-[1,3,8]
-[[2,9],[1,1,2,1],[2,10]]
-[2,1]
-[2,6]
-[1,0]
