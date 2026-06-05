@@ -1,113 +1,127 @@
 /*
  * Platform: LeetCode
  * Problem: Number of Pairs After Increment
- * URL: https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/
+ * URL: https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/submissions/2023560590/
  * Language: Weekly Contest 503
  * Difficulty: Hard
  * Topics: Array
- * Runtime: N/A
+ * Runtime: 9 ms
  * Memory: N/A
- * Synced: 2026-06-05T18:07:02.403Z
+ * Synced: 2026-06-05T18:07:20.903Z
  */
 
 class Solution {
-    public int[] numberOfPairs(int[] nums1, int[] nums2, int[][] queries) {
-        int m = nums2.length;
-        int bs = (int) Math.sqrt(m) + 1;
-        int bc = (m + bs - 1) / bs;
+    fun numberOfPairs(nums1: IntArray, nums2: IntArray, queries: Array<IntArray>): IntArray {
+        var qCount = 0
+        for (i in queries.indices) {
+            if (queries[i][0] == 2) qCount++
+        }
+        val ans = IntArray(qCount)
+        var ansIdx = 0
         
-        long[][] sortedBlocks = new long[bc][];
-        long[] lazy = new long[bc];
-        int[] blockStarts = new int[bc];
+        val n = nums2.size
+        val bSize = 300
+        val numBlocks = (n + bSize - 1) / bSize
         
-        for (int b = 0; b < bc; b++) {
-            blockStarts[b] = b * bs;
-            int end = Math.min(m, (b + 1) * bs);
-            sortedBlocks[b] = new long[end - blockStarts[b]];
-            for (int i = blockStarts[b], j = 0; i < end; i++, j++) {
-                sortedBlocks[b][j] = nums2[i];
-            }
-            java.util.Arrays.sort(sortedBlocks[b]);
+        val a = LongArray(n)
+        val sortedA = LongArray(n)
+        val lazy = LongArray(numBlocks)
+        
+        for (i in 0 until n) {
+            val v = nums2[i].toLong()
+            a[i] = v
+            sortedA[i] = v
         }
         
-        java.util.List<Integer> res = new java.util.ArrayList<>();
+        for (b in 0 until numBlocks) {
+            val start = b * bSize
+            val end = if (start + bSize > n) n else start + bSize
+            sortedA.sort(start, end)
+        }
         
-        for (int[] q : queries) {
+        for (i in queries.indices) {
+            val q = queries[i]
             if (q[0] == 1) {
-                int L = q[1], R = q[2], val = q[3];
-                int bL = L / bs;
-                int bR = R / bs;
+                val l = q[1]
+                val r = q[2]
+                val v = q[3].toLong()
+                
+                val bL = l / bSize
+                val bR = r / bSize
                 
                 if (bL == bR) {
-                    applyUpdate(sortedBlocks[bL], lazy[bL], nums2, blockStarts[bL], L, R, val);
-                    lazy[bL] = 0;
+                    for (j in l..r) a[j] += v
+                    val start = bL * bSize
+                    val end = if (start + bSize > n) n else start + bSize
+                    System.arraycopy(a, start, sortedA, start, end - start)
+                    sortedA.sort(start, end)
                 } else {
-                    applyUpdate(sortedBlocks[bL], lazy[bL], nums2, blockStarts[bL], L, (bL + 1) * bs - 1, val);
-                    lazy[bL] = 0;
+                    val endL = (bL + 1) * bSize
+                    for (j in l until endL) a[j] += v
+                    val startL = bL * bSize
+                    System.arraycopy(a, startL, sortedA, startL, endL - startL)
+                    sortedA.sort(startL, endL)
                     
-                    applyUpdate(sortedBlocks[bR], lazy[bR], nums2, blockStarts[bR], bR * bs, R, val);
-                    lazy[bR] = 0;
-                    
-                    for (int b = bL + 1; b < bR; b++) {
-                        lazy[b] += val;
+                    for (b in bL + 1 until bR) {
+                        lazy[b] += v
                     }
+                    
+                    val startR = bR * bSize
+                    val endR = if (startR + bSize > n) n else startR + bSize
+                    for (j in startR..r) a[j] += v
+                    System.arraycopy(a, startR, sortedA, startR, endR - startR)
+                    sortedA.sort(startR, endR)
                 }
             } else {
-                long tot = q[1];
-                long cnt = 0;
-                for (int a : nums1) {
-                    long need = tot - a;
-                    for (int b = 0; b < bc; b++) {
-                        cnt += countInBlock(sortedBlocks[b], lazy[b], need);
+                val tot = q[1].toLong()
+                var count = 0
+                for (xIdx in nums1.indices) {
+                    val targetBase = tot - nums1[xIdx]
+                    for (b in 0 until numBlocks) {
+                        val target = targetBase - lazy[b]
+                        val start = b * bSize
+                        val end = if (start + bSize > n) n else start + bSize
+                        
+                        var low = start
+                        var high = end
+                        while (low < high) {
+                            val mid = (low + high) ushr 1
+                            if (sortedA[mid] >= target) high = mid
+                            else low = mid + 1
+                        }
+                        val first = low
+                        
+                        if (first < end && sortedA[first] == target) {
+                            low = first
+                            high = end
+                            while (low < high) {
+                                val mid = (low + high) ushr 1
+                                if (sortedA[mid] > target) high = mid
+                                else low = mid + 1
+                            }
+                            count += (low - first)
+                        }
                     }
                 }
-                res.add((int) cnt);
+                ans[ansIdx++] = count
             }
         }
+        return ans
         
-        int[] answer = new int[res.size()];
-        for (int i = 0; i < res.size(); i++) {
-            answer[i] = res.get(i);
-        }
-        return answer;
-    }
-    
-    private void applyUpdate(long[] block, long laz, int[] original, int start, int L, int R, int val) {
-        // Apply lazy to all in block
-        for (int i = 0; i < block.length; i++) {
-            block[i] += laz;
-        }
-        // Update original and block
-        for (int i = Math.max(L, start); i <= R && i < start + block.length; i++) {
-            int idx = i - start;
-            original[i] += val;
-            block[idx] = original[i];
-        }
-        java.util.Arrays.sort(block);
-    }
-    
-    private long countInBlock(long[] block, long laz, long need) {
-        long realNeed = need - laz;
-        return upperBound(block, realNeed) - lowerBound(block, realNeed);
-    }
-    
-    private int lowerBound(long[] arr, long key) {
-        int lo = 0, hi = arr.length;
-        while (lo < hi) {
-            int mid = lo + (hi - lo) / 2;
-            if (arr[mid] < key) lo = mid + 1;
-            else hi = mid;
-        }
-        return lo;
-    }
-    
-    private int upperBound(long[] arr, long key) {
-        int lo = 0, hi = arr.length;
-        while (lo < hi) {
-            int mid = lo + (hi - lo) / 2;
-            if (arr[mid] <= key) lo = mid + 1;
-            else hi = mid;
-        }
-        return lo;
     }
 }
+[1,2]
+[3,4]
+[[2,5],[1,0,0,2],[2,5]]
+[1,1]
+[2,2,3]
+[[2,4],[1,0,1,1],[2,4]]
+[2,5,8,4]
+[1,3,8]
+[[2,9],[1,1,2,1],[2,10]]
+[2,1]
+[2,6]
+[1,0]
+[2,1]
+[2,6]
+[1,0]
