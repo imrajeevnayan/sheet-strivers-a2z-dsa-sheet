@@ -7,7 +7,7 @@
  * Topics: Programming, Stacks And Queues, Description, Discussion, Submissions, Hints, MAXSPPROD 88 Minutes Medium Asked in:, Hotel Service 51 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T04:03:59.107Z
+ * Synced: 2026-06-05T04:04:01.102Z
  */
 
 public class Solution {
