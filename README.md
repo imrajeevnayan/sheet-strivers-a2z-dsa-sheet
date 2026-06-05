@@ -38,8 +38,6 @@ DSA-Sheet/
 ## 🚀 Languages Used
 
 * Java
-* C++
-* Python
 
 ---
 
@@ -64,7 +62,7 @@ To improve problem-solving skills and prepare for coding interviews at product-b
 1. Clone the repository
 
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/imrajeevnayan/a2z-dsa-sheet.git
 ```
 
 2. Open any topic folder
@@ -87,7 +85,7 @@ Happy Coding 💻
 ```
 
 You can customize it with:
-- your name
+- Rajeev Nayan
 - GitHub profile
 - problem links
 - difficulty tags
