@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming, Sliding Window
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 65.47 MB
 - Problem URL: https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/submissions/2023511946/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-05T17:19:35.926Z
+- Synced: 2026-06-05T17:19:44.749Z
 
 ## Problem Description
 
