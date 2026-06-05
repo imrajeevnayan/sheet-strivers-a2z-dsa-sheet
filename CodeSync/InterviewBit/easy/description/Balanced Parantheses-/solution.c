@@ -7,17 +7,16 @@
  * Topics: Programming, Stacks And Queues, Description, Discussion, Submissions, Hints, MAXSPPROD 88 Minutes Medium Asked in:, Hotel Service 51 Minutes Medium Asked in:
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T04:02:34.149Z
+ * Synced: 2026-06-05T04:02:42.096Z
  */
 
 public class Solution {
-            } else if (c == ')') {
+            else if (c == ')') {
     public int solve(String A) {
         Stack<Character> st = new Stack<>();
-                st.push(c);
                 // If we find a closing bracket but stack is empty, it's invalid
         for (char c : A.toCharArray()) {
-            if (c == '(') {
+            if (c == '(') st.push(c);
                 if (st.isEmpty()) {
                     return 0;
                 }
