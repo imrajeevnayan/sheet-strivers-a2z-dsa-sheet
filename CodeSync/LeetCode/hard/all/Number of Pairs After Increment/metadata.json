@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-05T18:00:06.771Z",
+  "submissionTimestamp": "2026-06-05T18:00:35.785Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 503",
   "problemTitle": "Number of Pairs After Increment",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/description/",
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/",
   "submissionId": "3biaov"
 }
