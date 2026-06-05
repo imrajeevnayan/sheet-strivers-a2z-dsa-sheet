@@ -6,8 +6,8 @@
 - Topics: Hash Table, Math
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/digit-frequency-score/description/
-- Synced: 2026-06-05T09:49:52.584Z
+- Problem URL: https://leetcode.com/problems/digit-frequency-score/
+- Synced: 2026-06-05T09:49:54.596Z
 
 ## Problem Description
 
