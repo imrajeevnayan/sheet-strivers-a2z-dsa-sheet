@@ -1,4 +1,3 @@
-# TIP yeh GFG wale maderch*d hai , java mai i/p mai matrix hi mil rhi hai in the form of adjacency list betich*d ham to list ko adjancency list hi smje ge na hamko thodi pata hai isme matrix likhi padi hai -> ek or list banao or given list(matrix) ko adjacency list mai convert karo fir solve karo chu*iye sale
 
 - Platform: GeeksforGeeks
 - Language: Java (21)
