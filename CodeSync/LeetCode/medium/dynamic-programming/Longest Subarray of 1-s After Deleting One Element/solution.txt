@@ -1,15 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: Longest Subarray of 1's After Deleting One Element
- * URL: https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/submissions/1957633096/?envType=study-plan-v2&envId=leetcode-75
+ * URL: https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/?envType=study-plan-v2&envId=leetcode-75
  * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Sliding Window
- * Runtime: 3 ms
- * Memory: 65.64 MB
- * Synced: 2026-06-05T17:18:24.818Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-05T17:18:37.433Z
  */
 
-Input: nums = [1,1,0,1]
-Output: 3
-Explanation: After deleting the number in position 2, [1,1,1] contains 3 numbers with value of 1's.
+class Solution {
+    public int longestSubarray(int[] nums) {
+        int left = 0, zeros = 0, maxLen = 0;
+        for (int right = 0; right < nums.length; right++) {
+         if (nums[right] == 0) zeros++;
+            while (zeros > 1) {
+            if (nums[left] == 0) zeros--;
+              left++;
+          } 
+           maxLen = Math.max(maxLen, right - left );
+       }
+       return maxLen;  
+    }
+}
