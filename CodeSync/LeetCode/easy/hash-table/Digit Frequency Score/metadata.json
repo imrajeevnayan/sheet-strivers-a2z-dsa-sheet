@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-05T09:46:16.726Z",
-  "runtime": "0 ms",
-  "memoryUsage": "42.37 MB",
+  "submissionTimestamp": "2026-06-05T09:49:52.584Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Hash Table"
+    "Hash Table",
+    "Math"
   ],
   "platform": "LeetCode",
-  "language": "Weekly Contest 504",
+  "language": "Problem List",
   "problemTitle": "Digit Frequency Score",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-504/problems/digit-frequency-score/",
-  "submissionId": "yn39zq"
+  "problemUrl": "https://leetcode.com/problems/digit-frequency-score/description/",
+  "submissionId": "le56pl"
 }
