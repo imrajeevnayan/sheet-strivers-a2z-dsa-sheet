@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Password Strength
- * URL: https://leetcode.com/contest/weekly-contest-503/problems/password-strength/description/
+ * URL: https://leetcode.com/contest/weekly-contest-503/problems/password-strength/
  * Language: Weekly Contest 503
  * Difficulty: Medium
  * Topics: String, Hash Table
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-05T17:58:02.728Z
+ * Synced: 2026-06-05T17:58:07.712Z
  */
 
 class Solution {
@@ -30,3 +30,7 @@ class Solution {
                digit.size() * 3 + special.size() * 5;
     }
 }
+"aA1!"
+"bbB11#"
+11
+11
