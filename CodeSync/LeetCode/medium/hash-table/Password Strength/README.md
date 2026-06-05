@@ -4,10 +4,10 @@
 - Language: Weekly Contest 503
 - Difficulty: Medium
 - Topics: Hash Table, String
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/password-strength/
-- Synced: 2026-06-05T17:41:42.683Z
+- Synced: 2026-06-05T17:41:52.407Z
 
 ## Problem Description
 
