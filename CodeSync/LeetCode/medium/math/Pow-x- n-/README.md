@@ -4,10 +4,10 @@
 - Language: Grind 169 (Copy-rabvlt31)
 - Difficulty: Medium
 - Topics: Math, Recursion
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/powx-n/?envType=problem-list-v2&envId=dxlqdj5j
-- Synced: 2026-06-05T18:24:54.487Z
+- Synced: 2026-06-05T18:25:00.829Z
 
 ## Problem Description
 
