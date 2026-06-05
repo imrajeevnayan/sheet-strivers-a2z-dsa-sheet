@@ -1,17 +1,49 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Number of Items From Sale II
- * URL: https://leetcode.com/contest/weekly-contest-504/problems/maximum-number-of-items-from-sale-ii/description/
+ * URL: https://leetcode.com/contest/weekly-contest-504/problems/maximum-number-of-items-from-sale-ii/
  * Language: Weekly Contest 504
  * Difficulty: Medium
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T09:42:57.467Z
+ * Synced: 2026-06-05T09:43:16.511Z
  */
 
 class Solution {
     public int maximumSaleItems(int[][] items, int budget) {
+        int n = items.length;
+        Arrays.sort(items, (a, b) -> Integer.compare(a[1], b[1]));
+        int minPrice = items[0][1];
         
+        Map<Integer, Integer> factorCount = new HashMap<>();
+        for (int[] item : items) {
+            factorCount.put(item[0], factorCount.getOrDefault(item[0], 0) + 1);
+        }
+        
+        int[] freeCount = new int[n];
+        for (int i = 0; i < n; i++) {
+            int factor = items[i][0];
+            for (int mul = factor; mul <= 1000000; mul += factor) {
+                if (factorCount.containsKey(mul)) {
+                    freeCount[i] += factorCount.get(mul);
+                }
+            }
+            freeCount[i]--;
+        }
+        
+        long maxItems = budget / minPrice;
+        long spent = 0;
+        long unlocked = 0;
+        
+        for (int i = 0; i < n; i++) {
+            int price = items[i][1];
+            if (spent + price > budget) break;
+            spent += price;
+            unlocked += freeCount[i] + 1;
+            maxItems = Math.max(maxItems, unlocked + (budget - spent) / minPrice);
+        }
+        
+        return (int) maxItems;
     }
 }
