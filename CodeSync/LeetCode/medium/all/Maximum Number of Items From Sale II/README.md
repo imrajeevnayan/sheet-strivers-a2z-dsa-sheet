@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 0.00 MB
 - Problem URL: https://leetcode.com/contest/weekly-contest-504/problems/maximum-number-of-items-from-sale-ii/submissions/2023138033/
-- Synced: 2026-06-05T09:44:28.460Z
+- Synced: 2026-06-05T09:44:33.459Z
 
 ## Problem Description
 
