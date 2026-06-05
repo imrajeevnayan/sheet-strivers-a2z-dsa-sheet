@@ -1,17 +1,35 @@
 /*
  * Platform: LeetCode
  * Problem: Limit Occurrences in Sorted Array
- * URL: https://leetcode.com/contest/weekly-contest-503/problems/limit-occurrences-in-sorted-array/description/
+ * URL: https://leetcode.com/contest/weekly-contest-503/problems/limit-occurrences-in-sorted-array/
  * Language: Weekly Contest 503
  * Difficulty: Easy
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T18:08:19.267Z
+ * Synced: 2026-06-05T18:09:10.440Z
  */
 
 class Solution {
-    fun limitOccurrences(nums: IntArray, k: Int): IntArray {
+    public int[] limitOccurrences(int[] nums, int k) {
+        List<Integer> result = new ArrayList<>();
+        int n = nums.length;
         
+        for (int i = 0; i < n; ) {
+            int j = i;
+            while (j < n && nums[j] == nums[i]) j++;
+            // Add min(k, count) times
+            int count = Math.min(k, j - i);
+            for (int t = 0; t < count; t++) {
+                result.add(nums[i]);
+            }
+            i = j;
+        }
+        
+        int[] ans = new int[result.size()];
+        for (int i = 0; i < ans.length; i++) {
+            ans[i] = result.get(i);
+        }
+        return ans;
     }
 }
