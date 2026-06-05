@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-05T17:43:32.139Z",
+  "submissionTimestamp": "2026-06-05T17:44:02.501Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 503",
   "problemTitle": "Minimum Operations to Sort a Permutation",
-  "problemUrl": "https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/description/",
+  "problemUrl": "https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/",
   "submissionId": "tsak1e"
 }
