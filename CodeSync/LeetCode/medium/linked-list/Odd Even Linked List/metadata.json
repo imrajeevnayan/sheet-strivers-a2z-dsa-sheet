@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-05T18:16:10.071Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-05T18:16:16.086Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "LeetCode 75",
   "problemTitle": "Odd Even Linked List",
-  "problemUrl": "https://leetcode.com/problems/odd-even-linked-list/?envType=study-plan-v2&envId=leetcode-75",
+  "problemUrl": "https://leetcode.com/problems/odd-even-linked-list/submissions/2023569488/?envType=study-plan-v2&envId=leetcode-75",
   "submissionId": "sl8l40"
 }
