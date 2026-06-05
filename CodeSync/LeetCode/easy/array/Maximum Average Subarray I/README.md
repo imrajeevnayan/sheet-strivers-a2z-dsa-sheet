@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Sliding Window
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/maximum-average-subarray-i/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-05T17:10:19.634Z
+- Memory: 69.89 MB
+- Problem URL: https://leetcode.com/problems/maximum-average-subarray-i/submissions/2023502632/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-06-05T17:10:26.990Z
 
 ## Problem Description
 
