@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/powx-n/?envType=problem-list-v2&envId=dxlqdj5j
-- Synced: 2026-06-05T18:24:41.172Z
+- Synced: 2026-06-05T18:24:46.176Z
 
 ## Problem Description
 
