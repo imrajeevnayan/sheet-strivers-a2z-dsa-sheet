@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Operations to Sort a Permutation
+ * URL: https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/description/
+ * Language: Weekly Contest 503
+ * Difficulty: Medium
+ * Topics: Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-05T17:43:15.577Z
+ */
+
+class Solution {
+    public int minOperations(int[] nums) {
+        
+    }
+}
