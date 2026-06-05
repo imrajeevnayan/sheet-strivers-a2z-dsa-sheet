@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Number of Pairs After Increment
- * URL: https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/description/
+ * URL: https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/
  * Language: Weekly Contest 503
  * Difficulty: Hard
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T18:00:06.771Z
+ * Synced: 2026-06-05T18:00:35.785Z
  */
 
 class Solution {
