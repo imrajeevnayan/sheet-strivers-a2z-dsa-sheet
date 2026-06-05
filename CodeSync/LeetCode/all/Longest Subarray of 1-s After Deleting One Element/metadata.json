@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-05T17:17:47.911Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "LeetCode 75",
+  "problemTitle": "Longest Subarray of 1's After Deleting One Element",
+  "problemUrl": "https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/submissions/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "vp40me"
+}
