@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-the-highest-altitude/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-05T17:34:16.425Z
+- Synced: 2026-06-05T17:34:33.262Z
 
 ## Problem Description
 
