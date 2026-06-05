@@ -6,8 +6,8 @@
 - Topics: Hash Table, String
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/password-strength/description/
-- Synced: 2026-06-05T17:41:10.567Z
+- Problem URL: https://leetcode.com/problems/password-strength/
+- Synced: 2026-06-05T17:41:33.231Z
 
 ## Problem Description
 
