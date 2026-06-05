@@ -7,7 +7,7 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T17:44:23.186Z
+ * Synced: 2026-06-05T17:44:31.210Z
  */
 
 int tot = q[1];
@@ -16,7 +16,6 @@ int tot = q[1];
                 if (y + 1 < m) diff[y + 1] -= val;
                 if (x < m) diff[x] += val;
                 int x = q[1], y = q[2], val = q[3];
-                // Range update on nums2 using difference array
             if (q[0] == 1) {
         for (int[] q : queries) {
         
@@ -25,9 +24,10 @@ int tot = q[1];
         
         Arrays.sort(sorted1);
         int[] sorted1 = nums1.clone();
-        // Sort nums1 for binary search
         
         int m = nums2.length;
         int n = nums1.length;
     public int[] numberOfPairs(int[] nums1, int[] nums2, int[][] queries) {
 class Solution {
+                // Rebuild current nums2 state (lazy)
+                long[] current2 = new long[m];
