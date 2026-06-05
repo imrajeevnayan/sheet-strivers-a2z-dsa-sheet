@@ -7,12 +7,36 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T09:36:05.622Z
+ * Synced: 2026-06-05T09:36:10.465Z
  */
 
 class Solution {
     public int maximumSaleItems(int[][] items, int budget) {
+        int n = items.length;
+        // Precompute free items for each purchase
+        int[] free = new int[n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i != j && items[j][0] % items[i][0] == 0) {
+                    free[i]++;
+                }
+            }
+        }
+                Integer[] idx = new Integer[n];
+        for (int i = 0; i < n; i++) idx[i] = i;
+        Arrays.sort(idx, (a, b) -> Integer.compare(items[a][1], items[b][1]));
         
+        int maxItems = 0;
+        for (int i = 0; i < n; i++) {
+            int id = idx[i];
+            int price = items[id][1];
+            if (budget >= price) {
+                int canBuy = budget / price;
+                maxItems += canBuy + canBuy * free[id];
+                budget -= canBuy * price;
+            }
+        }
+        return maxItems;
         
     }
 }
