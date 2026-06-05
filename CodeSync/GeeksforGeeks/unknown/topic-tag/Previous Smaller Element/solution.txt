@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Stack, Arrays, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T08:00:44.898Z
+ * Synced: 2026-06-05T08:00:50.717Z
  */
 
 class Solution {
