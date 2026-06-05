@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-06-05T17:34:16.425Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "LeetCode 75",
+  "problemTitle": "Find the Highest Altitude",
+  "problemUrl": "https://leetcode.com/problems/find-the-highest-altitude/description/?envType=study-plan-v2&envId=leetcode-75",
+  "submissionId": "iolz5o"
+}
