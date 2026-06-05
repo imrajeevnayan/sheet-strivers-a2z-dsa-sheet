@@ -5,9 +5,9 @@
  * Language: Weekly Contest 504
  * Difficulty: Medium
  * Topics: Array
- * Runtime: N/A
+ * Runtime: 45 ms
  * Memory: N/A
- * Synced: 2026-06-05T09:43:16.511Z
+ * Synced: 2026-06-05T09:43:20.460Z
  */
 
 class Solution {
@@ -47,3 +47,9 @@ class Solution {
         return (int) maxItems;
     }
 }
+[[1,6],[2,4],[3,5]]
+19
+[[2,8],[1,10],[6,6],[4,12],[5,20],[5,17]]
+35
+6
+11
