@@ -1,32 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: Password Strength
- * URL: https://leetcode.com/problems/password-strength/submissions/2023534808/
+ * URL: https://leetcode.com/problems/password-strength/
  * Language: Weekly Contest 503
  * Difficulty: Medium
  * Topics: Hash Table, String
- * Runtime: 18 ms
- * Memory: 47.36 MB
- * Synced: 2026-06-05T17:42:30.187Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-05T17:42:34.648Z
  */
 
-1class Solution {
-2    public int passwordStrength(String password) {
-3        Set<Character> lower = new HashSet<>();
-4        Set<Character> upper = new HashSet<>();
-5        Set<Character> digit = new HashSet<>();
-6        Set<Character> special = new HashSet<>();
-7        
-8        String sp = "!@#$";
-9        
-10        for (char c : password.toCharArray()) {
-11            if (c >= 'a' && c <= 'z') lower.add(c);
-12            else if (c >= 'A' && c <= 'Z') upper.add(c);
-13            else if (c >= '0' && c <= '9') digit.add(c);
-14            else if (sp.indexOf(c) != -1) special.add(c);
-15        }
-16        
-17        return lower.size() * 1 + upper.size() * 2 + 
-18               digit.size() * 3 + special.size() * 5;
-19    }
-20}
+class Solution {
+    public int passwordStrength(String password) {
+        Set<Character> lower = new HashSet<>();
+        Set<Character> upper = new HashSet<>();
+        Set<Character> digit = new HashSet<>();
+        Set<Character> special = new HashSet<>();
+        
+        String sp = "!@#$";
+        
+        for (char c : password.toCharArray()) {
+            if (c >= 'a' && c <= 'z') lower.add(c);
+            else if (c >= 'A' && c <= 'Z') upper.add(c);
+            else if (c >= '0' && c <= '9') digit.add(c);
+            else if (sp.indexOf(c) != -1) special.add(c);
+        }
+        
+        return lower.size() * 1 + upper.size() * 2 + 
+               digit.size() * 3 + special.size() * 5;
+    }
+}
