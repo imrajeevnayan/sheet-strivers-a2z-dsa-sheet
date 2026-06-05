@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 48.33 MB
 - Problem URL: https://leetcode.com/problems/powx-n/submissions/2023578678/?envType=problem-list-v2&envId=dxlqdj5j
-- Synced: 2026-06-05T18:26:17.172Z
+- Synced: 2026-06-05T18:26:22.159Z
 
 ## Problem Description
 
