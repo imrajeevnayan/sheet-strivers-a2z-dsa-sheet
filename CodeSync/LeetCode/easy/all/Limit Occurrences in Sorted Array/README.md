@@ -3,11 +3,11 @@
 - Platform: LeetCode
 - Language: Weekly Contest 503
 - Difficulty: Easy
-- Topics: Array, Two Pointers
+- Topics: Array
 - Runtime: 0 ms
-- Memory: 46.91 MB
-- Problem URL: https://leetcode.com/problems/limit-occurrences-in-sorted-array/submissions/2023533739/
-- Synced: 2026-06-05T17:41:52.932Z
+- Memory: 46.96 MB
+- Problem URL: https://leetcode.com/contest/weekly-contest-503/problems/limit-occurrences-in-sorted-array/submissions/2023551015/
+- Synced: 2026-06-05T17:57:49.095Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given a sorted integer array nums and an integer k. Return an array such
 
 ## Explanation
 
-This solution was accepted on LeetCode using Weekly Contest 503. The detected topics are Array, Two Pointers. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Weekly Contest 503. The detected topics are Array. Review the synced source file for the implementation details.
