@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-05T18:17:28.303Z
+- Synced: 2026-06-05T18:17:40.039Z
 
 ## Problem Description
 
