@@ -7,7 +7,7 @@
  * Topics: Linked List
  * Runtime: 0 ms
  * Memory: 46.29 MB
- * Synced: 2026-06-05T18:14:55.220Z
+ * Synced: 2026-06-05T18:14:58.234Z
  */
 
 Input: head = [1,2,3,4,5]
