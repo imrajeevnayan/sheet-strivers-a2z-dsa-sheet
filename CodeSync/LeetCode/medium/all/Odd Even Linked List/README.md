@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Linked List
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/odd-even-linked-list/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-05T18:16:07.341Z
+- Memory: 46.34 MB
+- Problem URL: https://leetcode.com/problems/odd-even-linked-list/submissions/2023569488/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-06-05T18:16:19.735Z
 
 ## Problem Description
 
