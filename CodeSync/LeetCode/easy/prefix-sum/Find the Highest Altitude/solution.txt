@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Array, Prefix Sum
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-05T17:34:51.340Z
+ * Memory: 43.12 MB
+ * Synced: 2026-06-05T17:34:54.189Z
  */
 
 class Solution {
