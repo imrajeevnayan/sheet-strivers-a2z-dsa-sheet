@@ -7,12 +7,12 @@
  * Topics: Hash Table
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T09:34:39.019Z
+ * Synced: 2026-06-05T09:34:49.015Z
  */
 
 class Solution {
     public int digitFrequencyScore(int n) {
-        
+        int count =1
         
     }
 }
