@@ -6,8 +6,8 @@
 - Topics: Hash Table
 - Runtime: 0 ms
 - Memory: 42.37 MB
-- Problem URL: https://leetcode.com/contest/weekly-contest-504/problems/digit-frequency-score/submissions/2023130211/
-- Synced: 2026-06-05T09:37:39.725Z
+- Problem URL: https://leetcode.com/contest/weekly-contest-504/problems/digit-frequency-score/
+- Synced: 2026-06-05T09:46:10.734Z
 
 ## Problem Description
 
