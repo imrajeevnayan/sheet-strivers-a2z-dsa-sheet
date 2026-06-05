@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-05T18:07:28.096Z",
-  "runtime": "9 ms",
-  "memoryUsage": "0.00 MB",
-  "difficulty": "Hard",
+  "submissionTimestamp": "2026-06-05T18:07:41.883Z",
+  "runtime": "1526 ms",
+  "memoryUsage": "104.24 MB",
+  "difficulty": "Unknown",
   "tags": [
-    "Array"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "Weekly Contest 503",
   "problemTitle": "Number of Pairs After Increment",
   "problemUrl": "https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/submissions/2023560590/",
-  "submissionId": "nghqhq"
+  "submissionId": "4ux2td"
 }
