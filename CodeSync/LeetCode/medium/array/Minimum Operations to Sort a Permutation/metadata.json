@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-05T17:57:15.096Z",
+  "submissionTimestamp": "2026-06-05T17:59:24.512Z",
   "runtime": "2 ms",
-  "memoryUsage": "95.08 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 503",
   "problemTitle": "Minimum Operations to Sort a Permutation",
-  "problemUrl": "https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/submissions/2023550355/",
-  "submissionId": "t08c5o"
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-503/problems/minimum-operations-to-sort-a-permutation/",
+  "submissionId": "pyz2l3"
 }
