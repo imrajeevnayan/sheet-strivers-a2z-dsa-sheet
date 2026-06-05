@@ -5,9 +5,9 @@
  * Language: Weekly Contest 504
  * Difficulty: Hard
  * Topics: Array
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-05T09:45:22.460Z
+ * Synced: 2026-06-05T09:46:14.757Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
         int n = nums.length;
         List<Integer> result = new ArrayList<>();
         
-        int[] last = new int[n + 1];
+        int[] last = new int[n + 2];  // +2 to safely handle mex == n+1
         for (int i = 0; i < n; i++) {
             if (nums[i] <= n) {
                 last[nums[i]] = i;
@@ -25,12 +25,11 @@ class Solution {
         int i = 0;
         while (i < n) {
             int mex = 0;
-            while (last[mex] >= i) {
+            while (mex < last.length && last[mex] >= i) {
                 mex++;
             }
             
-            // Now mex is the MEX of the suffix starting at i
-            // Find the shortest prefix that covers 0 to mex-1
+            // Find farthest position to cover 0 to mex-1
             int farthest = i;
             for (int val = 0; val < mex; val++) {
                 farthest = Math.max(farthest, last[val]);
@@ -47,3 +46,9 @@ class Solution {
         return ans;
     }
 }
+[0,1,0]
+[1,0,2]
+[3,1]
+[5]
+[5]
+[4]
