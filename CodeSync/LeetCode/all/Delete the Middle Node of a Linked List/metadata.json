@@ -1,11 +1,10 @@
 {
-  "submissionTimestamp": "2026-06-05T18:18:14.202Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-06-05T18:18:39.923Z",
+  "runtime": "3 ms",
   "memoryUsage": "202.42 MB",
-  "difficulty": "Medium",
+  "difficulty": "Easy",
   "tags": [
-    "Linked List",
-    "Two Pointers"
+    "Uncategorized"
   ],
   "platform": "LeetCode",
   "language": "LeetCode 75",
