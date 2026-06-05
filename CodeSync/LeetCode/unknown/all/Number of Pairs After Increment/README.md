@@ -4,10 +4,10 @@
 - Language: Weekly Contest 503
 - Difficulty: Unknown
 - Topics: Uncategorized
-- Runtime: 1526 ms
-- Memory: 104.24 MB
-- Problem URL: https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/submissions/2023560590/
-- Synced: 2026-06-05T18:07:41.883Z
+- Runtime: 1389 ms
+- Memory: 106.01 MB
+- Problem URL: https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/submissions/2023563350/
+- Synced: 2026-06-05T18:11:41.027Z
 
 ## Problem Description
 
