@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming, Sliding Window
  * Runtime: 3 ms
  * Memory: 65.64 MB
- * Synced: 2026-06-05T17:17:54.821Z
+ * Synced: 2026-06-05T17:18:24.818Z
  */
 
 Input: nums = [1,1,0,1]
