@@ -1,0 +1,30 @@
+/*
+ * Platform: LeetCode
+ * Problem: Add Two Numbers
+ * URL: https://leetcode.com/problems/add-two-numbers/?envType=problem-list-v2&envId=dxlqdj5j
+ * Language: Grind 169 (Copy-rabvlt31)
+ * Difficulty: Medium
+ * Topics: Linked List, Math, Recursion
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-06-05T18:23:41.586Z
+ */
+
+ListNode curr = dummy;
+        int carry = 0;
+        
+        while (l1 != null || l2 != null || carry != 0) {
+            int sum = (l1 != null ? l1.val : 0) + (l2 != null ? l2.val : 0) + carry;
+            carry = sum / 10;
+            curr.next = new ListNode(sum % 10);
+            curr = curr.next;
+            
+            if (l1 != null) l1 = l1.next;
+            if (l2 != null) l2 = l2.next;
+        }
+        return dummy.next;
+    }
+}
+    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+        ListNode dummy = new ListNode(0);
+class Solution {
