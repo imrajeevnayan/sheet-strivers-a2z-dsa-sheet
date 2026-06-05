@@ -7,7 +7,7 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T09:36:53.656Z
+ * Synced: 2026-06-05T09:41:59.571Z
  */
 
 class Solution {
