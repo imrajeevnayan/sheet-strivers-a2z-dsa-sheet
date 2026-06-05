@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Maximum Number of Items From Sale I
+ * URL: https://leetcode.com/contest/weekly-contest-504/problems/maximum-number-of-items-from-sale-i/description/
+ * Language: Weekly Contest 504
+ * Difficulty: Medium
+ * Topics: Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-05T09:35:49.172Z
+ */
+
+class Solution {
+    public int maximumSaleItems(int[][] items, int budget) {
+        
+    }
+}
