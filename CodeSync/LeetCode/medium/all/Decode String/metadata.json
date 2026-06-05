@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-05T18:27:42.887Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "String",
+    "Stack",
+    "Recursion"
+  ],
+  "platform": "LeetCode",
+  "language": "Grind 169 (Copy-rabvlt31)",
+  "problemTitle": "Decode String",
+  "problemUrl": "https://leetcode.com/problems/decode-string/description/?envType=problem-list-v2&envId=dxlqdj5j",
+  "submissionId": "ry9477"
+}
