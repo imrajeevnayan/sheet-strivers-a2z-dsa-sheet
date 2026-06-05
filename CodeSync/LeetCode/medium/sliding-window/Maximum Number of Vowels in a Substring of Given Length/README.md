@@ -4,10 +4,10 @@
 - Language: LeetCode 75
 - Difficulty: Medium
 - Topics: String, Sliding Window
-- Runtime: 19 ms
-- Memory: 46.34 MB
-- Problem URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/submissions/1967942426/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-05T17:14:22.121Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-06-05T17:14:33.919Z
 
 ## Problem Description
 
