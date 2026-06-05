@@ -3,11 +3,11 @@
 - Platform: LeetCode
 - Language: Weekly Contest 503
 - Difficulty: Medium
-- Topics: Hash Table, String
+- Topics: String, Hash Table
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/password-strength/
-- Synced: 2026-06-05T17:42:57.403Z
+- Problem URL: https://leetcode.com/contest/weekly-contest-503/problems/password-strength/description/
+- Synced: 2026-06-05T17:58:02.728Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given a string password. The strength of the password is calculated base
 
 ## Explanation
 
-This solution was accepted on LeetCode using Weekly Contest 503. The detected topics are Hash Table, String. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Weekly Contest 503. The detected topics are String, Hash Table. Review the synced source file for the implementation details.
