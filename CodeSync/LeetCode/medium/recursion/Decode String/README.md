@@ -6,8 +6,8 @@
 - Topics: String, Stack, Recursion
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/decode-string/?envType=problem-list-v2&envId=dxlqdj5j
-- Synced: 2026-06-05T18:29:27.876Z
+- Problem URL: https://leetcode.com/problems/decode-string/submissions/2023582364/?envType=problem-list-v2&envId=dxlqdj5j
+- Synced: 2026-06-05T18:29:33.927Z
 
 ## Problem Description
 
