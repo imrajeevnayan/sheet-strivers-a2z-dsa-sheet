@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Sliding Window
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-05T17:19:35.926Z
+ * Memory: 65.47 MB
+ * Synced: 2026-06-05T17:19:44.749Z
  */
 
 class Solution {
