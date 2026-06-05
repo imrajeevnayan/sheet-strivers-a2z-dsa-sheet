@@ -4,10 +4,10 @@
 - Language: Weekly Contest 503
 - Difficulty: Medium
 - Topics: Array
-- Runtime: N/A
+- Runtime: 2 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/
-- Synced: 2026-06-05T17:44:40.371Z
+- Synced: 2026-06-05T17:57:05.169Z
 
 ## Problem Description
 
