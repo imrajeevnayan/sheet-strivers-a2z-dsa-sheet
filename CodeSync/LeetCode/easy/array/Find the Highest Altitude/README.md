@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Prefix Sum
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 43.12 MB
 - Problem URL: https://leetcode.com/problems/find-the-highest-altitude/submissions/2023527368/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-05T17:34:51.340Z
+- Synced: 2026-06-05T17:34:54.189Z
 
 ## Problem Description
 
