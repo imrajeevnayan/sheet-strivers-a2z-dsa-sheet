@@ -1,0 +1,112 @@
+/*
+ * Platform: LeetCode
+ * Problem: Number of Pairs After Increment
+ * URL: https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/submissions/2023560590/
+ * Language: Weekly Contest 503
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: 1526 ms
+ * Memory: 104.24 MB
+ * Synced: 2026-06-05T18:07:41.883Z
+ */
+
+class Solution {
+    fun numberOfPairs(nums1: IntArray, nums2: IntArray, queries: Array<IntArray>): IntArray {
+        var qCount = 0
+        for (i in queries.indices) {
+            if (queries[i][0] == 2) qCount++
+        }
+        val ans = IntArray(qCount)
+        var ansIdx = 0
+        
+        val n = nums2.size
+        val bSize = 300
+        val numBlocks = (n + bSize - 1) / bSize
+        
+        val a = LongArray(n)
+        val sortedA = LongArray(n)
+        val lazy = LongArray(numBlocks)
+        
+        for (i in 0 until n) {
+            val v = nums2[i].toLong()
+            a[i] = v
+            sortedA[i] = v
+        }
+        
+        for (b in 0 until numBlocks) {
+            val start = b * bSize
+            val end = if (start + bSize > n) n else start + bSize
+            sortedA.sort(start, end)
+        }
+        
+        for (i in queries.indices) {
+            val q = queries[i]
+            if (q[0] == 1) {
+                val l = q[1]
+                val r = q[2]
+                val v = q[3].toLong()
+                
+                val bL = l / bSize
+                val bR = r / bSize
+                
+                if (bL == bR) {
+                    for (j in l..r) a[j] += v
+                    val start = bL * bSize
+                    val end = if (start + bSize > n) n else start + bSize
+                    System.arraycopy(a, start, sortedA, start, end - start)
+                    sortedA.sort(start, end)
+                } else {
+                    val endL = (bL + 1) * bSize
+                    for (j in l until endL) a[j] += v
+                    val startL = bL * bSize
+                    System.arraycopy(a, startL, sortedA, startL, endL - startL)
+                    sortedA.sort(startL, endL)
+                    
+                    for (b in bL + 1 until bR) {
+                        lazy[b] += v
+                    }
+                    
+                    val startR = bR * bSize
+                    val endR = if (startR + bSize > n) n else startR + bSize
+                    for (j in startR..r) a[j] += v
+                    System.arraycopy(a, startR, sortedA, startR, endR - startR)
+                    sortedA.sort(startR, endR)
+                }
+            } else {
+                val tot = q[1].toLong()
+                var count = 0
+                for (xIdx in nums1.indices) {
+                    val targetBase = tot - nums1[xIdx]
+                    for (b in 0 until numBlocks) {
+                        val target = targetBase - lazy[b]
+                        val start = b * bSize
+                        val end = if (start + bSize > n) n else start + bSize
+                        
+                        var low = start
+                        var high = end
+                        while (low < high) {
+                            val mid = (low + high) ushr 1
+                            if (sortedA[mid] >= target) high = mid
+                            else low = mid + 1
+                        }
+                        val first = low
+                        
+                        if (first < end && sortedA[first] == target) {
+                            low = first
+                            high = end
+                            while (low < high) {
+                                val mid = (low + high) ushr 1
+                                if (sortedA[mid] > target) high = mid
+                                else low = mid + 1
+                            }
+                            count += (low - first)
+                        }
+                    }
+                }
+                ans[ansIdx++] = count
+            }
+        }
+        return ans
+        
+    }
+}
