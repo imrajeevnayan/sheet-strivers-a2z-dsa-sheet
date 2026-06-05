@@ -6,8 +6,8 @@
 - Topics: Array
 - Runtime: 2 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/
-- Synced: 2026-06-05T17:57:05.169Z
+- Problem URL: https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/submissions/2023550355/
+- Synced: 2026-06-05T17:57:08.182Z
 
 ## Problem Description
 
