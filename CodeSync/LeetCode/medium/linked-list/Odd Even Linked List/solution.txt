@@ -5,9 +5,9 @@
  * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Linked List
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T18:16:07.341Z
+ * Synced: 2026-06-05T18:16:10.071Z
  */
 
 public ListNode oddEvenList(ListNode head) {
@@ -28,3 +28,4 @@ public ListNode oddEvenList(ListNode head) {
         return head;
     }
 }
+class Solution {
