@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Number of Pairs After Increment
+ * URL: https://leetcode.com/contest/weekly-contest-503/problems/number-of-pairs-after-increment/description/
+ * Language: Weekly Contest 503
+ * Difficulty: Hard
+ * Topics: Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-05T17:59:58.774Z
+ */
+
+class Solution {
+    public int[] numberOfPairs(int[] nums1, int[] nums2, int[][] queries) {
+        
+    }
+}
