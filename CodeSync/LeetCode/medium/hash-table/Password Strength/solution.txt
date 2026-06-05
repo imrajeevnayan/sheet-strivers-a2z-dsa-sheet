@@ -7,7 +7,7 @@
  * Topics: Hash Table, String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T17:42:34.648Z
+ * Synced: 2026-06-05T17:42:57.403Z
  */
 
 class Solution {
