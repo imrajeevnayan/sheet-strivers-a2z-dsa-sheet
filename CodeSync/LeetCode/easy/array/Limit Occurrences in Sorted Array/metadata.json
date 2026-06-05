@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-05T17:40:09.123Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-05T17:40:17.394Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -11,5 +11,5 @@
   "language": "Weekly Contest 503",
   "problemTitle": "Limit Occurrences in Sorted Array",
   "problemUrl": "https://leetcode.com/problems/limit-occurrences-in-sorted-array/",
-  "submissionId": "o9yqv5"
+  "submissionId": "ndvm5r"
 }
