@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/description/
-- Synced: 2026-06-05T17:42:47.693Z
+- Synced: 2026-06-05T17:43:15.577Z
 
 ## Problem Description
 
