@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array
 - Runtime: 2 ms
-- Memory: N/A
+- Memory: 95.08 MB
 - Problem URL: https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/submissions/2023550355/
-- Synced: 2026-06-05T17:57:08.182Z
+- Synced: 2026-06-05T17:57:15.096Z
 
 ## Problem Description
 
