@@ -7,7 +7,7 @@
  * Topics: Array, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T09:15:23.029Z
+ * Synced: 2026-06-05T09:15:32.014Z
  */
 
 class Solution {
