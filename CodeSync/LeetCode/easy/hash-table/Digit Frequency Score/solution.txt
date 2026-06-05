@@ -7,7 +7,7 @@
  * Topics: Hash Table
  * Runtime: 0 ms
  * Memory: 42.37 MB
- * Synced: 2026-06-05T09:37:27.735Z
+ * Synced: 2026-06-05T09:37:35.798Z
  */
 
 class Solution {
