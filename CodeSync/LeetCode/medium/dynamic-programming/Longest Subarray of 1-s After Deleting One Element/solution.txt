@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Longest Subarray of 1's After Deleting One Element
- * URL: https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/?envType=study-plan-v2&envId=leetcode-75
+ * URL: https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/submissions/?envType=study-plan-v2&envId=leetcode-75
  * Language: LeetCode 75
  * Difficulty: Medium
  * Topics: Array, Dynamic Programming, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T17:17:37.990Z
+ * Synced: 2026-06-05T17:17:47.911Z
  */
 
 class Solution {
