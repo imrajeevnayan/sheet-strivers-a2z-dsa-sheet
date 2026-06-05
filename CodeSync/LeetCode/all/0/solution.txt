@@ -1,31 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: 0
- * URL: https://leetcode.com/submissions/detail/2023130211/
+ * URL: https://leetcode.com/settings/profile/
  * Language: Online Interview
  * Difficulty: Unknown
  * Topics: Uncategorized
- * Runtime: 1 ms
- * Memory: 42.37 MB
- * Synced: 2026-06-05T09:49:34.615Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-05T18:32:04.287Z
  */
 
-1class Solution {
-2    public int digitFrequencyScore(int n) {
-3     if (n == 0) return 0;
-4        int[] freq = new int[10];
-5        while (n > 0) {
-6            int d = n % 10;
-7            freq[d]++;
-8            n /= 10;
-9        }
-10        int score = 0;
-11        for (int d = 0; d < 10; d++) {
-12            if (freq[d] > 0) {
-13                score += d * freq[d];
-14            }
-15        }
-16        return score;
-17        
-18    }
-19}
+MCA graduate with strong skills in Core Java, Advanced Java, Spring, and Hibernate. Passionate about backend dev! Built academic projects using Java stack
