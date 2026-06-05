@@ -7,7 +7,7 @@
  * Topics: String, Sliding Window
  * Runtime: 19 ms
  * Memory: 46.34 MB
- * Synced: 2026-06-05T17:14:25.022Z
+ * Synced: 2026-06-05T17:14:29.935Z
  */
 
 Input: s = "abciiidef", k = 3
