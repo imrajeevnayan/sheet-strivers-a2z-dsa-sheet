@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Stack, Arrays, Data Structures, Related Articles, Previous Greater Element
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T05:07:38.179Z
+ * Synced: 2026-06-05T05:07:55.801Z
  */
 
 class Solution {
@@ -17,7 +17,7 @@ class Solution {
         Stack<Integer> st = new Stack<>();
 
         for (int i = n-1; i .=0; i--) {
-            while (!st.isEmpty() && arr[st.peek()] <= arr[i]) {
+            while (!st.isEmpty() && arr[i]> arr {
                 st.pop();
             }
             if (!st.isEmpty()) {
