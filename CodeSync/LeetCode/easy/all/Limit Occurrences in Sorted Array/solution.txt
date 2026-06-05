@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Limit Occurrences in Sorted Array
- * URL: https://leetcode.com/problems/limit-occurrences-in-sorted-array/
+ * URL: https://leetcode.com/problems/limit-occurrences-in-sorted-array/submissions/2023533739/
  * Language: Weekly Contest 503
  * Difficulty: Easy
  * Topics: Array, Two Pointers
  * Runtime: 0 ms
- * Memory: 46.64 MB
- * Synced: 2026-06-05T17:40:46.592Z
+ * Memory: 46.91 MB
+ * Synced: 2026-06-05T17:41:52.932Z
  */
 
 // Add min(k, count) times
@@ -22,12 +22,12 @@
         for (int i = 0; i < ans.length; i++) {
             int j = i;
             while (j < n && nums[j] == nums[i]) j++;
-        
         for (int i = 0; i < n; ) {
-        List<Integer> result = new ArrayList<>();
-        int n = nums.length;
-class Solution {
-    public int[] limitOccurrences(int[] nums, int k) {
             ans[i] = result.get(i);
         }
         return ans;
+        
+        List<Integer> result = new ArrayList<>();
+        int n = nums.length;
+    public int[] limitOccurrences(int[] nums, int k) {
+class Solution {
