@@ -4,10 +4,10 @@
 - Language: LeetCode 75
 - Difficulty: Easy
 - Topics: Array, Prefix Sum
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-highest-altitude/description/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-05T17:34:16.425Z
+- Runtime: 0 ms
+- Memory: 43.12 MB
+- Problem URL: https://leetcode.com/problems/find-the-highest-altitude/submissions/2023527368/?envType=study-plan-v2&envId=leetcode-75
+- Synced: 2026-06-05T17:34:54.189Z
 
 ## Problem Description
 
