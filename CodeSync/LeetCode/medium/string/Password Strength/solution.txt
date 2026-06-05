@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Password Strength
- * URL: https://leetcode.com/contest/weekly-contest-503/problems/password-strength/
+ * URL: https://leetcode.com/contest/weekly-contest-503/problems/password-strength/submissions/2023551370/
  * Language: Weekly Contest 503
  * Difficulty: Medium
  * Topics: String, Hash Table
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-05T17:58:07.712Z
+ * Memory: 47.23 MB
+ * Synced: 2026-06-05T17:58:12.710Z
  */
 
 class Solution {
