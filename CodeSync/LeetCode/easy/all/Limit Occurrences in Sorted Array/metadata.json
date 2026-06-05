@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-05T17:57:49.095Z",
-  "runtime": "0 ms",
-  "memoryUsage": "46.96 MB",
+  "submissionTimestamp": "2026-06-05T18:08:19.267Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 503",
   "problemTitle": "Limit Occurrences in Sorted Array",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-503/problems/limit-occurrences-in-sorted-array/submissions/2023551015/",
-  "submissionId": "mepgan"
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-503/problems/limit-occurrences-in-sorted-array/description/",
+  "submissionId": "551hwp"
 }
