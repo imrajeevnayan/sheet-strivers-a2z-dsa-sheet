@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-504/problems/digit-frequency-score/description/
-- Synced: 2026-06-05T09:34:28.717Z
+- Synced: 2026-06-05T09:34:36.715Z
 
 ## Problem Description
 
