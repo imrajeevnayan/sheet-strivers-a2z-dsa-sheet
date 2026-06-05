@@ -4,10 +4,10 @@
 - Language: Weekly Contest 504
 - Difficulty: Hard
 - Topics: Array
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/contest/weekly-contest-504/problems/lexicographically-maximum-mex-array/
-- Synced: 2026-06-05T09:37:12.723Z
+- Synced: 2026-06-05T09:40:28.732Z
 
 ## Problem Description
 
