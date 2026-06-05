@@ -7,107 +7,11 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T18:07:02.403Z
+ * Synced: 2026-06-05T18:07:07.811Z
  */
 
 class Solution {
-    public int[] numberOfPairs(int[] nums1, int[] nums2, int[][] queries) {
-        int m = nums2.length;
-        int bs = (int) Math.sqrt(m) + 1;
-        int bc = (m + bs - 1) / bs;
+    fun numberOfPairs(nums1: IntArray, nums2: IntArray, queries: Array<IntArray>): IntArray {
         
-        long[][] sortedBlocks = new long[bc][];
-        long[] lazy = new long[bc];
-        int[] blockStarts = new int[bc];
-        
-        for (int b = 0; b < bc; b++) {
-            blockStarts[b] = b * bs;
-            int end = Math.min(m, (b + 1) * bs);
-            sortedBlocks[b] = new long[end - blockStarts[b]];
-            for (int i = blockStarts[b], j = 0; i < end; i++, j++) {
-                sortedBlocks[b][j] = nums2[i];
-            }
-            java.util.Arrays.sort(sortedBlocks[b]);
-        }
-        
-        java.util.List<Integer> res = new java.util.ArrayList<>();
-        
-        for (int[] q : queries) {
-            if (q[0] == 1) {
-                int L = q[1], R = q[2], val = q[3];
-                int bL = L / bs;
-                int bR = R / bs;
-                
-                if (bL == bR) {
-                    applyUpdate(sortedBlocks[bL], lazy[bL], nums2, blockStarts[bL], L, R, val);
-                    lazy[bL] = 0;
-                } else {
-                    applyUpdate(sortedBlocks[bL], lazy[bL], nums2, blockStarts[bL], L, (bL + 1) * bs - 1, val);
-                    lazy[bL] = 0;
-                    
-                    applyUpdate(sortedBlocks[bR], lazy[bR], nums2, blockStarts[bR], bR * bs, R, val);
-                    lazy[bR] = 0;
-                    
-                    for (int b = bL + 1; b < bR; b++) {
-                        lazy[b] += val;
-                    }
-                }
-            } else {
-                long tot = q[1];
-                long cnt = 0;
-                for (int a : nums1) {
-                    long need = tot - a;
-                    for (int b = 0; b < bc; b++) {
-                        cnt += countInBlock(sortedBlocks[b], lazy[b], need);
-                    }
-                }
-                res.add((int) cnt);
-            }
-        }
-        
-        int[] answer = new int[res.size()];
-        for (int i = 0; i < res.size(); i++) {
-            answer[i] = res.get(i);
-        }
-        return answer;
-    }
-    
-    private void applyUpdate(long[] block, long laz, int[] original, int start, int L, int R, int val) {
-        // Apply lazy to all in block
-        for (int i = 0; i < block.length; i++) {
-            block[i] += laz;
-        }
-        // Update original and block
-        for (int i = Math.max(L, start); i <= R && i < start + block.length; i++) {
-            int idx = i - start;
-            original[i] += val;
-            block[idx] = original[i];
-        }
-        java.util.Arrays.sort(block);
-    }
-    
-    private long countInBlock(long[] block, long laz, long need) {
-        long realNeed = need - laz;
-        return upperBound(block, realNeed) - lowerBound(block, realNeed);
-    }
-    
-    private int lowerBound(long[] arr, long key) {
-        int lo = 0, hi = arr.length;
-        while (lo < hi) {
-            int mid = lo + (hi - lo) / 2;
-            if (arr[mid] < key) lo = mid + 1;
-            else hi = mid;
-        }
-        return lo;
-    }
-    
-    private int upperBound(long[] arr, long key) {
-        int lo = 0, hi = arr.length;
-        while (lo < hi) {
-            int mid = lo + (hi - lo) / 2;
-            if (arr[mid] <= key) lo = mid + 1;
-            else hi = mid;
-        }
-        return lo;
     }
 }
