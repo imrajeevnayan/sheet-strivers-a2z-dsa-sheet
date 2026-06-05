@@ -5,9 +5,9 @@
  * Language: Weekly Contest 504
  * Difficulty: Medium
  * Topics: Array
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-06-05T09:36:10.465Z
+ * Synced: 2026-06-05T09:36:20.455Z
  */
 
 class Solution {
@@ -22,7 +22,7 @@ class Solution {
                 }
             }
         }
-                Integer[] idx = new Integer[n];
+     Integer[] idx = new Integer[n];
         for (int i = 0; i < n; i++) idx[i] = i;
         Arrays.sort(idx, (a, b) -> Integer.compare(items[a][1], items[b][1]));
         
@@ -40,3 +40,9 @@ class Solution {
         
     }
 }
+[[6,2],[2,6],[3,4]]
+9
+[[2,4],[3,2],[4,1],[6,4],[12,4]]
+8
+4
+16
