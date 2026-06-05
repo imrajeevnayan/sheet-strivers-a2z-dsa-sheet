@@ -4,10 +4,10 @@
 - Language: LeetCode 75
 - Difficulty: Medium
 - Topics: Linked List
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/odd-even-linked-list/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-05T18:16:07.341Z
+- Synced: 2026-06-05T18:16:10.071Z
 
 ## Problem Description
 
