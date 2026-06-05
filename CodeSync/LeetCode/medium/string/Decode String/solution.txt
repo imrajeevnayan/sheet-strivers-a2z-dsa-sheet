@@ -1,28 +1,31 @@
 /*
  * Platform: LeetCode
  * Problem: Decode String
- * URL: https://leetcode.com/problems/decode-string/description/?envType=problem-list-v2&envId=dxlqdj5j
+ * URL: https://leetcode.com/problems/decode-string/?envType=problem-list-v2&envId=dxlqdj5j
  * Language: Grind 169 (Copy-rabvlt31)
  * Difficulty: Medium
  * Topics: String, Stack, Recursion
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-05T18:27:42.887Z
+ * Synced: 2026-06-05T18:29:27.876Z
  */
 
+n = n * 10 + (c - '0');
+            } else if (c == '[') {
+                nums.push(n);
+                strs.push(cur);
+                cur = new StringBuilder();
+                n = 0;
+            } else if (c == ']') {
+                int k = nums.pop();
+                StringBuilder prev = strs.pop();
+                for (int i = 0; i < k; i++) prev.append(cur);
+            if (Character.isDigit(c)) {
+        
+        for (char c : s.toCharArray()) {
+        StringBuilder cur = new StringBuilder();
+        int n = 0;
+        Stack<Integer> nums = new Stack<>();
+        Stack<StringBuilder> strs = new Stack<>();
 class Solution {
     public String decodeString(String s) {
-        if(s.length()<=1)return s;
-        StringBuilder sb=new StringBuilder();
-        int count=1;
-        for(int i=1;i<s.length();i++){
-            if(s.charAt(i)==s.charAt(i-1))count++;
-            else {
-                sb.append(s.charAt(i-1)).append(count);
-                count=1;
-            }
-        }
-        sb.append(s.charAt(s.length()-1)).append(count);
-        return sb.toString();
-    }
-}
