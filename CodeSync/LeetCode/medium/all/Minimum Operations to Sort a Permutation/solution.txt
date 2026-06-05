@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Operations to Sort a Permutation
- * URL: https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/description/
+ * URL: https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/
  * Language: Weekly Contest 503
  * Difficulty: Medium
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T17:43:32.139Z
+ * Synced: 2026-06-05T17:44:02.501Z
  */
 
 class Solution {
