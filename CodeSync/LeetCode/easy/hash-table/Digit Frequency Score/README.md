@@ -1,13 +1,13 @@
 # Digit Frequency Score
 
 - Platform: LeetCode
-- Language: Weekly Contest 504
+- Language: Problem List
 - Difficulty: Easy
-- Topics: Hash Table
-- Runtime: 0 ms
-- Memory: 42.37 MB
-- Problem URL: https://leetcode.com/contest/weekly-contest-504/problems/digit-frequency-score/
-- Synced: 2026-06-05T09:46:16.726Z
+- Topics: Hash Table, Math
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/digit-frequency-score/description/
+- Synced: 2026-06-05T09:49:52.584Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an integer n. The score of n is defined as the sum of d * freq(d) 
 
 ## Explanation
 
-This solution was accepted on LeetCode using Weekly Contest 504. The detected topics are Hash Table. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Hash Table, Math. Review the synced source file for the implementation details.
