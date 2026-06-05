@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-05T09:43:20.460Z",
-  "runtime": "45 ms",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-05T09:44:28.460Z",
+  "runtime": "0 ms",
+  "memoryUsage": "0.00 MB",
   "difficulty": "Medium",
   "tags": [
     "Array"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 504",
   "problemTitle": "Maximum Number of Items From Sale II",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-504/problems/maximum-number-of-items-from-sale-ii/",
-  "submissionId": "qwrhrd"
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-504/problems/maximum-number-of-items-from-sale-ii/submissions/2023138033/",
+  "submissionId": "u81acc"
 }
