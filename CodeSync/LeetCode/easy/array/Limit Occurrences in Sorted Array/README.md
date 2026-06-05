@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 46.64 MB
 - Problem URL: https://leetcode.com/problems/limit-occurrences-in-sorted-array/
-- Synced: 2026-06-05T17:40:46.592Z
+- Synced: 2026-06-05T17:40:50.642Z
 
 ## Problem Description
 
