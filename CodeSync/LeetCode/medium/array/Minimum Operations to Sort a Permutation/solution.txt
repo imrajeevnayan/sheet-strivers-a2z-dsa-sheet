@@ -7,27 +7,28 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T17:44:31.210Z
+ * Synced: 2026-06-05T17:44:40.371Z
  */
 
 int tot = q[1];
-                // Type 2: Count pairs == q[1]
             } else {
                 if (y + 1 < m) diff[y + 1] -= val;
-                if (x < m) diff[x] += val;
-                int x = q[1], y = q[2], val = q[3];
-            if (q[0] == 1) {
-        for (int[] q : queries) {
-        
-        int[] diff = new int[m];  // To handle range updates on nums2
-        List<Integer> answers = new ArrayList<>();
-        
-        Arrays.sort(sorted1);
-        int[] sorted1 = nums1.clone();
-        
-        int m = nums2.length;
-        int n = nums1.length;
-    public int[] numberOfPairs(int[] nums1, int[] nums2, int[][] queries) {
-class Solution {
-                // Rebuild current nums2 state (lazy)
                 long[] current2 = new long[m];
+                long sum = 0;
+                for (int i = 0; i < m; i++) {
+                    sum += diff[i];
+                    current2[i] = nums2[i] + sum;
+                }
+                
+                int count = 0;
+                for (int num : nums1) {
+                    int target = tot - num;
+                    // Find how many in current2 == target
+                    count += upperBound(current2, target) - lowerBound(current2, target);
+                }
+                answers.add(count);
+            }
+        }
+        
+        int[] res = new int[answers.size()];
+        for (int i = 0; i < res.length; i++) {
