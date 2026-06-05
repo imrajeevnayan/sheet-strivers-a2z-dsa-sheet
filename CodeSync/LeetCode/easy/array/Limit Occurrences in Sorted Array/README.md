@@ -4,10 +4,10 @@
 - Language: Weekly Contest 503
 - Difficulty: Easy
 - Topics: Array, Two Pointers
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/limit-occurrences-in-sorted-array/
-- Synced: 2026-06-05T17:40:09.123Z
+- Synced: 2026-06-05T17:40:17.394Z
 
 ## Problem Description
 
