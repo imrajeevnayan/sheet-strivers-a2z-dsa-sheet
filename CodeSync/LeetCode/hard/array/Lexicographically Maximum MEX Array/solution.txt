@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Lexicographically Maximum MEX Array
- * URL: https://leetcode.com/contest/weekly-contest-504/problems/lexicographically-maximum-mex-array/description/
+ * URL: https://leetcode.com/contest/weekly-contest-504/problems/lexicographically-maximum-mex-array/
  * Language: Weekly Contest 504
  * Difficulty: Hard
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T09:44:56.481Z
+ * Synced: 2026-06-05T09:45:22.460Z
  */
 
 class Solution {
@@ -15,38 +15,31 @@ class Solution {
         int n = nums.length;
         List<Integer> result = new ArrayList<>();
         
+        int[] last = new int[n + 1];
+        for (int i = 0; i < n; i++) {
+            if (nums[i] <= n) {
+                last[nums[i]] = i;
+            }
+        }
+        
         int i = 0;
         while (i < n) {
             int mex = 0;
-            boolean[] seen = new boolean[n + 2]; // Since MEX can be up to n+1 max
-            
-            int maxK = 0;
-            int bestMex = -1;
-            
-            for (int k = 1; k <= n - i; k++) {
-                int val = nums[i + k - 1];
-                if (val < seen.length) {
-                    seen[val] = true;
-                }
-                
-                // Compute current MEX
-                while (seen[mex]) {
-                    mex++;
-                }
-                
-                // Track the best (largest) MEX found so far
-                if (mex > bestMex) {
-                    bestMex = mex;
-                    maxK = k;
-                }
+            while (last[mex] >= i) {
+                mex++;
             }
             
-            // Append the best MEX and jump by maxK
-            result.add(bestMex);
-            i += maxK;
+            // Now mex is the MEX of the suffix starting at i
+            // Find the shortest prefix that covers 0 to mex-1
+            int farthest = i;
+            for (int val = 0; val < mex; val++) {
+                farthest = Math.max(farthest, last[val]);
+            }
+            
+            result.add(mex);
+            i = farthest + 1;
         }
         
-        // Convert List to array
         int[] ans = new int[result.size()];
         for (int j = 0; j < result.size(); j++) {
             ans[j] = result.get(j);
