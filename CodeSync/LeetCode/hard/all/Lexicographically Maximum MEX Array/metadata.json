@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-05T09:45:22.460Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-05T09:46:14.757Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
@@ -10,5 +10,5 @@
   "language": "Weekly Contest 504",
   "problemTitle": "Lexicographically Maximum MEX Array",
   "problemUrl": "https://leetcode.com/contest/weekly-contest-504/problems/lexicographically-maximum-mex-array/",
-  "submissionId": "c7tvq4"
+  "submissionId": "7zgpbf"
 }
