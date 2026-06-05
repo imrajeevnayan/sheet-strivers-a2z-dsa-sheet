@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Linked List
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-05T18:16:16.086Z
+ * Memory: 46.34 MB
+ * Synced: 2026-06-05T18:16:19.735Z
  */
 
 public ListNode oddEvenList(ListNode head) {
