@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find the Highest Altitude
+ * URL: https://leetcode.com/problems/find-the-highest-altitude/description/?envType=study-plan-v2&envId=leetcode-75
+ * Language: LeetCode 75
+ * Difficulty: Easy
+ * Topics: Array, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-05T17:34:16.425Z
+ */
+
+class Solution {
+    public int largestAltitude(int[] gain) {
+        int current = 0;
+        int maxAltitude = 0;
+        for (int g : gain) {
+            current += g;
+            maxAltitude = Math.max(maxAltitude, current);
+        }
+        return maxAltitude;
+    }
+}
