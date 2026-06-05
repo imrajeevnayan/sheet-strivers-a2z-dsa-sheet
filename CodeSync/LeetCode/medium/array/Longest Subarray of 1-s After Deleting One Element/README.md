@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-05T17:18:34.208Z
+- Synced: 2026-06-05T17:18:37.433Z
 
 ## Problem Description
 
