@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-05T18:25:22.180Z",
+  "submissionTimestamp": "2026-06-05T18:25:40.677Z",
   "runtime": "0 ms",
   "memoryUsage": "47.24 MB",
   "difficulty": "Medium",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Grind 169 (Copy-rabvlt31)",
   "problemTitle": "Pow(x, n)",
-  "problemUrl": "https://leetcode.com/problems/powx-n/submissions/2023577965/?envType=problem-list-v2&envId=dxlqdj5j",
-  "submissionId": "p6wq2m"
+  "problemUrl": "https://leetcode.com/problems/powx-n/?envType=problem-list-v2&envId=dxlqdj5j",
+  "submissionId": "gfki8i"
 }
