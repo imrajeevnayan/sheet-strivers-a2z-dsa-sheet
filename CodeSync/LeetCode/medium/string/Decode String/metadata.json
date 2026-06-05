@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-05T18:27:42.887Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-05T18:29:27.876Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Grind 169 (Copy-rabvlt31)",
   "problemTitle": "Decode String",
-  "problemUrl": "https://leetcode.com/problems/decode-string/description/?envType=problem-list-v2&envId=dxlqdj5j",
-  "submissionId": "ry9477"
+  "problemUrl": "https://leetcode.com/problems/decode-string/?envType=problem-list-v2&envId=dxlqdj5j",
+  "submissionId": "b5zhbx"
 }
