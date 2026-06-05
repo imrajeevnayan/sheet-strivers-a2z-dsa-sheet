@@ -7,7 +7,7 @@
 - Runtime: 3 ms
 - Memory: 65.64 MB
 - Problem URL: https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/submissions/1957633096/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-05T17:17:54.821Z
+- Synced: 2026-06-05T17:18:24.818Z
 
 ## Problem Description
 
