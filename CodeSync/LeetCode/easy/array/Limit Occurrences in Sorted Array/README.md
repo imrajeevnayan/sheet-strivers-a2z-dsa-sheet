@@ -4,10 +4,10 @@
 - Language: Weekly Contest 503
 - Difficulty: Easy
 - Topics: Array
-- Runtime: 0 ms
-- Memory: 46.96 MB
-- Problem URL: https://leetcode.com/contest/weekly-contest-503/problems/limit-occurrences-in-sorted-array/submissions/2023551015/
-- Synced: 2026-06-05T17:57:49.095Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/contest/weekly-contest-503/problems/limit-occurrences-in-sorted-array/description/
+- Synced: 2026-06-05T18:08:19.267Z
 
 ## Problem Description
 
