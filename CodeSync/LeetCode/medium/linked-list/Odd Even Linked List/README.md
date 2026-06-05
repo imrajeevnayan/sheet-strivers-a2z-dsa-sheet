@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/odd-even-linked-list/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-05T18:15:13.747Z
+- Synced: 2026-06-05T18:15:16.987Z
 
 ## Problem Description
 
