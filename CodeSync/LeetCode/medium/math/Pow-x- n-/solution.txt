@@ -7,7 +7,7 @@
  * Topics: Math, Recursion
  * Runtime: 0 ms
  * Memory: 48.33 MB
- * Synced: 2026-06-05T18:25:56.164Z
+ * Synced: 2026-06-05T18:26:01.336Z
  */
 
 long exp = n;                    // Handle Integer.MIN_VALUE safely
