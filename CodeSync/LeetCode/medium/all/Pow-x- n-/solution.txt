@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Pow(x, n)
+ * URL: https://leetcode.com/problems/powx-n/?envType=problem-list-v2&envId=dxlqdj5j
+ * Language: Grind 169 (Copy-rabvlt31)
+ * Difficulty: Medium
+ * Topics: Math, Recursion
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-05T18:24:41.172Z
+ */
+
+class Solution {
+    public double myPow(double x, int n) {
+        
+    }
+}
