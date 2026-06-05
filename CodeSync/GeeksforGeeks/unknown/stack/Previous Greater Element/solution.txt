@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Stack, Arrays, Data Structures, Related Articles, Previous Greater Element
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T04:59:41.220Z
+ * Synced: 2026-06-05T05:07:38.179Z
  */
 
 class Solution {
@@ -16,7 +16,7 @@ class Solution {
         ArrayList<Integer> ans = new ArrayList<>(Collections.nCopies(n, -1));
         Stack<Integer> st = new Stack<>();
 
-        for (int i = 0; i < n; i++) {
+        for (int i = n-1; i .=0; i--) {
             while (!st.isEmpty() && arr[st.peek()] <= arr[i]) {
                 st.pop();
             }
