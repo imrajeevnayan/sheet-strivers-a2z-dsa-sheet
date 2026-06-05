@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-05T17:59:03.724Z",
-  "runtime": "0 ms",
-  "memoryUsage": "46.86 MB",
+  "submissionTimestamp": "2026-06-05T18:09:34.398Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "String",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Weekly Contest 503",
   "problemTitle": "Password Strength",
-  "problemUrl": "https://leetcode.com/contest/weekly-contest-503/problems/password-strength/submissions/2023552238/",
-  "submissionId": "169k02"
+  "problemUrl": "https://leetcode.com/contest/weekly-contest-503/problems/password-strength/description/",
+  "submissionId": "9gsqs3"
 }
