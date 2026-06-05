@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Limit Occurrences in Sorted Array
- * URL: https://leetcode.com/contest/weekly-contest-503/problems/limit-occurrences-in-sorted-array/
+ * URL: https://leetcode.com/contest/weekly-contest-503/problems/limit-occurrences-in-sorted-array/submissions/2023562738/
  * Language: Weekly Contest 503
  * Difficulty: Easy
  * Topics: Array
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-05T18:09:21.399Z
+ * Runtime: 0 ms
+ * Memory: 46.64 MB
+ * Synced: 2026-06-05T18:09:29.464Z
  */
 
 class Solution {
@@ -33,3 +33,9 @@ class Solution {
         return ans;
     }
 }
+[1,1,1,2,2,3]
+2
+[1,2,3]
+1
+[1,1,2,2,3]
+[1,2,3]
