@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Operations to Sort a Permutation
- * URL: https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/
+ * URL: https://leetcode.com/problems/minimum-operations-to-sort-a-permutation/submissions/2023550355/
  * Language: Weekly Contest 503
  * Difficulty: Medium
  * Topics: Array
  * Runtime: 2 ms
  * Memory: N/A
- * Synced: 2026-06-05T17:57:05.169Z
+ * Synced: 2026-06-05T17:57:08.182Z
  */
 
 long prev = (fzero + (i - 1L) * step % fn + fn) % fn;
