@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Digit Frequency Score
- * URL: https://leetcode.com/problems/digit-frequency-score/description/
+ * URL: https://leetcode.com/problems/digit-frequency-score/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, Math
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T16:32:15.288Z
+ * Synced: 2026-06-05T16:32:25.372Z
  */
 
 if (n == 0) return 0;
