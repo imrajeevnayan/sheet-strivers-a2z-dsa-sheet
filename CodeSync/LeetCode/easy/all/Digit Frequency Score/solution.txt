@@ -7,12 +7,25 @@
  * Topics: Hash Table
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-05T09:35:02.722Z
+ * Synced: 2026-06-05T09:35:15.719Z
  */
 
 class Solution {
     public int digitFrequencyScore(int n) {
-        int count =0;
+     if (n == 0) return 0;
+        int[] freq = new int[10];
+        while (n > 0) {
+            int d = n % 10;
+            freq[d]++;
+            n /= 10;
+        }
+        int score = 0;
+        for (int d = 0; d < 10; d++) {
+            if (freq[d] > 0) {
+                score += d * freq[d];
+            }
+        }
+        return score;
         
     }
 }
