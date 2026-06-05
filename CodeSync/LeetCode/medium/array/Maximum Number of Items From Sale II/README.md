@@ -4,10 +4,10 @@
 - Language: Weekly Contest 504
 - Difficulty: Medium
 - Topics: Array
-- Runtime: 45 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/contest/weekly-contest-504/problems/maximum-number-of-items-from-sale-ii/
-- Synced: 2026-06-05T09:43:20.460Z
+- Runtime: 0 ms
+- Memory: 0.00 MB
+- Problem URL: https://leetcode.com/contest/weekly-contest-504/problems/maximum-number-of-items-from-sale-ii/submissions/2023138033/
+- Synced: 2026-06-05T09:44:28.460Z
 
 ## Problem Description
 
