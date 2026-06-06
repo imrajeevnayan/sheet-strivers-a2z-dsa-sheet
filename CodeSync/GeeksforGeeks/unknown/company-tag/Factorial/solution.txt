@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Morgan Stanley, Samsung, FactSet, MAQ Software, Wipro, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T15:05:42.183Z
+ * Synced: 2026-06-06T15:05:49.101Z
  */
 
 class Solution {
