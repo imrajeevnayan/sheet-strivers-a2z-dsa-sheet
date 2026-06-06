@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-06T07:43:40.350Z",
+  "submissionTimestamp": "2026-06-06T07:43:42.923Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,8 +12,8 @@
     "Test Data Commit Output"
   ],
   "platform": "LintCode",
-  "language": "Java",
+  "language": "1public class Solution { 2 public boolean containsNearbyDuplicate(int[] nums, int k) { 3 Map<Integer,Integer>map=new HashMap<>(); 4 for(int i=0;i<nums.length;i++){ 5 if(map.containsKey(nums[i])){ 6 int prevIdx=map.get(nums[i]); 7 if(i-prevIdx <=k)return true; 8 } 9 map.put(nums[i],i); 10 } 11 return false; 12 } 13}",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/1319/",
-  "submissionId": "u8gabj"
+  "submissionId": "b0q5ry"
 }
