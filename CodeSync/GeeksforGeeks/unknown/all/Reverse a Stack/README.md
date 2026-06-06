@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/reverse-a-stack/
-- Synced: 2026-06-06T11:35:17.167Z
+- Synced: 2026-06-06T11:35:28.169Z
 
 ## Problem Description
 
