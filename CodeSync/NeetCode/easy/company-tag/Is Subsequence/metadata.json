@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-06T08:16:50.333Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-06T08:16:57.053Z",
+  "runtime": "78ms",
+  "memoryUsage": "63.9 MB",
   "difficulty": "Easy",
   "tags": [
     "Easy Topics Company Tags",
@@ -15,6 +15,6 @@
   "platform": "NeetCode",
   "language": "s",
   "problemTitle": "Is Subsequence",
-  "problemUrl": "https://neetcode.io/problems/is-subsequence/question?list=neetcode150",
+  "problemUrl": "https://neetcode.io/problems/is-subsequence/history?list=neetcode150&submissionIndex=0",
   "submissionId": "rjvpzy"
 }
