@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/
-- Synced: 2026-06-06T16:50:50.839Z
+- Synced: 2026-06-06T16:51:00.852Z
 
 ## Problem Description
 
