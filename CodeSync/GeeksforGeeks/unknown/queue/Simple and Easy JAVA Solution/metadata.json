@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-06-06T11:51:37.447Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Queue",
+    "Data Structures",
+    "Related Articles",
+    "Queue Data Structure",
+    "Queue Operations"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: unordered_map<int, int> mp; void enqueue(queue<int> &q, int k) { // code here q.push(k); mp[k]++; } int findFrequency(queue<int> &q, int k) { return mp[k]; // code here } };",
+  "problemTitle": "Simple and Easy JAVA Solution ::",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/queue-operations/1",
+  "submissionId": "wg6plt"
+}
