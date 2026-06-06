@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Replace the Substring for Balanced String
- * URL: https://leetcode.com/problems/replace-the-substring-for-balanced-string/description/
+ * URL: https://leetcode.com/problems/replace-the-substring-for-balanced-string/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T16:25:54.511Z
+ * Synced: 2026-06-06T16:26:34.356Z
  */
 
 class Solution {
