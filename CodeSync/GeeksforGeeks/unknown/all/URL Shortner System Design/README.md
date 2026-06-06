@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/system-design/system-design-url-shortening-service/
-- Synced: 2026-06-06T10:36:16.461Z
+- Synced: 2026-06-06T10:36:42.295Z
 
 ## Problem Description
 
