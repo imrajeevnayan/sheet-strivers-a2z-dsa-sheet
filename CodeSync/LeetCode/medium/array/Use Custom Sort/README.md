@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/largest-number/description/
-- Synced: 2026-06-06T16:36:49.496Z
+- Synced: 2026-06-06T16:36:53.937Z
 
 ## Problem Description
 
