@@ -6,8 +6,8 @@
 - Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/sum-of-left-leaves/description/
-- Synced: 2026-06-06T08:23:52.455Z
+- Problem URL: https://leetcode.com/problems/sum-of-left-leaves/
+- Synced: 2026-06-06T08:24:14.005Z
 
 ## Problem Description
 
