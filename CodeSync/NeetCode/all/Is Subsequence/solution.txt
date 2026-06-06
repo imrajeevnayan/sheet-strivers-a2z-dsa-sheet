@@ -1,0 +1,25 @@
+/*
+ * Platform: NeetCode
+ * Problem: Is Subsequence
+ * URL: https://neetcode.io/problems/is-subsequence/question?list=neetcode150
+ * Language: s
+ * Difficulty: Easy
+ * Topics: Easy Topics Company Tags, Topics, Company Tags, Two Pointers String Dynamic Programming, Two Pointers, String, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-06T08:16:50.333Z
+ */
+
+public boolean isSubsequence(String s, String t) {
+        int i = 0, j = 0;
+        
+        while (i < s.length() && j < t.length()) {
+            if (s.charAt(i) == t.charAt(j)) {
+                i++; 
+            }
+            j++; 
+        }
+     return i == s.length();
+    }
+class Solution {
+}
