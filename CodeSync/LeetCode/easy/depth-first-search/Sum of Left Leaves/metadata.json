@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-06T08:31:00.044Z",
+  "submissionTimestamp": "2026-06-06T08:31:05.691Z",
   "runtime": "0 ms",
   "memoryUsage": "43.23 MB",
   "difficulty": "Easy",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Sum of Left Leaves",
-  "problemUrl": "https://leetcode.com/problems/sum-of-left-leaves/submissions/2024026303/",
+  "problemUrl": "https://leetcode.com/problems/sum-of-left-leaves/",
   "submissionId": "ioohu0"
 }
