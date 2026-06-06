@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Minimum Cost to Reach Every Position
- * URL: https://leetcode.com/problems/minimum-cost-to-reach-every-position/submissions/2024040699/
+ * URL: https://leetcode.com/problems/minimum-cost-to-reach-every-position/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array
  * Runtime: 0 ms
  * Memory: 46.68 MB
- * Synced: 2026-06-06T08:48:14.408Z
+ * Synced: 2026-06-06T08:48:29.424Z
  */
 
 class Solution {
@@ -17,11 +17,10 @@ class Solution {
         
         if (n == 0) return ans;
         ans[0] = cost[0];
-        
+
         for (int i = 1; i < n; i++) {
             ans[i] = Math.min(ans[i - 1], cost[i]);
         }
-        
         return ans;
     }
 }
