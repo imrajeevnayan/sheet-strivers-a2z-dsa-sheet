@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-06T08:45:14.038Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-06T08:48:14.408Z",
+  "runtime": "0 ms",
+  "memoryUsage": "46.68 MB",
   "difficulty": "Easy",
   "tags": [
     "Array"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Minimum Cost to Reach Every Position",
-  "problemUrl": "https://leetcode.com/problems/minimum-cost-to-reach-every-position/",
-  "submissionId": "bhl9za"
+  "problemUrl": "https://leetcode.com/problems/minimum-cost-to-reach-every-position/submissions/2024040699/",
+  "submissionId": "2vtiwp"
 }
