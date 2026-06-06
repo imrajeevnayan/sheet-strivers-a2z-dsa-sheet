@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-06T16:51:28.170Z",
+  "submissionTimestamp": "2026-06-06T16:55:08.175Z",
   "runtime": "0 ms",
   "memoryUsage": "47.14 MB",
   "difficulty": "Easy",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count Subarrays of Length Three With a Condition",
-  "problemUrl": "https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/submissions/2024555368/",
+  "problemUrl": "https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/",
   "submissionId": "tdt5gz"
 }
