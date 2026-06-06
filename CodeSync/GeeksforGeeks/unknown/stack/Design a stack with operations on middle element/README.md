@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/design-a-stack-with-find-middle-operation/
-- Synced: 2026-06-06T11:31:01.414Z
+- Synced: 2026-06-06T11:31:07.182Z
 
 ## Problem Description
 
