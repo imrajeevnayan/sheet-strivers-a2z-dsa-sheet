@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T06:32:37.416Z
+ * Synced: 2026-06-06T06:33:00.406Z
  */
 
 class Solution {
@@ -20,5 +20,5 @@ class Solution {
         }
         
     }
-                if()
+                if(i-prevIndex)<=k
 }
