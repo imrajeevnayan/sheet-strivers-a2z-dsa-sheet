@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, String, Greedy, Sorting
 - Runtime: 1 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/largest-number/
-- Synced: 2026-06-06T16:47:15.004Z
+- Memory: 44.94 MB
+- Problem URL: https://leetcode.com/problems/largest-number/submissions/2024551393/
+- Synced: 2026-06-06T16:47:21.239Z
 
 ## Problem Description
 
