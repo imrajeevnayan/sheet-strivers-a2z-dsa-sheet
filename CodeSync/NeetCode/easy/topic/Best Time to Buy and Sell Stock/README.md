@@ -7,7 +7,7 @@
 - Runtime: 64ms
 - Memory: 63 MB
 - Problem URL: https://neetcode.io/problems/buy-and-sell-crypto/history?list=neetcode150&submissionIndex=1
-- Synced: 2026-06-06T16:24:42.297Z
+- Synced: 2026-06-06T16:25:08.382Z
 
 ## Problem Description
 
