@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Medium
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 510 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/longest-palindromic-substring_758900
-- Synced: 2026-06-03T12:41:14.381Z
+- Problem URL: https://www.naukri.com/code360/problems/edit-distance_630420
+- Synced: 2026-06-06T18:30:10.420Z
 
 ## Problem Description
 
