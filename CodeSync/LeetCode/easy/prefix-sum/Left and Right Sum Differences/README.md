@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/left-and-right-sum-differences/description/?envType=daily-question&envId=2026-06-06
-- Synced: 2026-06-06T05:28:28.994Z
+- Synced: 2026-06-06T05:28:38.995Z
 
 ## Problem Description
 
