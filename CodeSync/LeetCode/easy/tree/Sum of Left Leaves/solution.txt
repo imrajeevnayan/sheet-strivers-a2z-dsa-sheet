@@ -7,7 +7,7 @@
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T08:30:21.287Z
+ * Synced: 2026-06-06T08:30:23.530Z
  */
 
 class Solution {
@@ -19,5 +19,5 @@ class Solution {
         }
         sum+=sumOfLeftLeaves(root.left);
     }
-        sumOfLeftLeaves(root.right)
+        sumOfLeftLeaves(root.right);
 }
