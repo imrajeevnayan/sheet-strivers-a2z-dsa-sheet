@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-06T16:51:00.852Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-06T16:51:25.744Z",
+  "runtime": "0 ms",
+  "memoryUsage": "47.14 MB",
   "difficulty": "Easy",
   "tags": [
     "Array"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count Subarrays of Length Three With a Condition",
-  "problemUrl": "https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/",
-  "submissionId": "m75jra"
+  "problemUrl": "https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/submissions/2024555368/",
+  "submissionId": "tdt5gz"
 }
