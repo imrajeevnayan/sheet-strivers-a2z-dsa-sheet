@@ -7,12 +7,13 @@
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T08:25:29.342Z
+ * Synced: 2026-06-06T08:25:38.403Z
  */
 
 class Solution {
     public int sumOfLeftLeaves(TreeNode root) {
         if(root==null)return 0;
     }
-        int sum
+        int sum=0;
+        
 }
