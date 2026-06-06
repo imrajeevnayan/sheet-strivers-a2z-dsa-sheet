@@ -7,29 +7,10 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T11:49:23.933Z
+ * Synced: 2026-06-06T11:49:27.386Z
  */
 
-// Node class
-class Node {
-    int data;
-    Node next;
-
-    Node(int new_data) {
-        data = new_data;
-        next = null;
-    }
-}
-
-// Queue class
-class myQueue {
-    Node front, rear;
-    int count;
-
-    public myQueue() {
-        front = null;
-        rear = null;
-        count = 0;
+count = 0;
     }
 
     public boolean isEmpty() {
@@ -45,3 +26,21 @@ class myQueue {
             rear = newNode;
         }
         count++;
+    }
+
+    public void dequeue() {
+        if (isEmpty()) return;
+        front = front.next;
+        if (front == null) rear = null; // If queue becomes empty
+        count--;
+    }
+
+    public int getFront() {
+        if (isEmpty()) return -1;
+        return front.data;
+    }
+
+    public int size() {
+        return count;
+    }
+}
