@@ -7,9 +7,11 @@
  * Topics: String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T16:25:46.311Z
+ * Synced: 2026-06-06T16:25:54.511Z
  */
 
-Input: s = "QWER"
-Output: 0
-Explanation: s is already balanced.
+class Solution {
+    public int balancedString(String s) {
+        
+    }
+}
