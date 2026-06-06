@@ -1,18 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: Complement of Base 10 Integer
- * URL: https://leetcode.com/problems/complement-of-base-10-integer/
+ * URL: https://leetcode.com/problems/complement-of-base-10-integer/submissions/2023846712/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Bit Manipulation
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-06T05:09:01.484Z
+ * Synced: 2026-06-06T05:09:14.624Z
  */
 
 class Solution {
     public int bitwiseComplement(int n) {
+         if (n == 0) return 1;
+        
+        int mask = 0;
+        int temp = n;
+        
+        // Create mask by shifting left and adding 1
+        while (temp > 0) {
+            mask = (mask << 1) | 1;
+            temp >>= 1;
+        }
+        
+        return n ^ mask;
         
     }
-        
 }
