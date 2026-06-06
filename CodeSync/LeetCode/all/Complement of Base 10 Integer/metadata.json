@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-06T05:07:59.188Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-06T05:09:22.971Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.02 MB",
   "difficulty": "Easy",
   "tags": [
     "Bit Manipulation"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Complement of Base 10 Integer",
-  "problemUrl": "https://leetcode.com/problems/complement-of-base-10-integer/description/",
-  "submissionId": "fy9kkn"
+  "problemUrl": "https://leetcode.com/problems/complement-of-base-10-integer/submissions/2023846712/",
+  "submissionId": "4s2krn"
 }
