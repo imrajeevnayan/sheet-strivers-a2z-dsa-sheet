@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/sum-of-left-leaves/
-- Synced: 2026-06-06T08:30:33.378Z
+- Runtime: 0 ms
+- Memory: 43.23 MB
+- Problem URL: https://leetcode.com/problems/sum-of-left-leaves/submissions/2024026303/
+- Synced: 2026-06-06T08:31:00.044Z
 
 ## Problem Description
 
