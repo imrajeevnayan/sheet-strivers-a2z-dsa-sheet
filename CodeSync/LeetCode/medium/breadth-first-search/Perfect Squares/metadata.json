@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-06T18:00:19.576Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Breadth-First Search"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Perfect Squares",
+  "problemUrl": "https://leetcode.com/problems/perfect-squares/",
+  "submissionId": "19ihp3"
+}
