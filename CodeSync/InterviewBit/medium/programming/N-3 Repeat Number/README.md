@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.interviewbit.com/problems/n3-repeat-number/
-- Synced: 2026-06-06T08:50:01.583Z
+- Synced: 2026-06-06T08:50:09.922Z
 
 ## Problem Description
 
