@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Factorial
+ * URL: https://www.geeksforgeeks.org/problems/factorial5739/1
+ * Language: class Solution { public: int factorial(int n) { // code here if(n==0){ return 1; }else{ return n*factorial(n-1); } } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Morgan Stanley, Samsung, FactSet, MAQ Software, Wipro, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-06T15:05:49.101Z
+ */
+
+class Solution {
+    int factorial(int n) {
+        if(n==1)return 1;
+        return n* factorial(n-1);
+    }
+}
