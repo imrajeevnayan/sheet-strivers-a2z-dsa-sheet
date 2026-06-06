@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Minimum Cost to Reach Every Position
+ * URL: https://leetcode.com/problems/minimum-cost-to-reach-every-position/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-06T08:43:32.796Z
+ */
+
+class Solution {
+    public int[] minCosts(int[] cost) {
+        
+    }
+}
