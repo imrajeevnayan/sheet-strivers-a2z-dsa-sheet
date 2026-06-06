@@ -1,0 +1,23 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Reverse first K of a Queue
+ * URL: https://www.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Stack, Queue, Data Structures
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-06T11:41:07.981Z
+ */
+
+class Solution {
+    public Queue<Integer> reverseFirstK(Queue<Integer> q, int k) {
+       if(q.isEmpty() || k<=0 || k > q.size()) return q;
+       Stack<Integer>st=new Stack<>();
+       int rem=q.size()-k;
+       for(int i=0;i<k;i++) st.push(q.remove());
+       while(!st.isEmpty())q.add(st.pop());
+       for(int i=0;i<rem;i++) q.add(q.remove());
+       return q;
+    }
+}
