@@ -7,11 +7,11 @@
 - Runtime: 3199 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/check-if-two-given-strings-are-isomorphic-to-each-other_1117636
-- Synced: 2026-06-06T18:32:58.121Z
+- Synced: 2026-06-06T18:33:07.099Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Total problems solved
 
 ## Explanation
 
