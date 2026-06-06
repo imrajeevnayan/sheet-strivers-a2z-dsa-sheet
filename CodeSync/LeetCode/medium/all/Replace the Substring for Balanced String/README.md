@@ -6,8 +6,8 @@
 - Topics: String, Sliding Window
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/replace-the-substring-for-balanced-string/description/
-- Synced: 2026-06-06T16:25:54.511Z
+- Problem URL: https://leetcode.com/problems/replace-the-substring-for-balanced-string/
+- Synced: 2026-06-06T16:26:34.356Z
 
 ## Problem Description
 
