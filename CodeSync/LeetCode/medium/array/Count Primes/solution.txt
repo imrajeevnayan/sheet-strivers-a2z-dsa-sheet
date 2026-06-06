@@ -1,15 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Count Primes
- * URL: https://leetcode.com/problems/count-primes/submissions/1973519522/
+ * URL: https://leetcode.com/problems/count-primes/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Math, Enumeration, Number Theory
- * Runtime: 87 ms
- * Memory: 51.15 MB
- * Synced: 2026-06-06T18:20:19.671Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-06T18:20:22.952Z
  */
 
-Input: n = 10
-Output: 4
-Explanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.
+class Solution {
+    public int countPrimes(int n) {
+        
+    }
+}
