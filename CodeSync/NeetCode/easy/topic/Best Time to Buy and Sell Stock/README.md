@@ -4,10 +4,10 @@
 - Language: prices
 - Difficulty: Easy
 - Topics: Easy Topics Company Tags Hints, Topics, Company Tags, Hints, Array Dynamic Programming, Array, Dynamic Programming, Google27
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://neetcode.io/problems/buy-and-sell-crypto/question?list=neetcode150
-- Synced: 2026-06-06T16:24:39.293Z
+- Runtime: 64ms
+- Memory: 63 MB
+- Problem URL: https://neetcode.io/problems/buy-and-sell-crypto/history?list=neetcode150&submissionIndex=1
+- Synced: 2026-06-06T16:24:42.297Z
 
 ## Problem Description
 
