@@ -1,18 +1,18 @@
 # ENG
 
 - Platform: LintCode
-- Language: Python
+- Language: Java
 - Difficulty: Unknown
-- Topics: GreedyMonotonic StackStackString, Greedy, Monotonic Stack, Stack, String, Test Data Test Output
+- Topics: Hash Table, Palantir Technologies Palantir Airbnb, Palantir Technologies, Palantir, Airbnb, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/3599/?showListFe=true&page=1&problemTypeId=4&tagIds=361&pageSize=50
-- Synced: 2026-06-04T16:55:38.145Z
+- Problem URL: https://www.lintcode.com/problem/1319/
+- Synced: 2026-06-06T07:40:30.437Z
 
 ## Problem Description
 
-Description Given a string s, remove the duplicate letters in the string so that the letters present in the string appear only once, and return the result with the smallest dictionary order without disrupting the relative positions of the letters in the original string. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information The string s contains only lowercase letters Example Example 1: Input: "bcabca" Output: "abc" Explanation: After ensuring that the letters are de-duplicated in relative positions, all results are: "bca", "bac", "cab", "cba", "abc" Since only "bc" exists after the position of the letter "a", the only result starting with "a" is "abc" The smallest dictionary sequence is "abc", so it returns "abc" Example 2: Input: "cbadacab" Output: "adcb" Related Knowledge 学习《2024年9月北美大厂最新面试真题精讲》课程中的1.6Amazon：最新面试精选003相关内容 ，了解更多相关知识！ Tags Recommend Courses 0基础入门数据分析 进阶大厂刚需高薪人才，熟练掌握SQL、Python、Tableau、A/Btest等实用技能工具，配套100+数据题夯实基础 Problem List Prev 15/88 Next
+Description Given an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such that nums[i] = nums[j] and the absolute difference between i and j is at most k. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information Example Example 1： Input：nums = [1,2,1], k = 0 Output：False Example 2： Input：nums = [1,2,1], k = 2 Output：True Explanation：nums[0] = nums[2] and 2 - 0 <= 2 Related Knowledge 学习《2024年7月北美大厂最新面试真题精讲》课程中的3.9Meta：最新面试精选005相关内容 ，了解更多相关知识！ Tags Company Palantir Technologies Palantir Airbnb Related Problems 1318 Contains Duplicate III Medium 1320 Contains Duplicate Easy Recommend Courses 系统设计 System Design 2024版 数据库、API、GFS、视频流等16大系统设计详解，实战练习拿下面试/晋升“拦路虎”
 
 ## Explanation
 
-This solution was accepted on LintCode using Python. The detected topics are GreedyMonotonic StackStackString, Greedy, Monotonic Stack, Stack, String, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are Hash Table, Palantir Technologies Palantir Airbnb, Palantir Technologies, Palantir, Airbnb, Test Data Test Output. Review the synced source file for the implementation details.
