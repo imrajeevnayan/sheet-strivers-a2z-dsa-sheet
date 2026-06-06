@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/merge-intervals/
-- Synced: 2026-06-06T18:23:57.558Z
+- Synced: 2026-06-06T18:24:00.794Z
 
 ## Problem Description
 
