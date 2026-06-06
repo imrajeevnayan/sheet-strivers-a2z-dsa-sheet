@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-03T12:41:14.381Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-06T18:30:10.420Z",
+  "runtime": "510 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "Ninja’s Training",
-  "problemUrl": "https://www.naukri.com/code360/problems/longest-palindromic-substring_758900",
-  "submissionId": "e44kp0"
+  "problemUrl": "https://www.naukri.com/code360/problems/edit-distance_630420",
+  "submissionId": "3x9nan"
 }
