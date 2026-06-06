@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T16:23:14.976Z
+ * Synced: 2026-06-06T16:23:22.639Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
      int max=Integer.MIN_VALUE,min=Integer.MAX_VALUE;
      for(int n :prices){
         min=Math.min(min,n);
-        max=Math.max
+        max=Math.max(max,min-n)
      }
         
     }
