@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Use Custom Sort
- * URL: https://leetcode.com/problems/largest-number/
+ * URL: https://leetcode.com/problems/largest-number/submissions/2024551393/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, String, Greedy, Sorting
  * Runtime: 1 ms
- * Memory: N/A
- * Synced: 2026-06-06T16:47:15.004Z
+ * Memory: 44.94 MB
+ * Synced: 2026-06-06T16:47:21.239Z
  */
 
 class Solution {
