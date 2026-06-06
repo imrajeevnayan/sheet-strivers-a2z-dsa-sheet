@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Java Solution Using Stack :
+ * URL: https://www.geeksforgeeks.org/problems/queue-reversal/1
+ * Language: public Queue<Integer> rev(Queue<Integer> queue){ //add code here. Stack<Integer> stack = new Stack<>(); while(queue.size > 0) { stack.push(queue.poll()); } while(stack.size() > 0) { queue.add(stack.pop()); } return queue; }
+ * Difficulty: Unknown
+ * Topics: Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-06T11:50:24.221Z
+ */
+
+class Solution {
+    public void reverseQueue(Queue<Integer> q) {
+      Stack<Integer>s=new Stack<>();
+        while (!q.isEmpty()){
+            s.push(q.remove());
+        }
+        while (!s.isEmpty()){
+            q.add(s.pop());
+        }
+        
+    }
+}
