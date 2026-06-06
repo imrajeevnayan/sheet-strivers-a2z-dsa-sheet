@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Deleting middle element from stack
+ * URL: https://www.geeksforgeeks.org/problems/delete-middle-element-of-a-stack/1
+ * Language: #include <bits/stdc++.h> using namespace std; void deleteMid(stack<int> &st ,int N){ int popped_elements = N-st.size(); if(popped_elements == (N/2)){ st.pop(); return; } int x=st.top(); st.pop(); deleteMid(st,N); st.push(x); } void deleteMidElement(stack<int>& st) { int N = st.size(); deleteMid(st,N); } int main() { stack<int> st; st.push(6); st.push(5); st.push(4); st.push(3); st.push(2); st.push(1); deleteMidElement(st); while (!st.empty()) { cout << st.top() << " "; st.pop(); } return 0; }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Recursion, Stack, STL
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-06T11:33:36.042Z
+ */
+
+class Solution {
+    public void deleteMid(Stack<Integer> s) {
+        solve(s, 0, s.size());
+    }
+
+    private void solve(Stack<Integer> s, int curr, int size) {
+        if (curr == size / 2) {
+            s.pop();
+            return;
+        }
+        int temp = s.pop();
+        solve(s, curr + 1, size);
+        s.push(temp);
+    }
+}
