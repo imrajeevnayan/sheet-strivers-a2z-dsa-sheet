@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Math, Enumeration, Number Theory
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 51.04 MB
 - Problem URL: https://leetcode.com/problems/count-primes/submissions/2024644557/
-- Synced: 2026-06-06T18:20:40.682Z
+- Synced: 2026-06-06T18:20:48.110Z
 
 ## Problem Description
 
