@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Dynamic Programming
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-- Synced: 2026-06-06T16:21:47.997Z
+- Runtime: 1 ms
+- Memory: 94.20 MB
+- Problem URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/2010655350/
+- Synced: 2026-06-06T16:21:59.897Z
 
 ## Problem Description
 
