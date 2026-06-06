@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Sorting
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-intervals/
-- Synced: 2026-06-06T18:24:11.344Z
+- Problem URL: https://leetcode.com/problems/merge-intervals/submissions/2024648146/
+- Synced: 2026-06-06T18:24:15.328Z
 
 ## Problem Description
 
