@@ -1,89 +1,29 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Reverse a Stack
- * URL: https://www.geeksforgeeks.org/dsa/reverse-a-stack/
- * Language: #include <iostream> #include <stack> using namespace std; // function to insert element at the bottom of the stack void insertAtBottom(stack<int> &st, int x) { if (st.empty()) { st.push(x); return; } // hold the top element and remove it int top = st.top(); st.pop(); // recursively call to reach the bottom insertAtBottom(st, x); st.push(top); } // function to reverse the stack void reverseStack(stack<int> &st) { if (st.empty()) return; // hold the top element and remove it int top = st.top(); st.pop(); // reverse the remaining stack reverseStack(st); // insert the held element at the bottom insertAtBottom(st, top); } int main() { stack<int> st; st.push(1); st.push(2); st.push(3); st.push(4); reverseStack(st); while (!st.empty()) { cout << st.top() << " "; st.pop(); } return 0; }
+ * URL: https://www.geeksforgeeks.org/problems/reverse-a-stack/1
+ * Language: class Solution{ public: queue<int>ans; void Reverse(stack<int> &St){ if (!St.empty()){ ans.push(St.top()); St.pop(); } else{ return; } Reverse(St); while (!ans.empty()){ St.push(ans.front()); ans.pop(); } } };
  * Difficulty: Unknown
- * Topics: Reverse
+ * Topics: Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T11:35:43.178Z
+ * Synced: 2026-06-06T11:35:45.543Z
  */
 
-import java.util.Stack;
-​
-class GfG{
-​
-    // function to insert element at the bottom of the stack
-    static void insertAtBottom(Stack<Integer> st, int x) {
+class Solution {
+    public static void reverseStack(Stack<Integer> st) {
+        if (st.isEmpty())  return;
+        int top = st.pop();
+        reverseStack(st);
+        insertAtBottom(st, top);
+    }
+    private static void insertAtBottom(Stack<Integer> st, int x) {
         if (st.isEmpty()) {
             st.push(x);
             return;
         }
-​
-        // hold the top element and remove it
         int top = st.pop();
-​
-        // recursively call to reach the bottom
         insertAtBottom(st, x);
-​
         st.push(top);
-    }
-​
-    // function to reverse the stack
-    static void reverseStack(Stack<Integer> st) {
-        if (st.isEmpty()) return;
-​
-        // hold the top element and remove it
-        int top = st.pop();
-​
-        // reverse the remaining stack
-        reverseStack(st);
-​
-        // insert the held element at the bottom
-        insertAtBottom(st, top);
-    }
-​
-    public static void main(String[] args) {
-        Stack<Integer> st = new Stack<>();
-        st.push(1);
-        st.push(2);
-        st.push(3);
-        st.push(4);
-​
-        reverseStack(st);
-​
-        while (!st.isEmpty()) {
-            System.out.print(st.pop() + " ");
-        }
-    }
-}
-import java.util.Stack;
-​
-class GfG {
-    public static void reverseStack(Stack<Integer> st) {
-        Stack<Integer> aux = new Stack<>();
-​
-        // move all elements to auxiliary stack
-        while (!st.isEmpty()) {
-            aux.push(st.pop());
-        }
-​
-        // replace original stack with auxiliary
-        st.addAll(aux);
-    }
-​
-    public static void main(String[] args) {
-        Stack<Integer> st = new Stack<>();
-        st.push(1);
-        st.push(2);
-        st.push(3);
-        st.push(4);
-​
-        reverseStack(st);
-​
-        while (!st.isEmpty()) {
-            System.out.print(st.pop() + " ");
-        }
     }
 }
