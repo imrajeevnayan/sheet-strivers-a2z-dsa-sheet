@@ -7,7 +7,7 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T08:45:11.522Z
+ * Synced: 2026-06-06T08:45:14.038Z
  */
 
 public int minCost(int[] cost) {
@@ -23,8 +23,6 @@ public int minCost(int[] cost) {
         for (int i = 2; i < n; i++) {
             dp[i] = cost[i] + Math.min(dp[i - 1], dp[i - 2]);
         }
-
-        // Usually, you can finish from the last or second-to-last step
         return Math.min(dp[n - 1], dp[n - 2]);
     }
 class Solution {
