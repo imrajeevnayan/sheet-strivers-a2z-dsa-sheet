@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/sum-of-left-leaves/
-- Synced: 2026-06-06T08:25:38.403Z
+- Synced: 2026-06-06T08:25:43.241Z
 
 ## Problem Description
 
