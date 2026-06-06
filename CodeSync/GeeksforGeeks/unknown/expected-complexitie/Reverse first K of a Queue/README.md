@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/reverse-first-k-elements-of-queue/1
-- Synced: 2026-06-06T11:41:07.981Z
+- Synced: 2026-06-06T11:41:15.661Z
 
 ## Problem Description
 
