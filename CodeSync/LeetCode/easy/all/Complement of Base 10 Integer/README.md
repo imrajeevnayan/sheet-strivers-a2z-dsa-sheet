@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Bit Manipulation
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 42.02 MB
 - Problem URL: https://leetcode.com/problems/complement-of-base-10-integer/submissions/2023846712/
-- Synced: 2026-06-06T05:09:14.624Z
+- Synced: 2026-06-06T05:09:22.971Z
 
 ## Problem Description
 
