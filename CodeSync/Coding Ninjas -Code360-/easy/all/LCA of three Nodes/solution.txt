@@ -1,41 +1,40 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/triplets-with-given-sum_893028
+ * URL: https://www.naukri.com/code360/problems/check-if-two-given-strings-are-isomorphic-to-each-other_1117636
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 3522 ms
+ * Runtime: 3199 ms
  * Memory: N/A
- * Synced: 2026-06-04T16:21:52.052Z
+ * Synced: 2026-06-06T18:32:41.818Z
  */
 
-import java.util.* ;
-import java.io.*; 
+import java.util.*;
+ 
 public class Solution {
-    public static ArrayList<ArrayList<Integer>> findTriplets(int[] arr, int n, int K)  {
-        ArrayList<ArrayList<Integer>> result = new ArrayList<>();       
-        Arrays.sort(arr);    
-        for (int i = 0; i < n - 2; i++) {
-            // Skip duplicate elements for the first number
-            if (i > 0 && arr[i] == arr[i - 1]) continue;
-            
-            int left = i + 1;
-            int right = n - 1;
-            
-            while (left < right) {
-                int sum = arr[i] + arr[left] + arr[right];
-                
-                if (sum == K) {
-                    ArrayList<Integer> triplet = new ArrayList<>();
-                    triplet.add(arr[i]);
-                    triplet.add(arr[left]);
-                    triplet.add(arr[right]);
-                    result.add(triplet);
-                    
-                    // Skip duplicates for the second number
-                    while (left < right && arr[left] == arr[left + 1]) left++;
-                    // Skip duplicates for the third number
-                    while (left < right && arr[right] == arr[right - 1]) right--;
-                    
-                    left++;
+    public static boolean areIsomorphic(String str1, String str2) {
+        if (str1.length() != str2.length()) return false;
+ 
+        HashMap<Character, Character> map1 = new HashMap<>();
+        HashMap<Character, Character> map2 = new HashMap<>();
+ 
+        for (int i = 0; i < str1.length(); i++) {
+            char c1 = str1.charAt(i);
+            char c2 = str2.charAt(i);
+ 
+            if (map1.containsKey(c1)) {
+                if (map1.get(c1) != c2) return false;
+            } else {
+                map1.put(c1, c2);
+            }
+ 
+            if (map2.containsKey(c2)) {
+                if (map2.get(c2) != c1) return false;
+            } else {
+                map2.put(c2, c1);
+            }
+        }
+        return true;
+    }
+}
