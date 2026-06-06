@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-06T16:36:53.937Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "String",
+    "Greedy",
+    "Sorting"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Use Custom Sort",
+  "problemUrl": "https://leetcode.com/problems/largest-number/description/",
+  "submissionId": "9c9qeb"
+}
