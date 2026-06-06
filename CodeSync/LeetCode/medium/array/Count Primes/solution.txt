@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Count Primes
- * URL: https://leetcode.com/problems/count-primes/description/
+ * URL: https://leetcode.com/problems/count-primes/submissions/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Math, Enumeration, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T18:20:12.679Z
+ * Synced: 2026-06-06T18:20:15.690Z
  */
 
 class Solution {
