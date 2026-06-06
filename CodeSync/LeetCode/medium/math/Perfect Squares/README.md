@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/perfect-squares/
-- Synced: 2026-06-06T18:00:03.716Z
+- Synced: 2026-06-06T18:00:19.576Z
 
 ## Problem Description
 
