@@ -7,7 +7,7 @@
  * Topics: Programming, Arrays, Description, Discussion, Submissions, Hints, Noble Integer 43 Minutes Easy Asked in:, 31.9%
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T08:49:56.468Z
+ * Synced: 2026-06-06T08:50:01.583Z
  */
 
 public class Solution {
