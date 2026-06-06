@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-cost-to-reach-every-position/
-- Synced: 2026-06-06T08:45:14.038Z
+- Problem URL: https://leetcode.com/problems/minimum-cost-to-reach-every-position/submissions/2024040699/
+- Synced: 2026-06-06T08:48:10.843Z
 
 ## Problem Description
 
