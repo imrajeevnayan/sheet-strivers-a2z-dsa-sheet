@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/stack-using-queue/1
-- Synced: 2026-06-06T11:37:20.747Z
+- Synced: 2026-06-06T11:37:24.279Z
 
 ## Problem Description
 
