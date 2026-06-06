@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-04T16:21:52.052Z",
-  "runtime": "3522 ms",
+  "submissionTimestamp": "2026-06-06T18:32:52.458Z",
+  "runtime": "3199 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/triplets-with-given-sum_893028",
-  "submissionId": "secn1"
+  "problemUrl": "https://www.naukri.com/code360/problems/check-if-two-given-strings-are-isomorphic-to-each-other_1117636",
+  "submissionId": "mlhtrs"
 }
