@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, String, Greedy, Sorting
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/largest-number/submissions/
-- Synced: 2026-06-06T16:43:48.680Z
+- Runtime: 11 ms
+- Memory: 45.34 MB
+- Problem URL: https://leetcode.com/problems/largest-number/submissions/1896428535/
+- Synced: 2026-06-06T16:43:51.263Z
 
 ## Problem Description
 
