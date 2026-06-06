@@ -6,8 +6,8 @@
 - Topics: Array, Sorting
 - Runtime: 1 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/merge-intervals/submissions/2024645356/
-- Synced: 2026-06-06T18:21:28.446Z
+- Problem URL: https://leetcode.com/problems/merge-intervals/description/
+- Synced: 2026-06-06T18:21:31.296Z
 
 ## Problem Description
 
