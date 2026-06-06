@@ -7,7 +7,7 @@
  * Topics: Array, String, Greedy, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T16:36:49.496Z
+ * Synced: 2026-06-06T16:36:53.937Z
  */
 
 class Solution {
