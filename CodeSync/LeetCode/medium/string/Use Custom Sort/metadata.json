@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-06T16:43:48.680Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-06T16:43:55.810Z",
+  "runtime": "11 ms",
+  "memoryUsage": "45.34 MB",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Use Custom Sort",
-  "problemUrl": "https://leetcode.com/problems/largest-number/submissions/",
-  "submissionId": "9c9qeb"
+  "problemUrl": "https://leetcode.com/problems/largest-number/submissions/1896428535/",
+  "submissionId": "h5cjgt"
 }
