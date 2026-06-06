@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/implement-queue-using-linked-list/1
-- Synced: 2026-06-06T11:49:23.933Z
+- Synced: 2026-06-06T11:49:27.386Z
 
 ## Problem Description
 
