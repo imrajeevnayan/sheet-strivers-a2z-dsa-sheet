@@ -7,11 +7,25 @@
  * Topics: Array, String, Greedy, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T16:46:52.478Z
+ * Synced: 2026-06-06T16:47:01.266Z
  */
 
 class Solution {
     public String largestNumber(int[] nums) {
-        
+        String[] strs = new String[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            strs[i] = String.valueOf(nums[i]);
+        }
+        Arrays.sort(strs, (a, b) -> (b + a).compareTo(a + b));
+
+        // Edge case: if the largest number is "0", the result is "0"
+        if (strs[0].equals("0")) return "0";
+
+        // Build the result
+        StringBuilder sb = new StringBuilder();
+        for (String s : strs) {
+            sb.append(s);
+        }
+        return sb.toString();
     }
 }
