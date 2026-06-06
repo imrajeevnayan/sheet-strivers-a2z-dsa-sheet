@@ -1,0 +1,19 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Find All Anagrams in a String
+ * URL: https://www.naukri.com/code360/problems/find-all-anagrams_975387
+ * Language: Java (SE 1.8)
+ * Difficulty: Easy
+ * Topics: Easy Clear all
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-06T18:33:48.664Z
+ */
+
+import java.util.ArrayList;
+ 
+public class Solution {
+    public static ArrayList<Integer> findAnagramsIndices(String str, int n, String ptr, int m){
+        // Write your code here.
+    }
+}
