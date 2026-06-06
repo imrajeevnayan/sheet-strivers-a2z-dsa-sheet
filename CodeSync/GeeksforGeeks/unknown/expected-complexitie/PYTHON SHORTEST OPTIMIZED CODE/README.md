@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/reverse-a-doubly-linked-list/1
-- Synced: 2026-06-06T15:11:22.434Z
+- Synced: 2026-06-06T15:12:14.299Z
 
 ## Problem Description
 
