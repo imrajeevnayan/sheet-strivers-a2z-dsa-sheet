@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-06T16:33:45.676Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.17 MB",
+  "difficulty": "Easy",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Memoization"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Climbing Stairs",
+  "problemUrl": "https://leetcode.com/problems/climbing-stairs/submissions/2024538700/",
+  "submissionId": "cdl0ob"
+}
