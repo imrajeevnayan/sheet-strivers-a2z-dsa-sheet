@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Complement of Base 10 Integer
- * URL: https://leetcode.com/problems/complement-of-base-10-integer/
+ * URL: https://leetcode.com/problems/complement-of-base-10-integer/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Bit Manipulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T05:07:30.476Z
+ * Synced: 2026-06-06T05:07:32.479Z
  */
 
 class Solution {
