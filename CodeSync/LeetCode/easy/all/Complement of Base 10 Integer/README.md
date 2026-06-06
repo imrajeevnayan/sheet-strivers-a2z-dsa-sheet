@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/complement-of-base-10-integer/
-- Synced: 2026-06-06T05:07:20.489Z
+- Synced: 2026-06-06T05:07:30.476Z
 
 ## Problem Description
 
