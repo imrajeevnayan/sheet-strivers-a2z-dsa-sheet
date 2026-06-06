@@ -1,19 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Merge Intervals
- * URL: https://leetcode.com/problems/merge-intervals/description/
+ * URL: https://leetcode.com/problems/merge-intervals/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T18:21:16.480Z
+ * Synced: 2026-06-06T18:21:24.060Z
  */
 
-import java.util.*;
-
-class Solution {
-    public int[][] merge(int[][] intervals) {
+public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
         List<int[]> result = new ArrayList<>();
         int[] current = intervals[0];
@@ -30,3 +27,5 @@ class Solution {
         return result.toArray(new int[result.size()][]);
     }
 }
+class Solution {
+import java.util.*;
