@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Primes
+ * URL: https://leetcode.com/problems/count-primes/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Math, Enumeration, Number Theory
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-06T18:20:12.679Z
+ */
+
+class Solution {
+    public int countPrimes(int n) {
+        
+    }
+}
