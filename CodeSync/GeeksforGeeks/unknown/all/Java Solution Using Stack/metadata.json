@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-06-06T11:50:24.221Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Stack"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "public Queue<Integer> rev(Queue<Integer> queue){ //add code here. Stack<Integer> stack = new Stack<>(); while(queue.size > 0) { stack.push(queue.poll()); } while(stack.size() > 0) { queue.add(stack.pop()); } return queue; }",
+  "problemTitle": "Java Solution Using Stack :",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/queue-reversal/1",
+  "submissionId": "ykqpek"
+}
