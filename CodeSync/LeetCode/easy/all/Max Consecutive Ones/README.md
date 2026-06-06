@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/max-consecutive-ones/
-- Synced: 2026-06-06T08:34:17.657Z
+- Synced: 2026-06-06T08:34:27.261Z
 
 ## Problem Description
 
