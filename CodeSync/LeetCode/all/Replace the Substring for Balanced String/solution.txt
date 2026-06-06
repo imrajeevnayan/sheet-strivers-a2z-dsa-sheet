@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: Replace the Substring for Balanced String
+ * URL: https://leetcode.com/problems/replace-the-substring-for-balanced-string/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: String, Sliding Window
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-06T16:25:46.311Z
+ */
+
+Input: s = "QWER"
+Output: 0
+Explanation: s is already balanced.
