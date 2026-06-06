@@ -7,7 +7,7 @@
  * Topics: String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T16:29:10.598Z
+ * Synced: 2026-06-06T16:29:17.342Z
  */
 
 class Solution {
@@ -18,7 +18,7 @@ class Solution {
             map.put(ch,map.getOrDefault(ch,0)+1);
         }
          for(char ch:map.keySet()){
-            if(map.get(ch))
+            if(map.get(ch)>)
          }
     }
 }
