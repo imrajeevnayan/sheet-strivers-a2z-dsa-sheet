@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Bit Manipulation
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/complement-of-base-10-integer/description/
-- Synced: 2026-06-06T05:07:59.188Z
+- Runtime: 0 ms
+- Memory: 42.02 MB
+- Problem URL: https://leetcode.com/problems/complement-of-base-10-integer/submissions/2023846712/
+- Synced: 2026-06-06T05:09:22.971Z
 
 ## Problem Description
 
