@@ -3,11 +3,11 @@
  * Problem: ENG
  * URL: https://www.lintcode.com/problem/1319/
  * Language: Java
- * Difficulty: Unknown
- * Topics: Hash Table, Palantir Technologies Palantir Airbnb, Palantir Technologies, Palantir, Airbnb, Test Data Test Output
+ * Difficulty: Medium
+ * Topics: Hash Table, Palantir Technologies Palantir Airbnb, Palantir Technologies, Palantir, Airbnb, Test Data Commit Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T07:43:14.923Z
+ * Synced: 2026-06-06T07:43:40.350Z
  */
 
 public·class·Solution·{
@@ -19,7 +19,7 @@ public·class·Solution·{
 ··············int·prevIdx=map.get(nums[i]);
 ··········}
 ····}
-··············if(i-prevIdx·>=k)return·false;
+··············if(i-prevIdx·<=k)return·true;
 ··········map.put(nums[i],i);
 ······return·false;
 }
