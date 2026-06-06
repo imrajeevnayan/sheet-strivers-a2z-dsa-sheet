@@ -7,7 +7,7 @@
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T08:26:19.263Z
+ * Synced: 2026-06-06T08:26:39.452Z
  */
 
 class Solution {
@@ -15,5 +15,5 @@ class Solution {
         if(root==null)return 0;
     }
         int sum=0;
-        if(root.left==null 66666666665777777888888888888866666666666666546)
+        if(root.left==null &7777)
 }
