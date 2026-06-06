@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Contains Duplicate II
- * URL: https://leetcode.com/problems/contains-duplicate-ii/submissions/2023925893/
+ * URL: https://leetcode.com/problems/contains-duplicate-ii/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sliding Window
  * Runtime: 0 ms
- * Memory: 90.80 MB
- * Synced: 2026-06-06T06:34:34.769Z
+ * Memory: N/A
+ * Synced: 2026-06-06T06:35:29.468Z
  */
 
 class Solution {
