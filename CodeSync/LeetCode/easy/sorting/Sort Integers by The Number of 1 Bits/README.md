@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/
-- Synced: 2026-06-06T16:55:42.795Z
+- Synced: 2026-06-06T16:55:49.793Z
 
 ## Problem Description
 
