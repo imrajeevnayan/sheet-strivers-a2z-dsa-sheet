@@ -7,11 +7,11 @@
  * Topics: Array, Bit Manipulation, Sorting, Counting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T16:57:17.663Z
+ * Synced: 2026-06-06T16:57:24.877Z
  */
 
 class Solution {
     public int[] sortByBits(int[] arr) {
-        
+        Arrays.sort(arr)
     }
 }
