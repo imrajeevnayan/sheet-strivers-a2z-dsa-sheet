@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/factorial5739/1
-- Synced: 2026-06-06T15:05:42.183Z
+- Synced: 2026-06-06T15:05:49.101Z
 
 ## Problem Description
 
