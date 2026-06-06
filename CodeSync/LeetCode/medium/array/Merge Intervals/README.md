@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Sorting
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 49.22 MB
 - Problem URL: https://leetcode.com/problems/merge-intervals/submissions/2024648146/
-- Synced: 2026-06-06T18:24:15.328Z
+- Synced: 2026-06-06T18:24:26.263Z
 
 ## Problem Description
 
