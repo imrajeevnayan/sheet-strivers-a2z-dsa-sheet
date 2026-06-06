@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Array, Sorting
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-06T18:24:15.328Z
+ * Memory: 49.22 MB
+ * Synced: 2026-06-06T18:24:18.483Z
  */
 
 List<int[]> merged = new ArrayList<>();
