@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 3522 ms
+- Runtime: 3199 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/triplets-with-given-sum_893028
-- Synced: 2026-06-04T16:21:52.052Z
+- Problem URL: https://www.naukri.com/code360/problems/check-if-two-given-strings-are-isomorphic-to-each-other_1117636
+- Synced: 2026-06-06T18:32:41.818Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
