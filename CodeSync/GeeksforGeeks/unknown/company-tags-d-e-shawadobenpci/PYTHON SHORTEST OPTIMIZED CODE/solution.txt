@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags D-E-ShawAdobeNPCI, Company Tags, D-E-Shaw, Adobe, NPCI, Topic Tags, doubly-linked-list
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T15:11:22.434Z
+ * Synced: 2026-06-06T15:12:14.299Z
  */
 
 class Solution {
@@ -21,10 +21,7 @@ class Solution {
             curr.next = temp;
             curr = curr.prev;
         }
-
-        if (temp != null) {
-            head = temp.prev;
-        }
+        if (temp != null)  head = temp.prev;
         return head;
     }
 }
