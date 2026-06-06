@@ -1,0 +1,38 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Singleton Method Design Pattern
+ * URL: https://www.geeksforgeeks.org/system-design/singleton-design-pattern/
+ * Language: // Static member to hold the single instance private: static Singleton instance;
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-06T15:25:30.983Z
+ */
+
+import java.io.*;
+class Singleton {
+    // static class
+    private static Singleton instance;
+    private Singleton()
+    {
+        System.out.println("Singleton is Instantiated.");
+    }
+    public static Singleton getInstance()
+    {
+        if (instance == null)
+            instance = new Singleton();
+        return instance;
+    }
+    public static void doSomething()
+    {
+        System.out.println("Something is Done.");
+    }
+}
+​
+class GFG {
+    public static void main(String[] args)
+    {
+        Singleton.getInstance().doSomething();
+    }
+}
