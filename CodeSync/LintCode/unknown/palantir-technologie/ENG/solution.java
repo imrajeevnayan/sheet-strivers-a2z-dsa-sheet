@@ -7,7 +7,7 @@
  * Topics: Hash Table, Palantir Technologies Palantir Airbnb, Palantir Technologies, Palantir, Airbnb, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T07:42:36.783Z
+ * Synced: 2026-06-06T07:42:39.063Z
  */
 
 public·class·Solution·{
@@ -19,5 +19,5 @@ public·class·Solution·{
 ··············int·prevIdx=map.get(nums[i]);
 ··········}
 ····}
-··············if(i-prevIdx·>=k)re
+··············if(i-prevIdx·>=k)return·fal
 }
