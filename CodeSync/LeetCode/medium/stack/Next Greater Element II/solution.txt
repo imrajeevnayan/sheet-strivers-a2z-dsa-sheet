@@ -7,7 +7,7 @@
  * Topics: Array, Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T08:50:04.014Z
+ * Synced: 2026-06-06T10:25:22.174Z
  */
 
 Input: nums = [1,2,1]
