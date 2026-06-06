@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-06T16:46:52.478Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-06T16:47:15.004Z",
+  "runtime": "1 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -13,5 +13,5 @@
   "language": "Problem List",
   "problemTitle": "Use Custom Sort",
   "problemUrl": "https://leetcode.com/problems/largest-number/",
-  "submissionId": "9c9qeb"
+  "submissionId": "s4p6ue"
 }
