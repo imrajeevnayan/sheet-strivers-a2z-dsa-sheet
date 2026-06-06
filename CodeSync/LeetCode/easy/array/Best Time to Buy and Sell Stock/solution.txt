@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: Best Time to Buy and Sell Stock
+ * URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-06T16:20:30.944Z
+ */
+
+class Solution {
+    public int maxProfit(int[] prices) {
+        int min=Integer.MAX_VALUE;
+        int max=Integer.MIN_VALUE;
+        for(int p:prices){
+            min=Math.min(min,p);
+            max=Math.max(max,p-min);
+        }
+        return max;
+    }
+}
