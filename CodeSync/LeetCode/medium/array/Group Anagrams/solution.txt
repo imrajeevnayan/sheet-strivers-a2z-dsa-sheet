@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Array, Hash Table, String, Sorting
  * Runtime: 1 ms
- * Memory: N/A
- * Synced: 2026-06-06T18:43:52.616Z
+ * Memory: 49.70 MB
+ * Synced: 2026-06-06T18:43:55.742Z
  */
 
 class Solution {
