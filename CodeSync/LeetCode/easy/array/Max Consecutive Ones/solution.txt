@@ -7,7 +7,7 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T08:33:32.517Z
+ * Synced: 2026-06-06T08:33:34.019Z
  */
 
 class Solution {
@@ -17,5 +17,5 @@ class Solution {
         if(n==1)count++;
        }
     }
-        max
+        maxC
 }
