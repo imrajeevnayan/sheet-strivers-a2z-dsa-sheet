@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/next-greater-element-ii/description/?utm=codolio
-- Synced: 2026-06-05T09:15:23.029Z
+- Synced: 2026-06-06T08:50:04.014Z
 
 ## Problem Description
 
