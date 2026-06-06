@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Maximum Average Subarray I
- * URL: https://leetcode.com/problems/maximum-average-subarray-i/?envType=study-plan-v2&envId=leetcode-75
- * Language: LeetCode 75
+ * URL: https://leetcode.com/problems/maximum-average-subarray-i/
+ * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Sliding Window
  * Runtime: 0 ms
- * Memory: 69.89 MB
- * Synced: 2026-06-05T17:10:40.150Z
+ * Memory: N/A
+ * Synced: 2026-06-06T05:21:58.866Z
  */
 
 class Solution {
@@ -17,8 +17,8 @@ class Solution {
         double maxsum=sum;
         for(int i=k;i<nums.length;i++){
             sum+=nums[i]-nums[i-k];
-        }
-    }
             maxsum= Math.max(maxsum,sum);
+        }
         return maxsum/k;
+    }
 }
