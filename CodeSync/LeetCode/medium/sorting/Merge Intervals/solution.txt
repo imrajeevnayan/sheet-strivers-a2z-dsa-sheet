@@ -5,14 +5,12 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Sorting
- * Runtime: 1 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T18:24:00.794Z
+ * Synced: 2026-06-06T18:24:11.344Z
  */
 
-Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
-
-        List<int[]> merged = new ArrayList<>();
+List<int[]> merged = new ArrayList<>();
         merged.add(intervals[0]);
 
         for (int i = 1; i < intervals.length; i++) {
@@ -27,7 +25,6 @@ Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
                 merged.add(curr);
             }
         }
-
-        // Sort by start time
-    public int[][] merge(int[][] intervals) {
-class Solution {
+        return merged.toArray(new int[merged.size()][]);
+    }
+}
