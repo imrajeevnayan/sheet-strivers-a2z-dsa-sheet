@@ -6,8 +6,8 @@
 - Topics: Array
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-cost-to-reach-every-position/description/
-- Synced: 2026-06-06T08:43:32.796Z
+- Problem URL: https://leetcode.com/problems/minimum-cost-to-reach-every-position/
+- Synced: 2026-06-06T08:45:14.038Z
 
 ## Problem Description
 
