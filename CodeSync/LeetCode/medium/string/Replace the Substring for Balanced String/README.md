@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/replace-the-substring-for-balanced-string/
-- Synced: 2026-06-06T16:26:56.217Z
+- Synced: 2026-06-06T16:27:01.838Z
 
 ## Problem Description
 
