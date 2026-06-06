@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-06T18:21:24.060Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-06T18:21:28.446Z",
+  "runtime": "1 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Merge Intervals",
-  "problemUrl": "https://leetcode.com/problems/merge-intervals/",
+  "problemUrl": "https://leetcode.com/problems/merge-intervals/submissions/2024645356/",
   "submissionId": "ee4zxf"
 }
