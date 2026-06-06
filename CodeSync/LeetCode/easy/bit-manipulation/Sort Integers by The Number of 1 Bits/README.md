@@ -6,8 +6,8 @@
 - Topics: Array, Bit Manipulation, Sorting, Counting
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/description/
-- Synced: 2026-06-06T16:55:49.793Z
+- Problem URL: https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits/
+- Synced: 2026-06-06T16:57:24.877Z
 
 ## Problem Description
 
