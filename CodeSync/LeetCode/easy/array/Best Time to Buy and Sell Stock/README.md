@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-- Synced: 2026-06-06T16:21:35.621Z
+- Synced: 2026-06-06T16:21:38.524Z
 
 ## Problem Description
 
