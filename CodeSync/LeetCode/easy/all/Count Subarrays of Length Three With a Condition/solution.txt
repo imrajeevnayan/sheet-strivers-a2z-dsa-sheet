@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Count Subarrays of Length Three With a Condition
- * URL: https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/submissions/2024555368/
+ * URL: https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array
  * Runtime: 0 ms
  * Memory: 47.14 MB
- * Synced: 2026-06-06T16:51:28.170Z
+ * Synced: 2026-06-06T16:55:08.175Z
  */
 
 // Slide a window of size 3 across the array
