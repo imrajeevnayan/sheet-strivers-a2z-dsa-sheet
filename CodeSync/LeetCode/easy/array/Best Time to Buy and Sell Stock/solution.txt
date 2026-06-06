@@ -7,12 +7,12 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T16:22:04.953Z
+ * Synced: 2026-06-06T16:22:12.948Z
  */
 
 class Solution {
     public int maxProfit(int[] prices) {
-     int max=Integer.MIN_VALUE,min=0;
+     int max=Integer.MIN_VALUE,min=Integer.M
      for(int i=0;i<prices.length;i++){
         min=Math.min()
      }
