@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Left and Right Sum Differences
+ * URL: https://leetcode.com/problems/left-and-right-sum-differences/description/?envType=daily-question&envId=2026-06-06
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Array, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-06T05:28:10.904Z
+ */
+
+class Solution {
+    public int[] leftRightDifference(int[] nums) {
+        
+    }
+}
