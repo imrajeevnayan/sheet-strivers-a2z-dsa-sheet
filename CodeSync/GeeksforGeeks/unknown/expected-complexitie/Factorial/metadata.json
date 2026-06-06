@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-06T15:05:42.183Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Morgan Stanley",
+    "Samsung",
+    "FactSet",
+    "MAQ Software",
+    "Wipro",
+    "Topic Tags"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public: int factorial(int n) { // code here if(n==0){ return 1; }else{ return n*factorial(n-1); } } };",
+  "problemTitle": "Factorial",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/factorial5739/1",
+  "submissionId": "ega6mr"
+}
