@@ -7,7 +7,7 @@
 - Runtime: 510 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/edit-distance_630420
-- Synced: 2026-06-06T18:30:10.420Z
+- Synced: 2026-06-06T18:30:16.419Z
 
 ## Problem Description
 
