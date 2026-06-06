@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-06T11:33:36.042Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Amazon",
+    "Company Tags",
+    "Amazon",
+    "Topic Tags",
+    "Recursion",
+    "Stack",
+    "STL"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "#include <bits/stdc++.h> using namespace std; void deleteMid(stack<int> &st ,int N){ int popped_elements = N-st.size(); if(popped_elements == (N/2)){ st.pop(); return; } int x=st.top(); st.pop(); deleteMid(st,N); st.push(x); } void deleteMidElement(stack<int>& st) { int N = st.size(); deleteMid(st,N); } int main() { stack<int> st; st.push(6); st.push(5); st.push(4); st.push(3); st.push(2); st.push(1); deleteMidElement(st); while (!st.empty()) { cout << st.top() << \" \"; st.pop(); } return 0; }",
+  "problemTitle": "Deleting middle element from stack",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/delete-middle-element-of-a-stack/1",
+  "submissionId": "6b9y8a"
+}
