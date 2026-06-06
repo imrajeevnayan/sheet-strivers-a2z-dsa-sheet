@@ -6,8 +6,8 @@
 - Topics: Array, Dynamic Programming
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-- Synced: 2026-06-06T16:23:53.675Z
+- Problem URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+- Synced: 2026-06-06T16:23:56.676Z
 
 ## Problem Description
 
