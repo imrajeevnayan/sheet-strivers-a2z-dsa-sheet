@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-06T11:37:24.279Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Accolite",
+    "Amazon",
+    "Microsoft",
+    "OYO Rooms",
+    "Snapdeal",
+    "D-E-Shaw"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class myStack { queue<int> q; public: void push(int x) { int n=q.size(); q.push(x); for(int i=0;i<n;i++){ q.push(q.front()); q.pop(); } } void pop() { if(q.empty()){ return; } else{ q.pop(); } } int top() { if(q.empty()){ return -1; } else{ return q.front(); } } int size() { return q.size(); } };",
+  "problemTitle": "Stack using Queue",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/stack-using-queue/1",
+  "submissionId": "bm8mwi"
+}
