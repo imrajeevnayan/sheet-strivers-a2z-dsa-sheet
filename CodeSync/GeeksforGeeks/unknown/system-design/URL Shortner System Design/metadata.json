@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-06T04:29:13.214Z",
+  "submissionTimestamp": "2026-06-06T10:36:16.461Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -12,5 +12,5 @@
   "language": "#include <string> #include <vector> std::string to_base_62(int deci) { std::string s = \"012345689abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\"; std::string hash_str = \"\"; while (deci > 0) { hash_str = s[deci % 62] + hash_str; deci /= 62; } return hash_str; }",
   "problemTitle": "URL Shortner System Design",
   "problemUrl": "https://www.geeksforgeeks.org/system-design/system-design-url-shortening-service/",
-  "submissionId": "sv5mer"
+  "submissionId": "gw3nu3"
 }
