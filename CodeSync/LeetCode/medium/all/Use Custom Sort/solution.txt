@@ -7,7 +7,7 @@
  * Topics: Array, String, Greedy, Sorting
  * Runtime: 1 ms
  * Memory: 44.94 MB
- * Synced: 2026-06-06T16:47:21.239Z
+ * Synced: 2026-06-06T16:47:41.087Z
  */
 
 class Solution {
