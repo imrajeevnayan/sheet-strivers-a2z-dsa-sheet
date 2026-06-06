@@ -7,7 +7,7 @@
  * Topics: Array
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-06T16:55:11.660Z
+ * Synced: 2026-06-06T16:55:13.351Z
  */
 
 // Slide a window of size 3 across the array
@@ -26,3 +26,6 @@
         return count;
     }
 }
+    public int countSubarrays(int[] nums) {
+        int count = 0;
+class Solution {
