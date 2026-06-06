@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Subarrays of Length Three With a Condition
+ * URL: https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-06T16:44:58.529Z
+ */
+
+class Solution {
+    public int countSubarrays(int[] nums) {
+        
+    }
+}
