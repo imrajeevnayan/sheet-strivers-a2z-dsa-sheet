@@ -7,11 +7,11 @@
  * Topics: String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T16:26:34.356Z
+ * Synced: 2026-06-06T16:27:15.173Z
  */
 
 class Solution {
     public int balancedString(String s) {
-        
     }
+        
 }
