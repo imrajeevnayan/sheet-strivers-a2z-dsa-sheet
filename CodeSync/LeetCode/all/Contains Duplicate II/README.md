@@ -1,13 +1,13 @@
 # Contains Duplicate II
 
 - Platform: LeetCode
-- Language: Sliding Window
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Hash Table, Sliding Window
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/contains-duplicate-ii/description/?envType=problem-list-v2&envId=sliding-window
-- Synced: 2026-05-31T17:48:00.164Z
+- Problem URL: https://leetcode.com/problems/contains-duplicate-ii/description/
+- Synced: 2026-06-06T05:22:46.034Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Given an integer array nums and an integer k, return true if there are two disti
 
 ## Explanation
 
-This solution was accepted on LeetCode using Sliding Window. The detected topics are Array, Hash Table, Sliding Window. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Sliding Window. Review the synced source file for the implementation details.
