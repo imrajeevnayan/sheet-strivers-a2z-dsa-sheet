@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/
-- Synced: 2026-06-06T16:51:00.852Z
+- Runtime: 0 ms
+- Memory: 47.14 MB
+- Problem URL: https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/submissions/2024555368/
+- Synced: 2026-06-06T16:51:20.679Z
 
 ## Problem Description
 
