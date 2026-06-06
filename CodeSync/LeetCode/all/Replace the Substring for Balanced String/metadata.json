@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-06T16:25:54.511Z",
+  "submissionTimestamp": "2026-06-06T16:26:34.356Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Replace the Substring for Balanced String",
-  "problemUrl": "https://leetcode.com/problems/replace-the-substring-for-balanced-string/description/",
+  "problemUrl": "https://leetcode.com/problems/replace-the-substring-for-balanced-string/",
   "submissionId": "hnuxi5"
 }
