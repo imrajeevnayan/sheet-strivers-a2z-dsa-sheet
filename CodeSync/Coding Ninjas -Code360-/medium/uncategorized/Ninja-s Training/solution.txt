@@ -1,41 +1,34 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Ninja’s Training
- * URL: https://www.naukri.com/code360/problems/longest-palindromic-substring_758900
+ * URL: https://www.naukri.com/code360/problems/edit-distance_630420
  * Language: Java (SE 1.8)
  * Difficulty: Medium
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 510 ms
  * Memory: N/A
- * Synced: 2026-06-03T12:41:14.381Z
+ * Synced: 2026-06-06T18:30:10.420Z
  */
 
-for (int i = 0; i < str.length(); i++) {
-            // Case 1: Odd length palindrome (center at i)
-            int len1 = expandAroundCenter(str, i, i);
-            // Case 2: Even length palindrome (center between i and i+1)
-            int len2 = expandAroundCenter(str, i, i + 1);
-            
-            int currentMaxLength = Math.max(len1, len2);
-            
-            if (currentMaxLength > maxLength) {
-                maxLength = currentMaxLength;
-                // Calculate the starting index based on the palindrome length
-                start = i - (currentMaxLength - 1) / 2;
+public class Solution {
+    public static int editDistance(String str1, String str2) {
+        int m = str1.length(), n = str2.length();
+        int[][] dp = new int[m + 1][n + 1];
+ 
+        // Base cases: converting empty string to/from length i/j
+        for (int i = 0; i <= m; i++) dp[i][0] = i;
+        for (int j = 0; j <= n; j++) dp[0][j] = j;
+ 
+        for (int i = 1; i <= m; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (str1.charAt(i - 1) == str2.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1];
+                } else {
+                    dp[i][j] = 1 + Math.min(dp[i - 1][j - 1], 
+                                   Math.min(dp[i - 1][j], dp[i][j - 1]));
+                }
             }
         }
-        
-        
-        return str.substring(start, start + maxLength);
-    }
-    
-    private static int expandAroundCenter(String str, int left, int right) {
-        while (left >= 0 && right < str.length() && str.charAt(left) == str.charAt(right)) {
-            left--;
-            right++;
-        }
-        // Return the length of the palindrome
-        return right - left - 1;
+        return dp[m][n];
     }
 }
-        int maxLength = 1;
