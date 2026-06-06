@@ -1,21 +1,21 @@
 /*
  * Platform: LeetCode
  * Problem: Missing Number
- * URL: https://leetcode.com/problems/missing-number/
+ * URL: https://leetcode.com/problems/missing-number/submissions/2024027071/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Math, Binary Search, Bit Manipulation, Sorting
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-03T11:07:19.493Z
+ * Synced: 2026-06-06T08:31:39.962Z
  */
 
 class Solution {
     public int missingNumber(int[] nums) {
-        
-    }
+      int n=nums.length;
+        int total=n*(n+1)/2;
         int sum=0;
-        for(int i=0;i<nums.length;i++)sum+=i;
-        totalsum=n*(n+1)/2;
-        return totalsum-sum
+        for(int num:nums)sum+=num;
+        return total-sum;
+    }
 }
