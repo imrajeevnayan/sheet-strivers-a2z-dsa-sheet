@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-06T05:07:30.476Z",
+  "submissionTimestamp": "2026-06-06T05:07:47.352Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Complement of Base 10 Integer",
-  "problemUrl": "https://leetcode.com/problems/complement-of-base-10-integer/",
+  "problemUrl": "https://leetcode.com/problems/complement-of-base-10-integer/description/",
   "submissionId": "fy9kkn"
 }
