@@ -5,13 +5,24 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, String, Greedy, Sorting
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-06-06T16:46:52.478Z
+ * Synced: 2026-06-06T16:47:15.004Z
  */
 
 class Solution {
     public String largestNumber(int[] nums) {
-        
+        String[] strs = new String[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+            strs[i] = String.valueOf(nums[i]);
+        }
+        Arrays.sort(strs, (a, b) -> (b + a).compareTo(a + b));
+        if (strs[0].equals("0")) return "0";
+
+        StringBuilder sb = new StringBuilder();
+        for (String s : strs) {
+            sb.append(s);
+        }
+        return sb.toString();
     }
 }
