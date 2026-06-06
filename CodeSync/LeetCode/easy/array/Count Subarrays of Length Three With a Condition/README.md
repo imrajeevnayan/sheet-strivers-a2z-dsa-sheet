@@ -6,8 +6,8 @@
 - Topics: Array
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/description/
-- Synced: 2026-06-06T16:55:13.351Z
+- Problem URL: https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/
+- Synced: 2026-06-06T16:55:15.539Z
 
 ## Problem Description
 
