@@ -1,17 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: Use Custom Sort
- * URL: https://leetcode.com/problems/largest-number/submissions/
+ * URL: https://leetcode.com/problems/largest-number/submissions/1896428535/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, String, Greedy, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-06T16:43:48.680Z
+ * Runtime: 11 ms
+ * Memory: 45.34 MB
+ * Synced: 2026-06-06T16:43:55.810Z
  */
 
-class Solution {
-    public String largestNumber(int[] nums) {
-        
-    }
-}
+Input: nums = [10,2]
+Output: "210"
