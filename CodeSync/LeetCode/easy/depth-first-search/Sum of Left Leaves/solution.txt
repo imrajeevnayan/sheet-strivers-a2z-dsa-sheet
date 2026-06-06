@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Sum of Left Leaves
- * URL: https://leetcode.com/problems/sum-of-left-leaves/
+ * URL: https://leetcode.com/problems/sum-of-left-leaves/submissions/2024026303/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-06T08:30:33.378Z
+ * Runtime: 0 ms
+ * Memory: 43.23 MB
+ * Synced: 2026-06-06T08:31:00.044Z
  */
 
 class Solution {
@@ -20,4 +20,5 @@ class Solution {
         sum+=sumOfLeftLeaves(root.left);
     }
         sum+=sumOfLeftLeaves(root.right);
+        return sum;
 }
