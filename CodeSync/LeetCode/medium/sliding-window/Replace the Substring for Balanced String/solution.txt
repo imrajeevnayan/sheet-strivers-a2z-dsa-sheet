@@ -7,7 +7,7 @@
  * Topics: String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T16:28:52.143Z
+ * Synced: 2026-06-06T16:28:58.301Z
  */
 
 class Solution {
@@ -17,6 +17,6 @@ class Solution {
         for(char ch:s.toCharArray){
             map.put(ch,map.getOrDefault(ch,0)+1);
         }
-         for(char ch)
+         for(char ch:map.)
     }
 }
