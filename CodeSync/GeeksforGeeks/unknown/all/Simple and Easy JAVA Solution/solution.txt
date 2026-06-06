@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Simple and Easy JAVA Solution ::
+ * URL: https://www.geeksforgeeks.org/problems/queue-operations/1
+ * Language: class Solution { public: unordered_map<int, int> mp; void enqueue(queue<int> &q, int k) { // code here q.push(k); mp[k]++; } int findFrequency(queue<int> &q, int k) { return mp[k]; // code here } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Queue, Data Structures, Related Articles, Queue Data Structure, Queue Operations
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-06T11:51:37.447Z
+ */
+
+class Geeks {
+    static void enqueue(Queue<Integer> q, int k) {
+        q.add(k);
+    }
+
+    static int findFrequency(Queue<Integer> q, int k) {
+        int count = 0;
+        // Iterate through the queue to count occurrences of k
+        for (int num : q) {
+            if (num == k) {
+                count++;
+            }
+        }
+        return count;
+    }
+}
