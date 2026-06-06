@@ -1,13 +1,13 @@
 # Maximum Average Subarray I
 
 - Platform: LeetCode
-- Language: LeetCode 75
+- Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Sliding Window
 - Runtime: 0 ms
-- Memory: 69.89 MB
-- Problem URL: https://leetcode.com/problems/maximum-average-subarray-i/?envType=study-plan-v2&envId=leetcode-75
-- Synced: 2026-06-05T17:10:40.150Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/maximum-average-subarray-i/
+- Synced: 2026-06-06T05:21:58.866Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ You are given an integer array nums consisting of n elements, and an integer k. 
 
 ## Explanation
 
-This solution was accepted on LeetCode using LeetCode 75. The detected topics are Array, Sliding Window. Review the synced source file for the implementation details.
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Sliding Window. Review the synced source file for the implementation details.
