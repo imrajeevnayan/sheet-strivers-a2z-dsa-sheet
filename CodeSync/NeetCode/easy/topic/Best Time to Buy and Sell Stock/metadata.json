@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-06T16:24:39.293Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-06T16:24:42.297Z",
+  "runtime": "64ms",
+  "memoryUsage": "63 MB",
   "difficulty": "Easy",
   "tags": [
     "Easy Topics Company Tags Hints",
@@ -16,6 +16,6 @@
   "platform": "NeetCode",
   "language": "prices",
   "problemTitle": "Best Time to Buy and Sell Stock",
-  "problemUrl": "https://neetcode.io/problems/buy-and-sell-crypto/question?list=neetcode150",
+  "problemUrl": "https://neetcode.io/problems/buy-and-sell-crypto/history?list=neetcode150&submissionIndex=1",
   "submissionId": "uemvt2"
 }
