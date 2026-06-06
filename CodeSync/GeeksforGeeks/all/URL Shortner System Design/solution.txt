@@ -7,7 +7,7 @@
  * Topics: System-Design, GBlog 2024, GBlog 2025
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T04:29:13.214Z
+ * Synced: 2026-06-06T10:36:16.461Z
  */
 
 #include <string>
@@ -21,4 +21,13 @@ std::string to_base_62(int deci) {
         deci /= 62;
     }
     return hash_str;
+}
+public String toBase62(int deci) {
+    String s = "012345689abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    String hashStr = "";
+    while (deci > 0) {
+        hashStr = s.charAt(deci % 62) + hashStr;
+        deci /= 62;
+    }
+    return hashStr;
 }
