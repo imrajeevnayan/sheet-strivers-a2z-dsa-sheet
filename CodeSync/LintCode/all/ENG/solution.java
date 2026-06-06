@@ -1,27 +1,17 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/834/
+ * URL: https://www.lintcode.com/problem/1319/
  * Language: Java
  * Difficulty: Unknown
- * Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Commit Output
+ * Topics: Hash Table, Palantir Technologies Palantir Airbnb, Palantir Technologies, Palantir, Airbnb, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T09:57:56.440Z
+ * Synced: 2026-06-06T07:40:30.437Z
  */
 
-········for·(char·c·:·s.toCharArray())·{
-············freq[c·-·'a']--;
-············if·(map.contains(c))·continue;
-············while·(!st.isEmpty()·&&·st.peek()·>·c·&&·freq[st.peek()·-·'a']·>·0)·{
-················map.remove(st.pop());
-············}
-············st.push(c);
-············map.add(c);
-········}
-········StringBuilder·sb·=·new·StringBuilder();
-········for·(char·c·:·st)·sb.append(c);
-········return·sb.toString();
-·····
+public·class·Solution·{
+····public·boolean·containsNearbyDuplicate(int[]·nums,·int·k)·{
+······Map<Integer,Integer>map=new·HashMap<>()
 ····}
 }
