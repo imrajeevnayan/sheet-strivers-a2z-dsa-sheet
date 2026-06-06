@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/system-design/singleton-design-pattern/
-- Synced: 2026-06-06T15:25:30.983Z
+- Synced: 2026-06-06T15:25:34.662Z
 
 ## Problem Description
 
