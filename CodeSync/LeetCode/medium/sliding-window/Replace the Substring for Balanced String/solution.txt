@@ -7,11 +7,12 @@
  * Topics: String, Sliding Window
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T16:27:19.376Z
+ * Synced: 2026-06-06T16:27:40.971Z
  */
 
 class Solution {
     public int balancedString(String s) {
     }
-        HashMap<
+        HashMap<Character,Integer>map=new HashMap<>();
+        for(char ch)
 }
