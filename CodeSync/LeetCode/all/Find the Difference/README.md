@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Hash Table, String, Bit Manipulation, Sorting
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 0 ms
+- Memory: 43.29 MB
 - Problem URL: https://leetcode.com/problems/find-the-difference/
-- Synced: 2026-06-07T06:58:29.987Z
+- Synced: 2026-06-07T06:59:18.668Z
 
 ## Problem Description
 
