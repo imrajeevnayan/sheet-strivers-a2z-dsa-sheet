@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-07T07:02:27.411Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Sliding Window"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Find All Anagrams in a String",
+  "problemUrl": "https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/",
+  "submissionId": "n73h8u"
+}
