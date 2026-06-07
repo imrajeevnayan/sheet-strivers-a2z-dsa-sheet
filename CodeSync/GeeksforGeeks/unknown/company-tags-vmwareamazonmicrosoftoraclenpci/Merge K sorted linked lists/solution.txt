@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags VMWareAmazonMicrosoftOracleNPCI, Company Tags, VMWare, Amazon, Microsoft, Oracle, NPCI
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:21:10.555Z
+ * Synced: 2026-06-07T09:21:12.997Z
  */
 
 class Solution {
@@ -27,7 +27,6 @@ class Solution {
         Node dummy = new Node(-1);
         Node curr = dummy;
 
-        // 2. Process the heap
         while (!pq.isEmpty()) {
             Node minNode = pq.poll();
             curr.next = minNode;
