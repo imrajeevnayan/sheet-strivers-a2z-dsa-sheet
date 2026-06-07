@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Array, Binary Search
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-07T07:00:55.820Z
+ * Memory: 44.65 MB
+ * Synced: 2026-06-07T07:00:58.819Z
  */
 
 class Solution {
