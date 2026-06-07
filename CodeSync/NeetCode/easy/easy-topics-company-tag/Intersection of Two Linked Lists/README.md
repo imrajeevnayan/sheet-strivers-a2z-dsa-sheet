@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://neetcode.io/problems/intersection-of-two-linked-lists/question?list=allNC
-- Synced: 2026-06-07T11:28:15.655Z
+- Synced: 2026-06-07T11:28:33.233Z
 
 ## Problem Description
 
