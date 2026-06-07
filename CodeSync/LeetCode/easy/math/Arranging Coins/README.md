@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/arranging-coins/description/
-- Synced: 2026-06-07T18:39:44.982Z
+- Synced: 2026-06-07T18:39:54.749Z
 
 ## Problem Description
 
