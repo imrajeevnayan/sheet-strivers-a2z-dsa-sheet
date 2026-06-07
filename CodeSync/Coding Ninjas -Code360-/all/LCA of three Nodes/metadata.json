@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T19:20:33.531Z",
-  "runtime": "2491 ms",
+  "submissionTimestamp": "2026-06-07T19:22:54.465Z",
+  "runtime": "3011 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/cycle-detection-in-a-singly-linked-list_628974",
-  "submissionId": "whaqn0"
+  "problemUrl": "https://www.naukri.com/code360/problems/second-largest-element-in-the-array_873375",
+  "submissionId": "qtw06h"
 }
