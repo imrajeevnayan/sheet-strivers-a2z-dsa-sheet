@@ -6,7 +6,7 @@
 # Topics: Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-07T10:45:15.424Z
+# Synced: 2026-06-07T10:45:18.995Z
 
 public·class·Solution·{
 ····/**
