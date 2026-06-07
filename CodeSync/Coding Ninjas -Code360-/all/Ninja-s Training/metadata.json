@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T10:58:48.799Z",
-  "runtime": "3330 ms",
+  "submissionTimestamp": "2026-06-07T11:07:06.590Z",
+  "runtime": "2652 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "Ninja’s Training",
-  "problemUrl": "https://www.naukri.com/code360/problems/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum_842494",
-  "submissionId": "k4h07c"
+  "problemUrl": "https://www.naukri.com/code360/problems/buy-and-sell-stock_1071012",
+  "submissionId": "za3omx"
 }
