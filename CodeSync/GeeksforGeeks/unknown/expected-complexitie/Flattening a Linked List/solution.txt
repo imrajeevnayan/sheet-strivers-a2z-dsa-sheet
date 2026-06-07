@@ -1,0 +1,31 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Flattening a Linked List
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/LL-bonus-problem/problem/merge-k-sorted-linked-lists
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Amazon, Microsoft, Snapdeal, 24*7 Innovation Labs
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T09:32:50.457Z
+ */
+
+/*
+class Node {
+    int data;
+    Node next;
+    Node bottom;
+
+    Node(int x) {
+        data = x;
+        next = null;
+        bottom = null;
+    }
+}
+*/
+class Solution {
+    public Node flatten(Node root) {
+        // code here
+        
+    }
+}
