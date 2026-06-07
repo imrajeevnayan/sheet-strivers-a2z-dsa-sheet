@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-07T10:04:53.274Z",
+  "submissionTimestamp": "2026-06-07T10:05:07.401Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Intersection of Two Linked Lists",
-  "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/description/",
+  "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/",
   "submissionId": "vrmkb7"
 }
