@@ -7,10 +7,14 @@
  * Topics: Uncategorized
  * Runtime: 886 ms
  * Memory: N/A
- * Synced: 2026-06-07T11:04:27.231Z
+ * Synced: 2026-06-07T11:04:36.297Z
  */
 
-public static int[] findMedian(int[] arr, int n) {
+import java.util.PriorityQueue;
+import java.util.Collections;
+ 
+public class Solution {
+    public static int[] findMedian(int[] arr, int n) {
         int[] result = new int[n];
         
         PriorityQueue<Integer> left = new PriorityQueue<>(Collections.reverseOrder());
@@ -21,8 +25,7 @@ public static int[] findMedian(int[] arr, int n) {
  
             if (left.isEmpty() || num <= left.peek()) left.offer(num);
             else right.offer(num);
-            
- 
+    
             if (left.size() > right.size() + 1) right.offer(left.poll());
             else if (right.size() > left.size()) left.offer(right.poll());
             
@@ -36,5 +39,3 @@ public static int[] findMedian(int[] arr, int n) {
  
         return result;
     }
-}
-public class Solution {
