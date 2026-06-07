@@ -1,17 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Count and Say
- * URL: https://leetcode.com/problems/count-and-say/description/
+ * URL: https://leetcode.com/problems/count-and-say/submissions/1858061232/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-07T09:03:52.857Z
+ * Runtime: 8 ms
+ * Memory: 43.07 MB
+ * Synced: 2026-06-07T09:04:00.095Z
  */
 
-class Solution {
-    public String countAndSay(int n) {
-        
-    }
-}
+countAndSay(1) = "1"
+countAndSay(2) = RLE of "1" = "11"
+countAndSay(3) = RLE of "11" = "21"
+countAndSay(4) = RLE of "21" = "1211"
