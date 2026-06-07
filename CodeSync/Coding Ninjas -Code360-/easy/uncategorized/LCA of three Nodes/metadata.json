@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-07T11:00:59.216Z",
-  "runtime": "3807 ms",
+  "submissionTimestamp": "2026-06-07T11:03:23.961Z",
+  "runtime": "886 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/code-merge-sort_5907",
-  "submissionId": "g0vo2u"
+  "problemUrl": "https://www.naukri.com/code360/problems/median-in-a-stream_975268",
+  "submissionId": "yn5ydf"
 }
