@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-07T11:29:56.870Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-07T11:29:58.773Z",
+  "runtime": "72ms",
+  "memoryUsage": "63.4 MB",
   "difficulty": "Easy",
   "tags": [
     "Easy Topics Company Tags",
@@ -15,6 +15,6 @@
   "platform": "NeetCode",
   "language": "headA",
   "problemTitle": "Intersection of Two Linked Lists",
-  "problemUrl": "https://neetcode.io/problems/intersection-of-two-linked-lists/question?list=allNC",
+  "problemUrl": "https://neetcode.io/problems/intersection-of-two-linked-lists/history?list=allNC&submissionIndex=0",
   "submissionId": "j8o5mn"
 }
