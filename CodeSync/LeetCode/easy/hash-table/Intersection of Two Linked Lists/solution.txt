@@ -7,18 +7,16 @@
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T10:15:48.460Z
+ * Synced: 2026-06-07T10:34:11.006Z
  */
 
-public class Solution {
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        if (headA == null || headB == null) return null;
-        ListNode A = headA;
-        ListNode B = headB;
-        while (A != B) {
-            A = (A == null) ? headB : A.next;
-            B = (B == null) ? headA : B.next;
-        }
-        return B;
-    }
+/**
+ * Definition for singly-linked list.
+ * type ListNode struct {
+ *     Val int
+ *     Next *ListNode
+ * }
+ */
+func getIntersectionNode(headA, headB *ListNode) *ListNode {
+    
 }
