@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T12:07:39.883Z
+ * Synced: 2026-06-07T12:08:01.851Z
  */
 
 import java.util.*;
@@ -21,7 +21,6 @@ public class Solution {
         for (int i = 0; i < n; i++) {
             pq.offer(new int[]{squareCity.get(i).get(0), i, 0});
         }
- 
         int result = 0;
         for (int i = 0; i < k; i++) {
             int[] curr = pq.poll();
