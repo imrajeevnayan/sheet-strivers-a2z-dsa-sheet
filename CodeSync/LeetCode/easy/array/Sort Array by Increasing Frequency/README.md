@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Hash Table, Sorting
-- Runtime: N/A
+- Runtime: 2 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/
-- Synced: 2026-06-07T09:54:38.944Z
+- Synced: 2026-06-07T09:54:44.454Z
 
 ## Problem Description
 
