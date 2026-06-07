@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-07T06:58:29.987Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-07T06:59:18.668Z",
+  "runtime": "0 ms",
+  "memoryUsage": "43.29 MB",
   "difficulty": "Easy",
   "tags": [
     "Hash Table",
@@ -13,5 +13,5 @@
   "language": "Problem List",
   "problemTitle": "Find the Difference",
   "problemUrl": "https://leetcode.com/problems/find-the-difference/",
-  "submissionId": "ets2pw"
+  "submissionId": "tbagvy"
 }
