@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 2209 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/first-unique-character-in-a-string_982933
-- Synced: 2026-06-07T18:04:04.646Z
+- Problem URL: https://www.naukri.com/code360/problems/reverse-list-in-k-groups_983644
+- Synced: 2026-06-07T18:49:20.178Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+AutocompleteEXCLUSIVE Get key word suggestions of your code
 
 ## Explanation
 
