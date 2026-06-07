@@ -7,7 +7,7 @@
 - Runtime: 4501 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/code-merge-sort_5907
-- Synced: 2026-06-07T11:00:30.376Z
+- Synced: 2026-06-07T11:00:34.565Z
 
 ## Problem Description
 
