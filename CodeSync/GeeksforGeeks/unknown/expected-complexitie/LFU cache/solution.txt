@@ -7,11 +7,10 @@
  * Topics: Expected Complexities, Topic Tags, Hash, doubly-linked-list, Data Structures, Design-Pattern, Related Articles, Least Frequently Used Lfu Cache Implementation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:32:28.715Z
+ * Synced: 2026-06-07T09:32:31.602Z
  */
 
 import java.util.HashMap;
-import java.util.Map;
 
 class LFUCache {
     class Node {
@@ -51,3 +50,5 @@ class LFUCache {
     private int minFreq;
     private final Map<Integer, Node> keyNodeMap;
     private final Map<Integer, DLL> freqListMap;
+
+    public LFUCache(int capacity) {
