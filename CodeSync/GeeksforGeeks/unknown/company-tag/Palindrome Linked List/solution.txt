@@ -7,23 +7,29 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Microsoft, Snapdeal, MakeMyTrip, Adobe
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:16:39.185Z
+ * Synced: 2026-06-07T09:17:34.608Z
  */
 
-/*
-class Node {
-    int data;
-    Node next;
+import java.util.Stack;
 
-    Node(int d) {
-        data = d;
-        next = null;
-    }
-}*/
+public boolean isPalindrome(Node head) {
+    Stack<Integer> st = new Stack<>();
+    Node curr = head;
 
-class Solution {
-    public boolean isPalindrome(Node head) {
-        // code here
-        
+    // 1. Push all elements into the stack
+    while (curr != null) {
+        st.push(curr.data);
+        curr = curr.next;
     }
+
+    // 2. Compare elements from start with popped elements from stack
+    curr = head;
+    while (curr != null) {
+        if (curr.data != st.pop()) {
+            return false;
+        }
+        curr = curr.next;
+    }
+
+    return true;
 }
