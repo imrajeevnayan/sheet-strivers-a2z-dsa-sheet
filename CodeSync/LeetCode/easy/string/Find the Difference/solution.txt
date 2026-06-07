@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find the Difference
+ * URL: https://leetcode.com/problems/find-the-difference/submissions/1949832196/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Hash Table, String, Bit Manipulation, Sorting
+ * Runtime: 1 ms
+ * Memory: 43.23 MB
+ * Synced: 2026-06-07T06:55:31.255Z
+ */
+
+Input: s = "abcd", t = "abcde"
+Output: "e"
+Explanation: 'e' is the letter that was added.
