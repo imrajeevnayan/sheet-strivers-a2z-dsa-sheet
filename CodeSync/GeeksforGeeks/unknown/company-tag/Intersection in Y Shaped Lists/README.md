@@ -6,8 +6,8 @@
 - Topics: Expected Complexities, Company Tags, VMWare, Flipkart, Accolite, Amazon, Microsoft, Snapdeal
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/LL-bonus-problem/problem/intersection-point-in-y-shapped-linked-lists
-- Synced: 2026-06-07T09:15:31.031Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/LL-bonus-problem/problem/check-if-linked-list-is-pallindrome
+- Synced: 2026-06-07T09:20:02.385Z
 
 ## Problem Description
 
