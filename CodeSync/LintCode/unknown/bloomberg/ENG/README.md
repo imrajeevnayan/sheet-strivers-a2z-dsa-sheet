@@ -1,18 +1,18 @@
 # ENG
 
 - Platform: LintCode
-- Language: Java
+- Language: Python
 - Difficulty: Unknown
-- Topics: Simulation, Bloomberg, Test Data Test Output
+- Topics: Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/1174/
-- Synced: 2026-05-31T19:09:51.753Z
+- Problem URL: https://www.lintcode.com/problem/380/
+- Synced: 2026-06-07T10:45:15.424Z
 
 ## Problem Description
 
-Description Given a positive 32-bit integer n, you need to find the smallest 32-bit integer which has exactly the same digits existing in the integer n and is greater in value than n.Please return the smallest such number. If no such positive 32-bit integer exists, you need to return -1. Example Example 1: Input: 12 Output: 21 Example 2: Input: 21 Output: -1 Tags Company Bloomberg Related Problems 1201 Next Greater Element II Medium 1206 Next Greater Element I Easy Recommend Courses ACM金牌逐行带刷班 最适合懒人的刷题课--躺平看算法大神在线coding，讲解思路+现场debug，手撕面试高频题
+Description Write a program to find the node at which the intersection of two singly linked lists begins. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information If the two linked lists have no intersection at all, return null. The linked lists must retain their original structure after the function returns. You may assume there are no cycles anywhere in the entire linked structure. Example Example 1: Input: A: a1 → a2 ↘ c1 → c2 → c3 ↗ B: b1 → b2 → b3 Output: c1 Explanation ：begin to intersect at node c1. Example 2: Input: Intersected at 6 1->2->3->4->5->6->7->8->9->10->11->12->13->null 6->7->8->9->10->11->12->13->null Output: Intersected at 6 Explanation：begin to intersect at node 6. Challenge Your code should preferably run in O(n) time and use only O(1) memory. Tags Company Bloomberg Airbnb Amazon Microsoft Related Problems 102 Linked List Cycle Medium 103 Linked List Cycle II Hard Recommend Courses 0基础入门数据分析 进阶大厂刚需高薪人才，熟练掌握SQL、Python、Tableau、A/Btest等实用技能工具，配套100+数据题夯实基础
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are Simulation, Bloomberg, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Python. The detected topics are Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Test Output. Review the synced source file for the implementation details.
