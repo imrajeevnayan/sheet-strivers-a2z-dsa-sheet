@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 43.34 MB
 - Problem URL: https://leetcode.com/problems/second-largest-digit-in-a-string/submissions/2025651925/?envType=problem-list-v2&envId=string
-- Synced: 2026-06-07T18:36:16.926Z
+- Synced: 2026-06-07T18:36:19.928Z
 
 ## Problem Description
 
