@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Sort Array by Increasing Frequency
- * URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/submissions/
+ * URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
  * Runtime: 2 ms
  * Memory: N/A
- * Synced: 2026-06-07T09:58:41.207Z
+ * Synced: 2026-06-07T09:58:43.959Z
  */
 
 if (!map.get(a).equals(map.get(b))) return map.get(a) - map.get(b); // Lower first
