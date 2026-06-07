@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: String, Dynamic Programming
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 63.68 MB
 - Problem URL: https://leetcode.com/problems/longest-palindromic-subsequence/submissions/2025324768/
-- Synced: 2026-06-07T12:00:21.775Z
+- Synced: 2026-06-07T12:00:24.610Z
 
 ## Problem Description
 
