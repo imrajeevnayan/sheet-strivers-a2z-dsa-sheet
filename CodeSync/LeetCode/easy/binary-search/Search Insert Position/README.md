@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Binary Search
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/search-insert-position/description/
-- Synced: 2026-06-07T07:00:30.560Z
+- Runtime: 0 ms
+- Memory: 44.65 MB
+- Problem URL: https://leetcode.com/problems/search-insert-position/submissions/2025095809/
+- Synced: 2026-06-07T07:00:58.819Z
 
 ## Problem Description
 
