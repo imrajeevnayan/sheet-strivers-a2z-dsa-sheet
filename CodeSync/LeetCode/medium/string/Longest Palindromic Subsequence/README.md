@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/longest-palindromic-subsequence/
-- Synced: 2026-06-07T12:00:02.791Z
+- Synced: 2026-06-07T12:00:08.925Z
 
 ## Problem Description
 
