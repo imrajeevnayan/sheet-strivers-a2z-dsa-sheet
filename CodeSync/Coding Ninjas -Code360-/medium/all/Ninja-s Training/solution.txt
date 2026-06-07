@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 564 ms
  * Memory: N/A
- * Synced: 2026-06-07T12:03:39.841Z
+ * Synced: 2026-06-07T12:03:47.209Z
  */
 
 import java.util.*;
@@ -21,9 +21,7 @@ public class Solution {
         ArrayList<Integer> result = new ArrayList<>();
         int threshold = n / k;
         for (Map.Entry<Integer, Integer> e : freq.entrySet()) {
-            if (e.getValue() >= threshold) {
-                result.add(e.getKey());
-            }
+            if (e.getValue() >= threshold) result.add(e.getKey());
         }
         Collections.sort(result);
         return result;
