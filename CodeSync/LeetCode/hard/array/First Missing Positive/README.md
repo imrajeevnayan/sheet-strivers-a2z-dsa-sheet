@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/first-missing-positive/description/
-- Synced: 2026-06-07T09:06:08.942Z
+- Problem URL: https://leetcode.com/problems/first-missing-positive/
+- Synced: 2026-06-07T09:06:41.579Z
 
 ## Problem Description
 
