@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-04T16:18:54.725Z",
+  "submissionTimestamp": "2026-06-07T19:01:02.855Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
@@ -7,8 +7,8 @@
     "Easy Clear all"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (SE 1.8)",
   "problemTitle": "Problem list",
-  "problemUrl": "https://www.naukri.com/code360/problems/find-prime-numbers_839723",
-  "submissionId": "pi7j8l"
+  "problemUrl": "https://www.naukri.com/code360/problems/find-subarray_2656181",
+  "submissionId": "uamm9i"
 }
