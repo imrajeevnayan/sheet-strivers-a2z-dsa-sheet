@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find the Difference
+ * URL: https://leetcode.com/problems/find-the-difference/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Hash Table, String, Bit Manipulation, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T06:55:49.200Z
+ */
+
+class Solution {
+    public char findTheDifference(String s, String t) {
+    int freq[]=new int[26];
+    for(char c:s.toCharArray()){
+        freq[c-'a']++;
+    }
+    for(char c:t.toCharArray()){
+        freq[c-'a']--;
+    }
+
+
+    
+        
+    }
+}
