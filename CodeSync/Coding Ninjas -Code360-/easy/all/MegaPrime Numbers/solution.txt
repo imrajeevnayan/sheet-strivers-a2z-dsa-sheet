@@ -1,0 +1,21 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: MegaPrime Numbers
+ * URL: https://www.naukri.com/code360/problems/megaprime-numbers_893339
+ * Language: Java (SE 1.8)
+ * Difficulty: Easy
+ * Topics: Easy Clear all
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T19:05:18.940Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+public class Solution
+{
+    public static int countMegaPrimeNumber(int left, int right) 
+    {
+        // Write your code here.
+    }
+}
