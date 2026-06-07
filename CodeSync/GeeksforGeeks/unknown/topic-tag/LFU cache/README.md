@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/LL-bonus-problem/problem/merge-k-sorted-linked-lists
-- Synced: 2026-06-07T09:30:43.850Z
+- Synced: 2026-06-07T09:32:16.494Z
 
 ## Problem Description
 
