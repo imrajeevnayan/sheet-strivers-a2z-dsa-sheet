@@ -7,11 +7,11 @@
 - Runtime: 602 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/loot-houses_630510
-- Synced: 2026-06-07T19:21:54.721Z
+- Synced: 2026-06-07T19:22:02.599Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
