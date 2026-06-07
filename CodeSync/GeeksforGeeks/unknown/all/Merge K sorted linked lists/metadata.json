@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-07T09:22:07.169Z",
+  "submissionTimestamp": "2026-06-07T09:26:21.038Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,6 +16,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "Merge K sorted linked lists",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/LL-bonus-problem/problem/check-if-linked-list-is-pallindrome",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/LL-bonus-problem/problem/merge-k-sorted-linked-lists",
   "submissionId": "lmdqq5"
 }
