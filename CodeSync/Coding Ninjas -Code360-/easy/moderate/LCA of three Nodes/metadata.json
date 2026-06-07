@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-03T11:53:56.453Z",
-  "runtime": "952 ms",
+  "submissionTimestamp": "2026-06-07T12:08:09.905Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -8,8 +8,8 @@
     "Moderate"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/reverse-a-ll_2271431",
-  "submissionId": "8lmbdt"
+  "problemUrl": "https://www.naukri.com/code360/problems/kth-minimum-floor_1115470",
+  "submissionId": "x9sqvc"
 }
