@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-07T05:54:42.655Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-07T05:55:20.423Z",
+  "runtime": "0 ms",
+  "memoryUsage": "45.78 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find the Peaks",
-  "problemUrl": "https://leetcode.com/problems/find-the-peaks/",
-  "submissionId": "nesw94"
+  "problemUrl": "https://leetcode.com/problems/find-the-peaks/submissions/2025039817/",
+  "submissionId": "3zuds1"
 }
