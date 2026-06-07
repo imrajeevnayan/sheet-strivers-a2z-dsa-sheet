@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Medium
 - Topics: Uncategorized
-- Runtime: 510 ms
+- Runtime: 3330 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/edit-distance_630420
-- Synced: 2026-06-06T18:30:16.419Z
+- Problem URL: https://www.naukri.com/code360/problems/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum_842494
+- Synced: 2026-06-07T10:58:39.452Z
 
 ## Problem Description
 
