@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/
-- Synced: 2026-06-07T09:53:21.707Z
+- Synced: 2026-06-07T09:53:27.077Z
 
 ## Problem Description
 
