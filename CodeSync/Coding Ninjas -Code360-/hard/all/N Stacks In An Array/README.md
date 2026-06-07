@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/n-stacks-in-an-array_1164271
-- Synced: 2026-06-07T11:15:15.812Z
+- Synced: 2026-06-07T11:15:20.778Z
 
 ## Problem Description
 
