@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/kth-largest-element-in-an-array/
-- Synced: 2026-06-07T06:15:35.330Z
+- Synced: 2026-06-07T06:15:40.328Z
 
 ## Problem Description
 
