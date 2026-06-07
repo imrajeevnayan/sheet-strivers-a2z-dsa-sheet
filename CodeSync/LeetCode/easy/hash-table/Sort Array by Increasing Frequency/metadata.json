@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T09:54:35.197Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-07T09:54:44.454Z",
+  "runtime": "2 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Sort Array by Increasing Frequency",
   "problemUrl": "https://leetcode.com/problems/sort-array-by-increasing-frequency/",
-  "submissionId": "9qcjjw"
+  "submissionId": "l7qirk"
 }
