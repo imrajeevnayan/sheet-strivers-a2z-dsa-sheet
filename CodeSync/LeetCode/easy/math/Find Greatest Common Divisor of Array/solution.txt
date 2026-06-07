@@ -7,7 +7,7 @@
  * Topics: Array, Math, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T12:55:49.015Z
+ * Synced: 2026-06-07T12:56:01.589Z
  */
 
 class Solution {
@@ -26,5 +26,6 @@ class Solution {
         }
     }
             b=a % b;
-            
+            a=temp;
+        return a;
 }
