@@ -1,0 +1,19 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: The kth Permutation
+ * URL: https://www.naukri.com/code360/problems/the-kth-permutation_2663273
+ * Language: Java (SE 1.8)
+ * Difficulty: Easy
+ * Topics: Easy Clear all
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T19:16:43.673Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    public static int totalIndexes(int n, int[] arr) {
+        // Write your code here.
+    }
+}
