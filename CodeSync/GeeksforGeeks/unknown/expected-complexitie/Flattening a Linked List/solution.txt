@@ -7,25 +7,26 @@
  * Topics: Expected Complexities, Company Tags, Paytm, Flipkart, Amazon, Microsoft, Snapdeal, 24*7 Innovation Labs
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:32:57.801Z
+ * Synced: 2026-06-07T09:33:23.223Z
  */
 
-/*
-class Node {
-    int data;
-    Node next;
-    Node bottom;
-
-    Node(int x) {
-        data = x;
-        next = null;
-        bottom = null;
-    }
-}
-*/
 class Solution {
+    private Node prev = null;
+
     public Node flatten(Node root) {
-        // code here
+        if (root == null) return null;
+
+        // Traverse right subtree first, then left
+        flatten(root.right);
+        flatten(root.left);
+
+        // Set the current node's right to prev and left to null
+        root.right = prev;
+        root.left = null;
         
+        // Update prev to current node
+        prev = root;
+
+        return root;
     }
 }
