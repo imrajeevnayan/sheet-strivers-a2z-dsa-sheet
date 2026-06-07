@@ -7,7 +7,7 @@
  * Topics: Easy Topics Company Tags, Topics, Company Tags, Hash Table Linked List Two Pointers, Hash Table, Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T11:29:15.334Z
+ * Synced: 2026-06-07T11:29:29.102Z
  */
 
 public class Solution {
@@ -16,7 +16,8 @@ public class Solution {
         ListNode A=headA;
         ListNode B=headB;
         while(A!=B){
-            A=(A==null) 
+            A=(A==null) ? headB:A.next;
         }
     }
+            B=
 }
