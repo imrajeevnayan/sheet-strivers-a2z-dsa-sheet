@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-07T11:04:50.545Z",
-  "runtime": "884 ms",
+  "submissionTimestamp": "2026-06-07T11:09:15.892Z",
+  "runtime": "540 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/median-in-a-stream_975268",
-  "submissionId": "7lsxnk"
+  "problemUrl": "https://www.naukri.com/code360/problems/shuffle-two-strings_1115692",
+  "submissionId": "sd5dvw"
 }
