@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-07T09:15:31.031Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "VMWare",
+    "Flipkart",
+    "Accolite",
+    "Amazon",
+    "Microsoft",
+    "Snapdeal"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Intersection in Y Shaped Lists",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/LL-bonus-problem/problem/intersection-point-in-y-shapped-linked-lists",
+  "submissionId": "qavimw"
+}
