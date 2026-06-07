@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-07T09:05:01.000Z
+ * Synced: 2026-06-07T09:05:18.015Z
  */
 
 class Solution {
@@ -24,8 +24,7 @@ class Solution {
                 }
             }
             sb.append(count).append(res.charAt(res.length() - 1));
-            res = sb.toString();
         }
-        return res;
+        return res.toString();
     }
 }
