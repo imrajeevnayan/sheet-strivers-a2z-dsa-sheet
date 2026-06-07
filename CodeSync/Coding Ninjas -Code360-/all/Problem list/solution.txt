@@ -1,40 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Problem list
- * URL: https://www.naukri.com/code360/problems/find-prime-numbers_839723
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/find-subarray_2656181
+ * Language: Java (SE 1.8)
  * Difficulty: Hard
  * Topics: Easy Clear all
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T16:18:54.725Z
+ * Synced: 2026-06-07T19:01:02.855Z
  */
 
-import java.util.ArrayList;
+import java.util.*;
+import java.io.*;
  
 public class Solution {
- 
-    public static ArrayList<Integer> primeNumbersTillN(int N) 
-    { 
-        ArrayList<Integer> primes = new ArrayList<>();
-        if (N < 2) return primes;
- 
-        boolean[] isComposite = new boolean[N + 1];
- 
-        for (int i = 2; i * i <= N; i++) {
-            if (!isComposite[i]) {
-                for (int j = i * i; j <= N; j += i) {
-                    isComposite[j] = true;
+    public static int[] findSubarray(int[] arr) {
+        Map<Integer, Integer> prefixMap = new HashMap<>();
+        prefixMap.put(0, -1); // Handle subarrays starting from index 0
+        
+        int maxLen = 0;
+        int startIdx = -1;
+        int prefixSum = 0;
+        
+        for (int i = 0; i < arr.length; i++) {
+            prefixSum += arr[i];
+            
+            if (prefixMap.containsKey(prefixSum)) {
+                int len = i - prefixMap.get(prefixSum);
+                if (len > maxLen) {
+                    maxLen = len;
+                    startIdx = prefixMap.get(prefixSum) + 1;
                 }
+            } else {
+                prefixMap.put(prefixSum, i);
             }
         }
- 
-        for (int i = 2; i <= N; i++) {
-            if (!isComposite[i]) {
-                primes.add(i);
-            }
-        }
- 
-        return primes;
+        
+        return new int[]{startIdx, startIdx + maxLen - 1};
     }
 }
