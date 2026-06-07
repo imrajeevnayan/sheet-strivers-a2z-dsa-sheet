@@ -1,22 +1,21 @@
 # Platform: LintCode
 # Problem: ENG
-# URL: https://www.lintcode.com/problem/380/
+# URL: https://www.lintcode.com/problem/209/
 # Language: Python
-# Difficulty: Medium
-# Topics: Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Commit Output
+# Difficulty: Unknown
+# Topics: Hash TableString, Hash Table, String, Bloomberg Amazon Microsoft Google, Bloomberg, Amazon, Microsoft, Google
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-07T10:49:10.588Z
+# Synced: 2026-06-07T18:04:32.874Z
 
 public·class·Solution·{
-····public·ListNode·getIntersectionNode(ListNode·headA,·ListNode·headB)·{
-·······if(headA==null·||·headB==null)return·null;
-·······ListNode·a=headA;
-·······ListNode·b=headB;
-·······while(a·!=b){
-···········a=(a==null)?·headB:a.next;
-·······}
+··public·char·firstUniqChar(String·str)·{
+···Map<Character,Integer>map=new·HashMap<>();
+···for(char·c:str.toCharArray())map.put(c,map.getOrDefault(c,0)+1);
+···for·(int·i·=·0;·i<str.length();·i++)·{
+·······char·c·=str.charAt(i);
+········if·(map.get(c)·==·1)·return·c;·
 ····}
-···········b=(b==null)?headA:b.next;
-·······return·b;
+···return·'·';
+····}
 }
