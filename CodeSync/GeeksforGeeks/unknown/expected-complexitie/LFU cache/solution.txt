@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Topic Tags, Hash, doubly-linked-list, Data Structures, Design-Pattern, Related Articles, Least Frequently Used Lfu Cache Implementation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:30:43.850Z
+ * Synced: 2026-06-07T09:32:16.494Z
  */
 
 class LFUCache {
@@ -23,7 +23,7 @@ class LFUCache {
     }
 
         
-    public void put(int key, int value) {
+aa
         // code here
     }
 }
