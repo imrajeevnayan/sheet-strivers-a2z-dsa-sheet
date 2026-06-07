@@ -7,7 +7,7 @@
  * Topics: Easy Topics Company Tags, Topics, Company Tags, Linked List Two Pointers Stack Recursion, Linked List, Two Pointers, Stack, Recursion
  * Runtime: 68ms
  * Memory: 63.3 MB
- * Synced: 2026-06-07T11:33:17.324Z
+ * Synced: 2026-06-07T11:35:20.322Z
  */
 
 class Solution {
