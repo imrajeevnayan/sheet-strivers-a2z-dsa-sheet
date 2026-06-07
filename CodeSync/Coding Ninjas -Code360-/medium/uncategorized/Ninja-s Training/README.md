@@ -7,11 +7,11 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/minimum-cost-bst_3210619
-- Synced: 2026-06-07T11:12:27.894Z
+- Synced: 2026-06-07T11:12:32.457Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVE Get key word suggestions of your code
 
 ## Explanation
 
