@@ -1,0 +1,34 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Rahul And Minimum Subarray
+ * URL: https://www.naukri.com/code360/problems/rahul-and-minimum-subarray_1551987
+ * Language: Java (SE 1.8)
+ * Difficulty: Medium
+ * Topics: Moderate Clear all, Moderate
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T12:06:23.772Z
+ */
+
+import java.util.*;
+import java.io.*;
+ 
+public class Solution {
+    public static int minSubArrayLen(int arr[], int target, int n) {
+        int minLen = Integer.MAX_VALUE;
+        int sum = 0;
+        int left = 0;
+ 
+        for (int right = 0; right < n; right++) {
+            sum += arr[right];
+ 
+            while (sum >= target) {
+                minLen = Math.min(minLen, right - left + 1);
+                sum -= arr[left];
+                left++;
+            }
+        }
+ 
+        return minLen == Integer.MAX_VALUE ? 0 : minLen;
+    }
+}
