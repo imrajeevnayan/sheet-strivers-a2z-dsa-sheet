@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-07T18:49:20.178Z",
-  "runtime": "2209 ms",
+  "submissionTimestamp": "2026-06-07T18:54:24.221Z",
+  "runtime": "1613 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "in Dynamic Programming"
   ],
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/reverse-list-in-k-groups_983644",
-  "submissionId": "e6hyut"
+  "problemUrl": "https://www.naukri.com/code360/problems/longest-valid-parentheses_1089563",
+  "submissionId": "whnjmd"
 }
