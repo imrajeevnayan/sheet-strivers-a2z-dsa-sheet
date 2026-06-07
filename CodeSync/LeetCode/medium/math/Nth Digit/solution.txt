@@ -7,14 +7,13 @@
  * Topics: Math, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T06:14:50.442Z
+ * Synced: 2026-06-07T06:14:54.073Z
  */
 
 class Solution {
     public int findNthDigit(int n) {
         long len = 1, count = 9, start = 1;
 
-        // 1. Find which "digit-length" group n falls into
         while (n > len * count) {
             n -= len * count;
             len++;
