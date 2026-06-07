@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find the Peaks
- * URL: https://leetcode.com/problems/find-the-peaks/
+ * URL: https://leetcode.com/problems/find-the-peaks/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Enumeration
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T05:49:42.565Z
+ * Synced: 2026-06-07T05:49:55.605Z
  */
 
 class Solution {
