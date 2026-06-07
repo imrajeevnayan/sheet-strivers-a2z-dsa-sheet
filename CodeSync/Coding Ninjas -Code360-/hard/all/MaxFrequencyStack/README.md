@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/maxfrequencystack_1262006
-- Synced: 2026-06-07T18:51:52.482Z
+- Synced: 2026-06-07T18:52:02.613Z
 
 ## Problem Description
 
