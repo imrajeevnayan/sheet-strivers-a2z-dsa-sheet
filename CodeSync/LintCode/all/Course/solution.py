@@ -1,35 +1,22 @@
 # Platform: LintCode
 # Problem: Course
-# URL: https://www.lintcode.com/problem/363/description
+# URL: https://www.lintcode.com/problem/380/description
 # Language: Python
-# Difficulty: Hard
-# Topics: Opposite Direction Two Pointers, Stack, Two Pointers, Monotonic Stack, Apple, Twitter, Airbnb, Amazon
+# Difficulty: Unknown
+# Topics: Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-02T08:05:29.468Z
+# Synced: 2026-06-07T10:54:54.485Z
 
-················water·+=·leftMax·-·height[left];
-············}
-············left++;
-········}·else·{
-············if·(height[right]·>=·rightMax)·{
-················rightMax·=·height[right];
-············}·else·{
-················water·+=·rightMax·-·height[right];
-············}
-············right--;
-········}
-····}
-············}·else·{
-················leftMax·=·height[left];
-············if·(height[left]·>=·leftMax)·{
-········if·(height[left]·<·height[right])·{
-····while·(left·<·right)·{
-····
-····int·water·=·0;
-····int·leftMax·=·0,·rightMax·=·0;
-····int·left·=·0,·right·=·height.length·-·1;
-····
-····return·water;
+public·class·Solution·{
+····public·ListNode·getIntersectionNode(ListNode·headA,·ListNode·headB)·{
+·······if(headA==null·||·headB==null)return·null;
+·······ListNode·a=headA;
+·······ListNode·b=headB;
+·······while(a·!=b){
+···········a=(a==null)?·headB:a.next;
+···········b=(b==null)?headA:b.next;
+·······}
+·······return·b;
 ····}
 }
