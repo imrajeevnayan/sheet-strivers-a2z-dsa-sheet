@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/nth-digit/
-- Synced: 2026-06-07T06:14:50.442Z
+- Synced: 2026-06-07T06:14:54.073Z
 
 ## Problem Description
 
