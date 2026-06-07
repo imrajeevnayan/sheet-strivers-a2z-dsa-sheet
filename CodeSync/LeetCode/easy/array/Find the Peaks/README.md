@@ -6,8 +6,8 @@
 - Topics: Array, Enumeration
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-peaks/description/
-- Synced: 2026-06-07T05:49:55.605Z
+- Problem URL: https://leetcode.com/problems/find-the-peaks/
+- Synced: 2026-06-07T05:49:58.619Z
 
 ## Problem Description
 
