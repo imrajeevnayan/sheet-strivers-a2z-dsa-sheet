@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/bit-manipulation-bonus-problems/problem/total-hamming-distance
-- Synced: 2026-06-07T17:50:15.927Z
+- Synced: 2026-06-07T17:50:19.788Z
 
 ## Problem Description
 
