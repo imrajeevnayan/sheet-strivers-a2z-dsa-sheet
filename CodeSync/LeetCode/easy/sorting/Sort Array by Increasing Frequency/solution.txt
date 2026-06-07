@@ -1,32 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: Sort Array by Increasing Frequency
- * URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/submissions/2025228343/
+ * URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
  * Runtime: 2 ms
- * Memory: 45.56 MB
- * Synced: 2026-06-07T09:54:55.485Z
+ * Memory: 45.89 MB
+ * Synced: 2026-06-07T09:57:37.536Z
  */
 
-Map<Integer, Integer> map = new HashMap<>();
-        for (int n : nums)map.put(n, map.getOrDefault(n,0) + 1);
-        List<Integer> list = new ArrayList<>();
-        for (int num : nums)list.add(num);
-        
-        Collections.sort(list, (a, b) -> {
-            int comp = map.get(a) - map.get(b);
-            return comp != 0 ? comp : b - a;
+if (!map.get(a).equals(map.get(b))) {
+                return map.get(a) - map.get(b); // Lower first
+            }
+            return b - a; // Higher first (for same freq)
         });
+        for (int num : nums) pq.offer(num);
         
         int[] result = new int[nums.length];
-        for (int i = 0; i < list.size(); i++) {
-            result[i] = list.get(i);
+        PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> {
+        
+        for (int num : nums)map.put(num, map.getOrDefault(num, 0) + 1);
+        for (int i = 0; i < nums.length; i++) {
+            result[i] = pq.poll();
         }
-        return result;
-    public int[] frequencySort(int[] nums) {
-class Solution {
 
+        return result;
     }
 }
+        Map<Integer, Integer> map = new HashMap<>();
+    public int[] frequencySort(int[] nums) {
+class Solution {
