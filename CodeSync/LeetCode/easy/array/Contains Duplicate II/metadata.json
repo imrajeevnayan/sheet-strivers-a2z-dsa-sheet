@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-06T06:36:14.916Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-06-07T06:49:10.139Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Contains Duplicate II",
   "problemUrl": "https://leetcode.com/problems/contains-duplicate-ii/description/",
-  "submissionId": "go1jxd"
+  "submissionId": "l5z34j"
 }
