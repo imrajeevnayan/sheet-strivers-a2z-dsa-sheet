@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags MicrosoftNPCI, Company Tags, Microsoft, NPCI, Topic Tags, Bit Magic, Data Structures
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T17:50:15.927Z
+ * Synced: 2026-06-07T17:50:19.788Z
  */
 
 class Solution {
