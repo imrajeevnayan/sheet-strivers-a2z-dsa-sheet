@@ -1,32 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/second-largest-element-in-the-array_873375
+ * URL: https://www.naukri.com/code360/problems/longest-unique-substring_630418
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 3011 ms
+ * Runtime: 982 ms
  * Memory: N/A
- * Synced: 2026-06-07T19:22:54.465Z
+ * Synced: 2026-06-07T19:24:25.599Z
  */
 
 import java.util.*;
 import java.io.*;
  
 public class Solution {
-    public static int findSecondLargest(int n, int[] arr) {
-        int largest = Integer.MIN_VALUE;
-        int secondLargest = Integer.MIN_VALUE;
+    public static int uniqueSubstrings(String input) {
+        if (input == null || input.length() == 0) return 0;
  
-        for (int num : arr) {
-            if (num > largest) {
-                secondLargest = largest;
-                largest = num;
-            } else if (num > secondLargest && num != largest) {
-                secondLargest = num;
+        Map<Character, Integer> charIndexMap = new HashMap<>();
+        int maxLength = 0;
+        int left = 0;
+ 
+        for (int right = 0; right < input.length(); right++) {
+            char currentChar = input.charAt(right);
+ 
+            // If character is repeated and lies within the current window
+            if (charIndexMap.containsKey(currentChar) && charIndexMap.get(currentChar) >= left) {
+                left = charIndexMap.get(currentChar) + 1;
             }
+ 
+            // Update the last seen index of the character
+            charIndexMap.put(currentChar, right);
+ 
+            // Calculate max length
+            maxLength = Math.max(maxLength, right - left + 1);
         }
  
-        return secondLargest == Integer.MIN_VALUE ? -1 : secondLargest;
+        return maxLength;
     }
 }
