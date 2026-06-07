@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-07T11:00:34.565Z",
-  "runtime": "4501 ms",
+  "submissionTimestamp": "2026-06-07T11:00:59.216Z",
+  "runtime": "3807 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "All languages",
   "problemTitle": "LCA of three Nodes",
   "problemUrl": "https://www.naukri.com/code360/problems/code-merge-sort_5907",
-  "submissionId": "em0ms0"
+  "submissionId": "g0vo2u"
 }
