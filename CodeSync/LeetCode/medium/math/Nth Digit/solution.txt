@@ -7,11 +7,25 @@
  * Topics: Math, Binary Search
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T06:11:25.798Z
+ * Synced: 2026-06-07T06:14:50.442Z
  */
 
 class Solution {
     public int findNthDigit(int n) {
-        
+        long len = 1, count = 9, start = 1;
+
+        // 1. Find which "digit-length" group n falls into
+        while (n > len * count) {
+            n -= len * count;
+            len++;
+            count *= 10;
+            start *= 10;
+        }
+
+        // 2. Find the specific number
+        start += (n - 1) / len;
+
+        // 3. Return the specific digit from that number
+        return String.valueOf(start).charAt((int)((n - 1) % len)) - '0';
     }
 }
