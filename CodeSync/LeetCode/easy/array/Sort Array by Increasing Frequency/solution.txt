@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Sort Array by Increasing Frequency
- * URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/
+ * URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/submissions/2025228343/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
  * Runtime: 2 ms
- * Memory: N/A
- * Synced: 2026-06-07T09:54:44.454Z
+ * Memory: 45.56 MB
+ * Synced: 2026-06-07T09:54:55.485Z
  */
 
 Map<Integer, Integer> map = new HashMap<>();
