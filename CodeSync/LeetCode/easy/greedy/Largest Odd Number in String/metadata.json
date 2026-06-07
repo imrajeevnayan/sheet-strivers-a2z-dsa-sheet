@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T18:37:13.108Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-07T18:37:52.866Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "String",
   "problemTitle": "Largest Odd Number in String",
-  "problemUrl": "https://leetcode.com/problems/largest-odd-number-in-string/?envType=problem-list-v2&envId=string",
-  "submissionId": "jypn5e"
+  "problemUrl": "https://leetcode.com/problems/largest-odd-number-in-string/submissions/2025653312/?envType=problem-list-v2&envId=string",
+  "submissionId": "1z82le"
 }
