@@ -6,7 +6,7 @@
 # Topics: Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-07T10:47:22.443Z
+# Synced: 2026-06-07T10:47:23.956Z
 
 public·class·Solution·{
 ····public·ListNode·getIntersectionNode(ListNode·headA,·ListNode·headB)·{
@@ -17,5 +17,5 @@ public·class·Solution·{
 ···········a=(a==null)headB:a.next;
 ·······}
 ····}
-···········b=(b==null)h
+···········b=(b==null)headA
 }
