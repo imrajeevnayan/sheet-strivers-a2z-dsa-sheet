@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Longest Palindromic Subsequence
+ * URL: https://leetcode.com/problems/longest-palindromic-subsequence/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: String, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T11:59:41.773Z
+ */
+
+class Solution {
+    public int longestPalindromeSubseq(String s) {
+        
+    }
+}
