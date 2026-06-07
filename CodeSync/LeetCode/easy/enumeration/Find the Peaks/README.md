@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-the-peaks/
-- Synced: 2026-06-07T05:54:22.338Z
+- Synced: 2026-06-07T05:54:32.622Z
 
 ## Problem Description
 
