@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Hard
 - Topics: Moderate Clear all, Moderate
-- Runtime: 840 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/duplicate-characters_3189116
-- Synced: 2026-06-03T11:49:02.371Z
+- Problem URL: https://www.naukri.com/code360/problems/find-subarray_2656181
+- Synced: 2026-06-07T19:00:57.889Z
 
 ## Problem Description
 
