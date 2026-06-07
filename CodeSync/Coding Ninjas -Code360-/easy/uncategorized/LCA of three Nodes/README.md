@@ -7,11 +7,11 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/kth-minimum-floor_1115470
-- Synced: 2026-06-07T12:07:39.883Z
+- Synced: 2026-06-07T12:08:01.851Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
