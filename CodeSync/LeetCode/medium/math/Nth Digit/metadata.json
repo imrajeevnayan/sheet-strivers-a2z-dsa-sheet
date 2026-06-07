@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T06:15:00.170Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-07T06:15:08.339Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Nth Digit",
-  "problemUrl": "https://leetcode.com/problems/nth-digit/",
+  "problemUrl": "https://leetcode.com/problems/nth-digit/submissions/2025056318/",
   "submissionId": "jh27gl"
 }
