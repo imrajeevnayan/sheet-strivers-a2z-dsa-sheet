@@ -7,23 +7,47 @@
  * Topics: Expected Complexities, Topic Tags, Hash, doubly-linked-list, Data Structures, Design-Pattern, Related Articles, Least Frequently Used Lfu Cache Implementation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:32:16.494Z
+ * Synced: 2026-06-07T09:32:21.174Z
  */
 
-class LFUCache {
+private final Map<Integer, Node> keyNodeMap;
+    private final Map<Integer, DLL> freqListMap;
 
-    public LFUCache(int cap) {
-        // code here
-        
+    public LFUCache(int capacity) {
+        this.capacity = capacity;
+        keyNodeMap = new HashMap<>();
+        freqListMap = new HashMap<>();
     }
 
     public int get(int key) {
-
-
+        if (!keyNodeMap.containsKey(key)) return -1;
+        update(keyNodeMap.get(key));
+        return keyNodeMap.get(key).val;
     }
 
-        
-aa
-        // code here
+    public void put(int key, int value) {
+        if (capacity <= 0) return;
+        if (keyNodeMap.containsKey(key)) {
+            Node n = keyNodeMap.get(key);
+            n.val = value;
+            update(n);
+            return;
+        }
+        if (keyNodeMap.size() >= capacity) {
+            Node evicted = freqListMap.get(minFreq).removeLast();
+            keyNodeMap.remove(evicted.key);
+        }
+        Node newNode = new Node(key, value);
+        keyNodeMap.put(key, newNode);
+        minFreq = 1;
+        freqListMap.computeIfAbsent(1, k -> new DLL()).addFirst(newNode);
+    }
+
+    private void update(Node node) {
+        int f = node.freq;
+        freqListMap.get(f).remove(node);
+        if (f == minFreq && freqListMap.get(f).isEmpty()) minFreq++;
+        node.freq++;
+        freqListMap.computeIfAbsent(node.freq, k -> new DLL()).addFirst(node);
     }
 }
