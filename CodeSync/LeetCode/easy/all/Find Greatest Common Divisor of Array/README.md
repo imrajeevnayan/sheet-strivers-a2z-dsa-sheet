@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Math, Number Theory
-- Runtime: 1 ms
-- Memory: 44.90 MB
-- Problem URL: https://leetcode.com/problems/find-greatest-common-divisor-of-array/submissions/1968342654/
-- Synced: 2026-06-07T12:54:20.596Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/find-greatest-common-divisor-of-array/
+- Synced: 2026-06-07T12:54:55.920Z
 
 ## Problem Description
 
