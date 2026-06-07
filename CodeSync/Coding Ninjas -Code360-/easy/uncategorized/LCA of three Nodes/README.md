@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/first-unique-character-in-a-string_893404
-- Synced: 2026-06-07T12:13:03.972Z
+- Synced: 2026-06-07T12:13:14.657Z
 
 ## Problem Description
 
