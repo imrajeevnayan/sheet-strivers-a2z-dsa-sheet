@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 4501 ms
  * Memory: N/A
- * Synced: 2026-06-07T11:00:30.376Z
+ * Synced: 2026-06-07T11:00:34.565Z
  */
 
 public class Solution {
