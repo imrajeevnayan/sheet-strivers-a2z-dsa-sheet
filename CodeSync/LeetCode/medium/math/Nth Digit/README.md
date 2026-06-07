@@ -6,8 +6,8 @@
 - Topics: Math, Binary Search
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/nth-digit/description/
-- Synced: 2026-06-07T06:04:37.268Z
+- Problem URL: https://leetcode.com/problems/nth-digit/
+- Synced: 2026-06-07T06:11:25.798Z
 
 ## Problem Description
 
