@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: 46.96 MB
 - Problem URL: https://leetcode.com/problems/largest-odd-number-in-string/submissions/1949889359/?envType=problem-list-v2&envId=string
-- Synced: 2026-06-07T18:36:48.100Z
+- Synced: 2026-06-07T18:36:51.025Z
 
 ## Problem Description
 
