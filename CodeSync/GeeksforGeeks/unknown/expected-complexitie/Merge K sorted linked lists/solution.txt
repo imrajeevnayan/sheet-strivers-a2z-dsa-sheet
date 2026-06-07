@@ -7,10 +7,8 @@
  * Topics: Expected Complexities, Company Tags VMWareAmazonMicrosoftOracleNPCI, Company Tags, VMWare, Amazon, Microsoft, Oracle, NPCI
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:21:00.738Z
+ * Synced: 2026-06-07T09:21:04.467Z
  */
-
-import java.util.PriorityQueue;
 
 class Solution {
     Node mergeKLists(Node[] arr) {
