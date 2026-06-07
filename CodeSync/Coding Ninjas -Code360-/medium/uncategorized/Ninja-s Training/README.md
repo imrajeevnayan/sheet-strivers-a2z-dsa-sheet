@@ -7,7 +7,7 @@
 - Runtime: 564 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/elements-occur-more-than-n-k-times_1113146
-- Synced: 2026-06-07T12:03:34.403Z
+- Synced: 2026-06-07T12:03:39.841Z
 
 ## Problem Description
 
