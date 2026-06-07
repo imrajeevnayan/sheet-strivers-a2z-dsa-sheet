@@ -1,10 +1,11 @@
 {
-  "submissionTimestamp": "2026-06-07T12:08:01.851Z",
+  "submissionTimestamp": "2026-06-07T12:08:09.905Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Uncategorized"
+    "Moderate Clear all",
+    "Moderate"
   ],
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
