@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Sorting
  * Runtime: 2 ms
  * Memory: N/A
- * Synced: 2026-06-07T09:59:08.253Z
+ * Synced: 2026-06-07T09:59:11.457Z
  */
 
 if (!map.get(a).equals(map.get(b))) return map.get(a) - map.get(b); // Lower first
