@@ -7,7 +7,7 @@
 - Runtime: 982 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/longest-unique-substring_630418
-- Synced: 2026-06-07T19:24:25.599Z
+- Synced: 2026-06-07T19:24:29.605Z
 
 ## Problem Description
 
