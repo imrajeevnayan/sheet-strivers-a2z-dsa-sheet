@@ -7,11 +7,11 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/longest-repeating-subsequence_1062697
-- Synced: 2026-06-07T17:45:54.660Z
+- Synced: 2026-06-07T17:45:59.213Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
