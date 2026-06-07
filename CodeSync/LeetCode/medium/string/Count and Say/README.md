@@ -6,8 +6,8 @@
 - Topics: String
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-and-say/
-- Synced: 2026-06-07T09:05:35.864Z
+- Problem URL: https://leetcode.com/problems/count-and-say/submissions/2025191993/
+- Synced: 2026-06-07T09:05:38.850Z
 
 ## Problem Description
 
