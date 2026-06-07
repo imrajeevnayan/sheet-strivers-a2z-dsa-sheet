@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Sort Array by Increasing Frequency
- * URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/
+ * URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/submissions/2025228343/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-07T09:53:53.886Z
+ * Runtime: 2 ms
+ * Memory: 45.56 MB
+ * Synced: 2026-06-07T09:54:55.485Z
  */
 
 Map<Integer, Integer> map = new HashMap<>();
@@ -16,15 +16,14 @@ Map<Integer, Integer> map = new HashMap<>();
         for (int num : nums)list.add(num);
         
         Collections.sort(list, (a, b) -> {
-            int cmp = freq.get(a) - freq.get(b);
-            return cmp != 0 ? cmp : b - a;
+            int comp = map.get(a) - map.get(b);
+            return comp != 0 ? comp : b - a;
         });
         
         int[] result = new int[nums.length];
         for (int i = 0; i < list.size(); i++) {
             result[i] = list.get(i);
         }
-        
         return result;
     public int[] frequencySort(int[] nums) {
 class Solution {
