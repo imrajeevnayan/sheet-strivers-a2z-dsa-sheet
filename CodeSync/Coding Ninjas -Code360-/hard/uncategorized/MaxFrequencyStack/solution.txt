@@ -1,0 +1,33 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: MaxFrequencyStack
+ * URL: https://www.naukri.com/code360/problems/maxfrequencystack_1262006
+ * Language: Java (SE 1.8)
+ * Difficulty: Hard
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T18:51:52.482Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+public class FrequencyStack
+{
+    FrequencyStack()
+    {
+        // Complete the function
+ 
+    }
+ 
+    void push(int element)
+    {
+        // Complete the function
+ 
+    }
+    int pop()
+    {
+        // Complete the function
+ 
+    }
+}
