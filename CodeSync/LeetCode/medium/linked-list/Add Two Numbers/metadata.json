@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-05T18:24:02.419Z",
+  "submissionTimestamp": "2026-06-07T06:01:56.467Z",
   "runtime": "0 ms",
-  "memoryUsage": "46.43 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Linked List",
@@ -9,8 +9,8 @@
     "Recursion"
   ],
   "platform": "LeetCode",
-  "language": "Grind 169 (Copy-rabvlt31)",
+  "language": "Problem List",
   "problemTitle": "Add Two Numbers",
-  "problemUrl": "https://leetcode.com/problems/add-two-numbers/submissions/2023576693/?envType=problem-list-v2&envId=dxlqdj5j",
-  "submissionId": "yg9dyw"
+  "problemUrl": "https://leetcode.com/problems/add-two-numbers/",
+  "submissionId": "5ot7up"
 }
