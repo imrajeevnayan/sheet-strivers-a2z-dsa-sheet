@@ -3,16 +3,16 @@
 - Platform: Coding Ninjas (Code360)
 - Language: Java (SE 1.8)
 - Difficulty: Easy
-- Topics: Hard Clear all
-- Runtime: 936 ms
+- Topics: Uncategorized
+- Runtime: 559 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/minimum-characters-for-palindrome_893000
-- Synced: 2026-06-07T11:11:36.369Z
+- Problem URL: https://www.naukri.com/code360/problems/largest-rectangle-in-a-histogram_1058184
+- Synced: 2026-06-07T11:14:37.694Z
 
 ## Problem Description
 
-Total problems solved
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
-This solution was accepted on Coding Ninjas (Code360) using Java (SE 1.8). The detected topics are Hard Clear all. Review the synced source file for the implementation details.
+This solution was accepted on Coding Ninjas (Code360) using Java (SE 1.8). Review the synced source file for the implementation details.
