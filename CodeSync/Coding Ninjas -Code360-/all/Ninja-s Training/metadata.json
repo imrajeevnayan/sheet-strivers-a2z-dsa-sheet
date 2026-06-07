@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T11:13:50.710Z",
-  "runtime": "739 ms",
+  "submissionTimestamp": "2026-06-07T11:16:12.722Z",
+  "runtime": "1004 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "Ninja’s Training",
-  "problemUrl": "https://www.naukri.com/code360/problems/best-time-to-buy-and-sell-stock_1080698",
-  "submissionId": "m6har0"
+  "problemUrl": "https://www.naukri.com/code360/problems/longest-palindromic-subsequence_842787",
+  "submissionId": "f32gc5"
 }
