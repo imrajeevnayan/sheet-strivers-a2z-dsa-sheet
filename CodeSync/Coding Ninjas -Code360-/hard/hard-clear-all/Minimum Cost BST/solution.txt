@@ -1,0 +1,41 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Minimum Cost BST
+ * URL: https://www.naukri.com/code360/problems/minimum-cost-bst_3210619
+ * Language: Java (SE 1.8)
+ * Difficulty: Hard
+ * Topics: Hard Clear all
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T11:12:44.044Z
+ */
+
+import java.util.*;
+import java.io.*;
+ 
+public class Solution {
+    public static int minCostBST(int arr[], int freq[]) {
+        int n = arr.length;
+        int[][] dp = new int[n][n];
+        int[] prefixSum = new int[n + 1];
+ 
+        for (int i = 0; i < n; i++) {
+            prefixSum[i + 1] = prefixSum[i] + freq[i];
+        }
+ 
+        for (int len = 1; len <= n; len++) {
+            for (int i = 0; i <= n - len; i++) {
+                int j = i + len - 1;
+                dp[i][j] = Integer.MAX_VALUE;
+                int sum = prefixSum[j + 1] - prefixSum[i];
+ 
+                for (int k = i; k <= j; k++) {
+                    int left = (k > i) ? dp[i][k - 1] : 0;
+                    int right = (k < j) ? dp[k + 1][j] : 0;
+                    dp[i][j] = Math.min(dp[i][j], left + right + sum);
+                }
+            }
+        }
+ 
+        return dp[0][n - 1];
+    }
