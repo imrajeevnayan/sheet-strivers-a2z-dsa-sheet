@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-06T15:25:34.662Z",
+  "submissionTimestamp": "2026-06-07T17:34:27.212Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -10,5 +10,5 @@
   "language": "// Static member to hold the single instance private: static Singleton instance;",
   "problemTitle": "Singleton Method Design Pattern",
   "problemUrl": "https://www.geeksforgeeks.org/system-design/singleton-design-pattern/",
-  "submissionId": "9frmg2"
+  "submissionId": "4loitr"
 }
