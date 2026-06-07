@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T11:07:17.834Z",
-  "runtime": "2652 ms",
+  "submissionTimestamp": "2026-06-07T11:12:27.894Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "Ninja’s Training",
-  "problemUrl": "https://www.naukri.com/code360/problems/buy-and-sell-stock_1071012",
-  "submissionId": "za3omx"
+  "problemUrl": "https://www.naukri.com/code360/problems/minimum-cost-bst_3210619",
+  "submissionId": "tw1iz6"
 }
