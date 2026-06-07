@@ -1,41 +1,34 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Ninja’s Training
- * URL: https://www.naukri.com/code360/problems/best-time-to-buy-and-sell-stock_1080698
+ * URL: https://www.naukri.com/code360/problems/longest-palindromic-subsequence_842787
  * Language: Java (SE 1.8)
  * Difficulty: Medium
  * Topics: Uncategorized
- * Runtime: 739 ms
+ * Runtime: 1004 ms
  * Memory: N/A
- * Synced: 2026-06-07T11:13:50.710Z
+ * Synced: 2026-06-07T11:16:12.722Z
  */
 
 import java.util.*;
 import java.io.*;
  
 public class Solution {
-    public static int maximumProfit(int[] prices, int n, int k) {
-        if (n < 2 || k == 0) return 0;
-        if (k >= n / 2) {
-            int profit = 0;
-            for (int i = 1; i < n; i++) {
-                if (prices[i] > prices[i - 1]) {
-                    profit += prices[i] - prices[i - 1];
+    public static int longestPalindromeSubsequence(String s) {
+        String rev = new StringBuilder(s).reverse().toString();
+        int n = s.length();
+        int[][] dp = new int[n + 1][n + 1];
+ 
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (s.charAt(i - 1) == rev.charAt(j - 1)) {
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                } else {
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
                 }
             }
-            return profit;
         }
  
-        int[][] dp = new int[k + 1][n];
- 
-        for (int t = 1; t <= k; t++) {
-            int maxDiff = -prices[0];
-            for (int d = 1; d < n; d++) {
-                dp[t][d] = Math.max(dp[t][d - 1], prices[d] + maxDiff);
-                maxDiff = Math.max(maxDiff, dp[t - 1][d] - prices[d]);
-            }
-        }
- 
-        return dp[k][n - 1];
+        return dp[n][n];
     }
 }
