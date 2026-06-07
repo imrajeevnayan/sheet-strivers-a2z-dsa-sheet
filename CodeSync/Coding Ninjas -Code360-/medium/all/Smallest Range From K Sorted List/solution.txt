@@ -1,0 +1,41 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Smallest Range From K Sorted List
+ * URL: https://www.naukri.com/code360/problems/smallest-range-from-k-sorted-list_1069356
+ * Language: Java (SE 1.8)
+ * Difficulty: Medium
+ * Topics: Moderate Clear all, Moderate
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T18:58:24.332Z
+ */
+
+import java.util.*;
+ 
+public class Solution {
+    public static int[] smallestRange(int[][] a, int k, int n) {
+        // [value, listIndex, elementIndex]
+        PriorityQueue<int[]> pq = new PriorityQueue<>((x, y) -> x[0] - y[0]);
+        
+        int currentMax = Integer.MIN_VALUE;
+        
+        // Initialize heap with first element from each list
+        for (int i = 0; i < k; i++) {
+            pq.offer(new int[]{a[i][0], i, 0});
+            currentMax = Math.max(currentMax, a[i][0]);
+        }
+        
+        int bestStart = 0, bestEnd = Integer.MAX_VALUE;
+        
+        while (true) {
+            int[] minNode = pq.poll();
+            int minVal = minNode[0];
+            int listIdx = minNode[1];
+            int elemIdx = minNode[2];
+            
+            // Update best range
+            int rangeLen = currentMax - minVal + 1;
+            int bestLen = bestEnd - bestStart + 1;
+            if (rangeLen < bestLen || (rangeLen == bestLen && minVal < bestStart)) {
+                bestStart = minVal;
+                bestEnd = currentMax;
