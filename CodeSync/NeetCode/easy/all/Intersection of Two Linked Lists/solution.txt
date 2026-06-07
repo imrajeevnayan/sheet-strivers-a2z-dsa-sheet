@@ -1,13 +1,13 @@
 /*
  * Platform: NeetCode
  * Problem: Intersection of Two Linked Lists
- * URL: https://neetcode.io/problems/intersection-of-two-linked-lists/question?list=allNC
+ * URL: https://neetcode.io/problems/palindrome-linked-list/question?list=allNC
  * Language: headA
  * Difficulty: Easy
  * Topics: Easy Topics Company Tags, Topics, Company Tags, Hash Table Linked List Two Pointers, Hash Table, Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T11:29:11.522Z
+ * Synced: 2026-06-07T11:30:10.345Z
  */
 
 public class Solution {
@@ -15,8 +15,3 @@ public class Solution {
         if(headA==null || headB==null) return null;
         ListNode A=headA;
         ListNode B=headB;
-        while(A!=B){
-            A=(A==null)
-        }
-    }
-}
