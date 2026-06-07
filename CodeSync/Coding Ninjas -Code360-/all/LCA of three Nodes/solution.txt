@@ -1,40 +1,40 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/check-if-two-given-strings-are-isomorphic-to-each-other_1117636
+ * URL: https://www.naukri.com/code360/problems/code-merge-sort_5907
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 3199 ms
+ * Runtime: 4501 ms
  * Memory: N/A
- * Synced: 2026-06-06T18:32:58.121Z
+ * Synced: 2026-06-07T11:00:30.376Z
  */
 
-import java.util.*;
- 
 public class Solution {
-    public static boolean areIsomorphic(String str1, String str2) {
-        if (str1.length() != str2.length()) return false;
  
-        HashMap<Character, Character> map1 = new HashMap<>();
-        HashMap<Character, Character> map2 = new HashMap<>();
- 
-        for (int i = 0; i < str1.length(); i++) {
-            char c1 = str1.charAt(i);
-            char c2 = str2.charAt(i);
- 
-            if (map1.containsKey(c1)) {
-                if (map1.get(c1) != c2) return false;
-            } else {
-                map1.put(c1, c2);
-            }
- 
-            if (map2.containsKey(c2)) {
-                if (map2.get(c2) != c1) return false;
-            } else {
-                map2.put(c2, c1);
-            }
+    public static Node<Integer> mergeSort(Node<Integer> head) {
+        if (head == null || head.next == null) {
+            return head;
         }
-        return true;
+ 
+        Node<Integer> mid = getMid(head);
+        Node<Integer> secondHalf = mid.next;
+        mid.next = null; // Break the link
+ 
+        Node<Integer> left = mergeSort(head);
+        Node<Integer> right = mergeSort(secondHalf);
+ 
+        return merge(left, right);
     }
-}
+ 
+    private static Node<Integer> getMid(Node<Integer> head) {
+        if (head == null) return head;
+        Node<Integer> slow = head;
+        Node<Integer> fast = head.next;
+        
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
