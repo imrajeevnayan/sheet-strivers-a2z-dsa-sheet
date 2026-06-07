@@ -4,13 +4,12 @@
  * URL: https://www.naukri.com/code360/problems/median-in-a-stream_975268
  * Language: Java (SE 1.8)
  * Difficulty: Hard
- * Topics: Hard Clear all
+ * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T11:05:52.502Z
+ * Synced: 2026-06-07T12:12:08.413Z
  */
 
-import java.util.PriorityQueue;
 import java.util.Collections;
  
 public class Solution {
@@ -39,3 +38,4 @@ public class Solution {
  
         return result;
     }
+}
