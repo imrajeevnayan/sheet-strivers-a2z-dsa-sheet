@@ -7,7 +7,7 @@
  * Topics: Array, Math, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T12:53:47.536Z
+ * Synced: 2026-06-07T12:54:03.834Z
  */
 
 class Solution {
@@ -16,6 +16,7 @@ class Solution {
         for(int i=1;i<nums.length;i++){
             gcd=findGCD(gcd,nums[i]);
         }
-    }
         return gcd;
+    }
+    static int 
 }
