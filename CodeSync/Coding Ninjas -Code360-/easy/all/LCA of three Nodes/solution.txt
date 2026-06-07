@@ -4,10 +4,10 @@
  * URL: https://www.naukri.com/code360/problems/minimum-characters-for-palindrome_893000
  * Language: Java (SE 1.8)
  * Difficulty: Easy
- * Topics: Uncategorized
+ * Topics: Hard Clear all
  * Runtime: 936 ms
  * Memory: N/A
- * Synced: 2026-06-07T11:11:27.778Z
+ * Synced: 2026-06-07T11:11:36.369Z
  */
 
 public class Solution {
