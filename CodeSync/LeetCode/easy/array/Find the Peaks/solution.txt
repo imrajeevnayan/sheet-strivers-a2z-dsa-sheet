@@ -7,7 +7,7 @@
  * Topics: Array, Enumeration
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T05:49:57.117Z
+ * Synced: 2026-06-07T05:49:58.619Z
  */
 
 class Solution {
@@ -15,4 +15,5 @@ class Solution {
         
     }
         ArrayList<Integer>ans=new ArrayList<>();
+        
 }
