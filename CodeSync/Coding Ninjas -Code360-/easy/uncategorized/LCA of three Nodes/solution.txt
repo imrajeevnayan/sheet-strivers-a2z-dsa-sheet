@@ -1,39 +1,36 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/shuffle-two-strings_1115692
+ * URL: https://www.naukri.com/code360/problems/minimum-characters-for-palindrome_893000
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 540 ms
+ * Runtime: 936 ms
  * Memory: N/A
- * Synced: 2026-06-07T11:09:20.394Z
+ * Synced: 2026-06-07T11:11:23.192Z
  */
 
-import java.util.*;
-import java.io.*;
- 
 public class Solution {
-    public static boolean isInterleave(String a, String b, String c) {
-        int m = a.length(), n = b.length();
-        if (m + n != c.length()) return false;
+    public static int minCharsforPalindrome(String str) {
+        String rev = new StringBuilder(str).reverse().toString();
+        String combined = str + "#" + rev;
+        int[] lps = computeLPS(combined);
+        return str.length() - lps[combined.length() - 1];
+    }
  
-        boolean[][] dp = new boolean[m + 1][n + 1];
-        dp[0][0] = true;
- 
-        for (int i = 1; i <= m; i++)
-            dp[i][0] = dp[i - 1][0] && a.charAt(i - 1) == c.charAt(i - 1);
-        for (int j = 1; j <= n; j++)
-            dp[0][j] = dp[0][j - 1] && b.charAt(j - 1) == c.charAt(j - 1);
- 
-        for (int i = 1; i <= m; i++) {
-            for (int j = 1; j <= n; j++) {
-                boolean fromA = dp[i - 1][j] && a.charAt(i - 1) == c.charAt(i + j - 1);
-                boolean fromB = dp[i][j - 1] && b.charAt(j - 1) == c.charAt(i + j - 1);
-                dp[i][j] = fromA || fromB;
+    private static int[] computeLPS(String s) {
+        int n = s.length();
+        int[] lps = new int[n];
+        int len = 0, i = 1;
+        while (i < n) {
+            if (s.charAt(i) == s.charAt(len)) {
+                lps[i++] = ++len;
+            } else if (len != 0) {
+                len = lps[len - 1];
+            } else {
+                lps[i++] = 0;
             }
         }
- 
-        return dp[m][n];
+        return lps;
     }
 }
