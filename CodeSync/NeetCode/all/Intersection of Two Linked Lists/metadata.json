@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-07T11:28:37.936Z",
+  "submissionTimestamp": "2026-06-07T11:30:10.345Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -15,6 +15,6 @@
   "platform": "NeetCode",
   "language": "headA",
   "problemTitle": "Intersection of Two Linked Lists",
-  "problemUrl": "https://neetcode.io/problems/intersection-of-two-linked-lists/question?list=allNC",
-  "submissionId": "tmcgd6"
+  "problemUrl": "https://neetcode.io/problems/palindrome-linked-list/question?list=allNC",
+  "submissionId": "j8o5mn"
 }
