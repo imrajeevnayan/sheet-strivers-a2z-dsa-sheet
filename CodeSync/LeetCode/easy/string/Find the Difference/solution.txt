@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Bit Manipulation, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T06:57:50.466Z
+ * Synced: 2026-06-07T06:58:08.088Z
  */
 
 class Solution {
@@ -15,5 +15,5 @@ class Solution {
         char res=0;
     }
         for(char c:s.toCharArray()) res^=c;
-        for(char c:t.toCharArray())res^=t;
+        for(char c:t.toCharArray()) res^=t;
 }
