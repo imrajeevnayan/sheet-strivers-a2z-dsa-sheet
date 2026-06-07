@@ -7,11 +7,10 @@
  * Topics: Uncategorized
  * Runtime: 886 ms
  * Memory: N/A
- * Synced: 2026-06-07T11:04:05.962Z
+ * Synced: 2026-06-07T11:04:16.050Z
  */
 
-public class Solution {
-    public static int[] findMedian(int[] arr, int n) {
+public static int[] findMedian(int[] arr, int n) {
         int[] result = new int[n];
         
         PriorityQueue<Integer> left = new PriorityQueue<>(Collections.reverseOrder());
@@ -26,7 +25,7 @@ public class Solution {
  
             if (left.size() > right.size() + 1) {
                 right.offer(left.poll());
-            } else if (right.size() > left.size()) {
+            else if (right.size() > left.size()) {
                 left.offer(right.poll());
             }
  
@@ -39,3 +38,4 @@ public class Solution {
  
         return result;
     }
+}
