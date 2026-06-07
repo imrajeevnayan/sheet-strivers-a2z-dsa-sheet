@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-greatest-common-divisor-of-array/
-- Synced: 2026-06-07T12:55:23.270Z
+- Synced: 2026-06-07T12:55:37.316Z
 
 ## Problem Description
 
