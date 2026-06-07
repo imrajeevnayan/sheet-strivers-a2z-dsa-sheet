@@ -1,0 +1,35 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Boyer Moore Algorithm For Pattern Searching
+ * URL: https://www.naukri.com/code360/problems/boyer-moore-algorithm-for-pattern-searching_1115634
+ * Language: Java (SE 1.8)
+ * Difficulty: Medium
+ * Topics: Moderate Clear all, Moderate
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T17:52:36.829Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    public static ArrayList<Integer> patternSearch(String text, String pattern) {
+        ArrayList<Integer> result = new ArrayList<>();
+        int n = text.length();
+        int m = pattern.length();
+        
+        for (int i = 0; i <= n - m; i++) {
+            int j;
+            for (j = 0; j < m; j++) {
+                if (text.charAt(i + j) != pattern.charAt(j)) {
+                    break;
+                }
+            }
+            if (j == m) {
+                result.add(i);
+            }
+        }
+        
+        return result;
+    }
+}
