@@ -1,29 +1,32 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/cycle-detection-in-a-singly-linked-list_628974
+ * URL: https://www.naukri.com/code360/problems/second-largest-element-in-the-array_873375
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 2491 ms
+ * Runtime: 3011 ms
  * Memory: N/A
- * Synced: 2026-06-07T19:20:33.531Z
+ * Synced: 2026-06-07T19:22:54.465Z
  */
 
+import java.util.*;
+import java.io.*;
+ 
 public class Solution {
-    public static boolean detectCycle(Node head) {
-        if (head == null || head.next == null) return false;
+    public static int findSecondLargest(int n, int[] arr) {
+        int largest = Integer.MIN_VALUE;
+        int secondLargest = Integer.MIN_VALUE;
  
-        Node slow = head;
-        Node fast = head;
- 
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
- 
-            if (slow == fast) return true;
+        for (int num : arr) {
+            if (num > largest) {
+                secondLargest = largest;
+                largest = num;
+            } else if (num > secondLargest && num != largest) {
+                secondLargest = num;
+            }
         }
  
-        return false;
+        return secondLargest == Integer.MIN_VALUE ? -1 : secondLargest;
     }
 }
