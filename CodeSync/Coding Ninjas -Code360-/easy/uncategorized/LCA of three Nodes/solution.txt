@@ -7,13 +7,11 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T12:13:19.947Z
+ * Synced: 2026-06-07T17:34:36.895Z
  */
 
 import java.util.*;
 import java.io.*;
-import java.util.ArrayList;
- 
 public class Solution {
     public static ArrayList<Character> firstNonRepeating(String stream) {
         ArrayList<Character> res = new ArrayList<>();
