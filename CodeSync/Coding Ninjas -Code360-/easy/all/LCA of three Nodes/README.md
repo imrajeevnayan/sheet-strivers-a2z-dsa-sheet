@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 540 ms
+- Runtime: 936 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/shuffle-two-strings_1115692
-- Synced: 2026-06-07T11:09:20.394Z
+- Problem URL: https://www.naukri.com/code360/problems/minimum-characters-for-palindrome_893000
+- Synced: 2026-06-07T11:11:23.192Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
