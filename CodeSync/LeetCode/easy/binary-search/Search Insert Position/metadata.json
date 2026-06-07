@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-07T07:00:30.560Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-07T07:00:58.819Z",
+  "runtime": "0 ms",
+  "memoryUsage": "44.65 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Search Insert Position",
-  "problemUrl": "https://leetcode.com/problems/search-insert-position/description/",
+  "problemUrl": "https://leetcode.com/problems/search-insert-position/submissions/2025095809/",
   "submissionId": "8twziz"
 }
