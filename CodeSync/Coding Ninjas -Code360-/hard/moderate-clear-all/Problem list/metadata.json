@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-03T11:49:02.371Z",
-  "runtime": "840 ms",
+  "submissionTimestamp": "2026-06-07T19:00:57.889Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Hard",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "Problem list",
-  "problemUrl": "https://www.naukri.com/code360/problems/duplicate-characters_3189116",
-  "submissionId": "3s69d"
+  "problemUrl": "https://www.naukri.com/code360/problems/find-subarray_2656181",
+  "submissionId": "uamm9i"
 }
