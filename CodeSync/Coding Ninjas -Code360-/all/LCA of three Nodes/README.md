@@ -7,7 +7,7 @@
 - Runtime: 2491 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/cycle-detection-in-a-singly-linked-list_628974
-- Synced: 2026-06-07T19:20:27.221Z
+- Synced: 2026-06-07T19:20:33.531Z
 
 ## Problem Description
 
