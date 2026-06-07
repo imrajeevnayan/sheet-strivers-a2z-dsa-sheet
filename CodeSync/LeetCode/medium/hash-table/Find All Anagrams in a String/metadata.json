@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-07T07:02:27.411Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-07T07:02:30.010Z",
+  "runtime": "9 ms",
+  "memoryUsage": "46.72 MB",
   "difficulty": "Medium",
   "tags": [
     "Hash Table",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find All Anagrams in a String",
-  "problemUrl": "https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/",
-  "submissionId": "n73h8u"
+  "problemUrl": "https://leetcode.com/problems/find-all-anagrams-in-a-string/submissions/1960809153/",
+  "submissionId": "kppz92"
 }
