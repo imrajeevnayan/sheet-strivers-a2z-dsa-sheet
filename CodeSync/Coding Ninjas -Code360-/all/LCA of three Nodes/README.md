@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 1613 ms
+- Runtime: 808 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/longest-valid-parentheses_1089563
-- Synced: 2026-06-07T18:54:32.948Z
+- Problem URL: https://www.naukri.com/code360/problems/multiply-strings_982763
+- Synced: 2026-06-07T18:59:31.104Z
 
 ## Problem Description
 
