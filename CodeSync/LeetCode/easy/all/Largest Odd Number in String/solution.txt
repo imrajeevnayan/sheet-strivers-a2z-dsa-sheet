@@ -7,7 +7,7 @@
  * Topics: Math, String, Greedy
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T18:36:59.961Z
+ * Synced: 2026-06-07T18:37:13.108Z
  */
 
 class Solution {
