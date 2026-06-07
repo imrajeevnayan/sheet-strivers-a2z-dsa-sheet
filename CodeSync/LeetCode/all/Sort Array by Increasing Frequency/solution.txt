@@ -1,17 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Sort Array by Increasing Frequency
- * URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/description/
+ * URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T08:57:48.468Z
+ * Synced: 2026-06-07T08:58:21.468Z
  */
 
 class Solution {
     public int[] frequencySort(int[] nums) {
         
     }
+    fdggfk8,
 }
