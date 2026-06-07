@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Arranging Coins
+ * URL: https://leetcode.com/problems/arranging-coins/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Math, Binary Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T18:39:44.982Z
+ */
+
+class Solution {
+    public int arrangeCoins(int n) {
+        
+    }
+}
