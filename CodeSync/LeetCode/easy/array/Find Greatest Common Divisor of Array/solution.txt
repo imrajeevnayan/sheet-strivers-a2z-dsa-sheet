@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find Greatest Common Divisor of Array
- * URL: https://leetcode.com/problems/find-greatest-common-divisor-of-array/
+ * URL: https://leetcode.com/problems/find-greatest-common-divisor-of-array/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Math, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T12:54:55.920Z
+ * Synced: 2026-06-07T12:55:02.827Z
  */
 
 class Solution {
