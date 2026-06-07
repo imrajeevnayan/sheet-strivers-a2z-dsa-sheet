@@ -6,8 +6,8 @@
 - Topics: Linked List, Two Pointers, Stack, Recursion
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/palindrome-linked-list/description/?utm=codolio
-- Synced: 2026-06-04T06:54:29.177Z
+- Problem URL: https://leetcode.com/problems/palindrome-linked-list/
+- Synced: 2026-06-07T11:30:36.922Z
 
 ## Problem Description
 
