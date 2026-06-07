@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: 2951. Find the Peaks
+ * URL: https://leetcode.com/problems/find-the-peaks/description/
+ * Language: Text
+ * Difficulty: Easy
+ * Topics: Array, Enumeration
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T05:48:15.490Z
+ */
+
+Input: mountain = [2,4,4]
+Output: []
+Explanation: mountain[0] and mountain[2] can not be a peak because they are first and last elements of the array.
+mountain[1] also can not be a peak because it is not strictly greater than mountain[2].
+So the answer is [].
