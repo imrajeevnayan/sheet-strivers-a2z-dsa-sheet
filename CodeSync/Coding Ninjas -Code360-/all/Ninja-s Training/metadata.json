@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-07T12:03:47.209Z",
-  "runtime": "564 ms",
+  "submissionTimestamp": "2026-06-07T17:45:54.660Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (SE 1.8)",
   "problemTitle": "Ninja’s Training",
-  "problemUrl": "https://www.naukri.com/code360/problems/elements-occur-more-than-n-k-times_1113146",
-  "submissionId": "mthcjc"
+  "problemUrl": "https://www.naukri.com/code360/problems/longest-repeating-subsequence_1062697",
+  "submissionId": "9l75b5"
 }
