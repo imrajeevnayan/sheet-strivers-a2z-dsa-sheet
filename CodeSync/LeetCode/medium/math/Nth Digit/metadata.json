@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-07T06:04:37.268Z",
+  "submissionTimestamp": "2026-06-07T06:11:25.798Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Nth Digit",
-  "problemUrl": "https://leetcode.com/problems/nth-digit/description/",
+  "problemUrl": "https://leetcode.com/problems/nth-digit/",
   "submissionId": "4vn1d4"
 }
