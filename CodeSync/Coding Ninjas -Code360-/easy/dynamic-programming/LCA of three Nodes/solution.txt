@@ -1,0 +1,35 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: LCA of three Nodes
+ * URL: https://www.naukri.com/code360/problems/longest-valid-parentheses_1089563
+ * Language: Java (SE 1.8)
+ * Difficulty: Easy
+ * Topics: in Dynamic Programming
+ * Runtime: 1613 ms
+ * Memory: N/A
+ * Synced: 2026-06-07T18:54:24.221Z
+ */
+
+import java.util.*;
+public class Solution {
+    public static int longestValidParentheses(String s) {
+        Deque<Integer> stack = new ArrayDeque<>();
+        stack.push(-1); // Base marker
+        int maxLen = 0;
+ 
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                stack.push(i);
+            } else {
+                stack.pop();
+                if (stack.isEmpty()) {
+                    stack.push(i); // New base after invalid ')'
+                } else {
+                    maxLen = Math.max(maxLen, i - stack.peek());
+                }
+            }
+        }
+ 
+        return maxLen;
+    }
+}
