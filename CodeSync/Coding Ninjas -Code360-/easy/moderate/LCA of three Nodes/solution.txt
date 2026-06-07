@@ -1,41 +1,37 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/reverse-a-ll_2271431
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/kth-minimum-floor_1115470
+ * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Moderate Clear all, Moderate
- * Runtime: 952 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T11:53:56.453Z
+ * Synced: 2026-06-07T12:08:09.905Z
  */
 
-public static Node reverseLL(Node head, int low, int high) {
-        if (head == null || low == high) return head;
-        
-        Node dummy = new Node(0);
-        dummy.next = head;
-        Node prev = dummy;
-        
-        for (int i = 1; i < low; i++) {
-            prev = prev.next;
+import java.util.*;
+import java.io.*;
+import java.util.ArrayList;
+ 
+public class Solution {
+    public static int kMinFloor(ArrayList<ArrayList<Integer>> squareCity, int n, int k) {
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
+ 
+        for (int i = 0; i < n; i++) {
+            pq.offer(new int[]{squareCity.get(i).get(0), i, 0});
         }
-        
-        Node curr = prev.next;
-        Node next = null;
-        Node prevRev = null;
-        Node tail = curr;
-        
-        for (int i = low; i <= high && curr != null; i++) {
-            next = curr.next;
-            curr.next = prevRev;
-            prevRev = curr;
-            curr = next;
+        int result = 0;
+        for (int i = 0; i < k; i++) {
+            int[] curr = pq.poll();
+            result = curr[0];
+            int row = curr[1];
+            int col = curr[2];
+ 
+            if (col + 1 < n) {
+                pq.offer(new int[]{squareCity.get(row).get(col + 1), row, col + 1});
+            }
         }
-        
-        tail.next = curr;
-        prev.next = prevRev;
-        
-        return dummy.next;
+        return result;
     }
 }
