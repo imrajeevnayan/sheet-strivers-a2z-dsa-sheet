@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-06-07T18:35:54.196Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "platform": "LeetCode",
+  "language": "String",
+  "problemTitle": "Second Largest Digit in a String",
+  "problemUrl": "https://leetcode.com/problems/second-largest-digit-in-a-string/description/?envType=problem-list-v2&envId=string",
+  "submissionId": "1vb468"
+}
