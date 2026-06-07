@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 886 ms
  * Memory: N/A
- * Synced: 2026-06-07T11:04:22.723Z
+ * Synced: 2026-06-07T11:04:27.231Z
  */
 
 public static int[] findMedian(int[] arr, int n) {
@@ -24,8 +24,7 @@ public static int[] findMedian(int[] arr, int n) {
             
  
             if (left.size() > right.size() + 1) right.offer(left.poll());
-            else if (right.size() > left.size()) {
-                left.offer(right.poll());
+            else if (right.size() > left.size()) left.offer(right.poll());
             
  
             if (left.size() == right.size()) {
