@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 808 ms
+- Runtime: 1531 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/multiply-strings_982763
-- Synced: 2026-06-07T18:59:35.251Z
+- Problem URL: https://www.naukri.com/code360/problems/palindrom-linked-list_799352
+- Synced: 2026-06-07T19:16:26.178Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVE Get key word suggestions of your code
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
