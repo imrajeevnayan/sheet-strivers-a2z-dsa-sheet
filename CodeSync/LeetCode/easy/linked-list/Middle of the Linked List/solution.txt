@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T06:47:29.112Z
+ * Synced: 2026-06-07T06:47:31.166Z
  */
 
 class Solution {
@@ -19,5 +19,5 @@ class Solution {
         }
         
     }
-            slow
+            slow=s
 }
