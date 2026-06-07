@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Array, Binary Search
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 44.65 MB
 - Problem URL: https://leetcode.com/problems/search-insert-position/submissions/2025095809/
-- Synced: 2026-06-07T07:00:55.820Z
+- Synced: 2026-06-07T07:00:58.819Z
 
 ## Problem Description
 
