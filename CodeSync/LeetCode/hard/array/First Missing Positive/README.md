@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Hard
 - Topics: Array, Hash Table
-- Runtime: N/A
+- Runtime: 1 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/first-missing-positive/
-- Synced: 2026-06-07T09:06:41.579Z
+- Synced: 2026-06-07T09:06:46.726Z
 
 ## Problem Description
 
