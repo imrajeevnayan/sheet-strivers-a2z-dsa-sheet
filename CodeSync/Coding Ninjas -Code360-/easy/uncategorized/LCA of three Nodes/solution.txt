@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T12:12:46.623Z
+ * Synced: 2026-06-07T12:12:51.559Z
  */
 
 import java.util.*;
@@ -26,9 +26,8 @@ public class Solution {
  
             while (!q.isEmpty() && freq[q.peek() - 'a'] > 1)q.poll();
         
-            if (!q.isEmpty()) {
-                res.add(q.peek());
-            }
+            if (!q.isEmpty())  res.add(q.peek());
+            
         }
  
         return res;
