@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count and Say
+ * URL: https://leetcode.com/problems/count-and-say/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: String
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T09:03:37.866Z
+ */
+
+class Solution {
+    public String countAndSay(int n) {
+        
+    }
+}
