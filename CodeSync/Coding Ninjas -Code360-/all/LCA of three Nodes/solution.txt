@@ -1,30 +1,31 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/first-unique-character-in-a-string_893404
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/first-unique-character-in-a-string_982933
+ * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T17:34:36.895Z
+ * Synced: 2026-06-07T18:04:04.646Z
  */
 
 import java.util.*;
 import java.io.*;
+ 
 public class Solution {
-    public static ArrayList<Character> firstNonRepeating(String stream) {
-        ArrayList<Character> res = new ArrayList<>();
+    public static int firstUniqueCharacter(String s, int n) {
         int[] freq = new int[26];
-        Queue<Character> q = new LinkedList<>();
- 
-        for (char c : stream.toCharArray()) {
+        for (char c : s.toCharArray()) {
             freq[c - 'a']++;
-            q.offer(c);
- 
-            while (!q.isEmpty() && freq[q.peek() - 'a'] > 1)q.poll();
-            if (!q.isEmpty()) res.add(q.peek());
         }
-        return res;
+ 
+        for (int i = 0; i < n; i++) {
+            if (freq[s.charAt(i) - 'a'] == 1) {
+                return i + 1; // 1-based position
+            }
+        }
+ 
+        return -1;
     }
 }
