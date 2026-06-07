@@ -7,12 +7,12 @@
  * Topics: Array, Hash Table, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:53:39.877Z
+ * Synced: 2026-06-07T09:53:43.408Z
  */
 
 Map<Integer, Integer> map = new HashMap<>();
         for (int n : nums)map.put(n, map.getOrDefault(n,0) + 1);
-             List<Integer> list = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
         for (int num : nums) {
             list.add(num);
         }
