@@ -1,0 +1,35 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Merge Sort Linked List
+ * URL: https://www.naukri.com/code360/problems/merge-sort-linked-list_920473
+ * Language: Java (SE 1.8)
+ * Difficulty: Medium
+ * Topics: Moderate Clear all, Moderate
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T18:52:55.922Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+/**********************************************************************
+ 
+    Following is the class structure of the Node class for reference:
+ 
+    class Node{
+        public int data;
+        public Node next;
+ 
+        Node(int data){
+            this.data = data;
+            this.next = null;
+        }
+    }
+ 
+*********************************************************************/
+ 
+public class Solution {
+    public static Node sortLL(Node head){
+        // Write your code here.
+    }
+}
