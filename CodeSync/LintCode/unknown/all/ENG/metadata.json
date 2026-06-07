@@ -1,20 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-07T10:48:55.872Z",
+  "submissionTimestamp": "2026-06-07T17:47:07.859Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Linked List",
-    "Bloomberg Airbnb Amazon Microsoft",
-    "Bloomberg",
-    "Airbnb",
-    "Amazon",
-    "Microsoft",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Python",
+  "language": "PHP",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/380/",
-  "submissionId": "x5ez79"
+  "problemUrl": "https://www.lintcode.com/problem/3189/",
+  "submissionId": "xalu74"
 }
