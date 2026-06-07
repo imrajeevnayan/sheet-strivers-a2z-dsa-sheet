@@ -7,11 +7,11 @@
 - Runtime: 540 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/shuffle-two-strings_1115692
-- Synced: 2026-06-07T11:09:15.892Z
+- Synced: 2026-06-07T11:09:20.394Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
