@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: String
-- Runtime: 8 ms
-- Memory: 43.07 MB
-- Problem URL: https://leetcode.com/problems/count-and-say/submissions/1858061232/
-- Synced: 2026-06-07T09:04:02.858Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/count-and-say/
+- Synced: 2026-06-07T09:04:12.994Z
 
 ## Problem Description
 
