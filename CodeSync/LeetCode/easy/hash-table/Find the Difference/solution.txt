@@ -7,11 +7,12 @@
  * Topics: Hash Table, String, Bit Manipulation, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T06:56:44.904Z
+ * Synced: 2026-06-07T06:56:55.341Z
  */
 
 class Solution {
     public char findTheDifference(String s, String t) {
-        char res=0
+        char res=0;
     }
+        for(char c:)
 }
