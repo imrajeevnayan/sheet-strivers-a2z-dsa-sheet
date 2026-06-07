@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-06T18:30:16.419Z",
-  "runtime": "510 ms",
+  "submissionTimestamp": "2026-06-07T10:58:39.452Z",
+  "runtime": "3330 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "Ninja’s Training",
-  "problemUrl": "https://www.naukri.com/code360/problems/edit-distance_630420",
-  "submissionId": "3x9nan"
+  "problemUrl": "https://www.naukri.com/code360/problems/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum_842494",
+  "submissionId": "k4h07c"
 }
