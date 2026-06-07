@@ -2,209 +2,313 @@
  * Platform: GeeksforGeeks
  * Problem: Practice
  * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/LL-bonus-problem/problem/merge-k-sorted-linked-lists
- * Language: #include <iostream> #include <stack> using namespace std; class Node { public: int data; Node* next; Node(int d) { data = d; next = nullptr; } }; // Function to check if the linked list // is palindrome or not bool isPalindrome(Node* head) { Node* currNode = head; // Declare a stack stack<int> s; // Push all elements of the list to the stack while (currNode != nullptr) { s.push(currNode->data); currNode = currNode->next; } // Iterate in the list again and check by // popping from the stack while (head != nullptr) { // Get the topmost element int c = s.top(); s.pop(); // Check if data is not same as popped element if (head->data != c) { return false; } // Move ahead head = head->next; } return true; } int main() { // Linked list : 1->2->3->2->1 Node* head = new Node(1); head->next = new Node(2); head->next->next = new Node(3); head->next->next->next = new Node(2); head->next->next->next->next = new Node(1); bool result = isPalindrome(head); if (result) cout << "true\n"; else cout << "false\n"; return 0; }
+ * Language: #include <iostream> #include<vector> using namespace std; class Node { public: int data; Node* next; Node(int x) { data = x; next = nullptr; } }; // Function to merge only 2 lists Node* mergeTwo(Node* head1, Node* head2) { // Create a dummy node to simplify // the merging process Node* dummy = new Node(-1); Node* curr = dummy; // Iterate through both linked lists while (head1 != nullptr && head2 != nullptr) { // Add the smaller node to the merged list if (head1->data <= head2->data) { curr->next = head1; head1 = head1->next; } else { curr->next = head2; head2 = head2->next; } curr = curr->next; } // If any list is left, append it to // the merged list if (head1 != nullptr) { curr->next = head1; } else { curr->next = head2; } // Return the merged list starting // from the next of dummy node return dummy->next; } // Function to merge K sorted linked lists Node* mergeKLists(vector<Node*>& arr) { // Initialize result as empty Node *res = nullptr; // One by one merge all lists with // res and keep updating res for (Node *node : arr) res = mergeTwo(res, node); return res; } void printList(Node* node) { while (node != nullptr) { cout << node->data; if(node->next) cout<<" -> "; node = node->next; } } int main() { int k = 3; vector<Node*> arr(k); arr[0] = new Node(1); arr[0]->next = new Node(3); arr[0]->next->next = new Node(5); arr[0]->next->next->next = new Node(7); arr[1] = new Node(2); arr[1]->next = new Node(4); arr[1]->next->next = new Node(6); arr[1]->next->next->next = new Node(8); arr[2] = new Node(0); arr[2]->next = new Node(9); arr[2]->next->next = new Node(10); arr[2]->next->next->next = new Node(11); Node* head = mergeKLists(arr); printList(head); return 0; }
  * Difficulty: Unknown
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:37:45.529Z
+ * Synced: 2026-06-07T09:37:59.908Z
  */
 
-import java.util.Stack;
+import java.util.List;
+import java.util.ArrayList;
+​
 class Node {
     int data;
     Node next;
-    Node(int d) {
-        data = d;
+​
+    Node(int x) {
+        data = x;
         next = null;
     }
 }
 ​
 class GfG {
-  
-    // Function to check if the linked list
-    // is palindrome or not
-    static boolean isPalindrome(Node head) {
-        Node currNode = head;
-        Stack<Integer> s = new Stack<>();
-​
-        // Push all elements of the list to the stack
-        while (currNode != null) {
-            s.push(currNode.data);
-            currNode = currNode.next;
-        }
-​
-        // Iterate in the list again and check
-        // by popping from the stack
-        while (head != null) {
-          
-            // Get the topmost element
-            int c = s.pop();
-​
-            // Check if data is not same as
-            // popped element
-            if (head.data != c) {
-                return false;
-            }
-​
-            // Move ahead
-            head = head.next;
-        }
-​
-        return true;
-    }
-​
-    public static void main(String[] args) {
-      
-        // Linked list : 1->2->3->2->1
-        Node head = new Node(1);
-        head.next = new Node(2);
-        head.next.next = new Node(3);
-        head.next.next.next = new Node(2);
-        head.next.next.next.next = new Node(1);
-​
-        boolean result = isPalindrome(head);
-​
-        if (result)
-            System.out.println("true");
-        else
-            System.out.println("false");
-    }
-}
-class Node {
-    int data;
-    Node next;
-​
-    Node(int d) {
-        data = d;
-        next = null;
-    }
-}
-​
-class GfG {
-​
-    // Recursive Function to check whether 
-    // the list is palindrome
-    static boolean isPalindromeRecur(Node end, Node[] start) {
-​
-        // base case
-        if (end == null) return true;
-​
-        // Recursively check the right side.
-        boolean right = isPalindromeRecur(end.next, start);
-​
-        // Compare the start and end nodes.
-        boolean ans = right && start[0].data == end.data;
-​
-        // Update the start node 
-        start[0] = start[0].next;
-​
-        return ans;
-    }
-​
-    // Function to check whether the list is palindrome
-    static boolean isPalindrome(Node head) {
-​
-        // Set starting node to head
-        Node[] start = new Node[]{head};
-​
-        // Recursively check the ll and return
-        return isPalindromeRecur(head, start);
-    }
-​
-    public static void main(String[] args) {
-​
-        // Linked list : 1->2->3->2->1
-        Node head = new Node(1);
-        head.next = new Node(2);
-        head.next.next = new Node(3);
-        head.next.next.next = new Node(2);
-        head.next.next.next.next = new Node(1);
-​
-        boolean result = isPalindrome(head);
-​
-        if (result)
-            System.out.println("true");
-        else
-            System.out.println("false");
-    }
-}
-class Node {
-    int data;
-    Node next;
-    Node(int d) {
-        data = d;
-        next = null;
-    }
-}
-​
-// Class to check if the linked list is palindrome or not
-class GfG {
-​
-    // Function to reverse a linked list
-    static Node reverseList(Node head) {
-        Node prev = null;
-        Node curr = head;
-        Node next;
-​
-        while (curr != null) {
-            next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
-        }
-        return prev;
-    }
-​
-    // Function to check if two lists are identical
-    static boolean isIdentical(Node n1, Node n2) {
-        while (n1 != null && n2 != null) {
-            if (n1.data != n2.data)
-                return false;
-            n1 = n1.next;
-            n2 = n2.next;
-        }
-        return true;
-    }
-​
-    // Function to check whether the list is palindrome
-    static boolean isPalindrome(Node head) {
-        if (head == null || head.next == null)
-            return true;
-​
-        Node slow = head, fast = head;
-​
-        while (fast.next != null 
-               && fast.next.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-        }
-​
-        Node head2 = reverseList(slow.next);
-        slow.next = null;
-​
-        boolean ret = isIdentical(head, head2);
-​
-        head2 = reverseList(head2);
-        slow.next = head2;
-​
-        return ret;
-    }
-​
-    public static void main(String[] args) {
+    
+    // Function to merge only 2 lists
+    static Node mergeTwo(Node head1, Node head2) {
         
-      // Linked list : 1->2->3->2->1
-        Node head = new Node(1);
-        head.next = new Node(2);
-        head.next.next = new Node(3);
-        head.next.next.next = new Node(2);
-        head.next.next.next.next = new Node(1);
+        // Create a dummy node to simplify 
+        // the merging process
+        Node dummy = new Node(-1);
+        Node curr = dummy;
 ​
-        boolean result = isPalindrome(head);
+        // Iterate through both linked lists
+        while (head1 != null && head2 != null) {
+          
+            // Add the smaller node to the merged list
+            if (head1.data <= head2.data) {
+                curr.next = head1;
+                head1 = head1.next;
+            } else {
+                curr.next = head2;
+                head2 = head2.next;
+            }
+            curr = curr.next;
+        }
 ​
-        if (result)
-            System.out.println("true");
-        else
-            System.out.println("false");
+        // If any list is left, append it to
+        // the merged list
+        if (head1 != null) {
+            curr.next = head1;
+        } else {
+            curr.next = head2;
+        }
+​
+        // Return the merged list starting
+        // from the next of dummy node
+        return dummy.next;
+    }
+​
+    // Function to merge K sorted linked lists
+    static Node mergeKLists(List<Node> arr) {
+      
+        // Initialize result as empty
+        Node res = null;
+        
+        // One by one merge all lists with 
+        // res and keep updating res
+        for (Node node : arr) 
+            res = mergeTwo(res, node);
+            
+        return res;
+    }
+​
+    static void printList(Node node) {
+        while (node != null) {
+            System.out.print(node.data);
+            if(node.next!=null)
+            System.out.print(" -> ");
+            node = node.next;
+        }
+    }
+​
+    public static void main(String[] args) {
+        List<Node> arr = new ArrayList<>();
+​
+        arr.add(new Node(1));
+        arr.get(0).next = new Node(3);
+        arr.get(0).next.next = new Node(5);
+        arr.get(0).next.next.next = new Node(7);
+​
+        arr.add(new Node(2));
+        arr.get(1).next = new Node(4);
+        arr.get(1).next.next = new Node(6);
+        arr.get(1).next.next.next = new Node(8);
+​
+        arr.add(new Node(0));
+        arr.get(2).next = new Node(9);
+        arr.get(2).next.next = new Node(10);
+        arr.get(2).next.next.next = new Node(11);
+​
+        Node head = mergeKLists(arr);
+​
+        printList(head);
+    }
+}
+import java.util.List;
+import java.util.ArrayList;
+​
+class Node {
+    int data;
+    Node next;
+​
+    Node(int x) {
+        data = x;
+        next = null;
+    }
+}
+​
+class GfG {
+    
+    // Function to get node with minimum value
+    static Node getMinNode(List<Node> arr) {
+        Node mini = null;
+        int index = -1;
+        
+        for (int i = 0; i < arr.size(); i++) {
+            
+            // If current list is processed
+            if (arr.get(i) == null) continue;
+            
+            // If min node is not set or 
+            // current head has smaller value.
+            if (mini == null || arr.get(i).data < mini.data) {
+                index = i;
+                mini = arr.get(i);
+            }
+        }
+        
+        // Increment the head node 
+        if (index != -1) arr.set(index, arr.get(index).next);
+        
+        return mini;
+    }
+    
+    // Function to merge K sorted linked lists
+    static Node mergeKLists(List<Node> arr) {
+        Node dummy = new Node(-1);
+        Node tail = dummy;
+    
+        Node mini = getMinNode(arr);
+        
+        // Process all nodes.
+        while (mini != null) {
+            
+            // Append min node to the result.
+            tail.next = mini;
+            tail = mini;
+            
+            // Find the next min node 
+            mini = getMinNode(arr);
+        }
+    
+        return dummy.next;
+    }
+    
+    static void printList(Node node) {
+        while (node != null) {
+            System.out.print(node.data);
+            if(node.next!=null)
+            {
+                System.out.print(" -> ");
+            }
+            node = node.next;
+        }
+    }
+    
+    public static void main(String[] args) {
+        List<Node> arr = new ArrayList<>();
+        arr.add(new Node(1));
+        arr.get(0).next = new Node(3);
+        arr.get(0).next.next = new Node(5);
+        arr.get(0).next.next.next = new Node(7);
+    
+        arr.add(new Node(2));
+        arr.get(1).next = new Node(4);
+        arr.get(1).next.next = new Node(6);
+        arr.get(1).next.next.next = new Node(8);
+    
+        arr.add(new Node(0));
+        arr.get(2).next = new Node(9);
+        arr.get(2).next.next = new Node(10);
+        arr.get(2).next.next.next = new Node(11);
+    
+        Node head = mergeKLists(arr);
+        printList(head);
+    }
+}
+import java.util.List;
+​
+class Node {
+    int data;
+    Node next;
+​
+    Node(int x) {
+        data = x;
+        next = null;
+    }
+}
+​
+class GfG {
+​
+    // Function to merge two sorted lists.
+    static Node mergeTwo(Node head1, Node head2) {
+​
+        // Create a dummy node to simplify 
+        // the merging process
+        Node dummy = new Node(-1);
+        Node curr = dummy;
+​
+        // Iterate through both linked lists
+        while (head1 != null && head2 != null) {
+​
+            // Add the smaller node to the merged list
+            if (head1.data <= head2.data) {
+                curr.next = head1;
+                head1 = head1.next;
+            } else {
+                curr.next = head2;
+                head2 = head2.next;
+            }
+            curr = curr.next;
+        }
+​
+        // If any list is left, append it to
+        // the merged list
+        if (head1 != null) {
+            curr.next = head1;
+        } else {
+            curr.next = head2;
+        }
+​
+        // Return the merged list starting
+        // from the next of dummy node
+        return dummy.next;
+    }
+​
+    static Node mergeListsRecur(int i, int j, List<Node> arr) {
+​
+        // If single list is left
+        if (i == j) return arr.get(i);
+​
+        // Find the middle of lists
+        int mid = i + (j - i) / 2;
+​
+        // Merge lists from i to mid 
+        Node head1 = mergeListsRecur(i, mid, arr);
+​
+        // Merge lists from mid+1 to j 
+        Node head2 = mergeListsRecur(mid + 1, j, arr);
+​
+        // Merge the above 2 lists 
+        Node head = mergeTwo(head1, head2);
+​
+        return head;
+    }
+​
+    // Function to merge K sorted linked lists
+    static Node mergeKLists(List<Node> arr) {
+​
+        // Base case for 0 lists 
+        if (arr.size() == 0) return null;
+​
+        return mergeListsRecur(0, arr.size() - 1, arr);
+    }
+​
+    static void printList(Node node) {
+        while (node != null) {
+            System.out.print(node.data);
+            if(node.next!=null)
+            {
+                System.out.print(" -> ");
+            }
+            node = node.next;
+        }
+    }
+​
+    public static void main(String[] args) {
+        int k = 3;
+​
+        List<Node> arr = new java.util.ArrayList<>();
+​
+        arr.add(new Node(1));
+        arr.get(0).next = new Node(3);
+        arr.get(0).next.next = new Node(5);
+        arr.get(0).next.next.next = new Node(7);
+​
+        arr.add(new Node(2));
+        arr.get(1).next = new Node(4);
+        arr.get(1).next.next = new Node(6);
+        arr.get(1).next.next.next = new Node(8);
+​
+        arr.add(new Node(0));
+        arr.get(2).next = new Node(9);
+        arr.get(2).next.next = new Node(10);
+        arr.get(2).next.next.next = new Node(11);
+​
+        Node head = mergeKLists(arr);
+​
+        printList(head);
     }
 }
