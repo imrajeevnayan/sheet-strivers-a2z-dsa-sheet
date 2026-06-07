@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 886 ms
  * Memory: N/A
- * Synced: 2026-06-07T11:03:51.436Z
+ * Synced: 2026-06-07T11:03:54.523Z
  */
 
 import java.util.PriorityQueue;
@@ -24,7 +24,7 @@ public class Solution {
             int num = arr[i];
  
             if (left.isEmpty() || num <= left.peek()) left.offer(num);
-            } else {
+            else {
                 right.offer(num);
             }
  
