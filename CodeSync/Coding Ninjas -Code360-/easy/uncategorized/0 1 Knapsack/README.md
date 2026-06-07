@@ -7,11 +7,11 @@
 - Runtime: 850 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/sort-array-of-0s-and-1s_2656186
-- Synced: 2026-06-07T19:04:25.066Z
+- Synced: 2026-06-07T19:04:33.180Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
