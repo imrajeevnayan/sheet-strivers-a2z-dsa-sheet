@@ -4,10 +4,10 @@
 - Language: String
 - Difficulty: Easy
 - Topics: Hash Table, String
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/second-largest-digit-in-a-string/description/?envType=problem-list-v2&envId=string
-- Synced: 2026-06-07T18:35:54.196Z
+- Runtime: 0 ms
+- Memory: 43.34 MB
+- Problem URL: https://leetcode.com/problems/second-largest-digit-in-a-string/submissions/2025651925/?envType=problem-list-v2&envId=string
+- Synced: 2026-06-07T18:36:19.928Z
 
 ## Problem Description
 
