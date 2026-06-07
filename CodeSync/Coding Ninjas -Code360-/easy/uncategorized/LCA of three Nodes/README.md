@@ -1,13 +1,13 @@
 # LCA of three Nodes
 
 - Platform: Coding Ninjas (Code360)
-- Language: All languages
+- Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 884 ms
+- Runtime: 540 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/median-in-a-stream_975268
-- Synced: 2026-06-07T11:04:50.545Z
+- Problem URL: https://www.naukri.com/code360/problems/shuffle-two-strings_1115692
+- Synced: 2026-06-07T11:09:15.892Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on Coding Ninjas (Code360) using All languages. Review the synced source file for the implementation details.
+This solution was accepted on Coding Ninjas (Code360) using Java (SE 1.8). Review the synced source file for the implementation details.
