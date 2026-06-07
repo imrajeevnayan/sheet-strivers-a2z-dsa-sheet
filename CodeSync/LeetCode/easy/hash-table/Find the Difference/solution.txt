@@ -1,15 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Find the Difference
- * URL: https://leetcode.com/problems/find-the-difference/submissions/1949832196/
+ * URL: https://leetcode.com/problems/find-the-difference/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, String, Bit Manipulation, Sorting
- * Runtime: 1 ms
- * Memory: 43.23 MB
- * Synced: 2026-06-07T06:55:45.778Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T06:55:49.200Z
  */
 
-Input: s = "abcd", t = "abcde"
-Output: "e"
-Explanation: 'e' is the letter that was added.
+class Solution {
+    public char findTheDifference(String s, String t) {
+    int freq[]=new int[26];
+    for(char c:s.toCharArray()){
+        freq[c-'a']++;
+    }
+    for(char c:t.toCharArray()){
+        freq[c-'a']--;
+    }
+
+
+    
+        
+    }
+}
