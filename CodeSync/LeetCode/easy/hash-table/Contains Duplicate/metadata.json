@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-07T06:03:34.673Z",
+  "submissionTimestamp": "2026-06-07T06:03:39.398Z",
   "runtime": "1 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "76.66 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Contains Duplicate",
-  "problemUrl": "https://leetcode.com/problems/contains-duplicate/",
+  "problemUrl": "https://leetcode.com/problems/contains-duplicate/submissions/2025046582/",
   "submissionId": "n0bvgy"
 }
