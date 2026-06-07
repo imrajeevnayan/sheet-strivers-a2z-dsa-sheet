@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Medium
 - Topics: Uncategorized
-- Runtime: 739 ms
+- Runtime: 1004 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/best-time-to-buy-and-sell-stock_1080698
-- Synced: 2026-06-07T11:13:50.710Z
+- Problem URL: https://www.naukri.com/code360/problems/longest-palindromic-subsequence_842787
+- Synced: 2026-06-07T11:16:12.722Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
