@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T19:16:26.178Z",
-  "runtime": "1531 ms",
+  "submissionTimestamp": "2026-06-07T19:20:27.221Z",
+  "runtime": "2491 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/palindrom-linked-list_799352",
-  "submissionId": "nzyoj"
+  "problemUrl": "https://www.naukri.com/code360/problems/cycle-detection-in-a-singly-linked-list_628974",
+  "submissionId": "whaqn0"
 }
