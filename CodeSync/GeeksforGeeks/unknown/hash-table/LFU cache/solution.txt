@@ -1,0 +1,29 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: LFU cache
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/LL-bonus-problem/problem/merge-k-sorted-linked-lists
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Hash, doubly-linked-list, Data Structures, Design-Pattern, Related Articles, Least Frequently Used Lfu Cache Implementation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T09:30:43.850Z
+ */
+
+class LFUCache {
+
+    public LFUCache(int cap) {
+        // code here
+        
+    }
+
+    public int get(int key) {
+
+
+    }
+
+        
+    public void put(int key, int value) {
+        // code here
+    }
+}
