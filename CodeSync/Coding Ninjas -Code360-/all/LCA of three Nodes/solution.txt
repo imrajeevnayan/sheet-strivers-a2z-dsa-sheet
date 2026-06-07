@@ -1,40 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/code-merge-sort_5907
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/median-in-a-stream_975268
+ * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 3807 ms
+ * Runtime: 886 ms
  * Memory: N/A
- * Synced: 2026-06-07T11:00:59.216Z
+ * Synced: 2026-06-07T11:03:32.245Z
  */
 
+import java.util.PriorityQueue;
+import java.util.Collections;
+ 
 public class Solution {
- 
-    public static Node<Integer> mergeSort(Node<Integer> head) {
-        if (head == null || head.next == null) {
-            return head;
-        }
- 
-        Node<Integer> mid = getMid(head);
-        Node<Integer> secondHalf = mid.next;
-        mid.next = null; // Break the link
- 
-        Node<Integer> left = mergeSort(head);
-        Node<Integer> right = mergeSort(secondHalf);
- 
-        return merge(left, right);
-    }
- 
-    private static Node<Integer> getMid(Node<Integer> head) {
-        if (head == null) return head;
-        Node<Integer> slow = head;
-        Node<Integer> fast = head.next;
+    public static int[] findMedian(int[] arr, int n) {
+        int[] result = new int[n];
         
-        while (fast != null && fast.next != null) {
-            slow = slow.next;
-            fast = fast.next.next;
-        }
-        return slow;
-    }
+        PriorityQueue<Integer> left = new PriorityQueue<>(Collections.reverseOrder());
+        PriorityQueue<Integer> right = new PriorityQueue<>();
+ 
+        for (int i = 0; i < n; i++) {
+            int num = arr[i];
+ 
+            if (left.isEmpty() || num <= left.peek()) {
+                left.offer(num);
+            } else {
+                right.offer(num);
+            }
+ 
+            if (left.size() > right.size() + 1) {
+                right.offer(left.poll());
+            } else if (right.size() > left.size()) {
+                left.offer(right.poll());
+            }
+ 
+            if (left.size() == right.size()) {
+                result[i] = (left.peek() + right.peek()) / 2;
+            } else {
+                result[i] = left.peek();
