@@ -1,34 +1,39 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Ninja’s Training
- * URL: https://www.naukri.com/code360/problems/edit-distance_630420
+ * URL: https://www.naukri.com/code360/problems/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum_842494
  * Language: Java (SE 1.8)
  * Difficulty: Medium
  * Topics: Uncategorized
- * Runtime: 510 ms
+ * Runtime: 3330 ms
  * Memory: N/A
- * Synced: 2026-06-06T18:30:16.419Z
+ * Synced: 2026-06-07T10:58:39.452Z
  */
 
 public class Solution {
-    public static int editDistance(String str1, String str2) {
-        int m = str1.length(), n = str2.length();
-        int[][] dp = new int[m + 1][n + 1];
+    public static int minSubsetSumDifference(int[] arr, int n) {
+        int totalSum = 0;
+        for (int num : arr) totalSum += num;
  
-        // Base cases: converting empty string to/from length i/j
-        for (int i = 0; i <= m; i++) dp[i][0] = i;
-        for (int j = 0; j <= n; j++) dp[0][j] = j;
+        boolean[] dp = new boolean[totalSum / 2 + 1];
+        dp[0] = true;
  
-        for (int i = 1; i <= m; i++) {
-            for (int j = 1; j <= n; j++) {
-                if (str1.charAt(i - 1) == str2.charAt(j - 1)) {
-                    dp[i][j] = dp[i - 1][j - 1];
-                } else {
-                    dp[i][j] = 1 + Math.min(dp[i - 1][j - 1], 
-                                   Math.min(dp[i - 1][j], dp[i][j - 1]));
+        for (int num : arr) {
+            for (int j = totalSum / 2; j >= num; j--) {
+                if (dp[j - num]) {
+                    dp[j] = true;
                 }
             }
         }
-        return dp[m][n];
+ 
+        int minDiff = totalSum;
+        for (int j = totalSum / 2; j >= 0; j--) {
+            if (dp[j]) {
+                minDiff = totalSum - 2 * j;
+                break;
+            }
+        }
+ 
+        return minDiff;
     }
 }
