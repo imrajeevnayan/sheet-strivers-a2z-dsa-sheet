@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T12:56:01.589Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-07T12:56:10.610Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find Greatest Common Divisor of Array",
-  "problemUrl": "https://leetcode.com/problems/find-greatest-common-divisor-of-array/",
-  "submissionId": "c6aanz"
+  "problemUrl": "https://leetcode.com/problems/find-greatest-common-divisor-of-array/submissions/2025367531/",
+  "submissionId": "fwaxq0"
 }
