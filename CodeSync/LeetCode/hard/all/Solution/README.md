@@ -7,7 +7,7 @@
 - Runtime: 90 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/department-top-three-salaries/submissions/2025066398/
-- Synced: 2026-06-07T06:27:04.393Z
+- Synced: 2026-06-07T06:27:08.651Z
 
 ## Problem Description
 
