@@ -4,10 +4,10 @@
  * URL: https://www.naukri.com/code360/problems/longest-palindromic-subsequence_842787
  * Language: Java (SE 1.8)
  * Difficulty: Hard
- * Topics: Hard Clear all
+ * Topics: String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T12:00:50.116Z
+ * Synced: 2026-06-07T12:00:54.990Z
  */
 
 import java.util.*;
