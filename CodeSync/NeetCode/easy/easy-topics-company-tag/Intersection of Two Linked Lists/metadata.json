@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-07T11:29:58.773Z",
-  "runtime": "72ms",
-  "memoryUsage": "63.4 MB",
+  "submissionTimestamp": "2026-06-07T11:30:10.345Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Easy Topics Company Tags",
@@ -15,6 +15,6 @@
   "platform": "NeetCode",
   "language": "headA",
   "problemTitle": "Intersection of Two Linked Lists",
-  "problemUrl": "https://neetcode.io/problems/intersection-of-two-linked-lists/history?list=allNC&submissionIndex=0",
+  "problemUrl": "https://neetcode.io/problems/palindrome-linked-list/question?list=allNC",
   "submissionId": "j8o5mn"
 }
