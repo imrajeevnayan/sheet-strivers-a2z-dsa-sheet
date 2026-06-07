@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-07T09:05:26.865Z",
+  "submissionTimestamp": "2026-06-07T09:05:41.749Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "42.88 MB",
   "difficulty": "Medium",
   "tags": [
     "String"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Count and Say",
-  "problemUrl": "https://leetcode.com/problems/count-and-say/",
-  "submissionId": "4h4dsi"
+  "problemUrl": "https://leetcode.com/problems/count-and-say/submissions/2025191993/",
+  "submissionId": "avu8lp"
 }
