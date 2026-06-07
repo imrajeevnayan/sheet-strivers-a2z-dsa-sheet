@@ -7,24 +7,36 @@
  * Topics: Expected Complexities, Company Tags VMWareAmazonMicrosoftOracleNPCI, Company Tags, VMWare, Amazon, Microsoft, Oracle, NPCI
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:20:25.215Z
+ * Synced: 2026-06-07T09:21:12.997Z
  */
-
-/*
-class Node {
-    int data;
-    Node next;
-
-    Node(int x) {
-        data = x;
-        next = null;
-    }
-}
-*/
 
 class Solution {
     Node mergeKLists(Node[] arr) {
-        // code here
-        
+        if (arr == null || arr.length == 0) return null;
+
+        // Min-Heap based on node data
+        PriorityQueue<Node> pq = new PriorityQueue<>((a, b) -> a.data - b.data);
+
+        // 1. Add the head of each list to the heap
+        for (Node head : arr) {
+            if (head != null) {
+                pq.add(head);
+            }
+        }
+
+        Node dummy = new Node(-1);
+        Node curr = dummy;
+
+        while (!pq.isEmpty()) {
+            Node minNode = pq.poll();
+            curr.next = minNode;
+            curr = curr.next;
+
+            if (minNode.next != null) {
+                pq.add(minNode.next);
+            }
+        }
+
+        return dummy.next;
     }
 }
