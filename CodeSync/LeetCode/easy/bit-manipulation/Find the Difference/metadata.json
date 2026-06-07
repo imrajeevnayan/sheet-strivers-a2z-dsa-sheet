@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-07T06:58:29.987Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-07T06:59:05.701Z",
+  "runtime": "0 ms",
+  "memoryUsage": "43.14 MB",
   "difficulty": "Easy",
   "tags": [
     "Hash Table",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find the Difference",
-  "problemUrl": "https://leetcode.com/problems/find-the-difference/",
-  "submissionId": "ets2pw"
+  "problemUrl": "https://leetcode.com/problems/find-the-difference/submissions/2025093978/",
+  "submissionId": "pqjapq"
 }
