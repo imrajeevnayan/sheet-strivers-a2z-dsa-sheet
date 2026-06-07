@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:54:35.197Z
+ * Synced: 2026-06-07T09:54:38.944Z
  */
 
 Map<Integer, Integer> map = new HashMap<>();
@@ -16,7 +16,7 @@ Map<Integer, Integer> map = new HashMap<>();
         for (int num : nums)list.add(num);
         
         Collections.sort(list, (a, b) -> {
-            int comp = map.get(a) - freq.get(b);
+            int comp = map.get(a) - map.get(b);
             return comp != 0 ? comp : b - a;
         });
         
