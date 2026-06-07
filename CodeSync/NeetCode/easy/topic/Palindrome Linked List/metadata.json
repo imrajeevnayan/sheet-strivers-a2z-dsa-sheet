@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-07T11:33:14.170Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-07T11:33:17.324Z",
+  "runtime": "68ms",
+  "memoryUsage": "63.3 MB",
   "difficulty": "Easy",
   "tags": [
     "Easy Topics Company Tags",
@@ -16,6 +16,6 @@
   "platform": "NeetCode",
   "language": "head",
   "problemTitle": "Palindrome Linked List",
-  "problemUrl": "https://neetcode.io/problems/palindrome-linked-list/question?list=allNC",
+  "problemUrl": "https://neetcode.io/problems/palindrome-linked-list/history?list=allNC&submissionIndex=0",
   "submissionId": "lkf7eb"
 }
