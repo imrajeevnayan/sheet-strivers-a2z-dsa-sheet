@@ -7,7 +7,7 @@
  * Topics: Hash Table, String, Bit Manipulation, Sorting
  * Runtime: 1 ms
  * Memory: 43.23 MB
- * Synced: 2026-06-07T06:55:31.255Z
+ * Synced: 2026-06-07T06:55:45.778Z
  */
 
 Input: s = "abcd", t = "abcde"
