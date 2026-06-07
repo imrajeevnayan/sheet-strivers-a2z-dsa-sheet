@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Kth Largest Element in an Array
- * URL: https://leetcode.com/problems/kth-largest-element-in-an-array/
+ * URL: https://leetcode.com/problems/kth-largest-element-in-an-array/submissions/2025056846/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-07T06:15:40.328Z
+ * Synced: 2026-06-07T06:15:46.470Z
  */
 
 class Solution {
