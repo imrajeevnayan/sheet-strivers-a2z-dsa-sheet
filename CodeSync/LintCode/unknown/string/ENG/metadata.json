@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-06-02T11:18:41.492Z",
+  "submissionTimestamp": "2026-06-07T18:04:32.874Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "StackString",
-    "Stack",
+    "Hash TableString",
+    "Hash Table",
     "String",
-    "Test Data Test Output",
-    "Binary TreeDivide and ConquerBinary Search Tree",
-    "Binary Tree",
-    "Divide and Conquer",
-    "Binary Search Tree"
+    "Bloomberg Amazon Microsoft Google",
+    "Bloomberg",
+    "Amazon",
+    "Microsoft",
+    "Google"
   ],
   "platform": "LintCode",
-  "language": "remove con",
+  "language": "Python",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/3820/",
-  "submissionId": "ql242k"
+  "problemUrl": "https://www.lintcode.com/problem/209/",
+  "submissionId": "p1pbyr"
 }
