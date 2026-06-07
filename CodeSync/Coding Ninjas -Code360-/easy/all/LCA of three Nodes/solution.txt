@@ -4,10 +4,10 @@
  * URL: https://www.naukri.com/code360/problems/longest-valid-parentheses_1089563
  * Language: Java (SE 1.8)
  * Difficulty: Easy
- * Topics: in Dynamic Programming
+ * Topics: Uncategorized
  * Runtime: 1613 ms
  * Memory: N/A
- * Synced: 2026-06-07T18:54:24.221Z
+ * Synced: 2026-06-07T18:54:32.948Z
  */
 
 import java.util.*;
