@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Count and Say
- * URL: https://leetcode.com/problems/count-and-say/
+ * URL: https://leetcode.com/problems/count-and-say/submissions/2025191993/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-07T09:05:26.865Z
+ * Memory: 42.88 MB
+ * Synced: 2026-06-07T09:05:41.749Z
  */
 
 class Solution {
@@ -25,6 +25,7 @@ class Solution {
             }
             sb.append(count).append(res.charAt(res.length() - 1));
         }
-        return res.toString();
+        return res;
     }
+            res = sb.toString();
 }
