@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Find the Peaks
+ * URL: https://leetcode.com/problems/find-the-peaks/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Enumeration
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T05:48:50.964Z
+ */
+
+class Solution {
+    public List<Integer> findPeaks(int[] mountain) {
+        
+    }
+}
