@@ -1,22 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Largest Odd Number in String
- * URL: https://leetcode.com/problems/largest-odd-number-in-string/description/?envType=problem-list-v2&envId=string
+ * URL: https://leetcode.com/problems/largest-odd-number-in-string/submissions/2025653312/?envType=problem-list-v2&envId=string
  * Language: String
  * Difficulty: Easy
  * Topics: Math, String, Greedy
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-07T18:37:19.556Z
+ * Synced: 2026-06-07T18:37:52.866Z
  */
 
-class Solution {
-    public String largestOddNumber(String num) {
-        for(int i = num.length() - 1; i >= 0; i--){
-            if((num.charAt(i) - '0') % 2 == 1){
-                return num.substring(0, i + 1);
-            }
-        }
-        return "";
-    }
-}
+Input: num = "52"
+Output: "5"
+Explanation: The only non-empty substrings are "5", "2", and "52". "5" is the only odd number.
