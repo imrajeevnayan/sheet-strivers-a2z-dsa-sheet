@@ -5,9 +5,9 @@
 - Difficulty: Hard
 - Topics: Array, Hash Table
 - Runtime: 1 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/first-missing-positive/
-- Synced: 2026-06-07T09:06:46.726Z
+- Memory: 74.16 MB
+- Problem URL: https://leetcode.com/problems/first-missing-positive/submissions/2025193271/
+- Synced: 2026-06-07T09:07:29.313Z
 
 ## Problem Description
 
