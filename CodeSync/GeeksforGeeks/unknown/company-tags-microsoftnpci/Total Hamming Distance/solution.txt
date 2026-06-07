@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Total Hamming Distance
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/bit-manipulation-bonus-problems/problem/total-hamming-distance
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags MicrosoftNPCI, Company Tags, Microsoft, NPCI, Topic Tags, Bit Magic, Data Structures
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T17:50:19.788Z
+ */
+
+class Solution {
+    int totHammingDist(int arr[]) {
+        int n = arr.length;
+        int total = 0;
+
+        for (int b = 0; b < 32; b++) {
+            int countOnes = 0;
+            for (int num : arr) {
+                if ((num & (1 << b)) != 0) {
+                    countOnes++;
+                }
+            }
+            total += countOnes * (n - countOnes);
+        }
+
+        return total;
+    }
+}
