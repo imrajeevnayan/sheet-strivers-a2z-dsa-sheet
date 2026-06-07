@@ -1,18 +1,16 @@
 /*
  * Platform: LeetCode
  * Problem: Sort Array by Increasing Frequency
- * URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/
+ * URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/submissions/2025230868/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
  * Runtime: 2 ms
- * Memory: 45.89 MB
- * Synced: 2026-06-07T09:57:46.272Z
+ * Memory: N/A
+ * Synced: 2026-06-07T09:58:12.786Z
  */
 
-if (!map.get(a).equals(map.get(b))) {\
-                return map.get(a) - map.get(b); // Lower first
-            }
+if (!map.get(a).equals(map.get(b))) return map.get(a) - map.get(b); // Lower first
             return b - a; // Higher first (for same freq)
         });
         for (int num : nums) pq.offer(num);
