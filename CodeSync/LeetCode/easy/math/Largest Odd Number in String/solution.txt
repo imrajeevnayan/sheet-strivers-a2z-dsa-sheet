@@ -7,7 +7,7 @@
  * Topics: Math, String, Greedy
  * Runtime: 1 ms
  * Memory: 46.96 MB
- * Synced: 2026-06-07T18:36:48.100Z
+ * Synced: 2026-06-07T18:36:51.025Z
  */
 
 Input: num = "52"
