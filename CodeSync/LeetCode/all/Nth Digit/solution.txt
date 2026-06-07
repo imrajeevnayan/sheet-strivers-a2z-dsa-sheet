@@ -1,17 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Nth Digit
- * URL: https://leetcode.com/problems/nth-digit/
+ * URL: https://leetcode.com/problems/nth-digit/submissions/2025056318/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Math, Binary Search
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-07T06:11:25.798Z
+ * Runtime: 0 ms
+ * Memory: 42.32 MB
+ * Synced: 2026-06-07T06:15:14.654Z
  */
 
 class Solution {
     public int findNthDigit(int n) {
-        
+        long len = 1, count = 9, start = 1;
+
+        while (n > len * count) {
+            n -= len * count;
+            len++;
+            count *= 10;
+            start *= 10;
+        }
+
+        start += (n - 1) / len;
+        return String.valueOf(start).charAt((int)((n - 1) % len)) - '0';
     }
 }
