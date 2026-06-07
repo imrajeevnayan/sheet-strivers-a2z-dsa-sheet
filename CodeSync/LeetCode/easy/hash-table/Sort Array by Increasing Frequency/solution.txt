@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Sort Array by Increasing Frequency
- * URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/
+ * URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/submissions/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
  * Runtime: 2 ms
- * Memory: 45.47 MB
- * Synced: 2026-06-07T09:58:29.739Z
+ * Memory: N/A
+ * Synced: 2026-06-07T09:58:41.207Z
  */
 
 if (!map.get(a).equals(map.get(b))) return map.get(a) - map.get(b); // Lower first
@@ -18,13 +18,11 @@ if (!map.get(a).equals(map.get(b))) return map.get(a) - map.get(b); // Lower fir
         PriorityQueue<Integer> pq = new PriorityQueue<>((a, b) -> {
         
         for (int num : nums)map.put(num, map.getOrDefault(num, 0) + 1);
-        for (int i = 0; i < nums.length; i++) {
-            result[i] = pq.poll();
-        
-
+        for (int i = 0; i < nums.length; i++) result[i] = pq.poll();
         return result;
     }
         Map<Integer, Integer> map = new HashMap<>();
     public int[] frequencySort(int[] nums) {
 
 }
+class Solution {
