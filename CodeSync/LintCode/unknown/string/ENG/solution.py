@@ -1,22 +1,21 @@
 # Platform: LintCode
 # Problem: ENG
-# URL: https://www.lintcode.com/problem/3820/
+# URL: https://www.lintcode.com/problem/209/
 # Language: Python
 # Difficulty: Unknown
-# Topics: StackString, Stack, String, Test Data Commit Output
+# Topics: Hash TableString, Hash Table, String, Bloomberg Amazon Microsoft Google, Bloomberg, Amazon, Microsoft, Google
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-02T10:07:40.046Z
+# Synced: 2026-06-07T18:04:32.874Z
 
 public·class·Solution·{
-····public·String·removeDuplicates(String·s)·{
-····Stack<Character>st=new·Stack<>();
-····for(char·c:s.toCharArray()){
-········if(!st.isEmpty()&&·st.peek()==c)st.pop();
+··public·char·firstUniqChar(String·str)·{
+···Map<Character,Integer>map=new·HashMap<>();
+···for(char·c:str.toCharArray())map.put(c,map.getOrDefault(c,0)+1);
+···for·(int·i·=·0;·i<str.length();·i++)·{
+·······char·c·=str.charAt(i);
+········if·(map.get(c)·==·1)·return·c;·
 ····}
+···return·'·';
 ····}
-········else·st.push(c);
-····StringBuilder·sb=new·StringBuilder();
-····for(char·c:st)sb.append(c);
-····return·sb.toString();
 }
