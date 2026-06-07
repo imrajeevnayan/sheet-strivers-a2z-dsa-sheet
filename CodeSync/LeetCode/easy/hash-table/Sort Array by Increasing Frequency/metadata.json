@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-07T09:56:50.921Z",
+  "submissionTimestamp": "2026-06-07T09:57:37.536Z",
   "runtime": "2 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "45.89 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Sort Array by Increasing Frequency",
   "problemUrl": "https://leetcode.com/problems/sort-array-by-increasing-frequency/",
-  "submissionId": "9z4viz"
+  "submissionId": "smeymv"
 }
