@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-07T11:04:36.297Z",
-  "runtime": "886 ms",
+  "submissionTimestamp": "2026-06-07T11:04:50.545Z",
+  "runtime": "884 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "All languages",
   "problemTitle": "LCA of three Nodes",
   "problemUrl": "https://www.naukri.com/code360/problems/median-in-a-stream_975268",
-  "submissionId": "gqfm4q"
+  "submissionId": "7lsxnk"
 }
