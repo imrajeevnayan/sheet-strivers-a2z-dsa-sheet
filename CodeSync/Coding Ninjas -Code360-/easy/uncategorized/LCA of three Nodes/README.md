@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 2209 ms
+- Runtime: 1613 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/reverse-list-in-k-groups_983644
-- Synced: 2026-06-07T18:49:20.178Z
+- Problem URL: https://www.naukri.com/code360/problems/longest-valid-parentheses_1089563
+- Synced: 2026-06-07T18:54:27.681Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVE Get key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
