@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 559 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/largest-rectangle-in-a-histogram_1058184
-- Synced: 2026-06-07T11:14:37.694Z
+- Problem URL: https://www.naukri.com/code360/problems/kth-minimum-floor_1115470
+- Synced: 2026-06-07T12:07:28.347Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
