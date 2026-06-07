@@ -6,8 +6,8 @@
 - Topics: Hash Table, Linked List, Two Pointers
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/intersection-of-two-linked-lists/
-- Synced: 2026-06-07T10:03:30.058Z
+- Problem URL: https://leetcode.com/problems/intersection-of-two-linked-lists/submissions/
+- Synced: 2026-06-07T10:03:33.306Z
 
 ## Problem Description
 
