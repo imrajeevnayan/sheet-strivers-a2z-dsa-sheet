@@ -1,36 +1,35 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/minimum-characters-for-palindrome_893000
+ * URL: https://www.naukri.com/code360/problems/largest-rectangle-in-a-histogram_1058184
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 936 ms
+ * Runtime: 559 ms
  * Memory: N/A
- * Synced: 2026-06-07T11:11:27.778Z
+ * Synced: 2026-06-07T11:14:37.694Z
  */
 
-public class Solution {
-    public static int minCharsforPalindrome(String str) {
-        String rev = new StringBuilder(str).reverse().toString();
-        String combined = str + "#" + rev;
-        int[] lps = computeLPS(combined);
-        return str.length() - lps[combined.length() - 1];
-    }
+import java.util.ArrayList;
+import java.util.Stack;
  
-    private static int[] computeLPS(String s) {
-        int n = s.length();
-        int[] lps = new int[n];
-        int len = 0, i = 1;
-        while (i < n) {
-            if (s.charAt(i) == s.charAt(len)) {
-                lps[i++] = ++len;
-            } else if (len != 0) {
-                len = lps[len - 1];
-            } else {
-                lps[i++] = 0;
+public class Solution {
+    public static int largestRectangle(ArrayList<Integer> heights) {
+        Stack<Integer> stack = new Stack<>();
+        int maxArea = 0;
+        int n = heights.size();
+ 
+        for (int i = 0; i <= n; i++) {
+            int h = (i == n) ? 0 : heights.get(i);
+ 
+            while (!stack.isEmpty() && h < heights.get(stack.peek())) {
+                int height = heights.get(stack.pop());
+                int width = stack.isEmpty() ? i : i - stack.peek() - 1;
+                maxArea = Math.max(maxArea, height * width);
             }
+            stack.push(i);
         }
-        return lps;
+ 
+        return maxArea;
     }
 }
