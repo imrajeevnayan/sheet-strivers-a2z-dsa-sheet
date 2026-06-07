@@ -2,12 +2,12 @@
 
 - Platform: LintCode
 - Language: Python
-- Difficulty: Unknown
-- Topics: Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Test Output
+- Difficulty: Medium
+- Topics: Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Commit Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/380/
-- Synced: 2026-06-07T10:48:30.573Z
+- Synced: 2026-06-07T10:49:10.588Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Write a program to find the node at which the intersection of two si
 
 ## Explanation
 
-This solution was accepted on LintCode using Python. The detected topics are Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Python. The detected topics are Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Commit Output. Review the synced source file for the implementation details.
