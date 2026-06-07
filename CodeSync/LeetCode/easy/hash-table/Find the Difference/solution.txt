@@ -1,20 +1,15 @@
 /*
  * Platform: LeetCode
  * Problem: Find the Difference
- * URL: https://leetcode.com/problems/find-the-difference/
+ * URL: https://leetcode.com/problems/find-the-difference/submissions/2025093978/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, String, Bit Manipulation, Sorting
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-07T06:58:51.418Z
+ * Synced: 2026-06-07T06:58:55.113Z
  */
 
-class Solution {
-    public char findTheDifference(String s, String t) {
-        char res=0;
-    }
-        for(char c:s.toCharArray()) res^=c;
-        for(char c:t.toCharArray()) res^=c;
-        return res;
-}
+Input: s = "abcd", t = "abcde"
+Output: "e"
+Explanation: 'e' is the letter that was added.
