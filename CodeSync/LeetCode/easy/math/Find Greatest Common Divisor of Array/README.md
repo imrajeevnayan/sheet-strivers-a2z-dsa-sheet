@@ -6,8 +6,8 @@
 - Topics: Array, Math, Number Theory
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-greatest-common-divisor-of-array/
-- Synced: 2026-06-07T12:54:55.920Z
+- Problem URL: https://leetcode.com/problems/find-greatest-common-divisor-of-array/description/
+- Synced: 2026-06-07T12:55:02.827Z
 
 ## Problem Description
 
