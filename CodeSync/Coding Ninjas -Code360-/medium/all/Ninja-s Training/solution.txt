@@ -1,34 +1,35 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Ninja’s Training
- * URL: https://www.naukri.com/code360/problems/longest-palindromic-subsequence_842787
+ * URL: https://www.naukri.com/code360/problems/elements-occur-more-than-n-k-times_1113146
  * Language: Java (SE 1.8)
  * Difficulty: Medium
  * Topics: Uncategorized
- * Runtime: 1004 ms
+ * Runtime: 568 ms
  * Memory: N/A
- * Synced: 2026-06-07T11:16:17.411Z
+ * Synced: 2026-06-07T12:03:20.797Z
  */
 
 import java.util.*;
 import java.io.*;
+import java.util.ArrayList;
  
 public class Solution {
-    public static int longestPalindromeSubsequence(String s) {
-        String rev = new StringBuilder(s).reverse().toString();
-        int n = s.length();
-        int[][] dp = new int[n + 1][n + 1];
+    public static ArrayList<Integer> countTheNumber(ArrayList<Integer> arr, int n, int k) {
+        Map<Integer, Integer> freq = new HashMap<>();
+        for (int num : arr) {
+            freq.put(num, freq.getOrDefault(num, 0) + 1);
+        
  
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
-                if (s.charAt(i - 1) == rev.charAt(j - 1)) {
-                    dp[i][j] = dp[i - 1][j - 1] + 1;
-                } else {
-                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
-                }
+        ArrayList<Integer> result = new ArrayList<>();
+        int threshold = n / k;
+        for (Map.Entry<Integer, Integer> e : freq.entrySet()) {
+            if (e.getValue() >= threshold) {
+                result.add(e.getKey());
             }
         }
  
-        return dp[n][n];
+        Collections.sort(result);
+        return result;
     }
 }
