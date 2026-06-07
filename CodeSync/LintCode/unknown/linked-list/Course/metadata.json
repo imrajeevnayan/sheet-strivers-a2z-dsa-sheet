@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-06-07T10:54:54.485Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Linked List",
+    "Bloomberg Airbnb Amazon Microsoft",
+    "Bloomberg",
+    "Airbnb",
+    "Amazon",
+    "Microsoft",
+    "Test Data Test Output"
+  ],
+  "platform": "LintCode",
+  "language": "Python",
+  "problemTitle": "Course",
+  "problemUrl": "https://www.lintcode.com/problem/380/description",
+  "submissionId": "ibfr6d"
+}
