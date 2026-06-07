@@ -4,10 +4,10 @@
  * URL: https://www.naukri.com/code360/problems/maxfrequencystack_1262006
  * Language: Java (SE 1.8)
  * Difficulty: Hard
- * Topics: Hard Clear all
+ * Topics: Moderate Clear all, Moderate
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T18:52:24.577Z
+ * Synced: 2026-06-07T18:52:37.629Z
  */
 
 import java.util.*;
