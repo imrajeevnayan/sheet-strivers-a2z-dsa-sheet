@@ -7,11 +7,11 @@
 - Runtime: 3330 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/partition-a-set-into-two-subsets-such-that-the-difference-of-subset-sums-is-minimum_842494
-- Synced: 2026-06-07T10:58:39.452Z
+- Synced: 2026-06-07T10:58:43.826Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVE Get key word suggestions of your code
 
 ## Explanation
 
