@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T17:45:59.213Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-07T19:21:54.721Z",
+  "runtime": "602 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "Ninja’s Training",
-  "problemUrl": "https://www.naukri.com/code360/problems/longest-repeating-subsequence_1062697",
-  "submissionId": "9l75b5"
+  "problemUrl": "https://www.naukri.com/code360/problems/loot-houses_630510",
+  "submissionId": "nm4f3r"
 }
