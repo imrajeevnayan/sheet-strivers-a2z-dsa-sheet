@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags VMWareAmazonMicrosoftOracleNPCI, Company Tags, VMWare, Amazon, Microsoft, Oracle, NPCI
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:27:14.298Z
+ * Synced: 2026-06-07T09:27:19.254Z
  */
 
 class Solution {
