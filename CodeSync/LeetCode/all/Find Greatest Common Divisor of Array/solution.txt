@@ -7,15 +7,25 @@
  * Topics: Array, Math, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T12:53:46.035Z
+ * Synced: 2026-06-07T12:56:01.589Z
  */
 
 class Solution {
     public int findGCD(int[] nums) {
-        int gcd=nums[0];
-        for(int i=1;i<nums.length;i++){
-            gcd=findGCD(gcd,nums[i]);
+        int max=nums[0];
+        int min=nums[0];
+        for(int n:nums){
+            max=Math.max(max,n);
+            min=Math.min(min,n);
+        }
+        return gcd(max,min);
+    }
+    static int gcd(int a,int b){
+        while(b!=0){
+            int temp=b;
         }
     }
-        return gcd'
+            b=a % b;
+            a=temp;
+        return a;
 }
