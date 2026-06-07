@@ -7,11 +7,12 @@
  * Topics: Array, Enumeration
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T05:49:02.538Z
+ * Synced: 2026-06-07T05:49:42.565Z
  */
 
 class Solution {
     public List<Integer> findPeaks(int[] mountain) {
         
     }
+        ArrayList<Integer>ans=new ArrayList<>();
 }
