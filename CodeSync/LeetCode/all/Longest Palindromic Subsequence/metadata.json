@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-07T12:00:02.791Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-07T12:00:24.610Z",
+  "runtime": "0 ms",
+  "memoryUsage": "63.68 MB",
   "difficulty": "Medium",
   "tags": [
     "String",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Longest Palindromic Subsequence",
-  "problemUrl": "https://leetcode.com/problems/longest-palindromic-subsequence/",
-  "submissionId": "zf6205"
+  "problemUrl": "https://leetcode.com/problems/longest-palindromic-subsequence/submissions/2025324768/",
+  "submissionId": "xblgxm"
 }
