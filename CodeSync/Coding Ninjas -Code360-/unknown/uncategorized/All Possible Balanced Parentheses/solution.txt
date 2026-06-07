@@ -1,0 +1,41 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: All Possible Balanced Parentheses
+ * URL: https://www.naukri.com/code360/problem-of-the-day/easy
+ * Language: Java (SE 1.8)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T18:46:27.095Z
+ */
+
+import java.util.*;
+import java.io.*;
+import java.util.ArrayList;
+ 
+public class Solution {
+    public static ArrayList<String> balancedParentheses(int n) {
+            ArrayList<String> result = new ArrayList<>();
+                    backtrack(result, new StringBuilder(), 0, 0, n);
+                            return result;
+                                }
+                                            if (sb.length() == 2 * n) {
+                                                        result.add(sb.toString());
+                                                                    return;
+                                                                            }
+ 
+                                                                                    if (open < n) {
+                                                                                                sb.append('(');
+                                                                                                            backtrack(result, sb, open + 1, close, n);
+                                                                                                                        sb.deleteCharAt(sb.length() - 1);
+                                                                                                                                }
+ 
+                                                                                                                                        if (close < open) {
+                                                                                                                                                    sb.append(')');
+                                                                                                                                                                backtrack(result, sb, open, close + 1, n);
+                                                                                                                                                                            sb.deleteCharAt(sb.length() - 1);
+                                                                                                                                                                                    }
+                                                                                                                                                                                        }
+                                    private static void backtrack(ArrayList<String> result, StringBuilder sb, int open, int close, int n) {
+                                                                                                                                                                                        }
