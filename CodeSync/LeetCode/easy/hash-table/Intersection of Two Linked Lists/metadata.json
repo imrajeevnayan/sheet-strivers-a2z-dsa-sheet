@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-07T10:03:33.306Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-07T10:03:42.422Z",
+  "runtime": "1 ms",
+  "memoryUsage": "52.81 MB",
   "difficulty": "Easy",
   "tags": [
     "Hash Table",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Intersection of Two Linked Lists",
-  "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/submissions/",
-  "submissionId": "cipfbu"
+  "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/submissions/1889973621/",
+  "submissionId": "nkp5hw"
 }
