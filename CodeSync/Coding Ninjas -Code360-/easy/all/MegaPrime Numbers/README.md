@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/megaprime-numbers_893339
-- Synced: 2026-06-07T19:05:18.940Z
+- Synced: 2026-06-07T19:05:24.103Z
 
 ## Problem Description
 
