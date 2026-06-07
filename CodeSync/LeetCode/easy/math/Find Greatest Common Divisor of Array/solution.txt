@@ -1,31 +1,18 @@
 /*
  * Platform: LeetCode
  * Problem: Find Greatest Common Divisor of Array
- * URL: https://leetcode.com/problems/find-greatest-common-divisor-of-array/
+ * URL: https://leetcode.com/problems/find-greatest-common-divisor-of-array/submissions/2025367531/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Math, Number Theory
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-07T12:56:03.601Z
+ * Synced: 2026-06-07T12:56:10.610Z
  */
 
-class Solution {
-    public int findGCD(int[] nums) {
-        int max=nums[0];
-        int min=nums[0];
-        for(int n:nums){
-            max=Math.max(max,n);
-            min=Math.min(min,n);
-        }
-        return gcd(max,min);
-    }
-    static int gcd(int a,int b){
-        while(b!=0){
-            int temp=b;
-        }
-    }
-            b=a % b;
-            a=temp;
-        return a;
-}
+Input: nums = [2,5,6,9,10]
+Output: 2
+Explanation:
+The smallest number in nums is 2.
+The largest number in nums is 10.
+The greatest common divisor of 2 and 10 is 2.
