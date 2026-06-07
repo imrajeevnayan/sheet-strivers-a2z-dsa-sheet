@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Sorting
 - Runtime: 2 ms
 - Memory: 45.47 MB
-- Problem URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/submissions/2025230868/
-- Synced: 2026-06-07T09:58:15.903Z
+- Problem URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/
+- Synced: 2026-06-07T09:58:25.086Z
 
 ## Problem Description
 
