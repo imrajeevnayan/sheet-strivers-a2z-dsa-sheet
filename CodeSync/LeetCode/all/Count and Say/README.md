@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: String
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/count-and-say/
-- Synced: 2026-06-07T09:05:18.015Z
+- Memory: 42.88 MB
+- Problem URL: https://leetcode.com/problems/count-and-say/submissions/2025191993/
+- Synced: 2026-06-07T09:05:41.749Z
 
 ## Problem Description
 
