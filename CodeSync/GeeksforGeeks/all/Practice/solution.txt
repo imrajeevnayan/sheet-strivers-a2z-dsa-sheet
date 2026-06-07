@@ -1,0 +1,210 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Practice
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/LL-bonus-problem/problem/merge-k-sorted-linked-lists
+ * Language: #include <iostream> #include <stack> using namespace std; class Node { public: int data; Node* next; Node(int d) { data = d; next = nullptr; } }; // Function to check if the linked list // is palindrome or not bool isPalindrome(Node* head) { Node* currNode = head; // Declare a stack stack<int> s; // Push all elements of the list to the stack while (currNode != nullptr) { s.push(currNode->data); currNode = currNode->next; } // Iterate in the list again and check by // popping from the stack while (head != nullptr) { // Get the topmost element int c = s.top(); s.pop(); // Check if data is not same as popped element if (head->data != c) { return false; } // Move ahead head = head->next; } return true; } int main() { // Linked list : 1->2->3->2->1 Node* head = new Node(1); head->next = new Node(2); head->next->next = new Node(3); head->next->next->next = new Node(2); head->next->next->next->next = new Node(1); bool result = isPalindrome(head); if (result) cout << "true\n"; else cout << "false\n"; return 0; }
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T09:37:36.903Z
+ */
+
+import java.util.Stack;
+class Node {
+    int data;
+    Node next;
+    Node(int d) {
+        data = d;
+        next = null;
+    }
+}
+​
+class GfG {
+  
+    // Function to check if the linked list
+    // is palindrome or not
+    static boolean isPalindrome(Node head) {
+        Node currNode = head;
+        Stack<Integer> s = new Stack<>();
+​
+        // Push all elements of the list to the stack
+        while (currNode != null) {
+            s.push(currNode.data);
+            currNode = currNode.next;
+        }
+​
+        // Iterate in the list again and check
+        // by popping from the stack
+        while (head != null) {
+          
+            // Get the topmost element
+            int c = s.pop();
+​
+            // Check if data is not same as
+            // popped element
+            if (head.data != c) {
+                return false;
+            }
+​
+            // Move ahead
+            head = head.next;
+        }
+​
+        return true;
+    }
+​
+    public static void main(String[] args) {
+      
+        // Linked list : 1->2->3->2->1
+        Node head = new Node(1);
+        head.next = new Node(2);
+        head.next.next = new Node(3);
+        head.next.next.next = new Node(2);
+        head.next.next.next.next = new Node(1);
+​
+        boolean result = isPalindrome(head);
+​
+        if (result)
+            System.out.println("true");
+        else
+            System.out.println("false");
+    }
+}
+class Node {
+    int data;
+    Node next;
+​
+    Node(int d) {
+        data = d;
+        next = null;
+    }
+}
+​
+class GfG {
+​
+    // Recursive Function to check whether 
+    // the list is palindrome
+    static boolean isPalindromeRecur(Node end, Node[] start) {
+​
+        // base case
+        if (end == null) return true;
+​
+        // Recursively check the right side.
+        boolean right = isPalindromeRecur(end.next, start);
+​
+        // Compare the start and end nodes.
+        boolean ans = right && start[0].data == end.data;
+​
+        // Update the start node 
+        start[0] = start[0].next;
+​
+        return ans;
+    }
+​
+    // Function to check whether the list is palindrome
+    static boolean isPalindrome(Node head) {
+​
+        // Set starting node to head
+        Node[] start = new Node[]{head};
+​
+        // Recursively check the ll and return
+        return isPalindromeRecur(head, start);
+    }
+​
+    public static void main(String[] args) {
+​
+        // Linked list : 1->2->3->2->1
+        Node head = new Node(1);
+        head.next = new Node(2);
+        head.next.next = new Node(3);
+        head.next.next.next = new Node(2);
+        head.next.next.next.next = new Node(1);
+​
+        boolean result = isPalindrome(head);
+​
+        if (result)
+            System.out.println("true");
+        else
+            System.out.println("false");
+    }
+}
+class Node {
+    int data;
+    Node next;
+    Node(int d) {
+        data = d;
+        next = null;
+    }
+}
+​
+// Class to check if the linked list is palindrome or not
+class GfG {
+​
+    // Function to reverse a linked list
+    static Node reverseList(Node head) {
+        Node prev = null;
+        Node curr = head;
+        Node next;
+​
+        while (curr != null) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        return prev;
+    }
+​
+    // Function to check if two lists are identical
+    static boolean isIdentical(Node n1, Node n2) {
+        while (n1 != null && n2 != null) {
+            if (n1.data != n2.data)
+                return false;
+            n1 = n1.next;
+            n2 = n2.next;
+        }
+        return true;
+    }
+​
+    // Function to check whether the list is palindrome
+    static boolean isPalindrome(Node head) {
+        if (head == null || head.next == null)
+            return true;
+​
+        Node slow = head, fast = head;
+​
+        while (fast.next != null 
+               && fast.next.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+​
+        Node head2 = reverseList(slow.next);
+        slow.next = null;
+​
+        boolean ret = isIdentical(head, head2);
+​
+        head2 = reverseList(head2);
+        slow.next = head2;
+​
+        return ret;
+    }
+​
+    public static void main(String[] args) {
+        
+      // Linked list : 1->2->3->2->1
+        Node head = new Node(1);
+        head.next = new Node(2);
+        head.next.next = new Node(3);
+        head.next.next.next = new Node(2);
+        head.next.next.next.next = new Node(1);
+​
+        boolean result = isPalindrome(head);
+​
+        if (result)
+            System.out.println("true");
+        else
+            System.out.println("false");
+    }
+}
