@@ -1,8 +1,8 @@
 {
-  "submissionTimestamp": "2026-06-07T10:48:30.573Z",
+  "submissionTimestamp": "2026-06-07T10:49:10.588Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Unknown",
+  "difficulty": "Medium",
   "tags": [
     "Linked List",
     "Bloomberg Airbnb Amazon Microsoft",
@@ -10,11 +10,11 @@
     "Airbnb",
     "Amazon",
     "Microsoft",
-    "Test Data Test Output"
+    "Test Data Commit Output"
   ],
   "platform": "LintCode",
   "language": "Python",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/380/",
-  "submissionId": "38ri5l"
+  "submissionId": "acvins"
 }
