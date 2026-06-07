@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
- * Runtime: 8 ms
+ * Runtime: 2 ms
  * Memory: 45.89 MB
- * Synced: 2026-06-07T09:58:05.121Z
+ * Synced: 2026-06-07T09:58:06.620Z
  */
 
 if (!map.get(a).equals(map.get(b))) return map.get(a) - map.get(b); // Lower first
