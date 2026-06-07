@@ -7,11 +7,11 @@
 - Runtime: 2652 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/buy-and-sell-stock_1071012
-- Synced: 2026-06-07T11:07:06.590Z
+- Synced: 2026-06-07T11:07:17.834Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
