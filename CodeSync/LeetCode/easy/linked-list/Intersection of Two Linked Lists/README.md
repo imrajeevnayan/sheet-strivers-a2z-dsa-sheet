@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/intersection-of-two-linked-lists/
-- Synced: 2026-06-07T10:03:44.733Z
+- Synced: 2026-06-07T10:04:09.077Z
 
 ## Problem Description
 
