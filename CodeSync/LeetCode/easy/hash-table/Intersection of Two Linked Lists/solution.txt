@@ -7,13 +7,13 @@
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T10:03:57.629Z
+ * Synced: 2026-06-07T10:03:59.134Z
  */
 
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (headA == null || headB == null) return null;
-        ListNode pA = headA;
+        ListNode A = headA;
         ListNode pB = headB;
         while (pA != pB) {
             pA = (pA == null) ? headB : pA.next;
