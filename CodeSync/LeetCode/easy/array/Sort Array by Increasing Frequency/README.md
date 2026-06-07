@@ -7,7 +7,7 @@
 - Runtime: 2 ms
 - Memory: 45.89 MB
 - Problem URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/
-- Synced: 2026-06-07T09:57:37.536Z
+- Synced: 2026-06-07T09:57:46.272Z
 
 ## Problem Description
 
