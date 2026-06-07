@@ -1,16 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-03T07:34:24.193Z",
+  "submissionTimestamp": "2026-06-07T17:47:07.859Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Stack",
-    "2506 Remove the Invalid Parentheses Easy",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Java",
+  "language": "PHP",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/263",
-  "submissionId": "gd4xbh"
+  "problemUrl": "https://www.lintcode.com/problem/3189/",
+  "submissionId": "xalu74"
 }
