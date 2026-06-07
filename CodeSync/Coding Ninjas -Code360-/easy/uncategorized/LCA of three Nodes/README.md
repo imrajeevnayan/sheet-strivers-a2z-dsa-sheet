@@ -7,7 +7,7 @@
 - Runtime: 1613 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/longest-valid-parentheses_1089563
-- Synced: 2026-06-07T18:54:27.681Z
+- Synced: 2026-06-07T18:54:32.948Z
 
 ## Problem Description
 
