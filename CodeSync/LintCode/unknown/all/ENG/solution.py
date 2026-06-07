@@ -1,19 +1,15 @@
 # Platform: LintCode
 # Problem: ENG
-# URL: https://www.lintcode.com/problem/1721/
+# URL: https://www.lintcode.com/problem/380/
 # Language: Python
 # Difficulty: Unknown
-# Topics: StackGreedy, Stack, Greedy, Facebook, 2506 Remove the Invalid Parentheses Easy, Test Data Test Output
+# Topics: Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-04T17:13:53.886Z
+# Synced: 2026-06-07T10:45:36.820Z
 
 public·class·Solution·{
-····/**
-·····*·@param·s:·the·given·string
-·····*·@return:·the·minimum·number·of·parentheses·we·must·add
-·····*/
-····public·int·minAddToMakeValid(String·s)·{
-········//·Write·your·code·here
+····public·ListNode·getIntersectionNode(ListNode·headA,·ListNode·headB)·{
+·······
 ····}
 }
