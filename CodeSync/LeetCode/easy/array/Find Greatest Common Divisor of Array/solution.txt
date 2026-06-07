@@ -7,11 +7,12 @@
  * Topics: Array, Math, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T12:52:40.984Z
+ * Synced: 2026-06-07T12:52:45.997Z
  */
 
 class Solution {
     public int findGCD(int[] nums) {
-        int gcd=nums[]
+        int gcd=nums[0];
     }
+        
 }
