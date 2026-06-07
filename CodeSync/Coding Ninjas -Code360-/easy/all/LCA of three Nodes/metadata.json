@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T18:59:35.251Z",
-  "runtime": "808 ms",
+  "submissionTimestamp": "2026-06-07T19:16:26.178Z",
+  "runtime": "1531 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/multiply-strings_982763",
-  "submissionId": "xuyijw"
+  "problemUrl": "https://www.naukri.com/code360/problems/palindrom-linked-list_799352",
+  "submissionId": "nzyoj"
 }
