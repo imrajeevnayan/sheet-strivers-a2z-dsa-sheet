@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/largest-odd-number-in-string/?envType=problem-list-v2&envId=string
-- Synced: 2026-06-07T18:36:57.965Z
+- Synced: 2026-06-07T18:36:59.961Z
 
 ## Problem Description
 
