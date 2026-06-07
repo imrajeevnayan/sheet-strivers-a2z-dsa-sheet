@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Math, Binary Search
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/nth-digit/
-- Synced: 2026-06-07T06:15:00.170Z
+- Runtime: 0 ms
+- Memory: 42.32 MB
+- Problem URL: https://leetcode.com/problems/nth-digit/submissions/2025056318/
+- Synced: 2026-06-07T06:15:14.654Z
 
 ## Problem Description
 
