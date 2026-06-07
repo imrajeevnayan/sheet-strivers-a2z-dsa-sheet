@@ -7,7 +7,7 @@
  * Topics: String
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:04:22.862Z
+ * Synced: 2026-06-07T09:04:39.861Z
  */
 
 class Solution {
@@ -17,9 +17,8 @@ class Solution {
             StringBuilder sb = new StringBuilder();
             int count = 1;
             for (int j = 1; j < res.length(); j++) {
-                if (res.charAt(j) == res.charAt(j - 1)) {
-                    count++;
-                } else {
+                if (res.charAt(j) == res.charAt(j - 1)) count++;
+                else {
                     sb.append(count).append(res.charAt(j - 1));
                     count = 1;
                 }
