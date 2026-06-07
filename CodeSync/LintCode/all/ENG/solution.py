@@ -1,15 +1,15 @@
 # Platform: LintCode
 # Problem: ENG
-# URL: https://www.lintcode.com/problem/3599/?showListFe=true&page=1&problemTypeId=4&tagIds=361&pageSize=50
+# URL: https://www.lintcode.com/problem/380/
 # Language: Python
 # Difficulty: Unknown
-# Topics: GreedyMonotonic StackStackString, Greedy, Monotonic Stack, Stack, String, Test Data Test Output
+# Topics: Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-04T16:55:38.145Z
+# Synced: 2026-06-07T10:45:36.820Z
 
 public·class·Solution·{
-····public·String·removeDuplicateLetters(String·s)·{
-········
+····public·ListNode·getIntersectionNode(ListNode·headA,·ListNode·headB)·{
+·······
 ····}
 }
