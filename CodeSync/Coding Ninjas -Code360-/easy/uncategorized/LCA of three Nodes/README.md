@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 1531 ms
+- Runtime: 2491 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/palindrom-linked-list_799352
-- Synced: 2026-06-07T19:16:30.177Z
+- Problem URL: https://www.naukri.com/code360/problems/cycle-detection-in-a-singly-linked-list_628974
+- Synced: 2026-06-07T19:20:27.221Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
