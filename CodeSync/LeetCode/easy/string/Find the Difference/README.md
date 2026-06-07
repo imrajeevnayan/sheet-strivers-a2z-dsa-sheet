@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Hash Table, String, Bit Manipulation, Sorting
 - Runtime: 0 ms
-- Memory: 43.14 MB
-- Problem URL: https://leetcode.com/problems/find-the-difference/submissions/2025093978/
-- Synced: 2026-06-07T06:59:05.701Z
+- Memory: 43.29 MB
+- Problem URL: https://leetcode.com/problems/find-the-difference/
+- Synced: 2026-06-07T06:59:18.668Z
 
 ## Problem Description
 
