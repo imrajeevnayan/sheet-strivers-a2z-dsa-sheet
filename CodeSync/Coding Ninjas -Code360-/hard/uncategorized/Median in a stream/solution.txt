@@ -1,0 +1,41 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Median in a stream
+ * URL: https://www.naukri.com/code360/problems/median-in-a-stream_975268
+ * Language: Java (SE 1.8)
+ * Difficulty: Hard
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T12:12:08.413Z
+ */
+
+import java.util.Collections;
+ 
+public class Solution {
+    public static int[] findMedian(int[] arr, int n) {
+        int[] result = new int[n];
+        
+        PriorityQueue<Integer> left = new PriorityQueue<>(Collections.reverseOrder());
+        PriorityQueue<Integer> right = new PriorityQueue<>();
+ 
+        for (int i = 0; i < n; i++) {
+            int num = arr[i];
+ 
+            if (left.isEmpty() || num <= left.peek()) left.offer(num);
+            else right.offer(num);
+    
+            if (left.size() > right.size() + 1) right.offer(left.poll());
+            else if (right.size() > left.size()) left.offer(right.poll());
+            
+ 
+            if (left.size() == right.size()) {
+                result[i] = (left.peek() + right.peek()) / 2;
+            } else {
+                result[i] = left.peek();
+            }
+        }
+ 
+        return result;
+    }
+}
