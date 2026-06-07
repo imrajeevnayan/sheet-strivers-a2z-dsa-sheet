@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 2491 ms
+- Runtime: 3011 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/cycle-detection-in-a-singly-linked-list_628974
-- Synced: 2026-06-07T19:20:33.531Z
+- Problem URL: https://www.naukri.com/code360/problems/second-largest-element-in-the-array_873375
+- Synced: 2026-06-07T19:22:54.465Z
 
 ## Problem Description
 
