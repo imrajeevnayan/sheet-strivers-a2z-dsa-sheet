@@ -1,0 +1,22 @@
+/*
+ * Platform: LeetCode
+ * Problem: Largest Odd Number in String
+ * URL: https://leetcode.com/problems/largest-odd-number-in-string/?envType=problem-list-v2&envId=string
+ * Language: String
+ * Difficulty: Easy
+ * Topics: Math, String, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T18:36:57.965Z
+ */
+
+class Solution {
+    public String largestOddNumber(String num) {
+        for(int i = num.length() - 1; i >= 0; i--){
+            if((num.charAt(i) - '0') % 2 == 1){
+                return num.substring(0, i + 1);
+            }
+        }
+        return "";
+    }
+}
