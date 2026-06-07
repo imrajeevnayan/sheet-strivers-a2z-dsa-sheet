@@ -1,19 +1,21 @@
 {
-  "submissionTimestamp": "2026-06-06T07:43:32.012Z",
+  "submissionTimestamp": "2026-06-07T18:04:32.874Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
+    "Hash TableString",
     "Hash Table",
-    "Palantir Technologies Palantir Airbnb",
-    "Palantir Technologies",
-    "Palantir",
-    "Airbnb",
-    "Test Data Test Output"
+    "String",
+    "Bloomberg Amazon Microsoft Google",
+    "Bloomberg",
+    "Amazon",
+    "Microsoft",
+    "Google"
   ],
   "platform": "LintCode",
-  "language": "Java",
+  "language": "Python",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/1319/",
-  "submissionId": "u8gabj"
+  "problemUrl": "https://www.lintcode.com/problem/209/",
+  "submissionId": "p1pbyr"
 }
