@@ -1,29 +1,33 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Ninja’s Training
- * URL: https://www.naukri.com/code360/problems/elements-occur-more-than-n-k-times_1113146
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/longest-repeating-subsequence_1062697
+ * Language: Java (SE 1.8)
  * Difficulty: Medium
  * Topics: Uncategorized
- * Runtime: 564 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T12:03:47.209Z
+ * Synced: 2026-06-07T17:45:54.660Z
  */
 
 import java.util.*;
 import java.io.*;
-import java.util.ArrayList;
  
 public class Solution {
-    public static ArrayList<Integer> countTheNumber(ArrayList<Integer> arr, int n, int k) {
-        Map<Integer, Integer> freq = new HashMap<>();
-        for (int num : arr)freq.put(num, freq.getOrDefault(num, 0) + 1);
-        ArrayList<Integer> result = new ArrayList<>();
-        int threshold = n / k;
-        for (Map.Entry<Integer, Integer> e : freq.entrySet()) {
-            if (e.getValue() >= threshold) result.add(e.getKey());
+    public static int LRS(String str) {
+        int n = str.length();
+        int[][] dp = new int[n + 1][n + 1];
+ 
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
+                if (str.charAt(i - 1) == str.charAt(j - 1) && i != j) {
+                    dp[i][j] = dp[i - 1][j - 1] + 1;
+                } 
+                else {
+                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
+                }
+            }
         }
-        Collections.sort(result);
-        return result;
+        return dp[n][n];
     }
 }
