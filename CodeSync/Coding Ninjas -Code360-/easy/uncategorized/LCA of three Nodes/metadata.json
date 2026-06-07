@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-06T18:33:07.099Z",
-  "runtime": "3199 ms",
+  "submissionTimestamp": "2026-06-07T11:00:30.376Z",
+  "runtime": "4501 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/check-if-two-given-strings-are-isomorphic-to-each-other_1117636",
-  "submissionId": "mlhtrs"
+  "problemUrl": "https://www.naukri.com/code360/problems/code-merge-sort_5907",
+  "submissionId": "em0ms0"
 }
