@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Medium
 - Topics: Uncategorized
-- Runtime: 1004 ms
+- Runtime: 568 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/longest-palindromic-subsequence_842787
-- Synced: 2026-06-07T11:16:17.411Z
+- Problem URL: https://www.naukri.com/code360/problems/elements-occur-more-than-n-k-times_1113146
+- Synced: 2026-06-07T12:03:20.797Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
