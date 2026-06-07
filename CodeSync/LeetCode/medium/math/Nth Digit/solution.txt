@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Math, Binary Search
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-07T06:15:08.339Z
+ * Memory: 42.32 MB
+ * Synced: 2026-06-07T06:15:14.654Z
  */
 
 class Solution {
