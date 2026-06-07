@@ -1,13 +1,13 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Merge K sorted linked lists
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/LL-bonus-problem/problem/check-if-linked-list-is-pallindrome
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/LL-bonus-problem/problem/merge-k-sorted-linked-lists
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags VMWareAmazonMicrosoftOracleNPCI, Company Tags, VMWare, Amazon, Microsoft, Oracle, NPCI
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:22:07.169Z
+ * Synced: 2026-06-07T09:26:21.038Z
  */
 
 class Solution {
