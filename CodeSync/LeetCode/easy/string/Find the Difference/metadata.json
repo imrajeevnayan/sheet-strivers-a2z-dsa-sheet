@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-07T06:59:05.701Z",
+  "submissionTimestamp": "2026-06-07T06:59:18.668Z",
   "runtime": "0 ms",
-  "memoryUsage": "43.14 MB",
+  "memoryUsage": "43.29 MB",
   "difficulty": "Easy",
   "tags": [
     "Hash Table",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find the Difference",
-  "problemUrl": "https://leetcode.com/problems/find-the-difference/submissions/2025093978/",
-  "submissionId": "pqjapq"
+  "problemUrl": "https://leetcode.com/problems/find-the-difference/",
+  "submissionId": "tbagvy"
 }
