@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-06-07T11:59:50.786Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "String",
+    "Dynamic Programming"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Longest Palindromic Subsequence",
+  "problemUrl": "https://leetcode.com/problems/longest-palindromic-subsequence/",
+  "submissionId": "zf6205"
+}
