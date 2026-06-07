@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Enumeration
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-the-peaks/
-- Synced: 2026-06-07T05:54:42.655Z
+- Runtime: 0 ms
+- Memory: 45.78 MB
+- Problem URL: https://leetcode.com/problems/find-the-peaks/submissions/2025039817/
+- Synced: 2026-06-07T05:55:20.423Z
 
 ## Problem Description
 
