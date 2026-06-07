@@ -4,10 +4,10 @@
  * URL: https://www.naukri.com/code360/problems/kth-minimum-floor_1115470
  * Language: Java (SE 1.8)
  * Difficulty: Easy
- * Topics: Uncategorized
+ * Topics: Moderate Clear all, Moderate
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T12:08:01.851Z
+ * Synced: 2026-06-07T12:08:09.905Z
  */
 
 import java.util.*;
