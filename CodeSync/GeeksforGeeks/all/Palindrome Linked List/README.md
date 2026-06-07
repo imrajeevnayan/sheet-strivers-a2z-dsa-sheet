@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/LL-bonus-problem/problem/check-if-linked-list-is-pallindrome
-- Synced: 2026-06-07T09:17:39.295Z
+- Synced: 2026-06-07T09:18:23.902Z
 
 ## Problem Description
 
