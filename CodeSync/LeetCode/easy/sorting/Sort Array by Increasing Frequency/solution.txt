@@ -7,15 +7,14 @@
  * Topics: Array, Hash Table, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:53:30.307Z
+ * Synced: 2026-06-07T09:53:51.949Z
  */
 
 Map<Integer, Integer> map = new HashMap<>();
         for (int n : nums)map.put(n, map.getOrDefault(n,0) + 1);
-     
-        for (int num : nums) {
-            list.add(num);
-        }
+        List<Integer> list = new ArrayList<>();
+        for (int num : nums)list.add(num);
+        
         Collections.sort(list, (a, b) -> {
             int cmp = freq.get(a) - freq.get(b);
             return cmp != 0 ? cmp : b - a;
@@ -29,5 +28,6 @@ Map<Integer, Integer> map = new HashMap<>();
         return result;
     public int[] frequencySort(int[] nums) {
 class Solution {
+
     }
 }
