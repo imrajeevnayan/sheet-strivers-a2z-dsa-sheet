@@ -7,47 +7,47 @@
  * Topics: Expected Complexities, Topic Tags, Hash, doubly-linked-list, Data Structures, Design-Pattern, Related Articles, Least Frequently Used Lfu Cache Implementation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:32:21.174Z
+ * Synced: 2026-06-07T09:32:25.380Z
  */
 
-private final Map<Integer, Node> keyNodeMap;
+import java.util.HashMap;
+import java.util.Map;
+
+class LFUCache {
+    class Node {
+        int key, val, freq;
+        Node prev, next;
+        Node(int k, int v) { key = k; val = v; freq = 1; }
+    }
+
+    class DLL {
+        Node head, tail;
+        int size;
+        DLL() {
+            head = new Node(-1, -1);
+            tail = new Node(-1, -1);
+            head.next = tail;
+            tail.prev = head;
+        }
+        void addFirst(Node n) {
+            n.next = head.next; n.prev = head;
+            head.next.prev = n; head.next = n;
+            size++;
+        }
+        void remove(Node n) {
+            n.prev.next = n.next; n.next.prev = n.prev;
+            size--;
+        }
+        Node removeLast() {
+            if (size == 0) return null;
+            Node last = tail.prev;
+            remove(last);
+            return last;
+        }
+        boolean isEmpty() { return size == 0; }
+    }
+
+    private final int capacity;
+    private int minFreq;
+    private final Map<Integer, Node> keyNodeMap;
     private final Map<Integer, DLL> freqListMap;
-
-    public LFUCache(int capacity) {
-        this.capacity = capacity;
-        keyNodeMap = new HashMap<>();
-        freqListMap = new HashMap<>();
-    }
-
-    public int get(int key) {
-        if (!keyNodeMap.containsKey(key)) return -1;
-        update(keyNodeMap.get(key));
-        return keyNodeMap.get(key).val;
-    }
-
-    public void put(int key, int value) {
-        if (capacity <= 0) return;
-        if (keyNodeMap.containsKey(key)) {
-            Node n = keyNodeMap.get(key);
-            n.val = value;
-            update(n);
-            return;
-        }
-        if (keyNodeMap.size() >= capacity) {
-            Node evicted = freqListMap.get(minFreq).removeLast();
-            keyNodeMap.remove(evicted.key);
-        }
-        Node newNode = new Node(key, value);
-        keyNodeMap.put(key, newNode);
-        minFreq = 1;
-        freqListMap.computeIfAbsent(1, k -> new DLL()).addFirst(newNode);
-    }
-
-    private void update(Node node) {
-        int f = node.freq;
-        freqListMap.get(f).remove(node);
-        if (f == minFreq && freqListMap.get(f).isEmpty()) minFreq++;
-        node.freq++;
-        freqListMap.computeIfAbsent(node.freq, k -> new DLL()).addFirst(node);
-    }
-}
