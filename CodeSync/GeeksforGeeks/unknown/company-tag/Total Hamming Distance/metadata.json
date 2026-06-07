@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-07T17:50:19.788Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags MicrosoftNPCI",
+    "Company Tags",
+    "Microsoft",
+    "NPCI",
+    "Topic Tags",
+    "Bit Magic",
+    "Data Structures"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Total Hamming Distance",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/bit-manipulation-bonus-problems/problem/total-hamming-distance",
+  "submissionId": "5wcd5v"
+}
