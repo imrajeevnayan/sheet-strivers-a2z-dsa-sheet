@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T11:16:17.411Z",
-  "runtime": "1004 ms",
+  "submissionTimestamp": "2026-06-07T12:03:20.797Z",
+  "runtime": "568 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "Ninja’s Training",
-  "problemUrl": "https://www.naukri.com/code360/problems/longest-palindromic-subsequence_842787",
-  "submissionId": "f32gc5"
+  "problemUrl": "https://www.naukri.com/code360/problems/elements-occur-more-than-n-k-times_1113146",
+  "submissionId": "1at58f"
 }
