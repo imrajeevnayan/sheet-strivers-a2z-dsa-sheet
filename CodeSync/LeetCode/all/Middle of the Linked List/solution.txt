@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: Middle of the Linked List
+ * URL: https://leetcode.com/problems/middle-of-the-linked-list/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Linked List, Two Pointers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T06:30:42.993Z
+ */
+
+class Solution {
+    public ListNode middleNode(ListNode head) {
+        
+    }
+        
+}
