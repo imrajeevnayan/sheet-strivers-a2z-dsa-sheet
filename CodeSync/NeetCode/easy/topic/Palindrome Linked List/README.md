@@ -7,7 +7,7 @@
 - Runtime: 68ms
 - Memory: 63.3 MB
 - Problem URL: https://neetcode.io/problems/palindrome-linked-list/history?list=allNC&submissionIndex=0
-- Synced: 2026-06-07T11:33:17.324Z
+- Synced: 2026-06-07T11:35:20.322Z
 
 ## Problem Description
 
