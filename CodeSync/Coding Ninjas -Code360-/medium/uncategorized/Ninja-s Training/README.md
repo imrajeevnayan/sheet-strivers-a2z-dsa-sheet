@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Medium
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 739 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/minimum-cost-bst_3210619
-- Synced: 2026-06-07T11:12:32.457Z
+- Problem URL: https://www.naukri.com/code360/problems/best-time-to-buy-and-sell-stock_1080698
+- Synced: 2026-06-07T11:13:46.052Z
 
 ## Problem Description
 
