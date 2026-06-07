@@ -7,11 +7,11 @@
 - Runtime: 936 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/minimum-characters-for-palindrome_893000
-- Synced: 2026-06-07T11:11:23.192Z
+- Synced: 2026-06-07T11:11:27.778Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
