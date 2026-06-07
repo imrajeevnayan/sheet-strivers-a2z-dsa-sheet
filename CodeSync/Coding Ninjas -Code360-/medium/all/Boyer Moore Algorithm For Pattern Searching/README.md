@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/boyer-moore-algorithm-for-pattern-searching_1115634
-- Synced: 2026-06-03T11:49:47.446Z
+- Synced: 2026-06-07T17:52:36.829Z
 
 ## Problem Description
 
