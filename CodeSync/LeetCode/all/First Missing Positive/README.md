@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/first-missing-positive/description/
-- Synced: 2026-06-07T09:06:04.184Z
+- Synced: 2026-06-07T09:06:08.942Z
 
 ## Problem Description
 
