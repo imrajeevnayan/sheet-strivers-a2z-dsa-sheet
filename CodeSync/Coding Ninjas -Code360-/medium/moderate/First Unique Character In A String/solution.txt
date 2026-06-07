@@ -1,0 +1,30 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: First Unique Character In A String
+ * URL: https://www.naukri.com/code360/problems/first-unique-character-in-a-string_893404
+ * Language: Java (SE 1.8)
+ * Difficulty: Medium
+ * Topics: Moderate Clear all, Moderate
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T17:41:58.559Z
+ */
+
+import java.util.*;
+import java.io.*;
+public class Solution {
+    public static ArrayList<Character> firstNonRepeating(String stream) {
+        ArrayList<Character> res = new ArrayList<>();
+        int[] freq = new int[26];
+        Queue<Character> q = new LinkedList<>();
+ 
+        for (char c : stream.toCharArray()) {
+            freq[c - 'a']++;
+            q.offer(c);
+ 
+            while (!q.isEmpty() && freq[q.peek() - 'a'] > 1)q.poll();
+            if (!q.isEmpty()) res.add(q.peek());
+        }
+        return res;
+    }
+}
