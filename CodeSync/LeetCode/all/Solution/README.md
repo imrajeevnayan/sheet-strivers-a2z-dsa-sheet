@@ -6,8 +6,8 @@
 - Topics: Database
 - Runtime: 90 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/department-top-three-salaries/
-- Synced: 2026-06-07T06:25:35.828Z
+- Problem URL: https://leetcode.com/problems/department-top-three-salaries/submissions/2025066398/
+- Synced: 2026-06-07T06:27:04.393Z
 
 ## Problem Description
 
