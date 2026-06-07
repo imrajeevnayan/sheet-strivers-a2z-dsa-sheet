@@ -4,10 +4,10 @@
 - Language: head
 - Difficulty: Easy
 - Topics: Easy Topics Company Tags, Topics, Company Tags, Linked List Two Pointers Stack Recursion, Linked List, Two Pointers, Stack, Recursion
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://neetcode.io/problems/palindrome-linked-list/question?list=allNC
-- Synced: 2026-06-07T11:33:14.170Z
+- Runtime: 68ms
+- Memory: 63.3 MB
+- Problem URL: https://neetcode.io/problems/palindrome-linked-list/history?list=allNC&submissionIndex=0
+- Synced: 2026-06-07T11:33:17.324Z
 
 ## Problem Description
 
