@@ -7,11 +7,11 @@
 - Runtime: 1004 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/longest-palindromic-subsequence_842787
-- Synced: 2026-06-07T11:16:12.722Z
+- Synced: 2026-06-07T11:16:17.411Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
