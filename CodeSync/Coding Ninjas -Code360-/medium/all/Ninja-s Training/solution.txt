@@ -1,33 +1,29 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Ninja’s Training
- * URL: https://www.naukri.com/code360/problems/longest-repeating-subsequence_1062697
+ * URL: https://www.naukri.com/code360/problems/loot-houses_630510
  * Language: Java (SE 1.8)
  * Difficulty: Medium
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 602 ms
  * Memory: N/A
- * Synced: 2026-06-07T17:45:59.213Z
+ * Synced: 2026-06-07T19:21:54.721Z
  */
 
-import java.util.*;
-import java.io.*;
- 
 public class Solution {
-    public static int LRS(String str) {
-        int n = str.length();
-        int[][] dp = new int[n + 1][n + 1];
+    public static int maxMoneyLooted(int[] houses) {
+        if (houses == null || houses.length == 0) return 0;
+        if (houses.length == 1) return houses[0];
  
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= n; j++) {
-                if (str.charAt(i - 1) == str.charAt(j - 1) && i != j) {
-                    dp[i][j] = dp[i - 1][j - 1] + 1;
-                } 
-                else {
-                    dp[i][j] = Math.max(dp[i - 1][j], dp[i][j - 1]);
-                }
-            }
+        int prev2 = houses[0];
+        int prev1 = Math.max(houses[0], houses[1]);
+ 
+        for (int i = 2; i < houses.length; i++) {
+            int curr = Math.max(prev1, houses[i] + prev2);
+            prev2 = prev1;
+            prev1 = curr;
         }
-        return dp[n][n];
+ 
+        return prev1;
     }
 }
