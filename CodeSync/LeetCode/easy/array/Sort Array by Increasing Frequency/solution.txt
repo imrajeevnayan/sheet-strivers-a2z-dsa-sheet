@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:54:22.669Z
+ * Synced: 2026-06-07T09:54:26.104Z
  */
 
 Map<Integer, Integer> map = new HashMap<>();
