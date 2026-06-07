@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-07T05:49:55.605Z",
+  "submissionTimestamp": "2026-06-07T05:50:23.331Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Find the Peaks",
-  "problemUrl": "https://leetcode.com/problems/find-the-peaks/description/",
-  "submissionId": "slvoav"
+  "problemUrl": "https://leetcode.com/problems/find-the-peaks/",
+  "submissionId": "fb9yib"
 }
