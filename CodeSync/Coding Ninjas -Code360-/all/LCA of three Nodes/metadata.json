@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T11:09:20.394Z",
-  "runtime": "540 ms",
+  "submissionTimestamp": "2026-06-07T11:11:23.192Z",
+  "runtime": "936 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/shuffle-two-strings_1115692",
-  "submissionId": "sd5dvw"
+  "problemUrl": "https://www.naukri.com/code360/problems/minimum-characters-for-palindrome_893000",
+  "submissionId": "e87f1p"
 }
