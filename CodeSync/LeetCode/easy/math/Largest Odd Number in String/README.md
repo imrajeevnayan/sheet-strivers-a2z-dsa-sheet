@@ -4,10 +4,10 @@
 - Language: String
 - Difficulty: Easy
 - Topics: Math, String, Greedy
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/largest-odd-number-in-string/description/?envType=problem-list-v2&envId=string
-- Synced: 2026-06-07T18:37:32.653Z
+- Problem URL: https://leetcode.com/problems/largest-odd-number-in-string/submissions/2025653312/?envType=problem-list-v2&envId=string
+- Synced: 2026-06-07T18:37:52.866Z
 
 ## Problem Description
 
