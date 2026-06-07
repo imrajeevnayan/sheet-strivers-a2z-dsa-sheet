@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Hash Table, String
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 43.34 MB
 - Problem URL: https://leetcode.com/problems/second-largest-digit-in-a-string/submissions/2025651925/?envType=problem-list-v2&envId=string
-- Synced: 2026-06-07T18:36:10.359Z
+- Synced: 2026-06-07T18:36:16.926Z
 
 ## Problem Description
 
