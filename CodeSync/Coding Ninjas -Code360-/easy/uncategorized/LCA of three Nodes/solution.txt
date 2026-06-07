@@ -1,34 +1,35 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/reverse-list-in-k-groups_983644
+ * URL: https://www.naukri.com/code360/problems/longest-valid-parentheses_1089563
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 2209 ms
+ * Runtime: 1613 ms
  * Memory: N/A
- * Synced: 2026-06-07T18:49:20.178Z
+ * Synced: 2026-06-07T18:54:27.681Z
  */
 
+import java.util.*;
 public class Solution {
-    public static Node kReverse(Node head, int k) {
-        Node temp = head;
-        int count = 0;
-        while (temp != null && count < k) {
-            temp = temp.next;
-            count++;
-        }
-        
-        if (count < k) return head;
+    public static int longestValidParentheses(String s) {
+        Deque<Integer> stack = new ArrayDeque<>();
+        stack.push(-1); // Base marker
+        int maxLen = 0;
  
-        Node prev = null, curr = head, next = null;
-        for (int i = 0; i < k; i++) {
-            next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                stack.push(i);
+            } else {
+                stack.pop();
+                if (stack.isEmpty()) {
+                    stack.push(i); // New base after invalid ')'
+                } else {
+                    maxLen = Math.max(maxLen, i - stack.peek());
+                }
+            }
         }
-        head.next = kReverse(curr, k);
-        return prev;
+ 
+        return maxLen;
     }
 }
