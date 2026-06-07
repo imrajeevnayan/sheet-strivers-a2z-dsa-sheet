@@ -1,21 +1,24 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/problem/365/record?showListFe=false&page=1&problemTypeId=4&pageSize=50
+ * URL: https://www.lintcode.com/problem/380/description
  * Language: Java
  * Difficulty: Unknown
- * Topics: Test Data Test Output
+ * Topics: Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Test Output, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-31T19:07:22.683Z
+ * Synced: 2026-06-07T17:46:44.159Z
  */
 
 public·class·Solution·{
-····/**
-·····*·@param·num:·An·integer
-·····*·@return:·An·integer,·the·number·of·ones·in·num
-·····*/
-····public·int·countOnes(int·num)·{
-········//·write·your·code·here
+····public·ListNode·getIntersectionNode(ListNode·headA,·ListNode·headB)·{
+·······if(headA==null·||·headB==null)return·null;
+·······ListNode·a=headA;
+·······ListNode·b=headB;
+·······while(a·!=b){
+···········a=(a==null)?·headB:a.next;
+···········b=(b==null)?headA:b.next;
+·······}
+·······return·b;
 ····}
 }
