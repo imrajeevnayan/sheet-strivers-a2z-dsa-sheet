@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find the Difference
- * URL: https://leetcode.com/problems/find-the-difference/submissions/2025094221/
+ * URL: https://leetcode.com/problems/find-the-difference/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, String, Bit Manipulation, Sorting
  * Runtime: 0 ms
  * Memory: 43.29 MB
- * Synced: 2026-06-07T06:59:13.584Z
+ * Synced: 2026-06-07T06:59:18.668Z
  */
 
 class Solution {
