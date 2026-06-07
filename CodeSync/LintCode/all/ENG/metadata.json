@@ -1,20 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-07T10:49:10.588Z",
+  "submissionTimestamp": "2026-06-07T17:47:07.859Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
-  "difficulty": "Medium",
+  "difficulty": "Unknown",
   "tags": [
-    "Linked List",
-    "Bloomberg Airbnb Amazon Microsoft",
-    "Bloomberg",
-    "Airbnb",
-    "Amazon",
-    "Microsoft",
-    "Test Data Commit Output"
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Python",
+  "language": "PHP",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/380/",
-  "submissionId": "acvins"
+  "problemUrl": "https://www.lintcode.com/problem/3189/",
+  "submissionId": "xalu74"
 }
