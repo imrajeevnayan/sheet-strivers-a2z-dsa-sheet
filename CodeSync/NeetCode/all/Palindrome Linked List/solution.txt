@@ -1,17 +1,17 @@
 /*
  * Platform: NeetCode
  * Problem: Palindrome Linked List
- * URL: https://neetcode.io/problems/palindrome-linked-list/history?list=allNC&submissionIndex=0
+ * URL: https://neetcode.io/problems/palindrome-linked-list/history?list=allNC
  * Language: head
  * Difficulty: Easy
  * Topics: Easy Topics Company Tags, Topics, Company Tags, Linked List Two Pointers Stack Recursion, Linked List, Two Pointers, Stack, Recursion
- * Runtime: 68ms
- * Memory: 63.3 MB
- * Synced: 2026-06-07T11:35:20.322Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T11:58:01.536Z
  */
 
-class Solution {
-    public boolean isPalindrome(ListNode head) {
-        Stack<Integer>st=new Stack<>();
-        ListNode curr=head;
+ListNode curr=head;
         while(curr!=null){
+        Stack<Integer>st=new Stack<>();
+    public boolean isPalindrome(ListNode head) {
+class Solution {
