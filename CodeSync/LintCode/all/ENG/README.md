@@ -1,18 +1,18 @@
 # ENG
 
 - Platform: LintCode
-- Language: PHP
+- Language: Python
 - Difficulty: Unknown
-- Topics: Test Data Test Output
+- Topics: Hash TableString, Hash Table, String, Bloomberg Amazon Microsoft Google, Bloomberg, Amazon, Microsoft, Google
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/3189/
-- Synced: 2026-06-07T17:47:07.859Z
+- Problem URL: https://www.lintcode.com/problem/209/
+- Synced: 2026-06-07T18:04:32.874Z
 
 ## Problem Description
 
-Description After learning PHP inheritance, Xiao Ming wants to write a subclass Son to inherit from the parent class Father and override the method send_message in Fater. The Father class and the Son class are provided, please write code in the Solution.php file to implement the above functionality, and override the method by returning Son method.. Please write your code in the Solution.php file under // write your code here. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information Example The question does not have any input data, and when the above question requirements are met, it will print on the console. Son method. If the Son class does not inherit from the Father class, then the console will print. Please inherit the Father class. Related Knowledge 学习《PHP 面向对象》课程中的1.7继承相关内容 ，了解更多相关知识！ Recommend Courses 简历/BQ/项目 面试软技能指导 FLAG高级工程师深度BQ辅导，简历打造+1V1模拟面试，反面试套路、高效上岸！
+Description Given a string and find the first unique character in a given string. You can assume that there is at least one unique character in the string. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information Example Example 1: Input: "abaccdeff" Output: 'b' Explanation: There is only one 'b' and it is the first one. Example 2: Input: "aabccd" Output: 'b' Explanation: 'b' is the first one. Tags Company Bloomberg Amazon Microsoft Google Related Problems 157 Unique Characters Easy 960 First Unique Number in Data Stream II Medium 1233 Sort Characters By Frequency Medium Recommend Courses 0基础入门数据分析 进阶大厂刚需高薪人才，熟练掌握SQL、Python、Tableau、A/Btest等实用技能工具，配套100+数据题夯实基础
 
 ## Explanation
 
-This solution was accepted on LintCode using PHP. The detected topics are Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Python. The detected topics are Hash TableString, Hash Table, String, Bloomberg Amazon Microsoft Google, Bloomberg, Amazon, Microsoft, Google. Review the synced source file for the implementation details.
