@@ -1,25 +1,24 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/problem/1319/solution/93772
- * Language: ALL(12) Java(8) Python 3(4) C++(4) JavaScript(2)
+ * URL: https://www.lintcode.com/problem/380/solution/93775
+ * Language: ALL(37) Python 3(16) Java(14) C++(10)
  * Difficulty: Unknown
- * Topics: Highlight, More, Java Python 3 C++ JavaScript, Java, Python 3, C++, JavaScript, @param
+ * Topics: Highlight, @param, @return, More, Java Python 3 C++, Java, Python 3, C++
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T07:43:52.294Z
+ * Synced: 2026-06-07T10:54:49.447Z
  */
 
 public·class·Solution·{
-····public·boolean·containsNearbyDuplicate(int[]·nums,·int·k)·{
-······Map<Integer,Integer>map=new·HashMap<>();
-······for(int·i=0;i<nums.length;i++){
-··········if(map.containsKey(nums[i])){
-··············int·prevIdx=map.get(nums[i]);
-··············if(i-prevIdx·<=k)return·true;
-··········}
-··········map.put(nums[i],i);
-······}
-······return·false;
+····public·ListNode·getIntersectionNode(ListNode·headA,·ListNode·headB)·{
+·······if(headA==null·||·headB==null)return·null;
+·······ListNode·a=headA;
+·······ListNode·b=headB;
+·······while(a·!=b){
+···········a=(a==null)?·headB:a.next;
+···········b=(b==null)?headA:b.next;
+·······}
+·······return·b;
 ····}
 }
