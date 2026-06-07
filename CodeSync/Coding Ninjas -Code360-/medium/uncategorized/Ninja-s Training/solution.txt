@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 568 ms
  * Memory: N/A
- * Synced: 2026-06-07T12:03:20.797Z
+ * Synced: 2026-06-07T12:03:23.426Z
  */
 
 import java.util.*;
@@ -17,8 +17,7 @@ import java.util.ArrayList;
 public class Solution {
     public static ArrayList<Integer> countTheNumber(ArrayList<Integer> arr, int n, int k) {
         Map<Integer, Integer> freq = new HashMap<>();
-        for (int num : arr) {
-            freq.put(num, freq.getOrDefault(num, 0) + 1);
+        for (int num : arr)freq.put(num, freq.getOrDefault(num, 0) + 1);
         
  
         ArrayList<Integer> result = new ArrayList<>();
