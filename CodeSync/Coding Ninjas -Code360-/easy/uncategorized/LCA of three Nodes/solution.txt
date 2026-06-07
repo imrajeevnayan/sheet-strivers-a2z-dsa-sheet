@@ -1,13 +1,13 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/kth-minimum-floor_1115470
+ * URL: https://www.naukri.com/code360/problems/first-unique-character-in-a-string_893404
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T12:08:01.851Z
+ * Synced: 2026-06-07T12:10:17.749Z
  */
 
 import java.util.*;
@@ -15,23 +15,24 @@ import java.io.*;
 import java.util.ArrayList;
  
 public class Solution {
-    public static int kMinFloor(ArrayList<ArrayList<Integer>> squareCity, int n, int k) {
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]);
+    public static ArrayList<Character> firstNonRepeating(String stream) {
+        ArrayList<Character> result = new ArrayList<>();
+        int[] freq = new int[26];
+        Queue<Character> queue = new LinkedList<>();
  
-        for (int i = 0; i < n; i++) {
-            pq.offer(new int[]{squareCity.get(i).get(0), i, 0});
-        }
-        int result = 0;
-        for (int i = 0; i < k; i++) {
-            int[] curr = pq.poll();
-            result = curr[0];
-            int row = curr[1];
-            int col = curr[2];
+        for (char c : stream.toCharArray()) {
+            freq[c - 'a']++;
+            queue.offer(c);
  
-            if (col + 1 < n) {
-                pq.offer(new int[]{squareCity.get(row).get(col + 1), row, col + 1});
+            while (!queue.isEmpty() && freq[queue.peek() - 'a'] > 1) {
+                queue.poll();
+            }
+ 
+            if (!queue.isEmpty()) {
+                result.add(queue.peek());
             }
         }
+ 
         return result;
     }
 }
