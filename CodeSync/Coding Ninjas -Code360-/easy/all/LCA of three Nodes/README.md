@@ -7,7 +7,7 @@
 - Runtime: 886 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/median-in-a-stream_975268
-- Synced: 2026-06-07T11:04:22.723Z
+- Synced: 2026-06-07T11:04:27.231Z
 
 ## Problem Description
 
