@@ -1,0 +1,18 @@
+# Sort Array by Increasing Frequency
+
+- Platform: LeetCode
+- Language: Problem List
+- Difficulty: Easy
+- Topics: Array, Hash Table, Sorting
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/sort-array-by-increasing-frequency/description/
+- Synced: 2026-06-07T08:57:30.469Z
+
+## Problem Description
+
+Given an array of integers nums, sort the array in increasing order based on the frequency of the values. If multiple values have the same frequency, sort them in decreasing order. Return the sorted array. Example 1: Input: nums = [1,1,2,2,2,3] Output: [3,1,1,2,2,2] Explanation: '3' has a frequency of 1, '1' has a frequency of 2, and '2' has a frequency of 3. Example 2: Input: nums = [2,3,1,3,2] Output: [1,3,3,2,2] Explanation: '2' and '3' both have a frequency of 2, so they are sorted in decreasing order. Example 3: Input: nums = [-1,1,-6,4,5,-6,1,4,1] Output: [5,-1,4,4,-6,-6,1,1,1] Constraints: 1 <= nums.length <= 100 -100 <= nums[i] <= 100
+
+## Explanation
+
+This solution was accepted on LeetCode using Problem List. The detected topics are Array, Hash Table, Sorting. Review the synced source file for the implementation details.
