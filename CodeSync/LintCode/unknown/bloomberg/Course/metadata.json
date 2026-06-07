@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-07T10:54:54.485Z",
+  "submissionTimestamp": "2026-06-07T17:46:44.159Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -10,11 +10,12 @@
     "Airbnb",
     "Amazon",
     "Microsoft",
-    "Test Data Test Output"
+    "Test Data Test Output",
+    "Dynamic Programming"
   ],
   "platform": "LintCode",
-  "language": "Python",
+  "language": "Java",
   "problemTitle": "Course",
   "problemUrl": "https://www.lintcode.com/problem/380/description",
-  "submissionId": "ibfr6d"
+  "submissionId": "q8uqlt"
 }
