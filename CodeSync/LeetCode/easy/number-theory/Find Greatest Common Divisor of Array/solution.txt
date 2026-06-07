@@ -7,7 +7,7 @@
  * Topics: Array, Math, Number Theory
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T12:55:23.270Z
+ * Synced: 2026-06-07T12:55:37.316Z
  */
 
 class Solution {
@@ -20,5 +20,9 @@ class Solution {
         }
         return gcd(max,min);
     }
-    static int gcd(int a,int b)
+    static int gcd(int a,int b){
+        while(b!=0){
+            int tem
+        }
+    }
 }
