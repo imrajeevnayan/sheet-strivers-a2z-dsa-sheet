@@ -1,36 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Ninja’s Training
- * URL: https://www.naukri.com/code360/problems/buy-and-sell-stock_1071012
+ * URL: https://www.naukri.com/code360/problems/minimum-cost-bst_3210619
  * Language: Java (SE 1.8)
  * Difficulty: Medium
  * Topics: Uncategorized
- * Runtime: 2652 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T11:07:17.834Z
+ * Synced: 2026-06-07T11:12:27.894Z
  */
 
-public class Solution {
-    public static int maxProfit(int[] prices) {
-        int n = prices.length;
-        if (n < 2) return 0;
+import java.util.*;
+import java.io.*;
  
-        int[] left = new int[n];
-        int minPrice = prices[0];
-        for (int i = 1; i < n; i++) {
-            minPrice = Math.min(minPrice, prices[i]);
-            left[i] = Math.max(left[i - 1], prices[i] - minPrice);
-        }
-        int[] right = new int[n];
-        int maxPrice = prices[n - 1];
-        for (int i = n - 2; i >= 0; i--) {
-            maxPrice = Math.max(maxPrice, prices[i]);
-            right[i] = Math.max(right[i + 1], maxPrice - prices[i]);
-        }
-        int maxProfit = 0;
+public class Solution {
+    public static int minCostBST(int arr[], int freq[]) {
+        int n = arr.length;
+        int[][] dp = new int[n][n];
+        int[] prefixSum = new int[n + 1];
+ 
         for (int i = 0; i < n; i++) {
-            maxProfit = Math.max(maxProfit, left[i] + right[i]);
+            prefixSum[i + 1] = prefixSum[i] + freq[i];
         }
-        return maxProfit;
+ 
+        for (int len = 1; len <= n; len++) {
+            for (int i = 0; i <= n - len; i++) {
+                int j = i + len - 1;
+                dp[i][j] = Integer.MAX_VALUE;
+                int sum = prefixSum[j + 1] - prefixSum[i];
+ 
+                for (int k = i; k <= j; k++) {
+                    int left = (k > i) ? dp[i][k - 1] : 0;
+                    int right = (k < j) ? dp[k + 1][j] : 0;
+                    dp[i][j] = Math.min(dp[i][j], left + right + sum);
+                }
+            }
+        }
+ 
+        return dp[0][n - 1];
     }
-}
