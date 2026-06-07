@@ -7,7 +7,7 @@
  * Topics: Array, Math, Number Theory
  * Runtime: 1 ms
  * Memory: 44.90 MB
- * Synced: 2026-06-07T12:54:14.382Z
+ * Synced: 2026-06-07T12:54:20.596Z
  */
 
 Input: nums = [2,5,6,9,10]
