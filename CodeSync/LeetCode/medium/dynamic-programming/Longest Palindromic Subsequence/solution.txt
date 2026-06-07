@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Longest Palindromic Subsequence
- * URL: https://leetcode.com/problems/longest-palindromic-subsequence/
+ * URL: https://leetcode.com/problems/longest-palindromic-subsequence/submissions/2025324768/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: String, Dynamic Programming
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-07T12:00:08.925Z
+ * Runtime: 0 ms
+ * Memory: 63.68 MB
+ * Synced: 2026-06-07T12:00:24.610Z
  */
 
 class Solution {
@@ -25,7 +25,6 @@ class Solution {
                 }
             }
         }
-
         return dp[n][n];
         
     }
