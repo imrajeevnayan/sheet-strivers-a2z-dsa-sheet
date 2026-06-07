@@ -7,7 +7,7 @@
  * Topics: Array, Enumeration
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T05:54:42.655Z
+ * Synced: 2026-06-07T05:54:53.053Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
        ArrayList<Integer>ans=new ArrayList<>();
        for(int i=1;i<mountain.length-1;i++){
         if(mountain[i]> mountain[i-1]&& mountain[i]>mountain[i+1]){
-            ans.add(mo)
+            ans.add()
         }
        }
     }
