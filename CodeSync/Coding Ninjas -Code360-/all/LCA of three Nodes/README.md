@@ -7,11 +7,11 @@
 - Runtime: 808 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/multiply-strings_982763
-- Synced: 2026-06-07T18:59:31.104Z
+- Synced: 2026-06-07T18:59:35.251Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVE Get key word suggestions of your code
 
 ## Explanation
 
