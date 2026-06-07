@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 3011 ms
+- Runtime: 982 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/second-largest-element-in-the-array_873375
-- Synced: 2026-06-07T19:22:54.465Z
+- Problem URL: https://www.naukri.com/code360/problems/longest-unique-substring_630418
+- Synced: 2026-06-07T19:24:25.599Z
 
 ## Problem Description
 
-Problem description was not available on the page at sync time.
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
