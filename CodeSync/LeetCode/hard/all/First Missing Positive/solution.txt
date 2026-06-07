@@ -1,0 +1,23 @@
+/*
+ * Platform: LeetCode
+ * Problem: First Missing Positive
+ * URL: https://leetcode.com/problems/first-missing-positive/description/
+ * Language: Problem List
+ * Difficulty: Hard
+ * Topics: Array, Hash Table
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T09:06:04.184Z
+ */
+
+class Solution {
+    public int firstMissingPositive(int[] nums) {
+        Arrays.sort(nums);
+        int res=1;
+        for(int i=0;i<nums.length;i++){
+            if(nums[i]==res)res++;
+            else if(nums[i]> res)break;
+        }
+        return res;
+    }
+}
