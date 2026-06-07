@@ -7,7 +7,7 @@
  * Topics: Array, Divide and Conquer, Sorting, Heap (Priority Queue), Quickselect
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-07T06:15:44.375Z
+ * Synced: 2026-06-07T06:15:46.470Z
  */
 
 class Solution {
