@@ -4,10 +4,10 @@
 - Language: headA
 - Difficulty: Easy
 - Topics: Easy Topics Company Tags, Topics, Company Tags, Hash Table Linked List Two Pointers, Hash Table, Linked List, Two Pointers
-- Runtime: 72ms
-- Memory: 63.4 MB
-- Problem URL: https://neetcode.io/problems/intersection-of-two-linked-lists/history?list=allNC&submissionIndex=0
-- Synced: 2026-06-07T11:29:58.773Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://neetcode.io/problems/palindrome-linked-list/question?list=allNC
+- Synced: 2026-06-07T11:30:10.345Z
 
 ## Problem Description
 
