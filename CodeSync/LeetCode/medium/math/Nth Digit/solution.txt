@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Nth Digit
+ * URL: https://leetcode.com/problems/nth-digit/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Math, Binary Search
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T06:04:27.207Z
+ */
+
+class Solution {
+    public int findNthDigit(int n) {
+        
+    }
+}
