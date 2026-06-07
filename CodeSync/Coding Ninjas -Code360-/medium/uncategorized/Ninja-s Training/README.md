@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Medium
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 602 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/longest-repeating-subsequence_1062697
-- Synced: 2026-06-07T17:45:59.213Z
+- Problem URL: https://www.naukri.com/code360/problems/loot-houses_630510
+- Synced: 2026-06-07T19:21:54.721Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
