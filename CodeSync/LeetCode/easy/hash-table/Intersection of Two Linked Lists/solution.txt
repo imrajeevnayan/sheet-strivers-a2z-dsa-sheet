@@ -7,7 +7,7 @@
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T10:04:09.077Z
+ * Synced: 2026-06-07T10:04:13.163Z
  */
 
 public class Solution {
@@ -16,7 +16,7 @@ public class Solution {
         ListNode A = headA;
         ListNode B = headB;
         while (A != B) {
-            A = (A == null) ? headB : pA.next;
+            A = (A == null) ? headB : A.next;
             pB = (pB == null) ? headA : pB.next;
         }
         return pB;
