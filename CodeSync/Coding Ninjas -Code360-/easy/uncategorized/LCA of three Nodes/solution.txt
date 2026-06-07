@@ -1,41 +1,29 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/palindrom-linked-list_799352
+ * URL: https://www.naukri.com/code360/problems/cycle-detection-in-a-singly-linked-list_628974
  * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 1531 ms
+ * Runtime: 2491 ms
  * Memory: N/A
- * Synced: 2026-06-07T19:16:30.177Z
+ * Synced: 2026-06-07T19:20:27.221Z
  */
 
-import java.util.* ;
-import java.io.*; 
-import java.util.Stack;
- 
 public class Solution {
-    public static boolean isPalindrome(LinkedListNode<Integer> head) {
-        if (head == null || head.next == null) return true;
+    public static boolean detectCycle(Node head) {
+        if (head == null || head.next == null) return false;
  
-        Stack<Integer> stack = new Stack<>();
-        LinkedListNode<Integer> curr = head;
+        Node slow = head;
+        Node fast = head;
  
-        // Push ALL elements
-        while (curr != null) {
-            stack.push(curr.data);
-            curr = curr.next;
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
+ 
+            if (slow == fast) return true;
         }
  
-        // Pop and compare with forward traversal
-        curr = head;
-        while (curr != null) {
-            if (!stack.pop().equals(curr.data)) {
-                return false;
-            }
-            curr = curr.next;
-        }
- 
-        return true;
+        return false;
     }
 }
