@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 3199 ms
+- Runtime: 4501 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/check-if-two-given-strings-are-isomorphic-to-each-other_1117636
-- Synced: 2026-06-06T18:32:58.121Z
+- Problem URL: https://www.naukri.com/code360/problems/code-merge-sort_5907
+- Synced: 2026-06-07T11:00:30.376Z
 
 ## Problem Description
 
