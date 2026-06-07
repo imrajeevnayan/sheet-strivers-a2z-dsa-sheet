@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: 74.16 MB
 - Problem URL: https://leetcode.com/problems/first-missing-positive/submissions/2025193271/
-- Synced: 2026-06-07T09:07:29.313Z
+- Synced: 2026-06-07T09:07:37.546Z
 
 ## Problem Description
 
