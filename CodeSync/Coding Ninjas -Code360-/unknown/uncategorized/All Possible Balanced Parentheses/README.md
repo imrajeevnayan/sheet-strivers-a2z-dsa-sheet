@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problem-of-the-day/easy
-- Synced: 2026-06-07T18:46:27.095Z
+- Synced: 2026-06-07T18:46:32.128Z
 
 ## Problem Description
 
