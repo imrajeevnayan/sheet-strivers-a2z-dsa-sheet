@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Medium
 - Topics: Uncategorized
-- Runtime: 2652 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/buy-and-sell-stock_1071012
-- Synced: 2026-06-07T11:07:17.834Z
+- Problem URL: https://www.naukri.com/code360/problems/minimum-cost-bst_3210619
+- Synced: 2026-06-07T11:12:27.894Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
