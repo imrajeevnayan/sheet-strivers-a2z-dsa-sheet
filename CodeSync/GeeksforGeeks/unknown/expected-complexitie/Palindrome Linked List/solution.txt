@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Accolite, Amazon, Microsoft, Snapdeal, MakeMyTrip, Adobe
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:18:43.929Z
+ * Synced: 2026-06-07T09:18:47.446Z
  */
 
 class Solution{
@@ -19,7 +19,7 @@ public boolean isPalindrome(Node head) {
         curr = curr.next;
     }
 
-curr = head;
+     curr = head;
     while (curr != null) {
         if (curr.data != st.pop()) {
             return false;
