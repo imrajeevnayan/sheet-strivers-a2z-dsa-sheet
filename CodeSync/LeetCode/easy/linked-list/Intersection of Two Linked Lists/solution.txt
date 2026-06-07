@@ -7,7 +7,7 @@
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T10:04:20.404Z
+ * Synced: 2026-06-07T10:04:21.910Z
  */
 
 public class Solution {
@@ -19,6 +19,6 @@ public class Solution {
             A = (A == null) ? headB : A.next;
             B = (B == null) ? headA : B.next;
         }
-        return pB;
+        return B;
     }
 }
