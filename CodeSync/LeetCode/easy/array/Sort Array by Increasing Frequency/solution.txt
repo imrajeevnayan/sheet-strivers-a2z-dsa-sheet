@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Sorting
  * Runtime: 2 ms
  * Memory: 45.47 MB
- * Synced: 2026-06-07T09:58:26.587Z
+ * Synced: 2026-06-07T09:58:29.739Z
  */
 
 if (!map.get(a).equals(map.get(b))) return map.get(a) - map.get(b); // Lower first
@@ -20,11 +20,11 @@ if (!map.get(a).equals(map.get(b))) return map.get(a) - map.get(b); // Lower fir
         for (int num : nums)map.put(num, map.getOrDefault(num, 0) + 1);
         for (int i = 0; i < nums.length; i++) {
             result[i] = pq.poll();
-        }
+        
 
         return result;
     }
         Map<Integer, Integer> map = new HashMap<>();
     public int[] frequencySort(int[] nums) {
-        
+
 }
