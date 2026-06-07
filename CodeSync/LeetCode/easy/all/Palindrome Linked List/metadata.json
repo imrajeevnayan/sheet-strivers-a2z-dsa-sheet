@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-04T06:54:29.177Z",
+  "submissionTimestamp": "2026-06-07T11:30:36.922Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Palindrome Linked List",
-  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/description/?utm=codolio",
-  "submissionId": "lp3su6"
+  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/",
+  "submissionId": "go7c3z"
 }
