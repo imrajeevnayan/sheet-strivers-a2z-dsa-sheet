@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Find the Peaks
- * URL: https://leetcode.com/problems/find-the-peaks/description/
+ * URL: https://leetcode.com/problems/find-the-peaks/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Enumeration
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T05:49:55.605Z
+ * Synced: 2026-06-07T05:49:58.619Z
  */
 
 class Solution {
@@ -15,4 +15,5 @@ class Solution {
         
     }
         ArrayList<Integer>ans=new ArrayList<>();
+        
 }
