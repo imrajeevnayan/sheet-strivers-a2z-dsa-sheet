@@ -1,0 +1,33 @@
+/*
+ * Platform: LeetCode
+ * Problem: House Robber
+ * URL: https://leetcode.com/problems/house-robber/submissions/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T10:02:53.623Z
+ */
+
+private int solve(int[] nums, int idx, int[] dp) {
+        if (idx >= nums.length) {
+            return 0;
+        }
+
+        if (dp[idx] != -1) {
+            return dp[idx];
+        }
+
+        int take = nums[idx] + solve(nums, idx + 2, dp);
+        int skip = solve(nums, idx + 1, dp);
+
+        dp[idx] = Math.max(take, skip);
+    }
+        return solve(nums, 0, dp);
+            dp[i] = -1;
+        }
+        int[] dp = new int[nums.length];
+        for (int i = 0; i < nums.length; i++) {
+    public int rob(int[] nums) {
+class Solution {
