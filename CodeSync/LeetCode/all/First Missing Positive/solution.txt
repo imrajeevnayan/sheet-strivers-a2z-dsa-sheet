@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: First Missing Positive
- * URL: https://leetcode.com/problems/first-missing-positive/description/
+ * URL: https://leetcode.com/problems/first-missing-positive/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Hash Table
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:06:08.942Z
+ * Synced: 2026-06-07T09:06:41.579Z
  */
 
 class Solution {
