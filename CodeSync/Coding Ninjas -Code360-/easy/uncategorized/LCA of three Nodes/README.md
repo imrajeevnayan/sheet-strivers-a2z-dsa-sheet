@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 936 ms
+- Runtime: 559 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/minimum-characters-for-palindrome_893000
-- Synced: 2026-06-07T11:11:27.778Z
+- Problem URL: https://www.naukri.com/code360/problems/largest-rectangle-in-a-histogram_1058184
+- Synced: 2026-06-07T11:14:37.694Z
 
 ## Problem Description
 
