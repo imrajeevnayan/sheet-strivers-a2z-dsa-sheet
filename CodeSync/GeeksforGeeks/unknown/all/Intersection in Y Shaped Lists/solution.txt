@@ -1,0 +1,44 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Intersection in Y Shaped Lists
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/LL-bonus-problem/problem/check-if-linked-list-is-pallindrome
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, VMWare, Flipkart, Accolite, Amazon, Microsoft, Snapdeal
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T09:20:02.385Z
+ */
+
+class Solution {
+    public Node intersectPoint(Node head1, Node head2) {
+        int len1 = getLength(head1);
+        int len2 = getLength(head2);
+
+        while (len1 > len2) {
+            head1 = head1.next;
+            len1--;
+        }
+        while (len2 > len1) {
+            head2 = head2.next;
+            len2--;
+        }
+
+        while (head1 != null && head2 != null) {
+            if (head1 == head2) return head1; // Intersection found
+            head1 = head1.next;
+            head2 = head2.next;
+      }
+
+        return null; // No intersection
+    }
+
+    private int getLength(Node head) {
+        int count = 0;
+        while (head != null) {
+            count++;
+            head = head.next;
+        }
+        return count;
+    }
+}
