@@ -1,0 +1,40 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: MaxFrequencyStack
+ * URL: https://www.naukri.com/code360/problems/maxfrequencystack_1262006
+ * Language: Java (SE 1.8)
+ * Difficulty: Hard
+ * Topics: Hard Moderate Clear all, Moderate
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-07T18:52:28.563Z
+ */
+
+import java.util.*;
+import java.io.*;
+ 
+public class FrequencyStack {
+    private Map<Integer, Integer> freqMap;
+    private Map<Integer, Deque<Integer>> groupMap;
+    private int maxFreq;
+ 
+    FrequencyStack() {
+        freqMap = new HashMap<>();
+        groupMap = new HashMap<>();
+        maxFreq = 0;
+    }
+ 
+    void push(int element) {
+        int freq = freqMap.getOrDefault(element, 0) + 1;
+        freqMap.put(element, freq);
+        maxFreq = Math.max(maxFreq, freq);
+ 
+        groupMap.computeIfAbsent(freq, k -> new ArrayDeque<>()).push(element);
+    }
+ 
+    int pop() {
+        Deque<Integer> stack = groupMap.get(maxFreq);
+        int element = stack.pop();
+ 
+        // Update frequency
+        freqMap.put(element, freqMap.get(element) - 1);
