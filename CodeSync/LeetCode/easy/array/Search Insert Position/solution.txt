@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Search Insert Position
- * URL: https://leetcode.com/problems/search-insert-position/description/
+ * URL: https://leetcode.com/problems/search-insert-position/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Binary Search
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-07T07:00:30.560Z
+ * Synced: 2026-06-07T07:00:54.220Z
  */
 
 class Solution {
