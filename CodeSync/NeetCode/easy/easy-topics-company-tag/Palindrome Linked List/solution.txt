@@ -7,12 +7,11 @@
  * Topics: Easy Topics Company Tags, Topics, Company Tags, Linked List Two Pointers Stack Recursion, Linked List, Two Pointers, Stack, Recursion
  * Runtime: 68ms
  * Memory: 63.3 MB
- * Synced: 2026-06-07T11:57:56.219Z
+ * Synced: 2026-06-07T11:57:59.550Z
  */
 
-if(st.pop()!=curr.val)return false;
-            curr=curr.next;
-        }
-        return true;
-    }
-}
+ListNode curr=head;
+        while(curr!=null){
+        Stack<Integer>st=new Stack<>();
+    public boolean isPalindrome(ListNode head) {
+class Solution {
