@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-07T11:35:20.322Z",
+  "submissionTimestamp": "2026-06-07T11:35:24.245Z",
   "runtime": "68ms",
   "memoryUsage": "63.3 MB",
   "difficulty": "Easy",
@@ -17,5 +17,5 @@
   "language": "head",
   "problemTitle": "Palindrome Linked List",
   "problemUrl": "https://neetcode.io/problems/palindrome-linked-list/history?list=allNC&submissionIndex=0",
-  "submissionId": "lkf7eb"
+  "submissionId": "5h7fic"
 }
