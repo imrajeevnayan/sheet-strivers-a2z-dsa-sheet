@@ -7,10 +7,10 @@
  * Topics: Easy Topics Company Tags, Topics, Company Tags, Hash Table Linked List Two Pointers, Hash Table, Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T11:27:31.774Z
+ * Synced: 2026-06-07T11:27:35.968Z
  */
 
-ublic class Solution {
+public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         
     }
