@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T09:53:21.707Z
+ * Synced: 2026-06-07T09:53:27.077Z
  */
 
 Map<Integer, Integer> map = new HashMap<>();
@@ -29,5 +29,4 @@ Map<Integer, Integer> map = new HashMap<>();
         return result;
     public int[] frequencySort(int[] nums) {
 class Solution {
-    }
-}
+                List<Integer> list = new ArrayList<>();
