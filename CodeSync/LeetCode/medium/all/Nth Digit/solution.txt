@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Nth Digit
- * URL: https://leetcode.com/problems/nth-digit/
+ * URL: https://leetcode.com/problems/nth-digit/submissions/2025056318/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Math, Binary Search
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-07T06:15:00.170Z
+ * Runtime: 0 ms
+ * Memory: 42.32 MB
+ * Synced: 2026-06-07T06:15:14.654Z
  */
 
 class Solution {
