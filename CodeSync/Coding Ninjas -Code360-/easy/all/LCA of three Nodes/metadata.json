@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T19:22:54.465Z",
-  "runtime": "3011 ms",
+  "submissionTimestamp": "2026-06-07T19:24:29.605Z",
+  "runtime": "982 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/second-largest-element-in-the-array_873375",
-  "submissionId": "qtw06h"
+  "problemUrl": "https://www.naukri.com/code360/problems/longest-unique-substring_630418",
+  "submissionId": "max4gm"
 }
