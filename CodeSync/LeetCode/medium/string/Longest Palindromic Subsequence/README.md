@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: String, Dynamic Programming
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/longest-palindromic-subsequence/
-- Synced: 2026-06-07T12:00:08.925Z
+- Problem URL: https://leetcode.com/problems/longest-palindromic-subsequence/submissions/2025324768/
+- Synced: 2026-06-07T12:00:21.775Z
 
 ## Problem Description
 
