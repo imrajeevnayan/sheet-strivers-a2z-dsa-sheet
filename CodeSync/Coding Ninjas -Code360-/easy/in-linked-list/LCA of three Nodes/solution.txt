@@ -1,0 +1,34 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: LCA of three Nodes
+ * URL: https://www.naukri.com/code360/problems/reverse-list-in-k-groups_983644
+ * Language: Java (SE 1.8)
+ * Difficulty: Easy
+ * Topics: in Linked List
+ * Runtime: 2209 ms
+ * Memory: N/A
+ * Synced: 2026-06-07T18:49:11.994Z
+ */
+
+public class Solution {
+    public static Node kReverse(Node head, int k) {
+        Node temp = head;
+        int count = 0;
+        while (temp != null && count < k) {
+            temp = temp.next;
+            count++;
+        }
+        
+        if (count < k) return head;
+ 
+        Node prev = null, curr = head, next = null;
+        for (int i = 0; i < k; i++) {
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        head.next = kReverse(curr, k);
+        return prev;
+    }
+}
