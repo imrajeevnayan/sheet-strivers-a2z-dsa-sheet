@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Math, Binary Search
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 42.32 MB
 - Problem URL: https://leetcode.com/problems/nth-digit/submissions/2025056318/
-- Synced: 2026-06-07T06:15:08.339Z
+- Synced: 2026-06-07T06:15:14.654Z
 
 ## Problem Description
 
