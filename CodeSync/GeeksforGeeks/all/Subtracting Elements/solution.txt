@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Subtracting Elements
+ * URL: https://www.geeksforgeeks.org/problems/make-array-zero-by-subtracting-equal-amounts/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Topic Tags, Greedy
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T12:00:39.157Z
+ */
+
+// User function Template for Java
+
+class Solution {
+    static int minimumOperations(int n, int nums[]) {
+        // code here
+    }
+}
