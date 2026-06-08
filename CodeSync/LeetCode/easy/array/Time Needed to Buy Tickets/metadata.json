@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-08T10:03:45.159Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-08T10:08:58.730Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.99 MB",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Queue",
   "problemTitle": "Time Needed to Buy Tickets",
-  "problemUrl": "https://leetcode.com/problems/time-needed-to-buy-tickets/?envType=problem-list-v2&envId=queue",
-  "submissionId": "c7gh25"
+  "problemUrl": "https://leetcode.com/problems/time-needed-to-buy-tickets/submissions/1918123463/?envType=problem-list-v2&envId=queue",
+  "submissionId": "9i3b0h"
 }
