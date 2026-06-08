@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-06-08T12:17:57.848Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Topic Tags Related Articles",
+    "Topic Tags",
+    "Strings",
+    "Data Structures",
+    "Related Articles",
+    "Lower Case Upper Case Interesting Fact"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def to_upper(self, str): return str.upper()",
+  "problemTitle": "For Python3 Platform",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/lower-case-to-upper-case3410/1",
+  "submissionId": "oz570z"
+}
