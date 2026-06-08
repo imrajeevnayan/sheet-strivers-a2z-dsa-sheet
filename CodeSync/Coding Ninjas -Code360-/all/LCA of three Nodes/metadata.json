@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-08T18:33:08.102Z",
-  "runtime": "753 ms",
+  "submissionTimestamp": "2026-06-08T18:33:37.102Z",
+  "runtime": "765 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "All languages",
   "problemTitle": "LCA of three Nodes",
   "problemUrl": "https://www.naukri.com/code360/problems/maximize-sum_1376445",
-  "submissionId": "sxqegd"
+  "submissionId": "ldudv4"
 }
