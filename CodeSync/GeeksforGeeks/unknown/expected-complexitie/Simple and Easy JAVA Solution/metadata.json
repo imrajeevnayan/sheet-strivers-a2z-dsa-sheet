@@ -1,20 +1,21 @@
 {
-  "submissionTimestamp": "2026-06-06T11:51:37.447Z",
+  "submissionTimestamp": "2026-06-08T11:56:33.655Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Expected Complexities",
+    "Company Tags Adobe",
+    "Company Tags",
+    "Adobe",
     "Topic Tags",
-    "Queue",
-    "Data Structures",
+    "CPP",
     "Related Articles",
-    "Queue Data Structure",
-    "Queue Operations"
+    "Program Binary Decimal Conversion"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution { public: unordered_map<int, int> mp; void enqueue(queue<int> &q, int k) { // code here q.push(k); mp[k]++; } int findFrequency(queue<int> &q, int k) { return mp[k]; // code here } };",
-  "problemTitle": "Simple and Easy JAVA Solution ::",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/queue-operations/1",
-  "submissionId": "wg6plt"
+  "language": "Java",
+  "problemTitle": "Simple and Easy JAVA Solution:",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/binary-to-decimal-1611122504--161115/1",
+  "submissionId": "cjskk5"
 }
