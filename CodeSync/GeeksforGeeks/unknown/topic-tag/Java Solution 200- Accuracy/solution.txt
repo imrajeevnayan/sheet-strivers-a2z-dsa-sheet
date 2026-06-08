@@ -7,17 +7,15 @@
  * Topics: Expected Complexities, Topic Tags, Mathematical, Algorithms, Related Articles, Program Average Array Iterative Recursive, Program For Mean And Median Of An Unsorted Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T16:36:40.375Z
+ * Synced: 2026-06-08T12:28:04.307Z
  */
 
 class Solution {
     public static int findMean(int[] arr) {
         int sum = 0;
-
         for (int num : arr) {
             sum += num;
         }
-
         return sum / arr.length;
     }
 }
