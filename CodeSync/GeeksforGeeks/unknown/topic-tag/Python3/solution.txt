@@ -7,12 +7,12 @@
  * Topics: Topic Tags, pattern-printing
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T12:03:53.521Z
+ * Synced: 2026-06-08T12:03:58.786Z
  */
 
 class Solution {
     void printTriangle(int n) {
-        // code here
+        int ans=1
         
     }
 }
