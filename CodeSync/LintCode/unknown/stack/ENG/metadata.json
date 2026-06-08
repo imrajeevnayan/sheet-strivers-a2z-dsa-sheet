@@ -1,19 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-04T17:24:33.404Z",
+  "submissionTimestamp": "2026-06-08T18:43:37.335Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "StackGreedy",
     "Stack",
-    "Greedy",
-    "Facebook",
-    "2506 Remove the Invalid Parentheses Easy",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Python",
+  "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/1721/",
-  "submissionId": "86v9vc"
+  "problemUrl": "https://www.lintcode.com/problem/268/",
+  "submissionId": "v9m52f"
 }
