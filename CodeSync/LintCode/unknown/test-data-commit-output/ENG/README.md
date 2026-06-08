@@ -1,18 +1,18 @@
 # ENG
 
 - Platform: LintCode
-- Language: Python
+- Language: Java
 - Difficulty: Unknown
-- Topics: Binary Search, Test Data Commit Output
+- Topics: Stack, Test Data Commit Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/159/
-- Synced: 2026-05-29T15:43:04.268Z
+- Problem URL: https://www.lintcode.com/problem/268/
+- Synced: 2026-06-08T18:44:45.049Z
 
 ## Problem Description
 
-Description Suppose a sorted array in ascending order is rotated at some pivot unknown to you beforehand. (i.e., 0 1 2 4 5 6 7 might become 4 5 6 7 0 1 2). Find the minimum element. No duplicate elements in the array. No duplicate elements in the array Example Example 1: Input：[4, 5, 6, 7, 0, 1, 2] Output：0 Explanation： The minimum value in an array is 0. Example 2: Input：[2,1] Output：1 Explanation： The minimum value in an array is 1. Tags Related Problems 63 Search in Rotated Sorted Array II Medium 160 Find Minimum in Rotated Sorted Array II Medium Recommend Courses Twitter 后端系统 - Python 项目实战 从0项目经验到深度后端项目操盘，FB架构师万行代码还原真实开发环境，14周简历镀金
+Description Given a balanced parentheses string S, compute the score of the string based on the following rule: () has score 1 AB has score A + B, where A and B are balanced parentheses strings. (A) has score 2 * A, where A is a balanced parentheses string. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information S is a balanced parentheses string, containing only ( and ). 2 <= S.length <= 50 Example Example 1: Input: "()" Output: 1 Example 2: Input: "(())" Output: 2 Example 3: Input: "()()" Output: 2 Example 4: Input: "(()(()))" Output: 6 Tags Recommend Courses ACM金牌逐行带刷班 最适合懒人的刷题课--躺平看算法大神在线coding，讲解思路+现场debug，手撕面试高频题
 
 ## Explanation
 
-This solution was accepted on LintCode using Python. The detected topics are Binary Search, Test Data Commit Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are Stack, Test Data Commit Output. Review the synced source file for the implementation details.
