@@ -4,10 +4,10 @@
  * URL: https://www.lintcode.com/problem/268/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Stack, Test Data Commit Output
+ * Topics: Stack, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T18:45:56.931Z
+ * Synced: 2026-06-08T18:46:15.882Z
  */
 
 ············else·{
@@ -21,12 +21,7 @@
 ········stack.push(0);
 ········Stack<Integer>·st=·new·Stack<>();
 ····public·int·parenthesesScore(String·s)·{
-public·class·Solution·{
-················else·stack.push(top·+·2·*·v);
-················
+················else·st.push(top·+·2·*·v);
 ············}
 ········}
-
-········return·stack.pop();
-····}
-}
+public·class·Solution·{
