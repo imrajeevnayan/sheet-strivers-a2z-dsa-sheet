@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-05-29T15:43:04.268Z",
+  "submissionTimestamp": "2026-06-08T18:44:45.049Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Binary Search",
+    "Stack",
     "Test Data Commit Output"
   ],
   "platform": "LintCode",
-  "language": "Python",
+  "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/159/",
-  "submissionId": "r8nln"
+  "problemUrl": "https://www.lintcode.com/problem/268/",
+  "submissionId": "g4jnnk"
 }
