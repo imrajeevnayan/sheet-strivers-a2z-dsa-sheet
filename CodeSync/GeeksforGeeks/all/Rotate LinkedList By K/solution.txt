@@ -1,0 +1,24 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Rotate LinkedList By K
+ * URL: https://www.geeksforgeeks.org/problems/rotate-linkedlist-by-k/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Java, Java-Collections
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T11:53:24.133Z
+ */
+
+class Solution {
+    public static void rotateByK(LinkedList<Integer> ll, int k) {
+        int n = ll.size();
+        if (n == 0) return;
+
+        k %= n;
+
+        for (int i = 0; i < k; i++) {
+            ll.addFirst(ll.removeLast());
+        }
+    }
+}
