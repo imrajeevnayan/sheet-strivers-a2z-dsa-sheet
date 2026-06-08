@@ -1,25 +1,21 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/1319/
+ * URL: https://www.lintcode.com/problem/268/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Hash Table, Palantir Technologies Palantir Airbnb, Palantir Technologies, Palantir, Airbnb, Test Data Test Output
+ * Topics: Stack, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T07:43:14.923Z
+ * Synced: 2026-06-08T18:43:37.335Z
  */
 
 public·class·Solution·{
-····public·boolean·containsNearbyDuplicate(int[]·nums,·int·k)·{
-······Map<Integer,Integer>map=new·HashMap<>();
-······for(int·i=0;i<nums.length;i++){
-··········if(map.containsKey(nums[i])){
-······}
-··············int·prevIdx=map.get(nums[i]);
-··········}
+····/**
+·····*·@param·s:·a·string·with·"("·and·")"
+·····*·@return:·return·the·score·of·the·string
+·····*/
+····public·int·parenthesesScore(String·s)·{
+········//·write·your·code·here
 ····}
-··············if(i-prevIdx·>=k)return·false;
-··········map.put(nums[i],i);
-······return·false;
 }
