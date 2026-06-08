@@ -5,9 +5,9 @@
  * Language: Queue
  * Difficulty: Easy
  * Topics: Array, Queue, Simulation
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-08T10:09:25.197Z
+ * Synced: 2026-06-08T10:09:28.379Z
  */
 
 class Solution {
