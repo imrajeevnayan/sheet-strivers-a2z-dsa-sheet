@@ -2,39 +2,39 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
  * URL: https://www.naukri.com/code360/problems/maximize-sum_1376445
- * Language: Java (SE 1.8)
+ * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 753 ms
+ * Runtime: 765 ms
  * Memory: N/A
- * Synced: 2026-06-08T18:33:25.100Z
+ * Synced: 2026-06-08T18:33:37.102Z
  */
 
-long new0, new1;
+import java.util.*;
+ 
+public class Solution {
+ 
+    public static int calculateMaximisedSum(int[] arr1, int[] arr2, int n) {
+ 
+        long dp0 = 0;
+        long dp1 = 0;
+ 
+        for (int i = 0; i < n; i++) {
+ 
+            long new0, new1;
  
             if (i == 0) {
-                // only internal edge |a-b|
                 new0 = Math.abs(arr1[i] - arr2[i]);
-                new1 = new0; // swapping doesn't change abs diff
+                new1 = new0;
             } else {
  
-                // if not swapped at i
                 new0 = Math.max(
                     dp0 + Math.abs(arr1[i] - arr2[i - 1]),
                     dp1 + Math.abs(arr1[i] - arr1[i - 1])
                 ) + Math.abs(arr1[i] - arr2[i]);
  
-                // if swapped at i
                 new1 = Math.max(
                     dp0 + Math.abs(arr2[i] - arr2[i - 1]),
                     dp1 + Math.abs(arr2[i] - arr1[i - 1])
                 ) + Math.abs(arr2[i] - arr1[i]);
             }
- 
-            dp0 = new0;
-            dp1 = new1;
-        }
- 
-        return (int)Math.max(dp0, dp1);
-    }
-}
