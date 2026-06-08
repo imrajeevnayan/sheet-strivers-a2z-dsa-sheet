@@ -1,27 +1,27 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/834/
- * Language: 1public class Solution { 2 public String removeDuplicateLetters(String s) { 3 int[] freq = new int[26]; 4 HashSet<Character> map = new HashSet<>(); 5 Stack<Character> st = new Stack<>(); 6 for (char c : s.toCharArray()) freq[c - 'a']++; 7 for (char c : s.toCharArray()) { 8 freq[c - 'a']--; 9 if (map.contains(c)) continue; 10 while (!st.isEmpty() && st.peek() > c && freq[st.peek() - 'a'] > 0) { 11 map.remove(st.pop()); 12 } 13 st.push(c); 14 map.add(c); 15 } 16 StringBuilder sb = new StringBuilder(); 17 for (char c : st) sb.append(c); 18 return sb.toString(); 19 20 } 21}
+ * URL: https://www.lintcode.com/problem/268/
+ * Language: 1public class Solution { 2 public int parenthesesScore(String s) { 3 Stack<Integer> st= new Stack<>(); 4 st.push(0); 5 6 for (char c : s.toCharArray()) { 7 if (c == '(') st.push(0); 8 else { 9 int v = st.pop(); 10 int top = st.pop(); 11 12 if (v == 0) st.push(top + 1); 13 else st.push(top + 2 * v); 14 } 15 } 16 17 return st.pop(); 18 } 19}
  * Difficulty: Unknown
- * Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Commit Output
+ * Topics: Stack, Test Data Commit Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T10:01:27.106Z
+ * Synced: 2026-06-08T18:46:43.068Z
  */
 
+············else·{
+················int·v·=·st.pop();
+················int·top·=·st.pop();
+
+················if·(v·==·0)·st.push(top·+·1);
+············if·(c·==·'(')·st.push(0);
+
 ········for·(char·c·:·s.toCharArray())·{
-············freq[c·-·'a']--;
-············if·(map.contains(c))·continue;
-············while·(!st.isEmpty()·&&·st.peek()·>·c·&&·freq[st.peek()·-·'a']·>·0)·{
-················map.remove(st.pop());
+········st.push(0);
+········Stack<Integer>·st=·new·Stack<>();
+····public·int·parenthesesScore(String·s)·{
+················else·st.push(top·+·2·*·v);
 ············}
-············st.push(c);
-············map.add(c);
 ········}
-········StringBuilder·sb·=·new·StringBuilder();
-········for·(char·c·:·st)·sb.append(c);
-········return·sb.toString();
-·····
-····}
-}
+public·class·Solution·{
