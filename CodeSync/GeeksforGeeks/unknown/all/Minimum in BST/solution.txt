@@ -1,0 +1,22 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Minimum in BST
+ * URL: https://www.geeksforgeeks.org/problems/minimum-element-in-bst/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T12:27:40.730Z
+ */
+
+class Solution {
+    public int minValue(Node root) {
+       if(root==null) return -1;
+       Node curr=root;
+       while(curr.left!=null){
+           curr=curr.left;
+       }
+       return curr.data;
+    }
+}
