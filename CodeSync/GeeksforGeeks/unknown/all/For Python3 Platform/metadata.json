@@ -1,21 +1,19 @@
 {
-  "submissionTimestamp": "2026-06-03T16:43:21.077Z",
+  "submissionTimestamp": "2026-06-08T12:17:57.848Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Expected Complexities",
-    "Company Tags WiproSAP Labs",
-    "Company Tags",
-    "Wipro",
-    "SAP Labs",
+    "Topic Tags Related Articles",
     "Topic Tags",
-    "Mathematical",
-    "Algorithms"
+    "Strings",
+    "Data Structures",
+    "Related Articles",
+    "Lower Case Upper Case Interesting Fact"
   ],
   "platform": "GeeksforGeeks",
-  "language": "from math import gcd from functools import reduce class Solution: def gcd(self, n, arr): return reduce(gcd, arr)",
+  "language": "class Solution: def to_upper(self, str): return str.upper()",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/gcd-of-array0614/1",
-  "submissionId": "csb40w"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/lower-case-to-upper-case3410/1",
+  "submissionId": "oz570z"
 }
