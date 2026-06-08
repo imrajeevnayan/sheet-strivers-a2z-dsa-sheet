@@ -1,0 +1,21 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Find Numbers Containing 1, 2, and 3
+ * URL: https://www.naukri.com/code360/problems/find-numbers-containing-1-2-and-3_1214521
+ * Language: Java (SE 1.8)
+ * Difficulty: Easy
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T18:19:04.419Z
+ */
+
+import java.util.* ;
+import java.io.*; 
+import java.util.ArrayList;
+ 
+public class Solution {
+    public static ArrayList<Integer> containsNumber(int n, ArrayList<Integer> arr) {
+        // Write your code here.
+    }
+}
