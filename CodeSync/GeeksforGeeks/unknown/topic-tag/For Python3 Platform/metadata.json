@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-08T12:22:49.120Z",
+  "submissionTimestamp": "2026-06-08T12:23:40.997Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -11,5 +11,5 @@
   "language": "class Solution: def printTriangle(self, N): for i in range(N, 0, -1): print(*range(1, i+1))",
   "problemTitle": "For Python3 Platform",
   "problemUrl": "https://www.geeksforgeeks.org/problems/triangle-number-1661489840/1",
-  "submissionId": "dss710"
+  "submissionId": "g4r5sl"
 }
