@@ -1,0 +1,35 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Score of Parentheses String
+ * URL: https://www.geeksforgeeks.org/problems/score-of-parentheses-string/1
+ * Language: class Solution { scoreOfParentheses(s) { let level = 0 let score = 0 for (let i = 0; i < s.length; i++) { if (s[i] === '(') { if (s[i + 1] === ')') score += 2 ** level else level++ } else if (s[i - 1] !== '(') level-- } return score } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Stack, Strings, Data Structures, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T18:42:47.067Z
+ */
+
+class Solution {
+    public int scoreOfParentheses(String s) {
+        Stack<Integer> stack = new Stack<>();
+        stack.push(0);
+
+        for (char c : s.toCharArray()) {
+            if (c == '(') {
+                stack.push(0);
+            } else {
+                int v = stack.pop();
+                int top = stack.pop();
+
+                if (v == 0) {
+                    stack.push(top + 1);
+                } else {
+                    stack.push(top + 2 * v);
+                }
+            }
+        }
+
+        return stack.pop();
+    }
+}
