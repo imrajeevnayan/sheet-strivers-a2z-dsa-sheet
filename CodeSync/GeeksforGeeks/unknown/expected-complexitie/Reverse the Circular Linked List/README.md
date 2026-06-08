@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/reverse-the-circular-linked-list/1
-- Synced: 2026-06-08T11:58:47.350Z
+- Synced: 2026-06-08T11:58:49.373Z
 
 ## Problem Description
 
