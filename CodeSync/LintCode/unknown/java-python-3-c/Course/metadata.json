@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-02T07:11:23.909Z",
+  "submissionTimestamp": "2026-06-08T18:46:54.157Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -10,12 +10,12 @@
     "Java",
     "Python 3",
     "C++",
-    "@param",
-    "@return"
+    "Python 3 Monotonic Stack",
+    "Monotonic Stack"
   ],
   "platform": "LintCode",
-  "language": "ALL(59) Java(31) Python 3(24) C++(9) Csharp(1)",
+  "language": "ALL(9) Java(6) Python 3(5) C++(3) JavaScript(1)",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/problem/363/solution/93750",
-  "submissionId": "36fkma"
+  "problemUrl": "https://www.lintcode.com/problem/268/solution/93780",
+  "submissionId": "gc78pr"
 }
