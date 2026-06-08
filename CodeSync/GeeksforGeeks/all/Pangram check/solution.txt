@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Pangram check
+ * URL: https://www.geeksforgeeks.org/problems/pangram-check--155158/1
+ * Language: C++ (17)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T12:16:26.012Z
+ */
+
+bool checkPangram(string &s) {
+    vector<bool> seen(26, false);
+
+    for (char ch : s) {
+        if (isalpha(ch)) {
+            ch = tolower(ch);
+            seen[ch - 'a'] = true;
+        }
+    }
+
+    for (bool v : seen) {
+        if (!v) return false;
+    }
+
+    return true;
+}
