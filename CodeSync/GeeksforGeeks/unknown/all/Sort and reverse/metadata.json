@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-08T11:48:00.283Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities Topic Tags",
+    "Expected Complexities",
+    "Topic Tags",
+    "STL"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "#include <algorithm> void sortAndReverse(vector<int> &arr) { // your code here sort(arr.begin(), arr.end()); reverse(arr.begin(), arr.end()); }",
+  "problemTitle": "Sort and reverse",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/sort-and-reverse--171030/1",
+  "submissionId": "q291au"
+}
