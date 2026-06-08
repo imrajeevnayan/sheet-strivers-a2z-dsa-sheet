@@ -1,0 +1,20 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Java Code
+ * URL: https://www.geeksforgeeks.org/problems/sorted-frequency/1
+ * Language: //Back-end complete function Template for Java class Solution { public static void freqSorted(int arr[]) { // Your Code Here HashMap<Integer,Integer> map = new HashMap<>(); for ( int i : arr ) { map.put(i,map.getOrDefault(i,0)+1); } for ( int num : map.keySet() ) { System.out.println(num+" "+map.get(num)); } } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Java, STL, Java-Collections
+ * Runtime: . S
+ * Memory: N/A
+ * Synced: 2026-06-08T12:18:51.043Z
+ */
+
+//Back-end complete function Template for Java
+
+class Solution {
+    public static void freqSorted(int arr[]) {
+        // Your Code Here
+        
+    }
+}
