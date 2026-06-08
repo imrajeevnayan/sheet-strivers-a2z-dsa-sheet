@@ -7,11 +7,11 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/median-marks_5848799
-- Synced: 2026-06-08T18:25:06.816Z
+- Synced: 2026-06-08T18:25:11.817Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVE Get key word suggestions of your code
+AutocompleteEXCLUSIVEGet key word suggestions of your code
 
 ## Explanation
 
