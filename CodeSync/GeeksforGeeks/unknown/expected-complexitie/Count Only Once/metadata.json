@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-06-08T12:03:01.314Z",
+  "runtime": ". S",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities Topic Tags",
+    "Expected Complexities",
+    "Topic Tags",
+    "Java",
+    "Java-Collections"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "public static int countOnce(ArrayList<Integer>arr) { HashSet<Integer> hs=new HashSet<>(arr); int count=0; for(Integer x:hs){ count++; } return count; } // M-2 // HashSet<Integer> hs=new HashSet<>(); // for(int i=0;i<arr.size();i++){ // hs.add(arr.get(i)); // } // return hs.size();",
+  "problemTitle": "Count Only Once",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-only-once/1",
+  "submissionId": "s87v1w"
+}
