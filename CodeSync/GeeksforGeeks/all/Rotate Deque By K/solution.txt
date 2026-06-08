@@ -1,0 +1,32 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Rotate Deque By K
+ * URL: https://www.geeksforgeeks.org/problems/rotate-deque-by-k/1
+ * Language: def rotateDeque(self, dq, tp, k): #code here k=k%len(dq) if tp==1: while k: dq.appendleft(dq.pop()) k-=1 else: while k: dq.append(dq.popleft()) k-=1 return dq
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, Data Structures, Deque
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T12:14:25.625Z
+ */
+
+class Solution {
+    public static void rotateDeque(Deque<Integer> dq, int type, int k) {
+        int n = dq.size();
+        if (n == 0) return;
+
+        k = k % n;
+
+        if (type == 1) {
+            // right rotation
+            for (int i = 0; i < k; i++) {
+                dq.addFirst(dq.removeLast());
+            }
+        } else {
+            // left rotation
+            for (int i = 0; i < k; i++) {
+                dq.addLast(dq.removeFirst());
+            }
+        }
+    }
+}
