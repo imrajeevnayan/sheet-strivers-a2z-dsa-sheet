@@ -1,19 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-08T12:18:10.662Z",
+  "submissionTimestamp": "2026-06-08T12:21:46.153Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Topic Tags Related Articles",
     "Topic Tags",
-    "Strings",
-    "Data Structures",
-    "Related Articles",
-    "Lower Case Upper Case Interesting Fact"
+    "pattern-printing"
   ],
   "platform": "GeeksforGeeks",
-  "language": "class Solution: def to_upper(self, str): return str.upper()",
+  "language": "class Solution: def printTriangle(self, N): for i in range(N, 0, -1): print(*range(1, i+1))",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/lower-case-to-upper-case3410/1",
-  "submissionId": "oz570z"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/triangle-number-1661489840/1",
+  "submissionId": "qxtjp0"
 }
