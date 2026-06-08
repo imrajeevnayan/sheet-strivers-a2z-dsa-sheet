@@ -1,0 +1,20 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sorted Frequency
+ * URL: https://www.geeksforgeeks.org/problems/sorted-frequency/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Java, STL, Java-Collections
+ * Runtime: . S
+ * Memory: N/A
+ * Synced: 2026-06-08T12:18:41.374Z
+ */
+
+//Back-end complete function Template for Java
+
+class Solution {
+    public static void freqSorted(int arr[]) {
+        // Your Code Here
+        
+    }
+}
