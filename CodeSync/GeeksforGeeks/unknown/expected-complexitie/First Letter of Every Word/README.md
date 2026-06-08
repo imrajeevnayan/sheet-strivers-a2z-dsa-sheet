@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/print-first-letter-of-every-word-in-the-string3632/1
-- Synced: 2026-06-08T12:27:59.356Z
+- Synced: 2026-06-08T12:28:11.352Z
 
 ## Problem Description
 
