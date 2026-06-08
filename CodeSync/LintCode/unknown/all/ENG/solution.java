@@ -7,7 +7,7 @@
  * Topics: Stack, Test Data Commit Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T18:44:45.049Z
+ * Synced: 2026-06-08T18:45:05.011Z
  */
 
 ············}·else·{
@@ -15,13 +15,13 @@
 ················int·top·=·stack.pop();
 
 ················if·(v·==·0)·{
+················stack.push(0);
+············if·(c·==·'(')·{
+
+········for·(char·c·:·s.toCharArray())·{
+········stack.push(0);
+········Stack<Integer>·stack·=·new·Stack<>();
+····public·int·parenthesesScore(String·s)·{
+public·class·Solution·{
 ····················stack.push(top·+·1);
 ················}·else·{
-····················stack.push(top·+·2·*·v);
-················}
-············}
-········}
-
-········return·stack.pop();
-····}
-}
