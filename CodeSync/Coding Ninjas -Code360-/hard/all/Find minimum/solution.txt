@@ -1,0 +1,40 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Find minimum
+ * URL: https://www.naukri.com/code360/problems/find-minimum_6826256
+ * Language: Java (SE 1.8)
+ * Difficulty: Hard
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T18:28:54.124Z
+ */
+
+public class Solution {
+ 
+    static boolean possible(int[] a, int n, int m, int x) {
+        int prev = 0;
+ 
+        for (int i = 0; i < n; i++) {
+            int cur = a[i];
+ 
+            if (cur + x >= m) {
+                int wrapped = (cur + x) % m;
+ 
+                if (prev <= wrapped || prev >= cur) {
+                    continue;
+                } else {
+                    prev = Math.max(prev, cur);
+                }
+            } else {
+                if (cur + x < prev) {
+                    return false;
+                }
+                prev = Math.max(prev, cur);
+            }
+        }
+ 
+        return true;
+    }
+ 
+    static int findMinimum(int n, int m, int[] a) {
