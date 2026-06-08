@@ -1,0 +1,16 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Sort and reverse
+ * URL: https://www.geeksforgeeks.org/problems/sort-and-reverse--171030/1
+ * Language: #include <algorithm> void sortAndReverse(vector<int> &arr) { // your code here sort(arr.begin(), arr.end()); reverse(arr.begin(), arr.end()); }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, STL
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T11:48:00.283Z
+ */
+
+void sortAndReverse(vector<int> &arr) {
+    sort(arr.begin(), arr.end());
+    reverse(arr.begin(), arr.end());
+}
