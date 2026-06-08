@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Time Needed to Buy Tickets
+ * URL: https://leetcode.com/problems/time-needed-to-buy-tickets/?envType=problem-list-v2&envId=queue
+ * Language: Queue
+ * Difficulty: Easy
+ * Topics: Array, Queue, Simulation
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T10:03:14.152Z
+ */
+
+class Solution {
+    public int timeRequiredToBuy(int[] tickets, int k) {
+        
+    }
+}
