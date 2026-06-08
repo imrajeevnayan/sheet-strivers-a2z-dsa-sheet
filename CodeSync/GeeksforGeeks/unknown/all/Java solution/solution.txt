@@ -1,0 +1,23 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Java solution
+ * URL: https://www.geeksforgeeks.org/problems/binary-number-to-decimal-number3525/1
+ * Language: // User function Template for Java class Solution { public int binaryToDecimal(String b) { int decimalValue = Integer.parseInt(b, 2); return decimalValue; } }
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T12:07:30.662Z
+ */
+
+class Solution {
+    public int binaryToDecimal(String b) {
+        int result = 0;
+
+        for (int i = 0; i < b.length(); i++) {
+            result = result * 2 + (b.charAt(i) - '0');
+        }
+
+        return result;
+    }
+}
