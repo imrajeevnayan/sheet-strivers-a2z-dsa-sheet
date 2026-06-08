@@ -1,0 +1,25 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Haha Easy!!
+ * URL: https://www.geeksforgeeks.org/problems/frequency-count/1
+ * Language: class Solution { public ArrayList<Integer> frequencyCount(int[] arr) { // code here LinkedHashMap<Integer,Integer> map = new LinkedHashMap<>(); for ( int num : arr ) { map.put(num,map.getOrDefault(num,0)+1); } return new ArrayList<>(map.values()); } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Java, Java-Collections
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T12:09:22.426Z
+ */
+
+class Solution {
+    public ArrayList<Integer> frequencyCount(int[] arr) {
+        LinkedHashMap<Integer, Integer> map = new LinkedHashMap<>();
+
+        for (int num:arr)map.put(num, map.getOrDefault(num, 0) + 1);
+        
+        ArrayList<Integer> result = new ArrayList<>();
+        for (int val : map.values()) {
+            result.add(val);
+        }
+        return result;
+    }
+}
