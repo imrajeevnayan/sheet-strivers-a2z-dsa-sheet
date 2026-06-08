@@ -7,7 +7,7 @@
  * Topics: Topic Tags, pattern-printing
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T12:04:49.936Z
+ * Synced: 2026-06-08T12:04:55.869Z
  */
 
 class Solution {
@@ -18,6 +18,7 @@ class Solution {
                 System.out.print(ans+" ");
                 ans++;
             }
+            Syste
         }
         
     }
