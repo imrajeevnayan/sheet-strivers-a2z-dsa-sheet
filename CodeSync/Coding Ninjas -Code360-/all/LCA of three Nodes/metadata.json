@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-08T18:27:01.248Z",
-  "runtime": "770 ms",
+  "submissionTimestamp": "2026-06-08T18:33:08.102Z",
+  "runtime": "753 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/search-in-the-array_1116099",
-  "submissionId": "tmefz6"
+  "problemUrl": "https://www.naukri.com/code360/problems/maximize-sum_1376445",
+  "submissionId": "sxqegd"
 }
