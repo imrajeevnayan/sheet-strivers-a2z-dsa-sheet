@@ -7,7 +7,7 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T10:13:32.961Z
+ * Synced: 2026-06-08T10:13:39.974Z
  */
 
 int option1 = robLinear(nums, 0, nums.length - 2);
@@ -27,7 +27,8 @@ int option1 = robLinear(nums, 0, nums.length - 2);
             int current = Math.max(prev1, prev2 + nums[i]);
         // Scenario 1: Exclude the last house
         
-        if (nums == null || nums.length == 0) return 0;
-        if (nums.length == 1) return nums[0];
-class Solution {
-    public int rob(int[] nums) {
+            prev2 = prev1;
+            prev1 = current;
+        }
+        return prev1;
+    }
