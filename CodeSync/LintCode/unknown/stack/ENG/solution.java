@@ -7,11 +7,21 @@
  * Topics: Stack, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T18:44:37.165Z
+ * Synced: 2026-06-08T18:44:38.830Z
  */
 
-public·class·Solution·{
-····public·int·parenthesesScore(String·s)·{
-·······
+············}·else·{
+················int·v·=·stack.pop();
+················int·top·=·stack.pop();
+
+················if·(v·==·0)·{
+····················stack.push(top·+·1);
+················}·else·{
+····················stack.push(top·+·2·*·v);
+················}
+············}
+········}
+
+········return·stack.pop();
 ····}
 }
