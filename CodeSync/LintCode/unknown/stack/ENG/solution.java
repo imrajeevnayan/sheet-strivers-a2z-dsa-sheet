@@ -7,7 +7,7 @@
  * Topics: Stack, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T18:46:26.522Z
+ * Synced: 2026-06-08T18:46:32.585Z
  */
 
 ············else·{
@@ -18,7 +18,7 @@
 ············if·(c·==·'(')·st.push(0);
 
 ········for·(char·c·:·s.toCharArray())·{
-········stack.push(0);
+········st.push(0);
 ········Stack<Integer>·st=·new·Stack<>();
 ····public·int·parenthesesScore(String·s)·{
 ················else·st.push(top·+·2·*·v);
