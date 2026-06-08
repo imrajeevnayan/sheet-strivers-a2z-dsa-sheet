@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Strings, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T12:25:55.744Z
+ * Synced: 2026-06-08T12:26:23.356Z
  */
 
 class Solution {
@@ -17,10 +17,9 @@ class Solution {
 
         for (String w : words) {
             if (w.length() > 0) {
-                result.append(word.charAt(0));
+                res.append(w.charAt(0));
             }
         }
-
-        return result.toString();
+        return res.toString();
     }
 }
