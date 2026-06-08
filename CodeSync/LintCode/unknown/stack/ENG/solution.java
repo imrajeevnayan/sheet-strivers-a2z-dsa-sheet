@@ -4,10 +4,10 @@
  * URL: https://www.lintcode.com/problem/268/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Stack, Test Data Test Output
+ * Topics: Stack, Test Data Commit Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T18:46:32.585Z
+ * Synced: 2026-06-08T18:46:38.415Z
  */
 
 ············else·{
