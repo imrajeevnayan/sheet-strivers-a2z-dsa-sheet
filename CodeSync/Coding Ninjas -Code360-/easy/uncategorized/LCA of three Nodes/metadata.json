@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-08T18:23:14.064Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-08T18:26:43.508Z",
+  "runtime": "770 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "All languages",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/find-numbers-containing-1-2-and-3_1214521",
-  "submissionId": "6lqfoa"
+  "problemUrl": "https://www.naukri.com/code360/problems/search-in-the-array_1116099",
+  "submissionId": "tmefz6"
 }
