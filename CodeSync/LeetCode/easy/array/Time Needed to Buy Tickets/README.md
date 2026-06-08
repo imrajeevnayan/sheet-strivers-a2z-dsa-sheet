@@ -6,8 +6,8 @@
 - Topics: Array, Queue, Simulation
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/time-needed-to-buy-tickets/?envType=problem-list-v2&envId=queue
-- Synced: 2026-06-08T10:09:28.379Z
+- Problem URL: https://leetcode.com/problems/time-needed-to-buy-tickets/submissions/2026239236/?envType=problem-list-v2&envId=queue
+- Synced: 2026-06-08T10:09:34.268Z
 
 ## Problem Description
 
