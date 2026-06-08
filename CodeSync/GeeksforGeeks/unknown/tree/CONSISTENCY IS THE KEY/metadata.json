@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-06-08T11:56:54.667Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Tree",
+    "Data Structures",
+    "Related Articles",
+    "Write A C Program To Calculate Size Of A Tree"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: size = 1 def getSize(self, root): # code here def traverse_tree(root): if root.left: self.size+=1 traverse_tree(root.left) if root.right: self.size+=1 traverse_tree(root.right) return traverse_tree(root) return self.size",
+  "problemTitle": "CONSISTENCY IS THE KEY...",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/size-of-binary-tree/1",
+  "submissionId": "ja2796"
+}
