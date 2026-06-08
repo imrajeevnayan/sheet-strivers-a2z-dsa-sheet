@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def deleteHead(self, head): temp = head head = head.next temp.next = None return head
+- Language: class Solution: def to_upper(self, str): return str.upper()
 - Difficulty: Unknown
-- Topics: Expected Complexities, Topic Tags, Linked List, Data Structures, Related Articles, Remove First Node Of The Linked List
+- Topics: Topic Tags Related Articles, Topic Tags, Strings, Data Structures, Related Articles, Lower Case Upper Case Interesting Fact
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/delete-head-of-linked-list/1
-- Synced: 2026-05-30T19:40:45.816Z
+- Problem URL: https://www.geeksforgeeks.org/problems/lower-case-to-upper-case3410/1
+- Synced: 2026-06-08T12:17:57.848Z
 
 ## Problem Description
 
-Given a Linked List, delete the head of the Linked List and return the new head of the modified Linked List. Note: Set the original head to NULL. Examples: Input: Output: 2 -> 3 -> 1 -> 7 Explanation: After deleting head from the given linked list, we'll be left with just 2 -> 3 -> 1 -> 7. Input: Output: 5 -> 7 -> 8 -> 99 -> 100 Explanation: After deleting head from the given linked list, we'll be left with just 5 -> 7 -> 8 -> 99 -> 100. Constraints: 1 ≤ number of nodes ≤ 105 1 ≤ node->data ≤ 105
+Given a string str containing only lowercase letters, generate a string with the same letters, but in uppercase. Example 1: Input: str = "geeks" Output: GEEKS Example 2: Input: str = "geeksforgeeks" Output: GEEKSFORGEEKS Your Task: You don't need to read input or print anything. Your task is to complete the function to_upper() which takes the string str as an argument and returns the resultant string. Expected Time Complexity: O(length of the string). Expected Auxiliary Space: O(1). Constraints: 1 ≤ length of the string ≤ 50
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using ''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def deleteHead(self, head): temp = head head = head.next temp.next = None return head. The detected topics are Expected Complexities, Topic Tags, Linked List, Data Structures, Related Articles, Remove First Node Of The Linked List. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution: def to_upper(self, str): return str.upper(). The detected topics are Topic Tags Related Articles, Topic Tags, Strings, Data Structures, Related Articles, Lower Case Upper Case Interesting Fact. Review the synced source file for the implementation details.
