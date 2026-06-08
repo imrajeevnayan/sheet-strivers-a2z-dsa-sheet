@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/house-robber-ii/?envType=problem-list-v2&envId=dxl0w3a1
-- Synced: 2026-06-08T10:12:34.086Z
+- Synced: 2026-06-08T10:12:47.191Z
 
 ## Problem Description
 
