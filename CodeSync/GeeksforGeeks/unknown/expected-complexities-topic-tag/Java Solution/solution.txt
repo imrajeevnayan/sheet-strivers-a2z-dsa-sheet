@@ -1,0 +1,34 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Java Solution
+ * URL: https://www.geeksforgeeks.org/problems/max-and-min-in-arraylist/1
+ * Language: class Solution { public static int maximumElement(ArrayList<Integer> arr) { // Your code here int max = Integer.MIN_VALUE; for ( int i : arr ) if ( i > max ) max = i; return max; } public static int minimumElement(ArrayList<Integer> arr) { int min = Integer.MAX_VALUE; for ( int i : arr ) if ( i < min ) min = i; return min; // Your code here } }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Java, Java-Collections
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T12:11:10.252Z
+ */
+
+class Solution {
+    public static int maximumElement(ArrayList<Integer> arr) {
+        int max = arr.get(0);
+        for (int i = 1; i < arr.size(); i++) {
+            if (arr.get(i) > max) {
+                max = arr.get(i);
+            }
+        }
+        return max;
+    }
+
+    public static int minimumElement(ArrayList<Integer> arr) {
+        int min = arr.get(0);
+
+        for (int i = 1; i < arr.size(); i++) {
+            if (arr.get(i) < min) {
+                min = arr.get(i);
+            }
+        }
+        return min;
+    }
+}
