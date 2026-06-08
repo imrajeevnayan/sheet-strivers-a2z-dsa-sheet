@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-07T19:24:31.601Z",
-  "runtime": "982 ms",
+  "submissionTimestamp": "2026-06-08T18:23:14.064Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/longest-unique-substring_630418",
-  "submissionId": "max4gm"
+  "problemUrl": "https://www.naukri.com/code360/problems/find-numbers-containing-1-2-and-3_1214521",
+  "submissionId": "6lqfoa"
 }
