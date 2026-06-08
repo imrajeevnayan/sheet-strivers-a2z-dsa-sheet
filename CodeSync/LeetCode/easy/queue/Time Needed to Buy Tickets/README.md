@@ -4,10 +4,10 @@
 - Language: Queue
 - Difficulty: Easy
 - Topics: Array, Queue, Simulation
-- Runtime: 0 ms
-- Memory: 42.99 MB
-- Problem URL: https://leetcode.com/problems/time-needed-to-buy-tickets/submissions/1918123463/?envType=problem-list-v2&envId=queue
-- Synced: 2026-06-08T10:08:58.730Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/time-needed-to-buy-tickets/?envType=problem-list-v2&envId=queue
+- Synced: 2026-06-08T10:09:11.116Z
 
 ## Problem Description
 
