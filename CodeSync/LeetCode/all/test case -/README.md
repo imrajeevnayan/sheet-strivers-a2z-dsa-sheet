@@ -4,10 +4,10 @@
 - Language: Blind 75 (Copy-oizxjoit)
 - Difficulty: Medium
 - Topics: Array, Dynamic Programming
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/house-robber-ii/?envType=problem-list-v2&envId=dxl0w3a1
-- Synced: 2026-06-08T10:13:39.974Z
+- Runtime: 0 ms
+- Memory: 43.01 MB
+- Problem URL: https://leetcode.com/problems/house-robber-ii/submissions/2026243411/?envType=problem-list-v2&envId=dxl0w3a1
+- Synced: 2026-06-08T10:13:58.544Z
 
 ## Problem Description
 
