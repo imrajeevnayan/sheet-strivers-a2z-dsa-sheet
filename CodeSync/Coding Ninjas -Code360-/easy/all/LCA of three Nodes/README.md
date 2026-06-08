@@ -7,7 +7,7 @@
 - Runtime: 753 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/maximize-sum_1376445
-- Synced: 2026-06-08T18:33:15.107Z
+- Synced: 2026-06-08T18:33:25.100Z
 
 ## Problem Description
 
