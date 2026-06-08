@@ -1,0 +1,31 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Search element in Vector
+ * URL: https://www.geeksforgeeks.org/problems/search-in-vector/1
+ * Language: #include <algorithm> #include <vector> using namespace std; bool binarySearch(vector<int>& arr, int k) { return binary_search(arr.begin(), arr.end(), k); }
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, STL
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T11:48:47.032Z
+ */
+
+class Solution {
+  public:
+    bool binarySearch(vector<int>& arr, int k) {
+        int low = 0, high = arr.size() - 1;
+        
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            
+            if (arr[mid] == k)
+                return true;
+            else if (arr[mid] < k)
+                low = mid + 1;
+            else
+                high = mid - 1;
+        }
+        
+        return false;
+    }
+};
