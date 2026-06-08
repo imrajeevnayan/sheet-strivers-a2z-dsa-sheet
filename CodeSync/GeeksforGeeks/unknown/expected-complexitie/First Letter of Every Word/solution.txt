@@ -7,13 +7,13 @@
  * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Strings, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T12:25:52.090Z
+ * Synced: 2026-06-08T12:25:55.744Z
  */
 
 class Solution {
     String firstAlphabet(String s) {
         String[] words = s.split(" ");
-        StringBuilder result = new StringBuilder();
+        StringBuilder res = new StringBuilder();
 
         for (String w : words) {
             if (w.length() > 0) {
