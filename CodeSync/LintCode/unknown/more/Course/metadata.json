@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-06-06T07:43:52.294Z",
+  "submissionTimestamp": "2026-06-08T18:46:54.157Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Highlight",
     "More",
-    "Java Python 3 C++ JavaScript",
+    "Java Python 3 C++",
     "Java",
     "Python 3",
     "C++",
-    "JavaScript",
-    "@param"
+    "Python 3 Monotonic Stack",
+    "Monotonic Stack"
   ],
   "platform": "LintCode",
-  "language": "ALL(12) Java(8) Python 3(4) C++(4) JavaScript(2)",
+  "language": "ALL(9) Java(6) Python 3(5) C++(3) JavaScript(1)",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/problem/1319/solution/93772",
-  "submissionId": "tpkyr6"
+  "problemUrl": "https://www.lintcode.com/problem/268/solution/93780",
+  "submissionId": "gc78pr"
 }
