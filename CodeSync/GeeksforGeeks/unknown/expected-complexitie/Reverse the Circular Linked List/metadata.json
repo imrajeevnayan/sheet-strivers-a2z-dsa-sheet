@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-08T11:58:47.350Z",
+  "submissionTimestamp": "2026-06-08T11:58:49.373Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "/* class Node { int data; Node next; Node(int x) { data = x; next = null; } } */ class Solution { public Node reverseCircular(Node head) { ArrayList<Integer> list = new ArrayList<>(); Node curr = head; do { list.add(curr.data); curr = curr.next; } while (curr != head); //O(N) Collections.reverse(list); // O(N) Node newHead = new Node(list.get(0)); Node temp = newHead; for (int i = 1; i < list.size(); i++) { temp.next = new Node(list.get(i)); temp = temp.next; //O(N) } // Step 4: Make it circular temp.next = newHead; return newHead; //TC : O(N) // SC : O(N) } }",
   "problemTitle": "Reverse the Circular Linked List",
   "problemUrl": "https://www.geeksforgeeks.org/problems/reverse-the-circular-linked-list/1",
-  "submissionId": "4tvrsg"
+  "submissionId": "ixebtz"
 }
