@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/triangle-number-1661428795/1
-- Synced: 2026-06-08T12:05:35.220Z
+- Synced: 2026-06-08T12:05:47.021Z
 
 ## Problem Description
 
