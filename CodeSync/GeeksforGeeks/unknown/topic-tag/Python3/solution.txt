@@ -7,7 +7,7 @@
  * Topics: Topic Tags, pattern-printing
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T12:04:47.719Z
+ * Synced: 2026-06-08T12:04:49.936Z
  */
 
 class Solution {
@@ -16,7 +16,7 @@ class Solution {
         for(int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
                 System.out.print(ans+" ");
-                ans
+                ans++;
             }
         }
         
