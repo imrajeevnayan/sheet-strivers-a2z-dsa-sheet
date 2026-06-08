@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-03T16:36:40.375Z",
+  "submissionTimestamp": "2026-06-08T12:28:04.307Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,5 +16,5 @@
   "language": "class Solution { public static int findMean(int[] arr) { int n = arr.length; int sum = 0; for(int num : arr) { sum += num; } int mean = sum/n; return mean; } };",
   "problemTitle": "Java Solution | 200% Accuracy",
   "problemUrl": "https://www.geeksforgeeks.org/problems/mean0021/1",
-  "submissionId": "deq2ef"
+  "submissionId": "283shh"
 }
