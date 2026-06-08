@@ -1,14 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-07T17:47:07.859Z",
+  "submissionTimestamp": "2026-06-08T18:43:37.335Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
+    "Stack",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "PHP",
+  "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/3189/",
-  "submissionId": "xalu74"
+  "problemUrl": "https://www.lintcode.com/problem/268/",
+  "submissionId": "v9m52f"
 }
