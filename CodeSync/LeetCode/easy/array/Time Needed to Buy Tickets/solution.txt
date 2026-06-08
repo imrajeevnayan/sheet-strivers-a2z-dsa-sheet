@@ -1,17 +1,26 @@
 /*
  * Platform: LeetCode
  * Problem: Time Needed to Buy Tickets
- * URL: https://leetcode.com/problems/time-needed-to-buy-tickets/submissions/?envType=problem-list-v2&envId=queue
+ * URL: https://leetcode.com/problems/time-needed-to-buy-tickets/submissions/1918123463/?envType=problem-list-v2&envId=queue
  * Language: Queue
  * Difficulty: Easy
  * Topics: Array, Queue, Simulation
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-08T10:08:56.397Z
+ * Runtime: 0 ms
+ * Memory: 42.99 MB
+ * Synced: 2026-06-08T10:08:58.730Z
  */
 
-class Solution {
-    public int timeRequiredToBuy(int[] tickets, int k) {
-        
-    }
-}
+1class Solution {
+2    public int timeRequiredToBuy(int[] tickets, int k) {
+3      int time=0;
+4      for(int i=0;i<tickets.length;i++){
+5        if(i <=k){
+6          time=time+Math.min(tickets[i],tickets[k]);
+7        }
+8        else{
+9          time=time+ Math.min(tickets[i],tickets[k]-1);
+10        }
+11      }
+12      return time;    
+13    }
+14}
