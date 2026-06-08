@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/rotate-deque-by-k/1
-- Synced: 2026-06-08T12:14:03.052Z
+- Synced: 2026-06-08T12:14:25.625Z
 
 ## Problem Description
 
