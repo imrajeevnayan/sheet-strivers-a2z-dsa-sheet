@@ -1,18 +1,18 @@
 # For Python3 Platform
 
 - Platform: GeeksforGeeks
-- Language: from math import gcd from functools import reduce class Solution: def gcd(self, n, arr): return reduce(gcd, arr)
+- Language: class Solution: def to_upper(self, str): return str.upper()
 - Difficulty: Unknown
-- Topics: Expected Complexities, Company Tags WiproSAP Labs, Company Tags, Wipro, SAP Labs, Topic Tags, Mathematical, Algorithms
+- Topics: Topic Tags Related Articles, Topic Tags, Strings, Data Structures, Related Articles, Lower Case Upper Case Interesting Fact
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/problems/gcd-of-array0614/1
-- Synced: 2026-06-03T16:43:21.077Z
+- Problem URL: https://www.geeksforgeeks.org/problems/lower-case-to-upper-case3410/1
+- Synced: 2026-06-08T12:17:57.848Z
 
 ## Problem Description
 
-Given an array of n positive integers, find the GCD of all the array elements. Example : Input: n = 3, arr = [1, 2, 3] Output: 1 Explanation: GCD of 1,2,3 is 1. Input: n = 4, arr = [2, 4, 6, 8] Output: 2 Explanation: Greatest common divisor of all the numbers is 2. Constraints: 1 ≤ N, arr[i] ≤ 105
+Given a string str containing only lowercase letters, generate a string with the same letters, but in uppercase. Example 1: Input: str = "geeks" Output: GEEKS Example 2: Input: str = "geeksforgeeks" Output: GEEKSFORGEEKS Your Task: You don't need to read input or print anything. Your task is to complete the function to_upper() which takes the string str as an argument and returns the resultant string. Expected Time Complexity: O(length of the string). Expected Auxiliary Space: O(1). Constraints: 1 ≤ length of the string ≤ 50
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using from math import gcd from functools import reduce class Solution: def gcd(self, n, arr): return reduce(gcd, arr). The detected topics are Expected Complexities, Company Tags WiproSAP Labs, Company Tags, Wipro, SAP Labs, Topic Tags, Mathematical, Algorithms. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using class Solution: def to_upper(self, str): return str.upper(). The detected topics are Topic Tags Related Articles, Topic Tags, Strings, Data Structures, Related Articles, Lower Case Upper Case Interesting Fact. Review the synced source file for the implementation details.
