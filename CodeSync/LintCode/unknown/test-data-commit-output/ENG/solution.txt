@@ -1,0 +1,27 @@
+/*
+ * Platform: LintCode
+ * Problem: ENG
+ * URL: https://www.lintcode.com/problem/268/
+ * Language: 1public class Solution { 2 public int parenthesesScore(String s) { 3 Stack<Integer> st= new Stack<>(); 4 st.push(0); 5 6 for (char c : s.toCharArray()) { 7 if (c == '(') st.push(0); 8 else { 9 int v = st.pop(); 10 int top = st.pop(); 11 12 if (v == 0) st.push(top + 1); 13 else st.push(top + 2 * v); 14 } 15 } 16 17 return st.pop(); 18 } 19}
+ * Difficulty: Unknown
+ * Topics: Stack, Test Data Commit Output
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T18:46:43.068Z
+ */
+
+············else·{
+················int·v·=·st.pop();
+················int·top·=·st.pop();
+
+················if·(v·==·0)·st.push(top·+·1);
+············if·(c·==·'(')·st.push(0);
+
+········for·(char·c·:·s.toCharArray())·{
+········st.push(0);
+········Stack<Integer>·st=·new·Stack<>();
+····public·int·parenthesesScore(String·s)·{
+················else·st.push(top·+·2·*·v);
+············}
+········}
+public·class·Solution·{
