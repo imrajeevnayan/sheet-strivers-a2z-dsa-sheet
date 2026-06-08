@@ -1,30 +1,21 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/263
+ * URL: https://www.lintcode.com/problem/268/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Stack, 2506 Remove the Invalid Parentheses Easy, Test Data Test Output
+ * Topics: Stack, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T07:34:24.193Z
+ * Synced: 2026-06-08T18:43:37.335Z
  */
 
 public·class·Solution·{
-····public·boolean·matchParentheses(String·string)·{
-········Stack<Character>·st·=·new·Stack<>();
-········for·(char·ch·:·string.toCharArray())·{
-············if·(ch·==·'('·||·ch·==·'{'·||·ch·==·'[')·st.push(ch);
-············else·{
-················if·(st.isEmpty())·return·false;
-················char·top·=·st.pop();
-················if·((ch·==·')'·&&·top·!=·'(')·||
-····················(ch·==·'}'·&&·top·!=·'{')·||
-····················(ch·==·']'·&&·top·!=·'['))·{
-····················return·false;
-················}
-············}
-········}
-········return·st.isEmpty();
+····/**
+·····*·@param·s:·a·string·with·"("·and·")"
+·····*·@return:·return·the·score·of·the·string
+·····*/
+····public·int·parenthesesScore(String·s)·{
+········//·write·your·code·here
 ····}
 }
