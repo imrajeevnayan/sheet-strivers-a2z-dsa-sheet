@@ -1,0 +1,18 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Pattern 6
+ * URL: https://www.geeksforgeeks.org/problems/triangle-number-1661489840/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Topic Tags, pattern-printing
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T12:21:32.345Z
+ */
+
+class Solution {
+    void printTriangle(int n) {
+        // code here
+        
+    }
+}
