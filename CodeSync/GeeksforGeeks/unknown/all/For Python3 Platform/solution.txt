@@ -1,23 +1,18 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: For Python3 Platform
- * URL: https://www.geeksforgeeks.org/problems/lower-case-to-upper-case3410/1
- * Language: class Solution: def to_upper(self, str): return str.upper()
+ * URL: https://www.geeksforgeeks.org/problems/triangle-number-1661489840/1
+ * Language: class Solution: def printTriangle(self, N): for i in range(N, 0, -1): print(*range(1, i+1))
  * Difficulty: Unknown
- * Topics: Topic Tags Related Articles, Topic Tags, Strings, Data Structures, Related Articles, Lower Case Upper Case Interesting Fact
+ * Topics: Topic Tags, pattern-printing
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T12:17:57.848Z
+ * Synced: 2026-06-08T12:21:57.648Z
  */
 
 class Solution {
-    String to_upper(String str) {
-        char[]ch=str.toCharArray();
-        for(int i=0;i<ch.length;i++){
-            if(ch[i] >='a'&& ch[i]<='z'){
-                ch[i]=(char)(ch[i]-32);
-            }
-        }
-        return new String(ch);
+    void printTriangle(int n) {
+        for(int i=n;i>=1;i++)
+        
     }
 }
