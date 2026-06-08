@@ -1,0 +1,16 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Lower case to upper case
+ * URL: https://www.geeksforgeeks.org/problems/lower-case-to-upper-case3410/1
+ * Language: Python3
+ * Difficulty: Unknown
+ * Topics: Topic Tags Related Articles, Topic Tags, Strings, Data Structures, Related Articles, Lower Case Upper Case Interesting Fact
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T12:17:24.428Z
+ */
+
+#User function Template for python3
+class Solution:
+    def to_upper(self, str):
+        # code here
