@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: test case :-
+ * URL: https://leetcode.com/problems/house-robber-ii/?envType=problem-list-v2&envId=dxl0w3a1
+ * Language: Blind 75 (Copy-oizxjoit)
+ * Difficulty: Medium
+ * Topics: Array, Dynamic Programming
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T10:12:34.086Z
+ */
+
+class Solution {
+    public int rob(int[] nums) {
+        
+    }
+}
