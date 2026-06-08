@@ -7,7 +7,7 @@
  * Topics: Stack, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T18:44:02.797Z
+ * Synced: 2026-06-08T18:44:10.798Z
  */
 
 class·Solution·{
@@ -25,11 +25,3 @@ class·Solution·{
 ················if·(v·==·0)·{
 ····················stack.push(top·+·1);
 ················}·else·{
-····················stack.push(top·+·2·*·v);
-················}
-············}
-········}
-
-········return·stack.pop();
-····}
-}
