@@ -1,13 +1,13 @@
 # ENG
 
 - Platform: LintCode
-- Language: Java
+- Language: 1public class Solution { 2 public int parenthesesScore(String s) { 3 Stack<Integer> st= new Stack<>(); 4 st.push(0); 5 6 for (char c : s.toCharArray()) { 7 if (c == '(') st.push(0); 8 else { 9 int v = st.pop(); 10 int top = st.pop(); 11 12 if (v == 0) st.push(top + 1); 13 else st.push(top + 2 * v); 14 } 15 } 16 17 return st.pop(); 18 } 19}
 - Difficulty: Unknown
 - Topics: Stack, Test Data Commit Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/268/
-- Synced: 2026-06-08T18:45:56.931Z
+- Synced: 2026-06-08T18:46:43.068Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Given a balanced parentheses string S, compute the score of the stri
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are Stack, Test Data Commit Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using 1public class Solution { 2 public int parenthesesScore(String s) { 3 Stack<Integer> st= new Stack<>(); 4 st.push(0); 5 6 for (char c : s.toCharArray()) { 7 if (c == '(') st.push(0); 8 else { 9 int v = st.pop(); 10 int top = st.pop(); 11 12 if (v == 0) st.push(top + 1); 13 else st.push(top + 2 * v); 14 } 15 } 16 17 return st.pop(); 18 } 19}. The detected topics are Stack, Test Data Commit Output. Review the synced source file for the implementation details.
