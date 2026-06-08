@@ -7,7 +7,7 @@
  * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Java, STL, Java-Collections
  * Runtime: . S
  * Memory: N/A
- * Synced: 2026-06-08T12:20:33.657Z
+ * Synced: 2026-06-08T12:20:50.784Z
  */
 
 class Solution {
@@ -18,7 +18,7 @@ class Solution {
             map.put(num, map.getOrDefault(num, 0) + 1);
         }
 
-       for (Integer key : map.keySet()) {
+       for (int key : map.keySet()) {
         System.out.println(key + " " + map.get(key));
          }
     }
