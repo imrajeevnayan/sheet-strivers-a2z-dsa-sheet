@@ -1,19 +1,19 @@
 {
-  "submissionTimestamp": "2026-05-30T19:40:45.816Z",
+  "submissionTimestamp": "2026-06-08T12:17:57.848Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Expected Complexities",
+    "Topic Tags Related Articles",
     "Topic Tags",
-    "Linked List",
+    "Strings",
     "Data Structures",
     "Related Articles",
-    "Remove First Node Of The Linked List"
+    "Lower Case Upper Case Interesting Fact"
   ],
   "platform": "GeeksforGeeks",
-  "language": "''' class Node: def __init__(self, data): self.data = data self.next = None ''' class Solution: def deleteHead(self, head): temp = head head = head.next temp.next = None return head",
+  "language": "class Solution: def to_upper(self, str): return str.upper()",
   "problemTitle": "For Python3 Platform",
-  "problemUrl": "https://www.geeksforgeeks.org/problems/delete-head-of-linked-list/1",
-  "submissionId": "qh5b4j"
+  "problemUrl": "https://www.geeksforgeeks.org/problems/lower-case-to-upper-case3410/1",
+  "submissionId": "oz570z"
 }
