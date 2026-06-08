@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-06-08T12:04:06.486Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Topic Tags",
+    "pattern-printing"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "for i in range(1,N+1): for j in range(1,i+1): print(i, end = \" \") print()",
+  "problemTitle": "Python3",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/triangle-number-1661428795/1",
+  "submissionId": "m998cj"
+}
