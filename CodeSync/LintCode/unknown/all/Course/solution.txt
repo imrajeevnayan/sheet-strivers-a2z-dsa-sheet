@@ -1,25 +1,31 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/problem/1319/solution/93772
- * Language: ALL(12) Java(8) Python 3(4) C++(4) JavaScript(2)
+ * URL: https://www.lintcode.com/problem/268/solution/93780
+ * Language: ALL(9) Java(6) Python 3(5) C++(3) JavaScript(1)
  * Difficulty: Unknown
- * Topics: Highlight, More, Java Python 3 C++ JavaScript, Java, Python 3, C++, JavaScript, @param
+ * Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, Python 3 Monotonic Stack, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-06T07:43:52.294Z
+ * Synced: 2026-06-08T18:46:54.157Z
  */
 
 public·class·Solution·{
-····public·boolean·containsNearbyDuplicate(int[]·nums,·int·k)·{
-······Map<Integer,Integer>map=new·HashMap<>();
-······for(int·i=0;i<nums.length;i++){
-··········if(map.containsKey(nums[i])){
-··············int·prevIdx=map.get(nums[i]);
-··············if(i-prevIdx·<=k)return·true;
-··········}
-··········map.put(nums[i],i);
-······}
-······return·false;
+····public·int·parenthesesScore(String·s)·{
+········Stack<Integer>·st=·new·Stack<>();
+········st.push(0);
+
+········for·(char·c·:·s.toCharArray())·{
+············if·(c·==·'(')·st.push(0);
+············else·{
+················int·v·=·st.pop();
+················int·top·=·st.pop();
+
+················if·(v·==·0)·st.push(top·+·1);
+················else·st.push(top·+·2·*·v);
+············}
+········}
+
+········return·st.pop();
 ····}
 }
