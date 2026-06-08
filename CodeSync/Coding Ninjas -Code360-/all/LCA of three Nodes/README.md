@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 982 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/longest-unique-substring_630418
-- Synced: 2026-06-07T19:24:31.601Z
+- Problem URL: https://www.naukri.com/code360/problems/find-numbers-containing-1-2-and-3_1214521
+- Synced: 2026-06-08T18:23:14.064Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
