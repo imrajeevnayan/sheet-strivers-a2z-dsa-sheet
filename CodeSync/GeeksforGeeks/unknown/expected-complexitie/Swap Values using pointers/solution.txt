@@ -1,0 +1,17 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Swap Values using pointers
+ * URL: https://www.geeksforgeeks.org/problems/magic-in-cpp--120640/1
+ * Language: C++ (17)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, cpp-pointers, CPP
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T11:50:06.437Z
+ */
+
+void swap(int *a, int *b) {
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
