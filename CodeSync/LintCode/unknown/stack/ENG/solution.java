@@ -7,7 +7,7 @@
  * Topics: Stack, Test Data Commit Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T18:44:56.900Z
+ * Synced: 2026-06-08T18:45:02.049Z
  */
 
 ············}·else·{
@@ -23,5 +23,5 @@
 ········Stack<Integer>·stack·=·new·Stack<>();
 ····public·int·parenthesesScore(String·s)·{
 public·class·Solution·{
-
-import·java.util.*;
+····················stack.push(top·+·1);
+················}·else·{
