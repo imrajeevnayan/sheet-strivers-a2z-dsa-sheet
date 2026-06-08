@@ -1,0 +1,17 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Product of Two Numbers
+ * URL: https://www.geeksforgeeks.org/problems/product-of-two-numbers/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Mathematical, Data Structures, Algorithms, Related Articles, Product Of Two Numbers
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T11:49:31.375Z
+ */
+
+class Solution {
+    static int product(int x, int y) {
+        return x * y;
+    }
+}
