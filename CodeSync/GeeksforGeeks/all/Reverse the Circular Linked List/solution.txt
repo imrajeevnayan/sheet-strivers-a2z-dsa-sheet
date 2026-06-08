@@ -7,35 +7,29 @@
  * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, circular linked list, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T11:58:38.156Z
+ * Synced: 2026-06-08T11:59:29.376Z
  */
-
-import java.util.Stack;
 
 class Solution {
     public Node reverseCircular(Node head) {
         if (head == null || head.next == head) return head;
         Stack<Node> stack = new Stack<>();
         Node curr = head;
-        // push all nodes into stack
-        do {
+
+        while (true) {
             stack.push(curr);
             curr = curr.next;
-        } while (curr != head);
+            if (curr == head) break;
+        }
 
-        // new head will be last node
         Node newHead = stack.pop();
         Node temp = newHead;
 
-        // rebuild reversed links
         while (!stack.isEmpty()) {
             temp.next = stack.pop();
             temp = temp.next;
         }
-
-        // make it circular again
         temp.next = newHead;
-
         return newHead;
     }
 }
