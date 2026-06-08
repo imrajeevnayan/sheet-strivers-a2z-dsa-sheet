@@ -1,13 +1,13 @@
 # LCA of three Nodes
 
 - Platform: Coding Ninjas (Code360)
-- Language: All languages
+- Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 770 ms
+- Runtime: 753 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/search-in-the-array_1116099
-- Synced: 2026-06-08T18:27:01.248Z
+- Problem URL: https://www.naukri.com/code360/problems/maximize-sum_1376445
+- Synced: 2026-06-08T18:33:08.102Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on Coding Ninjas (Code360) using All languages. Review the synced source file for the implementation details.
+This solution was accepted on Coding Ninjas (Code360) using Java (SE 1.8). Review the synced source file for the implementation details.
