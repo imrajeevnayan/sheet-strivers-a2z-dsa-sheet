@@ -1,0 +1,31 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: ArrayList Separate Even Odd
+ * URL: https://www.geeksforgeeks.org/problems/arraylist-separate-even-odd--141628/1
+ * Language: public static ArrayList<ArrayList<Integer>> evenOdd(ArrayList<Integer> numbers){ ArrayList<ArrayList<Integer>> combinedList = new ArrayList<>(); ArrayList<Integer> evenList = new ArrayList<>(); ArrayList<Integer> oddList = new ArrayList<>(); for(Integer number:numbers) { if(number%2 == 0) { evenList.add(number); } else { oddList.add(number); } } combinedList.add(evenList); combinedList.add(oddList); return combinedList; }
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T12:01:22.272Z
+ */
+
+class Solution {
+    public static ArrayList<ArrayList<Integer>> evenOdd(ArrayList<Integer> list) {
+        ArrayList<Integer> even = new ArrayList<>();
+        ArrayList<Integer> odd = new ArrayList<>();
+
+        for (int num : list) {
+            if (num % 2 == 0)
+                even.add(num);
+            else
+                odd.add(num);
+        }
+
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+        result.add(even);
+        result.add(odd);
+
+        return result;
+    }
+}
