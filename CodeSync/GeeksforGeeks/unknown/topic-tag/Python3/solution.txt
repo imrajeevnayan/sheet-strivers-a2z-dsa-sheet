@@ -7,14 +7,14 @@
  * Topics: Topic Tags, pattern-printing
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T12:06:00.259Z
+ * Synced: 2026-06-08T12:06:14.443Z
  */
 
 class Solution {
     void printTriangle(int n) {
         for(int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
-                System.out.print(j+" ");
+                System.out.print(i+" ");
             }
             System.out.println();
         }
