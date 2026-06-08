@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/max-and-min-in-arraylist/1
-- Synced: 2026-06-08T12:11:10.252Z
+- Synced: 2026-06-08T12:11:23.548Z
 
 ## Problem Description
 
