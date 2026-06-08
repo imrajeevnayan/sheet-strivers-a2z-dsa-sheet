@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-06-08T12:09:22.426Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities Topic Tags",
+    "Expected Complexities",
+    "Topic Tags",
+    "Java",
+    "Java-Collections"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { public ArrayList<Integer> frequencyCount(int[] arr) { // code here LinkedHashMap<Integer,Integer> map = new LinkedHashMap<>(); for ( int num : arr ) { map.put(num,map.getOrDefault(num,0)+1); } return new ArrayList<>(map.values()); } }",
+  "problemTitle": "Haha Easy!!",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/frequency-count/1",
+  "submissionId": "mfyq30"
+}
