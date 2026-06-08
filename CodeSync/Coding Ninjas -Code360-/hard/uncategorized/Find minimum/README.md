@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/find-minimum_6826256
-- Synced: 2026-06-08T18:28:48.124Z
+- Synced: 2026-06-08T18:28:54.124Z
 
 ## Problem Description
 
