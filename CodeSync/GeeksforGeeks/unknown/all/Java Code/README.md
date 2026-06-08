@@ -7,7 +7,7 @@
 - Runtime: . S
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/sorted-frequency/1
-- Synced: 2026-06-08T12:19:02.279Z
+- Synced: 2026-06-08T12:20:50.784Z
 
 ## Problem Description
 
