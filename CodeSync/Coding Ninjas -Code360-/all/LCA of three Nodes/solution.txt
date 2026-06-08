@@ -1,41 +1,40 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/search-in-the-array_1116099
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/maximize-sum_1376445
+ * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 770 ms
+ * Runtime: 753 ms
  * Memory: N/A
- * Synced: 2026-06-08T18:27:01.248Z
+ * Synced: 2026-06-08T18:33:08.102Z
  */
 
-import java.util.*;
-import java.io.*;
+long new0, new1;
  
-public class Solution {
-    public static ArrayList<Integer> searchInTheArray(ArrayList<Integer> arr,
-                                                      ArrayList<Integer> queries,
-                                                      int n, int q) {
+            if (i == 0) {
+                // only internal edge |a-b|
+                new0 = Math.abs(arr1[i] - arr2[i]);
+                new1 = new0; // swapping doesn't change abs diff
+            } else {
  
-        Collections.sort(arr);
+                // if not swapped at i
+                new0 = Math.max(
+                    dp0 + Math.abs(arr1[i] - arr2[i - 1]),
+                    dp1 + Math.abs(arr1[i] - arr1[i - 1])
+                ) + Math.abs(arr1[i] - arr2[i]);
  
-        long[] prefix = new long[n];
-        prefix[0] = arr.get(0);
+                // if swapped at i
+                new1 = Math.max(
+                    dp0 + Math.abs(arr2[i] - arr2[i - 1]),
+                    dp1 + Math.abs(arr2[i] - arr1[i - 1])
+                ) + Math.abs(arr2[i] - arr1[i]);
+            }
  
-        for (int i = 1; i < n; i++) {
-            prefix[i] = prefix[i - 1] + arr.get(i);
+            dp0 = new0;
+            dp1 = new1;
         }
  
-        ArrayList<Integer> ans = new ArrayList<>();
- 
-        for (int query : queries) {
- 
-            int low = 0, high = n - 1;
-            int idx = -1;
- 
-            while (low <= high) {
-                int mid = low + (high - low) / 2;
- 
-                if (arr.get(mid) <= query) {
-                    idx = mid;
+        return (int)Math.max(dp0, dp1);
+    }
+}
