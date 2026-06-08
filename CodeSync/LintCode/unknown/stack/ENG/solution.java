@@ -1,27 +1,21 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/834/
+ * URL: https://www.lintcode.com/problem/268/
  * Language: Java
  * Difficulty: Unknown
- * Topics: PRE, please contact us via "Problem Correction", Stack, Google, Test Data Commit Output
+ * Topics: Stack, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-04T09:57:56.440Z
+ * Synced: 2026-06-08T18:43:37.335Z
  */
 
-········for·(char·c·:·s.toCharArray())·{
-············freq[c·-·'a']--;
-············if·(map.contains(c))·continue;
-············while·(!st.isEmpty()·&&·st.peek()·>·c·&&·freq[st.peek()·-·'a']·>·0)·{
-················map.remove(st.pop());
-············}
-············st.push(c);
-············map.add(c);
-········}
-········StringBuilder·sb·=·new·StringBuilder();
-········for·(char·c·:·st)·sb.append(c);
-········return·sb.toString();
-·····
+public·class·Solution·{
+····/**
+·····*·@param·s:·a·string·with·"("·and·")"
+·····*·@return:·return·the·score·of·the·string
+·····*/
+····public·int·parenthesesScore(String·s)·{
+········//·write·your·code·here
 ····}
 }
