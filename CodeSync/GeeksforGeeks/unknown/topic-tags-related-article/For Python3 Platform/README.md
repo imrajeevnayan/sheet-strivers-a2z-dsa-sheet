@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/lower-case-to-upper-case3410/1
-- Synced: 2026-06-08T12:17:57.848Z
+- Synced: 2026-06-08T12:18:02.811Z
 
 ## Problem Description
 
