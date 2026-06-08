@@ -7,14 +7,19 @@
  * Topics: Expected Complexities Topic Tags, Expected Complexities, Topic Tags, Java, STL, Java-Collections
  * Runtime: . S
  * Memory: N/A
- * Synced: 2026-06-08T12:19:02.279Z
+ * Synced: 2026-06-08T12:20:50.784Z
  */
-
-//Back-end complete function Template for Java
 
 class Solution {
     public static void freqSorted(int arr[]) {
-        // Your Code Here
-        
+        TreeMap<Integer, Integer> map = new TreeMap<>();
+
+        for (int num : arr) {
+            map.put(num, map.getOrDefault(num, 0) + 1);
+        }
+
+       for (int key : map.keySet()) {
+        System.out.println(key + " " + map.get(key));
+         }
     }
 }
