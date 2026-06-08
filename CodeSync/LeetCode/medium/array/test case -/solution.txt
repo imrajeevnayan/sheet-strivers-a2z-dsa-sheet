@@ -7,12 +7,10 @@
  * Topics: Array, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T10:13:39.974Z
+ * Synced: 2026-06-08T10:13:42.056Z
  */
 
-int option1 = robLinear(nums, 0, nums.length - 2);
-        
-        // Scenario 2: Exclude the first house
+// Scenario 2: Exclude the first house
         int option2 = robLinear(nums, 1, nums.length - 1);
         
         return Math.max(option1, option2);
@@ -25,10 +23,9 @@ int option1 = robLinear(nums, 0, nums.length - 2);
         
         for (int i = start; i <= end; i++) {
             int current = Math.max(prev1, prev2 + nums[i]);
-        // Scenario 1: Exclude the last house
-        
             prev2 = prev1;
             prev1 = current;
         }
         return prev1;
     }
+}
