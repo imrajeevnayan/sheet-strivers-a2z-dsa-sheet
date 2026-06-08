@@ -7,10 +7,29 @@
  * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, circular linked list, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T11:58:47.350Z
+ * Synced: 2026-06-08T11:59:09.392Z
  */
 
-Input:
-    
-Output: 10 -> 8 -> 7 -> 1
-Explanation: After reversing the given circular linked list, we'll get 10 -> 8 -> 7 -> 1.
+class Solution {
+    public Node reverseCircular(Node head) {
+        if (head == null || head.next == head) return head;
+        Stack<Node> stack = new Stack<>();
+        Node curr = head;
+
+        while (true) {
+            stack.push(curr);
+            curr = curr.next;
+            if (curr == head) break;
+        }
+
+        Node newHead = stack.pop();
+        Node temp = newHead;
+
+        while (!stack.isEmpty()) {
+            temp.next = stack.pop();
+            temp = temp.next;
+        }
+        temp.next = newHead;
+        return newHead;
+    }
+}
