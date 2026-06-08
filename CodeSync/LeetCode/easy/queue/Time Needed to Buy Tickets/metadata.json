@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-08T10:02:50.760Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Queue",
+    "Simulation"
+  ],
+  "platform": "LeetCode",
+  "language": "Queue",
+  "problemTitle": "Time Needed to Buy Tickets",
+  "problemUrl": "https://leetcode.com/problems/time-needed-to-buy-tickets/?envType=problem-list-v2&envId=queue",
+  "submissionId": "c7gh25"
+}
