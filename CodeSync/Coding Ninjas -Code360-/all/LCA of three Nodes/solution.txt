@@ -1,36 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/find-numbers-containing-1-2-and-3_1214521
- * Language: Java (SE 1.8)
+ * URL: https://www.naukri.com/code360/problems/search-in-the-array_1116099
+ * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: N/A
+ * Runtime: 770 ms
  * Memory: N/A
- * Synced: 2026-06-08T18:23:14.064Z
+ * Synced: 2026-06-08T18:27:01.248Z
  */
 
 import java.util.*;
 import java.io.*;
  
 public class Solution {
-    public static ArrayList<Integer> containsNumber(int n, ArrayList<Integer> arr) {
-        ArrayList<Integer> result = new ArrayList<>();
+    public static ArrayList<Integer> searchInTheArray(ArrayList<Integer> arr,
+                                                      ArrayList<Integer> queries,
+                                                      int n, int q) {
  
-        for (int num : arr) {
-            String s = String.valueOf(num);
+        Collections.sort(arr);
  
-            if (s.contains("1") && s.contains("2") && s.contains("3")) {
-                result.add(num);
-            }
+        long[] prefix = new long[n];
+        prefix[0] = arr.get(0);
+ 
+        for (int i = 1; i < n; i++) {
+            prefix[i] = prefix[i - 1] + arr.get(i);
         }
  
-        if (result.isEmpty()) {
-            result.add(-1);
-        } else {
-            Collections.sort(result);
-        }
+        ArrayList<Integer> ans = new ArrayList<>();
  
-        return result;
-    }
-}
+        for (int query : queries) {
+ 
+            int low = 0, high = n - 1;
+            int idx = -1;
+ 
+            while (low <= high) {
+                int mid = low + (high - low) / 2;
+ 
+                if (arr.get(mid) <= query) {
+                    idx = mid;
