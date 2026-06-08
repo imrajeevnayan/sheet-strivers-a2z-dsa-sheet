@@ -1,40 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
- * URL: https://www.naukri.com/code360/problems/maximize-sum_1376445
- * Language: All languages
+ * URL: https://www.naukri.com/code360/problems/character-query_2653334
+ * Language: Java (SE 1.8)
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 765 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T18:33:37.102Z
+ * Synced: 2026-06-08T18:36:34.657Z
  */
 
 import java.util.*;
  
 public class Solution {
  
-    public static int calculateMaximisedSum(int[] arr1, int[] arr2, int n) {
+    public static ArrayList<Integer> characterQuery(int n, int q, char[] arr, char[] type, char[] letter, int[] value) {
  
-        long dp0 = 0;
-        long dp1 = 0;
+        ArrayList<Integer>[] pos = new ArrayList[26];
+ 
+        for (int i = 0; i < 26; i++) {
+            pos[i] = new ArrayList<>();
+        }
  
         for (int i = 0; i < n; i++) {
+            pos[arr[i] - 'a'].add(i + 1);
+        }
  
-            long new0, new1;
+        ArrayList<Integer> ans = new ArrayList<>();
  
-            if (i == 0) {
-                new0 = Math.abs(arr1[i] - arr2[i]);
-                new1 = new0;
-            } else {
+        for (int i = 0; i < q; i++) {
  
-                new0 = Math.max(
-                    dp0 + Math.abs(arr1[i] - arr2[i - 1]),
-                    dp1 + Math.abs(arr1[i] - arr1[i - 1])
-                ) + Math.abs(arr1[i] - arr2[i]);
+            ArrayList<Integer> list = pos[letter[i] - 'a'];
+            int k = value[i];
  
-                new1 = Math.max(
-                    dp0 + Math.abs(arr2[i] - arr2[i - 1]),
-                    dp1 + Math.abs(arr2[i] - arr1[i - 1])
-                ) + Math.abs(arr2[i] - arr1[i]);
-            }
+            if (type[i] == 'S') {
+                if (k <= list.size()) ans.add(list.get(k - 1));
+                else ans.add(-1);
+            } 
+            else { // 'L'
+                if (k < list.size()) ans.add(list.get(k) - 1);
