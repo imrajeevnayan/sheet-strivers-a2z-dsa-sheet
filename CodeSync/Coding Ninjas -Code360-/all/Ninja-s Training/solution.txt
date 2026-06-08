@@ -1,29 +1,41 @@
 /*
  * Platform: Coding Ninjas (Code360)
  * Problem: Ninja’s Training
- * URL: https://www.naukri.com/code360/problems/loot-houses_630510
+ * URL: https://www.naukri.com/code360/problems/median-marks_5848799
  * Language: Java (SE 1.8)
  * Difficulty: Medium
  * Topics: Uncategorized
- * Runtime: 602 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T19:22:02.599Z
+ * Synced: 2026-06-08T18:25:03.477Z
  */
 
+import java.util.*;
+ 
 public class Solution {
-    public static int maxMoneyLooted(int[] houses) {
-        if (houses == null || houses.length == 0) return 0;
-        if (houses.length == 1) return houses[0];
  
-        int prev2 = houses[0];
-        int prev1 = Math.max(houses[0], houses[1]);
+    static boolean canMakeMedian(int median, int x, int[] l, int[] r) {
+        int n = l.length;
  
-        for (int i = 2; i < houses.length; i++) {
-            int curr = Math.max(prev1, houses[i] + prev2);
-            prev2 = prev1;
-            prev1 = curr;
+        long baseSum = 0;
+        for (int val : l) {
+            baseSum += val;
         }
  
-        return prev1;
-    }
-}
+        long remaining = x - baseSum;
+ 
+        int need = n / 2 + 1;
+        int already = 0;
+ 
+        ArrayList<Integer> costs = new ArrayList<>();
+ 
+        for (int i = 0; i < n; i++) {
+ 
+            if (r[i] < median) {
+                continue;
+            }
+ 
+            if (l[i] >= median) {
+                already++;
+            } else {
+                costs.add(median - l[i]);
