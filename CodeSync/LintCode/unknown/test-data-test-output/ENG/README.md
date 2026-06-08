@@ -1,18 +1,18 @@
 # ENG
 
 - Platform: LintCode
-- Language: PHP
+- Language: Java
 - Difficulty: Unknown
-- Topics: Test Data Test Output
+- Topics: Stack, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/3189/
-- Synced: 2026-06-07T17:47:07.859Z
+- Problem URL: https://www.lintcode.com/problem/268/
+- Synced: 2026-06-08T18:43:37.335Z
 
 ## Problem Description
 
-Description After learning PHP inheritance, Xiao Ming wants to write a subclass Son to inherit from the parent class Father and override the method send_message in Fater. The Father class and the Son class are provided, please write code in the Solution.php file to implement the above functionality, and override the method by returning Son method.. Please write your code in the Solution.php file under // write your code here. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information Example The question does not have any input data, and when the above question requirements are met, it will print on the console. Son method. If the Son class does not inherit from the Father class, then the console will print. Please inherit the Father class. Related Knowledge 学习《PHP 面向对象》课程中的1.7继承相关内容 ，了解更多相关知识！ Recommend Courses 简历/BQ/项目 面试软技能指导 FLAG高级工程师深度BQ辅导，简历打造+1V1模拟面试，反面试套路、高效上岸！
+Description Given a balanced parentheses string S, compute the score of the string based on the following rule: () has score 1 AB has score A + B, where A and B are balanced parentheses strings. (A) has score 2 * A, where A is a balanced parentheses string. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information S is a balanced parentheses string, containing only ( and ). 2 <= S.length <= 50 Example Example 1: Input: "()" Output: 1 Example 2: Input: "(())" Output: 2 Example 3: Input: "()()" Output: 2 Example 4: Input: "(()(()))" Output: 6 Tags Recommend Courses ACM金牌逐行带刷班 最适合懒人的刷题课--躺平看算法大神在线coding，讲解思路+现场debug，手撕面试高频题
 
 ## Explanation
 
-This solution was accepted on LintCode using PHP. The detected topics are Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are Stack, Test Data Test Output. Review the synced source file for the implementation details.
