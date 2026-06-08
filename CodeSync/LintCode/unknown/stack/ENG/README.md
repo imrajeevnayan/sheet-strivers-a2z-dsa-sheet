@@ -3,11 +3,11 @@
 - Platform: LintCode
 - Language: Java
 - Difficulty: Unknown
-- Topics: Stack, Test Data Commit Output
+- Topics: Stack, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/268/
-- Synced: 2026-06-08T18:45:56.931Z
+- Synced: 2026-06-08T18:46:15.882Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Given a balanced parentheses string S, compute the score of the stri
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are Stack, Test Data Commit Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are Stack, Test Data Test Output. Review the synced source file for the implementation details.
