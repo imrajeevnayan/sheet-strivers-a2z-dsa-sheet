@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-08T11:48:47.032Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities Topic Tags",
+    "Expected Complexities",
+    "Topic Tags",
+    "STL"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "#include <algorithm> #include <vector> using namespace std; bool binarySearch(vector<int>& arr, int k) { return binary_search(arr.begin(), arr.end(), k); }",
+  "problemTitle": "Search element in Vector",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/search-in-vector/1",
+  "submissionId": "44juqs"
+}
