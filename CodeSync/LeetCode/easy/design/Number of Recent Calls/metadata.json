@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-08T10:11:41.282Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Design",
+    "Queue",
+    "Data Stream"
+  ],
+  "platform": "LeetCode",
+  "language": "Queue",
+  "problemTitle": "Number of Recent Calls",
+  "problemUrl": "https://leetcode.com/problems/number-of-recent-calls/description/?envType=problem-list-v2&envId=queue",
+  "submissionId": "8cpbv9"
+}
