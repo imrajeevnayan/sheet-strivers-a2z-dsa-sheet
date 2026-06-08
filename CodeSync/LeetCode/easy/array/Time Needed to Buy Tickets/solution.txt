@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Array, Queue, Simulation
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-08T10:09:34.268Z
+ * Memory: 43.07 MB
+ * Synced: 2026-06-08T10:09:37.331Z
  */
 
 1class Solution {
