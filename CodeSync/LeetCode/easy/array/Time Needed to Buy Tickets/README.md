@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/time-needed-to-buy-tickets/?envType=problem-list-v2&envId=queue
-- Synced: 2026-06-08T10:03:36.156Z
+- Synced: 2026-06-08T10:03:45.159Z
 
 ## Problem Description
 
