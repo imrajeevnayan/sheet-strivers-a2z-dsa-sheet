@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Medium
 - Topics: Uncategorized
-- Runtime: 602 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/loot-houses_630510
-- Synced: 2026-06-07T19:22:02.599Z
+- Problem URL: https://www.naukri.com/code360/problems/median-marks_5848799
+- Synced: 2026-06-08T18:25:03.477Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
