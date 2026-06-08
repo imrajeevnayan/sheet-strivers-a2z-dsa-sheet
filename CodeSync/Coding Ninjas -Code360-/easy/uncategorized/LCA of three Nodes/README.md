@@ -7,7 +7,7 @@
 - Runtime: 770 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/search-in-the-array_1116099
-- Synced: 2026-06-08T18:26:43.508Z
+- Synced: 2026-06-08T18:27:01.248Z
 
 ## Problem Description
 
