@@ -1,0 +1,28 @@
+/*
+ * Platform: LeetCode
+ * Problem: Number of Recent Calls
+ * URL: https://leetcode.com/problems/number-of-recent-calls/description/?envType=problem-list-v2&envId=queue
+ * Language: Queue
+ * Difficulty: Easy
+ * Topics: Design, Queue, Data Stream
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-08T10:11:41.282Z
+ */
+
+class RecentCounter {
+
+    public RecentCounter() {
+        
+    }
+    
+    public int ping(int t) {
+        
+    }
+}
+
+/**
+ * Your RecentCounter object will be instantiated and called as such:
+ * RecentCounter obj = new RecentCounter();
+ * int param_1 = obj.ping(t);
+ */
