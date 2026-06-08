@@ -4,18 +4,24 @@
  * URL: https://www.lintcode.com/problem/268/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Stack, Test Data Test Output
+ * Topics: Stack, Test Data Commit Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T18:44:13.202Z
+ * Synced: 2026-06-08T18:44:45.049Z
  */
 
-public·class·Solution·{
-····/**
-·····*·@param·s:·a·string·with·"("·and·")"
-·····*·@return:·return·the·score·of·the·string
-·····*/
-····public·int·parenthesesScore(String·s)·{
-········//·write·your·code·here
+············}·else·{
+················int·v·=·stack.pop();
+················int·top·=·stack.pop();
+
+················if·(v·==·0)·{
+····················stack.push(top·+·1);
+················}·else·{
+····················stack.push(top·+·2·*·v);
+················}
+············}
+········}
+
+········return·stack.pop();
 ····}
 }
