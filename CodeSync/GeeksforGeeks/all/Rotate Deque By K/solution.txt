@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags NPCI, Company Tags, NPCI, Topic Tags, Data Structures, Deque
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T12:14:37.622Z
+ * Synced: 2026-06-08T12:14:49.615Z
  */
 
 class Solution {
