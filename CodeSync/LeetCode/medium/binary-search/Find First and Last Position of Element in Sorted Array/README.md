@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Array, Binary Search
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
-- Synced: 2026-06-08T05:43:11.042Z
+- Memory: 48.03 MB
+- Problem URL: https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/submissions/2025977567/
+- Synced: 2026-06-08T05:43:18.055Z
 
 ## Problem Description
 
