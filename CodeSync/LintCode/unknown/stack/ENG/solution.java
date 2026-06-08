@@ -7,12 +7,12 @@
  * Topics: Stack, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T18:46:19.317Z
+ * Synced: 2026-06-08T18:46:26.522Z
  */
 
 ············else·{
-················int·v·=·stack.pop();
-················int·top·=·stack.pop();
+················int·v·=·st.pop();
+················int·top·=·st.pop();
 
 ················if·(v·==·0)·st.push(top·+·1);
 ············if·(c·==·'(')·st.push(0);
