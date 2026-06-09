@@ -1,18 +1,18 @@
 # ENG
 
 - Platform: LintCode
-- Language: Java
+- Language: Python
 - Difficulty: Unknown
-- Topics: Linked List, Test Data Test Output
+- Topics: Linked List, ByteDance, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/36/
-- Synced: 2026-06-09T07:24:06.540Z
+- Problem URL: https://www.lintcode.com/problem/35/
+- Synced: 2026-06-09T08:06:42.175Z
 
 ## Problem Description
 
-Description Reverse a linked list from position m to n. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information m and n satisfy the following condition: 1 ≤ 𝑚 ≤ 𝑛 ≤ 𝑙 𝑒 𝑛 𝑔 𝑡 ℎ 𝑜 𝑓 𝑙 𝑖 𝑠 𝑡 1≤m≤n≤lengthoflist. Example Example 1: Input: linked list = 1->2->3->4->5->NULL m = 2 n = 4 Output: 1->4->3->2->5->NULL Explanation: Reverse the [2,4] position of the linked list. Example 2: Input: linked list = 1->2->3->4->null m = 2 n = 3 Output: 1->3->2->4->NULL Explanation: Reverse the [2,3] position of the linked list. Challenge Reverse it in-place and in one-pass Tags Related Problems 35 Reverse Linked List Easy 53 Reverse Words in a String Easy 450 Reverse Nodes in k-Group Hard Recommend Courses 系统设计 System Design 2024版 数据库、API、GFS、视频流等16大系统设计详解，实战练习拿下面试/晋升“拦路虎”
+Description Reverse a linked list. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information The linked list length is less than 100 100 Example Example 1: Input: linked list = 1->2->3->null Output: 3->2->1->null Explanation: Reverse Linked List Example 2: Input: linked list = 1->2->3->4->null Output: 4->3->2->1->null Explanation: Reverse Linked List Challenge Reverse it in-place and in one-pass Related Knowledge 学习《大学计算机数据结构课程 - 线性表》课程中的2.11单链表问题实例 - 翻转链表相关内容 ，了解更多相关知识！ Tags Company ByteDance Related Problems 221 Add Two Numbers II Medium 649 Binary Tree Upside Down Medium 767 Reverse Array Easy 36 Reverse Linked List II Medium 223 Palindrome Linked List Medium 53 Reverse Words in a String Easy 450 Reverse Nodes in k-Group Hard Recommend Courses Twitter 后端系统 - Python 项目实战 从0项目经验到深度后端项目操盘，FB架构师万行代码还原真实开发环境，14周简历镀金
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are Linked List, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Python. The detected topics are Linked List, ByteDance, Test Data Test Output. Review the synced source file for the implementation details.
