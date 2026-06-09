@@ -7,7 +7,7 @@
  * Topics: Linked List, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T05:35:43.277Z
+ * Synced: 2026-06-09T05:35:53.276Z
  */
 
 public ListNode reverseList(ListNode head) {
