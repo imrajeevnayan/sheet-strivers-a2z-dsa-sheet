@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 202.58 MB
 - Problem URL: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/submissions/2027360806/
-- Synced: 2026-06-09T09:54:07.089Z
+- Synced: 2026-06-09T09:54:22.080Z
 
 ## Problem Description
 
