@@ -1,21 +1,20 @@
 {
-  "submissionTimestamp": "2026-06-09T11:49:50.290Z",
+  "submissionTimestamp": "2026-06-09T18:23:45.723Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Highlight",
-    "More",
     "Java Python 3 C++",
     "Java",
     "Python 3",
     "C++",
-    "@param",
-    "@return"
+    "More",
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "ALL(94) Java(33) Python 3(33) C++(24) C(3) JavaScript(3) Csharp(2) Go(2) Python 2(1)",
+  "language": "ALL(71) Python 3(30) Java(25) C++(19) Ruby(1)",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/problem/228/solution/56541",
-  "submissionId": "3bmsk2"
+  "problemUrl": "https://www.lintcode.com/problem/65/solution/93788",
+  "submissionId": "i03ygx"
 }
