@@ -7,11 +7,11 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T05:43:20.581Z
+ * Synced: 2026-06-09T05:45:00.166Z
  */
 
 class Solution {
     public ListNode middleNode(ListNode head) {
         
     }
-}
+}k
