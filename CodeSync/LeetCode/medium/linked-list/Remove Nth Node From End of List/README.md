@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Linked List, Two Pointers
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/2027889012/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
-- Synced: 2026-06-09T18:46:22.094Z
+- Memory: 43.70 MB
+- Problem URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
+- Synced: 2026-06-09T18:46:27.027Z
 
 ## Problem Description
 
