@@ -1,31 +1,23 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/problem/268/solution/93780
- * Language: ALL(9) Java(6) Python 3(5) C++(3) JavaScript(1)
+ * URL: https://www.lintcode.com/problem/228/solution/93787
+ * Language: ALL(94) Java(33) Python 3(33) C++(24) C(3) JavaScript(3) Csharp(2) Go(2) Python 2(1)
  * Difficulty: Unknown
- * Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, Python 3 Monotonic Stack, Monotonic Stack
+ * Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, @param, @return
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T18:46:54.157Z
+ * Synced: 2026-06-09T11:49:26.156Z
  */
 
 public·class·Solution·{
-····public·int·parenthesesScore(String·s)·{
-········Stack<Integer>·st=·new·Stack<>();
-········st.push(0);
-
-········for·(char·c·:·s.toCharArray())·{
-············if·(c·==·'(')·st.push(0);
-············else·{
-················int·v·=·st.pop();
-················int·top·=·st.pop();
-
-················if·(v·==·0)·st.push(top·+·1);
-················else·st.push(top·+·2·*·v);
-············}
+····public·ListNode·middleNode(ListNode·head)·{
+········if·(head·==·null)return·null;
+········ListNode·slow=head,fast=head.next;
+········while(fast!=null·&&·fast.next!=null){
+············fast=fast.next.next;
+············slow=slow.next;
 ········}
-
-········return·st.pop();
+········return·slow;
 ····}
 }
