@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-09T09:37:35.728Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-09T09:40:58.091Z",
+  "runtime": "0 ms",
+  "memoryUsage": "45.18 MB",
   "difficulty": "Medium",
   "tags": [
     "Linked List"
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Delete Node in a Linked List",
-  "problemUrl": "https://leetcode.com/problems/delete-node-in-a-linked-list/",
-  "submissionId": "romq5w"
+  "problemUrl": "https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/2027344688/",
+  "submissionId": "lubxu4"
 }
