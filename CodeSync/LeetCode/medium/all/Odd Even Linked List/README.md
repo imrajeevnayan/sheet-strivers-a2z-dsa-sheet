@@ -6,8 +6,8 @@
 - Topics: Linked List
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/odd-even-linked-list/
-- Synced: 2026-06-09T10:02:34.687Z
+- Problem URL: https://leetcode.com/problems/odd-even-linked-list/submissions/2027369894/
+- Synced: 2026-06-09T10:02:37.316Z
 
 ## Problem Description
 
