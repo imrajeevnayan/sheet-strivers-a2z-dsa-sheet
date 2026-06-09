@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-09T12:21:52.695Z",
+  "submissionTimestamp": "2026-06-09T16:45:28.990Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -8,8 +8,8 @@
     "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Python",
+  "language": "Java",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/268/",
-  "submissionId": "bjyilz"
+  "submissionId": "y3dhp5"
 }
