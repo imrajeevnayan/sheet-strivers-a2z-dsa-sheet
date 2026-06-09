@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Delete Node in a Linked List
+ * URL: https://leetcode.com/problems/delete-node-in-a-linked-list/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Linked List
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-09T09:36:56.089Z
+ */
+
+class Solution {
+    public void deleteNode(ListNode node) {
+        
+    }
+}
