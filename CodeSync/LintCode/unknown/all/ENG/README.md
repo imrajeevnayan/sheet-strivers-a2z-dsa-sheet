@@ -3,16 +3,16 @@
 - Platform: LintCode
 - Language: Java
 - Difficulty: Unknown
-- Topics: Stack, Test Data Test Output
+- Topics: Binary Search, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/268/
-- Synced: 2026-06-09T16:45:28.990Z
+- Problem URL: https://www.lintcode.com/problem/65/
+- Synced: 2026-06-09T18:23:24.735Z
 
 ## Problem Description
 
-Description Given a balanced parentheses string S, compute the score of the string based on the following rule: () has score 1 AB has score A + B, where A and B are balanced parentheses strings. (A) has score 2 * A, where A is a balanced parentheses string. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information S is a balanced parentheses string, containing only ( and ). 2 <= S.length <= 50 Example Example 1: Input: "()" Output: 1 Example 2: Input: "(())" Output: 2 Example 3: Input: "()()" Output: 2 Example 4: Input: "(()(()))" Output: 6 Tags Recommend Courses ACM金牌逐行带刷班 最适合懒人的刷题课--躺平看算法大神在线coding，讲解思路+现场debug，手撕面试高频题
+Description There are two sorted arrays A and B of size m and n respectively. Find the median of the two sorted arrays.The overall run time complexity should be 𝑂 ( 𝑙 𝑜 𝑔 ( 𝑚 + 𝑛 ) ) O(log(m+n)). LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information The definition of the median: The median here is equivalent to the median in the mathematical definition. The median is the middle of the sorted array. If there are n numbers in the array and n is an odd number, the median is 𝐴 [ ( 𝑛 − 1 ) / 2 ] A[(n−1)/2]. If there are n numbers in the array and n is even, the median is 𝐴 [ ( 𝑛 − 1 ) / 2 ] + 𝐴 [ ( 𝑛 − 1 ) / 2 + 1 ] ) / 2 A[(n−1)/2]+A[(n−1)/2+1])/2. For example, the median of the array A=[1,2,3] is 2, and the median of the array A=[1,19] is 10. Example Example 1: Input: A = [1,2,3,4,5,6] B = [2,3,4,5] Output: 3.5 Explanation: The combined array is [1,2,2,3,3,4,4,5,5,6], and the median is (3 + 4) / 2. Example 2: Input: A = [1,2,3] B = [4,5] Output: 3 Explanation: The combined array is [1,2,3,4,5], and the median is 3. Challenge The overall run time complexity should be 𝑂 ( 𝑙 𝑜 𝑔 ( 𝑚 + 𝑛 ) ) O(log(m+n)). Related Knowledge 学习《2025年1月北美大厂最新面试真题精讲》课程中的1.8Amazon：最新面试精选004相关内容 ，了解更多相关知识！ Tags Related Problems 80 Median Easy 81 Find Median from Data Stream Hard 931 Median of K Sorted Arrays Hard Recommend Courses 简历/BQ/项目 面试软技能指导 FLAG高级工程师深度BQ辅导，简历打造+1V1模拟面试，反面试套路、高效上岸！
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are Stack, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are Binary Search, Test Data Test Output. Review the synced source file for the implementation details.
