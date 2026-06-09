@@ -1,19 +1,33 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/372/
+ * URL: https://www.lintcode.com/problem/223/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Linked List, Apple Adobe Microsoft, Apple, Adobe, Microsoft, 174 Remove Nth Node From End of List Easy, Test Data Test Output
+ * Topics: Linked List, Facebook IXL Amazon, Facebook, IXL, Amazon, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T11:10:37.693Z
+ * Synced: 2026-06-09T11:12:06.261Z
  */
 
-class·Solution·{
-····public·void·deleteNode(ListNode·node)·{
-········if(node==null·||·node.next==null)·return;
-········node.val=node.next.val;
-········node.next=node.next.next;
+/**
+·*·Definition·for·ListNode
+·*·public·class·ListNode·{
+·*·····int·val;
+·*·····ListNode·next;
+·*·····ListNode(int·x)·{
+·*·········val·=·x;
+·*·········next·=·null;
+·*·····}
+·*·}
+·*/
+
+public·class·Solution·{
+····/**
+·····*·@param·head:·A·ListNode.
+·····*·@return:·A·boolean.
+·····*/
+····public·boolean·isPalindrome(ListNode·head)·{
+········//·write·your·code·here
 ····}
 }
