@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-09T09:58:10.099Z",
+  "submissionTimestamp": "2026-06-09T11:05:21.041Z",
   "runtime": "0 ms",
-  "memoryUsage": "134.37 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Linked List",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/remove-nodes-from-linked-list/submissions/2027365011/",
-  "submissionId": "pilhkn"
+  "problemUrl": "https://leetcode.com/problems/remove-nodes-from-linked-list/description/",
+  "submissionId": "thsi4r"
 }
