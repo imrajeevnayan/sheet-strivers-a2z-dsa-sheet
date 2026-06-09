@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-09T06:00:35.328Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-09T06:01:04.780Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Merge Two Sorted Lists",
-  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/description/",
+  "problemUrl": "https://leetcode.com/problems/merge-two-sorted-lists/",
   "submissionId": "u5l2"
 }
