@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-09T11:08:49.096Z",
+  "submissionTimestamp": "2026-06-09T11:09:22.854Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -10,7 +10,7 @@
     "Adobe",
     "Microsoft",
     "174 Remove Nth Node From End of List Easy",
-    "Test Data Test Output"
+    "Test Data Commit Output"
   ],
   "platform": "LintCode",
   "language": "Java",
