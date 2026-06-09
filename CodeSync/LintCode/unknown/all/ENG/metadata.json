@@ -1,18 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-09T11:49:07.202Z",
+  "submissionTimestamp": "2026-06-09T12:21:49.612Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Same Direction Two Pointers",
-    "Linked List",
-    "Two Pointers",
-    "174 Remove Nth Node From End of List Easy",
-    "Test Data Test Output"
+    "Stack"
   ],
   "platform": "LintCode",
   "language": "Python",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/228/",
-  "submissionId": "q7xzzo"
+  "problemUrl": "https://www.lintcode.com/problem/268/",
+  "submissionId": "vcnl0t"
 }
