@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/
-- Synced: 2026-06-09T05:43:20.581Z
+- Synced: 2026-06-09T05:43:23.196Z
 
 ## Problem Description
 
