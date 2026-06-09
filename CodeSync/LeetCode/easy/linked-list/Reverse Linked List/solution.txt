@@ -7,7 +7,7 @@
  * Topics: Linked List, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-09T05:40:48.648Z
+ * Synced: 2026-06-09T05:40:56.834Z
  */
 
 class Solution {
@@ -18,8 +18,8 @@ class Solution {
             ListNode temp=curr.next;
         }
         return prev;
-    }
             curr.next=prev;
             prev=curr;
             curr=temp;
+    }
 }
