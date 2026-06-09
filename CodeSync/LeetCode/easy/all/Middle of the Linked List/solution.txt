@@ -7,14 +7,17 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T05:53:42.890Z
+ * Synced: 2026-06-09T05:54:29.737Z
  */
 
 class Solution {
     public ListNode middleNode(ListNode head) {
-        
-    }
         ListNode slow=head;
         ListNode fast=head;
-        while(fast!=null && fast.next !=null )
+        while(fast!=null && fast.next !=null ){
+            fast=fast.next.next;
+        }
+       return slow 
+    }
+            slow=slow.next;
 }
