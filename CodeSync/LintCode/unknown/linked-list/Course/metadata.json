@@ -1,21 +1,19 @@
 {
-  "submissionTimestamp": "2026-06-07T17:46:44.159Z",
+  "submissionTimestamp": "2026-06-09T11:12:20.792Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Linked List",
-    "Bloomberg Airbnb Amazon Microsoft",
-    "Bloomberg",
-    "Airbnb",
+    "Facebook IXL Amazon",
+    "Facebook",
+    "IXL",
     "Amazon",
-    "Microsoft",
-    "Test Data Test Output",
-    "Dynamic Programming"
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/problem/380/description",
-  "submissionId": "q8uqlt"
+  "problemUrl": "https://www.lintcode.com/problem/223/description",
+  "submissionId": "4aa6v7"
 }
