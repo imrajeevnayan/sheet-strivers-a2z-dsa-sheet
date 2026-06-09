@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-09T18:21:17.909Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-09T18:21:53.511Z",
+  "runtime": "0 ms",
+  "memoryUsage": "48.60 MB",
   "difficulty": "Hard",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Median of Two Sorted Arrays",
-  "problemUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/",
+  "problemUrl": "https://leetcode.com/problems/median-of-two-sorted-arrays/submissions/2027865205/",
   "submissionId": "5525ii"
 }
