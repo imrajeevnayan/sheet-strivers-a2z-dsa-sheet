@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
-- Synced: 2026-06-09T18:46:32.500Z
+- Synced: 2026-06-09T18:46:35.618Z
 
 ## Problem Description
 
