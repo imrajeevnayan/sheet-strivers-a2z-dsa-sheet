@@ -3,16 +3,16 @@
 - Platform: LintCode
 - Language: Python
 - Difficulty: Unknown
-- Topics: Same Direction Two Pointers, Linked List, Two Pointers, 174 Remove Nth Node From End of List Easy, Test Data Test Output
+- Topics: Stack
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/228/
-- Synced: 2026-06-09T11:49:07.202Z
+- Problem URL: https://www.lintcode.com/problem/268/
+- Synced: 2026-06-09T12:21:49.612Z
 
 ## Problem Description
 
-Description Find the middle node of a linked list and return it. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information Example Example 1: Input: 1->2->3 Output: 2 Explanation: return the middle node. Example 2: Input: 1->2 Output: 1 Explanation: If the length of list is even return the center left one. Challenge If the linked list is a data stream, can you find the middle node without iterating the linked list again? Related Knowledge 学习《大学计算机数据结构课程 - 线性表》课程中的2.6单链表的建表相关内容 ，了解更多相关知识！ Tags Related Problems 174 Remove Nth Node From End of List Easy Recommend Courses Twitter 后端系统 - Python 项目实战 从0项目经验到深度后端项目操盘，FB架构师万行代码还原真实开发环境，14周简历镀金
+Description Given a balanced parentheses string S, compute the score of the string based on the following rule: () has score 1 AB has score A + B, where A and B are balanced parentheses strings. (A) has score 2 * A, where A is a balanced parentheses string. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information S is a balanced parentheses string, containing only ( and ). 2 <= S.length <= 50 Example Example 1: Input: "()" Output: 1 Example 2: Input: "(())" Output: 2 Example 3: Input: "()()" Output: 2 Example 4: Input: "(()(()))" Output: 6 Tags Recommend Courses 0基础入门数据分析 进阶大厂刚需高薪人才，熟练掌握SQL、Python、Tableau、A/Btest等实用技能工具，配套100+数据题夯实基础
 
 ## Explanation
 
-This solution was accepted on LintCode using Python. The detected topics are Same Direction Two Pointers, Linked List, Two Pointers, 174 Remove Nth Node From End of List Easy, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Python. The detected topics are Stack. Review the synced source file for the implementation details.
