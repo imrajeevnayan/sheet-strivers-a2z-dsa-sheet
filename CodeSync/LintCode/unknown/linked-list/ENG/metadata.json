@@ -1,16 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-09T06:45:07.598Z",
+  "submissionTimestamp": "2026-06-09T06:45:25.113Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Linked List",
-    "ByteDance",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Python",
+  "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/35/",
-  "submissionId": "7ambbt"
+  "problemUrl": "https://www.lintcode.com/problem/36/",
+  "submissionId": "8iaiyx"
 }
