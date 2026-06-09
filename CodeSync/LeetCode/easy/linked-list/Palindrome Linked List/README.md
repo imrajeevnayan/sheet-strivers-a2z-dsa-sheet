@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Linked List, Two Pointers, Stack, Recursion
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/palindrome-linked-list/
-- Synced: 2026-06-07T11:30:57.922Z
+- Problem URL: https://leetcode.com/problems/palindrome-linked-list/submissions/2027372713/
+- Synced: 2026-06-09T10:05:23.003Z
 
 ## Problem Description
 
