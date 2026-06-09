@@ -7,14 +7,14 @@
  * Topics: Linked List, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T07:24:06.540Z
+ * Synced: 2026-06-09T09:32:11.769Z
  */
 
 public·class·Solution·{
 ····public·ListNode·reverseBetween(ListNode·head,·int·m,·int·n)·{
 ········if·(head·==·null·||·m·==·n)·return·head;
 
-········ListNode·dummy·=·new·ListNode(0);
+········ListNode·dummy·=·new·ListNode(0);*
 ········dummy.next·=·head;
 
 ········ListNode·prev·=·dummy;
