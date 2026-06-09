@@ -7,7 +7,7 @@
  * Topics: Linked List, Apple Adobe Microsoft, Apple, Adobe, Microsoft, 174 Remove Nth Node From End of List Easy, Test Data Commit Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T11:10:44.238Z
+ * Synced: 2026-06-09T11:10:47.431Z
  */
 
 class·Solution·{
