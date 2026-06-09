@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-09T05:54:29.737Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-09T05:54:57.190Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.62 MB",
   "difficulty": "Easy",
   "tags": [
     "Linked List",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Middle of the Linked List",
-  "problemUrl": "https://leetcode.com/problems/middle-of-the-linked-list/",
-  "submissionId": "hszuay"
+  "problemUrl": "https://leetcode.com/problems/middle-of-the-linked-list/submissions/2027106709/",
+  "submissionId": "p68f41"
 }
