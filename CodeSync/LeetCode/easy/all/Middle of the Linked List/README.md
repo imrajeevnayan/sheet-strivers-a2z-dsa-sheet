@@ -6,8 +6,8 @@
 - Topics: Linked List, Two Pointers
 - Runtime: 0 ms
 - Memory: 42.62 MB
-- Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/submissions/2027106709/
-- Synced: 2026-06-09T05:55:05.293Z
+- Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/
+- Synced: 2026-06-09T06:08:30.345Z
 
 ## Problem Description
 
