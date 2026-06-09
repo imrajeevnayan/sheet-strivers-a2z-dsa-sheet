@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-09T11:42:59.731Z",
+  "submissionTimestamp": "2026-06-09T11:43:08.369Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -9,11 +9,11 @@
     "Facebook",
     "IXL",
     "Amazon",
-    "Test Data Test Output"
+    "Test Data Commit Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "Course",
   "problemUrl": "https://www.lintcode.com/problem/223/description",
-  "submissionId": "n4rnz0"
+  "submissionId": "9n4m56"
 }
