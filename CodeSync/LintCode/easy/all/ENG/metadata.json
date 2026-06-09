@@ -1,16 +1,20 @@
 {
-  "submissionTimestamp": "2026-06-03T07:32:22.032Z",
+  "submissionTimestamp": "2026-06-09T11:10:44.238Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
-    "Stack",
-    "2506 Remove the Invalid Parentheses Easy",
+    "Linked List",
+    "Apple Adobe Microsoft",
+    "Apple",
+    "Adobe",
+    "Microsoft",
+    "174 Remove Nth Node From End of List Easy",
     "Test Data Commit Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/263",
-  "submissionId": "66h0py"
+  "problemUrl": "https://www.lintcode.com/problem/372/",
+  "submissionId": "4byrl1"
 }
