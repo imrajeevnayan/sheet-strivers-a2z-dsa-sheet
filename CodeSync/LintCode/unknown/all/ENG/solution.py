@@ -1,21 +1,19 @@
 # Platform: LintCode
 # Problem: ENG
-# URL: https://www.lintcode.com/problem/209/
+# URL: https://www.lintcode.com/problem/228/
 # Language: Python
 # Difficulty: Unknown
-# Topics: Hash TableString, Hash Table, String, Bloomberg Amazon Microsoft Google, Bloomberg, Amazon, Microsoft, Google
+# Topics: Same Direction Two Pointers, Linked List, Two Pointers, 174 Remove Nth Node From End of List Easy, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-07T18:04:32.874Z
+# Synced: 2026-06-09T11:45:16.255Z
 
 public·class·Solution·{
-··public·char·firstUniqChar(String·str)·{
-···Map<Character,Integer>map=new·HashMap<>();
-···for(char·c:str.toCharArray())map.put(c,map.getOrDefault(c,0)+1);
-···for·(int·i·=·0;·i<str.length();·i++)·{
-·······char·c·=str.charAt(i);
-········if·(map.get(c)·==·1)·return·c;·
-····}
-···return·'·';
+····/**
+·····*·@param·head:·the·head·of·linked·list.
+·····*·@return:·a·middle·node·of·the·linked·list
+·····*/
+····public·ListNode·middleNode(ListNode·head)·{
+········//·write·your·code·here
 ····}
 }
