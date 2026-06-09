@@ -7,7 +7,7 @@
  * Topics: Linked List, Stack, Recursion, Monotonic Stack
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-09T09:56:27.469Z
+ * Synced: 2026-06-09T09:56:29.856Z
  */
 
 // Remove all nodes smaller than current (they have greater node to right)
@@ -25,8 +25,8 @@
             node.next = next;
         while (curr != null) {
         
-        // Traverse and maintain monotonic decreasing stack
         ListNode curr = head;
     public ListNode removeNodes(ListNode head) {
         Deque<ListNode> stack = new ArrayDeque<>();
 class Solution {
+            next = node;
