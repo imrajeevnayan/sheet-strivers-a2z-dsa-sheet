@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-09T06:45:14.190Z",
+  "submissionTimestamp": "2026-06-09T06:45:17.412Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -9,8 +9,8 @@
     "Test Data Commit Output"
   ],
   "platform": "LintCode",
-  "language": "Python",
+  "language": "reverse",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/35/",
-  "submissionId": "7ambbt"
+  "submissionId": "kanvy1"
 }
