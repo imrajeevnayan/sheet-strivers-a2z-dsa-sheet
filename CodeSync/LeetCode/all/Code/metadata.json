@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-09T09:40:18.122Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Linked List",
+    "Stack",
+    "Recursion",
+    "Monotonic Stack"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Code",
+  "problemUrl": "https://leetcode.com/problems/remove-nodes-from-linked-list/",
+  "submissionId": "904bpr"
+}
