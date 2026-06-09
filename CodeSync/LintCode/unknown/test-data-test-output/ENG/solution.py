@@ -1,36 +1,29 @@
 # Platform: LintCode
 # Problem: ENG
-# URL: https://www.lintcode.com/problem/62/
+# URL: https://www.lintcode.com/problem/268/
 # Language: Python
 # Difficulty: Unknown
-# Topics: Binary Search, Test Data Test Output
+# Topics: Stack, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-05-29T17:46:19.892Z
+# Synced: 2026-06-09T12:21:52.695Z
 
 public·class·Solution·{
-····public·int·search(int[]·a,·int·target)·{
-········int·left·=·0,right·=·a.length·-·1;
-········while·(left·<=·right)·{
-············int·mid·=·left·+·(right·-·left)·/·2;
-············if·(a[mid]·==·target)·return·mid;
-············//·Left·half·is·sorted
-············if·(a[left]·<=·a[mid])·{
-················//·Target·lies·in·left·half
-················if·(target·>=·a[left]·&&·target·<·a[mid])·right·=·mid·-·1;
-················else·left·=·mid·+·1;
-············}·
-············//·Right·half·is·sorted
+····public·int·parenthesesScore(String·s)·{
+········Stack<Integer>·st=·new·Stack<>();
+········st.push(0);
+
+········for·(char·c·:·s.toCharArray())·{
+············if·(c·==·'(')·st.push(0);
 ············else·{
-················//·Target·lies·in·right·half
-················if·(target·>·a[mid]·&&·target·<=·a[right])·{
-····················left·=·mid·+·1;
-················}·else·{
-····················right·=·mid·-·1;
-················}
+················int·v·=·st.pop();
+················int·top·=·st.pop();
+
+················if·(v·==·0)·st.push(top·+·1);
+················else·st.push(top·+·2·*·v);
 ············}
 ········}
-········return·-1;
+
+········return·st.pop();
 ····}
-················
 }
