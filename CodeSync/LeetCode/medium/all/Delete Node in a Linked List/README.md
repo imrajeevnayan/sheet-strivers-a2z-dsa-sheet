@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/delete-node-in-a-linked-list/description/
-- Synced: 2026-06-09T09:54:19.482Z
+- Synced: 2026-06-09T09:54:41.719Z
 
 ## Problem Description
 
