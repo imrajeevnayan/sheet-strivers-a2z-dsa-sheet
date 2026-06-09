@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/median-of-2-sorted-arrays-of-same-size/1
-- Synced: 2026-06-09T18:42:02.426Z
+- Synced: 2026-06-09T18:42:14.095Z
 
 ## Problem Description
 
