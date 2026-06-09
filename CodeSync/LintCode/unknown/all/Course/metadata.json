@@ -1,20 +1,19 @@
 {
-  "submissionTimestamp": "2026-06-09T11:11:05.212Z",
+  "submissionTimestamp": "2026-06-09T11:40:25.135Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Highlight",
-    "More",
-    "Python 3 Java C++",
-    "Python 3",
-    "Java",
-    "C++",
+    "Linked List",
+    "Facebook IXL Amazon",
+    "Facebook",
+    "IXL",
+    "Amazon",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "ALL(31) Java(14) Python 3(12) C++(7)",
+  "language": "Java",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/problem/372/solution/93785",
-  "submissionId": "enafxq"
+  "problemUrl": "https://www.lintcode.com/problem/223/description",
+  "submissionId": "x384w7"
 }
