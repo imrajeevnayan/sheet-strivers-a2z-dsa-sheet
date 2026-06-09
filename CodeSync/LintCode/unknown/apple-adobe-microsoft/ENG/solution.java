@@ -7,21 +7,8 @@
  * Topics: Linked List, Apple Adobe Microsoft, Apple, Adobe, Microsoft, 174 Remove Nth Node From End of List Easy, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T11:05:51.272Z
+ * Synced: 2026-06-09T11:06:14.579Z
  */
-
-/**
-·*·Definition·for·ListNode.
-·*·public·class·ListNode·{
-·*·····int·val;
-·*·····ListNode·next;
-·*·····ListNode(int·val)·{
-·*·········this.val·=·val;
-·*·········this.next·=·null;
-·*·····}
-·*·}
-·*/
-
 
 public·class·Solution·{
 ····/*
