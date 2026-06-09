@@ -7,7 +7,7 @@
  * Topics: Linked List, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T05:39:40.276Z
+ * Synced: 2026-06-09T05:39:50.279Z
  */
 
 class Solution {
@@ -15,8 +15,9 @@ class Solution {
         ListNode prev=null;
         ListNode curr=head;
         while(curr!=null){
-            ListNode te
+            ListNode temp=curr.next;
         }
         
     }
+            
 }
