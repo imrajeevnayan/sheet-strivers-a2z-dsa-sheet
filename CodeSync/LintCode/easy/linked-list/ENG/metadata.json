@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-09T11:10:47.431Z",
+  "submissionTimestamp": "2026-06-09T11:10:50.563Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -13,8 +13,8 @@
     "Test Data Commit Output"
   ],
   "platform": "LintCode",
-  "language": "Java",
+  "language": "1class Solution { 2 public void deleteNode(ListNode node) { 3 if(node==null || node.next==null) return; 4 node.val=node.next.val; 5 node.next=node.next.next; 6 } 7}",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/372/",
-  "submissionId": "4byrl1"
+  "submissionId": "73fx17"
 }
