@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Linked List, Recursion
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-linked-list/
-- Synced: 2026-06-09T05:40:04.505Z
+- Problem URL: https://leetcode.com/problems/reverse-linked-list/submissions/2027090366/
+- Synced: 2026-06-09T05:40:37.284Z
 
 ## Problem Description
 
