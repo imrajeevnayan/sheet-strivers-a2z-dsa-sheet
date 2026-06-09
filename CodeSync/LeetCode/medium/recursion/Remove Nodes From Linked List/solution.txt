@@ -7,12 +7,24 @@
  * Topics: Linked List, Stack, Recursion, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T15:30:57.266Z
+ * Synced: 2026-06-09T18:24:00.477Z
  */
 
-Input: head = [5,2,13,3,8]
-Output: [13,8]
-Explanation: The nodes that should be removed are 5, 2 and 3.
-- Node 13 is to the right of node 5.
-- Node 13 is to the right of node 2.
-- Node 8 is to the right of node 3.
+class Solution {
+    public ListNode removeNodes(ListNode head) {
+        Deque<ListNode> stack = new ArrayDeque<>();
+        
+        // Traverse and maintain monotonic decreasing stack
+        ListNode curr = head;
+        while (curr != null) {
+            // Remove all nodes smaller than current (they have greater node to right)
+            while (!stack.isEmpty() && stack.peek().val < curr.val) {
+                stack.pop();
+            }
+            stack.push(curr);
+            curr = curr.next;
+        }
+        
+        // Rebuild result list from stack (top of stack = last surviving node)
+        ListNode next = null;
+        while (!stack.isEmpty()) {
