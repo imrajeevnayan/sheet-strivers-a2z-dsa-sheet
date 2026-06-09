@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/score-of-parentheses-string/1
-- Synced: 2026-06-08T18:43:25.420Z
+- Synced: 2026-06-09T09:25:41.550Z
 
 ## Problem Description
 
