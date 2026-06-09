@@ -7,7 +7,7 @@
  * Topics: Linked List, Stack, Recursion, Monotonic Stack
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-09T09:56:29.856Z
+ * Synced: 2026-06-09T09:56:38.708Z
  */
 
 // Remove all nodes smaller than current (they have greater node to right)
@@ -24,7 +24,6 @@
             ListNode node = stack.pop();
             node.next = next;
         while (curr != null) {
-        
         ListNode curr = head;
     public ListNode removeNodes(ListNode head) {
         Deque<ListNode> stack = new ArrayDeque<>();
