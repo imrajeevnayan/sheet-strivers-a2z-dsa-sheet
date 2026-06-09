@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Linked List, Two Pointers
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-09T05:54:40.009Z
+ * Memory: 42.62 MB
+ * Synced: 2026-06-09T05:54:43.067Z
  */
 
 class Solution {
