@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Linked List, Two Pointers, Stack, Recursion
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-09T10:05:23.003Z
+ * Memory: 101.71 MB
+ * Synced: 2026-06-09T10:05:32.097Z
  */
 
 class Solution {
