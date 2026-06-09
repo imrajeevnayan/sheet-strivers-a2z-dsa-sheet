@@ -1,19 +1,21 @@
 {
-  "submissionTimestamp": "2026-06-09T11:42:59.731Z",
+  "submissionTimestamp": "2026-06-09T11:49:26.156Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Linked List",
-    "Facebook IXL Amazon",
-    "Facebook",
-    "IXL",
-    "Amazon",
-    "Test Data Test Output"
+    "Highlight",
+    "More",
+    "Java Python 3 C++",
+    "Java",
+    "Python 3",
+    "C++",
+    "@param",
+    "@return"
   ],
   "platform": "LintCode",
-  "language": "Java",
+  "language": "ALL(94) Java(33) Python 3(33) C++(24) C(3) JavaScript(3) Csharp(2) Go(2) Python 2(1)",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/problem/223/description",
-  "submissionId": "n4rnz0"
+  "problemUrl": "https://www.lintcode.com/problem/228/solution/93787",
+  "submissionId": "3bmsk2"
 }
