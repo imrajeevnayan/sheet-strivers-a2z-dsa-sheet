@@ -1,0 +1,18 @@
+/*
+ * Platform: LeetCode
+ * Problem: Remove Nodes From Linked List
+ * URL: https://leetcode.com/problems/remove-nodes-from-linked-list/description/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Linked List, Stack, Recursion, Monotonic Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-09T15:30:57.266Z
+ */
+
+Input: head = [5,2,13,3,8]
+Output: [13,8]
+Explanation: The nodes that should be removed are 5, 2 and 3.
+- Node 13 is to the right of node 5.
+- Node 13 is to the right of node 2.
+- Node 8 is to the right of node 3.
