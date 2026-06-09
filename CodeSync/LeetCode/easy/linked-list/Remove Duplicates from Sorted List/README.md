@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Linked List
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 45.42 MB
 - Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/submissions/2027370701/
-- Synced: 2026-06-09T10:03:24.948Z
+- Synced: 2026-06-09T10:03:27.765Z
 
 ## Problem Description
 
