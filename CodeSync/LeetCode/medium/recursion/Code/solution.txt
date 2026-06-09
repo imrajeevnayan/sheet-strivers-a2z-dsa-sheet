@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/remove-nodes-from-linked-list/
+ * URL: https://leetcode.com/problems/remove-nodes-from-linked-list/submissions/2027363781/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Stack, Recursion, Monotonic Stack
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-09T09:56:38.708Z
+ * Synced: 2026-06-09T09:56:47.772Z
  */
 
 // Remove all nodes smaller than current (they have greater node to right)
