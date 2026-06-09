@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-06-09T11:19:21.674Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Strings",
+    "Related Articles",
+    "Remove A Character From A Given Position"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "let l= s.length let str='' for(let i=0; i<l; i++){ if(i!=pos){ str=str+s[i] } } return str",
+  "problemTitle": "Easy C++ Sol",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/remove-a-character-from-a-given-position/1",
+  "submissionId": "sthuf5"
+}
