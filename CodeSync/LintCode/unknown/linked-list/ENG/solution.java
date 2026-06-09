@@ -7,21 +7,21 @@
  * Topics: Linked List, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T06:47:41.993Z
+ * Synced: 2026-06-09T06:47:44.483Z
  */
 
+/**
+·*·Definition·for·ListNode
+·*·public·class·ListNode·{
+·*·····int·val;
+·*·····ListNode·next;
+·*·····ListNode(int·x)·{
+·*·········val·=·x;
+·*·········next·=·null;
+·*·····}
+·*·}
+·*/
+
 public·class·Solution·{
-····public·static·Node·reverseBetween(Node·head,·int·left,·int·right)·{
-········if·(head·==·null·||·left·==·right)·return·head;
-········Node·dummy·=·new·Node(0);
-········dummy.next·=·head;
-········
-········Node·prev·=·dummy;
-········for·(int·i·=·1;·i·<·left;·i++)·{
-············prev·=·prev.next;
-········}
-········Node·curr·=·prev.next;
-········for·(int·i·=·0;·i·<·right·-·left;·i++)·{
-············Node·next·=·curr.next;······
-············curr.next·=·next.next;······
-············next.next·=·prev.next;·····
+····/**
+·····*·@param·head:·ListNode·head·is·the·head·of·the·linked·list·
