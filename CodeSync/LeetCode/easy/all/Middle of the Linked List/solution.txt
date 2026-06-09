@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Middle of the Linked List
- * URL: https://leetcode.com/problems/middle-of-the-linked-list/
+ * URL: https://leetcode.com/problems/middle-of-the-linked-list/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Linked List, Two Pointers
  * Runtime: 0 ms
- * Memory: 42.62 MB
- * Synced: 2026-06-09T06:08:30.345Z
+ * Memory: N/A
+ * Synced: 2026-06-09T06:09:19.157Z
  */
 
 class Solution {
