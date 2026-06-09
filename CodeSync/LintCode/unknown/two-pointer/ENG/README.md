@@ -3,11 +3,11 @@
 - Platform: LintCode
 - Language: Python
 - Difficulty: Unknown
-- Topics: Same Direction Two Pointers, Linked List, Two Pointers, 174 Remove Nth Node From End of List Easy, Test Data Commit Output
+- Topics: Same Direction Two Pointers, Linked List, Two Pointers, 174 Remove Nth Node From End of List Easy, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/228/
-- Synced: 2026-06-09T11:49:04.030Z
+- Synced: 2026-06-09T11:49:07.202Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Find the middle node of a linked list and return it. LintCode - Onli
 
 ## Explanation
 
-This solution was accepted on LintCode using Python. The detected topics are Same Direction Two Pointers, Linked List, Two Pointers, 174 Remove Nth Node From End of List Easy, Test Data Commit Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Python. The detected topics are Same Direction Two Pointers, Linked List, Two Pointers, 174 Remove Nth Node From End of List Easy, Test Data Test Output. Review the synced source file for the implementation details.
