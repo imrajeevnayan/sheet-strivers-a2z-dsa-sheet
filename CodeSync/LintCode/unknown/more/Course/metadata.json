@@ -1,21 +1,21 @@
 {
-  "submissionTimestamp": "2026-06-08T18:46:54.157Z",
+  "submissionTimestamp": "2026-06-09T06:49:47.734Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
     "Highlight",
     "More",
-    "Java Python 3 C++",
+    "Java Python 3 C++ JavaScript Go",
     "Java",
     "Python 3",
     "C++",
-    "Python 3 Monotonic Stack",
-    "Monotonic Stack"
+    "JavaScript",
+    "Go"
   ],
   "platform": "LintCode",
-  "language": "ALL(9) Java(6) Python 3(5) C++(3) JavaScript(1)",
+  "language": "ALL(60) Python 3(21) Java(18) C++(18) Go(5) JavaScript(4) Ruby(1) Python 2(1)",
   "problemTitle": "Course",
-  "problemUrl": "https://www.lintcode.com/problem/268/solution/93780",
-  "submissionId": "gc78pr"
+  "problemUrl": "https://www.lintcode.com/problem/36/solution/93783",
+  "submissionId": "ttfo5f"
 }
