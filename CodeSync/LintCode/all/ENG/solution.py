@@ -1,23 +1,19 @@
 # Platform: LintCode
 # Problem: ENG
-# URL: https://www.lintcode.com/problem/35/
+# URL: https://www.lintcode.com/problem/228/
 # Language: Python
-# Difficulty: Medium
-# Topics: Linked List, ByteDance, Test Data Commit Output
+# Difficulty: Unknown
+# Topics: Same Direction Two Pointers, Linked List, Two Pointers, 174 Remove Nth Node From End of List Easy, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-09T06:45:14.190Z
+# Synced: 2026-06-09T11:45:16.255Z
 
 public·class·Solution·{
-····public·ListNode·reverse(ListNode·head)·{
-·····ListNode·prev=null;
-·····ListNode·curr=head;
-·····while(curr!=null){
-·········ListNode·temp=curr.next;
-·········curr.next=prev;
-·········prev=curr;
-·········curr=temp;
-·····}
-·····return·prev;
+····/**
+·····*·@param·head:·the·head·of·linked·list.
+·····*·@return:·a·middle·node·of·the·linked·list
+·····*/
+····public·ListNode·middleNode(ListNode·head)·{
+········//·write·your·code·here
 ····}
 }
