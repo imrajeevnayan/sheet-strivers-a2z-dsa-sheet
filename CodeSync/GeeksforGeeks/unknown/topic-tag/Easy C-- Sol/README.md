@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/remove-a-character-from-a-given-position/1
-- Synced: 2026-06-09T11:19:21.674Z
+- Synced: 2026-06-09T11:19:29.505Z
 
 ## Problem Description
 
