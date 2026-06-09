@@ -1,31 +1,33 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/problem/268/solution/93780
- * Language: ALL(9) Java(6) Python 3(5) C++(3) JavaScript(1)
+ * URL: https://www.lintcode.com/problem/36/solution/93783
+ * Language: ALL(60) Python 3(21) Java(18) C++(18) Go(5) JavaScript(4) Ruby(1) Python 2(1)
  * Difficulty: Unknown
- * Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, Python 3 Monotonic Stack, Monotonic Stack
+ * Topics: Highlight, More, Java Python 3 C++ JavaScript Go, Java, Python 3, C++, JavaScript, Go
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T18:46:54.157Z
+ * Synced: 2026-06-09T06:49:47.734Z
  */
 
 public·class·Solution·{
-····public·int·parenthesesScore(String·s)·{
-········Stack<Integer>·st=·new·Stack<>();
-········st.push(0);
+····public·ListNode·reverseBetween(ListNode·head,·int·m,·int·n)·{
+········if·(head·==·null·||·m·==·n)·return·head;
 
-········for·(char·c·:·s.toCharArray())·{
-············if·(c·==·'(')·st.push(0);
-············else·{
-················int·v·=·st.pop();
-················int·top·=·st.pop();
+········ListNode·dummy·=·new·ListNode(0);
+········dummy.next·=·head;
 
-················if·(v·==·0)·st.push(top·+·1);
-················else·st.push(top·+·2·*·v);
-············}
+········ListNode·prev·=·dummy;
+········for·(int·i·=·1;·i·<·m;·i++)·{
+············prev·=·prev.next;
 ········}
-
-········return·st.pop();
+········ListNode·curr·=·prev.next;
+········for·(int·i·=·0;·i·<·n·-·m;·i++)·{
+············ListNode·next·=·curr.next;·····
+·············curr.next·=·next.next;
+············next.next·=·prev.next;
+············prev.next·=·next;
+········}
+········return·dummy.next;
 ····}
 }
