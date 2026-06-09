@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Linked List, Stack, Recursion, Monotonic Stack
-- Runtime: 0 ms
+- Runtime: 6 ms
 - Memory: 130.56 MB
-- Problem URL: https://leetcode.com/problems/remove-nodes-from-linked-list/submissions/2027364518/
-- Synced: 2026-06-09T09:57:34.467Z
+- Problem URL: https://leetcode.com/problems/remove-nodes-from-linked-list/
+- Synced: 2026-06-09T09:57:51.283Z
 
 ## Problem Description
 
