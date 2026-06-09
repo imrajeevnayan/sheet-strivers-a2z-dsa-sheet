@@ -1,15 +1,20 @@
 {
-  "submissionTimestamp": "2026-06-09T06:49:33.948Z",
+  "submissionTimestamp": "2026-06-09T11:10:44.238Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Linked List",
+    "Apple Adobe Microsoft",
+    "Apple",
+    "Adobe",
+    "Microsoft",
+    "174 Remove Nth Node From End of List Easy",
     "Test Data Commit Output"
   ],
   "platform": "LintCode",
-  "language": "1public class Solution { 2 public ListNode reverseBetween(ListNode head, int m, int n) { 3 if (head == null || m == n) return head; 4 5 ListNode dummy = new ListNode(0); 6 dummy.next = head; 7 8 ListNode prev = dummy; 9 for (int i = 1; i < m; i++) { 10 prev = prev.next; 11 } 12 ListNode curr = prev.next; 13 for (int i = 0; i < n - m; i++) { 14 ListNode next = curr.next; 15 curr.next = next.next; 16 next.next = prev.next; 17 prev.next = next; 18 } 19 return dummy.next; 20 } 21}",
+  "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/36/",
-  "submissionId": "89dnvw"
+  "problemUrl": "https://www.lintcode.com/problem/372/",
+  "submissionId": "4byrl1"
 }
