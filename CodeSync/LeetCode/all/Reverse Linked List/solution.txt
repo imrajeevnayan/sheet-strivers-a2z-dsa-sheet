@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Linked List
- * URL: https://leetcode.com/problems/reverse-linked-list/
+ * URL: https://leetcode.com/problems/reverse-linked-list/submissions/2027090366/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Linked List, Recursion
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-09T05:40:04.505Z
+ * Synced: 2026-06-09T05:40:37.284Z
  */
 
 class Solution {
@@ -17,7 +17,9 @@ class Solution {
         while(curr!=null){
             ListNode temp=curr.next;
         }
-        
+        return prev;
     }
-            curr.next=pe
+            curr.next=prev;
+            prev=curr;
+            curr=temp;
 }
