@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Merge Two Sorted Lists
- * URL: https://leetcode.com/problems/merge-two-sorted-lists/description/
+ * URL: https://leetcode.com/problems/merge-two-sorted-lists/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Linked List, Recursion
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-09T06:00:35.328Z
+ * Synced: 2026-06-09T06:01:04.780Z
  */
 
 class Solution {
