@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: 0 ms
  * Memory: 202.40 MB
- * Synced: 2026-06-09T09:39:41.835Z
+ * Synced: 2026-06-09T09:39:48.777Z
  */
 
 class Solution {
@@ -15,7 +15,6 @@ class Solution {
         if (head == null || head.next == null) return null;
         ListNode slow = head;
         ListNode fast = head.next.next;
-        
         while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
@@ -24,4 +23,5 @@ class Solution {
         slow.next = slow.next.next;
         return head;
     }
+        
 }
