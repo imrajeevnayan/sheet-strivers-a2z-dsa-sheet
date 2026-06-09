@@ -7,7 +7,7 @@
  * Topics: Linked List, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T06:51:30.531Z
+ * Synced: 2026-06-09T07:24:06.540Z
  */
 
 public·class·Solution·{
