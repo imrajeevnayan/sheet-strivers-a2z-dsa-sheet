@@ -1,31 +1,19 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/problem/268/solution/93780
- * Language: ALL(9) Java(6) Python 3(5) C++(3) JavaScript(1)
+ * URL: https://www.lintcode.com/problem/372/solution/93785
+ * Language: ALL(31) Java(14) Python 3(12) C++(7)
  * Difficulty: Unknown
- * Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, Python 3 Monotonic Stack, Monotonic Stack
+ * Topics: Highlight, More, Python 3 Java C++, Python 3, Java, C++, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T18:46:54.157Z
+ * Synced: 2026-06-09T11:11:05.212Z
  */
 
-public·class·Solution·{
-····public·int·parenthesesScore(String·s)·{
-········Stack<Integer>·st=·new·Stack<>();
-········st.push(0);
-
-········for·(char·c·:·s.toCharArray())·{
-············if·(c·==·'(')·st.push(0);
-············else·{
-················int·v·=·st.pop();
-················int·top·=·st.pop();
-
-················if·(v·==·0)·st.push(top·+·1);
-················else·st.push(top·+·2·*·v);
-············}
-········}
-
-········return·st.pop();
+class·Solution·{
+····public·void·deleteNode(ListNode·node)·{
+········if(node==null·||·node.next==null)·return;
+········node.val=node.next.val;
+········node.next=node.next.next;
 ····}
 }
