@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Code
+ * URL: https://leetcode.com/problems/remove-nodes-from-linked-list/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Linked List, Stack, Recursion, Monotonic Stack
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-09T09:40:05.125Z
+ */
+
+class Solution {
+    public ListNode removeNodes(ListNode head) {
+        
+    }
+}
