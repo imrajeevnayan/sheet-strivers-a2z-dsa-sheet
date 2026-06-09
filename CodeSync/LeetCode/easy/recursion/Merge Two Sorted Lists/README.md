@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/merge-two-sorted-lists/
-- Synced: 2026-06-09T06:07:48.471Z
+- Synced: 2026-06-09T06:08:11.258Z
 
 ## Problem Description
 
