@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-07T11:30:57.922Z",
-  "runtime": "N/A",
-  "memoryUsage": "N/A",
+  "submissionTimestamp": "2026-06-09T10:05:42.092Z",
+  "runtime": "0 ms",
+  "memoryUsage": "101.71 MB",
   "difficulty": "Easy",
   "tags": [
     "Linked List",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Palindrome Linked List",
-  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/",
+  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/submissions/2027372713/",
   "submissionId": "go7c3z"
 }
