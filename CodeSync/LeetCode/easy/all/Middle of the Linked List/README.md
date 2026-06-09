@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Linked List, Two Pointers
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/description/
-- Synced: 2026-06-09T06:09:19.157Z
+- Synced: 2026-06-09T08:06:53.216Z
 
 ## Problem Description
 
