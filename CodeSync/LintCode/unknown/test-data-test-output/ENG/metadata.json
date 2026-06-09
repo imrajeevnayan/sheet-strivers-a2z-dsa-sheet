@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-08T18:46:26.522Z",
+  "submissionTimestamp": "2026-06-09T06:45:25.113Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Stack",
+    "Linked List",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/268/",
-  "submissionId": "h7dob7"
+  "problemUrl": "https://www.lintcode.com/problem/36/",
+  "submissionId": "8iaiyx"
 }
