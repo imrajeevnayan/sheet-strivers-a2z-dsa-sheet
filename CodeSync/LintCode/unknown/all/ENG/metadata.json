@@ -1,20 +1,18 @@
 {
-  "submissionTimestamp": "2026-06-09T11:07:25.634Z",
+  "submissionTimestamp": "2026-06-09T11:45:16.255Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
+    "Same Direction Two Pointers",
     "Linked List",
-    "Apple Adobe Microsoft",
-    "Apple",
-    "Adobe",
-    "Microsoft",
+    "Two Pointers",
     "174 Remove Nth Node From End of List Easy",
-    "Test Data Commit Output"
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "Java",
+  "language": "Python",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/372/",
-  "submissionId": "88bzmw"
+  "problemUrl": "https://www.lintcode.com/problem/228/",
+  "submissionId": "skjqys"
 }
