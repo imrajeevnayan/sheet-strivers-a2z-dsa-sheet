@@ -6,8 +6,8 @@
 - Topics: Linked List
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
-- Synced: 2026-06-09T10:03:05.296Z
+- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+- Synced: 2026-06-09T10:03:14.979Z
 
 ## Problem Description
 
