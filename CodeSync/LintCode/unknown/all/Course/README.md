@@ -6,8 +6,8 @@
 - Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, @param, @return
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/228/solution/93787
-- Synced: 2026-06-09T11:49:26.156Z
+- Problem URL: https://www.lintcode.com/problem/228/solution/56541
+- Synced: 2026-06-09T11:49:50.290Z
 
 ## Problem Description
 
