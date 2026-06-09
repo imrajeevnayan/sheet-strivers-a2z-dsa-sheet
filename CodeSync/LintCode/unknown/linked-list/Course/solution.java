@@ -4,10 +4,10 @@
  * URL: https://www.lintcode.com/problem/223/description
  * Language: Java
  * Difficulty: Unknown
- * Topics: Linked List, Facebook IXL Amazon, Facebook, IXL, Amazon, Test Data Test Output
+ * Topics: Linked List, Facebook IXL Amazon, Facebook, IXL, Amazon, Test Data Commit Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T11:43:04.867Z
+ * Synced: 2026-06-09T11:43:08.369Z
  */
 
 public·class·Solution·{
