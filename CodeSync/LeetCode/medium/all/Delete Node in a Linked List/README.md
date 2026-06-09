@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 45.18 MB
 - Problem URL: https://leetcode.com/problems/delete-node-in-a-linked-list/submissions/2027344688/
-- Synced: 2026-06-09T09:38:20.427Z
+- Synced: 2026-06-09T09:39:21.098Z
 
 ## Problem Description
 
