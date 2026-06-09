@@ -7,14 +7,16 @@
  * Topics: Linked List, Facebook IXL Amazon, Facebook, IXL, Amazon, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T11:41:23.400Z
+ * Synced: 2026-06-09T11:41:36.185Z
  */
 
 public·class·Solution·{
 ····public·boolean·isPalindrome(ListNode·head)·{
-····}
 ········Stack<Integer>st=new·Stack<>();
-········while(curr)
+········while(curr!=null){
 
 ········ListNode·curr=head;
+············st.push
+········}
+····}
 }
