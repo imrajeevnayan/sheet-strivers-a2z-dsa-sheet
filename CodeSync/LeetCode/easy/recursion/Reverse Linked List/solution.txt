@@ -7,7 +7,7 @@
  * Topics: Linked List, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T05:34:10.278Z
+ * Synced: 2026-06-09T05:34:12.281Z
  */
 
 class Solution {
