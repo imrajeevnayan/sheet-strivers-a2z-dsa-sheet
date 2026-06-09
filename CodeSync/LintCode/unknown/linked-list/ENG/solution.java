@@ -7,13 +7,12 @@
  * Topics: Linked List, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T06:47:52.012Z
+ * Synced: 2026-06-09T06:47:53.515Z
  */
 
-\public·class·Solution·{
 ····/**
 ·····*·@param·head:·ListNode·head·is·the·head·of·the·linked·list·
-
+public·class·Solution·{
 ·····*·@param·m:·An·integer
 ·····*·@param·n:·An·integer
 ·····*·@return:·The·head·of·the·reversed·ListNode
