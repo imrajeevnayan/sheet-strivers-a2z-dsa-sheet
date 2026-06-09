@@ -1,37 +1,19 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/problem/62/solution/93735
- * Language: ALL(83) Python 3(41) Java(29) C++(12) Csharp(2) JavaScript(2) Go(1)
+ * URL: https://www.lintcode.com/problem/372/solution/93785
+ * Language: ALL(31) Java(14) Python 3(12) C++(7)
  * Difficulty: Unknown
- * Topics: Highlight, More, Python 3 Java C++, Python 3, Java, C++, JavaScript, @param
+ * Topics: Highlight, More, Python 3 Java C++, Python 3, Java, C++, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-05-29T16:18:25.247Z
+ * Synced: 2026-06-09T11:11:05.212Z
  */
 
-public·class·Solution·{
-····public·int·search(int[]·a,·int·target)·{
-········int·left·=·0,right·=·a.length·-·1;
-········while·(left·<=·right)·{
-············int·mid·=·left·+·(right·-·left)·/·2;
-············if·(a[mid]·==·target)·return·mid;
-············//·Left·half·is·sorted
-············if·(a[left]·<=·a[mid])·{
-················//·Target·lies·in·left·half
-················if·(target·>=·a[left]·&&·target·<·a[mid])·right·=·mid·-·1;
-················else·left·=·mid·+·1;
-············}·
-············//·Right·half·is·sorted
-············else·{
-················//·Target·lies·in·right·half
-················if·(target·>·a[mid]·&&·target·<=·a[right])·{
-····················left·=·mid·+·1;
-················}·else·{
-····················right·=·mid·-·1;
-················}
-············}
-········}
-········return·-1;
+class·Solution·{
+····public·void·deleteNode(ListNode·node)·{
+········if(node==null·||·node.next==null)·return;
+········node.val=node.next.val;
+········node.next=node.next.next;
 ····}
 }
