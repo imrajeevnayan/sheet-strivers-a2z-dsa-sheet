@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T05:54:15.579Z
+ * Synced: 2026-06-09T05:54:24.569Z
  */
 
 class Solution {
@@ -15,8 +15,9 @@ class Solution {
         ListNode slow=head;
         ListNode fast=head;
         while(fast!=null && fast.next !=null ){
-            fast=fast.next.next
+            fast=fast.next.next;
         }
         
     }
+            slow=slow.next;
 }
