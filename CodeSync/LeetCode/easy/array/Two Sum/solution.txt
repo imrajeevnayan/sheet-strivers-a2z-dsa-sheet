@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Two Sum
- * URL: https://leetcode.com/problems/two-sum/
+ * URL: https://leetcode.com/problems/two-sum/submissions/2027863517/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-09T18:20:08.875Z
+ * Synced: 2026-06-09T18:20:11.180Z
  */
 
 class Solution {
