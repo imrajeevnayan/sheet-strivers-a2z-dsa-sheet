@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Median of Two Sorted Arrays
- * URL: https://leetcode.com/problems/median-of-two-sorted-arrays/
+ * URL: https://leetcode.com/problems/median-of-two-sorted-arrays/description/
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Binary Search, Divide and Conquer
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-09T18:21:35.414Z
+ * Synced: 2026-06-09T18:21:38.480Z
  */
 
 public double findMedianSortedArrays(int[] nums1, int[] nums2) {
