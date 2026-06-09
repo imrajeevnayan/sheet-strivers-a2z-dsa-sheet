@@ -7,7 +7,7 @@
  * Topics: Linked List, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T06:46:57.252Z
+ * Synced: 2026-06-09T06:47:02.392Z
  */
 
 public·class·Solution·{
@@ -16,13 +16,10 @@ public·class·Solution·{
 ········Node·dummy·=·new·Node(0);
 ········dummy.next·=·head;
 ········
-········//·1.·Move·'prev'·to·the·node·just·before·'left'
 ········Node·prev·=·dummy;
 ········for·(int·i·=·1;·i·<·left;·i++)·{
 ············prev·=·prev.next;
 ········}
-
-········//·2.·'curr'·is·the·first·node·to·be·reversed
 ········Node·curr·=·prev.next;
 
 ········//·3.·Perform·(right·-·left)·swaps
