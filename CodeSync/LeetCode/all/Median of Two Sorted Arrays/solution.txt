@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search, Divide and Conquer
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T18:20:44.723Z
+ * Synced: 2026-06-09T18:21:06.500Z
  */
 
 public double findMedianSortedArrays(int[] nums1, int[] nums2) {
@@ -29,3 +29,5 @@ public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         if (n % 2 == 1) return merged[n / 2];
         else return (merged[n / 2] + merged[(n / 2) - 1]) / 2.0;
 class Solution {
+    }
+}
