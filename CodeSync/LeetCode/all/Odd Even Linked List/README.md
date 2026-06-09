@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Linked List
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/odd-even-linked-list/
-- Synced: 2026-06-09T10:02:18.521Z
+- Synced: 2026-06-09T10:02:34.687Z
 
 ## Problem Description
 
