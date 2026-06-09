@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-09T05:40:04.505Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-09T05:40:37.284Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Reverse Linked List",
-  "problemUrl": "https://leetcode.com/problems/reverse-linked-list/",
-  "submissionId": "upgbpn"
+  "problemUrl": "https://leetcode.com/problems/reverse-linked-list/submissions/2027090366/",
+  "submissionId": "qp9fxf"
 }
