@@ -1,13 +1,13 @@
 # Course
 
 - Platform: LintCode
-- Language: ALL(27) Java(12) Python 3(12) C++(5) JavaScript(2) Go(1)
+- Language: ALL(94) Java(33) Python 3(33) C++(24) C(3) JavaScript(3) Csharp(2) Go(2) Python 2(1)
 - Difficulty: Unknown
-- Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, Java Python 3 C++ JavaScript, JavaScript
+- Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, @param, @return
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/223/solution/93786
-- Synced: 2026-06-09T11:43:38.314Z
+- Problem URL: https://www.lintcode.com/problem/228/solution/93787
+- Synced: 2026-06-09T11:49:26.156Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Course Problem Referral VIP CAT Contest Note More... Problems,tags,collection Sc
 
 ## Explanation
 
-This solution was accepted on LintCode using ALL(27) Java(12) Python 3(12) C++(5) JavaScript(2) Go(1). The detected topics are Highlight, More, Java Python 3 C++, Java, Python 3, C++, Java Python 3 C++ JavaScript, JavaScript. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using ALL(94) Java(33) Python 3(33) C++(24) C(3) JavaScript(3) Csharp(2) Go(2) Python 2(1). The detected topics are Highlight, More, Java Python 3 C++, Java, Python 3, C++, @param, @return. Review the synced source file for the implementation details.
