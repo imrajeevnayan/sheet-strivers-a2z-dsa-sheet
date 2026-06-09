@@ -7,11 +7,12 @@
  * Topics: Linked List, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T05:38:08.155Z
+ * Synced: 2026-06-09T05:38:44.279Z
  */
 
 public ListNode reverseList(ListNode head) {
         
     }
 class Solution {
+        
 }
