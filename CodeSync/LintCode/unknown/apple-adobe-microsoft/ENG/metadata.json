@@ -1,0 +1,20 @@
+{
+  "submissionTimestamp": "2026-06-09T11:05:51.272Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Linked List",
+    "Apple Adobe Microsoft",
+    "Apple",
+    "Adobe",
+    "Microsoft",
+    "174 Remove Nth Node From End of List Easy",
+    "Test Data Test Output"
+  ],
+  "platform": "LintCode",
+  "language": "Java",
+  "problemTitle": "ENG",
+  "problemUrl": "https://www.lintcode.com/problem/372/",
+  "submissionId": "jwcprr"
+}
