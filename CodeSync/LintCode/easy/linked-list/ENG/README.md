@@ -1,13 +1,13 @@
 # ENG
 
 - Platform: LintCode
-- Language: Java
+- Language: 1public class Solution { 2 public ListNode reverseBetween(ListNode head, int m, int n) { 3 if (head == null || m == n) return head; 4 5 ListNode dummy = new ListNode(0); 6 dummy.next = head; 7 8 ListNode prev = dummy; 9 for (int i = 1; i < m; i++) { 10 prev = prev.next; 11 } 12 ListNode curr = prev.next; 13 for (int i = 0; i < n - m; i++) { 14 ListNode next = curr.next; 15 curr.next = next.next; 16 next.next = prev.next; 17 prev.next = next; 18 } 19 return dummy.next; 20 } 21}
 - Difficulty: Easy
 - Topics: Linked List, Test Data Commit Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/36/
-- Synced: 2026-06-09T06:49:30.196Z
+- Synced: 2026-06-09T06:49:33.948Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Reverse a linked list from position m to n. LintCode - Online Judge 
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are Linked List, Test Data Commit Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using 1public class Solution { 2 public ListNode reverseBetween(ListNode head, int m, int n) { 3 if (head == null || m == n) return head; 4 5 ListNode dummy = new ListNode(0); 6 dummy.next = head; 7 8 ListNode prev = dummy; 9 for (int i = 1; i < m; i++) { 10 prev = prev.next; 11 } 12 ListNode curr = prev.next; 13 for (int i = 0; i < n - m; i++) { 14 ListNode next = curr.next; 15 curr.next = next.next; 16 next.next = prev.next; 17 prev.next = next; 18 } 19 return dummy.next; 20 } 21}. The detected topics are Linked List, Test Data Commit Output. Review the synced source file for the implementation details.
