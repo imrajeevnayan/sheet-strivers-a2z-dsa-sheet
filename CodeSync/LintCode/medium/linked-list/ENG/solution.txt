@@ -1,24 +1,25 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/380/
- * Language: 1public class Solution { 2 public ListNode getIntersectionNode(ListNode headA, ListNode headB) { 3 if(headA==null || headB==null)return null; 4 ListNode a=headA; 5 ListNode b=headB; 6 while(a !=b){ 7 a=(a==null)? headB:a.next; 8 b=(b==null)?headA:b.next; 9 } 10 return b; 11 } 12}
+ * URL: https://www.lintcode.com/problem/35/
+ * Language: reverse
  * Difficulty: Medium
- * Topics: Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Commit Output
+ * Topics: Linked List, ByteDance, Test Data Commit Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T10:49:15.028Z
+ * Synced: 2026-06-09T06:45:17.412Z
  */
 
 public·class·Solution·{
-····public·ListNode·getIntersectionNode(ListNode·headA,·ListNode·headB)·{
-·······if(headA==null·||·headB==null)return·null;
-·······ListNode·a=headA;
-·······ListNode·b=headB;
-·······while(a·!=b){
-···········a=(a==null)?·headB:a.next;
-·······}
+····public·ListNode·reverse(ListNode·head)·{
+·····ListNode·prev=null;
+·····ListNode·curr=head;
+·····while(curr!=null){
+·········ListNode·temp=curr.next;
+·········curr.next=prev;
+·········prev=curr;
+·········curr=temp;
+·····}
+·····return·prev;
 ····}
-···········b=(b==null)?headA:b.next;
-·······return·b;
 }
