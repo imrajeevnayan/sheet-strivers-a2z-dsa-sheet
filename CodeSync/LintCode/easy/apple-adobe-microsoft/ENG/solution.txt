@@ -1,0 +1,19 @@
+/*
+ * Platform: LintCode
+ * Problem: ENG
+ * URL: https://www.lintcode.com/problem/372/
+ * Language: 1class Solution { 2 public void deleteNode(ListNode node) { 3 if(node==null || node.next==null) return; 4 node.val=node.next.val; 5 node.next=node.next.next; 6 } 7}
+ * Difficulty: Easy
+ * Topics: Linked List, Apple Adobe Microsoft, Apple, Adobe, Microsoft, 174 Remove Nth Node From End of List Easy, Test Data Commit Output
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-09T11:10:50.563Z
+ */
+
+class·Solution·{
+····public·void·deleteNode(ListNode·node)·{
+········if(node==null·||·node.next==null)·return;
+········node.val=node.next.val;
+········node.next=node.next.next;
+····}
+}
