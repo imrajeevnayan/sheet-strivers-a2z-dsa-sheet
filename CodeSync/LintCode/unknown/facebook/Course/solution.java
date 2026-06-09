@@ -7,7 +7,7 @@
  * Topics: Linked List, Facebook IXL Amazon, Facebook, IXL, Amazon, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T11:41:36.185Z
+ * Synced: 2026-06-09T11:41:53.831Z
  */
 
 public·class·Solution·{
@@ -16,7 +16,8 @@ public·class·Solution·{
 ········while(curr!=null){
 
 ········ListNode·curr=head;
-············st.push
+············st.push(curr.val);
 ········}
 ····}
+············curr=curr.next;
 }
