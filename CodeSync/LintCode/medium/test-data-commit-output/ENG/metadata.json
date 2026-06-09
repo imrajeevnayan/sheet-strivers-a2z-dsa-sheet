@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-09T06:45:14.190Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Linked List",
+    "ByteDance",
+    "Test Data Commit Output"
+  ],
+  "platform": "LintCode",
+  "language": "Python",
+  "problemTitle": "ENG",
+  "problemUrl": "https://www.lintcode.com/problem/35/",
+  "submissionId": "7ambbt"
+}
