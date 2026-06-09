@@ -7,11 +7,13 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T05:45:00.166Z
+ * Synced: 2026-06-09T05:51:56.399Z
  */
 
 class Solution {
     public ListNode middleNode(ListNode head) {
         
     }
-}k
+        ListNode slow=head;
+        ListNode fast=head;
+}
