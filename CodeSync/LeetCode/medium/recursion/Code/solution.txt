@@ -7,11 +7,25 @@
  * Topics: Linked List, Stack, Recursion, Monotonic Stack
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T09:40:18.122Z
+ * Synced: 2026-06-09T09:56:19.550Z
  */
 
-class Solution {
-    public ListNode removeNodes(ListNode head) {
+// Remove all nodes smaller than current (they have greater node to right)
+            while (!stack.isEmpty() && stack.peek().val < curr.val) {
+                stack.pop();
+            }
+            stack.push(curr);
+            curr = curr.next;
+        }
         
+        // Rebuild result list from stack (top of stack = last surviving node)
+        ListNode next = null;
+        while (!stack.isEmpty()) {
+            ListNode node = stack.pop();
+            node.next = next;
+            next = node;
+        }
+        
+        return next;
     }
 }
