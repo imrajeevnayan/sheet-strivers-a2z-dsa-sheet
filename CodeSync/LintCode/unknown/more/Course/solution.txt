@@ -1,19 +1,28 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/problem/372/solution/93785
- * Language: ALL(31) Java(14) Python 3(12) C++(7)
+ * URL: https://www.lintcode.com/problem/223/solution/93786
+ * Language: ALL(27) Java(12) Python 3(12) C++(5) JavaScript(2) Go(1)
  * Difficulty: Unknown
- * Topics: Highlight, More, Python 3 Java C++, Python 3, Java, C++, Test Data Test Output
+ * Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, Java Python 3 C++ JavaScript, JavaScript
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T11:11:05.212Z
+ * Synced: 2026-06-09T11:43:38.314Z
  */
 
-class·Solution·{
-····public·void·deleteNode(ListNode·node)·{
-········if(node==null·||·node.next==null)·return;
-········node.val=node.next.val;
-········node.next=node.next.next;
+public·class·Solution·{
+····public·boolean·isPalindrome(ListNode·head)·{
+········Stack<Integer>st=new·Stack<>();
+········ListNode·curr=head;
+········while(curr!=null){
+············st.push(curr.val);
+············curr=curr.next;
+········}
+········curr=head;
+········while(!st.isEmpty()){
+···········if(curr.val!=st.pop())·return·false;
+···········curr=curr.next;
+········}
+·······return·true;
 ····}
 }
