@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-09T09:57:34.467Z",
+  "submissionTimestamp": "2026-06-09T09:57:54.307Z",
   "runtime": "0 ms",
   "memoryUsage": "130.56 MB",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Code",
-  "problemUrl": "https://leetcode.com/problems/remove-nodes-from-linked-list/submissions/2027364518/",
-  "submissionId": "94f4cq"
+  "problemUrl": "https://leetcode.com/problems/remove-nodes-from-linked-list/",
+  "submissionId": "8cpy23"
 }
