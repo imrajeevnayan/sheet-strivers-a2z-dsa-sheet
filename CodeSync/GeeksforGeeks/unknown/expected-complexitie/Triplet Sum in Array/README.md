@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/two-pointer-technique-bonus-problems
-- Synced: 2026-06-09T18:26:08.045Z
+- Synced: 2026-06-09T18:26:11.659Z
 
 ## Problem Description
 
