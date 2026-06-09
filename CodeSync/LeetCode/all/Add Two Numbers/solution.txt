@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Add Two Numbers
- * URL: https://leetcode.com/problems/add-two-numbers/description/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
+ * URL: https://leetcode.com/problems/add-two-numbers/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Math, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-09T18:54:40.056Z
+ * Synced: 2026-06-09T18:56:52.164Z
  */
 
 int val1 = (l1 != null) ? l1.val : 0;
