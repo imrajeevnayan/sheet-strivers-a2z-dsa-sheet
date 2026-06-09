@@ -7,7 +7,7 @@
  * Topics: Linked List, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-09T06:06:16.003Z
+ * Synced: 2026-06-09T06:06:21.078Z
  */
 
 class Solution {
@@ -24,4 +24,4 @@ class Solution {
         
     }
             return list1;
-             return list2;
+            return list2;
