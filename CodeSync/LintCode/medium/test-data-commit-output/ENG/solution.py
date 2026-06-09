@@ -1,0 +1,23 @@
+# Platform: LintCode
+# Problem: ENG
+# URL: https://www.lintcode.com/problem/35/
+# Language: Python
+# Difficulty: Medium
+# Topics: Linked List, ByteDance, Test Data Commit Output
+# Runtime: N/A
+# Memory: N/A
+# Synced: 2026-06-09T06:45:14.190Z
+
+public·class·Solution·{
+····public·ListNode·reverse(ListNode·head)·{
+·····ListNode·prev=null;
+·····ListNode·curr=head;
+·····while(curr!=null){
+·········ListNode·temp=curr.next;
+·········curr.next=prev;
+·········prev=curr;
+·········curr=temp;
+·····}
+·····return·prev;
+····}
+}
