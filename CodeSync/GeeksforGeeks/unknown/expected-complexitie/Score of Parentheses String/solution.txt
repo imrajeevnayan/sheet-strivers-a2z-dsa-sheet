@@ -7,12 +7,12 @@
  * Topics: Expected Complexities, Topic Tags, Stack, Strings, Data Structures, Related Articles
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T12:23:11.044Z
+ * Synced: 2026-06-09T12:24:20.104Z
  */
 
 class Solution {
     public int scoreOfParentheses(String s) {
-         Stack<Integer> st= new Stack<>();
+        Stack<Integer> st= new Stack<>();
         st.push(0);
 
         for (char c : s.toCharArray()) {
