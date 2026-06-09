@@ -1,13 +1,13 @@
 # ENG
 
 - Platform: LintCode
-- Language: Python
+- Language: reverse
 - Difficulty: Medium
 - Topics: Linked List, ByteDance, Test Data Commit Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/35/
-- Synced: 2026-06-09T06:45:14.190Z
+- Synced: 2026-06-09T06:45:17.412Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Reverse a linked list. LintCode - Online Judge Solution Candidate Wr
 
 ## Explanation
 
-This solution was accepted on LintCode using Python. The detected topics are Linked List, ByteDance, Test Data Commit Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using reverse. The detected topics are Linked List, ByteDance, Test Data Commit Output. Review the synced source file for the implementation details.
