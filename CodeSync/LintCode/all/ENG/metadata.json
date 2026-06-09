@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-09T16:45:28.990Z",
+  "submissionTimestamp": "2026-06-09T18:23:24.735Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Stack",
+    "Binary Search",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/268/",
-  "submissionId": "y3dhp5"
+  "problemUrl": "https://www.lintcode.com/problem/65/",
+  "submissionId": "6of3eg"
 }
