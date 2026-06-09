@@ -3,11 +3,11 @@
 - Platform: LintCode
 - Language: Python
 - Difficulty: Unknown
-- Topics: Stack
+- Topics: Stack, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/268/
-- Synced: 2026-06-09T12:21:49.612Z
+- Synced: 2026-06-09T12:21:52.695Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Given a balanced parentheses string S, compute the score of the stri
 
 ## Explanation
 
-This solution was accepted on LintCode using Python. The detected topics are Stack. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Python. The detected topics are Stack, Test Data Test Output. Review the synced source file for the implementation details.
