@@ -7,21 +7,11 @@
  * Topics: Linked List, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T06:47:41.993Z
+ * Synced: 2026-06-09T06:48:01.214Z
  */
 
 public·class·Solution·{
-····public·static·Node·reverseBetween(Node·head,·int·left,·int·right)·{
-········if·(head·==·null·||·left·==·right)·return·head;
-········Node·dummy·=·new·Node(0);
-········dummy.next·=·head;
-········
-········Node·prev·=·dummy;
-········for·(int·i·=·1;·i·<·left;·i++)·{
-············prev·=·prev.next;
-········}
-········Node·curr·=·prev.next;
-········for·(int·i·=·0;·i·<·right·-·left;·i++)·{
-············Node·next·=·curr.next;······
-············curr.next·=·next.next;······
-············next.next·=·prev.next;·····
+····public·ListNode·reverseBetween(ListNode·head,·int·m,·int·n)·{
+····
+····}
+}
