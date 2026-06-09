@@ -1,13 +1,13 @@
 # Course
 
 - Platform: LintCode
-- Language: ALL(31) Java(14) Python 3(12) C++(7)
+- Language: ALL(94) Java(33) Python 3(33) C++(24) C(3) JavaScript(3) Csharp(2) Go(2) Python 2(1)
 - Difficulty: Unknown
-- Topics: Highlight, More, Python 3 Java C++, Python 3, Java, C++, Test Data Test Output
+- Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, @param, @return
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/372/solution/93785
-- Synced: 2026-06-09T11:11:05.212Z
+- Problem URL: https://www.lintcode.com/problem/228/solution/93787
+- Synced: 2026-06-09T11:49:26.156Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Course Problem Referral VIP CAT Contest Note More... Problems,tags,collection Sc
 
 ## Explanation
 
-This solution was accepted on LintCode using ALL(31) Java(14) Python 3(12) C++(7). The detected topics are Highlight, More, Python 3 Java C++, Python 3, Java, C++, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using ALL(94) Java(33) Python 3(33) C++(24) C(3) JavaScript(3) Csharp(2) Go(2) Python 2(1). The detected topics are Highlight, More, Java Python 3 C++, Java, Python 3, C++, @param, @return. Review the synced source file for the implementation details.
