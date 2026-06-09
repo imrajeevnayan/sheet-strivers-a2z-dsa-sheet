@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Linked List, Two Pointers
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/
-- Synced: 2026-06-09T09:39:27.897Z
+- Problem URL: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/submissions/2027346119/
+- Synced: 2026-06-09T09:39:38.940Z
 
 ## Problem Description
 
