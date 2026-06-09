@@ -1,13 +1,13 @@
 # Course
 
 - Platform: LintCode
-- Language: ALL(9) Java(6) Python 3(5) C++(3) JavaScript(1)
+- Language: ALL(94) Java(33) Python 3(33) C++(24) C(3) JavaScript(3) Csharp(2) Go(2) Python 2(1)
 - Difficulty: Unknown
-- Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, Python 3 Monotonic Stack, Monotonic Stack
+- Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, @param, @return
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/268/solution/93780
-- Synced: 2026-06-08T18:46:54.157Z
+- Problem URL: https://www.lintcode.com/problem/228/solution/93787
+- Synced: 2026-06-09T11:49:26.156Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Course Problem Referral VIP CAT Contest Note More... Problems,tags,collection Sc
 
 ## Explanation
 
-This solution was accepted on LintCode using ALL(9) Java(6) Python 3(5) C++(3) JavaScript(1). The detected topics are Highlight, More, Java Python 3 C++, Java, Python 3, C++, Python 3 Monotonic Stack, Monotonic Stack. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using ALL(94) Java(33) Python 3(33) C++(24) C(3) JavaScript(3) Csharp(2) Go(2) Python 2(1). The detected topics are Highlight, More, Java Python 3 C++, Java, Python 3, C++, @param, @return. Review the synced source file for the implementation details.
