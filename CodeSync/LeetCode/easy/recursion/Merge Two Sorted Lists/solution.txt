@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Linked List, Recursion
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-09T05:59:46.289Z
+ * Memory: 44.39 MB
+ * Synced: 2026-06-09T05:59:51.318Z
  */
 
 class Solution {
