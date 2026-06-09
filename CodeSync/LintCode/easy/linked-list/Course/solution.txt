@@ -1,0 +1,27 @@
+/*
+ * Platform: LintCode
+ * Problem: Course
+ * URL: https://www.lintcode.com/problem/223/description
+ * Language: 1public class Solution { 2 public boolean isPalindrome(ListNode head) { 3 Stack<Integer>st=new Stack<>(); 4 ListNode curr=head; 5 while(curr!=null){ 6 st.push(curr.val); 7 curr=curr.next; 8 } 9 curr=head; 10 while(!st.isEmpty()){ 11 if(curr.val!=st.pop()) return false; 12 curr=curr.next; 13 } 14 return true; 15 } 16}
+ * Difficulty: Easy
+ * Topics: Linked List, Facebook IXL Amazon, Facebook, IXL, Amazon, Test Data Commit Output
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-09T11:43:29.997Z
+ */
+
+public·class·Solution·{
+····public·boolean·isPalindrome(ListNode·head)·{
+········Stack<Integer>st=new·Stack<>();
+········while(curr!=null){
+·······return·true;
+········ListNode·curr=head;
+············st.push(curr.val);
+········}
+············curr=curr.next;
+········curr=head;
+········while(!st.isEmpty()){
+···········if(curr.val!=st.pop())·return·false;
+········}
+····}
+···········curr=curr.next;
