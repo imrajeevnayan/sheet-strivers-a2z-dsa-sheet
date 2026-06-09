@@ -1,24 +1,33 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/problem/380/description
+ * URL: https://www.lintcode.com/problem/223/record
  * Language: Java
  * Difficulty: Unknown
  * Topics: Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-07T10:54:52.975Z
+ * Synced: 2026-06-09T11:12:09.978Z
  */
 
+/**
+·*·Definition·for·ListNode
+·*·public·class·ListNode·{
+·*·····int·val;
+·*·····ListNode·next;
+·*·····ListNode(int·x)·{
+·*·········val·=·x;
+·*·········next·=·null;
+·*·····}
+·*·}
+·*/
+
 public·class·Solution·{
-····public·ListNode·getIntersectionNode(ListNode·headA,·ListNode·headB)·{
-·······if(headA==null·||·headB==null)return·null;
-·······ListNode·a=headA;
-·······ListNode·b=headB;
-·······while(a·!=b){
-···········a=(a==null)?·headB:a.next;
-···········b=(b==null)?headA:b.next;
-·······}
-·······return·b;
+····/**
+·····*·@param·head:·A·ListNode.
+·····*·@return:·A·boolean.
+·····*/
+····public·boolean·isPalindrome(ListNode·head)·{
+········//·write·your·code·here
 ····}
 }
