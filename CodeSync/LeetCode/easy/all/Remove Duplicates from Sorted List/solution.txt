@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Linked List
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-09T10:03:24.948Z
+ * Memory: 45.42 MB
+ * Synced: 2026-06-09T10:03:27.765Z
  */
 
 class Solution {
