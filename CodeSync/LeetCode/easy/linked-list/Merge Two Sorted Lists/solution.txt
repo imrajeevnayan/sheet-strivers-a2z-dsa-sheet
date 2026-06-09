@@ -7,7 +7,7 @@
  * Topics: Linked List, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-09T06:07:58.020Z
+ * Synced: 2026-06-09T06:08:02.993Z
  */
 
 if (list1.val <= list2.val) {
@@ -15,8 +15,7 @@ if (list1.val <= list2.val) {
         } 
         else {
             list2.next = mergeTwoLists(list1, list2.next);
-        }
-        
+        }   
     }
             return list1;
             return list2;
