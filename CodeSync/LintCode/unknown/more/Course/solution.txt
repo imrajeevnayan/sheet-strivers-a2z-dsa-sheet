@@ -7,7 +7,7 @@
  * Topics: Highlight, More, Java Python 3 C++ JavaScript Go, Java, Python 3, C++, JavaScript, Go
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T06:49:47.734Z
+ * Synced: 2026-06-09T06:50:01.938Z
  */
 
 public·class·Solution·{
