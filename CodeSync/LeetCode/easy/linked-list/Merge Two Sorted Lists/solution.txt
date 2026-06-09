@@ -7,7 +7,7 @@
  * Topics: Linked List, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T05:56:18.616Z
+ * Synced: 2026-06-09T05:56:22.760Z
  */
 
 class Solution {
@@ -17,9 +17,10 @@ class Solution {
         
         if (list1.val <= list2.val) {
             list1.next = mergeTwoLists(list1.next, list2);return list1;
-        } else {
+        } 
             list2.next = mergeTwoLists(list1, list2.next); return list2;
         }
         
     }
+        else {
 }
