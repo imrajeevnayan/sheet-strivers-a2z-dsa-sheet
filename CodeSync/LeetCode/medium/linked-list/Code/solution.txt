@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Linked List, Stack, Recursion, Monotonic Stack
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-09T09:57:58.301Z
+ * Memory: 134.37 MB
+ * Synced: 2026-06-09T09:58:10.099Z
  */
 
 }
