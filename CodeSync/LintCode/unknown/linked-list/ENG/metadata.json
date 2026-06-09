@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-09T11:46:51.759Z",
+  "submissionTimestamp": "2026-06-09T11:47:01.751Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -8,7 +8,7 @@
     "Linked List",
     "Two Pointers",
     "174 Remove Nth Node From End of List Easy",
-    "Test Data Test Output"
+    "Test Data Commit Output"
   ],
   "platform": "LintCode",
   "language": "Python",
