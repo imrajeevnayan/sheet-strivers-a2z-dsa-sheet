@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Linked List
-- Runtime: 0 ms
-- Memory: 0.00 MB
-- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/submissions/2023856980/
-- Synced: 2026-06-06T05:21:31.553Z
+- Runtime: N/A
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/
+- Synced: 2026-06-09T10:03:05.296Z
 
 ## Problem Description
 
