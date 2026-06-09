@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Delete Node in a Linked List
- * URL: https://leetcode.com/problems/delete-node-in-a-linked-list/description/
+ * URL: https://leetcode.com/problems/delete-node-in-a-linked-list/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-09T09:38:03.643Z
+ * Synced: 2026-06-09T09:38:12.783Z
  */
 
 class Solution {
