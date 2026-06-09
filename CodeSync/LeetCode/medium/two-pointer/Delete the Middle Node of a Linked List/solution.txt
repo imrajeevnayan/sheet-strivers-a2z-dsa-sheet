@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Delete the Middle Node of a Linked List
- * URL: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/submissions/2023571299/?envType=study-plan-v2&envId=leetcode-75
- * Language: LeetCode 75
+ * URL: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/
+ * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
- * Runtime: 0 ms
- * Memory: 202.42 MB
- * Synced: 2026-06-05T18:18:14.202Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-09T09:39:27.897Z
  */
 
 class Solution {
