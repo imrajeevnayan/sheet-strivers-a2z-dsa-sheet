@@ -1,19 +1,16 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/372/
+ * URL: https://www.lintcode.com/problem/268/
  * Language: Java
- * Difficulty: Easy
- * Topics: Linked List, Apple Adobe Microsoft, Apple, Adobe, Microsoft, 174 Remove Nth Node From End of List Easy, Test Data Commit Output
+ * Difficulty: Unknown
+ * Topics: Stack, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T11:10:44.238Z
+ * Synced: 2026-06-09T16:45:28.990Z
  */
 
-class·Solution·{
-····public·void·deleteNode(ListNode·node)·{
-········if(node==null·||·node.next==null)·return;
-········node.val=node.next.val;
-········node.next=node.next.next;
-····}
-}
+Example 1:
+
+Input: "()"
+Output: 1
