@@ -1,32 +1,27 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/remove-nodes-from-linked-list/
+ * URL: https://leetcode.com/problems/remove-nodes-from-linked-list/submissions/2027364518/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Stack, Recursion, Monotonic Stack
- * Runtime: 22 ms
- * Memory: 134.76 MB
- * Synced: 2026-06-09T09:57:22.203Z
+ * Runtime: 0 ms
+ * Memory: 130.56 MB
+ * Synced: 2026-06-09T09:57:34.467Z
  */
 
-head = head.next;
+// Step 3: Reverse back to original order
+        return reverse(dummy.next);
+    }
+    
+    private ListNode reverse(ListNode head) {
+        ListNode prev = null, curr = head;
+        while (curr != null) {
+            ListNode next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
         }
-        curr.next = null; // Terminate the filtered list
-        
-            }
-                maxVal = head.val;
-                curr.next = head;
-                curr = curr.next;
-        while (head != null) {
-            if (head.val >= maxVal) {
-        int maxVal = Integer.MIN_VALUE;
-        
-        ListNode dummy = new ListNode(0);
-        ListNode curr = dummy;
-        // Step 2: Traverse and keep nodes >= current max
-        
-        head = reverse(head);
-        // Step 1: Reverse the list
-    public ListNode removeNodes(ListNode head) {
-class Solution {
+        return prev;
+    }
+}
