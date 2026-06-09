@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 101.71 MB
 - Problem URL: https://leetcode.com/problems/palindrome-linked-list/submissions/2027372713/
-- Synced: 2026-06-09T10:05:42.092Z
+- Synced: 2026-06-09T10:05:52.081Z
 
 ## Problem Description
 
