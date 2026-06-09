@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Linked List, Two Pointers
 - Runtime: 0 ms
-- Memory: 42.62 MB
-- Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/
-- Synced: 2026-06-09T06:08:30.345Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/middle-of-the-linked-list/description/
+- Synced: 2026-06-09T06:08:33.354Z
 
 ## Problem Description
 
