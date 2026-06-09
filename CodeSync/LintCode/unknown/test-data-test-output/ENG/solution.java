@@ -7,7 +7,7 @@
  * Topics: Binary Search, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T18:23:19.959Z
+ * Synced: 2026-06-09T18:23:24.735Z
  */
 
 public·class·Solution·{
@@ -25,4 +25,3 @@ public·class·Solution·{
 ········if(n%2==1)return·merge[n/2];
 ········else·return(merge[n/2]+merge[(n/2)-1])/2.0;
 ····}
-}
