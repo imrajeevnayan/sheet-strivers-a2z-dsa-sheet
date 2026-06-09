@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftSamsungGoogle, Company Tags, Amazon, Microsoft, Samsung, Google, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T18:42:14.095Z
+ * Synced: 2026-06-09T18:42:50.091Z
  */
 
 class Solution {
@@ -26,6 +26,5 @@ class Solution {
         int l=merge.length;
         if(l%2==1) return merge[l/2];
         else return (merge[l/2]+merge[(l/2)-1])/2.0;
-        
     }
 }
