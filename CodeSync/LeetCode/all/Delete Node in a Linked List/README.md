@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Linked List
-- Runtime: 0 ms
+- Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/delete-node-in-a-linked-list/
-- Synced: 2026-06-09T11:08:54.012Z
+- Problem URL: https://leetcode.com/problems/delete-node-in-a-linked-list/description/
+- Synced: 2026-06-09T16:13:25.355Z
 
 ## Problem Description
 
