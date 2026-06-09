@@ -1,32 +1,34 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/268/
+ * URL: https://www.lintcode.com/problem/36/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Stack, Test Data Commit Output
+ * Topics: Linked List, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-08T18:45:56.931Z
+ * Synced: 2026-06-09T06:45:37.035Z
  */
 
-············else·{
-················int·v·=·stack.pop();
-················int·top·=·stack.pop();
-
-················if·(v·==·0)·st.push(top·+·1);
-············if·(c·==·'(')·st.push(0);
-
-········for·(char·c·:·s.toCharArray())·{
-········stack.push(0);
-········Stack<Integer>·st=·new·Stack<>();
-····public·int·parenthesesScore(String·s)·{
-public·class·Solution·{
-················else·stack.push(top·+·2·*·v);
-················
-············}
+class·Solution·{
+····public·ListNode·reverseBetween(ListNode·head,·int·m,·int·n)·{
+········if·(head·==·null·||·m·==·n)·return·head;
+········ListNode·dummy·=·new·ListNode(0);
+········dummy.next·=·head;
+········
+········ListNode·prev·=·dummy;
+········for·(int·i·=·1;·i·<·m;·i++)·{
+············prev·=·prev.next;
 ········}
-
-········return·stack.pop();
+········
+········ListNode·curr·=·prev.next;
+········ListNode·next·=·null;
+········for·(int·i·=·0;·i·<·n·-·m;·i++)·{
+············next·=·curr.next;·····
+············curr.next·=·next.next;·
+············next.next·=·prev.next;··
+············prev.next·=·next;···
+········}
+········return·dummy.next;
 ····}
 }
