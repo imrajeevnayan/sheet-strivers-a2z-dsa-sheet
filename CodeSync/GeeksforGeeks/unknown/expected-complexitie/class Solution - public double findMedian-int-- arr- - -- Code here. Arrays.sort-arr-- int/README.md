@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/find-the-median0527/1
-- Synced: 2026-06-09T18:27:36.982Z
+- Synced: 2026-06-09T18:27:49.198Z
 
 ## Problem Description
 
