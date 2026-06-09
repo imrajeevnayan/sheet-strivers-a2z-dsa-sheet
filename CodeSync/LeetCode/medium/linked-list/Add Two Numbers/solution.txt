@@ -7,7 +7,7 @@
  * Topics: Linked List, Math, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-09T18:57:16.234Z
+ * Synced: 2026-06-09T18:57:18.546Z
  */
 
 int val1 = (l1 != null) ? l1.val : 0;
