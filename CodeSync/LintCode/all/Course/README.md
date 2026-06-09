@@ -1,18 +1,18 @@
 # Course
 
 - Platform: LintCode
-- Language: Java
-- Difficulty: Easy
-- Topics: Linked List, Facebook IXL Amazon, Facebook, IXL, Amazon, Test Data Commit Output
+- Language: ALL(94) Java(33) Python 3(33) C++(24) C(3) JavaScript(3) Csharp(2) Go(2) Python 2(1)
+- Difficulty: Unknown
+- Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, @param, @return
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/223/description
-- Synced: 2026-06-09T11:43:21.501Z
+- Problem URL: https://www.lintcode.com/problem/228/solution/93787
+- Synced: 2026-06-09T11:49:26.156Z
 
 ## Problem Description
 
-Description Implement a function to check if a linked list is a palindrome. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information Example Example 1: Input: 1->2->1 output: true Example 2: Input: 2->2->1 output: false Challenge Could you do it in O(n) time and O(1) space? Tags Company Facebook IXL Amazon Related Problems 35 Reverse Linked List Easy 415 Valid Palindrome Medium 491 Palindrome Number Easy Recommend Courses ACM金牌逐行带刷班 最适合懒人的刷题课--躺平看算法大神在线coding，讲解思路+现场debug，手撕面试高频题
+Course Problem Referral VIP CAT Contest Note More... Problems,tags,collection School Institution Enterprise Service Gift ENG
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are Linked List, Facebook IXL Amazon, Facebook, IXL, Amazon, Test Data Commit Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using ALL(94) Java(33) Python 3(33) C++(24) C(3) JavaScript(3) Csharp(2) Go(2) Python 2(1). The detected topics are Highlight, More, Java Python 3 C++, Java, Python 3, C++, @param, @return. Review the synced source file for the implementation details.
