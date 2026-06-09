@@ -1,13 +1,13 @@
 /*
  * Platform: LintCode
  * Problem: Course
- * URL: https://www.lintcode.com/problem/228/solution/93787
+ * URL: https://www.lintcode.com/problem/228/solution/56541
  * Language: ALL(94) Java(33) Python 3(33) C++(24) C(3) JavaScript(3) Csharp(2) Go(2) Python 2(1)
  * Difficulty: Unknown
  * Topics: Highlight, More, Java Python 3 C++, Java, Python 3, C++, @param, @return
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T11:49:26.156Z
+ * Synced: 2026-06-09T11:49:50.290Z
  */
 
 public·class·Solution·{
