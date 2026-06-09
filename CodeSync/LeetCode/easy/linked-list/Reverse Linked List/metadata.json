@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-09T05:32:36.958Z",
+  "submissionTimestamp": "2026-06-09T05:32:46.288Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Reverse Linked List",
-  "problemUrl": "https://leetcode.com/problems/reverse-linked-list/description/",
+  "problemUrl": "https://leetcode.com/problems/reverse-linked-list/",
   "submissionId": "je9vtj"
 }
