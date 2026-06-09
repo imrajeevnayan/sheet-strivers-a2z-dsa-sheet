@@ -1,0 +1,19 @@
+{
+  "submissionTimestamp": "2026-06-09T11:15:18.608Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Strings",
+    "Data Structures",
+    "Related Articles",
+    "Find The Length Of A String"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution { // Complete the function // str: input string public static int lengthString(String str) { // find the length of string return str.length(); } }",
+  "problemTitle": "Length of String",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/length-of-string/1",
+  "submissionId": "6ouay7"
+}
