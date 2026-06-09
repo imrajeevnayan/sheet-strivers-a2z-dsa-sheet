@@ -3,16 +3,16 @@
 - Platform: LintCode
 - Language: Python
 - Difficulty: Unknown
-- Topics: Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Test Output
+- Topics: Linked List, ByteDance, Test Data Test Output
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.lintcode.com/problem/380/
-- Synced: 2026-06-07T10:49:01.363Z
+- Problem URL: https://www.lintcode.com/problem/35/
+- Synced: 2026-06-09T06:45:07.598Z
 
 ## Problem Description
 
-Description Write a program to find the node at which the intersection of two singly linked lists begins. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information If the two linked lists have no intersection at all, return null. The linked lists must retain their original structure after the function returns. You may assume there are no cycles anywhere in the entire linked structure. Example Example 1: Input: A: a1 → a2 ↘ c1 → c2 → c3 ↗ B: b1 → b2 → b3 Output: c1 Explanation ：begin to intersect at node c1. Example 2: Input: Intersected at 6 1->2->3->4->5->6->7->8->9->10->11->12->13->null 6->7->8->9->10->11->12->13->null Output: Intersected at 6 Explanation：begin to intersect at node 6. Challenge Your code should preferably run in O(n) time and use only O(1) memory. Tags Company Bloomberg Airbnb Amazon Microsoft Related Problems 102 Linked List Cycle Medium 103 Linked List Cycle II Hard Recommend Courses 0基础入门数据分析 进阶大厂刚需高薪人才，熟练掌握SQL、Python、Tableau、A/Btest等实用技能工具，配套100+数据题夯实基础
+Description Reverse a linked list. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information The linked list length is less than 100 100 Example Example 1: Input: linked list = 1->2->3->null Output: 3->2->1->null Explanation: Reverse Linked List Example 2: Input: linked list = 1->2->3->4->null Output: 4->3->2->1->null Explanation: Reverse Linked List Challenge Reverse it in-place and in one-pass Related Knowledge 学习《大学计算机数据结构课程 - 线性表》课程中的2.11单链表问题实例 - 翻转链表相关内容 ，了解更多相关知识！ Tags Company ByteDance Related Problems 221 Add Two Numbers II Medium 649 Binary Tree Upside Down Medium 767 Reverse Array Easy 36 Reverse Linked List II Medium 223 Palindrome Linked List Medium 53 Reverse Words in a String Easy 450 Reverse Nodes in k-Group Hard Recommend Courses Twitter 后端系统 - Python 项目实战 从0项目经验到深度后端项目操盘，FB架构师万行代码还原真实开发环境，14周简历镀金
 
 ## Explanation
 
-This solution was accepted on LintCode using Python. The detected topics are Linked List, Bloomberg Airbnb Amazon Microsoft, Bloomberg, Airbnb, Amazon, Microsoft, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Python. The detected topics are Linked List, ByteDance, Test Data Test Output. Review the synced source file for the implementation details.
