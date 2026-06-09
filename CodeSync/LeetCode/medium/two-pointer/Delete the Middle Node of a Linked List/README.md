@@ -6,8 +6,8 @@
 - Topics: Linked List, Two Pointers
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/
-- Synced: 2026-06-09T09:40:38.477Z
+- Problem URL: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
+- Synced: 2026-06-09T09:51:25.538Z
 
 ## Problem Description
 
