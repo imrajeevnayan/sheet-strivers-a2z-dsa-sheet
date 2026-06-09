@@ -5,9 +5,9 @@
 - Difficulty: Medium
 - Topics: Linked List, Math, Recursion
 - Runtime: 0 ms
-- Memory: 46.50 MB
-- Problem URL: https://leetcode.com/problems/add-two-numbers/submissions/2025045197/
-- Synced: 2026-06-07T06:02:07.569Z
+- Memory: 46.82 MB
+- Problem URL: https://leetcode.com/problems/add-two-numbers/submissions/2027890459/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
+- Synced: 2026-06-09T18:49:09.416Z
 
 ## Problem Description
 
