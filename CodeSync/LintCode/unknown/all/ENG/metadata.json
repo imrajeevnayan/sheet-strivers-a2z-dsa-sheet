@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-09T11:48:57.317Z",
+  "submissionTimestamp": "2026-06-09T11:49:07.202Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -8,11 +8,11 @@
     "Linked List",
     "Two Pointers",
     "174 Remove Nth Node From End of List Easy",
-    "Test Data Commit Output"
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Python",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/228/",
-  "submissionId": "p2jhc3"
+  "submissionId": "q7xzzo"
 }
