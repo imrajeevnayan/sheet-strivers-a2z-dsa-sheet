@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/median-of-two-sorted-arrays/
-- Synced: 2026-06-09T18:21:06.500Z
+- Synced: 2026-06-09T18:21:17.909Z
 
 ## Problem Description
 
