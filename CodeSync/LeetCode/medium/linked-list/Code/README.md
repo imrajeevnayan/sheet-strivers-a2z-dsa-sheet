@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/remove-nodes-from-linked-list/description/
-- Synced: 2026-06-09T11:11:40.003Z
+- Synced: 2026-06-09T11:11:44.004Z
 
 ## Problem Description
 
