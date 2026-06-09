@@ -3,11 +3,11 @@
 - Platform: LintCode
 - Language: Java
 - Difficulty: Unknown
-- Topics: Linked List, Facebook IXL Amazon, Facebook, IXL, Amazon, Test Data Test Output
+- Topics: Linked List, Facebook IXL Amazon, Facebook, IXL, Amazon, Test Data Commit Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/223/description
-- Synced: 2026-06-09T11:43:04.867Z
+- Synced: 2026-06-09T11:43:08.369Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Implement a function to check if a linked list is a palindrome. Lint
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are Linked List, Facebook IXL Amazon, Facebook, IXL, Amazon, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are Linked List, Facebook IXL Amazon, Facebook, IXL, Amazon, Test Data Commit Output. Review the synced source file for the implementation details.
