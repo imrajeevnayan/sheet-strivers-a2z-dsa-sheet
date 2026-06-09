@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-09T11:08:23.557Z",
+  "submissionTimestamp": "2026-06-09T11:08:35.657Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -10,11 +10,11 @@
     "Adobe",
     "Microsoft",
     "174 Remove Nth Node From End of List Easy",
-    "Test Data Commit Output"
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "ENG",
   "problemUrl": "https://www.lintcode.com/problem/372/",
-  "submissionId": "h8xwbi"
+  "submissionId": "xjoo7x"
 }
