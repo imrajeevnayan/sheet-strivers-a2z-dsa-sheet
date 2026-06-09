@@ -6,14 +6,11 @@
 # Topics: Same Direction Two Pointers, Linked List, Two Pointers, 174 Remove Nth Node From End of List Easy, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-09T11:45:16.255Z
+# Synced: 2026-06-09T11:45:47.710Z
 
 public·class·Solution·{
-····/**
-·····*·@param·head:·the·head·of·linked·list.
-·····*·@return:·a·middle·node·of·the·linked·list
-·····*/
 ····public·ListNode·middleNode(ListNode·head)·{
-········//·write·your·code·here
+········ListNode·slow=head,fast=head;
 ····}
+········wj
 }
