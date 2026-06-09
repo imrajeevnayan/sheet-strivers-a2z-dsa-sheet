@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Array, Binary Search, Divide and Conquer
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-09T18:21:17.909Z
+ * Runtime: 0 ms
+ * Memory: 48.60 MB
+ * Synced: 2026-06-09T18:22:10.793Z
  */
 
 public double findMedianSortedArrays(int[] nums1, int[] nums2) {
