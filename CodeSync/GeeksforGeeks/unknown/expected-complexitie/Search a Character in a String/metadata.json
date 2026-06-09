@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-06-09T11:14:48.244Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Strings",
+    "Related Articles",
+    "Program To Search A Character In A String"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "public int searchCharacter(String s, char ch) { // code here return s.indexOf(ch+\"\"); }",
+  "problemTitle": "Search a Character in a String",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/search-a-character-in-a-string/1",
+  "submissionId": "4k2oa5"
+}
