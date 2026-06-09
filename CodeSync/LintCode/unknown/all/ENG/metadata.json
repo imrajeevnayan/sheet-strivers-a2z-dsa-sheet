@@ -1,15 +1,15 @@
 {
-  "submissionTimestamp": "2026-06-08T18:46:43.068Z",
+  "submissionTimestamp": "2026-06-09T06:45:37.035Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Stack",
-    "Test Data Commit Output"
+    "Linked List",
+    "Test Data Test Output"
   ],
   "platform": "LintCode",
-  "language": "1public class Solution { 2 public int parenthesesScore(String s) { 3 Stack<Integer> st= new Stack<>(); 4 st.push(0); 5 6 for (char c : s.toCharArray()) { 7 if (c == '(') st.push(0); 8 else { 9 int v = st.pop(); 10 int top = st.pop(); 11 12 if (v == 0) st.push(top + 1); 13 else st.push(top + 2 * v); 14 } 15 } 16 17 return st.pop(); 18 } 19}",
+  "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/268/",
-  "submissionId": "f37b8h"
+  "problemUrl": "https://www.lintcode.com/problem/36/",
+  "submissionId": "8iaiyx"
 }
