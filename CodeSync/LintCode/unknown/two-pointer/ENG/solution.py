@@ -3,10 +3,10 @@
 # URL: https://www.lintcode.com/problem/228/
 # Language: Python
 # Difficulty: Unknown
-# Topics: Same Direction Two Pointers, Linked List, Two Pointers, 174 Remove Nth Node From End of List Easy, Test Data Commit Output
+# Topics: Same Direction Two Pointers, Linked List, Two Pointers, 174 Remove Nth Node From End of List Easy, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-09T11:49:04.030Z
+# Synced: 2026-06-09T11:49:07.202Z
 
 public·class·Solution·{
 ····public·ListNode·middleNode(ListNode·head)·{
