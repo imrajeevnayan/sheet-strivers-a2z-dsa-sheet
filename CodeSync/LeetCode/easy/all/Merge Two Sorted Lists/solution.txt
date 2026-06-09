@@ -7,7 +7,7 @@
  * Topics: Linked List, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-09T06:07:20.807Z
+ * Synced: 2026-06-09T06:07:23.638Z
  */
 
 if (list1.val <= list2.val) {
@@ -25,3 +25,4 @@ if (list1.val <= list2.val) {
         if (list1 == null) return list2;
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
 class Solution {
+}
