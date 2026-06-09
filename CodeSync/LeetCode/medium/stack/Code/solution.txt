@@ -1,27 +1,32 @@
 /*
  * Platform: LeetCode
  * Problem: Code
- * URL: https://leetcode.com/problems/remove-nodes-from-linked-list/submissions/2027364518/
+ * URL: https://leetcode.com/problems/remove-nodes-from-linked-list/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Stack, Recursion, Monotonic Stack
  * Runtime: 0 ms
  * Memory: 130.56 MB
- * Synced: 2026-06-09T09:57:34.467Z
+ * Synced: 2026-06-09T09:57:54.307Z
  */
 
-// Step 3: Reverse back to original order
-        return reverse(dummy.next);
-    }
-    
-    private ListNode reverse(ListNode head) {
-        ListNode prev = null, curr = head;
-        while (curr != null) {
-            ListNode next = curr.next;
-            curr.next = prev;
-            prev = curr;
-            curr = next;
+// Remove all nodes smaller than current (they have greater node to right)
+            while (!stack.isEmpty() && stack.peek().val < curr.val) {
+                stack.pop();
+            }
+            stack.push(curr);
+            curr = curr.next;
         }
-        return prev;
-    }
-}
+        
+        // Rebuild result list from stack (top of stack = last surviving node)
+        ListNode next = null;
+        while (!stack.isEmpty()) {
+            ListNode node = stack.pop();
+            node.next = next;
+        while (curr != null) {
+        ListNode curr = head;
+        // Traverse and maintain monotonic decreasing stack
+        
+        Deque<ListNode> stack = new ArrayDeque<>();
+    public ListNode removeNodes(ListNode head) {
+class Solution {
