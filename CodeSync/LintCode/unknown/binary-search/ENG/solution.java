@@ -7,7 +7,7 @@
  * Topics: Binary Search, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T18:23:10.337Z
+ * Synced: 2026-06-09T18:23:19.959Z
  */
 
 public·class·Solution·{
