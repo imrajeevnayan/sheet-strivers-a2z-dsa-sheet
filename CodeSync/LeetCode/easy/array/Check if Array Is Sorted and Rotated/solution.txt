@@ -7,7 +7,7 @@
  * Topics: Array
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-10T17:38:31.606Z
+ * Synced: 2026-06-10T17:38:36.784Z
  */
 
 if(nums[0]< nums[nums.length-1])count ++;
