@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
-- Synced: 2026-06-10T17:38:07.985Z
+- Problem URL: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/submissions/2028923665/
+- Synced: 2026-06-10T17:38:19.386Z
 
 ## Problem Description
 
