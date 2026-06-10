@@ -5,9 +5,9 @@
  * Language: Prefix Sum
  * Difficulty: Medium
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
- * Runtime: 0 ms
+ * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T16:47:59.290Z
+ * Synced: 2026-06-10T16:48:02.293Z
  */
 
 class Solution {
