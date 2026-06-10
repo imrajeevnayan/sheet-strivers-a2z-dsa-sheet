@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T17:39:34.550Z
+ * Synced: 2026-06-10T17:39:36.049Z
  */
 
 int n = nums.length - 1;
@@ -23,6 +23,6 @@ int n = nums.length - 1;
         }
 
         Arrays.sort(nums);
-
 class Solution {
     public boolean isGood(int[] nums) {
+        return true;
