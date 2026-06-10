@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/split-the-array/
-- Synced: 2026-06-10T17:36:53.173Z
+- Synced: 2026-06-10T17:37:09.590Z
 
 ## Problem Description
 
