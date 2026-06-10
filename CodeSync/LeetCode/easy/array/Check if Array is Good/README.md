@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/check-if-array-is-good/submissions/2028925466/
-- Synced: 2026-06-10T17:39:55.620Z
+- Synced: 2026-06-10T17:39:58.986Z
 
 ## Problem Description
 
