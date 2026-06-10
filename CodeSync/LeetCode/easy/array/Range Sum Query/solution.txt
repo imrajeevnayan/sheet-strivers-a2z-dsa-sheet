@@ -7,12 +7,11 @@
  * Topics: Array, Design, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T17:10:17.187Z
+ * Synced: 2026-06-10T17:10:21.165Z
  */
 
 }
 }
-
         int n=nums.length;
     }
     
@@ -20,3 +19,4 @@
     public NumArray(int[] nums) {
        int ans[];
 class NumArray {
+        ans=
