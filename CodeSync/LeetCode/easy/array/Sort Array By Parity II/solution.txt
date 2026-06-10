@@ -7,14 +7,17 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T17:30:41.242Z
+ * Synced: 2026-06-10T17:30:51.303Z
  */
 
 class Solution {
     public int[] sortArrayByParityII(int[] nums) {
-        
         int[]ans=new int[nums.length];
         for(int i=0;i<nums.length;i+2){
+            ans[i]=nums[i];
+        }
+        for(int i=0;i<nums.length;i+2){
+        
             ans[i]=nums[i];
         }
     }
