@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/largest-sum-of-averages/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T18:29:39.207Z
+- Synced: 2026-06-10T18:30:11.157Z
 
 ## Problem Description
 
