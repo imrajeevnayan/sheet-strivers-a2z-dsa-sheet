@@ -6,8 +6,8 @@
 - Topics: Array, Hash Table, Sorting
 - Runtime: 1 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/check-if-array-is-good/submissions/2028925466/
-- Synced: 2026-06-10T17:39:58.986Z
+- Problem URL: https://leetcode.com/problems/check-if-array-is-good/
+- Synced: 2026-06-10T17:40:03.737Z
 
 ## Problem Description
 
