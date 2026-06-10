@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/product-of-array-except-self/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T18:26:23.242Z
+- Synced: 2026-06-10T18:27:03.401Z
 
 ## Problem Description
 
