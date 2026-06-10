@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-10T17:14:28.002Z",
-  "runtime": "2 ms",
-  "memoryUsage": "47.33 MB",
+  "submissionTimestamp": "2026-06-10T17:21:38.163Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Prefix Sum",
   "problemTitle": "Range Sum Query",
-  "problemUrl": "https://leetcode.com/problems/range-sum-query-immutable/?envType=problem-list-v2&envId=prefix-sum",
-  "submissionId": "n9pr1j"
+  "problemUrl": "https://leetcode.com/problems/range-sum-query-immutable/description/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "enu3ko"
 }
