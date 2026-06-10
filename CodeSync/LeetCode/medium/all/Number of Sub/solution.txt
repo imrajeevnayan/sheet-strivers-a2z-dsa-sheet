@@ -1,30 +1,29 @@
 /*
  * Platform: LeetCode
  * Problem: Number of Sub
- * URL: https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/submissions/2028880577/?envType=problem-list-v2&envId=prefix-sum
+ * URL: https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/?envType=problem-list-v2&envId=prefix-sum
  * Language: Prefix Sum
  * Difficulty: Medium
  * Topics: Array, Math, Dynamic Programming, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-10T17:02:25.816Z
+ * Synced: 2026-06-10T17:02:41.743Z
  */
 
-for (int j = i; j < arr.length; j++) {
-                sum += arr[j];
+int prefix = 0;
 
-                if ((sum & 1) == 1) {
-                    count++;
-            int sum = 0;
-        for (int i = 0; i < arr.length; i++) {
-        long count = 0;
-                }
+        for (int num : arr) {
+            prefix += num;
+
+            if ((prefix & 1) == 0) {
+                ans += odd;
+                even++;
+            } else {
+                ans += even;
+                odd++;
             }
         }
 
-        return (int)(count % mod);
+        return (int)(ans % mod);
     }
 }
-        int mod = 1_000_000_007;
-class Solution {
-    public int numOfSubarrays(int[] arr) {
