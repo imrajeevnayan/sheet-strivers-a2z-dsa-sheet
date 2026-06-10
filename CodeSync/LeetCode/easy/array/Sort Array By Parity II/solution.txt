@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-10T17:35:16.161Z
+ * Synced: 2026-06-10T17:35:36.143Z
  */
 
 if(n %2==0){
