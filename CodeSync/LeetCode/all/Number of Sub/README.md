@@ -4,10 +4,10 @@
 - Language: Prefix Sum
 - Difficulty: Medium
 - Topics: Array, Math, Dynamic Programming, Prefix Sum
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/description/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T17:00:19.438Z
+- Runtime: 0 ms
+- Memory: 82.15 MB
+- Problem URL: https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/?envType=problem-list-v2&envId=prefix-sum
+- Synced: 2026-06-10T17:02:52.259Z
 
 ## Problem Description
 
