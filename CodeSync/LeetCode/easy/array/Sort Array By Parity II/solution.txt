@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T17:30:37.017Z
+ * Synced: 2026-06-10T17:30:38.516Z
  */
 
 class Solution {
@@ -15,7 +15,7 @@ class Solution {
         
         int[]ans=new int[nums.length];
         for(int i=0;i<nums.length;i+2){
-            ans[i]=nums[i]
+            ans[i]=nums[i];
         }
     }
 }
