@@ -6,8 +6,8 @@
 - Topics: Array, Two Pointers, Sorting
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/sort-array-by-parity-ii/
-- Synced: 2026-06-10T17:34:39.379Z
+- Problem URL: https://leetcode.com/problems/sort-array-by-parity-ii/description/
+- Synced: 2026-06-10T17:35:09.401Z
 
 ## Problem Description
 
