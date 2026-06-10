@@ -7,11 +7,10 @@
  * Topics: Array, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T18:24:35.736Z
+ * Synced: 2026-06-10T18:24:38.769Z
  */
 
 int ans = Integer.MAX_VALUE;
-
         for (int len = l; len <= r; len++) {
             for (int i = 1; i + len - 1 <= n; i++) {
                 int sum = prefix[i + len - 1] - prefix[i - 1];
@@ -25,3 +24,5 @@ int ans = Integer.MAX_VALUE;
 class Solution {
                 if (sum > 0) {
                     ans = Math.min(ans, sum);
+                }
+            }
