@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-size-subarray-sum/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T16:49:20.206Z
+- Synced: 2026-06-10T16:49:23.552Z
 
 ## Problem Description
 
