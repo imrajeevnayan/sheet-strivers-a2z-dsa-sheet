@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/minimum-positive-sum-subarray/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T18:23:39.729Z
+- Synced: 2026-06-10T18:23:42.161Z
 
 ## Problem Description
 
