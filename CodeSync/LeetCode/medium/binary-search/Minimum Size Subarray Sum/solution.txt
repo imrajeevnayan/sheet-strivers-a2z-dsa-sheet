@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-10T16:49:23.552Z
+ * Synced: 2026-06-10T16:49:29.409Z
  */
 
 public int minSubArrayLen(int target, int[] nums) {
@@ -22,3 +22,4 @@ class Solution {
         }
         return minLen ==Integer.MAX_VALUE ?0:minLen;
     }
+}
