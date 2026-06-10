@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-10T17:15:50.387Z",
+  "submissionTimestamp": "2026-06-10T17:15:57.723Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -11,7 +11,7 @@
     "C++",
     "More",
     "Test Data Test Output",
-    "Binary Indexed Tree"
+    "Prefix Sum ArrayArrayMedium"
   ],
   "platform": "LintCode",
   "language": "ALL(71) Python 3(30) Java(25) C++(19) Ruby(1)",
