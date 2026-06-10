@@ -7,7 +7,7 @@
 - Runtime: 120ms
 - Memory: 63.7 MB
 - Problem URL: https://neetcode.io/problems/range-sum-query-immutable/history?list=allNC&submissionIndex=0
-- Synced: 2026-06-10T18:16:28.468Z
+- Synced: 2026-06-10T18:16:44.544Z
 
 ## Problem Description
 
