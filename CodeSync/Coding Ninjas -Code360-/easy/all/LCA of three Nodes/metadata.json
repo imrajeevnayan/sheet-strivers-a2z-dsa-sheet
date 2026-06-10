@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-08T18:36:34.657Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-10T18:05:42.898Z",
+  "runtime": "2815 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/character-query_2653334",
-  "submissionId": "nnjp59"
+  "problemUrl": "https://www.naukri.com/code360/problems/linear-search_624470",
+  "submissionId": "2hcozp"
 }
