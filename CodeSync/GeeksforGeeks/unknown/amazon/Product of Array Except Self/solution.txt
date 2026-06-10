@@ -1,0 +1,118 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Product of Array Except Self
+ * URL: https://www.geeksforgeeks.org/dsa/a-product-array-puzzle/
+ * Language: #include <iostream> #include <vector> using namespace std; vector<int> productExceptSelf(vector<int>& arr) { int n = arr.size(); // Fill result array with 1 vector<int> res(n, 1); for (int i = 0; i < n; i++) { // Compute product of all elements except arr[i] for (int j = 0; j < n; j++) { if (i != j) res[i] *= arr[j]; } } return res; } int main() { vector<int> arr = {10, 3, 5, 6, 2}; vector<int> res = productExceptSelf(arr); for (int val : res) cout << val << " "; return 0; }
+ * Difficulty: Unknown
+ * Topics: Amazon, Morgan Stanley, D-E-Shaw, Accolite, Opera, prefix-sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-10T18:36:20.104Z
+ */
+
+import java.util.Arrays;
+class GfG {
+    
+    static int[] productExceptSelf(int[] arr) {
+        int n = arr.length;
+​
+        // Initialize the result array as 1
+        int[] res = new int[n];
+        Arrays.fill(res, 1);
+        for (int i = 0; i < n; i++) {
+​
+            // Compute the product of all except arr[i]
+            for (int j = 0; j < n; j++) {
+                if (i != j) {
+                    res[i] *= arr[j];
+                }
+            }
+        }
+​
+        return res;
+    }
+​
+    public static void main(String[] args) {
+        int[] arr = {10, 3, 5, 6, 2};
+        int[] res = productExceptSelf(arr);
+        for (int val : res) {
+            System.out.print(val + " ");
+        }
+    }
+}
+import java.util.Arrays;
+​
+class GfG {
+  
+    static int[] productExceptSelf(int[] arr) {
+        int n = arr.length;
+        int[] prefProduct = new int[n];
+        int[] suffProduct = new int[n];
+        int[] res = new int[n];
+​
+        // Construct the prefProduct array
+        prefProduct[0] = 1;
+        for (int i = 1; i < n; i++)
+            prefProduct[i] = arr[i - 1] * prefProduct[i - 1];
+​
+        // Construct the suffProduct array
+        suffProduct[n - 1] = 1;
+        for (int j = n - 2; j >= 0; j--)
+            suffProduct[j] = arr[j + 1] * suffProduct[j + 1];
+​
+        // Construct the result array using
+        // prefProduct[] and suffProduct[]
+        for (int i = 0; i < n; i++)
+            res[i] = prefProduct[i] * suffProduct[i];
+​
+        return res;
+    }
+​
+    public static void main(String[] args) {
+        int[] arr = {10, 3, 5, 6, 2};
+        int[] res = productExceptSelf(arr);
+​
+        System.out.println(Arrays.toString(res));
+    }
+}
+import java.util.Arrays;
+​
+class GfG {
+ 
+    static int[] productExceptSelf(int[] arr) {
+        int zeros = 0, idx = -1, prod = 1;
+        int n = arr.length;
+​
+        // Count zeros and track the index of the zero
+        for (int i = 0; i < n; i++) {
+            if (arr[i] == 0) {
+                zeros++;
+                idx = i;
+            } else {
+                prod *= arr[i];
+            }
+        }
+​
+        int[] res = new int[n];
+        Arrays.fill(res, 0);
+​
+        // If no zeros, calculate the product for all elements
+        if (zeros == 0) {
+            for (int i = 0; i < n; i++) 
+                res[i] = prod / arr[i];
+        }
+        // If one zero, set product only at the zero's index
+        else if (zeros == 1)
+            res[idx] = prod;
+​
+        return res;
+    }
+​
+    public static void main(String[] args) {
+        int[] arr = {10, 3, 5, 6, 2};
+        int[] res = productExceptSelf(arr);
+​
+        for (int val : res)
+            System.out.print(val + " ");
+    }
+}
