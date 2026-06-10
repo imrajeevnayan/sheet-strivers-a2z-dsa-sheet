@@ -7,7 +7,7 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T17:37:49.039Z
+ * Synced: 2026-06-10T17:37:52.237Z
  */
 
 if(nums[0]< nums[nums.length-1])count ++;
@@ -22,7 +22,6 @@ if(nums[0]< nums[nums.length-1])count ++;
         }
         else return true ;
         
-    public boolean check(int[] nums) {
         int count=0;
-class Solution {
     }
+}
