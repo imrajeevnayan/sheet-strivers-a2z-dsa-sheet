@@ -1,0 +1,27 @@
+/*
+ * Platform: LeetCode
+ * Problem: Shuffle an Array
+ * URL: https://leetcode.com/problems/shuffle-an-array/
+ * Language: Problem List
+ * Difficulty: Medium
+ * Topics: Array, Math, Design, Randomized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-10T17:35:46.292Z
+ */
+
+}
+    
+    public int[] reset() {
+        
+    }
+    
+    public int[] shuffle() {
+        
+    }
+}
+
+/**
+    public Solution(int[] nums) {
+        
+class Solution {
