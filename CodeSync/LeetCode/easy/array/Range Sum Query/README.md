@@ -7,7 +7,7 @@
 - Runtime: 2 ms
 - Memory: 47.33 MB
 - Problem URL: https://leetcode.com/problems/range-sum-query-immutable/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T17:14:21.247Z
+- Synced: 2026-06-10T17:14:25.156Z
 
 ## Problem Description
 
