@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/maximum-subarray/
-- Synced: 2026-06-10T07:00:30.905Z
+- Synced: 2026-06-10T07:00:49.732Z
 
 ## Problem Description
 
