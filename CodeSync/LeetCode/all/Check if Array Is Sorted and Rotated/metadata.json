@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-10T17:38:07.985Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-10T17:38:43.295Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Check if Array Is Sorted and Rotated",
-  "problemUrl": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/",
-  "submissionId": "7bqjn2"
+  "problemUrl": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/",
+  "submissionId": "uxwkhu"
 }
