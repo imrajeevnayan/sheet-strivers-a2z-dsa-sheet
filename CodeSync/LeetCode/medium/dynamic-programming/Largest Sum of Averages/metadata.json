@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-10T18:29:39.207Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Prefix Sum",
+  "problemTitle": "Largest Sum of Averages",
+  "problemUrl": "https://leetcode.com/problems/largest-sum-of-averages/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "79gaoe"
+}
