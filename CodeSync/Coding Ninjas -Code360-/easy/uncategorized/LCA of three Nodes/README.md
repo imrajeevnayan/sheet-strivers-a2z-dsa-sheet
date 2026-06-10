@@ -4,10 +4,10 @@
 - Language: Java (SE 1.8)
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 2815 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/character-query_2653334
-- Synced: 2026-06-08T18:36:34.657Z
+- Problem URL: https://www.naukri.com/code360/problems/linear-search_624470
+- Synced: 2026-06-10T18:05:42.898Z
 
 ## Problem Description
 
