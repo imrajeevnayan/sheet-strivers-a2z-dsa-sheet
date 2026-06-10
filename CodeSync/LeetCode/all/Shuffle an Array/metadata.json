@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-10T17:35:46.292Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Math",
+    "Design",
+    "Randomized"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Shuffle an Array",
+  "problemUrl": "https://leetcode.com/problems/shuffle-an-array/",
+  "submissionId": "29kcqo"
+}
