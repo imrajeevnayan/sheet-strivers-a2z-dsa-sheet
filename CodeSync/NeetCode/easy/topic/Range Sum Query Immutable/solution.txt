@@ -7,7 +7,7 @@
  * Topics: Easy Topics Company Tags, Topics, Company Tags, Array Design Prefix Sum, Array, Design, Prefix Sum
  * Runtime: 120ms
  * Memory: 63.7 MB
- * Synced: 2026-06-10T18:16:28.468Z
+ * Synced: 2026-06-10T18:16:44.544Z
  */
 
 int ans[];
