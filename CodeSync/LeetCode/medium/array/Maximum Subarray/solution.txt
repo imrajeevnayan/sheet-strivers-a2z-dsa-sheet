@@ -7,12 +7,12 @@
  * Topics: Array, Divide and Conquer, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T07:00:49.732Z
+ * Synced: 2026-06-10T07:00:51.752Z
  */
 
 class Solution {
     public int maxSubArray(int[] nums) {
         
     }
-        int maxsum=Integer.MIN_VALUE
+        int maxsum=Integer.MIN_VALUE,curr
 }
