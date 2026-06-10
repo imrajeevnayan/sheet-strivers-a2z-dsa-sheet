@@ -6,8 +6,8 @@
 - Topics: Array, Design, Prefix Sum
 - Runtime: 2 ms
 - Memory: 47.33 MB
-- Problem URL: https://leetcode.com/problems/range-sum-query-immutable/submissions/2028894105/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T17:13:47.478Z
+- Problem URL: https://leetcode.com/problems/range-sum-query-immutable/?envType=problem-list-v2&envId=prefix-sum
+- Synced: 2026-06-10T17:14:07.166Z
 
 ## Problem Description
 
