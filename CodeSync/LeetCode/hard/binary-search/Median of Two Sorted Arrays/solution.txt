@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search, Divide and Conquer
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T06:59:57.873Z
+ * Synced: 2026-06-10T07:00:07.881Z
  */
 
 class Solution {
