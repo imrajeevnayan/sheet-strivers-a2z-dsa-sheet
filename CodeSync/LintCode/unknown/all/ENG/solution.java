@@ -1,27 +1,28 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/65/
+ * URL: https://www.lintcode.com/problem/943/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Binary Search, Test Data Test Output
+ * Topics: Prefix Sum ArrayArray, Prefix Sum Array, Array, OpenAI, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T18:23:24.735Z
+ * Synced: 2026-06-10T17:16:18.428Z
  */
 
-public·class·Solution·{
-····public·double·findMedianSortedArrays(int[]·a,·int[]·b)·{
-········int·n1=a.length,n2=b.length;
-········int·merge[]=new·int[n1+n2];
-········int·i=0,j=0,k=0;
-········while(i·<·n1·&&·j<·n2){
-············if(a[i]<·b[j])merge[k++]=a[i++];
-············else·merge[k++]=b[j++];
-········}
-········while(i<·n1)merge[k++]=a[i++];
-········while(j<n2)merge[k++]=b[j++];
-········int·n=merge.length;
-········if(n%2==1)return·merge[n/2];
-········else·return(merge[n/2]+merge[(n/2)-1])/2.0;
+class·NumArray·{
+
+····public·NumArray(int[]·nums)·{
+········
 ····}
+····
+····public·int·sumRange(int·i,·int·j)·{
+········
+····}
+}
+
+/**
+·*·Your·NumArray·object·will·be·instantiated·and·called·as·such:
+·*·NumArray·obj·=·new·NumArray(nums);
+·*·int·param_1·=·obj.sumRange(i,j);
+·*/
