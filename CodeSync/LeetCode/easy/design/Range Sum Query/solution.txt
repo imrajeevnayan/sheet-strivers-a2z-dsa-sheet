@@ -7,17 +7,12 @@
  * Topics: Array, Design, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T17:11:10.168Z
+ * Synced: 2026-06-10T17:11:14.698Z
  */
 
-int n=nums.length;
-    }
+}
     
     public int sumRange(int left, int right) {
-    public NumArray(int[] nums) {
-       int ans[];
-class NumArray {
-        ans=new int[n];
-        for(int i=1;i<n;i++){
-            ans[i]=ans[i-1]+nums[i];
         }
+    }
+}
