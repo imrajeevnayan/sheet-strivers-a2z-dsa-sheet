@@ -4,10 +4,10 @@
 - Language: nums
 - Difficulty: Easy
 - Topics: Easy Topics Company Tags, Topics, Company Tags, Array Design Prefix Sum, Array, Design, Prefix Sum
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://neetcode.io/problems/range-sum-query-immutable/question?list=allNC
-- Synced: 2026-06-10T18:16:24.916Z
+- Runtime: 120ms
+- Memory: 63.7 MB
+- Problem URL: https://neetcode.io/problems/range-sum-query-immutable/history?list=allNC&submissionIndex=0
+- Synced: 2026-06-10T18:16:28.468Z
 
 ## Problem Description
 
