@@ -7,13 +7,13 @@
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T16:42:37.276Z
+ * Synced: 2026-06-10T16:43:27.278Z
  */
 
 class Solution {
     public int minSubArrayLen(int target, int[] nums) {
+        int j=0,sum=0,maxLen=Integer.MIN_VALUE;
+        for(int j=0;j<nums.length;j++)
         
     }
-        int j=0,maxLen=Integer.MIN_VALUE;
-        for(int j=)
 }
