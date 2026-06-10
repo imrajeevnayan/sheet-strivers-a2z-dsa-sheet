@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T16:46:29.381Z
+ * Synced: 2026-06-10T16:46:35.439Z
  */
 
 class Solution {
@@ -17,7 +17,7 @@ class Solution {
             sum+=nums[j];
             while(sum >=target){
                minLen=Math.min(minLen,j-i+1);
-               sum-=nums[i]
+               sum-=nums[i];
             }
         }
         return minLen;
