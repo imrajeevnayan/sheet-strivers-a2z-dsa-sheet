@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 80.67 MB
 - Problem URL: https://leetcode.com/problems/maximum-subarray/submissions/2012568619/
-- Synced: 2026-06-10T07:03:10.782Z
+- Synced: 2026-06-10T07:03:14.729Z
 
 ## Problem Description
 
