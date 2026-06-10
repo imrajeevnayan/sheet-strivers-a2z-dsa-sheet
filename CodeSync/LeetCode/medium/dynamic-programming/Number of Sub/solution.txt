@@ -6,8 +6,8 @@
  * Difficulty: Medium
  * Topics: Array, Math, Dynamic Programming, Prefix Sum
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-10T17:02:41.743Z
+ * Memory: 82.15 MB
+ * Synced: 2026-06-10T17:02:52.259Z
  */
 
 int prefix = 0;
