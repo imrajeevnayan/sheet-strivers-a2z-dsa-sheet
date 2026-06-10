@@ -7,12 +7,11 @@
  * Topics: Array
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T17:37:38.785Z
+ * Synced: 2026-06-10T17:37:49.039Z
  */
 
-if(nums[0]< nums[nums.length-1]){
-            count ++;
-        }
+if(nums[0]< nums[nums.length-1])count ++;
+        
         for (int i=1;i<nums.length;i++){
             if(nums[i]< nums[i-1]){
                 count++;
@@ -26,3 +25,4 @@ if(nums[0]< nums[nums.length-1]){
     public boolean check(int[] nums) {
         int count=0;
 class Solution {
+    }
