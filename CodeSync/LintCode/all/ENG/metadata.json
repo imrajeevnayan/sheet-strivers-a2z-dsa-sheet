@@ -1,15 +1,18 @@
 {
-  "submissionTimestamp": "2026-06-09T18:23:24.735Z",
+  "submissionTimestamp": "2026-06-10T17:16:18.428Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Binary Search",
+    "Prefix Sum ArrayArray",
+    "Prefix Sum Array",
+    "Array",
+    "OpenAI",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/65/",
-  "submissionId": "6of3eg"
+  "problemUrl": "https://www.lintcode.com/problem/943/",
+  "submissionId": "a67fmd"
 }
