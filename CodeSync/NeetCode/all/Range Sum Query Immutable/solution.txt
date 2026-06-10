@@ -1,0 +1,28 @@
+/*
+ * Platform: NeetCode
+ * Problem: Range Sum Query Immutable
+ * URL: https://neetcode.io/problems/range-sum-query-immutable/history?list=allNC&submissionIndex=0
+ * Language: nums
+ * Difficulty: Easy
+ * Topics: Easy Topics Company Tags, Topics, Company Tags, Array Design Prefix Sum, Array, Design, Prefix Sum
+ * Runtime: 120ms
+ * Memory: 63.7 MB
+ * Synced: 2026-06-10T18:16:44.544Z
+ */
+
+int ans[];
+    public NumArray(int[] nums) {
+        int n=nums.length;
+         ans=new int[n];
+        ans[0]=nums[0];
+        for(int i=1;i<n;i++){
+            ans[i]=ans[i-1]+nums[i];
+        } 
+    }
+    public int sumRange(int left, int right) {
+        if(left==0)return ans[right];
+        return ans[right]-ans[left-1];
+    }
+}
+
+class NumArray {
