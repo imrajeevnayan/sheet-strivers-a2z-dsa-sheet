@@ -7,7 +7,7 @@
  * Topics: Prefix Sum ArrayArray, Prefix Sum Array, Array, OpenAI, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T17:19:21.779Z
+ * Synced: 2026-06-10T17:19:38.061Z
  */
 
 class·NumArray·{
@@ -20,4 +20,5 @@ class·NumArray·{
 ········
 ····}
 }
-········int·ans[]=new·int[n]
+········int·ans[]=new·int[nums.length];
+········ans[0]=nums[0]
