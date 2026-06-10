@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Math, Prefix Sum
 - Runtime: 0 ms
-- Memory: 42.38 MB
-- Problem URL: https://leetcode.com/problems/find-the-pivot-integer/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T17:56:01.911Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/find-the-pivot-integer/description/?envType=problem-list-v2&envId=prefix-sum
+- Synced: 2026-06-10T18:12:45.995Z
 
 ## Problem Description
 
