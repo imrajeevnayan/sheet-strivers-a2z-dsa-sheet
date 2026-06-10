@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/range-sum-query-immutable/description/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T17:22:59.149Z
+- Synced: 2026-06-10T17:23:21.422Z
 
 ## Problem Description
 
