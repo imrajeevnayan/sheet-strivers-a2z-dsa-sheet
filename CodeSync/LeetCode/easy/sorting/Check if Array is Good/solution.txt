@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Check if Array is Good
+ * URL: https://leetcode.com/problems/check-if-array-is-good/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Hash Table, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-10T17:39:10.639Z
+ */
+
+class Solution {
+    public boolean isGood(int[] nums) {
+        
+    }
+}
