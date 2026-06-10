@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: 46.44 MB
 - Problem URL: https://leetcode.com/problems/minimum-positive-sum-subarray/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T18:25:02.005Z
+- Synced: 2026-06-10T18:25:06.521Z
 
 ## Problem Description
 
