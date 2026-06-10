@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Sort Array By Parity II
+ * URL: https://leetcode.com/problems/sort-array-by-parity-ii/description/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Array, Two Pointers, Sorting
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-10T17:28:55.795Z
+ */
+
+class Solution {
+    public int[] sortArrayByParityII(int[] nums) {
+        
+    }
+}
