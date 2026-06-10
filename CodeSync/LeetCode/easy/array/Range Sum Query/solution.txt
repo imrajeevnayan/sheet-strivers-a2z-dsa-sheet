@@ -7,13 +7,13 @@
  * Topics: Array, Design, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T17:10:11.107Z
+ * Synced: 2026-06-10T17:10:17.187Z
  */
 
 }
 }
 
-        int n=nums
+        int n=nums.length;
     }
     
     public int sumRange(int left, int right) {
