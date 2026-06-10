@@ -6,8 +6,8 @@
 - Topics: Array
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/submissions/2028923665/
-- Synced: 2026-06-10T17:38:19.386Z
+- Problem URL: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
+- Synced: 2026-06-10T17:38:43.295Z
 
 ## Problem Description
 
