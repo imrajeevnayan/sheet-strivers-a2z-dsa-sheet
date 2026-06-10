@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-10T18:24:29.737Z",
+  "submissionTimestamp": "2026-06-10T18:24:35.736Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -12,5 +12,5 @@
   "language": "Prefix Sum",
   "problemTitle": "Minimum Positive Sum Subarray",
   "problemUrl": "https://leetcode.com/problems/minimum-positive-sum-subarray/?envType=problem-list-v2&envId=prefix-sum",
-  "submissionId": "mhgqno"
+  "submissionId": "pigmda"
 }
