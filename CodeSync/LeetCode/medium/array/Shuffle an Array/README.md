@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/shuffle-an-array/
-- Synced: 2026-06-10T17:35:46.292Z
+- Synced: 2026-06-10T17:35:49.511Z
 
 ## Problem Description
 
