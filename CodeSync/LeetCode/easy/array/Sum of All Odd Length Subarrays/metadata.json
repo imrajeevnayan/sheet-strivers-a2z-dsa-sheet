@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-10T17:24:14.766Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Math",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Prefix Sum",
+  "problemTitle": "Sum of All Odd Length Subarrays",
+  "problemUrl": "https://leetcode.com/problems/sum-of-all-odd-length-subarrays/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "j3mclw"
+}
