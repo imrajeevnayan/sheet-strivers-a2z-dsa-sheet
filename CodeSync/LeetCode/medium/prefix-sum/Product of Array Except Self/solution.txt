@@ -7,7 +7,7 @@
  * Topics: Array, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-10T18:26:23.242Z
+ * Synced: 2026-06-10T18:27:03.401Z
  */
 
 class Solution {
@@ -18,11 +18,11 @@ class Solution {
             ans[i]=ans[i-1]*nums[i-1];
         }
         int right=1;
-        for(int i=nums.length-1;i>=0;i--){
+        for(int i=n-1;i>=0;i--){
             ans[i]*=right;
             right*=nums[i];
         }
        return ans; 
     }
-        int n=nus.length;
+        int n=nums.length;
 }
