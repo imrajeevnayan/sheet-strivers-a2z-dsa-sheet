@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Check if Array is Good
- * URL: https://leetcode.com/problems/check-if-array-is-good/
+ * URL: https://leetcode.com/problems/check-if-array-is-good/submissions/2028925466/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
  * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-06-10T17:40:03.737Z
+ * Synced: 2026-06-10T17:40:11.202Z
  */
 
 int n = nums.length - 1;
