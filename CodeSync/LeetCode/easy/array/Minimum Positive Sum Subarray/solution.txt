@@ -7,11 +7,21 @@
  * Topics: Array, Sliding Window, Prefix Sum
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T18:24:24.158Z
+ * Synced: 2026-06-10T18:24:29.737Z
  */
 
-class Solution {
+int ans = Integer.MAX_VALUE;
+
+        for (int len = l; len <= r; len++) {
+            for (int i = 1; i + len - 1 <= n; i++) {
+                int sum = prefix[i + len - 1] - prefix[i - 1];
+
+            prefix[i] = prefix[i - 1] + nums.get(i - 1);
+        }
+
+        for (int i = 1; i <= n; i++) {
+
+        int[] prefix = new int[n + 1];
     public int minimumSumSubarray(List<Integer> nums, int l, int r) {
-        
-    }
-}
+        int n = nums.size();
+class Solution {
