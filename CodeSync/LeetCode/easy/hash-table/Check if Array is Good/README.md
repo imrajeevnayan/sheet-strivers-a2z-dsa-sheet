@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/check-if-array-is-good/
-- Synced: 2026-06-10T17:39:10.639Z
+- Synced: 2026-06-10T17:39:14.235Z
 
 ## Problem Description
 
