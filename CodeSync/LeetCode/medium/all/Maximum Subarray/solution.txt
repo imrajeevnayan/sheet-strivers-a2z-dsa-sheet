@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Divide and Conquer, Dynamic Programming
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-10T07:02:23.761Z
+ * Synced: 2026-06-10T07:03:45.956Z
  */
 
 class Solution {
@@ -15,9 +15,10 @@ class Solution {
         int maxsum=Integer.MIN_VALUE,curr=0;
         for(int n:nums){
             curr+=n;
-            if(curr <0) curr=0;
-        }
-        return maxsum
-    }
             if(curr >maxsum)curr=maxsum;
+            if(curr <0) curr=0;
+
+        }
+        return maxsum;
+    }
 }
