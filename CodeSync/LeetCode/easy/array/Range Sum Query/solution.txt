@@ -7,7 +7,7 @@
  * Topics: Array, Design, Prefix Sum
  * Runtime: 2 ms
  * Memory: 47.33 MB
- * Synced: 2026-06-10T17:14:21.247Z
+ * Synced: 2026-06-10T17:14:25.156Z
  */
 
 }
