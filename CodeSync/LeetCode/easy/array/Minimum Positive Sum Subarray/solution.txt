@@ -7,7 +7,7 @@
  * Topics: Array, Sliding Window, Prefix Sum
  * Runtime: 0 ms
  * Memory: 46.44 MB
- * Synced: 2026-06-10T18:24:56.434Z
+ * Synced: 2026-06-10T18:24:59.001Z
  */
 
 int ans = Integer.MAX_VALUE;
