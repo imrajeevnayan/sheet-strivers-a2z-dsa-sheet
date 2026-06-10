@@ -7,11 +7,20 @@
  * Topics: Array, Hash Table, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T17:39:14.235Z
+ * Synced: 2026-06-10T17:39:46.907Z
  */
 
+int n = nums.length - 1;
+
+        if (nums[n - 1] != n || nums[n] != n) return false;
+        for (int i = 0; i < n - 1; i++) {
+            if (nums[i] != i + 1) {
+                return false;
+            }
+        }
+        Arrays.sort(nums);
 class Solution {
     public boolean isGood(int[] nums) {
-        
+        return true;
     }
 }
