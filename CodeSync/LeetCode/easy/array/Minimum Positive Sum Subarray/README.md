@@ -6,8 +6,8 @@
 - Topics: Array, Sliding Window, Prefix Sum
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-positive-sum-subarray/description/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T18:23:34.734Z
+- Problem URL: https://leetcode.com/problems/minimum-positive-sum-subarray/?envType=problem-list-v2&envId=prefix-sum
+- Synced: 2026-06-10T18:23:39.729Z
 
 ## Problem Description
 
