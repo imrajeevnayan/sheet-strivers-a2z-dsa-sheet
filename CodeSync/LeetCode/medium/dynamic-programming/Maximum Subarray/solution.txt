@@ -7,7 +7,7 @@
  * Topics: Array, Divide and Conquer, Dynamic Programming
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T07:01:33.743Z
+ * Synced: 2026-06-10T07:01:37.746Z
  */
 
 class Solution {
@@ -19,5 +19,5 @@ class Solution {
         }
         
     }
-            if(maxsum > s=)
+            if(maxsum >curr)
 }
