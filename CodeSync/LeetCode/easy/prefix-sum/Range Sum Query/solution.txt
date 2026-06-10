@@ -1,19 +1,24 @@
 /*
  * Platform: LeetCode
  * Problem: Range Sum Query
- * URL: https://leetcode.com/problems/range-sum-query-immutable/?envType=problem-list-v2&envId=prefix-sum
+ * URL: https://leetcode.com/problems/range-sum-query-immutable/submissions/2028894105/?envType=problem-list-v2&envId=prefix-sum
  * Language: Prefix Sum
  * Difficulty: Easy
  * Topics: Array, Design, Prefix Sum
- * Runtime: N/A
+ * Runtime: 2 ms
  * Memory: N/A
- * Synced: 2026-06-10T17:11:42.258Z
+ * Synced: 2026-06-10T17:13:41.747Z
  */
 
-return ans[right]-ans[left-1]
-    }
+}
     
     public int sumRange(int left, int right) {
         }
-    }
-}
+            ans[i]=ans[i-1]+nums[i];
+        for(int i=1;i<n;i++){
+        int n=nums.length;
+        ans=new int[n];
+       int ans[];
+    public NumArray(int[] nums) {
+class NumArray {
+        ans[0]=nums[0];
