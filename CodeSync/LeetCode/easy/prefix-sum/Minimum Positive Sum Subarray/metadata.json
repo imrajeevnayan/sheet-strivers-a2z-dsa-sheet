@@ -1,0 +1,16 @@
+{
+  "submissionTimestamp": "2026-06-10T18:25:02.005Z",
+  "runtime": "0 ms",
+  "memoryUsage": "46.44 MB",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Sliding Window",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Prefix Sum",
+  "problemTitle": "Minimum Positive Sum Subarray",
+  "problemUrl": "https://leetcode.com/problems/minimum-positive-sum-subarray/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "dnfqja"
+}
