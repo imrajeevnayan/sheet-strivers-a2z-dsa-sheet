@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-10T16:59:06.772Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Math",
+    "Dynamic Programming",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Prefix Sum",
+  "problemTitle": "Number of Sub",
+  "problemUrl": "https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/description/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "aoxjbs"
+}
