@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-10T17:03:46.511Z
+ * Synced: 2026-06-10T17:04:33.213Z
  */
 
 for(int j=0;j<nums.length;j++){
