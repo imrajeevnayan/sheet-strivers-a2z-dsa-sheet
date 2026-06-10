@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-10T16:49:01.402Z",
+  "submissionTimestamp": "2026-06-10T16:49:13.236Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Prefix Sum",
   "problemTitle": "Minimum Size Subarray Sum",
-  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/description/?envType=problem-list-v2&envId=prefix-sum",
+  "problemUrl": "https://leetcode.com/problems/minimum-size-subarray-sum/?envType=problem-list-v2&envId=prefix-sum",
   "submissionId": "hj2riv"
 }
