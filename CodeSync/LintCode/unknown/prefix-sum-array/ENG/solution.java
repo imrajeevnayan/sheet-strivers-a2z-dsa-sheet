@@ -7,15 +7,13 @@
  * Topics: Prefix Sum ArrayArray, Prefix Sum Array, Array, OpenAI, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T17:20:37.579Z
+ * Synced: 2026-06-10T17:20:41.400Z
  */
 
 class·NumArray·{
 ······int·ans[];
 ····public·NumArray(int[]·nums)·{
-········
 ····}
-····
 ····public·int·sumRange(int·i,·int·j)·{
 ········
 ····}
