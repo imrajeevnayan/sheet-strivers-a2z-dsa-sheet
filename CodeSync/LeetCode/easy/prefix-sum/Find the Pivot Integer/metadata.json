@@ -1,0 +1,15 @@
+{
+  "submissionTimestamp": "2026-06-10T17:56:01.911Z",
+  "runtime": "0 ms",
+  "memoryUsage": "42.38 MB",
+  "difficulty": "Easy",
+  "tags": [
+    "Math",
+    "Prefix Sum"
+  ],
+  "platform": "LeetCode",
+  "language": "Prefix Sum",
+  "problemTitle": "Find the Pivot Integer",
+  "problemUrl": "https://leetcode.com/problems/find-the-pivot-integer/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "quirkf"
+}
