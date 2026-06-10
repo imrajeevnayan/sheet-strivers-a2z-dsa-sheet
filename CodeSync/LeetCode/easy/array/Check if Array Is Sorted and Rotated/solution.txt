@@ -6,8 +6,8 @@
  * Difficulty: Easy
  * Topics: Array
  * Runtime: 0 ms
- * Memory: N/A
- * Synced: 2026-06-10T17:38:19.386Z
+ * Memory: 43.14 MB
+ * Synced: 2026-06-10T17:38:22.388Z
  */
 
 if(nums[0]< nums[nums.length-1])count ++;
