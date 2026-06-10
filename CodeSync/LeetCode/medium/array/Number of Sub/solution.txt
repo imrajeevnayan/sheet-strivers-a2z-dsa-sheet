@@ -7,7 +7,7 @@
  * Topics: Array, Math, Dynamic Programming, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-10T17:02:29.339Z
+ * Synced: 2026-06-10T17:02:31.543Z
  */
 
 for (int j = i; j < arr.length; j++) {
