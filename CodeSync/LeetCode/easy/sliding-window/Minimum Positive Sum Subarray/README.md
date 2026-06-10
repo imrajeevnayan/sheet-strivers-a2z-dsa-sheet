@@ -4,10 +4,10 @@
 - Language: Prefix Sum
 - Difficulty: Easy
 - Topics: Array, Sliding Window, Prefix Sum
-- Runtime: N/A
-- Memory: N/A
+- Runtime: 0 ms
+- Memory: 46.44 MB
 - Problem URL: https://leetcode.com/problems/minimum-positive-sum-subarray/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T18:24:44.735Z
+- Synced: 2026-06-10T18:25:02.005Z
 
 ## Problem Description
 
