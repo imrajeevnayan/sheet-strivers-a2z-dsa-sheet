@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-10T17:15:29.713Z",
+  "submissionTimestamp": "2026-06-10T17:15:38.994Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -10,11 +10,12 @@
     "Python 3",
     "C++",
     "More",
-    "Test Data Test Output"
+    "Test Data Test Output",
+    "DFS Medium"
   ],
   "platform": "LintCode",
   "language": "ALL(71) Python 3(30) Java(25) C++(19) Ruby(1)",
   "problemTitle": "Course",
   "problemUrl": "https://www.lintcode.com/problem/65/solution/93788",
-  "submissionId": "jd6tqb"
+  "submissionId": "i03ygx"
 }
