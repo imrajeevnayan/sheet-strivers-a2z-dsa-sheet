@@ -6,8 +6,8 @@
 - Topics: Array, Binary Search, Sliding Window, Prefix Sum
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/minimum-size-subarray-sum/description/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T16:49:01.402Z
+- Problem URL: https://leetcode.com/problems/minimum-size-subarray-sum/?envType=problem-list-v2&envId=prefix-sum
+- Synced: 2026-06-10T16:49:20.206Z
 
 ## Problem Description
 
