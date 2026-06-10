@@ -7,14 +7,14 @@
  * Topics: Array, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-10T18:26:21.741Z
+ * Synced: 2026-06-10T18:26:23.242Z
  */
 
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         int ans[]=new int[n];
         ans[0]=1;
-        for(int i=1;i<;i++){
+        for(int i=1;i<n;i++){
             ans[i]=ans[i-1]*nums[i-1];
         }
         int right=1;
