@@ -5,9 +5,9 @@
  * Language: Prefix Sum
  * Difficulty: Medium
  * Topics: Array, Math, Dynamic Programming, Prefix Sum
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-10T17:02:04.768Z
+ * Synced: 2026-06-10T17:02:09.792Z
  */
 
 for (int j = i; j < arr.length; j++) {
@@ -18,7 +18,11 @@ for (int j = i; j < arr.length; j++) {
             int sum = 0;
 
         for (int i = 0; i < arr.length; i++) {
-        int mod = 1_000_000_007;
         long count = 0;
-class Solution {
-    public int numOfSubarrays(int[] arr) {
+                }
+            }
+        }
+
+        return (int)(count % mod);
+    }
+}
