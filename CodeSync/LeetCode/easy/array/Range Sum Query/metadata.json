@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-10T17:10:11.107Z",
+  "submissionTimestamp": "2026-06-10T17:10:17.187Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -12,5 +12,5 @@
   "language": "Prefix Sum",
   "problemTitle": "Range Sum Query",
   "problemUrl": "https://leetcode.com/problems/range-sum-query-immutable/?envType=problem-list-v2&envId=prefix-sum",
-  "submissionId": "dcmjv5"
+  "submissionId": "ss190o"
 }
