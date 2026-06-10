@@ -4,10 +4,10 @@
 - Language: Prefix Sum
 - Difficulty: Medium
 - Topics: Array, Binary Search, Sliding Window, Prefix Sum
-- Runtime: 1 ms
+- Runtime: 0 ms
 - Memory: 62.28 MB
 - Problem URL: https://leetcode.com/problems/minimum-size-subarray-sum/submissions/1957699504/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T16:46:10.307Z
+- Synced: 2026-06-10T16:46:52.278Z
 
 ## Problem Description
 
