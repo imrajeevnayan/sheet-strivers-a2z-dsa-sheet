@@ -6,8 +6,8 @@
 - Topics: Array, Prefix Sum
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/product-of-array-except-self/description/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T18:27:47.153Z
+- Problem URL: https://leetcode.com/problems/product-of-array-except-self/?envType=problem-list-v2&envId=prefix-sum
+- Synced: 2026-06-10T18:29:16.481Z
 
 ## Problem Description
 
