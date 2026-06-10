@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/sort-array-by-parity-ii/description/
-- Synced: 2026-06-10T17:35:09.401Z
+- Synced: 2026-06-10T17:35:16.161Z
 
 ## Problem Description
 
