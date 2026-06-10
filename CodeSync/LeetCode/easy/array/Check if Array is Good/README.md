@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Hash Table, Sorting
-- Runtime: N/A
+- Runtime: 1 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/check-if-array-is-good/
-- Synced: 2026-06-10T17:39:46.907Z
+- Problem URL: https://leetcode.com/problems/check-if-array-is-good/submissions/2028925466/
+- Synced: 2026-06-10T17:39:55.620Z
 
 ## Problem Description
 
