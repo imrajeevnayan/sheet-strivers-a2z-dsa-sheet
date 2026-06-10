@@ -1,0 +1,18 @@
+{
+  "submissionTimestamp": "2026-06-10T17:16:09.075Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Prefix Sum ArrayArray",
+    "Prefix Sum Array",
+    "Array",
+    "OpenAI",
+    "Test Data Test Output"
+  ],
+  "platform": "LintCode",
+  "language": "Java",
+  "problemTitle": "ENG",
+  "problemUrl": "https://www.lintcode.com/problem/943/",
+  "submissionId": "a67fmd"
+}
