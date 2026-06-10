@@ -3,11 +3,11 @@
 - Platform: LintCode
 - Language: Java
 - Difficulty: Unknown
-- Topics: Prefix Sum ArrayArray, Prefix Sum Array, Array, OpenAI, Test Data Test Output
+- Topics: Prefix Sum ArrayArray, Prefix Sum Array, Array, OpenAI, Test Data Commit Output
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/943/
-- Synced: 2026-06-10T17:22:25.229Z
+- Synced: 2026-06-10T17:22:47.265Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Description Given an integer array nums, find the sum of the elements between in
 
 ## Explanation
 
-This solution was accepted on LintCode using Java. The detected topics are Prefix Sum ArrayArray, Prefix Sum Array, Array, OpenAI, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Java. The detected topics are Prefix Sum ArrayArray, Prefix Sum Array, Array, OpenAI, Test Data Commit Output. Review the synced source file for the implementation details.
