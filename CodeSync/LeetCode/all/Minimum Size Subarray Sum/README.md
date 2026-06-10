@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: 62.28 MB
 - Problem URL: https://leetcode.com/problems/minimum-size-subarray-sum/submissions/1957699504/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T16:44:28.286Z
+- Synced: 2026-06-10T16:46:10.307Z
 
 ## Problem Description
 
