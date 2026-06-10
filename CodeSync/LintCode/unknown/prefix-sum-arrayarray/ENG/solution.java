@@ -7,7 +7,7 @@
  * Topics: Prefix Sum ArrayArray, Prefix Sum Array, Array, OpenAI, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T17:16:18.428Z
+ * Synced: 2026-06-10T17:16:21.759Z
  */
 
 class·NumArray·{
@@ -20,9 +20,3 @@ class·NumArray·{
 ········
 ····}
 }
-
-/**
-·*·Your·NumArray·object·will·be·instantiated·and·called·as·such:
-·*·NumArray·obj·=·new·NumArray(nums);
-·*·int·param_1·=·obj.sumRange(i,j);
-·*/
