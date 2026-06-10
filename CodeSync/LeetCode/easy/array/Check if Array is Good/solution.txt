@@ -7,7 +7,7 @@
  * Topics: Array, Hash Table, Sorting
  * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-06-10T17:39:55.620Z
+ * Synced: 2026-06-10T17:39:58.986Z
  */
 
 int n = nums.length - 1;
