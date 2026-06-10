@@ -1,0 +1,21 @@
+/*
+ * Platform: Coding Ninjas (Code360)
+ * Problem: Hey Champ, hold on we are checking...
+ * URL: https://www.naukri.com/code360/problems/linear-search_624470
+ * Language: All languages
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-10T18:05:41.248Z
+ */
+
+public class Solution {
+ 
+    public static int linearSearch(int arr[], int x) {
+     for(int i=0;i<arr.length;i++){
+       if(arr[i]==x)return i;
+     }
+     return -1;
+    }
+}
