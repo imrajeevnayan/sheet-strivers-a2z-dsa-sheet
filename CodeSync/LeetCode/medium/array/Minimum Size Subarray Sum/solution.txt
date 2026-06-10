@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-10T16:48:49.268Z
+ * Synced: 2026-06-10T16:49:01.402Z
  */
 
 minLen=Math.min(minLen,j-i+1);
