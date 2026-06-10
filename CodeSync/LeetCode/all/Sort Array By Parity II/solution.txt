@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Sort Array By Parity II
- * URL: https://leetcode.com/problems/sort-array-by-parity-ii/
+ * URL: https://leetcode.com/problems/sort-array-by-parity-ii/description/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Two Pointers, Sorting
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-10T17:34:39.379Z
+ * Synced: 2026-06-10T17:35:16.161Z
  */
 
 if(n %2==0){
@@ -16,8 +16,9 @@ if(n %2==0){
             }
                 even+=2;
                 ans[odd]=n;
-            }
                 odd+=2;
+        for(int n:nums){
+            }
         }
         return ans;
     }
