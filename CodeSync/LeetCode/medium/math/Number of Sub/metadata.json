@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-10T17:02:04.768Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-10T17:02:25.816Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Prefix Sum",
   "problemTitle": "Number of Sub",
-  "problemUrl": "https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/?envType=problem-list-v2&envId=prefix-sum",
-  "submissionId": "iso6tk"
+  "problemUrl": "https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/submissions/2028880577/?envType=problem-list-v2&envId=prefix-sum",
+  "submissionId": "f4wmpz"
 }
