@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/submissions/2028880577/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T17:02:19.610Z
+- Synced: 2026-06-10T17:02:25.816Z
 
 ## Problem Description
 
