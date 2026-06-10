@@ -4,10 +4,10 @@
 - Language: Prefix Sum
 - Difficulty: Easy
 - Topics: Array, Design, Prefix Sum
-- Runtime: N/A
+- Runtime: 2 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/range-sum-query-immutable/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T17:11:42.258Z
+- Synced: 2026-06-10T17:13:38.348Z
 
 ## Problem Description
 
