@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Array, Two Pointers, Sorting
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/sort-array-by-parity-ii/
-- Synced: 2026-06-10T17:31:00.338Z
+- Synced: 2026-06-10T17:34:39.379Z
 
 ## Problem Description
 
