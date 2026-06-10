@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/find-the-pivot-integer/description/?envType=problem-list-v2&envId=prefix-sum
-- Synced: 2026-06-10T18:12:28.790Z
+- Synced: 2026-06-10T18:12:45.995Z
 
 ## Problem Description
 
