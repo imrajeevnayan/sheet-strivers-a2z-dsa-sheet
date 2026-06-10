@@ -1,0 +1,17 @@
+/*
+ * Platform: LeetCode
+ * Problem: Count Triplets That Can Form Two Arrays of Equal XOR
+ * URL: https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/description/?envType=problem-list-v2&envId=prefix-sum
+ * Language: Prefix Sum
+ * Difficulty: Medium
+ * Topics: Array, Hash Table, Math, Bit Manipulation, Prefix Sum
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-10T17:28:25.787Z
+ */
+
+class Solution {
+    public int countTriplets(int[] arr) {
+        
+    }
+}
