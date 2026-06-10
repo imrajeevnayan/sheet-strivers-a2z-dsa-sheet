@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Array, Hash Table, Sorting
- * Runtime: N/A
+ * Runtime: 1 ms
  * Memory: N/A
- * Synced: 2026-06-10T17:39:46.907Z
+ * Synced: 2026-06-10T17:40:03.737Z
  */
 
 int n = nums.length - 1;
