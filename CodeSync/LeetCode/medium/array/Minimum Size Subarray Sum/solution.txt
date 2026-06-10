@@ -7,7 +7,7 @@
  * Topics: Array, Binary Search, Sliding Window, Prefix Sum
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-10T16:47:45.437Z
+ * Synced: 2026-06-10T16:47:54.282Z
  */
 
 class Solution {
@@ -20,6 +20,6 @@ class Solution {
                sum-=nums[i++];
             }
         }
-        return minLen ==Integer.MI;
+        return minLen ==Integer.MAX_VALUE ?;
     }
 }
