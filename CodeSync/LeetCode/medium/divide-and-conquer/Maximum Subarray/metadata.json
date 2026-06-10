@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-10T07:03:30.744Z",
+  "submissionTimestamp": "2026-06-10T07:03:45.956Z",
   "runtime": "0 ms",
-  "memoryUsage": "80.67 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Maximum Subarray",
-  "problemUrl": "https://leetcode.com/problems/maximum-subarray/submissions/2012568619/",
-  "submissionId": "ljnvub"
+  "problemUrl": "https://leetcode.com/problems/maximum-subarray/",
+  "submissionId": "ph5nd4"
 }
