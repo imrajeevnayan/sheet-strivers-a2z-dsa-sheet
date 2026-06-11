@@ -1,0 +1,14 @@
+{
+  "submissionTimestamp": "2026-06-11T04:01:33.870Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Uncategorized"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "class Solution: def isPalinArray(self,arr): for num in arr: original = num rev = 0 while num > 0: rear = num % 10 rev = (rev*10) + rear num = num//10 if rev != original: return False return True",
+  "problemTitle": "Python Solution (Manual)",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/palindromic-array-1587115620/1",
+  "submissionId": "bffh9i"
+}
