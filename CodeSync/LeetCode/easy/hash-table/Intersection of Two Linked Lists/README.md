@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Hash Table, Linked List, Two Pointers
 - Runtime: 0 ms
-- Memory: N/A
+- Memory: 52.70 MB
 - Problem URL: https://leetcode.com/problems/intersection-of-two-linked-lists/submissions/2029255502/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
-- Synced: 2026-06-11T04:30:20.581Z
+- Synced: 2026-06-11T04:30:23.901Z
 
 ## Problem Description
 
