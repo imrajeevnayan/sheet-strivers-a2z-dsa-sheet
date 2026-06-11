@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, Flipkart, Amazon, Microsoft, Google, Goldman Sachs, Adobe
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-02T09:43:07.258Z
+ * Synced: 2026-06-11T04:04:23.335Z
  */
 
 class Solution {
