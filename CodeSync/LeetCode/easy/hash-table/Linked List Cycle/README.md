@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Hash Table, Linked List, Two Pointers
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/linked-list-cycle/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
-- Synced: 2026-06-11T04:32:00.992Z
+- Problem URL: https://leetcode.com/problems/linked-list-cycle/description/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
+- Synced: 2026-06-11T04:32:24.445Z
 
 ## Problem Description
 
