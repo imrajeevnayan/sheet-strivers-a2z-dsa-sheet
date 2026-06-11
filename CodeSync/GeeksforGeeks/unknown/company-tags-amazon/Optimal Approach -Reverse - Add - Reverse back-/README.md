@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/add-1-to-a-number-represented-as-linked-list/1
-- Synced: 2026-06-11T04:07:28.436Z
+- Synced: 2026-06-11T04:07:31.437Z
 
 ## Problem Description
 
