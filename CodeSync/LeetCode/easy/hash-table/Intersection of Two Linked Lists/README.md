@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/intersection-of-two-linked-lists/description/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
-- Synced: 2026-06-11T04:30:57.312Z
+- Synced: 2026-06-11T04:31:03.154Z
 
 ## Problem Description
 
