@@ -7,7 +7,7 @@
  * Topics: Linked List, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-11T04:35:18.565Z
+ * Synced: 2026-06-11T04:35:31.961Z
  */
 
 curr = next;
@@ -17,16 +17,15 @@ curr = next;
             while (curr != nextGroupStart) {
             ListNode nextGroupStart = kthNode.next;
             ListNode prev = nextGroupStart, curr = head;
-
-            }
-            if (kthNode == null) break;
-            for (int i = 1; i < k && kthNode != null; i++)  kthNode = kthNode.next;
-            ListNode kthNode = head;
-        while (true) {
-
-        ListNode temp = null, newHead = null;
-        if (head == null || k == 1) return head;
-    public ListNode reverseKGroup(ListNode head, int k) {
             }
 
             if (temp == null) newHead = prev;
+            else temp.next = prev;
+    
+            temp = head;
+            head = nextGroupStart;
+        }
+
+        return newHead != null ? newHead : head;
+    }
+}
