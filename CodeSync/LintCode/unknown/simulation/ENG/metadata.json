@@ -1,16 +1,17 @@
 {
-  "submissionTimestamp": "2026-06-03T06:48:21.359Z",
+  "submissionTimestamp": "2026-06-11T06:49:14.966Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
+    "Linked ListSimulation",
+    "Linked List",
     "Simulation",
-    "ByteDance",
     "Test Data Test Output"
   ],
   "platform": "LintCode",
   "language": "Java",
   "problemTitle": "ENG",
-  "problemUrl": "https://www.lintcode.com/problem/1527/",
-  "submissionId": "if0tkm"
+  "problemUrl": "https://www.lintcode.com/problem/167/",
+  "submissionId": "qizkv9"
 }
