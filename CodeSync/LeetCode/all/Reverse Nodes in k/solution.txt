@@ -5,24 +5,27 @@
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Linked List, Recursion
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-11T04:34:34.284Z
+ * Synced: 2026-06-11T04:35:13.009Z
  */
 
-ListNode nextGroupStart = kthNode.next;
+curr = next;
+                prev = curr;
+                curr.next = prev;
+                ListNode next = curr.next;
+            while (curr != nextGroupStart) {
+            ListNode nextGroupStart = kthNode.next;
             ListNode prev = nextGroupStart, curr = head;
-            if (kthNode == null) break;
 
-                kthNode = kthNode.next;
             }
+            if (kthNode == null) break;
+                kthNode = kthNode.next;
             for (int i = 1; i < k && kthNode != null; i++) {
-        while (true) {
             ListNode kthNode = head;
+        while (true) {
 
-        ListNode newHead = null;
-        ListNode temp = null;
-
+        ListNode temp = null, newHead = null;
         if (head == null || k == 1) return head;
     public ListNode reverseKGroup(ListNode head, int k) {
-class Solution {
+            }
