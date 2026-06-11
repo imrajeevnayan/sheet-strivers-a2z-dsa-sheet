@@ -1,22 +1,34 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/1527/
+ * URL: https://www.lintcode.com/problem/167/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Simulation, ByteDance, Test Data Test Output
+ * Topics: Linked ListSimulation, Linked List, Simulation, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-03T06:48:21.359Z
+ * Synced: 2026-06-11T06:49:14.966Z
  */
+
+/**
+·*·Definition·for·ListNode
+·*·public·class·ListNode·{
+·*·····int·val;
+·*·····ListNode·next;
+·*·····ListNode(int·x)·{
+·*·········val·=·x;
+·*·········next·=·null;
+·*·····}
+·*·}
+·*/
 
 public·class·Solution·{
 ····/**
-·····*·@param·cards:·A·list·of·cards.
-·····*·@return:·A·list·of·feasible·solution.
-·····*··········we·will·sort·your·return·value·in·output
+·····*·@param·l1:·the·first·list
+·····*·@param·l2:·the·second·list
+·····*·@return:·the·sum·list·of·l1·and·l2·
 ·····*/
-····public·List<Integer>·getTheNumber(int[]·cards)·{
+····public·ListNode·addLists(ListNode·l1,·ListNode·l2)·{
 ········//·write·your·code·here
 ····}
 }
