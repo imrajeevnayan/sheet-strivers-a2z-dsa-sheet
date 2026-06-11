@@ -7,7 +7,7 @@
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-11T04:32:00.992Z
+ * Synced: 2026-06-11T04:32:04.626Z
  */
 
 public class Solution {
@@ -19,7 +19,7 @@ public class Solution {
         slow = slow.next;
         fast = fast.next.next;
         if (slow == fast) return true;
-    }
+      }
     return false;
     }
 }
