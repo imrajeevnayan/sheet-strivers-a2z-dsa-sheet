@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, Linked List, Two Pointers
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-11T04:30:08.581Z
+ * Synced: 2026-06-11T04:30:15.597Z
  */
 
 public class Solution {
