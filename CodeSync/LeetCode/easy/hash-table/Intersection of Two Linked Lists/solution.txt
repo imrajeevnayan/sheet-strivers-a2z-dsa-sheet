@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Intersection of Two Linked Lists
- * URL: https://leetcode.com/problems/intersection-of-two-linked-lists/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
+ * URL: https://leetcode.com/problems/intersection-of-two-linked-lists/submissions/2029255502/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-11T04:30:15.597Z
+ * Synced: 2026-06-11T04:30:20.581Z
  */
 
 public class Solution {
