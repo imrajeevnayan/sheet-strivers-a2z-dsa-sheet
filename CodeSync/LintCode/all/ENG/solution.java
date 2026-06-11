@@ -1,26 +1,34 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/943/
+ * URL: https://www.lintcode.com/problem/167/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Prefix Sum ArrayArray, Prefix Sum Array, Array, OpenAI, Test Data Test Output
+ * Topics: Linked ListSimulation, Linked List, Simulation, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T17:21:13.948Z
+ * Synced: 2026-06-11T06:49:14.966Z
  */
 
-class·NumArray·{
-······int·ans[];
-····public·NumArray(int[]·nums)·{
+/**
+·*·Definition·for·ListNode
+·*·public·class·ListNode·{
+·*·····int·val;
+·*·····ListNode·next;
+·*·····ListNode(int·x)·{
+·*·········val·=·x;
+·*·········next·=·null;
+·*·····}
+·*·}
+·*/
+
+public·class·Solution·{
+····/**
+·····*·@param·l1:·the·first·list
+·····*·@param·l2:·the·second·list
+·····*·@return:·the·sum·list·of·l1·and·l2·
+·····*/
+····public·ListNode·addLists(ListNode·l1,·ListNode·l2)·{
+········//·write·your·code·here
 ····}
-····public·int·sumRange(int·i,·int·j)·{
-····}
-········int·ans[]=new·int[nums.length];
-········ans[0]=nums[0];
-········for(int·i=1;i<nums.length;i++){
-············ans[i]=ans[i-1]+nums[i];
-········}
 }
-········if(i==0)return·ans[j];
-········return·ans[j]-ans[i-1];
