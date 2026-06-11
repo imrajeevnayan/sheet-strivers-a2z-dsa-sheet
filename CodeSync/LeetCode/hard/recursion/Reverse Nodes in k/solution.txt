@@ -7,23 +7,19 @@
  * Topics: Linked List, Recursion
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-11T04:34:56.998Z
+ * Synced: 2026-06-11T04:35:04.140Z
  */
 
-curr.next = prev;
-                prev = curr;
-                curr = next;
+curr = next;
             }
 
             if (temp == null) newHead = prev;
-            else {
-                temp.next = prev;
-        
-
+            else temp.next = prev;
+    
             temp = head;
             head = nextGroupStart;
         }
 
-                ListNode next = curr.next;
-            while (curr != nextGroupStart) {
         return newHead != null ? newHead : head;
+    }
+}
