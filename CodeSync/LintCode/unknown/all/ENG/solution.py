@@ -1,29 +1,15 @@
 # Platform: LintCode
 # Problem: ENG
-# URL: https://www.lintcode.com/problem/268/
+# URL: https://www.lintcode.com/problem/167/
 # Language: Python
 # Difficulty: Unknown
-# Topics: Stack, Test Data Test Output
+# Topics: Linked ListSimulation, Linked List, Simulation, Test Data Test Output
 # Runtime: N/A
 # Memory: N/A
-# Synced: 2026-06-09T12:21:52.695Z
+# Synced: 2026-06-11T10:03:59.565Z
 
 public·class·Solution·{
-····public·int·parenthesesScore(String·s)·{
-········Stack<Integer>·st=·new·Stack<>();
-········st.push(0);
-
-········for·(char·c·:·s.toCharArray())·{
-············if·(c·==·'(')·st.push(0);
-············else·{
-················int·v·=·st.pop();
-················int·top·=·st.pop();
-
-················if·(v·==·0)·st.push(top·+·1);
-················else·st.push(top·+·2·*·v);
-············}
-········}
-
-········return·st.pop();
+····public·ListNode·addLists(ListNode·l1,·ListNode·l2)·{
+······
 ····}
 }
