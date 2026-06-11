@@ -1,13 +1,13 @@
 /*
  * Platform: LintCode
  * Problem: ENG
- * URL: https://www.lintcode.com/problem/223/
+ * URL: https://www.lintcode.com/problem/167/
  * Language: Java
  * Difficulty: Unknown
- * Topics: Linked List, Facebook IXL Amazon, Facebook, IXL, Amazon, Test Data Test Output
+ * Topics: Linked ListSimulation, Linked List, Simulation, Test Data Test Output
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-09T11:12:06.261Z
+ * Synced: 2026-06-11T06:49:14.966Z
  */
 
 /**
@@ -24,10 +24,11 @@
 
 public·class·Solution·{
 ····/**
-·····*·@param·head:·A·ListNode.
-·····*·@return:·A·boolean.
+·····*·@param·l1:·the·first·list
+·····*·@param·l2:·the·second·list
+·····*·@return:·the·sum·list·of·l1·and·l2·
 ·····*/
-····public·boolean·isPalindrome(ListNode·head)·{
+····public·ListNode·addLists(ListNode·l1,·ListNode·l2)·{
 ········//·write·your·code·here
 ····}
 }
