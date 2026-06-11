@@ -1,0 +1,29 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Python Solution (Manual)
+ * URL: https://www.geeksforgeeks.org/problems/palindromic-array-1587115620/1
+ * Language: class Solution: def isPalinArray(self,arr): for num in arr: original = num rev = 0 while num > 0: rear = num % 10 rev = (rev*10) + rear num = num//10 if rev != original: return False return True
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-11T04:01:33.870Z
+ */
+
+class Solution {
+    static boolean isPalindrome(int n){
+        int org=n;
+        int rev=0;
+        while(n > 0){
+            rev=rev*10+ (n %10);
+            n/=10;
+        }
+        return org==rev;
+    }
+    public static boolean isPalinArray(int[] arr) {
+        for(int n:arr){
+            if( !isPalindrome(n)) return false;
+        }
+        return true;
+    }
+}
