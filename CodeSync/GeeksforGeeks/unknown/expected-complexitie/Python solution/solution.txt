@@ -1,0 +1,42 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Python solution:
+ * URL: https://www.geeksforgeeks.org/problems/find-equal-point-in-string-of-brackets2542/1
+ * Language: def findIndex(self, s): closed_count = s.count(")") open_count = 0 for i, c in enumerate(s): if open_count == closed_count: return i if c == "(": open_count += 1 else: closed_count -= 1 return len(s)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Strings, Data Structures
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-11T04:14:21.742Z
+ */
+
+class Solution {
+    public int findIndex(String s) {
+        int n = s.length();
+        
+        // Count total closing brackets
+        int totalClose = 0;
+        for (char c : s.toCharArray()) {
+            if (c == ')') totalClose++;
+        }
+        
+        int openCount = 0;
+        int closeCount = 0;
+        
+        // Check split at position 0
+        if (openCount == totalClose) return 0;
+        
+        for (int k = 1; k <= n; k++) {
+            char prev = s.charAt(k - 1);
+            if (prev == '(') openCount++;
+            else closeCount++;
+            
+            int remainingClose = totalClose - closeCount;
+            if (openCount == remainingClose) {
+                return k;
+            }
+        }
+        
+        return -1;
+    }
+}
