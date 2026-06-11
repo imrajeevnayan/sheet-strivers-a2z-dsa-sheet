@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-11T04:14:21.742Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags Amazon",
+    "Company Tags",
+    "Amazon",
+    "Topic Tags",
+    "Arrays",
+    "Strings",
+    "Data Structures"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "def findIndex(self, s): closed_count = s.count(\")\") open_count = 0 for i, c in enumerate(s): if open_count == closed_count: return i if c == \"(\": open_count += 1 else: closed_count -= 1 return len(s)",
+  "problemTitle": "Python solution:",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/find-equal-point-in-string-of-brackets2542/1",
+  "submissionId": "s7oh81"
+}
