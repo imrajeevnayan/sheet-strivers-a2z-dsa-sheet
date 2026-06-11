@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Reverse Nodes in k
- * URL: https://leetcode.com/problems/reverse-nodes-in-k-group/submissions/2029260833/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
+ * URL: https://leetcode.com/problems/reverse-nodes-in-k-group/description/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
  * Language: Problem List
  * Difficulty: Hard
  * Topics: Linked List, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-11T04:35:46.265Z
+ * Synced: 2026-06-11T04:35:56.707Z
  */
 
 curr = next;
