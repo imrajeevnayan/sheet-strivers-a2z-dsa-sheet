@@ -7,7 +7,7 @@
  * Topics: Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-10T05:45:25.215Z
+ * Synced: 2026-06-11T03:52:33.174Z
  */
 
 Input: head = [4,5,1,9], node = 5
