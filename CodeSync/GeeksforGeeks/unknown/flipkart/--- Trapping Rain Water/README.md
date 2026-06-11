@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/trapping-rain-water-1587115621/1
-- Synced: 2026-06-02T09:43:07.258Z
+- Synced: 2026-06-11T04:04:23.335Z
 
 ## Problem Description
 
