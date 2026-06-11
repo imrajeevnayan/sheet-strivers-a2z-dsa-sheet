@@ -7,7 +7,7 @@
  * Topics: Linked List, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-11T04:35:34.359Z
+ * Synced: 2026-06-11T04:35:37.537Z
  */
 
 curr = next;
@@ -20,7 +20,6 @@ curr = next;
             }
             if (temp == null) newHead = prev;
             else temp.next = prev;
-    
             temp = head;
             head = nextGroupStart;
         }
