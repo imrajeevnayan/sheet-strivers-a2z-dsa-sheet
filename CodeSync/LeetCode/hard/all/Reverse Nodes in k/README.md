@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/reverse-nodes-in-k-group/description/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
-- Synced: 2026-06-11T04:35:56.707Z
+- Synced: 2026-06-11T04:36:08.190Z
 
 ## Problem Description
 
