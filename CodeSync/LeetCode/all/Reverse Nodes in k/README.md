@@ -6,8 +6,8 @@
 - Topics: Linked List, Recursion
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/reverse-nodes-in-k-group/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
-- Synced: 2026-06-11T04:35:31.961Z
+- Problem URL: https://leetcode.com/problems/reverse-nodes-in-k-group/submissions/2029260833/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87
+- Synced: 2026-06-11T04:35:46.265Z
 
 ## Problem Description
 
