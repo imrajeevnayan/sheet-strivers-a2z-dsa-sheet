@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1
-- Synced: 2026-06-11T04:03:11.554Z
+- Synced: 2026-06-11T04:03:33.821Z
 
 ## Problem Description
 
