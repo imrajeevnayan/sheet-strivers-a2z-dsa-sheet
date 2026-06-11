@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-11T04:03:33.821Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags",
+    "Accolite",
+    "Amazon",
+    "Goldman Sachs",
+    "Google",
+    "Facebook",
+    "Topic Tags"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "Smallest subarray with sum greater than x",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/smallest-subarray-with-sum-greater-than-x5651/1",
+  "submissionId": "uoddna"
+}
