@@ -7,7 +7,7 @@
  * Topics: Hash Table, Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-12T19:27:22.310Z
+ * Synced: 2026-06-12T19:27:26.678Z
  */
 
 while (curr != null) {
@@ -16,16 +16,9 @@ while (curr != null) {
             }
             curr = curr.next.next;
         }
-                Node newHead = head.next;
+      Node newHead = head.next;
           curr = head;
-            curr = copy.next;
         }
-            copy.next = curr.next;
-            curr.next = copy;
-            Node copy = new Node(curr.val);
-        while (curr != null) {
-        Node curr = head;
-        if (head == null) return null;
         curr = head;
         while (curr != null) {
             Node copy = curr.next;
@@ -33,3 +26,9 @@ while (curr != null) {
             if (copy.next != null) {
                 copy.next = copy.next.next;
             }
+            curr = curr.next;
+        }
+        
+        return newHead;
+    }
+}
