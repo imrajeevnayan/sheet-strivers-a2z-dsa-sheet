@@ -1,0 +1,36 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Common in 3 Sorted Arrays
+ * URL: https://www.geeksforgeeks.org/problems/common-elements1132/1
+ * Language: class Solution { public: vector<int> commonElements(vector<int> &a, vector<int> &b, vector<int> &c) { vector<int> ele; int i = 0, j = 0; while(i<a.size() and j<b.size()){ if(a[i] == b[j]){ int k = lower_bound(c.begin(), c.end(), a[i]) - c.begin(); if(k != c.size() and c[k] == a[i]){ ele.push_back(a[i]); } i++, j++; } else if(a[i]<b[j])i++; else j++; } if(ele.empty())return ele; ele.erase(unique(ele.begin(), ele.end()), ele.end()); return ele; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags VMWareMicrosoftMAQ Software, Company Tags, VMWare, Microsoft, MAQ Software, Topic Tags, Searching
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-12T16:36:14.033Z
+ */
+
+class Solution {
+    public ArrayList<Integer> commonElements(int[] a, int[] b, int[] c) {
+        ArrayList<Integer> result = new ArrayList<>();
+        int i = 0, j = 0, k = 0;
+        int n = a.length, m = b.length, p = c.length;
+        
+        while (i < n && j < m && k < p) {
+            if (a[i] == b[j] && b[j] == c[k]) {
+                // Skip duplicates in result
+                if (result.isEmpty() || result.get(result.size() - 1) != a[i]) {
+                    result.add(a[i]);
+                }
+                i++; j++; k++;
+            }
+            else if (a[i] < b[j]) i++;
+            } else if (b[j] < c[k]) {
+                j++;
+            } else {
+                k++;
+            }
+        }
+        return result;
+    }
+}
