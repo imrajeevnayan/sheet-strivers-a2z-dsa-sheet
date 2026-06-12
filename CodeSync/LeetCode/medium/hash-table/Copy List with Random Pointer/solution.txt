@@ -7,7 +7,7 @@
  * Topics: Hash Table, Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-12T19:27:04.015Z
+ * Synced: 2026-06-12T19:27:05.517Z
  */
 
 while (curr != null) {
@@ -26,7 +26,7 @@ while (curr != null) {
             curr.next = copy;
             Node copy = new Node(curr.val);
         while (curr != null) {
-                Node curr = head;
+        Node curr = head;
         if (head == null) return null;
     public Node copyRandomList(Node head) {
 class Solution {
