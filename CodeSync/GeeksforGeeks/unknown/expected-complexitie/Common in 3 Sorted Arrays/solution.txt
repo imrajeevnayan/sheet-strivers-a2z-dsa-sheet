@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags VMWareMicrosoftMAQ Software, Company Tags, VMWare, Microsoft, MAQ Software, Topic Tags, Searching
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-12T16:36:14.033Z
+ * Synced: 2026-06-12T16:36:27.314Z
  */
 
 class Solution {
@@ -25,11 +25,10 @@ class Solution {
                 i++; j++; k++;
             }
             else if (a[i] < b[j]) i++;
-            } else if (b[j] < c[k]) {
-                j++;
-            } else {
+            else if (b[j] < c[k])  j++;
+            else {
                 k++;
-            }
+            
         }
         return result;
     }
