@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Flatten a Multilevel Doubly Linked List
- * URL: https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/?utm_source=chatgpt.com
+ * URL: https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/submissions/2030296009/?utm_source=chatgpt.com
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Depth-First Search, Doubly-Linked List
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-12T03:15:41.408Z
+ * Synced: 2026-06-12T03:15:45.701Z
  */
 
 curr.next = curr.child;
@@ -26,4 +26,8 @@ curr.next = curr.child;
         return head;
     }
         while (curr != null) {
-}
+        Stack<Node> st = new Stack<>();
+        Node curr = head;
+        if (head == null) return null;
+class Solution {
+    public Node flatten(Node head) {
