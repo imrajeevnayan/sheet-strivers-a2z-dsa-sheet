@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Hash Table, Linked List
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/copy-list-with-random-pointer/
-- Synced: 2026-06-12T19:27:26.678Z
+- Synced: 2026-06-12T19:27:36.366Z
 
 ## Problem Description
 
