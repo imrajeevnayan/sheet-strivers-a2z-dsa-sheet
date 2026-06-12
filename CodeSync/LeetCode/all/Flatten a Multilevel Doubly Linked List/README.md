@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Medium
 - Topics: Linked List, Depth-First Search, Doubly-Linked List
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/?utm_source=chatgpt.com
-- Synced: 2026-06-12T03:12:55.165Z
+- Problem URL: https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/?utm_source=chatgpt.com
+- Synced: 2026-06-12T03:15:54.789Z
 
 ## Problem Description
 
