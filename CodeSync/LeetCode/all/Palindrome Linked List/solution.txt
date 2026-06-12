@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Palindrome Linked List
- * URL: https://leetcode.com/problems/palindrome-linked-list/
+ * URL: https://leetcode.com/problems/palindrome-linked-list/?utm_source=chatgpt.com
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Linked List, Two Pointers, Stack, Recursion
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-09T11:23:56.002Z
+ * Synced: 2026-06-12T03:06:46.449Z
  */
 
 class Solution {
