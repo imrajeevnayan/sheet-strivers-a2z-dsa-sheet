@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-12T16:36:08.338Z",
+  "submissionTimestamp": "2026-06-12T16:36:14.033Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -17,5 +17,5 @@
   "language": "class Solution { public: vector<int> commonElements(vector<int> &a, vector<int> &b, vector<int> &c) { vector<int> ele; int i = 0, j = 0; while(i<a.size() and j<b.size()){ if(a[i] == b[j]){ int k = lower_bound(c.begin(), c.end(), a[i]) - c.begin(); if(k != c.size() and c[k] == a[i]){ ele.push_back(a[i]); } i++, j++; } else if(a[i]<b[j])i++; else j++; } if(ele.empty())return ele; ele.erase(unique(ele.begin(), ele.end()), ele.end()); return ele; } };",
   "problemTitle": "Common in 3 Sorted Arrays",
   "problemUrl": "https://www.geeksforgeeks.org/problems/common-elements1132/1",
-  "submissionId": "cz9qlw"
+  "submissionId": "7etq4b"
 }
