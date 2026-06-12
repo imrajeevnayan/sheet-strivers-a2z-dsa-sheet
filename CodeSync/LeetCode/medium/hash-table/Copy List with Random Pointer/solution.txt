@@ -7,7 +7,7 @@
  * Topics: Hash Table, Linked List
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-12T19:28:24.203Z
+ * Synced: 2026-06-12T19:28:29.994Z
  */
 
 while (curr != null) {
