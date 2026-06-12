@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/?utm_source=chatgpt.com
-- Synced: 2026-06-12T03:12:55.165Z
+- Synced: 2026-06-12T03:12:58.158Z
 
 ## Problem Description
 
