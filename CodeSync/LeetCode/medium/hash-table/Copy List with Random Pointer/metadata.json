@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-12T19:27:26.678Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-12T19:27:36.366Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -11,5 +11,5 @@
   "language": "Problem List",
   "problemTitle": "Copy List with Random Pointer",
   "problemUrl": "https://leetcode.com/problems/copy-list-with-random-pointer/",
-  "submissionId": "2ui6py"
+  "submissionId": "jfhlr8"
 }
