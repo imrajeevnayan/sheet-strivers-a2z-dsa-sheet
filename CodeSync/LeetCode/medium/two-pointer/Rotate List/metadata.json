@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-12T19:25:31.188Z",
+  "submissionTimestamp": "2026-06-12T19:25:40.680Z",
   "runtime": "0 ms",
-  "memoryUsage": "44.37 MB",
+  "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
     "Linked List",
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Rotate List",
-  "problemUrl": "https://leetcode.com/problems/rotate-list/",
+  "problemUrl": "https://leetcode.com/problems/rotate-list/description/",
   "submissionId": "nev8k2"
 }
