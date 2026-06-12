@@ -7,7 +7,7 @@
  * Topics: Linked List, Depth-First Search, Doubly-Linked List
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-12T03:15:54.789Z
+ * Synced: 2026-06-12T03:16:00.167Z
  */
 
 curr.next = curr.child;
@@ -31,3 +31,4 @@ curr.next = curr.child;
         Stack<Node> st = new Stack<>();
         if (head == null) return null;
     public Node flatten(Node head) {
+class Solution {
