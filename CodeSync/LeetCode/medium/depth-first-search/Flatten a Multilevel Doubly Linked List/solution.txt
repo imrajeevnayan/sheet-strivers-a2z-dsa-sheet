@@ -1,24 +1,14 @@
 /*
  * Platform: LeetCode
  * Problem: Flatten a Multilevel Doubly Linked List
- * URL: https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/?utm_source=chatgpt.com
+ * URL: https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/?utm_source=chatgpt.com
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Depth-First Search, Doubly-Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-12T03:11:13.437Z
+ * Synced: 2026-06-12T03:11:31.253Z
  */
-
-/*
-// Definition for a Node.
-class Node {
-    public int val;
-    public Node prev;
-    public Node next;
-    public Node child;
-};
-*/
 
 class Solution {
     public Node flatten(Node head) {
