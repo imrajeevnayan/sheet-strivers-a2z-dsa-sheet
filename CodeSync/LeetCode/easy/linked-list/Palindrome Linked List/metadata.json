@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-09T11:24:07.009Z",
+  "submissionTimestamp": "2026-06-12T03:06:46.449Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Palindrome Linked List",
-  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/",
+  "problemUrl": "https://leetcode.com/problems/palindrome-linked-list/?utm_source=chatgpt.com",
   "submissionId": "go7c3z"
 }
