@@ -7,15 +7,13 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-12T19:24:47.716Z
+ * Synced: 2026-06-12T19:24:53.932Z
  */
 
 fast = fast.next;
             if (fast == null) fast = head; 
         }
-        
-        // If fast reached end in first loop, no need to rotate
-        if (fast == head) return head;
+       if (fast == head) return head;
         
         // Move both pointers until fast reaches the end
         while (fast.next != null) {
@@ -32,3 +30,4 @@ class Solution {
         // Now slow is at the new tail
         ListNode newHead = slow.next;
         slow.next = null;
+        fast.next = head;        // Connect old tail to old head
