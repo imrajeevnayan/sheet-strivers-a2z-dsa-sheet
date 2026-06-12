@@ -6,8 +6,8 @@
 - Topics: Hash Table, Linked List
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/copy-list-with-random-pointer/
-- Synced: 2026-06-12T19:27:36.366Z
+- Problem URL: https://leetcode.com/problems/copy-list-with-random-pointer/description/
+- Synced: 2026-06-12T19:28:04.757Z
 
 ## Problem Description
 
