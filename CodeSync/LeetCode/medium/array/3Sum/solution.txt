@@ -7,7 +7,7 @@
  * Topics: Array, Two Pointers, Sorting
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-12T19:29:00.923Z
+ * Synced: 2026-06-12T19:29:03.933Z
  */
 
 class Solution {
@@ -21,12 +21,3 @@ class Solution {
                 if(s.contains(third)){
                     List<Integer>triplet=Arrays.asList(nums[i],nums[j],third);
                     Collections.sort(triplet);
-                    set.add(triplet);
-                }
-                s.add(nums[j]);
-            }
-        }
-        return new ArrayList<>(set);
-        
-    }
-}
