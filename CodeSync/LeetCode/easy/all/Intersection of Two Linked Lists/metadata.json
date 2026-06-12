@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-11T04:31:03.154Z",
-  "runtime": "0 ms",
+  "submissionTimestamp": "2026-06-12T07:21:21.161Z",
+  "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Intersection of Two Linked Lists",
   "problemUrl": "https://leetcode.com/problems/intersection-of-two-linked-lists/description/?spm=a2ty_o01.29997173.0.0.160c55fbqASZ87",
-  "submissionId": "vrmkb7"
+  "submissionId": "nkp5hw"
 }
