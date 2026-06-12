@@ -7,7 +7,7 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-12T19:25:09.706Z
+ * Synced: 2026-06-12T19:25:14.728Z
  */
 
 fast = fast.next;
@@ -26,7 +26,7 @@ fast = fast.next;
         if (head == null || head.next == null || k == 0) return head;
 class Solution {
         slow.next = null;
-        fast.next = head;        // Connect old tail to old head
+        fast.next = head;       
         return newHead;
     }
 }
