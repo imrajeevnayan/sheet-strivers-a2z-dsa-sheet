@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-12T03:15:54.789Z",
+  "submissionTimestamp": "2026-06-12T03:16:09.316Z",
   "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Flatten a Multilevel Doubly Linked List",
-  "problemUrl": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/?utm_source=chatgpt.com",
-  "submissionId": "3zajsq"
+  "problemUrl": "https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/?utm_source=chatgpt.com",
+  "submissionId": "4ce94o"
 }
