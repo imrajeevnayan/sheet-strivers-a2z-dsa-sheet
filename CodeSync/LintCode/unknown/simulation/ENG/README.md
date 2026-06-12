@@ -1,18 +1,18 @@
 # ENG
 
 - Platform: LintCode
-- Language: Python
+- Language: Text
 - Difficulty: Unknown
-- Topics: Linked ListSimulation, Linked List, Simulation, Test Data Test Output
+- Topics: Linked ListSimulation, Linked List, Simulation
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.lintcode.com/problem/167/
-- Synced: 2026-06-11T10:03:59.565Z
+- Synced: 2026-06-12T02:59:31.358Z
 
 ## Problem Description
 
-Description You have two numbers represented by a linked list, where each node contains a single digit. The digits are stored in reverse order, such that the 1's digit is at the head of the list. Write a function that adds the two numbers and returns the sum as a linked list. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information Example Example 1: Input: 7->1->6->null, 5->9->2->null Output: 2->1->9->null Explanation: 617 + 295 = 912, 912 to list: 2->1->9->null Example 2: Input: 3->1->5->null, 5->9->2->null Output: 8->0->8->null Explanation: 513 + 295 = 808, 808 to list: 8->0->8->null Tags Related Problems 221 Add Two Numbers II Medium 655 Add Strings Easy 656 Multiply Strings Medium 756 Multiply Two Numbers Easy Recommend Courses Twitter 后端系统 - Python 项目实战 从0项目经验到深度后端项目操盘，FB架构师万行代码还原真实开发环境，14周简历镀金
+Description You have two numbers represented by a linked list, where each node contains a single digit. The digits are stored in reverse order, such that the 1's digit is at the head of the list. Write a function that adds the two numbers and returns the sum as a linked list. LintCode - Online Judge Solution Candidate Written Test Screening, Team Competency Assessment, Programming Teaching Exercises, Online Exam Grading WeChat for information Example Example 1: Input: 7->1->6->null, 5->9->2->null Output: 2->1->9->null Explanation: 617 + 295 = 912, 912 to list: 2->1->9->null Example 2: Input: 3->1->5->null, 5->9->2->null Output: 8->0->8->null Explanation: 513 + 295 = 808, 808 to list: 8->0->8->null Tags Related Problems 221 Add Two Numbers II Medium 655 Add Strings Easy 656 Multiply Strings Medium 756 Multiply Two Numbers Easy Recommend Courses ACM金牌逐行带刷班 最适合懒人的刷题课--躺平看算法大神在线coding，讲解思路+现场debug，手撕面试高频题
 
 ## Explanation
 
-This solution was accepted on LintCode using Python. The detected topics are Linked ListSimulation, Linked List, Simulation, Test Data Test Output. Review the synced source file for the implementation details.
+This solution was accepted on LintCode using Text. The detected topics are Linked ListSimulation, Linked List, Simulation. Review the synced source file for the implementation details.
