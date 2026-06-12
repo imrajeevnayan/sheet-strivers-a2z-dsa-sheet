@@ -6,8 +6,8 @@
 - Topics: Linked List, Depth-First Search, Doubly-Linked List
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/description/?utm_source=chatgpt.com
-- Synced: 2026-06-12T03:11:13.437Z
+- Problem URL: https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/?utm_source=chatgpt.com
+- Synced: 2026-06-12T03:11:31.253Z
 
 ## Problem Description
 
