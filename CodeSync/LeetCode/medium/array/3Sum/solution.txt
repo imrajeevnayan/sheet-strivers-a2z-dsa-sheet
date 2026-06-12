@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Array, Two Pointers, Sorting
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-12T19:29:03.933Z
+ * Synced: 2026-06-12T19:29:07.324Z
  */
 
 class Solution {
