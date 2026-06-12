@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, Linked List
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-12T19:27:26.678Z
+ * Synced: 2026-06-12T19:27:36.366Z
  */
 
 while (curr != null) {
@@ -27,8 +27,12 @@ while (curr != null) {
                 copy.next = copy.next.next;
             }
             curr = curr.next;
-        }
-        
-        return newHead;
-    }
-}
+            curr = copy.next;
+            curr.next = copy;
+            copy.next = curr.next;
+            Node copy = new Node(curr.val);
+        while (curr != null) {
+        Node curr = head;
+    public Node copyRandomList(Node head) {
+        if (head == null) return null;
+class Solution {
