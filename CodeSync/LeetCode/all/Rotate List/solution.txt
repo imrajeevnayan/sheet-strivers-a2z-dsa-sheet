@@ -7,11 +7,11 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-12T19:24:28.968Z
+ * Synced: 2026-06-12T19:24:47.716Z
  */
 
 fast = fast.next;
-            if (fast == null) fast = head;   // Handle k > length
+            if (fast == null) fast = head; 
         }
         
         // If fast reached end in first loop, no need to rotate
@@ -25,10 +25,10 @@ fast = fast.next;
         
         
         for (int i = 0; i < k; i++) {
-        ListNode fast = head;
-        ListNode slow = head;
+        ListNode fast = head,slow = head;
     public ListNode rotateRight(ListNode head, int k) {
         if (head == null || head.next == null || k == 0) return head;
-        
 class Solution {
         // Now slow is at the new tail
+        ListNode newHead = slow.next;
+        slow.next = null;
