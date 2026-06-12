@@ -7,11 +7,11 @@
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-12T19:24:41.720Z
+ * Synced: 2026-06-12T19:24:47.716Z
  */
 
 fast = fast.next;
-            if (fast == null) fast = head;   // Handle k > length
+            if (fast == null) fast = head; 
         }
         
         // If fast reached end in first loop, no need to rotate
