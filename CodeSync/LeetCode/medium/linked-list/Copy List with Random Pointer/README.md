@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/copy-list-with-random-pointer/
-- Synced: 2026-06-12T19:27:10.183Z
+- Synced: 2026-06-12T19:27:26.678Z
 
 ## Problem Description
 
