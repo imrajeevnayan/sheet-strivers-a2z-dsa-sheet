@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Copy List with Random Pointer
- * URL: https://leetcode.com/problems/copy-list-with-random-pointer/
+ * URL: https://leetcode.com/problems/copy-list-with-random-pointer/description/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, Linked List
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-12T19:27:36.366Z
+ * Synced: 2026-06-12T19:28:20.517Z
  */
 
 while (curr != null) {
@@ -36,3 +36,4 @@ while (curr != null) {
     public Node copyRandomList(Node head) {
         if (head == null) return null;
 class Solution {
+        }
