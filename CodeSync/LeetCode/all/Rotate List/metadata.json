@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-12T19:25:09.706Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-12T19:25:40.680Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -10,6 +10,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Rotate List",
-  "problemUrl": "https://leetcode.com/problems/rotate-list/",
-  "submissionId": "k54lpt"
+  "problemUrl": "https://leetcode.com/problems/rotate-list/description/",
+  "submissionId": "nev8k2"
 }
