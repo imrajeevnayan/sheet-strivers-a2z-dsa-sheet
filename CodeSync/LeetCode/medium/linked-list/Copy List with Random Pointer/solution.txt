@@ -7,7 +7,7 @@
  * Topics: Hash Table, Linked List
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-12T19:27:08.029Z
+ * Synced: 2026-06-12T19:27:10.183Z
  */
 
 while (curr != null) {
@@ -17,9 +17,7 @@ while (curr != null) {
             curr = curr.next.next;
         }
         
-        curr = head;
-        
-        // Step 2: Assign random pointers to copy nodes
+                curr = head;
             curr = copy.next;
         }
             copy.next = curr.next;
@@ -33,3 +31,5 @@ while (curr != null) {
         Node newHead = head.next;
         curr = head;
         while (curr != null) {
+            Node copy = curr.next;
+            curr.next = copy.next;
