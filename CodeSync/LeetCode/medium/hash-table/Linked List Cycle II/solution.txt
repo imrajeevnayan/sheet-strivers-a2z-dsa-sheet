@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Linked List Cycle II
- * URL: https://leetcode.com/problems/linked-list-cycle-ii/submissions/2030293416/?utm_source=chatgpt.com
+ * URL: https://leetcode.com/problems/linked-list-cycle-ii/description/?utm_source=chatgpt.com
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Hash Table, Linked List, Two Pointers
  * Runtime: 0 ms
- * Memory: 46.31 MB
- * Synced: 2026-06-12T03:10:23.391Z
+ * Memory: N/A
+ * Synced: 2026-06-12T03:10:26.718Z
  */
 
 while (fast != null && fast.next != null) {
