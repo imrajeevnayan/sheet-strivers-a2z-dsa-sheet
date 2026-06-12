@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Rotate List
- * URL: https://leetcode.com/problems/rotate-list/submissions/
+ * URL: https://leetcode.com/problems/rotate-list/
  * Language: Problem List
  * Difficulty: Medium
  * Topics: Linked List, Two Pointers
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-12T19:23:15.646Z
+ * Synced: 2026-06-12T19:24:20.004Z
  */
 
 class Solution {
