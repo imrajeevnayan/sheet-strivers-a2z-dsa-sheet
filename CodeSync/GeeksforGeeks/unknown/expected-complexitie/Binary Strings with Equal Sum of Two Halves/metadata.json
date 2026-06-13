@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-13T16:12:05.794Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Topic Tags",
+    "Algorithms",
+    "Related Articles"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "#define ll long long class Solution { public: const int MOD=1e9+7; ll fact[100010]; void factorial(){ fact[0]=1; for(int i=1;i<100010;i++){ fact[i]=i*fact[i-1]%MOD; } return ; } ll binpow(int a,int x){ if(x==0)return 1; ll p=binpow(a,x/2); if((x&1)==0){ return (p*p)%MOD; } return (p*p%MOD)*a%MOD; } ll inverse(int a){ return binpow(a,MOD-2); } int computeValue(int n) { // code here factorial(); ll sum=0; for(int s=0;s<=n;s++){ ll ones=s,zeros=n-s; ll den=fact[ones]*fact[zeros]%MOD; ll inverse_den=inverse(den); // cout<<\"den :\"<<den<<\", num : \"<<fact[n]<<\" , \"; // cout<<\"inverse den : \"<<inverse_den<<\" , \"; ll perms=fact[n]*inverse_den%MOD; // cout<<\"for sum : \"<<s<<\", permutations are : \"<<perms<<endl; ll temp=(perms*perms)%MOD; sum=(sum+temp)%MOD; } return sum; } };",
+  "problemTitle": "Binary Strings with Equal Sum of Two Halves",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/count-even-length1907/1",
+  "submissionId": "gzm0u9"
+}
