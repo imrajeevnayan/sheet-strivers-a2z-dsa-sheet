@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-13T16:13:53.046Z",
+  "submissionTimestamp": "2026-06-13T16:14:40.198Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,6 +16,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "Inorder Traversal",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/height-of-binary-tree",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/inorder-traversal",
   "submissionId": "wxik2d"
 }
