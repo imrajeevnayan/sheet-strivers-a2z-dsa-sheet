@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-13T05:02:21.516Z",
-  "runtime": "1 ms",
-  "memoryUsage": "46.46 MB",
+  "submissionTimestamp": "2026-06-13T05:02:23.870Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Array",
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Weighted Word Mapping",
-  "problemUrl": "https://leetcode.com/problems/weighted-word-mapping/submissions/2031292842/?envType=daily-question&envId=2026-06-13",
-  "submissionId": "kt1qxb"
+  "problemUrl": "https://leetcode.com/problems/weighted-word-mapping/?envType=daily-question&envId=2026-06-13",
+  "submissionId": "md6i5q"
 }
