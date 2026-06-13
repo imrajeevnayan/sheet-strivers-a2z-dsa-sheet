@@ -4,10 +4,10 @@
 - Language: Daily Question
 - Difficulty: Easy
 - Topics: Array, String, Simulation
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/weighted-word-mapping/?envType=daily-question&envId=2026-06-13
-- Synced: 2026-06-13T05:02:42.266Z
+- Problem URL: https://leetcode.com/problems/weighted-word-mapping/description/?envType=daily-question&envId=2026-06-13
+- Synced: 2026-06-13T05:02:52.773Z
 
 ## Problem Description
 
