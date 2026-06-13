@@ -7,11 +7,10 @@
  * Topics: Math, String, Simulation
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-13T18:31:41.078Z
+ * Synced: 2026-06-13T18:31:49.954Z
  */
 
-if (i >= 0) {
-                sum += num1.charAt(i) - '0';
+sum += num1.charAt(i) - '0';
                 i--;
             }
             
@@ -20,14 +19,15 @@ if (i >= 0) {
                 sum += num2.charAt(j) - '0';
             int sum = carry;
             
-            // Add digit from num1 if available
+            if (i >= 0) {
         
-        // Process digits from right to left
         while (i >= 0 || j >= 0 || carry > 0) {
-        int j = num2.length() - 1;  // Pointer for num2
+        int j = num2.length() - 1;  
         int carry = 0;
         
         int i = num1.length() - 1;  
         StringBuilder result = new StringBuilder();
     public String addStrings(String num1, String num2) {
 class Solution {
+                j--;
+            }
