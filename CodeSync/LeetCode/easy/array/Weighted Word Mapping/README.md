@@ -7,7 +7,7 @@
 - Runtime: 1 ms
 - Memory: 46.46 MB
 - Problem URL: https://leetcode.com/problems/weighted-word-mapping/submissions/2031292842/?envType=daily-question&envId=2026-06-13
-- Synced: 2026-06-13T05:02:16.850Z
+- Synced: 2026-06-13T05:02:21.516Z
 
 ## Problem Description
 
