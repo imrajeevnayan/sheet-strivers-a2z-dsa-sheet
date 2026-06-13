@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 733 ms
  * Memory: N/A
- * Synced: 2026-06-13T16:49:10.775Z
+ * Synced: 2026-06-13T16:49:18.259Z
  */
 
 import java.util.* ;
@@ -15,7 +15,7 @@ import java.io.*;
 public class Solution {
     public static char firstNonRepeatingCharacter(String str) {
         if (str == null || str.length() == 0) return '$';
-        HashMap<Character, Integer> freqMap = new HashMap<>();
+        HashMap<Character, Integer>  = new HashMap<>();
         
         // Count frequency of each character
         for (int i = 0; i < str.length(); i++) {
