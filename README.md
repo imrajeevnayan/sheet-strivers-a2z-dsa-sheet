@@ -1,64 +1,62 @@
-# DSA Sheet Solutions Ã¢ÂÂ README Template
+# A2Z DSA Sheet Solutions
 
-````md id="f76nwb"
-# DSA Sheet Solutions
+This repository contains my solutions to various Data Structures and Algorithms problem sheets from platforms like LeetCode, GeeksforGeeks, and Coding Ninjas.
 
-This repository contains my solutions to popular Data Structures and Algorithms sheets from platforms like LeetCode and GeeksforGeeks.
+## 📌 Sheets Covered
 
-## Ã°ÂÂÂ Sheets Covered
-
-- Striver SDE Sheet
-- Blind 75
-- NeetCode 150
-- Love Babbar DSA Sheet
-- GFG Practice Problems
-- Coder Army
+* Striver A2Z DSA Sheet
+* Blind 75
+* NeetCode 150
+* Love Babbar DSA Sheet
+* GeeksforGeeks Practice Problems
+* GFG 160 – 160 Days of Problem Solving
+* Coder Army Sheet
 
 ---
 
-## Ã°ÂÂÂ Folder Structure
+## 📂 Folder Structure
 
 ```bash
-DSA-Sheet/
-Ã¢ÂÂ
-Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Arrays/
-Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Strings/
-Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ LinkedList/
-Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Stack/
-Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Queue/
-Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Trees/
-Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Graphs/
-Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ DynamicProgramming/
-Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Greedy/
-Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ BinarySearch/
-Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Recursion/
-````
+a2z-dsa-sheet/
+│
+├── Striver-A2Z/
+├── Blind-75/
+├── NeetCode-150/
+├── Love-Babbar/
+├── GFG-160-160-Days-of-Problem-Solving/
+│   ├── Day-001/
+│   ├── Day-002/
+│   ├── Day-003/
+│   └── ...
+│
+└── README.md
+```
 
 ---
 
-## Ã°ÂÂÂ Languages Used
+## 🚀 Language Used
 
 * Java
 
 ---
 
-## Ã¢ÂÂ¨ Features
+## ✨ Features
 
 * Clean and optimized solutions
-* Well-structured folders
-* Beginner-friendly code
-* Important interview questions
-* Regular updates
+* Well-structured repository
+* Daily problem-solving updates
+* Interview-focused questions
+* Easy-to-understand code
 
 ---
 
-## Ã°ÂÂÂ¯ Goal
+## 🎯 Goal
 
-To improve problem-solving skills and prepare for coding interviews at product-based companies.
+To strengthen Data Structures and Algorithms concepts and prepare for coding interviews at top product-based companies.
 
 ---
 
-## Ã°ÂÂÂ Ã¯Â¸Â How to Use
+## 🛠️ How to Use
 
 1. Clone the repository
 
@@ -66,29 +64,36 @@ To improve problem-solving skills and prepare for coding interviews at product-b
 git clone https://github.com/imrajeevnayan/a2z-dsa-sheet.git
 ```
 
-2. Open any topic folder
-3. Practice and learn Ã°ÂÂÂ
+2. Navigate to the desired folder.
+3. Open the solution and study the approach.
+4. Practice regularly and improve your problem-solving skills.
 
 ---
 
-## Ã¢Â­Â Contributions
+## 📈 Progress Tracking
 
-Feel free to fork this repository and contribute better solutions or explanations.
+### GFG 160 – 160 Days of Problem Solving
+
+| Day | Problem | Status |
+| --- | ------- | ------ |
+| 1   | TBD     | ✅      |
+| 2   | TBD     | ⏳      |
+| 3   | TBD     | ⏳      |
 
 ---
 
-## Ã°ÂÂÂ§ Contact
+## ⭐ Contributions
 
-If you have suggestions or doubts, feel free to connect.
+Feel free to fork this repository and contribute better solutions, optimizations, or explanations.
 
-Happy Coding Ã°ÂÂÂ»
+---
 
-```
+## 👨‍💻 Author
 
-You can customize it with:
-- Rajeev Nayan
-- GitHub profile
-- problem links
-- difficulty tags
-- time/space complexity notes.
-```
+**Rajeev Nayan**
+
+GitHub: https://github.com/imrajeevnayan
+
+---
+
+Happy Coding! 🚀
