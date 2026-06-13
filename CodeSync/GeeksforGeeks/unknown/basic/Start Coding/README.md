@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/java-practice-of-the-day/track/introction-of-java
-- Synced: 2026-06-13T05:09:25.131Z
+- Synced: 2026-06-13T05:09:27.248Z
 
 ## Problem Description
 
