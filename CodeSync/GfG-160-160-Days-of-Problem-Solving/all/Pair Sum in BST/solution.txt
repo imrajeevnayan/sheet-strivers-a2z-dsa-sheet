@@ -7,24 +7,23 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Flipkart, Amazon, Microsoft, OYO Rooms, Snapdeal
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T16:21:16.140Z
+ * Synced: 2026-06-13T16:22:40.751Z
  */
 
 class Solution {
     boolean findTarget(Node root, int target) {
-        // Write your code here
-        if (root == null) {
-            return false;
-        }
+        HashSet<Integer> set = new HashSet<>();
+        return findTargetHelper(root, target, set);
+    }
+    
+    private boolean findTargetHelper(Node root, int target, HashSet<Integer> set) {
+        if (root == null) return false;
         
-        if (root.data == target) {
-            return true;
-        }
+         if (set.contains(target - root.data)) return true;
+           set.add(root.data);
         
-        if (target < root.data) {
-            return findTarget(root.left, target);
-        } else {
-            return findTarget(root.right, target);
-        }
+        // Check left and right subtrees
+        return findTargetHelper(root.left, target, set) || 
+               findTargetHelper(root.right, target, set);
     }
 }
