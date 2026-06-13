@@ -4,10 +4,10 @@
  * URL: https://www.geeksforgeeks.org/batch/dsa-step-by-step-learning/track/programming-dsa-360
  * Language: using namespace std; int main() { int x = 7; if (x > 0) { cout << "x is positive"; } return 0; }
  * Difficulty: Unknown
- * Topics: Uncategorized
+ * Topics: Basic
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T05:13:26.126Z
+ * Synced: 2026-06-13T05:13:38.174Z
  */
 
 public class GFG {
