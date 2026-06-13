@@ -7,12 +7,12 @@
  * Topics: Math, String, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T18:29:01.916Z
+ * Synced: 2026-06-13T18:29:18.921Z
  */
 
 class Solution {
     public String addStrings(String num1, String num2) {
         
     }
-        int a 
+        int a =Integer.parseInt
 }
