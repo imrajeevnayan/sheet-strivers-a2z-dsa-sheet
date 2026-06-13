@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Zoho, Amazon, Microsoft, Snapdeal, D-E-Shaw
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T15:55:16.824Z
+ * Synced: 2026-06-13T15:55:35.237Z
  */
 
 class Solution {
@@ -16,6 +16,6 @@ class Solution {
         int lH= height(root.left);
         int rH = height(root.right);
         
-        return Math.max(lH, rH) + 1;
+        return Math.max(lH, rH) ;
     }
 }
