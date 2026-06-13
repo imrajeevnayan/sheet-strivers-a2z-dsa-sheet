@@ -1,20 +1,33 @@
 /*
  * Platform: LeetCode
  * Problem: Add Strings
- * URL: https://leetcode.com/problems/add-strings/
+ * URL: https://leetcode.com/problems/add-strings/submissions/2032085346/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, String, Simulation
- * Runtime: N/A
- * Memory: N/A
- * Synced: 2026-06-13T18:30:22.918Z
+ * Runtime: 0 ms
+ * Memory: 43.99 MB
+ * Synced: 2026-06-13T18:32:16.186Z
  */
 
-class Solution {
-    public String addStrings(String num1, String num2) {
+sum += num1.charAt(i) - '0';
+                i--;
+            }
+            
+            if (j >= 0) {
+                sum += num2.charAt(j) - '0';
+            
+            if (i >= 0) {
+                j--;
+            }
+            
+            int sum = carry;
+        while (i >= 0 || j >= 0 || carry > 0) {
+        int carry = 0;
         
-    }
-        int a =Integer.parseInt(num1);
-        int b= Integer.parseInt(num2);
-        return String.valueOf(a+b);
-}
+        int j = num2.length() - 1;  
+        int i = num1.length() - 1;  
+        
+        StringBuilder result = new StringBuilder();
+    public String addStrings(String num1, String num2) {
+class Solution {
