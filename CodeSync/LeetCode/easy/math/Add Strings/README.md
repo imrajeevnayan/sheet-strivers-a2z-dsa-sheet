@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Math, String, Simulation
-- Runtime: N/A
+- Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/add-strings/
-- Synced: 2026-06-13T18:32:09.970Z
+- Problem URL: https://leetcode.com/problems/add-strings/submissions/2032085346/
+- Synced: 2026-06-13T18:32:14.026Z
 
 ## Problem Description
 
