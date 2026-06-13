@@ -7,7 +7,7 @@
  * Topics: Basic, Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T06:09:30.581Z
+ * Synced: 2026-06-13T06:09:43.136Z
  */
 
 class Solution {
@@ -16,8 +16,7 @@ class Solution {
         for (int right = 0; right < arr.length; right++) {
             if (arr[right] == 0)zeroCount++;
             while (zeroCount > k) {
-                if (arr[left] == 0) {
-                    zeroCount--;
+                if (arr[left] == 0) zeroCount--;
                 }
                 left++;
             }
