@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-13T17:13:19.780Z",
-  "runtime": "870 ms",
+  "submissionTimestamp": "2026-06-13T17:13:31.777Z",
+  "runtime": "910 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -10,5 +10,5 @@
   "language": "All languages",
   "problemTitle": "LCA of three Nodes",
   "problemUrl": "https://www.naukri.com/code360/problems/first-unique-character-in-a-string_983606",
-  "submissionId": "ph5a63"
+  "submissionId": "81w72p"
 }
