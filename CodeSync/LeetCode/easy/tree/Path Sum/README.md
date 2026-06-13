@@ -4,10 +4,10 @@
 - Language: Problem List
 - Difficulty: Easy
 - Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
-- Runtime: N/A
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/path-sum/submissions/
-- Synced: 2026-06-13T09:43:24.089Z
+- Runtime: 0 ms
+- Memory: 44.87 MB
+- Problem URL: https://leetcode.com/problems/path-sum/submissions/1912413855/
+- Synced: 2026-06-13T09:43:30.057Z
 
 ## Problem Description
 
