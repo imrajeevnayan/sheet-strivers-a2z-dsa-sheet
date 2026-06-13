@@ -1,0 +1,28 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Inorder Traversal
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/height-of-binary-tree
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonSnapdealAdobe, Company Tags, Amazon, Snapdeal, Adobe, Topic Tags, Tree
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-13T16:12:40.266Z
+ */
+
+/*
+class Node {
+    int data;
+    Node left, right;
+    Node(int item){
+        data = item;
+        left = right = null;
+    }
+}
+*/
+class Solution {
+    public ArrayList<Integer> inOrder(Node root) {
+        // code here
+        
+    }
+}
