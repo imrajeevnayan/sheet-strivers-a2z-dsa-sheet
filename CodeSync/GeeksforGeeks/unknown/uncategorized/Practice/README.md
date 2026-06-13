@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/dsa-step-by-step-learning/track/programming-dsa-360
-- Synced: 2026-06-13T05:10:38.488Z
+- Synced: 2026-06-13T05:10:41.500Z
 
 ## Problem Description
 
