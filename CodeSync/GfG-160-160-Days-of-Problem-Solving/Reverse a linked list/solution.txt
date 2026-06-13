@@ -7,14 +7,16 @@
  * Topics: Expected Complexities, Company Tags, Paytm, VMWare, Zoho, Accolite, Amazon, Microsoft
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T10:29:48.227Z
+ * Synced: 2026-06-13T10:29:57.719Z
  */
 
 class Solution {
     Node reverseList(Node head) {
         Node curr=head;
         Node prev=null;
-        while
+        while(curr!=null){
+            
+        }
         
     }
 }
