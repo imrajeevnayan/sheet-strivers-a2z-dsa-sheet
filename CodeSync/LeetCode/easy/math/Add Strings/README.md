@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Math, String, Simulation
 - Runtime: 0 ms
-- Memory: N/A
-- Problem URL: https://leetcode.com/problems/add-strings/submissions/
-- Synced: 2026-06-13T18:30:51.917Z
+- Memory: 44.00 MB
+- Problem URL: https://leetcode.com/problems/add-strings/submissions/1919916047/
+- Synced: 2026-06-13T18:30:59.058Z
 
 ## Problem Description
 
