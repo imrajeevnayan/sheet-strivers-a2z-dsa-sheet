@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-08T18:25:11.817Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-13T17:37:54.267Z",
+  "runtime": "917 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
   "tags": [
@@ -9,6 +9,6 @@
   "platform": "Coding Ninjas (Code360)",
   "language": "Java (SE 1.8)",
   "problemTitle": "Ninja’s Training",
-  "problemUrl": "https://www.naukri.com/code360/problems/median-marks_5848799",
-  "submissionId": "5whkpx"
+  "problemUrl": "https://www.naukri.com/code360/problems/first-repeated-character_1214646",
+  "submissionId": "gcs48w"
 }
