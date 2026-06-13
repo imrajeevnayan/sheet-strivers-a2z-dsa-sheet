@@ -7,12 +7,32 @@
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T10:32:25.287Z
+ * Synced: 2026-06-13T10:33:20.926Z
  */
 
 class Solution {
     public Node rotate(Node head, int k) {
-      
+        if (head == null || k == 0) return head;
         
+        Node slow = head;
+        Node fast = head;
+        
+        for (int i = 0; i < k; i++) {
+            if (fast == null) return head;
+            fast = fast.next;
+        }
+        
+        if (fast == null) return head;
+        
+        while (fast.next != null) {
+            slow = slow.next;
+            fast = fast.next;
+        }
+        
+        Node newHead = slow.next;
+        slow.next = null;
+        fast.next = head;
+        
+        return newHead;
     }
 }
