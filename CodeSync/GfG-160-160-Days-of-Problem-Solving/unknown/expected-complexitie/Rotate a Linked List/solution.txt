@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T10:34:24.925Z
+ * Synced: 2026-06-13T10:35:38.533Z
  */
 
 class Solution {
@@ -28,7 +28,7 @@ class Solution {
         curr.next = head;
         
         Node newTail = head;
-        for (int i = 1; i < count - k; i++) {
+        for (int i = 1; i < k; i++) {
             newTail = newTail.next;
         }
         
