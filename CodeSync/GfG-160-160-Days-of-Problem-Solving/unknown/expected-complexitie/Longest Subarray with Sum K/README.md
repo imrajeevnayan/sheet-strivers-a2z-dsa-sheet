@@ -6,8 +6,8 @@
 - Topics: Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Arrays, Hash, Map
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/equilibrium-point-1587115620
-- Synced: 2026-06-13T10:27:51.966Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/longest-sub-array-with-sum-k0809
+- Synced: 2026-06-13T10:28:01.993Z
 
 ## Problem Description
 
