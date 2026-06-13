@@ -1,0 +1,34 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Maximize Number of 1's
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/array-bonus-problems/problem/maximize-number-of-1s0905
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Basic, Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-13T06:09:04.635Z
+ */
+
+class Solution {
+    public int maxOnes(int arr[], int k) {
+        int left = 0, zeroCount = 0, maxLen = 0;
+
+        for (int right = 0; right < arr.length; right++) {
+            
+            if (arr[right] == 0) {
+                zeroCount++;
+            }
+
+            while (zeroCount > k) {
+                if (arr[left] == 0) {
+                    zeroCount--;
+                }
+                left++;
+            }
+            maxLen = Math.max(maxLen, right - left + 1);
+        }
+
+        return maxLen;
+    }
+}
