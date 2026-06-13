@@ -1,0 +1,25 @@
+/*
+ * Platform: LeetCode
+ * Problem: Weighted Word Mapping
+ * URL: https://leetcode.com/problems/weighted-word-mapping/description/?envType=daily-question&envId=2026-06-13
+ * Language: Daily Question
+ * Difficulty: Easy
+ * Topics: Array, String, Simulation
+ * Runtime: 0 ms
+ * Memory: N/A
+ * Synced: 2026-06-13T05:02:52.773Z
+ */
+
+class Solution {
+    public String mapWordWeights(String[] words, int[] weights) {
+        StringBuilder result = new StringBuilder(words.length);
+        for (String word : words) {
+            int temp = 0;
+            for (int i = 0; i < word.length(); i++) {
+                temp += weights[word.charAt(i) - 'a'];
+            }
+            result.append((char) ('z' - (temp % 26)));
+        }
+        return result.toString();
+    }
+}
