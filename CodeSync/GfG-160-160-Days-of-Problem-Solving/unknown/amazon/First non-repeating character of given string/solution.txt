@@ -1,0 +1,102 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: First non-repeating character of given string
+ * URL: https://www.geeksforgeeks.org/dsa/given-a-string-find-its-first-non-repeating-character/
+ * Language: #include <bits/stdc++.h> using namespace std; char nonRep(string &s) { int n = s.length(); for (int i = 0; i < n; ++i) { bool found = false; for (int j = 0; j < n; ++j) { if (i != j && s[i] == s[j]) { found = true; break; } } if (!found) return s[i]; } return '$'; } int main() { string s = "racecar"; cout << nonRep(s); return 0; }
+ * Difficulty: Unknown
+ * Topics: Amazon, Morgan Stanley, Goldman Sachs, D-E-Shaw, Accolite, Payu, MAQ Software, MakeMyTrip
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-13T16:34:13.357Z
+ */
+
+public class GFG {
+​
+    public static char nonRep(String s) {
+        int n = s.length();
+        for (int i = 0; i < n; ++i) {
+            boolean found = false;
+​
+            for (int j = 0; j < n; ++j) {
+                if (i != j && s.charAt(i) == s.charAt(j)) {
+                    found = true;
+                    break;
+                }
+            }
+            if (!found) 
+                return s.charAt(i);
+        }
+​
+        return '$';
+    }
+​
+    public static void main(String[] args) {
+        String s = "racecar";
+        System.out.println(nonRep(s));
+    }
+}
+import java.util.*;
+​
+public class GFG {
+    private static final int MAX_CHAR = 26;  
+​
+    public static char nonRep(String s) {
+        int[] freq = new int[MAX_CHAR];
+​
+        for (char c : s.toCharArray()) {
+            freq[c - 'a']++;
+        }
+​
+        // Find the first character with frequency 1
+        for (char c : s.toCharArray()) {
+            if (freq[c - 'a'] == 1) {
+                return c;
+            }
+        }
+        return '$';
+    }
+​
+    public static void main(String[] args) {
+        String s = "geeksforgeeks";
+        System.out.println(nonRep(s));
+    }
+}
+import java.util.*;
+​
+public class Main {
+    static final int MAX_CHAR = 26;
+​
+    public static char nonRep(String s) {
+        int[] vis = new int[MAX_CHAR];
+        Arrays.fill(vis, -1);
+​
+        for (int i = 0; i < s.length(); i++) {
+            int index = s.charAt(i) - 'a';
+            if (vis[index] == -1) {
+                
+                  // Store the index when character is first seen
+                vis[index] = i;
+            } else {
+                
+                // Mark character as repeated
+                vis[index] = -2;  
+            }
+        }
+​
+        int idx = -1;
+​
+        // Find the smallest index of the non-repeating characters
+        for (int i = 0; i < MAX_CHAR; i++) {
+            if (vis[i] >= 0 && (idx == -1 || vis[i] < vis[idx])) {
+                idx = i;
+            }
+        }
+​
+        return (idx == -1) ? '$' : s.charAt(vis[idx]);
+    }
+​
+    public static void main(String[] args) {
+        String s = "aabbccc";
+        System.out.println(nonRep(s));
+    }
+}
