@@ -7,7 +7,7 @@
  * Topics: Array, String, Simulation
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-13T05:02:52.773Z
+ * Synced: 2026-06-13T05:03:22.534Z
  */
 
 class Solution {
