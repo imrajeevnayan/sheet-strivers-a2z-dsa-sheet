@@ -6,8 +6,8 @@
 - Topics: Expected Complexities, Company Tags AmazonSnapdealAdobe, Company Tags, Amazon, Snapdeal, Adobe, Topic Tags, Tree
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/height-of-binary-tree
-- Synced: 2026-06-13T16:13:53.046Z
+- Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/inorder-traversal
+- Synced: 2026-06-13T16:14:40.198Z
 
 ## Problem Description
 
