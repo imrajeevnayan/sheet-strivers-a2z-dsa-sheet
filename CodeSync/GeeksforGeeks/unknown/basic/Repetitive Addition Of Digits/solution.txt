@@ -7,11 +7,11 @@
  * Topics: Basic, Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Mathematical, Algorithms
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T06:07:08.863Z
+ * Synced: 2026-06-13T06:07:13.064Z
  */
 
 class Solution {
     public int singleDigit(int n) {
-    n=Math
+    n=Math.abs(n)
     }
 }
