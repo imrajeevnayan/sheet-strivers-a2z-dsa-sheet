@@ -7,7 +7,7 @@
 - Runtime: 733 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/first-non-repeating-character_920324
-- Synced: 2026-06-13T16:49:10.775Z
+- Synced: 2026-06-13T16:49:18.259Z
 
 ## Problem Description
 
