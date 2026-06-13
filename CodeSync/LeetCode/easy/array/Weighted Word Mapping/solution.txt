@@ -7,11 +7,21 @@
  * Topics: Array, String, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T05:02:23.870Z
+ * Synced: 2026-06-13T05:02:29.609Z
  */
 
 class Solution {
     public String mapWordWeights(String[] words, int[] weights) {
-        
+        StringBuilder result = new StringBuilder(words.length);
+        for (String word : words) {
+            int temp = 0;
+            for (int i = 0; i < word.length(); i++) {
+                temp += weights[word.charAt(i) - 'a'];
+            }
+
+            result.append((char) ('z' - (temp % 26)));
+        }
+
+        return result.toString();
     }
 }
