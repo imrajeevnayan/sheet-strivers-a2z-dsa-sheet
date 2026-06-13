@@ -1,13 +1,13 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Rotate a Linked List
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/rotate-a-linked-list
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T10:31:53.223Z
+ * Synced: 2026-06-13T10:32:10.116Z
  */
 
 class Solution {
