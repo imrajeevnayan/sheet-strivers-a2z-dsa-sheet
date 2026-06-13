@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/problems/non-repeating-character-1587115620/1
-- Synced: 2026-06-13T16:33:48.812Z
+- Synced: 2026-06-13T16:34:30.036Z
 
 ## Problem Description
 
