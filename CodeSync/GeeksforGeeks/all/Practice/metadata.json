@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-13T05:10:49.138Z",
+  "submissionTimestamp": "2026-06-13T05:13:38.174Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
   "tags": [
-    "Uncategorized"
+    "Basic"
   ],
   "platform": "GeeksforGeeks",
-  "language": "#include <stdio.h> int main() { int age; float height; char grade; char name[20]; // Asking for input printf(\"Enter your age, height, grade, and name: \"); // Reading input from the user scanf(\"%d %f %c %s\", &age, &height, &grade, name); // Displaying the input using printf printf(\"Your age: %d\\n\", age); printf(\"Your height: %.2f\\n\", height); // .2f for 2 decimal places printf(\"Your grade: %c\\n\", grade); printf(\"Your name: %s\\n\", name); return 0; }",
+  "language": "using namespace std; int main() { int x = 7; if (x > 0) { cout << \"x is positive\"; } return 0; }",
   "problemTitle": "Practice",
   "problemUrl": "https://www.geeksforgeeks.org/batch/dsa-step-by-step-learning/track/programming-dsa-360",
-  "submissionId": "gmrtwi"
+  "submissionId": "ricdgp"
 }
