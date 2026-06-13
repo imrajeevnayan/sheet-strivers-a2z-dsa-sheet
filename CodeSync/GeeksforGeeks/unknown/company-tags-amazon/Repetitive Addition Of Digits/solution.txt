@@ -1,0 +1,19 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Repetitive Addition Of Digits
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/array-bonus-problems/problem/repetitive-addition-of-digits2221
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Basic, Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Mathematical, Algorithms
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-13T05:47:56.776Z
+ */
+
+class Solution {
+    public int singleDigit(int n) {
+     if(n==0) return 0;
+     n=Math.abs(n);
+     return 1 + (n-1)% 9;
+    }
+}
