@@ -1,0 +1,21 @@
+{
+  "submissionTimestamp": "2026-06-13T18:27:48.043Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Unknown",
+  "tags": [
+    "Expected Complexities",
+    "Company Tags AccoliteAmazon",
+    "Company Tags",
+    "Accolite",
+    "Amazon",
+    "Topic Tags",
+    "Strings",
+    "Data Structures"
+  ],
+  "platform": "GeeksforGeeks",
+  "language": "Java (21)",
+  "problemTitle": "String Rotated by 2 Places",
+  "problemUrl": "https://www.geeksforgeeks.org/problems/check-if-string-is-rotated-by-two-places-1587115620/1",
+  "submissionId": "jx42lv"
+}
