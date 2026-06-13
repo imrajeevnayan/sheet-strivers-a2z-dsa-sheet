@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonMicrosoftOYO RoomsNPCI, Company Tags, Amazon, Microsoft, OYO Rooms, NPCI, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T16:07:53.003Z
+ * Synced: 2026-06-13T16:08:04.790Z
  */
 
 class Solution {
