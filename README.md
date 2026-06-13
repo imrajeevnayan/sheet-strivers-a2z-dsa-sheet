@@ -1,11 +1,11 @@
-# DSA Sheet Solutions â README Template
+# DSA Sheet Solutions Ã¢ÂÂ README Template
 
 ````md id="f76nwb"
 # DSA Sheet Solutions
 
 This repository contains my solutions to popular Data Structures and Algorithms sheets from platforms like LeetCode and GeeksforGeeks.
 
-## ð Sheets Covered
+## Ã°ÂÂÂ Sheets Covered
 
 - Striver SDE Sheet
 - Blind 75
@@ -16,33 +16,33 @@ This repository contains my solutions to popular Data Structures and Algorithms 
 
 ---
 
-## ð Folder Structure
+## Ã°ÂÂÂ Folder Structure
 
 ```bash
 DSA-Sheet/
-â
-âââ Arrays/
-âââ Strings/
-âââ LinkedList/
-âââ Stack/
-âââ Queue/
-âââ Trees/
-âââ Graphs/
-âââ DynamicProgramming/
-âââ Greedy/
-âââ BinarySearch/
-âââ Recursion/
+Ã¢ÂÂ
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Arrays/
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Strings/
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ LinkedList/
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Stack/
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Queue/
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Trees/
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Graphs/
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ DynamicProgramming/
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Greedy/
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ BinarySearch/
+Ã¢ÂÂÃ¢ÂÂÃ¢ÂÂ Recursion/
 ````
 
 ---
 
-## ð Languages Used
+## Ã°ÂÂÂ Languages Used
 
 * Java
 
 ---
 
-## â¨ Features
+## Ã¢ÂÂ¨ Features
 
 * Clean and optimized solutions
 * Well-structured folders
@@ -52,13 +52,13 @@ DSA-Sheet/
 
 ---
 
-## ð¯ Goal
+## Ã°ÂÂÂ¯ Goal
 
 To improve problem-solving skills and prepare for coding interviews at product-based companies.
 
 ---
 
-## ð ï¸ How to Use
+## Ã°ÂÂÂ Ã¯Â¸Â How to Use
 
 1. Clone the repository
 
@@ -67,21 +67,21 @@ git clone https://github.com/imrajeevnayan/a2z-dsa-sheet.git
 ```
 
 2. Open any topic folder
-3. Practice and learn ð
+3. Practice and learn Ã°ÂÂÂ
 
 ---
 
-## â­ Contributions
+## Ã¢Â­Â Contributions
 
 Feel free to fork this repository and contribute better solutions or explanations.
 
 ---
 
-## ð§ Contact
+## Ã°ÂÂÂ§ Contact
 
 If you have suggestions or doubts, feel free to connect.
 
-Happy Coding ð»
+Happy Coding Ã°ÂÂÂ»
 
 ```
 
