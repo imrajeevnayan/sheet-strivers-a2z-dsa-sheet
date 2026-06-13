@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 733 ms
  * Memory: N/A
- * Synced: 2026-06-13T16:49:34.286Z
+ * Synced: 2026-06-13T16:49:39.570Z
  */
 
 import java.util.* ;
@@ -21,9 +21,7 @@ public class Solution {
             char c = str.charAt(i);
             map.put(c, map.getOrDefault(c, 0) + 1);
         }
-        
-        // Find first character with frequency 1
-        for (int i = 0; i < str.length(); i++) {
+                for (int i = 0; i < str.length(); i++) {
             if (freqMap.get(str.charAt(i)) == 1) {
                 return str.charAt(i);
             }
