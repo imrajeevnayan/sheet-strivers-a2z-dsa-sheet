@@ -6,8 +6,8 @@
 - Topics: Basic, Expected Complexities Topic Tags, Expected Complexities, Topic Tags, CPP
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://www.geeksforgeeks.org/batch/java-practice-of-the-day/track/introction-of-java
-- Synced: 2026-06-13T05:09:31.964Z
+- Problem URL: https://www.geeksforgeeks.org/batch/java-practice-of-the-day/track/introction-of-java/problem/start-coding
+- Synced: 2026-06-13T05:09:56.415Z
 
 ## Problem Description
 
