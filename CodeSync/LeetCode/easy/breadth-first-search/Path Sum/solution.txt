@@ -1,0 +1,15 @@
+/*
+ * Platform: LeetCode
+ * Problem: Path Sum
+ * URL: https://leetcode.com/problems/path-sum/submissions/1912413855/
+ * Language: Problem List
+ * Difficulty: Easy
+ * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
+ * Runtime: 0 ms
+ * Memory: 44.87 MB
+ * Synced: 2026-06-13T09:43:30.057Z
+ */
+
+Input: root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22
+Output: true
+Explanation: The root-to-leaf path with the target sum is shown.
