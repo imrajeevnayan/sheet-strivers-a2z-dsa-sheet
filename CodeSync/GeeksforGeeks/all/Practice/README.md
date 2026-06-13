@@ -1,13 +1,13 @@
 # Practice
 
 - Platform: GeeksforGeeks
-- Language: #include <stdio.h> int main() { int age; float height; char grade; char name[20]; // Asking for input printf("Enter your age, height, grade, and name: "); // Reading input from the user scanf("%d %f %c %s", &age, &height, &grade, name); // Displaying the input using printf printf("Your age: %d\n", age); printf("Your height: %.2f\n", height); // .2f for 2 decimal places printf("Your grade: %c\n", grade); printf("Your name: %s\n", name); return 0; }
+- Language: using namespace std; int main() { int x = 7; if (x > 0) { cout << "x is positive"; } return 0; }
 - Difficulty: Unknown
-- Topics: Uncategorized
+- Topics: Basic
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/dsa-step-by-step-learning/track/programming-dsa-360
-- Synced: 2026-06-13T05:10:49.138Z
+- Synced: 2026-06-13T05:13:38.174Z
 
 ## Problem Description
 
@@ -15,4 +15,4 @@ Problem description was not available on the page at sync time.
 
 ## Explanation
 
-This solution was accepted on GeeksforGeeks using #include <stdio.h> int main() { int age; float height; char grade; char name[20]; // Asking for input printf("Enter your age, height, grade, and name: "); // Reading input from the user scanf("%d %f %c %s", &age, &height, &grade, name); // Displaying the input using printf printf("Your age: %d\n", age); printf("Your height: %.2f\n", height); // .2f for 2 decimal places printf("Your grade: %c\n", grade); printf("Your name: %s\n", name); return 0; }. Review the synced source file for the implementation details.
+This solution was accepted on GeeksforGeeks using using namespace std; int main() { int x = 7; if (x > 0) { cout << "x is positive"; } return 0; }. The detected topics are Basic. Review the synced source file for the implementation details.
