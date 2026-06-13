@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-13T16:57:53.754Z",
-  "runtime": "1422 ms",
+  "submissionTimestamp": "2026-06-13T17:13:16.767Z",
+  "runtime": "870 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "All languages",
   "problemTitle": "LCA of three Nodes",
   "problemUrl": "https://www.naukri.com/code360/problems/first-unique-character-in-a-string_983606",
-  "submissionId": "5wxfo9"
+  "submissionId": "5hnchi"
 }
