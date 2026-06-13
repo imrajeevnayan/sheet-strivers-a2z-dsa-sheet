@@ -7,7 +7,7 @@
  * Topics: Math, String, Simulation
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-13T18:31:36.635Z
+ * Synced: 2026-06-13T18:31:41.078Z
  */
 
 if (i >= 0) {
@@ -27,7 +27,7 @@ if (i >= 0) {
         int j = num2.length() - 1;  // Pointer for num2
         int carry = 0;
         
-        int i = num1.length() - 1;  // Pointer for num1
+        int i = num1.length() - 1;  
         StringBuilder result = new StringBuilder();
     public String addStrings(String num1, String num2) {
 class Solution {
