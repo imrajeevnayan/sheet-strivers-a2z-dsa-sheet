@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/array-bonus-problems/problem/maximize-number-of-1s0905
-- Synced: 2026-06-13T06:10:17.266Z
+- Synced: 2026-06-13T06:10:22.159Z
 
 ## Problem Description
 
