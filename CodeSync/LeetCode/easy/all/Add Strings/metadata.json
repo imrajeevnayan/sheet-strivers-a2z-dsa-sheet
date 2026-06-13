@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-13T18:30:22.918Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-13T18:31:57.053Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -12,5 +12,5 @@
   "language": "Problem List",
   "problemTitle": "Add Strings",
   "problemUrl": "https://leetcode.com/problems/add-strings/",
-  "submissionId": "12qgh0"
+  "submissionId": "1vagtm"
 }
