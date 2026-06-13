@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/dsa/given-a-string-find-its-first-non-repeating-character/
-- Synced: 2026-06-13T16:34:19.185Z
+- Synced: 2026-06-13T16:34:21.170Z
 
 ## Problem Description
 
