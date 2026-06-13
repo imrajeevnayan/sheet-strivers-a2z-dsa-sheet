@@ -1,14 +1,14 @@
 {
-  "submissionTimestamp": "2026-06-13T16:50:09.800Z",
-  "runtime": "546 ms",
+  "submissionTimestamp": "2026-06-13T16:57:45.038Z",
+  "runtime": "1422 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "All languages",
+  "language": "Java (SE 1.8)",
   "problemTitle": "LCA of three Nodes",
-  "problemUrl": "https://www.naukri.com/code360/problems/first-non-repeating-character_920324",
-  "submissionId": "h8wlej"
+  "problemUrl": "https://www.naukri.com/code360/problems/first-unique-character-in-a-string_983606",
+  "submissionId": "5wxfo9"
 }
