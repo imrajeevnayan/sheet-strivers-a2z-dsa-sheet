@@ -7,9 +7,10 @@
  * Topics: Basic, Expected Complexities Topic Tags, Expected Complexities, Topic Tags, CPP, Java
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T05:12:27.083Z
+ * Synced: 2026-06-13T05:13:07.591Z
  */
 
+import java.util.*;
 class Solution {
     public static void utility(int number) {
        if(number < 10) System.out.println("Small");
