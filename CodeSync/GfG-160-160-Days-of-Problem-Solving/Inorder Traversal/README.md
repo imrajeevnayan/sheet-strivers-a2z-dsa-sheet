@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/height-of-binary-tree
-- Synced: 2026-06-13T16:13:06.954Z
+- Synced: 2026-06-13T16:13:09.054Z
 
 ## Problem Description
 
