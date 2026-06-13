@@ -4,10 +4,10 @@
 - Language: All languages
 - Difficulty: Easy
 - Topics: Uncategorized
-- Runtime: 733 ms
+- Runtime: 546 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/first-non-repeating-character_920324
-- Synced: 2026-06-13T16:50:03.194Z
+- Synced: 2026-06-13T16:50:09.800Z
 
 ## Problem Description
 
