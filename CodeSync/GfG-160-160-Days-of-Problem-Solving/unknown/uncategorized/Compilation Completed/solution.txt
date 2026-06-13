@@ -1,0 +1,21 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Compilation Completed
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Uncategorized
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-13T15:55:57.127Z
+ */
+
+class Solution {
+    public int height(Node root) {
+        if (root == null)  return 0;
+        int lH= height(root.left);
+        int rH = height(root.right);
+        
+        return Math.max(lH, rH)+1 ;
+    }
+}
