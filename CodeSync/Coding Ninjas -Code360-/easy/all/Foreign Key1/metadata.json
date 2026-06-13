@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-13T16:35:42.647Z",
+  "submissionTimestamp": "2026-06-13T16:36:32.918Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Text",
+  "language": "Go",
   "problemTitle": "Foreign Key1",
   "problemUrl": "https://www.naukri.com/code360/problem-of-the-day/mcq",
-  "submissionId": "zi09z7"
+  "submissionId": "ldaktk"
 }
