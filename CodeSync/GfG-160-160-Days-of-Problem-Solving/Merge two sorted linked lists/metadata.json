@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-13T10:37:29.435Z",
+  "submissionTimestamp": "2026-06-13T10:38:14.030Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,6 +16,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "Merge two sorted linked lists",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/rotate-a-linked-list",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/merge-two-sorted-linked-lists",
   "submissionId": "p5o9c7"
 }
