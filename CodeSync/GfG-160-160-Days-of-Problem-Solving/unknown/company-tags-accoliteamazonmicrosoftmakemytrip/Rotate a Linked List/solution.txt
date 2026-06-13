@@ -1,42 +1,30 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Rotate a Linked List
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/rotate-a-linked-list
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip, Topic Tags
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T10:31:53.223Z
+ * Synced: 2026-06-13T10:32:15.003Z
  */
+
+/*
+class Node {
+    int data;
+    Node next;
+
+    Node(int d){
+        data=d;
+        next=null;
+   }
+}
+*/
 
 class Solution {
     public Node rotate(Node head, int k) {
-        if (head == null || head.next == null || k == 0) return head;
-        Node temp = head;
-        int len = 1;
-
-        while (temp.next != null) {
-            temp = temp.next;
-            len++;
-        }
-
-        // Step 2: reduce k
-        k = k % len;
-        if (k == 0) return head;
-
-        // Step 3: go to k-th node
-        Node curr = head;
-        for (int i = 1; i < k; i++) {
-            curr = curr.next;
-        }
-
-        Node newHead = curr.next;
-        curr.next = null;
-
-        // Step 4: connect last to head
-        temp.next = head;
-
-        return newHead;
+        // code here
+        
     }
 }
