@@ -6,8 +6,8 @@
 - Topics: Math, String, Simulation
 - Runtime: 0 ms
 - Memory: 44.00 MB
-- Problem URL: https://leetcode.com/problems/add-strings/submissions/1919916047/
-- Synced: 2026-06-13T18:30:59.058Z
+- Problem URL: https://leetcode.com/problems/add-strings/
+- Synced: 2026-06-13T18:31:08.089Z
 
 ## Problem Description
 
