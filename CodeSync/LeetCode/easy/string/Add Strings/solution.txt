@@ -7,7 +7,7 @@
  * Topics: Math, String, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T18:30:16.919Z
+ * Synced: 2026-06-13T18:30:22.918Z
  */
 
 class Solution {
@@ -16,5 +16,5 @@ class Solution {
     }
         int a =Integer.parseInt(num1);
         int b= Integer.parseInt(num2);
-        return String.value
+        return String.valueOf(a+b);
 }
