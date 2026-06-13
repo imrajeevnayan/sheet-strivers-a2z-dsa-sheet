@@ -7,11 +7,11 @@
  * Topics: Basic, Expected Complexities Topic Tags, Expected Complexities, Topic Tags, CPP
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T05:09:18.367Z
+ * Synced: 2026-06-13T05:09:25.131Z
  */
 
 class GFG {
     public static void main(String[] args) {
-      System.out.println
+      System.out.println("Hello Wor")
     }
 }
