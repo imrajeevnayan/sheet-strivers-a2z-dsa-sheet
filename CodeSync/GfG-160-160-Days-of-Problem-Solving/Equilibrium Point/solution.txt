@@ -1,0 +1,27 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Equilibrium Point
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/equilibrium-point-1587115620
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags, Amazon, Adobe, Google, Facebook, Microsoft, Uber
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-13T10:25:33.012Z
+ */
+
+class Solution {
+    public static int findEquilibrium(int arr[]) {
+        int n = arr.length;
+        long totalSum = 0;
+        
+        for (int num : arr)totalSum += num;
+        long leftSum = 0;
+        for (int i = 0; i < n; i++) {
+            long rightSum = totalSum - leftSum - arr[i];
+            if (leftSum == rightSum)  return i;
+            leftSum += arr[i];
+        }
+        return -1;
+    }
+}
