@@ -1,13 +1,13 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Height of Binary Tree
- * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/height-of-binary-tree
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Expected Complexities, Company Tags, VMWare, Zoho, Amazon, Microsoft, Snapdeal, D-E-Shaw
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T15:57:12.275Z
+ * Synced: 2026-06-13T15:57:26.435Z
  */
 
 class Solution {
