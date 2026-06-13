@@ -1,0 +1,30 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Diameter of a Binary Tree
+ * URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/height-of-binary-tree
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AmazonMicrosoftOYO RoomsNPCI, Company Tags, Amazon, Microsoft, OYO Rooms, NPCI, Topic Tags
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-13T15:57:48.295Z
+ */
+
+/*
+Definition for Node
+class Node {
+    int data;
+    Node left;
+    Node right;
+    Node(int data) {
+        this.data = data;
+        left = right = null;
+    }
+} */
+
+class Solution {
+    public int diameter(Node root) {
+        // code here
+        
+    }
+}
