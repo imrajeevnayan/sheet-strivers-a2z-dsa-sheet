@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-13T10:31:53.223Z",
+  "submissionTimestamp": "2026-06-13T10:32:10.116Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,6 +16,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "Rotate a Linked List",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/rotate-a-linked-list",
   "submissionId": "ajqynq"
 }
