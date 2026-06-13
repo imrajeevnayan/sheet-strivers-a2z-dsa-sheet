@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 870 ms
  * Memory: N/A
- * Synced: 2026-06-13T17:13:14.259Z
+ * Synced: 2026-06-13T17:13:16.767Z
  */
 
 import java.util.* ;
@@ -20,7 +20,7 @@ public class Solution {
         for (char c : str.toCharArray()) {
             if (freq[c - 'a'] == 1) {
                 return c;
-            }
+            
         }
         return '#';
     }
