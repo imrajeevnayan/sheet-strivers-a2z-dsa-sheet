@@ -7,7 +7,7 @@
 - Runtime: 0 ms
 - Memory: N/A
 - Problem URL: https://leetcode.com/problems/weighted-word-mapping/description/?envType=daily-question&envId=2026-06-13
-- Synced: 2026-06-13T05:02:52.773Z
+- Synced: 2026-06-13T05:03:02.292Z
 
 ## Problem Description
 
