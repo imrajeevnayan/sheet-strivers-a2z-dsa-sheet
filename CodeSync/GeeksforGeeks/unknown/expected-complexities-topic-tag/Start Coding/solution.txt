@@ -7,7 +7,7 @@
  * Topics: Basic, Expected Complexities Topic Tags, Expected Complexities, Topic Tags, CPP
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T05:09:56.415Z
+ * Synced: 2026-06-13T05:09:59.764Z
  */
 
 class GFG {
