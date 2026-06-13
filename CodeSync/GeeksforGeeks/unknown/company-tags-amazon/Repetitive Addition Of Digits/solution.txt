@@ -7,7 +7,7 @@
  * Topics: Basic, Expected Complexities, Company Tags Amazon, Company Tags, Amazon, Topic Tags, Mathematical, Algorithms
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T06:08:13.597Z
+ * Synced: 2026-06-13T06:08:25.850Z
  */
 
 class Solution {
@@ -19,7 +19,8 @@ class Solution {
             sum+=n %10;
             n/=10;
         }
-         n=
+         n=sum;
     }
+    return n;
     }
 }
