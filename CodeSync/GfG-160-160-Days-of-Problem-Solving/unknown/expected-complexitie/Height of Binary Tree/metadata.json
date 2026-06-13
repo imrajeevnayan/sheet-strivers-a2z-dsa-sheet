@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-13T15:57:12.275Z",
+  "submissionTimestamp": "2026-06-13T15:57:26.435Z",
   "runtime": "N/A",
   "memoryUsage": "N/A",
   "difficulty": "Unknown",
@@ -16,6 +16,6 @@
   "platform": "GeeksforGeeks",
   "language": "Java (21)",
   "problemTitle": "Height of Binary Tree",
-  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160",
+  "problemUrl": "https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/height-of-binary-tree",
   "submissionId": "fvfyve"
 }
