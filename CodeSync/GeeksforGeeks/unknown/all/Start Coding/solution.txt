@@ -1,13 +1,13 @@
 /*
  * Platform: GeeksforGeeks
  * Problem: Start Coding
- * URL: https://www.geeksforgeeks.org/batch/java-practice-of-the-day/track/introction-of-java
+ * URL: https://www.geeksforgeeks.org/batch/java-practice-of-the-day/track/introction-of-java/problem/start-coding
  * Language: Java (21)
  * Difficulty: Unknown
  * Topics: Basic, Expected Complexities Topic Tags, Expected Complexities, Topic Tags, CPP
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T05:09:31.964Z
+ * Synced: 2026-06-13T05:09:56.415Z
  */
 
 class GFG {
