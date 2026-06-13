@@ -5,9 +5,9 @@
 - Difficulty: Easy
 - Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
 - Runtime: 0 ms
-- Memory: 44.87 MB
-- Problem URL: https://leetcode.com/problems/path-sum/submissions/1912413855/
-- Synced: 2026-06-13T09:43:30.057Z
+- Memory: N/A
+- Problem URL: https://leetcode.com/problems/path-sum/
+- Synced: 2026-06-13T09:43:47.098Z
 
 ## Problem Description
 
