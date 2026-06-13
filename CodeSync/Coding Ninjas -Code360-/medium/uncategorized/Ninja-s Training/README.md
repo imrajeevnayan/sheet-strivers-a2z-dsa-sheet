@@ -4,14 +4,14 @@
 - Language: Java (SE 1.8)
 - Difficulty: Medium
 - Topics: Uncategorized
-- Runtime: N/A
+- Runtime: 917 ms
 - Memory: N/A
-- Problem URL: https://www.naukri.com/code360/problems/median-marks_5848799
-- Synced: 2026-06-08T18:25:11.817Z
+- Problem URL: https://www.naukri.com/code360/problems/first-repeated-character_1214646
+- Synced: 2026-06-13T17:37:54.267Z
 
 ## Problem Description
 
-AutocompleteEXCLUSIVEGet key word suggestions of your code
+Problem description was not available on the page at sync time.
 
 ## Explanation
 
