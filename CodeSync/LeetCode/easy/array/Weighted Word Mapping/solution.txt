@@ -1,28 +1,17 @@
 /*
  * Platform: LeetCode
  * Problem: Weighted Word Mapping
- * URL: https://leetcode.com/problems/weighted-word-mapping/submissions/2031292842/?envType=daily-question&envId=2026-06-13
+ * URL: https://leetcode.com/problems/weighted-word-mapping/?envType=daily-question&envId=2026-06-13
  * Language: Daily Question
  * Difficulty: Easy
  * Topics: Array, String, Simulation
- * Runtime: 1 ms
- * Memory: 46.46 MB
- * Synced: 2026-06-13T05:02:21.516Z
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-13T05:02:23.870Z
  */
 
-1class Solution {
-2    public String mapWordWeights(String[] words, int[] weights) {
-3        StringBuilder result = new StringBuilder(words.length);
-4
-5        for (String word : words) {
-6            int temp = 0;
-7            for (int i = 0; i < word.length(); i++) {
-8                temp += weights[word.charAt(i) - 'a'];
-9            }
-10
-11            result.append((char) ('z' - (temp % 26)));
-12        }
-13
-14        return result.toString();
-15    }
-16}
+class Solution {
+    public String mapWordWeights(String[] words, int[] weights) {
+        
+    }
+}
