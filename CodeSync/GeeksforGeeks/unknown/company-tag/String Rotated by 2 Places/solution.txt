@@ -1,0 +1,39 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: String Rotated by 2 Places
+ * URL: https://www.geeksforgeeks.org/problems/check-if-string-is-rotated-by-two-places-1587115620/1
+ * Language: Java (21)
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Company Tags AccoliteAmazon, Company Tags, Accolite, Amazon, Topic Tags, Strings, Data Structures
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-13T18:27:48.043Z
+ */
+
+class Solution {
+    public static boolean isRotated(String s1, String s2) {
+        int n = s1.length();
+        if (n != s2.length()) return false;
+        if (n == 0) return true;
+        
+        boolean leftRot = true;  // Check for left rotation by 2
+        boolean rightRot = true; // Check for right rotation by 2
+        
+        for (int i = 0; i < n; i++) {
+            // Left Rotation: s1[i] should match s2[(i - 2 + n) % n]
+            if (s1.charAt(i) != s2.charAt((i - 2 + n) % n)) {
+                leftRot = false;
+            }
+            
+            // Right Rotation: s1[i] should match s2[(i + 2) % n]
+            if (s1.charAt(i) != s2.charAt((i + 2) % n)) {
+                rightRot = false;
+            }
+            
+            // If both are false, no need to check further
+            if (!leftRot && !rightRot) return false;
+        }
+        
+        return leftRot || rightRot;
+    }
+}
