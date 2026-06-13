@@ -7,7 +7,7 @@
  * Topics: Basic, Expected Complexities, Company Tags Google, Company Tags, Google, Topic Tags, Greedy, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T06:10:22.159Z
+ * Synced: 2026-06-13T06:10:31.163Z
  */
 
 class Solution {
