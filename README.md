@@ -1,11 +1,11 @@
-# DSA Sheet Solutions – README Template
+# DSA Sheet Solutions â README Template
 
 ````md id="f76nwb"
 # DSA Sheet Solutions
 
 This repository contains my solutions to popular Data Structures and Algorithms sheets from platforms like LeetCode and GeeksforGeeks.
 
-## 📌 Sheets Covered
+## ð Sheets Covered
 
 - Striver SDE Sheet
 - Blind 75
@@ -16,33 +16,33 @@ This repository contains my solutions to popular Data Structures and Algorithms 
 
 ---
 
-## 📂 Folder Structure
+## ð Folder Structure
 
 ```bash
 DSA-Sheet/
-│
-├── Arrays/
-├── Strings/
-├── LinkedList/
-├── Stack/
-├── Queue/
-├── Trees/
-├── Graphs/
-├── DynamicProgramming/
-├── Greedy/
-├── BinarySearch/
-└── Recursion/
+â
+âââ Arrays/
+âââ Strings/
+âââ LinkedList/
+âââ Stack/
+âââ Queue/
+âââ Trees/
+âââ Graphs/
+âââ DynamicProgramming/
+âââ Greedy/
+âââ BinarySearch/
+âââ Recursion/
 ````
 
 ---
 
-## 🚀 Languages Used
+## ð Languages Used
 
 * Java
 
 ---
 
-## ✨ Features
+## â¨ Features
 
 * Clean and optimized solutions
 * Well-structured folders
@@ -52,13 +52,13 @@ DSA-Sheet/
 
 ---
 
-## 🎯 Goal
+## ð¯ Goal
 
 To improve problem-solving skills and prepare for coding interviews at product-based companies.
 
 ---
 
-## 🛠️ How to Use
+## ð ï¸ How to Use
 
 1. Clone the repository
 
@@ -67,21 +67,21 @@ git clone https://github.com/imrajeevnayan/a2z-dsa-sheet.git
 ```
 
 2. Open any topic folder
-3. Practice and learn 🚀
+3. Practice and learn ð
 
 ---
 
-## ⭐ Contributions
+## â­ Contributions
 
 Feel free to fork this repository and contribute better solutions or explanations.
 
 ---
 
-## 📧 Contact
+## ð§ Contact
 
 If you have suggestions or doubts, feel free to connect.
 
-Happy Coding 💻
+Happy Coding ð»
 
 ```
 
