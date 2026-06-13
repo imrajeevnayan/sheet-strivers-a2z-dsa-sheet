@@ -7,10 +7,12 @@
  * Topics: Basic, Expected Complexities, Company Tags Google, Company Tags, Google, Topic Tags, Greedy, Arrays
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T06:10:17.266Z
+ * Synced: 2026-06-13T06:10:22.159Z
  */
 
-Input: n = 4, left[] = [2], right[] = [0, 1, 3]
-Output: 4
+class Solution {
+    public int getLastMoment(int n, int left[], int right[]) {
+        // code here
         
-Explanation: As seen in the above image, the last ant falls off the plank at t = 4.
+    }
+}
