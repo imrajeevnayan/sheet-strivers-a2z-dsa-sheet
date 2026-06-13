@@ -1,13 +1,13 @@
 /*
  * Platform: LeetCode
  * Problem: Add Strings
- * URL: https://leetcode.com/problems/add-strings/
+ * URL: https://leetcode.com/problems/add-strings/submissions/2032085346/
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Math, String, Simulation
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-13T18:32:09.970Z
+ * Synced: 2026-06-13T18:32:14.026Z
  */
 
 sum += num1.charAt(i) - '0';
@@ -21,9 +21,13 @@ sum += num1.charAt(i) - '0';
                 j--;
             }
             
-            carry = sum / 10;
-            result.append(sum % 10);
-        }
-     return result.reverse().toString();
-    }
-}
+            int sum = carry;
+        while (i >= 0 || j >= 0 || carry > 0) {
+        int carry = 0;
+        
+        int j = num2.length() - 1;  
+        int i = num1.length() - 1;  
+        
+        StringBuilder result = new StringBuilder();
+    public String addStrings(String num1, String num2) {
+class Solution {
