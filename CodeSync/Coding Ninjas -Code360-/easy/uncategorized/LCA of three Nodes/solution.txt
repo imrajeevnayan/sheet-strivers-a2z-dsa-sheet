@@ -2,26 +2,25 @@
  * Platform: Coding Ninjas (Code360)
  * Problem: LCA of three Nodes
  * URL: https://www.naukri.com/code360/problems/first-unique-character-in-a-string_983606
- * Language: Java (SE 1.8)
+ * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 1422 ms
+ * Runtime: 870 ms
  * Memory: N/A
- * Synced: 2026-06-13T16:57:53.754Z
+ * Synced: 2026-06-13T17:13:14.259Z
  */
 
 import java.util.* ;
 import java.io.*; 
 public class Solution {
     public static char firstNonRepeating(String str) {
-        if(str==null ||str.length()==0)return '#';
-        HashMap<Character,Integer>map=new HashMap<>();
-        for(int i=0;i<str.length();i++){
-            char c=str.charAt(i);
-            map.put(c,map.getOrDefault(c,0)+1);
-        }
-        for(int i=0;i<str.length();i++){
-            if(map.get(str.charAt(i))==1)return str.charAt(i);
+        if (str == null || str.length() == 0) return '#';
+        int[] freq = new int[26];
+        for (char c : str.toCharArray())freq[c - 'a']++;
+        for (char c : str.toCharArray()) {
+            if (freq[c - 'a'] == 1) {
+                return c;
+            }
         }
         return '#';
     }
