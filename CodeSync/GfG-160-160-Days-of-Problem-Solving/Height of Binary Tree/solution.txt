@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Zoho, Amazon, Microsoft, Snapdeal, D-E-Shaw
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T15:55:35.237Z
+ * Synced: 2026-06-13T15:55:45.688Z
  */
 
 class Solution {
