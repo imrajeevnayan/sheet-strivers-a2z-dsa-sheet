@@ -7,14 +7,13 @@
  * Topics: Math, String, Simulation
  * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-13T18:31:49.954Z
+ * Synced: 2026-06-13T18:31:57.053Z
  */
 
 sum += num1.charAt(i) - '0';
                 i--;
             }
             
-            // Add digit from num2 if available
             if (j >= 0) {
                 sum += num2.charAt(j) - '0';
             int sum = carry;
@@ -27,7 +26,9 @@ sum += num1.charAt(i) - '0';
         
         int i = num1.length() - 1;  
         StringBuilder result = new StringBuilder();
-    public String addStrings(String num1, String num2) {
-class Solution {
                 j--;
             }
+            
+            carry = sum / 10;
+            result.append(sum % 10);
+        }
