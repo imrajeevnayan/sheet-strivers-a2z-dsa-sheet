@@ -6,8 +6,8 @@
 - Topics: Array, String, Simulation
 - Runtime: 0 ms
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/weighted-word-mapping/description/?envType=daily-question&envId=2026-06-13
-- Synced: 2026-06-13T05:03:22.534Z
+- Problem URL: https://leetcode.com/problems/weighted-word-mapping/?envType=daily-question&envId=2026-06-13
+- Synced: 2026-06-13T05:57:00.166Z
 
 ## Problem Description
 
