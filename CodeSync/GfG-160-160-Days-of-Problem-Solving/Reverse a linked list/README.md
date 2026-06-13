@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160
-- Synced: 2026-06-13T10:30:14.389Z
+- Synced: 2026-06-13T10:30:22.940Z
 
 ## Problem Description
 
