@@ -1,5 +1,5 @@
 {
-  "submissionTimestamp": "2026-06-13T17:38:31.417Z",
+  "submissionTimestamp": "2026-06-13T17:38:43.111Z",
   "runtime": "917 ms",
   "memoryUsage": "N/A",
   "difficulty": "Medium",
@@ -7,8 +7,8 @@
     "Uncategorized"
   ],
   "platform": "Coding Ninjas (Code360)",
-  "language": "Java (SE 1.8)",
+  "language": "All languages",
   "problemTitle": "Ninja’s Training",
   "problemUrl": "https://www.naukri.com/code360/problems/first-repeated-character_1214646",
-  "submissionId": "v7ffuv"
+  "submissionId": "38b794"
 }
