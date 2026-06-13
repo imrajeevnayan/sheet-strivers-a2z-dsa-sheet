@@ -7,12 +7,12 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T15:56:22.684Z
+ * Synced: 2026-06-13T15:57:00.615Z
  */
 
 class Solution {
     public int height(Node root) {
-        if (root == null)  return 0;
+        if (root == null)  return -1;
         int lH= height(root.left);
         int rH = height(root.right);
         
