@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Flipkart, Amazon, Microsoft, OYO Rooms, Snapdeal
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T16:21:55.725Z
+ * Synced: 2026-06-13T16:22:07.589Z
  */
 
 class Solution {
@@ -17,14 +17,10 @@ class Solution {
     }
     
     private boolean findTargetHelper(Node root, int target, HashSet<Integer> set) {
-        if (root == null) {
-            return false;
+        if (root == null) return false;
         
-        
-        // Check if complement exists
-        if (set.contains(target - root.data)) {
-            return true;
-        }
+         if (set.contains(target - root.data)) return true;
+    
         
         // Add current node's data to set
         set.add(root.data);
