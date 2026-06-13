@@ -7,7 +7,7 @@
  * Topics: Expected Complexities, Company Tags AmazonSnapdealAdobe, Company Tags, Amazon, Snapdeal, Adobe, Topic Tags, Tree
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T16:13:20.771Z
+ * Synced: 2026-06-13T16:13:33.129Z
  */
 
 class Solution {
@@ -18,9 +18,7 @@ class Solution {
     }
     
     private void inOrderHelper(Node root, ArrayList<Integer> result) {
-        if (root == null) {
-            return;
-    
+        if (root == null) return;
         inOrderHelper(root.left, result);
         result.add(root.data);
         inOrderHelper(root.right, result);
