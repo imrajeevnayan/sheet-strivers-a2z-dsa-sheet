@@ -7,7 +7,7 @@
  * Topics: Math, String, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T18:29:27.195Z
+ * Synced: 2026-06-13T18:29:28.936Z
  */
 
 class Solution {
@@ -15,5 +15,5 @@ class Solution {
         
     }
         int a =Integer.parseInt(num1);
-        
+        int b
 }
