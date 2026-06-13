@@ -7,7 +7,7 @@
 - Runtime: 917 ms
 - Memory: N/A
 - Problem URL: https://www.naukri.com/code360/problems/first-repeated-character_1214646
-- Synced: 2026-06-13T17:38:31.417Z
+- Synced: 2026-06-13T17:38:33.933Z
 
 ## Problem Description
 
