@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: 733 ms
  * Memory: N/A
- * Synced: 2026-06-13T16:49:54.468Z
+ * Synced: 2026-06-13T16:49:57.084Z
  */
 
 import java.util.* ;
@@ -22,8 +22,7 @@ public class Solution {
             map.put(c, map.getOrDefault(c, 0) + 1);
         }
         for (int i = 0; i < str.length(); i++) {
-            if (map.get(str.charAt(i)) == 1) {
-                return str.charAt(i);
+            if (map.get(str.charAt(i)) == 1)return str.charAt(i);
             
         }
       return str.charAt(0);
