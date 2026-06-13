@@ -7,24 +7,10 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Flipkart, Amazon, Microsoft, OYO Rooms, Snapdeal
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T16:21:16.140Z
+ * Synced: 2026-06-13T16:21:43.307Z
  */
 
-class Solution {
-    boolean findTarget(Node root, int target) {
-        // Write your code here
-        if (root == null) {
-            return false;
-        }
-        
-        if (root.data == target) {
-            return true;
-        }
-        
-        if (target < root.data) {
-            return findTarget(root.left, target);
-        } else {
-            return findTarget(root.right, target);
-        }
-    }
-}
+Input: root = [7, 3, 8, 2, 4, N, 9], target = 12
+       
+Output: True
+Explanation: In the binary tree above, there are two nodes (8 and 4) that add up to 12.
