@@ -5,9 +5,9 @@
  * Language: All languages
  * Difficulty: Easy
  * Topics: Uncategorized
- * Runtime: 870 ms
+ * Runtime: 910 ms
  * Memory: N/A
- * Synced: 2026-06-13T17:13:19.780Z
+ * Synced: 2026-06-13T17:13:31.777Z
  */
 
 import java.util.* ;
@@ -18,8 +18,7 @@ public class Solution {
         int[] freq = new int[26];
         for (char c : str.toCharArray())freq[c - 'a']++;
         for (char c : str.toCharArray()) {
-            if (freq[c - 'a'] == 1)return c;
-            
+            if (freq[c - 'a'] == 1)return c;   
         }
         return '#';
     }
