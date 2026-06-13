@@ -6,8 +6,8 @@
 - Topics: Math, String, Simulation
 - Runtime: N/A
 - Memory: N/A
-- Problem URL: https://leetcode.com/problems/add-strings/description/
-- Synced: 2026-06-13T18:28:45.923Z
+- Problem URL: https://leetcode.com/problems/add-strings/
+- Synced: 2026-06-13T18:28:53.920Z
 
 ## Problem Description
 
