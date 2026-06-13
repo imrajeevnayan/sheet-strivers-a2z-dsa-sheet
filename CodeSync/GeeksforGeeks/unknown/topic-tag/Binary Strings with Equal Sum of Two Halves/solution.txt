@@ -1,0 +1,47 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Binary Strings with Equal Sum of Two Halves
+ * URL: https://www.geeksforgeeks.org/problems/count-even-length1907/1
+ * Language: #define ll long long class Solution { public: const int MOD=1e9+7; ll fact[100010]; void factorial(){ fact[0]=1; for(int i=1;i<100010;i++){ fact[i]=i*fact[i-1]%MOD; } return ; } ll binpow(int a,int x){ if(x==0)return 1; ll p=binpow(a,x/2); if((x&1)==0){ return (p*p)%MOD; } return (p*p%MOD)*a%MOD; } ll inverse(int a){ return binpow(a,MOD-2); } int computeValue(int n) { // code here factorial(); ll sum=0; for(int s=0;s<=n;s++){ ll ones=s,zeros=n-s; ll den=fact[ones]*fact[zeros]%MOD; ll inverse_den=inverse(den); // cout<<"den :"<<den<<", num : "<<fact[n]<<" , "; // cout<<"inverse den : "<<inverse_den<<" , "; ll perms=fact[n]*inverse_den%MOD; // cout<<"for sum : "<<s<<", permutations are : "<<perms<<endl; ll temp=(perms*perms)%MOD; sum=(sum+temp)%MOD; } return sum; } };
+ * Difficulty: Unknown
+ * Topics: Expected Complexities, Topic Tags, Algorithms, Related Articles
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-13T16:12:05.794Z
+ */
+
+class Solution {
+    public int computeValue(int n) {
+        long MOD = 1000000007;
+        
+        long[] fact = new long[2 * n + 1];
+        long[] invFact = new long[2 * n + 1];
+        
+        fact[0] = 1;
+        for (int i = 1; i <= 2 * n; i++) {
+            fact[i] = (fact[i - 1] * i) % MOD;
+        }
+        
+        invFact[2 * n] = modInverse(fact[2 * n], MOD);
+        for (int i = 2 * n - 1; i >= 0; i--) {
+            invFact[i] = (invFact[i + 1] * (i + 1)) % MOD;
+        }
+        
+        long result = 0;
+        for (int k = 0; k <= n; k++) {
+            // C(n, k) * C(n, k)
+            long comb = (fact[n] * invFact[k] % MOD) * invFact[n - k] % MOD;
+            result = (result + comb * comb % MOD) % MOD;
+        }
+        
+        return (int) result;
+    }
+    
+    private long modInverse(long a, long mod) {
+        return power(a, mod - 2, mod);
+    }
+    
+    private long power(long base, long exp, long mod) {
+        long result = 1;
+        base %= mod;
+        while (exp > 0) {
