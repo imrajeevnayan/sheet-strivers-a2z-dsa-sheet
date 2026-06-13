@@ -7,7 +7,7 @@
  * Topics: Uncategorized
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T15:56:08.483Z
+ * Synced: 2026-06-13T15:56:21.170Z
  */
 
 class Solution {
@@ -16,6 +16,6 @@ class Solution {
         int lH= height(root.left);
         int rH = height(root.right);
         
-        return Math.max(lH, rH)+1 ;
+        return 1 + Math.max(lH, rH) ;
     }
 }
