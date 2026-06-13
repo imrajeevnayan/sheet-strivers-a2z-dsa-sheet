@@ -7,7 +7,7 @@
  * Topics: Array, String, Simulation
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T05:02:31.588Z
+ * Synced: 2026-06-13T05:02:37.680Z
  */
 
 class Solution {
@@ -18,7 +18,6 @@ class Solution {
             for (int i = 0; i < word.length(); i++) {
                 temp += weights[word.charAt(i) - 'a'];
             }
-
             result.append((char) ('z' - (temp % 26)));
         }
 
