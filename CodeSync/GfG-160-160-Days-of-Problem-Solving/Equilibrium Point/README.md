@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/equilibrium-point-1587115620
-- Synced: 2026-06-13T10:25:33.012Z
+- Synced: 2026-06-13T10:25:57.805Z
 
 ## Problem Description
 
