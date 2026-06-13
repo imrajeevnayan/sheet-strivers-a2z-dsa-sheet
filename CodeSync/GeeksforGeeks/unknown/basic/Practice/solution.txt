@@ -1,0 +1,129 @@
+/*
+ * Platform: GeeksforGeeks
+ * Problem: Practice
+ * URL: https://www.geeksforgeeks.org/batch/dsa-step-by-step-learning/track/programming-dsa-360
+ * Language: using namespace std; int main() { int x = 7; if (x > 0) { cout << "x is positive"; } return 0; }
+ * Difficulty: Unknown
+ * Topics: Basic
+ * Runtime: N/A
+ * Memory: N/A
+ * Synced: 2026-06-13T05:13:38.174Z
+ */
+
+public class GFG {
+    public static void main(String[] args)
+    {
+​
+        int x = 7;
+        if (x > 0) {
+            System.out.println("x is positive");
+        }
+    }
+}
+public class GFG {
+    public static void main(String[] args)
+    {
+​
+        int x = 7;
+        if (x > 0) {
+            System.out.println("x is positive");
+        }
+        else {
+            System.out.println("x is not positive");
+        }
+    }
+}
+public class GFG {
+    public static void main(String[] args)
+    {
+        int x = 0;
+​
+        if (x > 0) {
+            System.out.println("x is positive");
+        }
+        else if (x < 0) {
+            System.out.println("x is negative");
+        }
+        else {
+            System.out.println("x is zero");
+        }
+    }
+}
+public class GFG {
+    public static void main(String[] args) {
+        int day = 2;
+​
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            default:
+                System.out.println("Invalid day!");
+        }
+    }
+}
+public class GFG {
+    public static void main(String[] args)
+    {
+        final int x = 10;
+        final int y = 5;
+​
+        switch (x + y) {
+        case 15:
+            System.out.println("Result is 15.");
+            break;
+        case 20:
+            System.out.println("Result is 20.");
+            break;
+        default:
+            System.out.println("No match found.");
+        }
+    }
+}
+public class GFG {
+    public static void main(String[] args)
+    {
+        char grade = 'B';
+​
+        switch (grade) {
+        case 'A':
+            System.out.println("Excellent!");
+            break;
+        case 'B':
+            System.out.println("Good!");
+            break;
+        default:
+            System.out.println("Not specified.");
+        }
+    }
+}
+import java.util.Scanner;
+​
+public class GFG {
+    public static void main(String[] args)
+    {
+​
+        int x = 10;
+        System.out.println(x > 0 ? "x is positive"
+                                 : "x is not positive");
+    }
+}
+import java.util.Scanner;
+​
+public class GFG {
+    public static void main(String[] args)
+    {
+​
+        int x = 0;
+        System.out.println(
+            x > 0 ? "x is positive"
+                  : (x < 0 ? "x is not positive"
+                           : "x is zero"));
+    }
+}
