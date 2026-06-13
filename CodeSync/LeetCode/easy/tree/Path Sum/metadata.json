@@ -1,0 +1,17 @@
+{
+  "submissionTimestamp": "2026-06-13T09:43:24.089Z",
+  "runtime": "N/A",
+  "memoryUsage": "N/A",
+  "difficulty": "Easy",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "platform": "LeetCode",
+  "language": "Problem List",
+  "problemTitle": "Path Sum",
+  "problemUrl": "https://leetcode.com/problems/path-sum/submissions/",
+  "submissionId": "vuzes7"
+}
