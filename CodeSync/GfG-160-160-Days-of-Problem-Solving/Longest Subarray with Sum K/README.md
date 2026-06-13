@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/prefix-sum-gfg-160/problem/longest-sub-array-with-sum-k0809
-- Synced: 2026-06-13T10:28:13.008Z
+- Synced: 2026-06-13T10:28:15.189Z
 
 ## Problem Description
 
