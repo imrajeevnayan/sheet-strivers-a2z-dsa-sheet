@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/linked-list-gfg-160/problem/rotate-a-linked-list
-- Synced: 2026-06-13T10:37:21.735Z
+- Synced: 2026-06-13T10:37:29.435Z
 
 ## Problem Description
 
