@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160/problem/inorder-traversal
-- Synced: 2026-06-13T16:19:59.173Z
+- Synced: 2026-06-13T16:20:02.104Z
 
 ## Problem Description
 
