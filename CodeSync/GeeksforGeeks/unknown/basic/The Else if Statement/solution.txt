@@ -7,7 +7,7 @@
  * Topics: Basic, Expected Complexities Topic Tags, Expected Complexities, Topic Tags, CPP, Java
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T05:12:23.649Z
+ * Synced: 2026-06-13T05:12:25.149Z
  */
 
 class Solution {
