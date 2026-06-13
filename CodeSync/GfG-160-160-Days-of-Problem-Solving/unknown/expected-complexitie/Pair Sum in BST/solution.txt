@@ -7,10 +7,31 @@
  * Topics: Expected Complexities, Company Tags, VMWare, Flipkart, Amazon, Microsoft, OYO Rooms, Snapdeal
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T16:21:43.307Z
+ * Synced: 2026-06-13T16:21:44.823Z
  */
 
-Input: root = [7, 3, 8, 2, 4, N, 9], target = 12
-       
-Output: True
-Explanation: In the binary tree above, there are two nodes (8 and 4) that add up to 12.
+class Solution {
+    boolean findTarget(Node root, int target) {
+        // Write your code here
+        HashSet<Integer> set = new HashSet<>();
+        return findTargetHelper(root, target, set);
+    }
+    
+    private boolean findTargetHelper(Node root, int target, HashSet<Integer> set) {
+        if (root == null) {
+            return false;
+        }
+        
+        // Check if complement exists
+        if (set.contains(target - root.data)) {
+            return true;
+        }
+        
+        // Add current node's data to set
+        set.add(root.data);
+        
+        // Check left and right subtrees
+        return findTargetHelper(root.left, target, set) || 
+               findTargetHelper(root.right, target, set);
+    }
+}
