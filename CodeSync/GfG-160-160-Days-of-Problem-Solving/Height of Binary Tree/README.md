@@ -7,7 +7,7 @@
 - Runtime: N/A
 - Memory: N/A
 - Problem URL: https://www.geeksforgeeks.org/batch/gfg-160-problems/track/tree-gfg-160
-- Synced: 2026-06-13T15:55:50.451Z
+- Synced: 2026-06-13T15:55:55.620Z
 
 ## Problem Description
 
