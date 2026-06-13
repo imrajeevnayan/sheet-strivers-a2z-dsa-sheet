@@ -1,7 +1,7 @@
 {
-  "submissionTimestamp": "2026-06-13T09:43:47.098Z",
+  "submissionTimestamp": "2026-06-13T09:44:08.180Z",
   "runtime": "0 ms",
-  "memoryUsage": "N/A",
+  "memoryUsage": "44.35 MB",
   "difficulty": "Easy",
   "tags": [
     "Tree",
@@ -12,6 +12,6 @@
   "platform": "LeetCode",
   "language": "Problem List",
   "problemTitle": "Path Sum",
-  "problemUrl": "https://leetcode.com/problems/path-sum/",
-  "submissionId": "3adsfr"
+  "problemUrl": "https://leetcode.com/problems/path-sum/submissions/2031625734/",
+  "submissionId": "cirwww"
 }
