@@ -1,6 +1,6 @@
 {
-  "submissionTimestamp": "2026-06-13T05:02:42.266Z",
-  "runtime": "N/A",
+  "submissionTimestamp": "2026-06-13T05:02:52.773Z",
+  "runtime": "0 ms",
   "memoryUsage": "N/A",
   "difficulty": "Easy",
   "tags": [
@@ -11,6 +11,6 @@
   "platform": "LeetCode",
   "language": "Daily Question",
   "problemTitle": "Weighted Word Mapping",
-  "problemUrl": "https://leetcode.com/problems/weighted-word-mapping/?envType=daily-question&envId=2026-06-13",
+  "problemUrl": "https://leetcode.com/problems/weighted-word-mapping/description/?envType=daily-question&envId=2026-06-13",
   "submissionId": "e2mvxm"
 }
