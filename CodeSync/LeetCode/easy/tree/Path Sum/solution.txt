@@ -7,7 +7,7 @@
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
  * Runtime: 0 ms
  * Memory: 44.35 MB
- * Synced: 2026-06-13T09:43:52.848Z
+ * Synced: 2026-06-13T09:44:08.180Z
  */
 
 Input: root = [5,4,8,11,null,13,4,7,2,null,null,null,1], targetSum = 22
