@@ -7,7 +7,7 @@
  * Topics: Basic, Expected Complexities, Company Tags AccoliteAmazonMicrosoftMakeMyTrip, Company Tags, Accolite, Amazon, Microsoft, MakeMyTrip
  * Runtime: N/A
  * Memory: N/A
- * Synced: 2026-06-13T06:09:43.136Z
+ * Synced: 2026-06-13T06:09:51.765Z
  */
 
 class Solution {
@@ -17,7 +17,6 @@ class Solution {
             if (arr[right] == 0)zeroCount++;
             while (zeroCount > k) {
                 if (arr[left] == 0) zeroCount--;
-                }
                 left++;
             }
             maxLen = Math.max(maxLen, right - left + 1);
