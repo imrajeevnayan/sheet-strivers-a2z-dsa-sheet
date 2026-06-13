@@ -5,9 +5,9 @@
  * Language: Problem List
  * Difficulty: Easy
  * Topics: Tree, Depth-First Search, Breadth-First Search, Binary Tree
- * Runtime: N/A
+ * Runtime: 0 ms
  * Memory: N/A
- * Synced: 2026-06-13T09:43:41.886Z
+ * Synced: 2026-06-13T09:43:47.098Z
  */
 
 public boolean hasPathSum(TreeNode root, int targetSum) {
